@@ -16,6 +16,7 @@ module ObiterDicta
         S = raw"""Available Commands:
                   lang (Set Language)
                   exp (Experience Levels)
+                  buff (Status Effects)
     
                   For more information you can use `[command] help`
             """
@@ -25,11 +26,15 @@ module ObiterDicta
     include("Utilities.jl")
     include("ExperienceLevels.jl")
     include("Buffs.jl")
-    
-    initrepl(MainParser, 
+   
+    function StartREPL()
+        initrepl(MainParser, 
              prompt_text="Limbus Query> ",
              prompt_color = :blue, 
              start_key=')', 
              mode_name="Limbus_mode",
              show_function=(args...) -> nothing)    
+    end
+
+    export StartREPL
 end

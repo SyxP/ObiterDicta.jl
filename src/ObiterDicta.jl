@@ -1,9 +1,11 @@
 module ObiterDicta
     using ReplMaker
-    using Term, Term.Layout
+    using Term, Term.Layout, Term.Prompts
+    using StringDistances
+    using JSON
 
     function MainParser(input)
-        Commands = [SetLangCommand, HelpCommand, EXPCommand]
+        Commands = [SetLangCommand, HelpCommand, EXPCommand, BuffCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S

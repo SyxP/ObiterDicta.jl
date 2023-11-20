@@ -7,7 +7,7 @@ This creates a Limbus Company REPL Mode. It can be accessed via `)`.
 Many things are still a work-in-progress.
 
 1. EXP Tables (100%)
-2. Buffs / Status Effects (50%)
+2. Buffs / Status Effects (95%)
 3. Identities and Identity Skills (0%)
 4. E.G.O and E.G.O Skills (0%)
 5. Enemy Information (0%)

@@ -1,5 +1,3 @@
-using JSON, StringDistances
-
 @enum LangMode begin
     English  = 1
     Japanese = 2
@@ -72,10 +70,6 @@ end
 setLangRegex = r"^(set[ -]?)?lang (.*)$"
 SetLangCommand = Command(setLangRegex, setLangMode, [2], setLangModeHelp)
 
-function TakeInput(Str)
-    println(Str)
-    readline()
-end
 isYesInput(Str) = Str ∈ ["y", "Y", "yes", "Yes", "YES"]
 
 LocalizeDatabase = Dict{Tuple{String, LangMode}, Dict{String, Any}}()
@@ -84,32 +78,34 @@ StaticDatabase   = Dict{String, Dict{String, Any}}()
 function LocalizedData(Name, CurrLang = CurrLanguage)
     forceReload = false
     if DebugMode
-        c = TakeInput("Would you like to force reload $Name? [y/(n)]")
+        prompt = DefaultPrompt(["yes", "no"], 2, "Would you like to force reload $Name?")
+        c = ask(prompt)
         isYesInput(c) && (forceReload = true)
     end
 
     if !forceReload && haskey(LocalizeDatabase, (Name, CurrLang))
-        return Database[(Name, CurrLang)]
+        return LocalizeDatabase[(Name, CurrLang)]
     end
 
-    fileParts = split("Name", "/")
+    fileParts = split(Name, "/")
     fileParts[end] = uppercase(getLangMode()) * "_" * fileParts[end]
 
     filePath = "data/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
     try
-        global Database[(Name, CurrLang)] = JSON.parsefile(filePath)
+        global LocalizeDatabase[(Name, CurrLang)] = JSON.parsefile(filePath)
     catch ex
         @error "Unable to load $filePath"
         rethrow(ex)
     end
 
-    return Database[(Name, CurrLang)]
+    return LocalizeDatabase[(Name, CurrLang)]
 end
 
 function StaticData(Name)
     forceReload = false
     if DebugMode
-        c = TakeInput("Would you like to force reload $Name? [y/(n)]")
+        prompt = DefaultPrompt(["yes", "no"], 2, "Would you like to force reload $Name?")
+        c = ask(prompt)
         isYesInput(c) && (forceReload = true)
     end
 
@@ -139,7 +135,7 @@ function SearchClosestString(needle, haystack; top = 1)
         return
     end
 
-    return partialsort(haystack, top; by = x -> evaluate(DamerauLevenshtein(), x[1], needle))[begin:begin+top]
+    return partialsort(haystack, 1:top; by = x -> evaluate(DamerauLevenshtein(), x[1], needle))
 end
 
 function parseQuery(query, flags)
@@ -168,9 +164,13 @@ end
 function DisplaySkillAsTree(SkillDict, Title = "")
 
     myDict = deepcopy(SkillDict)
-    if haskey(myDict, "value") && haskey(myDict, "ability")
-        Title *= " (" * @red(myDict["ability"]) * ", {yellow}value{/yellow} ⇒ " * @blue(string(myDict["value"])) * ")"
-        delete!(myDict, "value")
+    if haskey(myDict, "ability")
+        Title *= " (" * @red(myDict["ability"])
+        if haskey(myDict, "value")
+            Title *= ", {yellow}value{/yellow} ⇒ " * @blue(string(myDict["value"]))
+            delete!(myDict, "value")
+        end
+        Title *= ")"
         delete!(myDict, "ability")
     end
 
@@ -185,4 +185,21 @@ function DisplaySkillAsTree(SkillDict, Title = "")
         end
     end
     Term.Tree(myDict; print_node_function = pn)
+end
+
+function EscapeString(Str)
+    replace(Str, "{" => "[[", "}" => "]]")
+end
+
+function GridFromList(StringList, columns = 1; labelled = false)
+    n = ceil(Int, log10(1 + length(StringList)))
+    StringCols = fill("", columns)
+
+    for (i, Str) in enumerate(StringList)
+        Prefix = labelled ? "{dim}$(lpad(i, n)){/dim} " : ""
+        StringCols[mod1(i, columns)] *= Prefix * EscapeString(Str) * "\n"
+    end
+    
+    GridList = [TextBox(rstrip(Str), fit = true, padding = Padding(0, 0, 0, 0)) for Str in StringCols]
+    return grid(GridList; layout=(nothing, columns))
 end

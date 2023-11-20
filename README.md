@@ -1,7 +1,9 @@
 # Obiter Dicta
 
-This creates a Limbus Company REPL Mode. 
+This creates a Limbus Company REPL Mode.
+ 
 To install, use `]add https://github.com/SyxP/ObiterDicta.jl` and `using ObiterDicta`.
+
 To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>` mode via ')'.
 
 ## Features

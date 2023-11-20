@@ -14,7 +14,7 @@ function setLangMode(langStr)
             "english" => English, "en" => English, "eng" => English, 
             "japanese" => Japanese, "ja" => Japanese, "jp" => Japanese, "jap" => Japanese, 
             "korean" => Korean, "ko" => Korean, "kr" => Korean, "kor" => Korean,
-            "chinese" => Chinese, "zh" => Chinese])
+            "chinese" => Chinese, "zh" => Chinese, "cn" => Chinese])
     if haskey(Options, tmpStr)
         @info "Language Mode set to $langStr"
         global CurrLanguage = Options[tmpStr]
@@ -33,7 +33,7 @@ function setLangModeHelp()
 end
 
 function getLangMode()
-    Options = Dict{LangMode, String}(English => "en", Japanese => "jp", Korean => "kr")
+    Options = Dict{LangMode, String}(English => "en", Japanese => "jp", Korean => "kr", Chinese => "cn")
     if haskey(Options, CurrLanguage)
         return Options[CurrLanguage]
     else
@@ -75,6 +75,33 @@ isYesInput(Str) = Str ∈ ["y", "Y", "yes", "Yes", "YES"]
 LocalizeDatabase = Dict{Tuple{String, LangMode}, Dict{String, Any}}()
 StaticDatabase   = Dict{String, Dict{String, Any}}()
 
+LocalizeMasterDatabase = nothing
+function getLocalizeDataInfo()
+    global LocalizeMasterDatabase
+    if LocalizeMasterDatabase === nothing
+        LocalizeMasterDatabase = JSON.parsefile("data/Localize/RemoteLocalizeFileList.json")
+    end
+    return LocalizeMasterDatabase
+end
+
+StaticMasterDatabase = nothing
+function getStaticDataInfo()
+    global StaticMasterDatabase
+    if StaticMasterDatabase === nothing
+        StaticMasterDatabase = JSON.parsefile("data/StaticData/static-data/static-data-info.json")
+    end
+    return StaticMasterDatabase
+end
+
+function findStaticDataInfo(name)
+    StaticDB = getStaticDataInfo()["dataList"]
+    for item in StaticDB
+        item["dataClass"] == name && return item
+    end
+    
+    @info "Unable to find $name in `static-data-info.json`."
+    return
+end
 function LocalizedData(Name, CurrLang = CurrLanguage)
     forceReload = false
     if DebugMode

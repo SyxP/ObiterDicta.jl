@@ -9,13 +9,11 @@ function BuffHelp()
               !v/!verbose  - Outputs the internal buff data.
               !top_num_    - Outputs the top _num_ buffs matching the query. Default is 5.
               !i/!internal - Only performs the query on internal buff names.
-              !in:_loc_/@_loc_ - Restricts the search to buffs originating from _loc_. (**)
-              Possible _loc_s : md, md1, md2, md2n, md2h, rr, rr1, rr2
               
               After (*), `buff _number_` will directly output the corresponding buff.
-              (**) commands are not yet implemented
+              For panic and buffs pertaining specific game modes, look in the corresponding commands.
               Example usage:
-              `buff bleed !top !in:rr` - Outputs the top 5 Refraction Railway bleed buffs.
+              `buff bleed !top` - Outputs the top 5 bleed buffs.
               `buff eviscerate !i !v`  - Outputs the internal buff Eviscerate and its internal fields.
         """
     println(S)
@@ -102,19 +100,17 @@ function searchTopBuffs(query, haystack, topN)
     return result
 end
 function printBuffJSONList()
-    Dir = "data/StaticData/static-data/buff"
-
-    println("Listing the contents of $Dir: ")
-    JSONList = readdir(Dir)
+    println("Listing the contents of $(join(PossibleDataClasses, ", ")): ")
+    JSONList = getBuffJSONListfromStatic()
     println(GridFromList(JSONList, 2; labelled = true))
-    return readdir(Dir; join = true)
+    return "data/StaticData/static-data/" .* JSONList
 end
 
 LastUsedBuffJSON = ""
 BuffMasterList = Dict{String, Any}[]
 
 function printBuffFromJSONInternal(file)
-    BuffDatabase = StaticData("buff/$file")["list"]
+    BuffDatabase = StaticData(file)["list"]
     global LastUsedBuffJSON = file
     Names = [Buff["id"] for Buff in BuffDatabase]
 
@@ -143,23 +139,21 @@ function getBuffMasterList()
     global BuffMasterList
     !forceReload && length(BuffMasterList) != 0 && return BuffMasterList
 
-    for file in readdir("data/StaticData/static-data/buff")
-        append!(BuffMasterList, StaticData("buff/$(file[begin:(end - 5)])")["list"])
+    for file in getBuffJSONListfromStatic()
+        append!(BuffMasterList, StaticData(file)["list"])
     end
     return BuffMasterList
 end
 
-
 function printBuffFromJSON(input)
-    Dir = "data/StaticData/static-data/buff"
-    JSONList = readdir(Dir)
+    JSONList = getBuffJSONListfromStatic()
     if match(r"^[0-9]+$", input) !== nothing
         val = parse(Int, input)
-        return printBuffFromJSONInternal(JSONList[val][begin:(end - 5)])
+        return printBuffFromJSONInternal(JSONList[val])
     end
     newInput = split(input, ".")[begin]
     result = SearchClosestString(newInput, [[x] for x in JSONList])
-    return printBuffFromJSONInternal(result[begin][begin][begin:(end - 5)])
+    return printBuffFromJSONInternal(result[begin][begin])
 end
 
 function printBuffExactNumberInput(num)
@@ -178,7 +172,7 @@ function printBuffExactNumberInput(num)
         return printSingleBuff(BuffMasterList[n]["id"])
     end      
 
-    BuffDatabase = StaticData("buff/$LastUsedBuffJSON")["list"]
+    BuffDatabase = StaticData(LastUsedBuffJSON)["list"]
     if !(1 ≤ n ≤ length(BuffDatabase))
         @info "$(@red(LastUsedBuffJSON)) only has $(length(BuffDatabase)) entries. You asked for the $n-th entry."
         return ""
@@ -186,12 +180,26 @@ function printBuffExactNumberInput(num)
     return printSingleBuff(BuffDatabase[n]["id"])
 end
 
+const PossibleDataClasses = ["buff", "mirror-dungeon-floor-buff"]
+# TODO: The following Buff types are not supported ["panic-buff", "rail-Line2-buff"]
+function getBuffJSONListfromStatic(dataClasses = PossibleDataClasses)
+    Files = String[]
+    for dataClass in dataClasses
+        item = findStaticDataInfo(dataClass)
+        for file in item["fileList"]
+            push!(Files, "$dataClass/$file")
+        end
+    end
+
+    return Files
+end
+
 function getInternalBuffList()
-    [StaticData("buff/$(file[begin:end-5])") for file in readdir("data/StaticData/static-data/buff")]
+    [StaticData(file) for file in getBuffJSONListfromStatic()]
 end
 
 function getLocalizedBuffList()
-    Files = ["Bufs", "Bufs-a1c5p1", "Bufs_Refraction2"]
+    Files = getLocalizeDataInfo()["buf"]
     [LocalizedData(file) for file in Files]
 end
 
@@ -265,7 +273,7 @@ function InternalBuffString(id)
     String(take!(io))
 end
 
-function findExactLocalizedBuff(id; dontWarn = false)
+function findExactLocalizedBuff(id; dontWarn = true)
     for BuffList in getLocalizedBuffList()
         for Buff in BuffList["dataList"]
             (Buff["id"] == id) && return Buff

@@ -1,0 +1,13 @@
+{
+  "list": [
+    {
+      "stageType": "STORY_DUNGEON",
+      "restrictList": [
+        {
+          "id": 10401,
+          "restrictFriendSupportIds": [ 1 ]
+        }
+      ]
+    }
+  ]
+}

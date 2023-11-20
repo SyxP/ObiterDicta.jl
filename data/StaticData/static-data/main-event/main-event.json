@@ -1,0 +1,18 @@
+{
+  "list": [
+    {
+      "eventId": "RailwayDungeonBanner",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_RailwayLine2"
+    },
+    {
+      "eventId": "SeventhAnniversary",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_7thAnniversary"
+    }
+  ]
+}

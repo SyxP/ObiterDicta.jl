@@ -1,0 +1,119 @@
+{
+  "chapterId": 103,
+  "list": [
+    {
+      "id": 10302,
+      "clearCGList": [
+        "BG/story_Immigration checkpoint"
+      ]
+    },
+    {
+      "id": 10303,
+      "clearCGList": [
+        "CG/S301_3",
+        "BG/story_Immigration checkpoint"
+      ]
+    },
+    {
+      "id": 10304,
+      "clearCGList": [
+        "CG/S301_3",
+        "BG/story_Immigration checkpoint_warning light"
+      ]
+    },
+    {
+      "id": 10306,
+      "clearCGList": [
+        "CG/S301_3",
+        "BG/story_Immigration checkpoint_warning light"
+      ]
+    },
+    {
+      "id": 10307,
+      "clearCGList": [
+        "CG/S302",
+        "BG/story_Immigration checkpoint_warning light"
+      ]
+    },
+    {
+      "id": 10308,
+      "clearCGList": [
+        "CG/S305",
+        "BG/story_Immigration checkpoint",
+        "BG/story_story_Immigration_checkpoint_out_detail"
+      ]
+    },
+    {
+      "id": 10309,
+      "clearCGList": [
+        "CG/S312_2",
+        "CG/S317"
+      ]
+    },
+    {
+      "id": 10310,
+      "clearCGList": [
+        "CG/S312_2",
+        "CG/S317",
+        "BG/story_sinclair_foreststreet_v1_2"
+      ]
+    },
+    {
+      "id": 10311,
+      "clearCGList": [
+        "CG/S312_2",
+        "CG/S317",
+        "BG/story_sinclair_foreststreet_v1_2"
+      ]
+    },
+    {
+      "id": 10313,
+      "clearCGList": [
+        "CG/S304_4",
+        "BG/story_sinclair_village"
+      ]
+    },
+    {
+      "id": 10315,
+      "clearCGList": [
+        "CG/S304_4",
+        "BG/story_sinclair_village"
+      ]
+    },
+    {
+      "id": 10316,
+      "clearCGList": [
+        "CG/S304_4",
+        "BG/story_sinclair_village"
+      ]
+    },
+    {
+      "id": 10317,
+      "clearCGList": [
+        "CG/S306_5",
+        "BG/story_sinclair_mansion+cromer"
+      ]
+    },
+    {
+      "id": 10318,
+      "clearCGList": [
+        "CG/S303_4",
+        "BG/story_sinclair_mansion"
+      ]
+    },
+    {
+      "id": 10320,
+      "clearCGList": [
+        "CG/S303_4",
+        "BG/story_underground_passage"
+      ]
+    },
+    {
+      "id": 10322,
+      "clearCGList": [
+        "CG/S303_4",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    }
+  ]
+}

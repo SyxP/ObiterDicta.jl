@@ -1,0 +1,111 @@
+{
+  "list": [
+    {
+        "characterId": 9,
+        "storyList":
+        [
+            {
+                "personalityId": 10901,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                ],
+                "profileId": "",
+                "analysisId": ""
+            },
+            {
+                "personalityId": 10902,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                  {
+                    "storyId": "P10902",
+                    "lockCondition": "gacksung",
+                    "order": 3,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "kurokumo_rodion_profile",
+                "analysisId": "kurokumo_rodion_analysis"
+            },
+            {
+                "personalityId": 10903,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList": [
+                  {
+                    "storyId": "P10903",
+                    "lockCondition": "gacksung",
+                    "order": 1,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "lcb_rodion_profile",
+                "analysisId": "lcb_rodion_analysis"
+            },
+            {
+              "personalityId": 10904,
+              "releaseDay": 20230309,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P10904",
+                  "lockCondition": "gacksung",
+                  "order": 2,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+              "profileId": "ncorp_rodion_profile",
+              "analysisId": "ncorp_rodion_analysis"
+           },
+           {
+            "personalityId": 10905,
+            "releaseDay": 20230601,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10905",
+                "lockCondition": "gacksung",
+                "order": 1,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "kcorp_rodion_profile",
+            "analysisId": "kcorp_rodion_analysis"
+         },
+         {
+          "personalityId": 10906,
+          "releaseDay": 20230713,
+          "cv_Id": "",
+          "personalityStoryList": [
+            {
+              "storyId": "P10906",
+              "lockCondition": "gacksung",
+              "order": 2,
+              "reward":{"type":"ITEM","id":2,"num":40}
+            }
+          ],
+          "profileId": "zwei_rodion_profile",
+          "analysisId": "zwei_rodion_analysis"
+       },
+       {
+        "personalityId": 10907,
+        "releaseDay": 20230921,
+        "cv_Id": "",
+        "personalityStoryList": [
+          {
+            "storyId": "P10907",
+            "lockCondition": "gacksung",
+            "order": 1,
+            "reward":{"type":"ITEM","id":2,"num":40}
+          }
+        ],
+        "profileId": "dieci_rodion_profile",
+        "analysisId": "dieci_rodion_analysis"
+     }            
+        ]
+    }
+  ]
+}

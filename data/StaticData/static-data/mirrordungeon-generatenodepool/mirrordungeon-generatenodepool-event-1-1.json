@@ -1,0 +1,716 @@
+{
+  "list": [
+    {
+      "id": 901001,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901001
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901002,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901002,
+        90100201
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901003,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901003,
+        90100301,
+        90100302
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901004,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901004
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901005,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901005,
+        90100501,
+        90100502
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901006,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901006,
+        90100601,
+        90100602
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901007,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901007
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901008,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901008,
+        90100801
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901009,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901009
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901010,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901010,
+        90101001
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901011,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901011,
+        90101101
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901013,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901013,
+        90101301,
+        90101302
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901014,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901014
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901016,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901016,
+        90101601
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901017,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901017,
+        90101701
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901018,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901018,
+        90101801
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901019,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901019,
+        90101901
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901020,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901020,
+        90102001
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901021,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901021,
+        90102101
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901022,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901022,
+        90102201
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901023,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901023,
+        90102301
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901024,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901024
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901025,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901025
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901026,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901026
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901027,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901027
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901028,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901028
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901031,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901031,
+        90103101
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901032,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901032
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901033,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901033,
+        90103301
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901034,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901034,
+        90103401,
+        90103402
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 901035,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "NORMAL",
+      "dungeonEventList": [
+        901035
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        },
+        {
+          "floor": 1,
+          "section": "ALL"
+        },
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 900011,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "GLOBAL_EVENT_HEAL",
+      "dungeonEventList": [
+        900011
+      ],
+      "sectionInfos": [
+        {
+          "floor": 0,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 900012,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "GLOBAL_EVENT_HEAL",
+      "dungeonEventList": [
+        900012
+      ],
+      "sectionInfos": [
+        {
+          "floor": 1,
+          "section": "ALL"
+        }
+      ]
+    },
+    {
+      "id": 900013,
+      "dungeonId": 1, "typeIndex": 0,
+      "encounter": "EVENT",
+      "localizeId": 2010000,
+      "category": "GLOBAL_EVENT_HEAL",
+      "dungeonEventList": [
+        900013
+      ],
+      "sectionInfos": [
+        {
+          "floor": 2,
+          "section": "ALL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "sortingOrder":  1
+    },
+    {
+      "id": 2,
+      "sortingOrder": 1
+    },
+    {
+      "id": 3,
+      "sortingOrder": 1
+    },
+    {
+      "id": 4,
+      "sortingOrder": 1
+    },
+    {
+      "id": 5,
+      "sortingOrder": 1
+    },
+    {
+      "id": 6,
+      "sortingOrder": 1
+    },
+    {
+      "id": 7,
+      "sortingOrder": 1
+    },
+    {
+      "id": 8,
+      "sortingOrder": 1
+    },
+    {
+      "id": 9,
+      "sortingOrder": 1
+    },
+    {
+      "id": 10,
+      "sortingOrder": 1
+    },
+    {
+      "id": 11,
+      "sortingOrder": 1
+    },
+    {
+      "id": 12,
+      "sortingOrder": 1
+    },
+    {
+      "id": 13,
+      "sortingOrder": 1
+    },
+    {
+      "id": 14,
+      "sortingOrder": 1
+    },
+    {
+      "id": 15,
+      "sortingOrder": 1
+    },
+    {
+      "id": 16,
+      "sortingOrder": 1
+    },
+    {
+      "id": 17,
+      "sortingOrder": 1
+    },
+    {
+      "id": 18,
+      "sortingOrder": 1
+    },
+    {
+      "id": 19,
+      "sortingOrder": 1
+    },
+    {
+      "id": 20,
+      "sortingOrder": 1
+    },
+    {
+      "id": 21,
+      "sortingOrder": 1
+    },
+    {
+      "id": 22,
+      "sortingOrder": 1
+    },
+    {
+      "id": 23,
+      "sortingOrder": 1
+    },
+    {
+      "id": 24,
+      "sortingOrder": 1
+    },
+    {
+      "id": 25,
+      "sortingOrder": 1
+    },
+    {
+      "id": 26,
+      "sortingOrder": 1
+    },
+    {
+      "id": 27,
+      "sortingOrder": 1
+    },
+    {
+      "id": 28,
+      "sortingOrder": 1
+    },
+    {
+      "id": 29,
+      "sortingOrder": 1
+    },
+    {
+      "id": 30,
+      "sortingOrder": 1
+    },
+    {
+      "id": 31,
+      "sortingOrder": 1
+    },
+    {
+      "id": 32,
+      "sortingOrder": 1
+    },
+    {
+      "id": 33,
+      "sortingOrder": 1
+    },
+    {
+      "id": 34,
+      "sortingOrder": 1
+    },
+    {
+      "id": 35,
+      "sortingOrder": 1
+    },
+    {
+      "id": 36,
+      "sortingOrder": 1
+    },
+    {
+      "id": 37,
+      "sortingOrder": 1
+    },
+    {
+      "id": 38,
+      "sortingOrder": 1
+    },
+    {
+      "id": 39,
+      "sortingOrder": 1
+    },
+    {
+      "id": 40,
+      "sortingOrder": 1
+    },
+    {
+      "id": 41,
+      "condition": "GetEGO",
+      "conditionRefId": 21003,
+      "sortingOrder": 1
+    },
+    {
+      "id": 42,
+      "condition": "GetEGO",
+      "conditionRefId": 20304,
+      "sortingOrder": 1
+    },
+    {
+      "id": 43,
+      "condition": "GetPersonality",
+      "conditionRefId": 10404,
+      "sortingOrder": 1
+    },
+    {
+      "id": 45,
+      "condition": "GetPersonality",
+      "conditionRefId": 10304,
+      "sortingOrder": 1
+    },
+    {
+      "id": 46,
+      "condition": "GetPersonality",
+      "conditionRefId": 11005,
+      "sortingOrder": 1
+    },
+    {
+      "id": 47,
+      "condition": "GetEGO",
+      "conditionRefId": 20104,
+      "sortingOrder": 1
+    },
+    {
+      "id": 48,
+      "condition": "GetEGO",
+      "conditionRefId": 20603,
+      "sortingOrder": 1
+    },
+    {
+      "id": 49,
+      "condition": "GetPersonality",
+      "conditionRefId": 10505,
+      "sortingOrder": 1
+    },
+    {
+      "id": 50,
+      "condition": "GetPersonality",
+      "conditionRefId": 10905,
+      "sortingOrder": 1
+    },
+    {
+      "id": 51,
+      "condition": "GetEGO",
+      "conditionRefId": 20804,
+      "sortingOrder": 1
+    },
+    {
+      "id": 52,
+      "condition": "GetEGO",
+      "conditionRefId": 20504,
+      "sortingOrder": 1
+    },
+    {
+      "id": 53,
+      "condition": "GetPersonality",
+      "conditionRefId": 10705,
+      "sortingOrder": 1
+    },
+    {
+      "id": 54,
+      "condition": "GetPersonality",
+      "conditionRefId": 11205,
+      "sortingOrder": 1
+    },
+    {
+      "id": 55,
+      "condition": "GetEGO",
+      "conditionRefId": 20703,
+      "sortingOrder": 1
+    },
+    {
+      "id": 56,
+      "condition": "GetEGO",
+      "conditionRefId": 21104,
+      "sortingOrder": 1
+    },
+    {
+      "id": 57,
+      "condition": "GetEGO",
+      "conditionRefId": 21204,
+      "sortingOrder": 1
+    },
+    {
+      "id": 58,
+      "condition": "GetEGO",
+      "conditionRefId": 20105,
+      "sortingOrder": 1
+    },
+    {
+      "id": 59,
+      "condition": "GetPersonality",
+      "conditionRefId": 10104,
+      "sortingOrder": 1
+    },
+    {
+      "id": 60,
+      "condition": "GetPersonality",
+      "conditionRefId": 10805,
+      "sortingOrder": 1
+    },
+    {
+      "id": 61,
+      "condition": "GetPersonality",
+      "conditionRefId": 10605,
+      "sortingOrder": 1
+    },
+    {
+      "id": 62,
+      "condition": "GetPersonality",
+      "conditionRefId": 11006,
+      "sortingOrder": 1
+    },
+    {
+      "id": 63,
+      "condition": "GetEGO",
+      "conditionRefId": 20403,
+      "sortingOrder": 1
+    },
+    {
+      "id": 64,
+      "condition": "GetEGO",
+      "conditionRefId": 20404,
+      "sortingOrder": 1
+    },
+    {
+      "id": 65,
+      "condition": "GetPersonality",
+      "conditionRefId": 10806,
+      "sortingOrder": 1
+    },
+    {
+      "id": 66,
+      "condition": "GetPersonality",
+      "conditionRefId": 10506,
+      "sortingOrder": 1
+    },
+    {
+      "id": 67,
+      "condition": "GetPersonality",
+      "conditionRefId": 10906,
+      "sortingOrder": 1
+    },
+    {
+      "id": 68,
+      "condition": "GetPersonality",
+      "conditionRefId": 10305,
+      "sortingOrder": 1
+    },
+    {
+      "id": 69,
+      "condition": "GetPersonality",
+      "conditionRefId": 10807,
+      "sortingOrder": 1
+    },
+    {
+      "id": 70,
+      "condition": "GetPersonality",
+      "conditionRefId": 11007,
+      "sortingOrder": 1
+    },
+    {
+      "id": 71,
+      "condition": "GetEGO",
+      "conditionRefId": 20604,
+      "sortingOrder": 1
+    },
+    {
+      "id": 72,
+      "condition": "GetEGO",
+      "conditionRefId": 20405,
+      "sortingOrder": 1
+    },
+    {
+      "id": 73,
+      "condition": "GetPersonality",
+      "conditionRefId": 11206,
+      "sortingOrder": 1
+    },
+    {
+      "id": 74,
+      "condition": "GetPersonality",
+      "conditionRefId": 10205,
+      "sortingOrder": 1
+    },
+    {
+      "id": 75,
+      "condition": "GetPersonality",
+      "conditionRefId": 10405,
+      "sortingOrder": 1
+    },
+    {
+      "id": 76,
+      "condition": "GetPersonality",
+      "conditionRefId": 10606,
+      "sortingOrder": 1
+    },
+    {
+      "id": 77,
+      "condition": "GetPersonality",
+      "conditionRefId": 10206,
+      "sortingOrder": 1
+    },
+    {
+      "id": 78,
+      "condition": "GetPersonality",
+      "conditionRefId": 10706,
+      "sortingOrder": 1
+    },
+    {
+      "id": 79,
+      "condition": "GetPersonality",
+      "conditionRefId": 10105,
+      "sortingOrder": 1
+    },
+    {
+      "id": 80,
+      "condition": "GetPersonality",
+      "conditionRefId": 11105,
+      "sortingOrder": 1
+    },
+    {
+      "id": 81,
+      "condition": "GetPersonality",
+      "conditionRefId": 10907,
+      "sortingOrder": 1
+    },
+    {
+      "id": 82,
+      "condition": "GetEGO",
+      "conditionRefId": 21004,
+      "sortingOrder": 1
+    },
+    {
+      "id": 83,
+      "condition": "GetEGO",
+      "conditionRefId": 20704,
+      "sortingOrder": 1
+    },
+    {
+      "id": 84,
+      "condition": "GetPersonality",
+      "conditionRefId": 10207,
+      "sortingOrder": 1
+    },
+    {
+      "id": 85,
+      "condition": "GetPersonality",
+      "conditionRefId": 10607,
+      "sortingOrder": 1
+    },
+    {
+      "id": 86,
+      "condition": "GetEGO",
+      "conditionRefId": 20505,
+      "sortingOrder": 1
+    },
+    {
+      "id": 87,
+      "condition": "GetPersonality",
+      "conditionRefId": 10106,
+      "sortingOrder": 1
+    },
+    {
+      "id": 88,
+      "condition": "GetPersonality",
+      "conditionRefId": 11207,
+      "sortingOrder": 1
+    },
+    {
+      "id": 89,
+      "condition": "GetPersonality",
+      "conditionRefId": 10406,
+      "sortingOrder": 1
+    }
+  ]
+}

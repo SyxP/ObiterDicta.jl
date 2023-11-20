@@ -1,0 +1,194 @@
+{
+  "chapterId": 101,
+  "list": [
+    {
+      "id": 12,
+      "clearCGList": [
+        "CG/S8",
+        "BG/Lobotomy_Center_Deep2",
+        "BG/Lobotomy_Center"
+      ]
+    },
+    {
+      "id": 11,
+      "clearCGList": [
+        "CG/S8",
+        "BG/Lobotomy_Center_Deep2",
+        "BG/Lobotomy_Center"
+      ]
+    },
+    {
+      "id": 10,
+      "clearCGList": [
+        "CG/S8",
+        "BG/Lobotomy_Center_Deep2",
+        "BG/Lobotomy_Center"
+      ]
+    },
+    {
+      "id": 20,
+      "clearCGList": [
+        "CG/S8",
+        "BG/story_lobotomy_dungeon_entrance"
+      ]
+    },
+    {
+      "id": 30,
+      "clearCGList": [
+        "CG/S8",
+        "BG/story_lobotomy_dungeon_entrance"
+      ]
+    },
+    {
+      "id": 40,
+      "clearCGList": [
+        "CG/S20",
+        "BG/story_lobotomy_dungeon_entrance"
+      ]
+    },
+    {
+      "id": 50,
+      "clearCGList": [
+        "CG/S20",
+        "BG/Lobotomy_Center"
+      ]
+    },
+    {
+      "id": 100,
+      "clearCGList": [
+        "CG/S20",
+        "BG/Lobotomy_Center"
+      ]
+    },
+    {
+      "id": 110,
+      "clearCGList": [
+        "CG/S8",
+        "BG/story_lobotomy_dungeon"
+      ]
+    },
+    {
+      "id": 121,
+      "clearCGList": [
+        "CG/S2",
+        "BG/story_lobotomy_dungeon"
+      ]
+    },
+    {
+      "id": 120,
+      "clearCGList": [
+        "CG/S2",
+        "BG/story_lobotomy_dungeon"
+      ]
+    },
+    {
+      "id": 130,
+      "clearCGList": [
+        "CG/S9_4",
+        "BG/story_lobotomy_dungeon"
+      ]
+    },
+    {
+      "id": 200,
+      "clearCGList": [
+        "CG/S10_4",
+        "BG/story_lobotomy_lastF",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 210,
+      "clearCGList": [
+        "CG/S11_5",
+        "CG/S11_10",
+        "CG/S12",
+        "CG/S13",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 212,
+      "clearCGList": [
+        "CG/S11_5",
+        "CG/S11_10",
+        "CG/S12",
+        "CG/S13",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 211,
+      "clearCGList": [
+        "CG/S11_5",
+        "CG/S11_10",
+        "CG/S12",
+        "CG/S13",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 221,
+      "clearCGList": [
+        "CG/S14_5",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 220,
+      "clearCGList": [
+        "CG/S14_5",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 230,
+      "clearCGList": [
+        "CG/S14_5",
+        "BG/story_gregor_smokewar"
+      ]
+    },
+    {
+      "id": 242,
+      "clearCGList": [
+        "CG/S15_1",
+        "CG/S16_1",
+        "CG/S16_2",
+        "CG/S16_3",
+        "BG/story_gregor_smokewar",
+        "BG/story_lobotomy_lastF"
+      ]
+    },
+    {
+      "id": 241,
+      "clearCGList": [
+        "CG/S15_1",
+        "CG/S16_1",
+        "CG/S16_2",
+        "CG/S16_3",
+        "BG/story_gregor_smokewar",
+        "BG/story_lobotomy_lastF"
+      ]
+    },
+    {
+      "id": 240,
+      "clearCGList": [
+        "CG/S15_1",
+        "CG/S16_1",
+        "CG/S16_2",
+        "CG/S16_3",
+        "BG/story_gregor_smokewar",
+        "BG/story_lobotomy_lastF"
+      ]
+    },
+    {
+      "id": 270,
+      "clearCGList": [
+        "CG/S17",
+        "CG/S18_2",
+        "CG/S19",
+        "CG/S23",
+        "BG/story_lobotomy_lastF"
+      ]
+    }
+  ]
+}

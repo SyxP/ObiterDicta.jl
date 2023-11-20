@@ -1,0 +1,497 @@
+{
+  "list": [
+    {
+      "id": 11101,
+      "appearance": "11101_Outis_BaseAppearance",
+      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1110104
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 1,
+      "hp": {
+        "defaultStat": 60,
+        "incrementByLevel": 2.07
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110101,
+          "number": 3
+        },
+        {
+          "skillId": 1110102,
+          "number": 2
+        },
+        {
+          "skillId": 1110103,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 11102,
+      "appearance": "11102_Outis_SwordGroupAppearance",
+      "unitKeywordList": [ "BLADE_LINEAGE" ],
+      "defenseSkillIDList": [
+        1110204
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 0,
+      "rank": 2,
+      "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.82
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "maxSpeedList": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "uniqueAttribute": "CRIMSON",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110201,
+          "number": 3
+        },
+        {
+          "skillId": 1110202,
+          "number": 2
+        },
+        {
+          "skillId": 1110203,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 11103,
+      "appearance": "11103_Outis_GCorpAppearance",
+      "unitKeywordList": [ "G_CORP" ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 1,
+      "defenseSkillIDList": [
+        1110304
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.6
+      },
+      "defCorrection": 2,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110301,
+          "number": 3
+        },
+        {
+          "skillId": 1110302,
+          "number": 2
+        },
+        {
+          "skillId": 1110303,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 11104,
+      "appearance": "11104_Outis_SevenAssoAppearance",
+      "unitKeywordList": [ "SEVEN" ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1110404
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 86,
+        "incrementByLevel": 2.96
+      },
+      "defCorrection": 3,
+      "minSpeedList": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "uniqueAttribute": "SHAMROCK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          60
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110401,
+          "number": 3
+        },
+        {
+          "skillId": 1110402,
+          "number": 2
+        },
+        {
+          "skillId": 1110403,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 11105,
+      "appearance": "11105_Outis_OlgaAppearance",
+      "unitKeywordList": [ "MOLAR" ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 2,
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        1110504
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 68,
+        "incrementByLevel": 2.39
+      },
+      "defCorrection": -3,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110501,
+          "number": 3
+        },
+        {
+          "skillId": 1110502,
+          "number": 2
+        },
+        {
+          "skillId": 1110503,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "chapterId": 102,
+  "list": [
+    {
+      "id": 10202,
+      "clearCGList": [
+        "BG/story_backstreet_orientalism",
+        "BG/story_pawnshop"
+      ]
+    },
+    {
+      "id": 10203,
+      "clearCGList": [
+        "CG/S201_4",
+        "BG/story_pawnshop"
+      ]
+    },
+    {
+      "id": 10204,
+      "clearCGList": [
+        "CG/S201_4",
+        "BG/story_backstreet_orientalism"
+      ]
+    },
+    {
+      "id": 10205,
+      "clearCGList": [
+        "CG/S201_4",
+        "BG/story_casino_far"
+      ]
+    },
+    {
+      "id": 10206,
+      "clearCGList": [
+        "CG/S216",
+        "BG/story_casino_entrance"
+      ]
+    },
+    {
+      "id": 10207,
+      "clearCGList": [
+        "CG/S212_4",
+        "BG/story_casino_entrance"
+      ]
+    },
+    {
+      "id": 10208,
+      "clearCGList": [
+        "CG/S202_6",
+        "BG/story_casino_1F"
+      ]
+    },
+    {
+      "id": 10209,
+      "clearCGList": [
+        "CG/S202_6",
+        "BG/story_casino_1F"
+      ]
+    },
+    {
+      "id": 10210,
+      "clearCGList": [
+        "CG/S202_6",
+        "BG/story_casino_2f"
+      ]
+    },
+    {
+      "id": 10212,
+      "clearCGList": [
+        "CG/S214_14",
+        "CG/S217",
+        "BG/story_casino_2f"
+      ]
+    },
+    {
+      "id": 10213,
+      "clearCGList": [
+        "CG/S214_14",
+        "CG/S217",
+        "BG/story_casino3F"
+      ]
+    },
+    {
+      "id": 10215,
+      "clearCGList": [
+        "CG/S203",
+        "BG/story_casino3F"
+      ]
+    },
+    {
+      "id": 10216,
+      "clearCGList": [
+        "CG/S203",
+        "BG/story_casino3F",
+        "BG/story_casino_privycamber"
+      ]
+    },
+    {
+      "id": 10217,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_casino_privycamber"
+      ]
+    },
+    {
+      "id": 10218,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_casino_privycamber"
+      ]
+    },
+    {
+      "id": 10219,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_topF_elevator",
+        "BG/story_B1_vault"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "list": [
+    {
+      "id": 301,
+      "category": "CONSUMABLE",
+      "itemUseType":"ENKEPHALINE",
+      "spriteStr":"enkephalinbox",
+      "target": {
+        "type": "STAMINA",
+        "id": 0,
+        "num": 60
+      }
+    }
+  ]
+}

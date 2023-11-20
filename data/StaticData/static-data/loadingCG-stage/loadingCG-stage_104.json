@@ -1,0 +1,192 @@
+{
+  "chapterId": 104,
+  "list": [
+    {
+      "id": 10401,
+      "clearCGList": [
+        "BG/story_brokenstreet_k"
+
+      ]
+    },
+    {
+      "id": 10402,
+      "clearCGList": [
+        "BG/story_story_Immigration_checkpoint_out_detail",
+        "BG/story_brokenstreet_k",
+        "CG/S401:"
+      ]
+    },
+    {
+      "id": 10403,
+      "clearCGList": [
+        "BG/story_brokenstreet_k_drone",
+        "CG/S401"
+      ]
+    },
+    {
+      "id": 10404,
+      "clearCGList": [
+        "BG/story_brokenstreet_k_drone",
+        "CG/S401"
+      ]
+    },
+    {
+      "id": 10406,
+      "clearCGList": [
+        "BG/story_brokenstreet_k_drone",
+        "CG/S401"
+      ]
+    },
+    {
+      "id": 10407,
+      "clearCGList": [
+        "BG/story_lab entrance"
+      ]
+    },
+    {
+      "id": 10408,
+      "clearCGList": [
+        "BG/story_lab entrance",
+        "BG/story_lab corridor",
+        "BG/story_lab 2F"
+      ]
+    },
+    {
+      "id": 10409,
+      "clearCGList": [
+        "BG/story_lab_next_F"
+      ]
+    },
+    {
+      "id": 10410,
+      "clearCGList": [
+        "BG/story_lab 2F_v2",
+        "CG/S403_1"
+      ]
+    },
+    {
+      "id": 10412,
+      "clearCGList": [
+        "BG/story_lab 2F_v2",
+        "CG/S404_4"
+      ]
+    },
+    {
+      "id": 10415,
+      "clearCGList": [
+        "BG/story_lab 2F_v1",
+        "CG/S404_4"
+      ]
+    },
+    {
+      "id": 10416,
+      "clearCGList": [
+        "BG/story_adapted_lobotomy"
+
+      ]
+    },
+    {
+      "id": 10417,
+      "clearCGList": [
+        "BG/story_adapted_lobotomy"
+
+      ]
+    },
+    {
+      "id": 10418,
+      "clearCGList": [
+        "BG/story_adapted_lobotomy"
+
+      ]
+    },
+    {
+      "id": 10421,
+      "clearCGList": [
+        "BG/story_story_adminoffice"
+
+      ]
+    },
+    {
+      "id": 10426,
+      "clearCGList": [
+        "BG/story_story_adminoffice",
+        "CG/S405_1"
+
+      ]
+    },
+    {
+      "id": 10427,
+      "clearCGList": [
+        "BG/story_story_adminoffice",
+        "CG/S406_4",
+        "CG/S407",
+        "CG/S408"
+
+      ]
+    },
+    {
+      "id": 10428,
+      "clearCGList": [
+        "BG/story_story_adminoffice",
+        "CG/S411",
+        "CG/S410_2"
+
+      ]
+    },
+    {
+      "id": 10430,
+      "clearCGList": [
+        "BG/story_lab entrance",
+        "CG/S413_1",
+        "CG/S413_2",
+        "CG/S413_3",
+        "CG/S413_4",
+        "CG/S413_5",
+        "CG/S413_6",
+        "BG/story_lab corridor_v1"
+
+      ]
+    },
+    {
+      "id": 10433,
+      "clearCGList": [
+        "CG/S413_1",
+        "CG/S413_2",
+        "CG/S413_3",
+        "CG/S413_4",
+        "CG/S413_5",
+        "CG/S413_6",
+        "BG/story_lab corridor_v1"
+
+      ]
+    },
+    {
+      "id": 10438,
+      "clearCGList": [
+        "CG/S425",
+        "BG/story_lab corridor_v1"
+
+      ]
+    },
+    {
+      "id": 10447,
+      "clearCGList": [
+        "CG/S425",
+        "BG/story_shedding tears_1(light off)"
+
+      ]
+    },
+    {
+      "id": 10448,
+      "clearCGList": [
+        "CG/S411",
+        "CG/S409",
+        "BG/story_shedding tears_2(light on)",
+        "BG/story_shedding tears_3(screen v1)",
+        "BG/story_shedding tears_4(screen v2)",
+        "story_shedding tears_5(screen v3)"
+
+      ]
+    }
+  ]
+}

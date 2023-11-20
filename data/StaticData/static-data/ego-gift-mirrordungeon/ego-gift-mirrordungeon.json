@@ -1,0 +1,363 @@
+{
+  "list": [
+    {
+      "id": 9001,
+      "attributeType": "CRIMSON",
+      "subEgoGiftAbilityIDList": [
+        90011
+      ],
+      "tag": [
+        "TIER_2"
+      ], 
+      "lockType": false, "isShowAtStart": true, "price": 132
+    },
+    {
+      "id": 9002,
+      "attributeType": "CRIMSON",
+      "subEgoGiftAbilityIDList": [
+        90021
+      ],
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 108
+    },
+    {
+      "id": 9003,
+      "attributeType": "CRIMSON",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 102
+    },
+    {
+      "id": 9004,
+      "attributeType": "CRIMSON",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 98
+    },
+    {
+      "id": 9005,
+      "attributeType": "CRIMSON",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 135
+    },
+    {
+      "id": 9006,
+      "attributeType": "SCARLET",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 124
+    },
+    {
+      "id": 9007,
+      "attributeType": "SCARLET",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 122
+    },
+    {
+      "id": 9008,
+      "attributeType": "SCARLET",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 101
+    },
+    {
+      "id": 9009,
+      "attributeType": "SCARLET",
+      "subEgoGiftAbilityIDList": [
+        90091
+      ],
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 135
+    },
+    {
+      "id": 9010,
+      "attributeType": "SCARLET",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 112
+    },
+    {
+      "id": 9011,
+      "attributeType": "AMBER",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 106
+    },
+    {
+      "id": 9012,
+      "attributeType": "AMBER",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 126
+    },
+    {
+      "id": 9013,
+      "attributeType": "AMBER",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 98
+    },
+    {
+      "id": 9014,
+      "attributeType": "AMBER",
+      "subEgoGiftAbilityIDList": [
+        90141
+      ],
+      "tag": [
+        "TIER_3"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 180
+    },
+    {
+      "id": 9015,
+      "attributeType": "AMBER",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 130
+    },
+    {
+      "id": 9016,
+      "attributeType": "SHAMROCK",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 102
+    },
+    {
+      "id": 9017,
+      "attributeType": "SHAMROCK",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 99
+    },
+    {
+      "id": 9018,
+      "attributeType": "SHAMROCK",
+      "subEgoGiftAbilityIDList": [
+        90181
+      ],
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 96
+    },
+    {
+      "id": 9019,
+      "attributeType": "SHAMROCK",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 108
+    },
+    {
+      "id": 9020,
+      "attributeType": "SHAMROCK",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 98
+    },
+    {
+      "id": 9021,
+      "attributeType": "AZURE",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 97
+    },
+    {
+      "id": 9022,
+      "attributeType": "AZURE",
+      "subEgoGiftAbilityIDList": [
+        90221
+      ],
+      "tag": [
+        "TIER_3"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 184
+    },
+    {
+      "id": 9023,
+      "attributeType": "AZURE",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 126
+    },
+    {
+      "id": 9024,
+      "attributeType": "AZURE",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 104
+    },
+    {
+      "id": 9025,
+      "attributeType": "AZURE",
+      "subEgoGiftAbilityIDList": [
+        90251
+      ],
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 127
+    },
+    {
+      "id": 9026,
+      "attributeType": "INDIGO",
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 109
+    },
+    {
+      "id": 9027,
+      "attributeType": "INDIGO",
+      "subEgoGiftAbilityIDList": [
+        90271
+      ],
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 102
+    },
+    {
+      "id": 9028,
+      "attributeType": "INDIGO",
+      "subEgoGiftAbilityIDList": [
+        90281
+      ],
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 131
+    },
+    {
+      "id": 9029,
+      "attributeType": "INDIGO",
+      "subEgoGiftAbilityIDList": [
+        90291,
+        90292,
+        90293
+      ],
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 130
+    },
+    {
+      "id": 9030,
+      "attributeType": "INDIGO",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 130
+    },
+    {
+      "id": 9031,
+      "attributeType": "VIOLET",
+      "subEgoGiftAbilityIDList": [
+        90311
+      ],
+      "tag": [
+        "TIER_1"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 94
+    },
+    {
+      "id": 9032,
+      "attributeType": "VIOLET",
+      "subEgoGiftAbilityIDList": [
+        90321
+      ],
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 133
+    },
+    {
+      "id": 9033,
+      "attributeType": "VIOLET",
+      "tag": [
+        "TIER_3"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 183
+    },
+    {
+      "id": 9034,
+      "attributeType": "VIOLET",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 145
+    },
+    {
+      "id": 9035,
+      "attributeType": "VIOLET",
+      "tag": [
+        "TIER_1",
+        "START"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 98
+    },
+    {
+      "id": 9036,
+      "attributeType": "CRIMSON",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 134
+    },
+    {
+      "id": 9037,
+      "attributeType": "SCARLET",
+      "tag": [
+        "TIER_3"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 183
+    },
+    {
+      "id": 9038,
+      "attributeType": "AZURE",
+      "tag": [
+        "TIER_3"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 176
+    },
+    {
+      "id": 9039,
+      "attributeType": "SHAMROCK",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 129
+    },
+    {
+      "id": 9040,
+      "attributeType": "INDIGO",
+      "tag": [
+        "TIER_2"
+      ],
+      "lockType": false, "isShowAtStart": true, "price": 127
+    }
+  ]
+}

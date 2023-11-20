@@ -1,0 +1,49 @@
+{
+  "chapterId": 100,
+  "list": [
+    {
+      "id": 10001,
+      "clearCGList": [
+        "CG/S0_1_5",
+        "CG/S0_5",
+        "CG/S0_2_5",
+        "CG/S0_3_4",
+        "CG/S0_4",
+        "BG/Dark_Forest"
+      ]
+    },
+    {
+      "id": 10002,
+      "clearCGList": [
+        "CG/S0_1_5",
+        "CG/S0_5",
+        "CG/S0_2_5",
+        "CG/S0_3_4",
+        "CG/S0_4",
+        "BG/Dark_Forest"
+      ]
+    },
+    {
+      "id": 10003,
+      "clearCGList": [
+        "CG/S0_1_5",
+        "CG/S0_5",
+        "CG/S0_2_5",
+        "CG/S0_3_4",
+        "CG/S0_4",
+        "BG/Dark_Forest"
+      ]
+    },
+    {
+      "id": 10004,
+      "clearCGList": [
+        "CG/S0_1_5",
+        "CG/S0_5",
+        "CG/S0_2_5",
+        "CG/S0_3_4",
+        "CG/S0_4",
+        "BG/Dark_Forest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "chapterId": 9104,
+  "list": [
+    {
+      "id": 910401,
+      "clearCGList": [
+        "BG/Bus_beach_R"
+
+      ]
+    },
+    {
+      "id": 910402,
+      "clearCGList": [
+        "BG/story_servicecenter_dark_wide_resize",
+        "BG/story_foreshore_ver1"
+      ]
+    },
+    {
+      "id": 910403,
+      "clearCGList": [
+        "BG/story_scrap metal_off_ver",
+        "BG/story_foreshore_ver1"
+      ]
+    },
+    {
+      "id": 910404,
+      "clearCGList": [
+        "BG/story_servicecenter_inside_white2",
+        "BG/story_scrap metal",
+        "CG/S405_1_3"
+      ]
+    },
+    {
+      "id": 910405,
+      "clearCGList": [
+        "BG/story_scrap metal_off_ver",
+        "BG/story_foreshore_ver1"
+      ]
+    },
+    {
+      "id": 910406,
+      "clearCGList": [
+        "BG/story_scrap metal_off_ver",
+        "BG/story_servicecenter_outside_construction"
+      ]
+    },
+    {
+      "id": 910407,
+      "clearCGList": [
+        "BG/story_foreshore_ver1",
+        "CG/S405_2_A",
+        "CG/S405_2_6"
+      ]
+    },
+    {
+      "id": 910408,
+      "clearCGList": [
+        "CG/S405_3_1",
+        "CG/S405_3_2",
+        "BG/story_servicecenter_outside_construction"
+      ]
+    },
+    {
+      "id": 910409,
+      "clearCGList": [
+        "BG/story_scrap metal_off_ver",
+        "BG/story_foreshore_ver1"
+      ]
+    },
+    {
+      "id": 910410,
+      "clearCGList": [
+        "CG/S405_3_4",
+        "BG/story_servicecenter_outside_boat",
+        "BG/story_scrap metal_off_ver"
+      ]
+    },
+    {
+      "id": 910411,
+      "clearCGList": [
+        "CG/S405_C_1",
+        "CG/S405_C_2",
+        "CG/S405_3_5_3",
+        "BG/story_servicecenter_outside_boat",
+        "BG/story_scrap metal"
+      ]
+    },
+    {
+      "id": 910412,
+      "clearCGList": [
+        "CG/S405_3_6_1",
+        "CG/S405_3_6_2"
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,124 @@
+{
+    "list": [
+      {
+        "chapterId": 1,
+        "subChapterId": 105,
+        "storyList": [
+          {
+            "id": 1,
+            "storyId": "S501B",
+            "nodeId": 10501,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 2,
+            "storyId": "S502B",
+            "nodeId": 10502,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 3,
+            "storyId": "S503B",
+            "nodeId": 10503,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 4,
+            "storyId": "S504B",
+            "nodeId": 10504,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 5,
+            "storyId": "S505A",
+            "nodeId": 10505,
+            "stageDetail": "After"
+          },
+          {
+            "id": 6,
+            "storyId": "S506B",
+            "nodeId": 10506,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 7,
+            "storyId": "S507B",
+            "nodeId": 10507,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 8,
+            "storyId": "S509A",
+            "nodeId": 10509,
+            "stageDetail": "After"
+          },
+          {
+            "id": 9,
+            "storyId": "S510B",
+            "nodeId": 10510,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 10,
+            "storyId": "S510A",
+            "nodeId": 10510,
+            "stageDetail": "After"
+          },
+          {
+            "id": 11,
+            "storyId": "S511B",
+            "nodeId": 10511,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 12,
+            "storyId": "S513B",
+            "nodeId": 10513,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 13,
+            "storyId": "S514B",
+            "nodeId": 10514,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 14,
+            "storyId": "S515B",
+            "nodeId": 10515,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 15,
+            "storyId": "S516B",
+            "nodeId": 10516,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 16,
+            "storyId": "S517A",
+            "nodeId": 10517,
+            "stageDetail": "After"
+          },
+          {
+            "id": 17,
+            "storyId": "S518B",
+            "nodeId": 10518,
+            "stageDetail": "Before"
+          },
+          {
+            "id": 18,
+            "storyId": "S518A",
+            "nodeId": 10518,
+            "stageDetail": "After"
+          },
+          {
+            "id": 19,
+            "storyId": "S519A",
+            "nodeId": 10519,
+            "stageDetail": "After"
+          }
+        ]
+      }
+    ]
+  }

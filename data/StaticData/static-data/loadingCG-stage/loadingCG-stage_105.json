@@ -1,0 +1,150 @@
+{
+  "chapterId": 105,
+  "list": [
+    {
+      "id": 10501,
+      "clearCGList": [
+        "CG/E041X_1",
+        "CG/E041X_2",
+        "CG/E041X_Corridor"
+      ]
+    },
+    {
+      "id": 10502,
+      "clearCGList": [
+        "BG/story_boat_clearsky",
+        "CG/S501_1",
+        "CG/S507"   
+      ]
+    },
+    {
+      "id": 10503,
+      "clearCGList": [
+        "CG/S502_1",
+        "CG/S502_2",
+        "CG/S503_1",
+        "BG/story_u_city"
+      ]
+    },
+    {
+      "id": 10504,
+      "clearCGList": [
+        "BG/story_u_city",
+        "BG/story_u_backstreet01",
+        "CG/S511_2",
+        "CG/S508",
+        "BG/story_u_backstreet02"
+      ]
+    },
+    {
+      "id": 10505,
+      "clearCGList": [
+        "BG/story_u_backstreet02",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10506,
+      "clearCGList": [
+        "BG/story_club_outside",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10507,
+      "clearCGList": [
+        "BG/story_club_outside",
+        "BG/story_club_inside_1",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10509,
+      "clearCGList": [
+        "BG/story_club_inside_2",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10510,
+      "clearCGList": [
+        "BG/story_club_bossroom",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10511,
+      "clearCGList": [
+        "BG/story_containerbox",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10514,
+      "clearCGList": [
+        "BG/story_containerbox",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10515,
+      "clearCGList": [
+        "BG/story_u_city",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10516,
+      "clearCGList": [
+        "BG/story_u_city",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10517,
+      "clearCGList": [
+        "BG/story_pirateship",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10518,
+      "clearCGList": [
+        "BG/story_boat_cloudy2",
+        "BG/story_boat_storm",
+        "CG/S510"
+
+      ]
+    },
+    {
+      "id": 10519,
+      "clearCGList": [
+        "BG/story_boat_storm",
+        "CG/S509_1"
+
+      ]
+    }
+  ]
+}

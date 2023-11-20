@@ -1,0 +1,42 @@
+{
+  "list": [
+    {
+      "id": 4,
+      "requiredItem": {
+        "id": 11,
+        "num": 3,
+        "type": "ITEM"
+      },
+	  "skipRequiredItem": {
+        "id": 11,
+        "num": 6,
+        "type": "ITEM"
+      },
+      "stageId": 4,
+      "validAttacks": [ "SLASH" ],
+      "validAttributes": [],
+      "openChapterData": {
+        "mainChapterId": 1,
+        "subChapterId": 104,
+        "nodeId": 10448
+      },
+      "normalReward": {
+        "acquireExp": 60,
+        "acquireTotalExpForPersonality": 0,
+        "rewards": [
+          {
+            "id": 213,
+            "num": 3,
+            "type": "ITEM"
+          },
+          {
+            "id": 214,
+            "num": 2,
+            "type": "ITEM"
+          }
+        ]
+      },
+	  "skipRewardModify": 1.5
+    }
+  ]
+}

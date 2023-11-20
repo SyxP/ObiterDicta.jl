@@ -1,0 +1,40 @@
+{
+	"list": [
+		{
+			"id": 3,
+			"bannerInfo": {
+				"bannerSpr": "banner_vendingMachine3",
+				"priority": 3
+			},
+			"groups": [
+				{
+					"groupType": "GACHA",
+					"contents": [
+						{
+							"type": "PERSONALITY",
+							"id": 11207,
+							"price": 400
+						},
+
+
+						{
+							"type": "PERSONALITY",
+							"id": 10406,
+							"price": 150
+						}
+					]
+				},
+				{
+					"groupType": "ANNOUNCER",
+					"contents": [
+						{
+							"type": "ANNOUNCER",
+							"id": 9,
+							"paidLunacyPrice": 1300
+						}
+					]
+				}
+			]
+		}
+	]
+}

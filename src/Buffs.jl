@@ -239,6 +239,13 @@ function InternalBuffString(id)
         if key ∈ ["buffType", "canBeDespelled", "id", "buffClass", "maxStack", "list", "iconId"]
             continue
         end
+
+        if key == "attributeType"
+            AdditionalInfo = "($(getSinString(value)))"
+            println(OtherFieldsio, "$(key) => $(value) $AdditionalInfo")
+            continue
+        end
+
         println(OtherFieldsio, "$(key) => $(EscapeString(string(value)))")
     end
 
@@ -304,6 +311,11 @@ function LocalizedBuffString(id)
             continue
         end
         if key == "undefined" && UndefinedFlag
+            continue
+        end
+        if key == "attributeType"
+            AdditionalInfo = "($(getSinString(value)))"
+            println(OtherFieldsio, "$(key) => $(value) $AdditionalInfo")
             continue
         end
         println(OtherFieldsio, "$(key) => $(value)")

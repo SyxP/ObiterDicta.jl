@@ -113,7 +113,7 @@ function getPassiveID(PassivePair)
     if LocalData !== nothing && InterData !== nothing
         LocalData["id"] != InterData["id"] && @warn "Local and Internal ID do not match."
     end
-    return LocalData["id"]
+    return InterData["id"]
 end
 
 function getPassiveTitle(PassivePair)

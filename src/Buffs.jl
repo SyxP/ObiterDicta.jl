@@ -200,14 +200,14 @@ function getLocalizedBuffList()
     [LocalizedData(file) for file in Files]
 end
 
-function findExactInternalBuff(id)
+function findExactInternalBuff(id; dontWarn = true)
     for BuffList in getInternalBuffList()
         for Buff in BuffList["list"]
             (Buff["id"] == id) && return Buff
         end
     end
     
-    @warn "Internal Buff with $id not found."
+    dontWarn || @warn "Internal Buff with $id not found."
     return
 end
 
@@ -246,7 +246,7 @@ function InternalBuffString(id)
     if OtherField != ""
         LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
         content /= LineBreak
-        content /= TextBox(OtherField ; fit = true)
+        content /= TextBox(OtherField; width = 93, fit = false)
     end
 
     Actions = Buff["list"]
@@ -312,7 +312,7 @@ function LocalizedBuffString(id)
     if OtherField != ""
         LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
         content /= LineBreak
-        content /= TextBox(OtherField ; fit = true)
+        content /= TextBox(OtherField; width = 93, fit = false)
     end
     
     output = Panel(
@@ -322,7 +322,7 @@ function LocalizedBuffString(id)
         fit   = false)
     println(io, output)
 
-    String(take!(io))
+    return String(take!(io))
 end
 
 BuffStringFromId(id) = LocalizedBuffString(id)*InternalBuffString(id)

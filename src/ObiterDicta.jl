@@ -30,7 +30,8 @@ module ObiterDicta
     include("Printing.jl")
     include("LanguageInternalization.jl")
     include("DebugFunctions.jl")   
-    
+    include("KeywordLocalization.jl")
+
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
 

@@ -1,3 +1,5 @@
+# Buff Command
+
 function BuffHelp()
     S = raw"""Looks up Buffs (Status Effects). Available Commands
               `buff list jsons`         - List all internal JSONs.
@@ -77,14 +79,18 @@ end
 BuffRegex = r"^buff (.*)$"
 BuffCommand = Command(BuffRegex, BuffParser, [1], BuffHelp)
 
-printSingleBuff(id) = println(BuffStringFromId(id))
-printLocalizedBuff(id) = println(LocalizedBuffString(id))
+# Printing and Searching
+
+printSingleBuff(id) = tprintln(BuffStringFromId(id))
+printLocalizedBuff(id) = tprintln(LocalizedBuffString(id))
+
 function searchSingleBuff(query, haystack; verbose = true)
     tprintln("Using {red}$query{/red} as query.")
     result = SearchClosestString(query, haystack)[1][2]
     verbose ? printSingleBuff(result) : printLocalizedBuff(result)
     return result
 end
+
 function searchTopBuffs(query, haystack, topN)
     tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
@@ -99,15 +105,15 @@ function searchTopBuffs(query, haystack, topN)
     println(GridFromList(ResultStrings, 1; labelled = true))
     return result
 end
+
 function printBuffJSONList()
-    println("Listing the contents of $(join(PossibleDataClasses, ", ")): ")
-    JSONList = getBuffJSONListfromStatic()
+    println("Listing the contents of $(join(PossibleBuffDataClasses, ", ")): ")
+    JSONList = getBuffJSONListFromStatic()
     println(GridFromList(JSONList, 2; labelled = true))
     return "data/StaticData/static-data/" .* JSONList
 end
 
 LastUsedBuffJSON = ""
-BuffMasterList = Dict{String, Any}[]
 
 function printBuffFromJSONInternal(file)
     BuffDatabase = StaticData(file)["list"]
@@ -128,25 +134,8 @@ function printBuffMasterList(file)
     return Names
 end
 
-function getBuffMasterList()
-    forceReload = false
-    if DebugMode
-        prompt = DefaultPrompt(["yes", "no"], 2, "Would you like to force reload Buff Master List?")
-        c = ask(prompt)
-        isYesInput(c) && (forceReload = true)
-    end
-
-    global BuffMasterList
-    !forceReload && length(BuffMasterList) != 0 && return BuffMasterList
-
-    for file in getBuffJSONListfromStatic()
-        append!(BuffMasterList, StaticData(file)["list"])
-    end
-    return BuffMasterList
-end
-
 function printBuffFromJSON(input)
-    JSONList = getBuffJSONListfromStatic()
+    JSONList = getBuffJSONListFromStatic()
     if match(r"^[0-9]+$", input) !== nothing
         val = parse(Int, input)
         return printBuffFromJSONInternal(JSONList[val])
@@ -180,22 +169,30 @@ function printBuffExactNumberInput(num)
     return printSingleBuff(BuffDatabase[n]["id"])
 end
 
-const PossibleDataClasses = ["buff", "mirror-dungeon-floor-buff"]
+# Data Retrieval
+
+const PossibleBuffDataClasses = ["buff"]
+# mirror-dungeon-floor-buff seems to be duplicated inside buff.
 # TODO: The following Buff types are not supported ["panic-buff", "rail-Line2-buff"]
-function getBuffJSONListfromStatic(dataClasses = PossibleDataClasses)
-    Files = String[]
-    for dataClass in dataClasses
-        item = findStaticDataInfo(dataClass)
-        for file in item["fileList"]
-            push!(Files, "$dataClass/$file")
-        end
+function getBuffJSONListFromStatic(dataClasses = PossibleBuffDataClasses)
+    GetFileListFromStatic(dataClasses)
+end
+
+BuffMasterList = Dict{String, Any}[]
+function getBuffMasterList()
+    forceReload = ForceReloadDebug()
+
+    global BuffMasterList
+    !forceReload && length(BuffMasterList) != 0 && return BuffMasterList
+
+    for file in getBuffJSONListFromStatic()
+        append!(BuffMasterList, StaticData(file)["list"])
     end
-    unique!(Files)
-    return Files
+    return BuffMasterList
 end
 
 function getInternalBuffList()
-    [StaticData(file) for file in getBuffJSONListfromStatic()]
+    [StaticData(file) for file in getBuffJSONListFromStatic()]
 end
 
 function getLocalizedBuffList()
@@ -252,8 +249,6 @@ function InternalBuffString(id)
         content /= TextBox(OtherField ; fit = true)
     end
 
-   
-
     Actions = Buff["list"]
     if length(Actions) > 0
         LineBreak = hLine(94, "{bold white}Actions{/bold white}"; box=:DOUBLE)
@@ -262,7 +257,6 @@ function InternalBuffString(id)
             content /= DisplaySkillAsTree(Action, "Action $i")
         end
     end
-    
     
     output = Panel(
         content,

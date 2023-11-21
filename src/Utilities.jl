@@ -1,11 +1,12 @@
 LocalizeDatabase = Dict{Tuple{String, LangMode}, Dict{String, Any}}()
 StaticDatabase   = Dict{String, Dict{String, Any}}()
+DataDir          = pkgdir(@__MODULE__, "data")
 
 LocalizeMasterDatabase = nothing
 function getLocalizeDataInfo()
     global LocalizeMasterDatabase
     if LocalizeMasterDatabase === nothing
-        LocalizeMasterDatabase = JSON.parsefile("data/Localize/RemoteLocalizeFileList.json")
+        LocalizeMasterDatabase = JSON.parsefile("$DataDir/Localize/RemoteLocalizeFileList.json")
     end
     return LocalizeMasterDatabase
 end
@@ -14,7 +15,7 @@ StaticMasterDatabase = nothing
 function getStaticDataInfo()
     global StaticMasterDatabase
     if StaticMasterDatabase === nothing
-        StaticMasterDatabase = JSON.parsefile("data/StaticData/static-data/static-data-info.json")
+        StaticMasterDatabase = JSON.parsefile("$DataDir/StaticData/static-data/static-data-info.json")
     end
     return StaticMasterDatabase
 end
@@ -44,7 +45,7 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
     fileParts = split(Name, "/")
     fileParts[end] = uppercase(getLangMode()) * "_" * fileParts[end]
 
-    filePath = "data/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
+    filePath = "$DataDir/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
     try
         global LocalizeDatabase[(Name, CurrLang)] = JSON.parsefile(filePath)
     catch ex
@@ -67,7 +68,7 @@ function StaticData(Name)
         return StaticDatabase[Name]
     end
     
-    filePath = "data/StaticData/static-data/" * Name * ".json"
+    filePath = "$DataDir/StaticData/static-data/" * Name * ".json"
     try
         global StaticDatabase[Name] = JSON.parsefile(filePath)
     catch ex

@@ -5,7 +5,7 @@ module ObiterDicta
     using JSON
 
     function MainParser(input)
-        Commands = [SetLangCommand, HelpCommand, EXPCommand, BuffCommand]
+        Commands = [SetLangCommand, HelpCommand, EXPCommand, BuffCommand, PassiveCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S

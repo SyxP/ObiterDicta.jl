@@ -102,5 +102,12 @@ function SearchClosestString(needle, haystack; top = 1)
         return
     end
 
-    return partialsort(haystack, 1:top; by = x -> evaluate(DamerauLevenshtein(), x[1], needle))
+
+    norm(str) = String(filter(x -> !(x ∈ " '.…"), collect(lowercase(str))))
+    normNeedle = norm(needle)
+    function evaluator(newStr)
+        evaluate(Partial(DamerauLevenshtein()), norm(newStr), normNeedle)
+    end
+    
+    return partialsort(haystack, 1:top; by = x -> evaluator(x[1]))
 end

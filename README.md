@@ -14,7 +14,7 @@ To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>`
 2. Buffs / Status Effects (100%)
 3. Identities and Identity Skills (0%)
 4. E.G.O and E.G.O Skills (0%)
-5. Passives (60%)
+5. Passives (100%)
 6. Enemy Information (0%)
 7. Uptie/Threadspin Comparator (0%)
 8. Clash Calculator (0%)

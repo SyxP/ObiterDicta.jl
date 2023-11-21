@@ -14,10 +14,11 @@ To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>`
 2. Buffs / Status Effects (100%)
 3. Identities and Identity Skills (0%)
 4. E.G.O and E.G.O Skills (0%)
-5. Enemy Information (0%)
-6. Uptie/Threadspin Comparator (0%)
-7. Clash Calculator (0%)
-8. Damage Calculator (0%)
+5. Passives (60%)
+6. Enemy Information (0%)
+7. Uptie/Threadspin Comparator (0%)
+8. Clash Calculator (0%)
+9. Damage Calculator (0%)
 
 ### Story Data 
 
@@ -47,4 +48,5 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 2. Item IDs (0%)
 3. Abnormality Observation Levels (0%)
 4. Battle Pass Information (0%)
-5. Automatic Updating of Bundles (20%)
+5. Announcer Voice Lines (0%)
+6. Automatic Updating of Bundles (20%)

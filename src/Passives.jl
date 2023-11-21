@@ -14,6 +14,7 @@ function PassiveHelp()
         """
     println(S)
 end
+#TODO: Given a passive -> Look up its owner
 
 function PassiveParser(input)
     if match(r"^!rand(om)?$", input) !== nothing 
@@ -81,7 +82,10 @@ function searchTopPassives(query, haystack, topN)
     tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
     ResultStrings = String[]
+
+    global PassivePreviousSearchResult
     empty!(PassivePreviousSearchResult)
+
     for (x, y) in result
         y2 = string(y)
         push!(PassivePreviousSearchResult, y)
@@ -98,6 +102,7 @@ end
 function printPassiveExactNumberInput(input)
     N = parse(Int, input)
 
+    global PassivePreviousSearchResult
     if !(1 ≤ N ≤ length(PassivePreviousSearchResult))
         @info "There are only $(length(PassivePreviousSearchResult)) passives in your previous search. You asked for the $N-th entry."
         return -1

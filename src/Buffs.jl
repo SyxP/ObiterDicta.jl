@@ -95,11 +95,15 @@ function searchTopBuffs(query, haystack, topN)
     tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
     ResultStrings = String[]
+    global BuffPreviousSearchResult
+    empty!(BuffPreviousSearchResult)
     for (x, y) in result
-        if x == y
+        push!(BuffPreviousSearchResult, y)
+        y2 = string(y)
+        if x == y2
             push!(ResultStrings, x)
         else
-            push!(ResultStrings, "$x ("* @dim(y) * ")")
+            push!(ResultStrings, "$x ("* @dim(y2) * ")")
         end
     end
     println(GridFromList(ResultStrings, 1; labelled = true))
@@ -113,12 +117,12 @@ function printBuffJSONList()
     return "data/StaticData/static-data/" .* JSONList
 end
 
-LastUsedBuffJSON = ""
+BuffPreviousSearchResult = []
 
 function printBuffFromJSONInternal(file)
     BuffDatabase = StaticData(file)["list"]
-    global LastUsedBuffJSON = file
     Names = [Buff["id"] for Buff in BuffDatabase]
+    global BuffPreviousSearchResult = Names
 
     tprintln("Listing the buffs in {yellow}$file{/yellow}: ")
     println(GridFromList(Names, 4; labelled = true))
@@ -127,7 +131,7 @@ end
 
 function printBuffMasterList(file)
     Names = [Buff["id"] for Buff in getBuffMasterList()]
-    global LastUsedBuffJSON = -1
+    global BuffPreviousSearchResult = Names
 
     tprintln("Listing all the buffs: ")
     println(GridFromList(Names, 4; labelled = true))
@@ -146,27 +150,20 @@ function printBuffFromJSON(input)
 end
 
 function printBuffExactNumberInput(num)
-    if LastUsedBuffJSON == ""
+    global BuffPreviousSearchResult
+    if length(BuffPreviousSearchResult) == 0
         @info "No previously searched `buff list`."
         return ""
     end
-    n = parse(Int, num)
 
-    if LastUsedBuffJSON == -1
-       if !(1 ≤ n ≤ length(BuffMasterList))
-           @info "There are only $(length(BuffMasterList)) buffs. You asked for the $n-th entry."
-           return ""
-       end
+    N = parse(Int, num)
 
-        return printSingleBuff(BuffMasterList[n]["id"])
-    end      
-
-    BuffDatabase = StaticData(LastUsedBuffJSON)["list"]
-    if !(1 ≤ n ≤ length(BuffDatabase))
-        @info "$(@red(LastUsedBuffJSON)) only has $(length(BuffDatabase)) entries. You asked for the $n-th entry."
+    if !(1 ≤ N ≤ length(BuffPreviousSearchResult))
+        @info "There are only $(length(BuffPreviousSearchResult)) buffs. You asked for the $N-th entry."
         return ""
     end
-    return printSingleBuff(BuffDatabase[n]["id"])
+
+    return printSingleBuff(BuffPreviousSearchResult[N])
 end
 
 # Data Retrieval

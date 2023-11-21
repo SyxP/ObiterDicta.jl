@@ -106,7 +106,7 @@ function SearchClosestString(needle, haystack; top = 1)
     norm(str) = String(filter(x -> !(x ∈ " '.…"), collect(lowercase(str))))
     normNeedle = norm(needle)
     function evaluator(newStr)
-        evaluate(Partial(DamerauLevenshtein()), norm(newStr), normNeedle)
+        evaluate(TokenMax(JaroWinkler()), norm(newStr), normNeedle)
     end
     
     return partialsort(haystack, 1:top; by = x -> evaluator(x[1]))

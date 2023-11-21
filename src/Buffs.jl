@@ -190,7 +190,7 @@ function getBuffJSONListfromStatic(dataClasses = PossibleDataClasses)
             push!(Files, "$dataClass/$file")
         end
     end
-
+    unique!(Files)
     return Files
 end
 

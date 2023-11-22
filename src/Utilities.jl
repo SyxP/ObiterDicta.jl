@@ -91,6 +91,15 @@ function GetFileListFromStatic(dataClasses)
     return Files
 end
 
+function superNormString(str::AbstractString)
+    newStr = Unicode.normalize(str; casefold = true,
+                                    stripmark = true,
+                                    stripignore = true,
+                                    stripcc = true)
+    
+    String(filter(x -> !(x ∈ " '.…"), collect(newStr)))
+end
+
 function SearchClosestString(needle, haystack; top = 1)
     # haystack is an array of tuples of the form (string, value)
     # Finds the closest string in haystack to needle
@@ -103,10 +112,9 @@ function SearchClosestString(needle, haystack; top = 1)
     end
 
 
-    norm(str) = String(filter(x -> !(x ∈ " '.…"), collect(lowercase(str))))
-    normNeedle = norm(needle)
+    normNeedle = superNormString(needle)
     function evaluator(newStr)
-        evaluate(TokenMax(JaroWinkler()), norm(newStr), normNeedle)
+        evaluate(TokenMax(JaroWinkler()), superNormString(newStr), normNeedle)
     end
     
     return partialsort(haystack, 1:top; by = x -> evaluator(x[1]))

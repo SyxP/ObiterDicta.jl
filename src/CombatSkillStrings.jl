@@ -180,15 +180,21 @@ function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbos
         end
     end
 
+    LongEntries = String[]
     if verbose
         while length(Entries) % 3 != 0
             push!(Entries, "")
         end
-        append!(Entries, getOtherFields(skill, tier))
+        TmpEntries, LongEntries = getOtherFields(skill, tier)
+        append!(Entries, TmpEntries)
     end
 
-    length(Entries) == 0 && return ""
-    return GridFromList(Entries, 3)
+    length(Entries) == 0 && length(LongEntries) == 0 && return ""
+    content = GridFromList(Entries, 3)
+    if length(LongEntries) > 0
+        content /= join(LongEntries, "\n") 
+    end
+    return content
 end
 
 getLocalizedAtkType(skill :: CombatSkill, tier = 999) = 
@@ -196,15 +202,20 @@ getLocalizedAtkType(skill :: CombatSkill, tier = 999) =
 
 function getOtherFields(skill :: CombatSkill, tier = 999)
     Entries = String[]
+    LongEntries = String[]
     EntriesToSkip = [x[2] for x in LocalCombatFields]
     for (key, value) in getInternalLevelList(skill, tier)
         key in EntriesToSkip && continue
         
         Tmp = EscapeAndFlattenField(value)
-        push!(Entries, "$(key): $(Tmp)")
+        if length(Tmp) < 20
+            push!(Entries, "$(key): $(Tmp)")
+        else
+            push!(LongEntries, "$(key): $(Tmp)")
+        end
     end
 
-    return Entries
+    return Entries, LongEntries
 end
 
 function getDescriptionString(skill :: CombatSkill, tier = 999)

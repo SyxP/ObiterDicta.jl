@@ -2,6 +2,7 @@ module ObiterDicta
     using ReplMaker
     using Term, Term.Layout, Term.Prompts
     using StringDistances
+    using Unicode
     using JSON
 
     function MainParser(input)

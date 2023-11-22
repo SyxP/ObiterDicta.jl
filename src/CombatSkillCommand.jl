@@ -50,7 +50,9 @@ function SkillParser(input)
     end
 
     S = match(r"^!rand$", input)
-    (S !== nothing) && return printRandom(CombatSkill)
+    (S !== nothing) && return printRandom(CombatSkill, false)
+    S = match(r"^(!rand ![vV](erbose)?)|(![vV](erbose)? !rand)$", input)
+    (S !== nothing) && return printRandom(CombatSkill, true)
 
     TopNumber = 1
     UseInternalIDs = false
@@ -99,8 +101,8 @@ SkillCommand = Command(SkillRegex, SkillParser, [1], SkillHelp)
 printSingle(skill :: CombatSkill, tier, offenseLevel, verbose) = 
     tprintln(InternalSkillPanel(skill, tier, offenseLevel; verbose = verbose))
 
-printRandom(::Type{CombatSkill}) = 
-    printSingle(rand(getMasterList(CombatSkill)), rand(1:4), -1, true)
+printRandom(::Type{CombatSkill}, verbose) = 
+    printSingle(rand(getMasterList(CombatSkill)), rand(1:4), -1, verbose)
 
 function searchSingleSkill(query, haystack, tier, offenseLevel, verbose)
     tprint("Using {red}$query{/red} as query")

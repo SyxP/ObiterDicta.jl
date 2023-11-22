@@ -92,12 +92,14 @@ function GetFileListFromStatic(dataClasses)
 end
 
 function superNormString(str::AbstractString)
-    newStr = Unicode.normalize(str; casefold = true,
-                                    stripmark = true,
-                                    stripignore = true,
-                                    stripcc = true)
-    
-    String(filter(x -> !(x ∈ " '.…"), collect(newStr)))
+    newStr = Unicode.normalize(str, :NFKD) 
+    newStr = Unicode.normalize(newStr; casefold = true,
+                                       stripmark = true,
+                                       stripignore = true,
+                                       stripcc = true)
+   
+    newStr = replace(newStr, "…" => "...", "’" => "'")
+    filter(!isspace, newStr)
 end
 
 function SearchClosestString(needle, haystack; top = 1)
@@ -110,7 +112,6 @@ function SearchClosestString(needle, haystack; top = 1)
         @error "SearchClosestString on empty haystack"
         return
     end
-
 
     normNeedle = superNormString(needle)
     function evaluator(newStr)

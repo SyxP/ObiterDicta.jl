@@ -91,6 +91,7 @@ function GetFileListFromStatic(dataClasses)
     return Files
 end
 
+# Can be memoized to speedup if it ever gets too slow
 function superNormString(str::AbstractString)
     newStr = Unicode.normalize(str, :NFKD) 
     newStr = Unicode.normalize(newStr; casefold = true,

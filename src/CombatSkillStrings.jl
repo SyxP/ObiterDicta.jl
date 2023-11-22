@@ -261,6 +261,7 @@ function getNormDescriptionString(skill :: CombatSkill, tier = 999)
     
     StrArr = getSkillExceptionChange.(StrArr)
     StrArr = replace.(StrArr, "\n" => " ", r"<[^<>]*>" => "")
+    filter!(!=(""), StrArr)
     Str = join(StrArr, "\n")
 
     for change in getSkillReplaceDict()

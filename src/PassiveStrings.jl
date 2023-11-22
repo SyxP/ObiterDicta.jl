@@ -104,7 +104,7 @@ function getTopLine(myPassive :: Passive)
         (Tmp !== nothing) && println(io, "{blue}$(name): {/blue} $Tmp")
     end
     
-    return TextBox(String(take!(io)))
+    return TextBox(String(take!(io)); width = 93, fit = false)
 end
 
 function getOtherFields(myPassive :: Passive)
@@ -143,9 +143,9 @@ function PassivePanel(myPassive :: Passive; subtitle = "")
     content = getTopLine(myPassive)
     OtherFields = getOtherFields(myPassive)
     if OtherFields != ""
-        LineBreak = hLine(94, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
+        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
         content /= LineBreak
-        content /= TextBox(OtherFields; width = 94, fit = false)
+        content /= TextBox(OtherFields; width = 93, fit = false)
     end
     
     return output = Panel(

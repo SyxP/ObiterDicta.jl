@@ -10,6 +10,10 @@ function DisplaySkillAsTree(SkillDict, Title = "")
         Title *= ")"
         delete!(myDict, "ability")
     end
+    if haskey(myDict, "scriptName")
+        Title *= " (Script: " * @red(myDict["scriptName"]) * ")"
+        delete!(myDict, "scriptName")
+    end
 
     function pn(io, node; kw...)
         # https://github.com/FedeClaudi/Term.jl/issues/206

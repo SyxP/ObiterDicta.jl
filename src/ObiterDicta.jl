@@ -31,6 +31,7 @@ module ObiterDicta
     include("LanguageInternalization.jl")
     include("DebugFunctions.jl")   
     include("KeywordLocalization.jl")
+    include("CoinStruct.jl")
 
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
@@ -38,11 +39,15 @@ module ObiterDicta
 
     # Utility Modes
     include("ExperienceLevels.jl")
+
     include("BuffStrings.jl")
     include("BuffCommand.jl")
+    
     include("PassiveStrings.jl")
     include("PassiveCommand.jl")
    
+    include("CombatSkillStrings.jl")
+
     function StartREPL()
         initrepl(MainParser, 
              prompt_text="Limbus Query> ",

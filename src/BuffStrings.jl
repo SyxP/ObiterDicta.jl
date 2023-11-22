@@ -4,6 +4,7 @@ end
 
 # mirror-dungeon-floor-buff seems to be duplicated inside buff.
 # TODO: The following Buff types are not supported ["panic-buff", "rail-Line2-buff"]
+# TODO: BuffAbilities only exist in localized form, but not in internal form. They are wrapped in other Buffs.
 getMasterFileClasses(::Type{Buff}) = ["buff"]
 
 function handleDataFile(::Type{Buff}, MasterList, file)
@@ -163,14 +164,14 @@ function InternalBuffPanel(buff :: Buff; subtitle = "")
     
     OtherFields = getOtherFieldsInternal(buff)
     if OtherFields != ""
-        LineBreak = hLine(94, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
+        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box = :DOUBLE)
         content /= LineBreak
-        content /= TextBox(OtherFields; width = 94, fit = false)
+        content /= TextBox(OtherFields; width = 93, fit = false)
     end
     
     Actions = getActionList(buff)
     if length(Actions) > 0
-        LineBreak = hLine(94, "{bold white}Actions{/bold white}"; box=:DOUBLE)
+        LineBreak = hLine(93, "{bold white}Actions{/bold white}"; box = :DOUBLE)
         content /= LineBreak
         for (i, Action) in enumerate(Actions)
             content /= DisplaySkillAsTree(Action, "Action $i")
@@ -202,9 +203,9 @@ function LocalizedBuffPanel(buff :: Buff; subtitle = "")
     
     OtherFields = getOtherFieldsLocalized(buff)
     if OtherFields != ""
-        LineBreak = hLine(94, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
+        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
         content /= LineBreak
-        content /= TextBox(OtherFields; width = 94, fit = false)
+        content /= TextBox(OtherFields; width = 93, fit = false)
     end
     
     if subtitle != ""

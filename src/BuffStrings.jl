@@ -95,7 +95,7 @@ function getLocalizedTopLine(buff :: Buff)
         (getDesc, "Description")]
         
         Tmp = fn(buff)
-        (Tmp !== nothing) && println(io, "{blue}$(name): {/blue} $(Tmp)")
+        (Tmp !== nothing) && println(io, @blue(name) * ": $(EscapeString(Tmp))")
     end
     
     Tmp = getUndefinedStatus(buff)

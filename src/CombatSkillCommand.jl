@@ -37,7 +37,16 @@ function SkillParser(input)
 
     S = match(r"^([0-9]+)$", input)
     if S !== nothing
-        return printSkillExactNumberInput(S.captures[1])
+        return printSkillExactNumberInput(S.captures[1], false)
+    end
+
+    S = match(r"^([0-9]+) +![vV](erbose)?$", input)
+    if S !== nothing
+        return printSkillExactNumberInput(S.captures[1], true)
+    end
+    S = match(r"^![vV](erbose)? ([0-9]+)$", input)
+    if S !== nothing
+        return printSkillExactNumberInput(S.captures[2], true)
     end
 
     S = match(r"^!rand$", input)
@@ -56,7 +65,7 @@ function SkillParser(input)
     Applications[r"^![tT]op$"] = () -> (TopNumber = 5)
     Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x))
     Applications[r"^![tT]ier([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
-    Applications[r"^![oO](ffense)(level|lvl)([0-9]+)$"] = (_, _, x) -> (OffenseLevel = parse(Int, x))
+    Applications[r"^![oO](ffense)?(level|lvl)([0-9]+)$"] = (_, _, x) -> (OffenseLevel = parse(Int, x))
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -170,7 +179,7 @@ function printSkillFromJSON(input)
     return printSkillFromJSONInternal(result[begin][begin])
 end
 
-function printSkillExactNumberInput(num)
+function printSkillExactNumberInput(num, verbose)
     global SkillPreviousSearchResult
     if length(SkillPreviousSearchResult) == 0
         @info "No previously search `skill list`."
@@ -184,5 +193,5 @@ function printSkillExactNumberInput(num)
         return -1
     end
 
-    return printSingle(SkillPreviousSearchResult[N], 999, -1, true)
+    return printSingle(SkillPreviousSearchResult[N], 999, -1, verbose)
 end

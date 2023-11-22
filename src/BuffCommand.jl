@@ -131,7 +131,7 @@ end
 
 function printMasterList(::Type{Buff})
     Names = getMasterList(Buff)
-    global BuffPreviousSearchResult = Names
+    global BuffPreviousSearchResult = copy(Names)
 
     tprintln("Listing all the buffs: ")
     println(GridFromList(getID.(Names), 4; labelled = true))

@@ -151,7 +151,7 @@ end
 
 function printMasterList(::Type{CombatSkill})
     Names = getMasterList(CombatSkill)
-    global SkillPreviousSearchResult = Names
+    global SkillPreviousSearchResult = copy(Names)
     
     tprintln("Listing all the skills:")
     println(GridFromList(getPrintTitle.(Names), 3; labelled = true))

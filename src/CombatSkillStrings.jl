@@ -291,12 +291,6 @@ function getActionsString(skill :: CombatSkill, tier = 999)
     return content
 end
 
-function DebugTmp(skill :: CombatSkill, tier = 999)
-    entry = getInternalLevelList(skill, tier)
-    DisplaySkillAsTree(entry) |> tprintln
-    return getID(skill)
-end
-
 function getTitle(skill :: CombatSkill, tier = 999)
     io = IOBuffer()
     Str = getName(skill, tier)

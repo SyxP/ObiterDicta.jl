@@ -12,7 +12,7 @@ To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>`
 
 1. EXP Tables (100%)
 2. Buffs / Status Effects (100%)
-3. Skills (70%)
+3. Skills (100%)
 4. Identities (0%)
 5. E.G.O (0%)
 6. Passives (100%)

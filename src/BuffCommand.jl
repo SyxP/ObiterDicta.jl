@@ -1,7 +1,7 @@
 # Buff Command
 
 function BuffHelp()
-    S = raw"""Looks up Buffs (Status Effects). Available Commands
+    S = raw"""Looks up Buffs (Status Effects). Available Commands:
               `buff list jsons`         - List all internal JSONs.
               `buff list all`           - List all buffs. (*)
               `buff list _bundle.json_` - List all buffs in _bundle.json_. (*)
@@ -9,7 +9,7 @@ function BuffHelp()
               
               Available Flags:
               !v/!verbose  - Outputs the internal buff data.
-              !top_num_    - Outputs the top _num_ buffs matching the query. Default is 5.
+              !top_num_    - Outputs the top _num_ buffs matching the query. Default is 5. (*)
               !i/!internal - Only performs the query on internal buff names.
               
               After (*), `buff _number_` will directly output the corresponding buff.
@@ -23,17 +23,13 @@ end
 
 function BuffParser(input)
     S = match(r"list jsons?$", input)
-    if S !== nothing
-        return printBuffJSONList()
-    end
+    (S !== nothing) && return printJSONList(Buff)
+    
     S = match(r"^list all$", input)
-    if S !== nothing
-        return printMasterList(Buff)
-    end
+    (S !== nothing) && return printMasterList(Buff)
+    
     S = match(r"list (.*)$", input)
-    if S !== nothing
-        return printBuffFromJSON(S.captures[1])
-    end
+    (S !== nothing) && return printBuffFromJSON(S.captures[1])
 
     S = match(r"^([0-9]+)$", input)
     if S !== nothing
@@ -114,7 +110,7 @@ function searchTopBuffs(query, haystack, topN)
     return result
 end
 
-function printBuffJSONList()
+function printJSONList(::Type{Buff})
     println("Listing the contents of $(join(getMasterFileClasses(Buff), ", ")): ")
     JSONList = getMasterFileList(Buff)
     println(GridFromList(JSONList, 2; labelled = true))
@@ -134,7 +130,7 @@ function printBuffFromJSONInternal(file)
 end
 
 function printMasterList(::Type{Buff})
-    Names = [Buff(buff["id"]) for buff in getMasterList(Buff)]
+    Names = getMasterList(Buff)
     global BuffPreviousSearchResult = Names
 
     tprintln("Listing all the buffs: ")

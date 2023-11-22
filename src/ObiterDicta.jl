@@ -5,7 +5,8 @@ module ObiterDicta
     using JSON
 
     function MainParser(input)
-        Commands = [SetLangCommand, HelpCommand, EXPCommand, BuffCommand, PassiveCommand]
+        Commands = [SetLangCommand, HelpCommand, EXPCommand, 
+                    BuffCommand, PassiveCommand, SkillCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S
@@ -47,6 +48,7 @@ module ObiterDicta
     include("PassiveCommand.jl")
    
     include("CombatSkillStrings.jl")
+    include("CombatSkillCommand.jl")
 
     function StartREPL()
         initrepl(MainParser, 

@@ -305,6 +305,25 @@ function getTitle(skill :: CombatSkill, tier = 999)
     return  String(take!(io))
 end
 
+function getPrintTitle(skill :: CombatSkill, tier = 999)
+    io = IOBuffer()
+    Str = getName(skill, tier)
+    hasPrinted = false
+    if Str !== nothing && Str != ""
+        hasPrinted = true
+        print(io, Str)
+    end
+
+    Str = getStringID(skill)
+    if hasPrinted
+        print(io, " ($(@dim(Str)))")
+    else
+        print(io, Str)
+    end
+
+    return String(take!(io))
+end
+
 function getSubtitle(skill :: CombatSkill, tier = 999)
     io = IOBuffer()
     Str = getSinType(skill, tier)

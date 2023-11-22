@@ -36,7 +36,6 @@ function getInternalVersion(mySkill :: CombatSkill; dontWarn = !DebugMode)
     return
 end
 
-
 function getLocalizedVersion(mySkill :: CombatSkill; dontWarn = !DebugMode)
     for SkillList in getLocalizedList(CombatSkill)
         if !haskey(SkillList, "dataList")
@@ -169,15 +168,15 @@ function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbos
         S = fn(skill, tier)
         S == "" && continue
         S === defVal && continue
-        push!(Entries, "$(@blue(key)) => $(string(S))")
+        push!(Entries, "$(@blue(key)): $(string(S))")
     end
 
     tmp = getOffLevelCorrection(skill, tier)
     if tmp !== nothing
         if offenseLvl == -1 
-            push!(Entries, "$(@blue("Offense Level Corr.")) => $tmp")
+            push!(Entries, "$(@blue("Offense Level Corr.")): $tmp")
         else
-            push!(Entries, "$(@blue("Offense Level")) => $(offenseLvl + tmp) ($tmp)")
+            push!(Entries, "$(@blue("Offense Level")): $(offenseLvl + tmp) ($tmp)")
         end
     end
 
@@ -202,7 +201,7 @@ function getOtherFields(skill :: CombatSkill, tier = 999)
         key in EntriesToSkip && continue
         
         Tmp = EscapeAndFlattenField(value)
-        push!(Entries, "$(key) => $(Tmp)")
+        push!(Entries, "$(key): $(Tmp)")
     end
 
     return Entries
@@ -246,8 +245,21 @@ function getDescriptionString(skill :: CombatSkill, tier = 999)
     return AnsArr
 end
 
+function SkillDescriptionStringExceptions()
+    return [("<Mechanical Amalgam>" => "[Mechanical Amalgam]")]
+end
+
+function getSkillExceptionChange(Str)
+    for change in SkillDescriptionStringExceptions()
+        Str = replace(Str, change)
+    end
+    return Str
+end
+
 function getNormDescriptionString(skill :: CombatSkill, tier = 999)
     StrArr = getDescriptionString(skill, tier)
+    
+    StrArr = getSkillExceptionChange.(StrArr)
     StrArr = replace.(StrArr, "\n" => " ", r"<[^<>]*>" => "")
     Str = join(StrArr, "\n")
 

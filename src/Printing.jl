@@ -11,7 +11,12 @@ function DisplaySkillAsTree(SkillDict, Title = "")
         delete!(myDict, "ability")
     end
     if haskey(myDict, "scriptName")
-        Title *= " (Script: " * @red(myDict["scriptName"]) * ")"
+        S = myDict["scriptName"]
+        (length(S) > 55) && (Title *= "\n")
+        if length(S) > 80
+            S = S[1:60] * "\n" * (" "^length("(Script:  ")) * S[61:end]
+        end
+        Title *= " (Script: " * @red(S) * ")"
         delete!(myDict, "scriptName")
     end
 

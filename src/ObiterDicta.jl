@@ -25,7 +25,7 @@ module ObiterDicta
         println(S)
     end
 
-    # Back End Functions
+    # Back-End Functions
     include("Command.jl")
     include("Printing.jl")
     include("LanguageInternalization.jl")
@@ -34,11 +34,14 @@ module ObiterDicta
 
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
+    include("CommonInterface.jl")
 
     # Utility Modes
     include("ExperienceLevels.jl")
-    include("Buffs.jl")
-    include("Passives.jl")
+    include("BuffStrings.jl")
+    include("BuffCommand.jl")
+    include("PassiveStrings.jl")
+    include("PassiveCommand.jl")
    
     function StartREPL()
         initrepl(MainParser, 

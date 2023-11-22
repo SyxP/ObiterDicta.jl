@@ -28,6 +28,14 @@ function EscapeString(Str)
     replace(Str, "{" => "[[", "}" => "]]")
 end
 
+function EscapeAndFlattenField(value)
+    if value isa Vector
+        return "["*join(string.(value), ", ")*"]"
+    else
+        return EscapeString(string(value))
+    end
+end
+
 function GridFromList(StringList, columns = 1; labelled = false)
     n = ceil(Int, log10(1 + length(StringList)))
     StringCols = fill("", columns)

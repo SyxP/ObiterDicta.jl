@@ -22,6 +22,7 @@ module ObiterDicta
                   lang (Set Language)
                   exp (Experience Levels)
                   buff (Status Effects)
+                  skill (Skills)
     
                   For more information you can use `[command] help`
             """

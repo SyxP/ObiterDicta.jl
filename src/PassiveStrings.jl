@@ -50,6 +50,7 @@ function getLocalizedVersion(myPassive :: Passive; dontWarn = !DebugMode)
         end
 
         for passive in PassiveList["dataList"]
+            length(passive) == 0 && continue
             (passive["id"] == myPassive.id) && return passive
         end
     end

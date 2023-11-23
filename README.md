@@ -43,11 +43,16 @@ To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>`
 
 For Mirror Dungeon, as the content may be revamp in the near future, may require specific backups to ensure the data is not lost.
 
-### Miscellaneous
+### Miscellaneous Story
 
 1. Dante's Notes (0%)
-2. Item IDs (0%)
-3. Abnormality Observation Levels (0%)
-4. Battle Pass Information (0%)
-5. Announcer Voice Lines (0%)
-6. Automatic Updating of Bundles (20%)
+2. Abnormality Observation Levels (0%)
+3. Manager Card Taglines (0%)
+4. Identity Uptie Stories (0%)
+
+### Miscellaneous Utility
+
+1. Item IDs (0%)
+2. Battle Pass Information (0%)
+3. Announcer Voice Lines (0%)
+4. Automatic Updating of Bundles (20%)

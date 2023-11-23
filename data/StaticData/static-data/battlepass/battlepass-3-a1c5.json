@@ -3,7 +3,7 @@
     {
       "id": 3,
       "isCurrentForUI": true,
-      "currentPartitionForUI": 0,
+      "currentPartitionForUI": 1,
       "isExRewardAcquirable": false,
       "limbusExRewardAcquireType": "COLLECT_FROM_MAX_LEVEL",
       "exRewardStartDate": "2023-11-30T03:00:00.000Z",
@@ -33,7 +33,7 @@
           },
           {
             "index": 1,
-            "partialStartDate": "2023-11-23T03:00:00.000Z",
+            "partialStartDate": "2023-11-17T03:00:00.000Z",
             "partialMaxLevel": 40
           },
           {

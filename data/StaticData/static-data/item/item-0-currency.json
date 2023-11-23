@@ -29,6 +29,11 @@
       "id": 4,
       "category": "NORMAL",
       "spriteStr":"reason"
+    },
+	{
+      "id": 5,
+      "category": "NORMAL",
+      "spriteStr":"egoshard"
     }
   ]
 }

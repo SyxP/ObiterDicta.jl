@@ -512,6 +512,105 @@
           1030521
         ]
       }
+    },
+    {
+      "id": 10306,
+      "appearance": "10306_Donquixote_MiddleFingerAppearance",
+      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "characterId": 3,
+      "panicType": 9999,
+      "season": 3,
+      "defenseSkillIDList": [
+        1030604,
+        1030605
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 86,
+        "incrementByLevel": 2.96
+      },
+      "defCorrection": 5,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          50,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1030601,
+          "number": 3
+        },
+        {
+          "skillId": 1030602,
+          "number": 2
+        },
+        {
+          "skillId": 1030603,
+          "number": 1
+        }
+      ]
     }
   ]
 }

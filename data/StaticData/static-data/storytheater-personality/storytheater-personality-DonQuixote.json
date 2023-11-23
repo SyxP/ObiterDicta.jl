@@ -74,7 +74,22 @@
             ],
             "profileId": "cinq_donquixote_profile",
             "analysisId": "cinq_donquixote_analysis"
-        }
+          },
+          {
+            "personalityId": 10306,
+            "releaseDay": 20231123,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10306",
+                "lockCondition": "gacksung",
+                "order": 2,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "middlefinger_donquixote_profile",
+            "analysisId": "middlefinger_donquixote_analysis"
+          }
         ]
     }
   ]

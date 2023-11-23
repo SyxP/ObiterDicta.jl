@@ -6,7 +6,6 @@
       "egoType": "ZAYIN",
       "egoClass": 1,
       "season": 0,
-      "skillTier": 3,
       "attributeResistList": [
         {
           "type": "CRIMSON",
@@ -80,7 +79,6 @@
       "egoType": "HE",
       "egoClass": 2,
       "season": 1,
-      "skillTier": 3,
       "attributeResistList": [
         {
           "type": "CRIMSON",
@@ -155,7 +153,6 @@
       "egoType": "TETH",
       "egoClass": 2,
       "season": 0,
-      "skillTier": 3,
       "attributeResistList": [
         {
           "type": "CRIMSON",
@@ -234,7 +231,6 @@
       "egoType": "HE",
       "egoClass": 2,
       "season": 0,
-      "skillTier": 3,
       "attributeResistList": [
         {
           "type": "CRIMSON",
@@ -314,7 +310,6 @@
       "egoClass": 2,
       "season": 2,
       "additionalAttachment": "EVENT",
-      "skillTier": 3,
       "attributeResistList": [
         {
           "type": "CRIMSON",

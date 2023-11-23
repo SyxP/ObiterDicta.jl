@@ -16,7 +16,11 @@
                 "battle-coin-choice-event-a1c5p1",
                 "battle-action-choice-event-a1c5p1",
                 "sdungeon-coin-choice-event-a1c5p1",
-                "sdungeon-action-choice-event-a1c5p1"
+                "sdungeon-action-choice-event-a1c5p1",
+                "battle-coin-choice-event-a1c5p2",
+                "battle-action-choice-event-a1c5p2",
+                "sdungeon-coin-choice-event-a1c5p2",
+                "sdungeon-action-choice-event-a1c5p2"
             ]
         },
         {
@@ -27,7 +31,8 @@
                 "abnormality-refraction-part",
                 "abnormality-refraction2-part",
                 "abnormality-part91-4",
-                "abnormality-part-a1c5p1"
+                "abnormality-part-a1c5p1",
+                "abnormality-part-a1c5p2"
             ]
         },
         {
@@ -38,7 +43,8 @@
                 "abnormality-refraction-unit",
                 "abnormality-refraction2-unit",
                 "abnormality-unit91-4",
-                "abnormality-unit-a1c5p1"
+                "abnormality-unit-a1c5p1",
+                "abnormality-unit-a1c5p2"
             ]
         },
         {
@@ -68,7 +74,8 @@
                 "rail-line-2-buff",
                 "rail-line-2-content-buff",
                 "typo-only-buff",
-                "buff-enemy-a1c5p1"
+                "buff-enemy-a1c5p1",
+                "buff-enemy-a1c5p2"
             ]
         },
         {
@@ -93,7 +100,7 @@
         {
             "dataClass": "part",
             "fileList": [
-                "part-a1c5p1"
+                "part-a1c5p2"
             ]
         },
         {
@@ -122,7 +129,8 @@
                 "ego-9",
                 "ego-10",
                 "ego-11",
-                "ego-12"
+                "ego-12",
+                "ego-a1c5p2"
             ]
         },
         {
@@ -130,7 +138,8 @@
             "fileList": [
                 "ego-gift",
                 "hidden-ego-gift-storydungeon",
-                "ego-gift-a1c5p1"
+                "ego-gift-a1c5p1",
+                "ego-gift-a1c5p2"
             ]
         },
         {
@@ -146,7 +155,8 @@
             "fileList": [
                 "enemy",
                 "enemy91-4",
-                "enemy-a1c5p1"
+                "enemy-a1c5p1",
+                "enemy-a1c5p2"
             ]
         },
         {
@@ -171,7 +181,8 @@
                 "gacha-139",
                 "gacha-140",
                 "gacha-141",
-                "gacha-142"
+                "gacha-142",
+                "gacha-143"
             ]
         },
         {
@@ -198,7 +209,8 @@
                 "passive-mr2",
                 "passive_check4",
                 "passive-ego",
-                "passive-enemy-a1c5p1"
+                "passive-enemy-a1c5p1",
+                "passive-enemy-a1c5p2"
             ]
         },
         {
@@ -271,7 +283,10 @@
                 "personality-skill-12",
                 "enemy-skill91-4",
                 "skill-enemy-a1c5p1",
-                "skill-abnormality-a1c5p1"
+                "skill-abnormality-a1c5p1",
+                "skill-enemy-a1c5p2",
+                "skill-abnormality-a1c5p2",
+                "ego-skill-a1c5p2"
             ]
         },
         {
@@ -285,7 +300,8 @@
                 "storybattle1-4",
                 "stage_Test",
                 "stage_Tutorial",
-                "storybattle-a1c5p1"
+                "storybattle-a1c5p1",
+                "storybattle-a1c5p2"
             ]
         },
         {
@@ -296,7 +312,8 @@
                 "dungeonbattle1-3",
                 "dungeonbattle1-4",
                 "dungeonbattle91-3",
-                "dungeonbattle-a1c5p1"
+                "dungeonbattle-a1c5p1",
+                "dungeonbattle-a1c5p2"
             ]
         },
         {
@@ -307,7 +324,8 @@
                 "abbattle1-3",
                 "abbattle1-4",
                 "abbattle91-3",
-                "abbattle-a1c5p1"
+                "abbattle-a1c5p1",
+                "abbattle-a1c5p2"
             ]
         },
         {
@@ -331,7 +349,8 @@
                 "stagenodereward91-3",
                 "stagenodereward1-4",
                 "stagenodereward91-4",
-                "stagenodereward-a1c5p1"
+                "stagenodereward-a1c5p1",
+                "stagenodereward-a1c5p2"
             ]
         },
         {
@@ -343,7 +362,7 @@
         {
             "dataClass": "dungeon",
             "fileList": [
-                "dungeon"
+              "dungeon"
             ]
         },
         {
@@ -436,7 +455,7 @@
                 "storytheater-main-102",
                 "storytheater-main-103",
                 "storytheater-main-104",
-                "storytheater-main-a1c5p1"
+                "storytheater-main-a1c5p2"
             ]
         },
         {
@@ -469,7 +488,8 @@
                 "storytheater-other-9104",
                 "storytheater-other-9010",
                 "storytheater-other-9011",
-                "storytheater-other-a1c5p1"
+                "storytheater-other-a1c5p1",
+                "storytheater-other-a1c5p2"
             ]
         },
         {
@@ -558,7 +578,9 @@
                 "cutscene-ego",
                 "cutscene",
                 "cutscene-a1c5p1",
-                "cutscene-ego-a1c5p1"
+                "cutscene-ego-a1c5p1",
+                "cutscene-a1c5p2",
+                "cutscene-ego-a1c5p2"
             ]
         },
         {
@@ -592,7 +614,8 @@
                 "refraction-abnormality-part-status-ui-position",
                 "refraction2-abnormality-part-status-ui-position",
                 "mirror-abnormality-part-status-ui-position",
-                "ab-part-status-ui-position-a1c5p1"
+                "ab-part-status-ui-position-a1c5p1",
+                "ab-part-status-ui-position-a1c5p2"
             ]
         },
         {
@@ -613,7 +636,8 @@
             "dataClass": "stage-progress-reward",
             "fileList": [
                 "stage-progress-reward",
-                "stage-progress-reward-a1c5p1"
+                "stage-progress-reward-a1c5p1",
+                "stage-progress-reward-a1c5p2"
             ]
         },
         {
@@ -781,7 +805,7 @@
             "dataClass": "subchapter-detail",
             "fileList": [
                 "subchapter-detail",
-                "subchapter-detail-a1c5p1"
+                "subchapter-detail-a1c5p2"
             ]
         },
         {
@@ -811,15 +835,16 @@
         },
         {
             "dataClass": "story-dungeon-map-illust",
-            "fileList": [
-                "story-dungeon-map-illust"
-            ]
+          "fileList": [
+            "story-dungeon-map-illust"
+          ]
         },
         {
             "dataClass": "restrict-participation",
             "fileList": [
                 "restrict-participation-1",
-                "restrict-participation-a1c5p1"
+                "restrict-participation-a1c5p1",
+                "restrict-participation-a1c5p2"
             ]
         },
         {

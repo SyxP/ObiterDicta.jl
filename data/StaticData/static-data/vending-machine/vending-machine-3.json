@@ -12,6 +12,11 @@
 					"contents": [
 						{
 							"type": "PERSONALITY",
+							"id": 10306,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
 							"id": 11207,
 							"price": 400
 						},
@@ -20,6 +25,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 10406,
+							"price": 150
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 10507,
 							"price": 150
 						}
 					]

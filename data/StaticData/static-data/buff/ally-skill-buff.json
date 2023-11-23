@@ -164,6 +164,28 @@
       "canBeDespelled": true,
       "list": [
       ]
+    },
+    {
+      "id": "Resentment",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 5,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "Resentment"
+        }
+      ]
+    },
+    {
+      "id": "RetaliationBook",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "totalStack": 1,
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "list": [
+      ]
     }
   ]
 }

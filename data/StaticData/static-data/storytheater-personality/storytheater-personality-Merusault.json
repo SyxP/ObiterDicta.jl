@@ -89,7 +89,22 @@
            ],
            "profileId": "rcorp_meursault_profile",
            "analysisId": "rcorp_meursault_analysis"
-         }
+         },
+         {
+          "personalityId": 10507,
+          "releaseDay": 20231123,
+          "cv_Id": "",
+          "personalityStoryList": [
+            {
+              "storyId": "P10507",
+              "lockCondition": "gacksung",
+              "order": 3,
+              "reward":{"type":"ITEM","id":2,"num":40}
+            }
+          ],
+          "profileId": "middlefinger_meursault_profile",
+          "analysisId": "middlefinger_meursault_analysis"
+        }
         ]
     }
   ]

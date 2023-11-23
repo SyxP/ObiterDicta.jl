@@ -307,6 +307,23 @@
       ]
     },
     {
+      "id": 10306,
+      "pivotList": [
+        {
+          "cutsceneType": "GACKSUNG_BEFORE",
+          "offsetX": -0.08,
+          "offsetY": 0.1,
+          "closeUp": 0.72
+        },
+        {
+          "cutsceneType": "GACKSUNG_AFTER",
+          "offsetX": 0.16,
+          "offsetY": 0.17,
+          "closeUp": 0.78
+        }
+      ]
+    },
+    {
       "id": 10401,
       "pivotList": [
         {
@@ -507,6 +524,23 @@
           "offsetX": -0.26,
           "offsetY": 0.18,
           "closeUp": 0.76
+        }
+      ]
+    },
+    {
+      "id": 10507,
+      "pivotList": [
+        {
+          "cutsceneType": "GACKSUNG_BEFORE",
+          "offsetX": 0.01,
+          "offsetY": 0.25,
+          "closeUp": 0.69
+        },
+        {
+          "cutsceneType": "GACKSUNG_AFTER",
+          "offsetX": -0.08,
+          "offsetY": 0.19,
+          "closeUp": 1.05
         }
       ]
     },

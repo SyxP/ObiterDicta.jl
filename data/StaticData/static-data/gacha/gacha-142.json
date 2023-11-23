@@ -6,8 +6,8 @@
       "endDate": "2023-11-30T00:59:59.000Z",
       "bannerInfo": {
         "endDate": "2023-11-30T00:59:59.000Z",
-        "bannerType": "TEMPORARY_MAIN",
-        "priority": 100,
+        "bannerType": "TEMPORARY_SUB",
+        "priority": 99,
         "pickupIdList": [ 11207, 10406 ],
         "illustList": [ "gacha_142_illust" ],
         "videoList": [ "11207_1", "10406_1" ]
@@ -117,6 +117,7 @@
             10402,
             10502,
             10505,
+            10507,
             10602,
             10604,
             10606,
@@ -192,6 +193,7 @@
             10206,
             10302,
             10305,
+            10306,
             10403,
             10405,
             10503,

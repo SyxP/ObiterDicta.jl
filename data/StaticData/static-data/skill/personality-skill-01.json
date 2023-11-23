@@ -2799,7 +2799,7 @@
                     "buffKeyword": "ChargeForceField",
                     "target": "Self",
                     "buffOwner": "",
-                    "stack": 5,
+                    "stack": 3,
                     "turn": 0,
                     "activeRound": 0
                   }

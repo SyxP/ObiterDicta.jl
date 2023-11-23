@@ -586,6 +586,104 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 10507,
+      "appearance": "10507_Meursault_MiddleFingerAppearance",
+      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "characterId": 5,
+      "panicType": 9999,
+      "season": 3,
+      "defenseSkillIDList": [
+        1050704
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.82
+      },
+      "defCorrection": 3,
+      "minSpeedList": [
+        3,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          55,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1050701,
+          "number": 3
+        },
+        {
+          "skillId": 1050702,
+          "number": 2
+        },
+        {
+          "skillId": 1050703,
+          "number": 1
+        }
+      ]
     }
   ]
 }

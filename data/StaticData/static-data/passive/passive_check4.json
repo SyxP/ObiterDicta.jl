@@ -157,6 +157,18 @@
       ]
     },
     {
+      "id": 1050711,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
+          "value": 3
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel4"
+      ]
+    },
+    {
       "id": 1020511,
       "attributeStockCondition": [
         {
@@ -269,6 +281,18 @@
       "attributeStockCondition": [
         {
           "type": "SHAMROCK",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel4"
+      ]
+    },
+    {
+      "id": 1030611,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
           "value": 4
         }
       ],

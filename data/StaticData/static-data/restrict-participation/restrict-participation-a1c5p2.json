@@ -1,0 +1,14 @@
+{
+    "list": [
+        {
+            "stageType": "NORMAL_BATTLE",
+            "restrictList": [
+                {
+                    "id" : 10532,
+                    "restrictFriendSupportIds": [ 8 ],
+                    "mustParticipateIds": [ 8 ]
+                }
+            ]
+        }
+    ]
+}

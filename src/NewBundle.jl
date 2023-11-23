@@ -2,13 +2,13 @@ using JSON, Downloads
 
 # This file's goal is to get the new bundle information each week, from the `catalog_S1` file.
 #
-# 1. Put the catalog_S1 in ./
+# 1. Put the catalog_S1
 # 2. Run `DownloadBundles()` 
 # 3. Use AssetRipper/AssetDumper on `localize_s1` and `static_s1` Bundles
 #    to get the two folders `Localize` and `StaticData`
 #
 
-function parseCatalog(file = "catalog_S1.json") 
+function parseCatalog(file = "$DataDir/src/catalog_S1.json") 
     # Read file
     io = open(file, "r")
     CatalogJSON = JSON.parse(read(io, String))
@@ -32,7 +32,7 @@ function CheckProposedLocation(Location)
     mkdir(Location)
 end
 
-function DownloadBundle(bundleURL, bundleLocation =  "Bundles/")
+function DownloadBundle(bundleURL, bundleLocation =  "$DataDir/Bundles/")
     CheckProposedLocation(bundleLocation)
     filePath = bundleLocation * split(bundleURL, "/")[end]
     @info "Downloading $filePath"
@@ -49,10 +49,12 @@ function DownloadBundle(bundleURL, bundleLocation =  "Bundles/")
     return true
 end
 
-function DownloadBundles(bundleLocation = "Bundles/")
+function DownloadAllBundles(bundleLocation = "$DataDir/Bundles/")
     URLs = parseCatalog()
     for url in URLs
         DownloadBundle(url, bundleLocation)
         sleep(0.2) # To not overwhelm the server
     end
 end
+
+function DownloadDataBundles(bundleLocation = "$DataDir/Bundles/")

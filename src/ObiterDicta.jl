@@ -4,6 +4,7 @@ module ObiterDicta
     using StringDistances
     using Unicode
     using JSON
+    using Downloads
 
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand, 

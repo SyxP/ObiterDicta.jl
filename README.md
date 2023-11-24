@@ -6,6 +6,8 @@ To install, use `]add https://github.com/SyxP/ObiterDicta.jl` and `using ObiterD
 
 To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>` mode via ')'.
 
+Chinese translations are from https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany
+
 ## Features
 
 ### General

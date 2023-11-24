@@ -1,23 +1,24 @@
 # The purpose of this file is to ease in the updating process of translations.
 
-function updateCN()
+function updateTranslation(lang, refSite)
     global git_download_cache
-    refSite = "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany"
-    cnPath = joinpath(git_download_cache, "cn")
-    localCNPath = joinpath(DataDir, "Localize", "cn")
-    !isdir(localCNPath) && mkdir(localCNPath)
+    llang, ulang = lowercase(lang), uppercase(lang)
 
-    if isdir(cnPath)
-        run(`$(git()) -C $(cnPath) pull`)
+    srcPath = joinpath(git_download_cache, llang)
+    localPath = joinpath(DataDir, "Localize", llang)
+    !isdir(localPath) && mkdir(localPath)
+
+    if isdir(srcPath)
+        run(`$(git()) -C $(srcPath) pull`)
     else
-        mkdir(cnPath)
-        run(`$(git()) clone $refSite $(cnPath)`)
+        mkdir(srcPath)
+        run(`$(git()) clone $refSite $(srcPath)`)
     end
 
-    newHome = joinpath(cnPath, "Localize", "CN")
+    newHome = joinpath(srcPath, "Localize", ulang)
     for (root, dirs, files) in walkdir(newHome)
         for dir in dirs
-            path = joinpath(localCNPath, dir)
+            path = joinpath(localPath, dir)
             !isdir(path) && mkdir(path)
         end
         Ct = length(newHome) + 1
@@ -29,17 +30,12 @@ function updateCN()
         
         for file in files
             Src = joinpath(root, file)
-            Dest = joinpath(localCNPath, currentFolder, "CN_" * file)
+            Dest = joinpath(localPath, currentFolder, "$(ulang)_" * file)
             cp(Src, Dest, force = true)
         end
     end
 end
 
-# Downloads a resource, stores it within a scratchspace
-function download_dataset(url)
-    fname = joinpath(download_cache, basename(url))
-    if !isfile(fname)
-        download(url, fname)
-    end
-    return fname
-end
+updateCN() = updateTranslation("cn",
+             "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany")
+

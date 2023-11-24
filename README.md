@@ -8,6 +8,8 @@ To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>`
 
 Chinese translations are from https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany
 
+Russian translations are from https://github.com/Crescent-Corporation/LimbusCompanyBusRUS
+
 ## Features
 
 ### General

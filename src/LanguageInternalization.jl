@@ -3,6 +3,7 @@
     Japanese = 2
     Korean   = 3
     Chinese  = 4
+    Russian  = 5
 end 
 
 global CurrLanguage = English
@@ -13,7 +14,8 @@ function setLangMode(langStr)
             "english" => English, "en" => English, "eng" => English, 
             "japanese" => Japanese, "ja" => Japanese, "jp" => Japanese, "jap" => Japanese, 
             "korean" => Korean, "ko" => Korean, "kr" => Korean, "kor" => Korean,
-            "chinese" => Chinese, "zh" => Chinese, "cn" => Chinese])
+            "chinese" => Chinese, "zh" => Chinese, "cn" => Chinese,
+            "russian" => Russian, "ru" => Russian, "rus" => Russian])
     if haskey(Options, tmpStr)
         @info "Language Mode set to $langStr"
         global CurrLanguage = Options[tmpStr]
@@ -32,7 +34,7 @@ function setLangModeHelp()
 end
 
 function getLangMode()
-    Options = Dict{LangMode, String}(English => "en", Japanese => "jp", Korean => "kr", Chinese => "cn")
+    Options = Dict{LangMode, String}(English => "en", Japanese => "jp", Korean => "kr", Chinese => "cn", Russian => "ru")
     if haskey(Options, CurrLanguage)
         return Options[CurrLanguage]
     else

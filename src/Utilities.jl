@@ -50,7 +50,12 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
         global LocalizeDatabase[(Name, CurrLang)] = JSON.parsefile(filePath)
     catch ex
         DebugMode && @warn "Unable to load $filePath" # Incomplete Translation
-        return Dict{String, Any}()
+        if CurrLang == English
+            @warn "No English files exists for $filePath"
+            rethrow(ex)
+        else
+            return LocalizedData(Name, English)
+        end
     end
 
     return LocalizeDatabase[(Name, CurrLang)]

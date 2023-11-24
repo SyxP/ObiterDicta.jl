@@ -1,0 +1,245 @@
+{
+  "dataList": [
+    {
+      "id": 1040501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ПЭ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ПЭ",
+          "desc": "При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит +10% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПЭ",
+          "desc": "При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит +10% урона\nПри 15+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит дополнительные +10% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к Режущему урону"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +15% урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 6\nСила монет +1 при 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к Режущему урону"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +20% урона"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7\nСила монет +1 при 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nПри 15+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получает дополнительную +1 силу монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Режущему урону</link></u></color>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +30% урона"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "ПППДЛ",
+          "desc": "[WhenUse] При 7~14 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ, чтобы получить +3 силы монет\n[WhenUse] Тратит 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +3 силы монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Если эта атака потратила 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> при использовании, она и любой союзник получают 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</color></link></u>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПППДЛ",
+          "desc": "[WhenUse] При 7~14 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ чтобы получить +5 силы монет\n[WhenUse] Тратит 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +5 силы монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Если эта атака потратила 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> при использовании, она и любой союзник получают 7 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</color></link></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заряженный уворот",
+          "desc": "Базовая сила +1 за 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 2)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заряженный уворот",
+          "desc": "Базовая сила +1 за 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "dataList": [
+    {
+      "id": 1120601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конфронтация",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Конфронтация",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\n[DefeatDuel] Получает (3 * Повышение уровня защиты на себе) щиты; Получает 1 Повышение уровня защиты на следующий ход",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конфронтация",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\n[DefeatDuel] Получает (5 * Повышение уровня защиты на себе) щиты; Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гибкое усмирение",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "При 6+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, наносит +20% урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Гибкое усмирение",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на этот слот на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "При 6+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, наносит +30% урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гибкое усмирение",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на этот слот на следующий ход\nПри 6+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, сила столкновения +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "При 6+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, наносит +40% урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Защитник",
+          "desc": "[WhenUse] Даёт всем союзникам 2 <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color> и 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\nСила монет +1 при 6+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>\n+30% урона при 10+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Даёт всем союзникам 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Защитник",
+          "desc": "[WhenUse] Даёт всем союзникам 2 <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color> и 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>\nСила монет +1 за каждые 6 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (До 3)\n+50% урона при 10+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Даёт всем союзникам 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Лучшая защита",
+          "desc": "[StartBattle] Получает (2 * Повышение уровня защиты на себе) щиты",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Лучшая защита",
+          "desc": "[StartBattle] Получает (2 * Повышение уровня защиты на себе) щиты\n[WhenUse] Получает 5 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на этот слот на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

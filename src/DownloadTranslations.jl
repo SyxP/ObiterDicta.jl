@@ -39,3 +39,5 @@ end
 updateCN() = updateTranslation("cn",
              "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany")
 
+updateRU() = updateTranslation("ru",
+             "https://github.com/Crescent-Corporation/LimbusCompanyBusRUS")

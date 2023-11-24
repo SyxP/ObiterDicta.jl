@@ -1,0 +1,1310 @@
+{
+  "assetData": [
+    {
+      "name": "이상",
+      "krname": "И Сан",
+      "jpname": "イサン",
+      "enname": "Yi Sang",
+      "fileName": "YiSang",
+      "nickName": "Грешник №1",
+      "jpNickName": "囚人1番",
+      "enNickName": "Sinner #1",
+      "staringSide": "middle",
+      "bottomYPos": 20,
+      "portraitSpritePath": "StoryLog_YiSang",
+      "nameTagColor": "#d4e1e8"
+    },
+    {
+      "name": "파우스트",
+      "krname": "Фауст",
+      "jpname": "ファウスト",
+      "enname": "Faust",
+      "fileName": "Faust",
+      "nickName": "Грешница №2",
+      "jpNickName": "囚人2番",
+      "enNickName": "Sinner #2",
+      "staringSide": "left",
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_Faust",
+      "nameTagColor": "#ffb1b4"
+    },
+    {
+      "name": "돈키호테",
+      "krname": "Дон Кихот",
+      "jpname": "ドンキホーテ",
+      "enname": "Don Quixote",
+      "fileName": "DonQuixote",
+      "nickName": "Грешница №3",
+      "jpNickName": "囚人3番",
+      "enNickName": "Sinner #3",
+      "staringSide": "middle",
+      "bottomYPos": -15,
+      "portraitSpritePath": "StoryLog_DonQuixote",
+      "nameTagColor": "#ffef23"
+    },
+    {
+      "name": "료슈",
+      "krname": "Рёшу",
+      "jpname": "良秀",
+      "enname": "Ryōshū",
+      "fileName": "Ryoshu",
+      "nickName": "Грешница №4",
+      "jpNickName": "囚人4番",
+      "enNickName": "Sinner #4",
+      "staringSide": "right",
+      "portraitSpritePath": "StoryLog_Ryoshu",
+      "nameTagColor": "#cf0000"
+    },
+    {
+      "name": "뫼르소",
+      "krname": "Мерсо",
+      "jpname": "ムルソー",
+      "enname": "Meursault",
+      "fileName": "Meursault",
+      "nickName": "Грешник №5",
+      "jpNickName": "囚人5番",
+      "enNickName": "Sinner #5",
+      "staringSide": "right",
+      "headPosX": 90,
+      "headPosY": 500,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Meursault",
+      "nameTagColor": "#293b95"
+    },
+    {
+      "name": "홍루",
+      "krname": "Хон Лу",
+      "jpname": "ホンル",
+      "enname": "Hong Lu",
+      "fileName": "HongLu",
+      "nickName": "Грешник №6",
+      "jpNickName": "囚人6番",
+      "enNickName": "Sinner #6",
+      "staringSide": "middle",
+      "bottomYPos": -50,
+      "portraitSpritePath": "StoryLog_HongLu",
+      "nameTagColor": "#5bffde"
+    },
+    {
+      "name": "히스클리프",
+      "krname": "Хитклифф",
+      "jpname": "ヒースクリフ",
+      "enname": "Heathcliff",
+      "fileName": "Heathcliff",
+      "nickName": "Грешник №7",
+      "jpNickName": "囚人7番",
+      "enNickName": "Sinner #7",
+      "staringSide": "left",
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_Heathcliff",
+      "nameTagColor": "#4e3076"
+    },
+    {
+      "name": "이스마엘",
+      "krname": "Измаил",
+      "jpname": "イシュメール",
+      "enname": "Ishmael",
+      "fileName": "Ishmael",
+      "nickName": "Грешница №8",
+      "jpNickName": "囚人8番",
+      "enNickName": "Sinner #8",
+      "staringSide": "left",
+      "bottomYPos": 20,
+      "portraitSpritePath": "StoryLog_Ishmael",
+      "nameTagColor": "#ff9500"
+    },
+    {
+      "name": "로쟈",
+      "krname": "Родя",
+      "jpname": "ロージャ",
+      "enname": "Rodion",
+      "fileName": "Rodion",
+      "nickName": "Грешница №9",
+      "jpNickName": "囚人9番",
+      "enNickName": "Sinner #9",
+      "staringSide": "left",
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_Rodion",
+      "nameTagColor": "#820000"
+    },
+    {
+      "name": "싱클레어",
+      "krname": "Синклер",
+      "jpname": "シンクレア",
+      "enname": "Sinclair",
+      "fileName": "Sinclair",
+      "nickName": "Грешник №11",
+      "jpNickName": "囚人11番",
+      "enNickName": "Sinner #11",
+      "staringSide": "left",
+      "bottomYPos": -85,
+      "portraitSpritePath": "StoryLog_Sinclair",
+      "nameTagColor": "#8b9c15"
+    },
+    {
+      "name": "오티스",
+      "krname": "Отис",
+      "jpname": "ウーティス",
+      "enname": "Outis",
+      "fileName": "Outis",
+      "nickName": "Грешница №12",
+      "jpNickName": "囚人12番",
+      "enNickName": "Sinner #12",
+      "staringSide": "left",
+      "bottomYPos": -25,
+      "portraitSpritePath": "StoryLog_Outis",
+      "nameTagColor": "#325339"
+    },
+    {
+      "name": "그레고르",
+      "krname": "Грегор",
+      "jpname": "グレゴール",
+      "enname": "Gregor",
+      "fileName": "Gregor",
+      "nickName": "Грешник №13",
+      "jpNickName": "囚人13番",
+      "enNickName": "Sinner #13",
+      "staringSide": "left",
+      "bottomYPos": -32,
+      "portraitSpritePath": "StoryLog_Gregor",
+      "nameTagColor": "#69350b"
+    },
+    {
+      "name": "아야",
+      "krname": "Ая",
+      "fileName": "aya",
+      "staringSide": "left",
+      "headPosX": -80,
+      "headPosY": 290,
+      "portraitSpritePath": "StoryLog_aya",
+      "bottomYPos": 120
+    },
+    {
+      "name": "유리",
+      "krname": "Юри",
+      "fileName": "yuri",
+      "staringSide": "left",
+      "headPosX": -15,
+      "headPosY": 320,
+      "bottomYPos": 110,
+      "portraitSpritePath": "StoryLog_yuri",
+      "nameFontColor": "#a51b35"
+    },
+    {
+      "name": "홉킨스",
+      "krname": "Хопкинс",
+      "fileName": "hopkins",
+      "staringSide": "left",
+      "headPosX": -90,
+      "headPosY": 370,
+      "portraitSpritePath": "StoryLog_hopkins",
+      "bottomYPos": 120
+    },
+    {
+      "name": "G사 직원",
+      "krname": "Сотрудник Корп. G",
+      "nickName": "Сотрудник Корп. G"
+    },
+    {
+      "name": "독백",
+      "krname": "Монолог",
+      "jpname": "Монолог"
+    },
+    {
+      "name": "베르길리우스",
+      "krname": "Вергилий",
+      "jpname": "ヴェルギリウス",
+      "enname": "Vergilius",
+      "fileName": "Vergilius",
+      "nickName": "Гид",
+      "jpNickName": "案内人",
+      "enNickName": "Guide",
+      "headPosX": -15,
+      "headPosY": 520,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Vergilius",
+      "nameTagColor": "#84a79d"
+    },
+    {
+      "name": "베르길리우스2",
+      "krname": "Вергилий",
+      "jpname": "ヴェルギリウス",
+      "enname": "Vergilius",
+      "fileName": "Vergilius2",
+      "nickName": "Гид",
+      "jpNickName": "案内人",
+      "enNickName": "Guide",
+      "headPosX": -15,
+      "headPosY": 520,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Vergilius",
+      "nameTagColor": "#84a79d"
+    },
+    {
+      "name": "베르길리우스3",
+      "krname": "Вергилий",
+      "jpname": "ヴェルギリウス",
+      "enname": "Vergilius",
+      "fileName": "Vergilius3",
+      "nickName": "Гид",
+      "jpNickName": "案内人",
+      "enNickName": "Guide",
+      "headPosX": -15,
+      "headPosY": 520,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Vergilius",
+      "nameTagColor": "#84a79d"
+    },
+    {
+      "name": "눈이붉은자",
+      "krname": "Красноглазый человек",
+      "fileName": "Vergilius3",
+      "nickName": "Красноглазый человек",
+      "staringSide": "left",
+      "headPosX": -15,
+      "headPosY": 520,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Vergilius"
+    },
+    {
+      "name": "카론",
+      "krname": "Харон",
+      "jpname": "カロン",
+      "enname": "Charon",
+      "fileName": "Charon",
+      "nickName": "Водитель",
+      "jpNickName": "運転手",
+      "enNickName": "Bus Driver",
+      "headPosX": 30,
+      "headPosY": 120,
+      "bottomYPos": 60,
+      "portraitSpritePath": "StoryLog_Charon",
+      "nameTagColor": "#84a79d"
+    },
+    {
+      "name": "단테",
+      "krname": "Данте",
+      "jpname": "ダンテ",
+      "enname": "Dante",
+      "fileName": "Dante",
+      "nickName": "Менеджер",
+      "jpNickName": "管理人",
+      "enNickName": "Manager",
+      "headPosX": 20,
+      "headPosY": 400,
+      "scale": 0.9,
+      "bottomYPos": 55,
+      "portraitSpritePath": "StoryLog_Dante",
+      "nameTagColor": "#b01c37"
+    },
+    {
+      "name": "4구 불량배 1",
+      "krname": "1 хулиган из 4 района",
+      "nickName": "1 хулиган из 4 района"
+    },
+    {
+      "name": "4구 불량배 2",
+      "krname": "2 хулиган из 4 района",
+      "nickName": "2 хулиган из 4 района"
+    },
+    {
+      "name": "4구 불량배 3",
+      "krname": "3 хулиган из 4 района",
+      "nickName": "3 хулиган из 4 района"
+    },
+    {
+      "name": "석상머리",
+      "krname": "Каменная голова",
+      "jpname": "石像の頭",
+      "fileName": "LobotomyFriend",
+      "nickName": "Выжившая из филиала \"Лоботомии\"?",
+      "portraitSpritePath": "StoryLog_LobotomyFriend",
+      "staringSide": "left"
+    },
+    {
+      "name": "G사부장",
+      "krname": "Менеджер Корп. G",
+      "fileName": "InsectMan",
+      "nickName": "Менеджер Корп. G",
+      "staringSide": "left",
+      "headPosX": -15,
+      "headPosY": 355,
+      "bottomYPos": 310,
+      "scale": 0.8,
+      "portraitSpritePath": "StoryLog_InsectMan"
+    },
+    {
+      "name": "화난패잔병",
+      "krname": "Яростный ветеран проигранной войны",
+      "fileName": "InsectMan2",
+      "nickName": "Яростный ветеран проигранной войны",
+      "staringSide": "left",
+      "headPosX": -10,
+      "headPosY": 130,
+      "bottomYPos": 130,
+      "portraitSpritePath": "StoryLog_InsectMan2"
+    },
+    {
+      "name": "의아한패잔병",
+      "krname": "Странный ветеран проигранной войны",
+      "fileName": "InsectMan3",
+      "nickName": "Странный ветеран проигранной войны",
+      "staringSide": "left",
+      "headPosX": -150,
+      "headPosY": 130,
+      "bottomYPos": 140,
+      "portraitSpritePath": "StoryLog_InsectMan3"
+    },
+    {
+      "name": "쓰러진아야",
+      "krname": "Упавшая Ая",
+      "fileName": "aya_2",
+      "nickName": "Корректировщица 8 ранга",
+      "staringSide": "left",
+      "headPosX": 260,
+      "headPosY": 15,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_aya"
+    },
+    {
+      "name": "백설공주그림자",
+      "krname": "Тень Белоснежки",
+      "fileName": "Abnormality_apple",
+      "bottomYPos": -250,
+      "portraitSpritePath": "StoryLog_Abnormality_apple"
+    },
+    {
+      "name": "카지노경호원대장",
+      "krname": "Глава охраны казино",
+      "fileName": "Bodyguard",
+      "nickName": "Охранник",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Bodyguard"
+    },
+    {
+      "name": "각잡힌카지노경호원",
+      "krname": "Непреклонный член охраны казино",
+      "fileName": "Bodyguard2",
+      "nickName": "Охранник",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Bodyguard2"
+    },
+    {
+      "name": "세보이고싶었던콩콩파조직원",
+      "krname": "Член синдиката Динь-дон",
+      "fileName": "Cong1",
+      "nickName": "Динь-дон",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Cong1"
+    },
+    {
+      "name": "콩을싫어하는콩콩파조직원",
+      "krname": "Член синдиката Динь-дон бобоненавистник",
+      "fileName": "Cong2",
+      "nickName": "Динь-дон",
+      "staringSide": "left",
+      "bottomYPos": -90,
+      "portraitSpritePath": "StoryLog_Cong2"
+    },
+    {
+      "name": "콩콩이파보스",
+      "krname": "Босс синдиката Динь-дон",
+      "fileName": "CongBoss",
+      "nickName": "Динь-дон",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_CongBoss"
+    },
+    {
+      "name": "에피",
+      "krname": "Эффи",
+      "fileName": "Epi",
+      "staringSide": "left",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#0c0c41",
+      "bottomYPos": -40,
+      "portraitSpritePath": "StoryLog_Epi"
+    },
+    {
+      "name": "위협적인철공회조직원",
+      "krname": "Угрожающий член банды Железного шара",
+      "fileName": "Iron1",
+      "nickName": "Банда Железного шара",
+      "staringSide": "left",
+      "bottomYPos": 350,
+      "scale": 0.8,
+      "portraitSpritePath": "StoryLog_Iron1"
+    },
+    {
+      "name": "몸푸는철공회조직원",
+      "krname": "Разминающийся член банды Железного шара",
+      "fileName": "Iron2",
+      "nickName": "Банда Железного шара",
+      "staringSide": "left",
+      "bottomYPos": 600,
+      "scale": 0.7,
+      "portraitSpritePath": "StoryLog_Iron2"
+    },
+    {
+      "name": "철공회보스",
+      "krname": "Босс банды Железного шара",
+      "fileName": "IronBoss",
+      "nickName": "Банда Железного шара",
+      "staringSide": "left",
+      "bottomYPos": 300,
+      "scale": 0.9,
+      "portraitSpritePath": "StoryLog_IronBoss"
+    },
+    {
+      "name": "흥겨운마리아치조직원",
+      "krname": "Весёлый член синдиката Мариачи",
+      "fileName": "Mariachi1",
+      "nickName": "Мариачи",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Mariachi1"
+    },
+    {
+      "name": "경쾌한마리아치조직원",
+      "krname": "Жизнерадостный член синдиката Мариачи",
+      "fileName": "Mariachi2",
+      "nickName": "Мариачи",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Mariachi2"
+    },
+    {
+      "name": "아이드",
+      "krname": "Аида",
+      "fileName": "MariachiBoss",
+      "nickName": "Мариачи",
+      "staringSide": "left",
+      "bottomYPos": -70,
+      "portraitSpritePath": "StoryLog_MariachiBoss"
+    },
+    {
+      "name": "너맞아볼래매우",
+      "krname": "Хочешь, накостыляю?",
+      "fileName": "Powerman",
+      "nickName": "Ты стал сильнее?",
+      "staringSide": "left",
+      "bottomYPos": -190,
+      "portraitSpritePath": "StoryLog_Powerman"
+    },
+    {
+      "name": "노예",
+      "krname": "Раб",
+      "fileName": "Slave",
+      "staringSide": "left",
+      "nickName": "Должник",
+      "portraitSpritePath": "StoryLog_Slave"
+    },
+    {
+      "name": "소드",
+      "krname": "Сод",
+      "fileName": "Sode",
+      "staringSide": "left",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#0c0c41",
+      "portraitSpritePath": "StoryLog_Sode"
+    },
+    {
+      "name": "소냐",
+      "krname": "Соня",
+      "fileName": "Sonya",
+      "jpname": "ソーニャ",
+      "bottomYPos": -45,
+      "staringSide": "left",
+      "nameTagColor": "#ffffff",
+      "nameFontColor": "#591cab",
+      "portraitSpritePath": "StoryLog_Sonya"
+    },
+    {
+      "name": "전당포주인",
+      "krname": "Оценщик",
+      "fileName": "PawnMan",
+      "nickName": "10 район",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_PawnMan"
+    },
+    {
+      "name": "촌스러운말투의콩콩파조직원",
+      "krname": "Старомодный член синдиката Динь-дон",
+      "fileName": "Cong3",
+      "nickName": "Динь-дон",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Cong3"
+    },
+    {
+      "name": "크로머",
+      "krname": "Кромер",
+      "fileName": "Cromer",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Cromer"
+    },
+    {
+      "name": "귀도",
+      "krname": "Гвидо",
+      "fileName": "Guido",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "scale": 0.8,
+      "bottomYPos": 30,
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Guido"
+    },
+    {
+      "name": "N사심문관1",
+      "krname": "1-й инквизитор Корп. N",
+      "fileName": "N_Employee1",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "bottomYPos": -30,
+      "portraitSpritePath": "StoryLog_N_Employee1"
+    },
+    {
+      "name": "N사심문관2",
+      "krname": "2-й инквизитор Корп. N",
+      "fileName": "N_Employee2",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "bottomYPos": 90,
+      "scale": 0.9,
+      "portraitSpritePath": "StoryLog_N_Employee2"
+    },
+    {
+      "name": "N사심문관3",
+      "krname": "3-й инквизитор Корп. N",
+      "fileName": "N_Employee3",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "bottomYPos": -120,
+      "portraitSpritePath": "StoryLog_N_Employee3"
+    },
+    {
+      "name": "지크프리트",
+      "krname": "Зигфрид",
+      "fileName": "Siegfried",
+      "nickName": "Корректировщик 1 ранга",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Siegfried"
+    },
+    {
+      "name": "검문소경비",
+      "krname": "Охранник контрольного пункта",
+      "fileName": "K_Employee",
+      "nickName": "Сотрудник Корп. K",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "scale": 0.9,
+      "portraitSpritePath": "StoryLog_K_Employee"
+    },
+    {
+      "name": "침식직원1",
+      "krname": "1-й инквизитор в коррозии",
+      "fileName": "Abnormality_Employee",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Abnormality_Employee"
+    },
+    {
+      "name": "침식직원2",
+      "krname": "2-й инквизитор в коррозии",
+      "fileName": "Abnormality_Employee2",
+      "nickName": "Гвоздь и молот",
+      "staringSide": "left"
+    },
+    {
+      "name": "제복소드",
+      "krname": "Сод в униформе",
+      "fileName": "SodeLCC",
+      "staringSide": "left",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#0c0c41",
+      "portraitSpritePath": "StoryLog_SodeLCC"
+    },
+    {
+      "name": "제복에피",
+      "krname": "Эффи в униформе",
+      "fileName": "EpiLCC",
+      "staringSide": "left",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#0c0c41",
+      "bottomYPos": -40,
+      "portraitSpritePath": "StoryLog_EpiLCC"
+    },
+    {
+      "name": "학생크로머",
+      "krname": "Кромер-ученица",
+      "fileName": "OldCromer",
+      "nickName": "学生",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_OldCromer"
+    },
+    {
+      "name": "피묻은크로머",
+      "fileName": "CromerBlood",
+      "staringSide": "left",
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Cromer"
+    },
+    {
+      "name": "데미안",
+      "krname": "Демиан",
+      "fileName": "Demian",
+      "staringSide": "left",
+      "nameTagColor": "#222732",
+      "nameFontColor": "#3e7fed",
+      "bottomYPos": 65,
+      "portraitSpritePath": "StoryLog_Demian2"
+    },
+    {
+      "name": "학생데미안",
+      "krname": "Демиан-ученик",
+      "fileName": "Demian_School",
+      "staringSide": "left",
+      "bottomYPos": 65,
+      "portraitSpritePath": "StoryLog_Demian_School"
+    },
+    {
+      "name": "늑대",
+      "krname": "Волчица",
+      "fileName": "Wolf",
+      "nickName": "狼",
+      "staringSide": "left",
+      "bottomYPos": -50,
+      "nameTagColor": "#a000c4",
+      "nameFontColor": "#F7EC3D",
+      "portraitSpritePath": "StoryLog_Wolf"
+    },
+    {
+      "name": "표범",
+      "krname": "Пантера",
+      "fileName": "Panther",
+      "nickName": "豹",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "nameTagColor": "#a000c4",
+      "nameFontColor": "#F7EC3D",
+      "portraitSpritePath": "StoryLog_Panther"
+    },
+    {
+      "name": "사자",
+      "krname": "Львица",
+      "fileName": "Lion",
+      "nickName": "狮子",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "nameTagColor": "#a000c4",
+      "nameFontColor": "#F7EC3D",
+      "portraitSpritePath": "StoryLog_Lion"
+    },
+    {
+      "name": "프롤로그단테",
+      "krname": "Данте из пролога",
+      "fileName": "Dante",
+      "nickName": "Данте из пролога",
+      "staringSide": "left",
+      "scale": 0.9,
+      "bottomYPos": 55,
+      "portraitSpritePath": "StoryLog_Dante"
+    },
+    {
+      "name": "프롤로그단테2",
+      "krname": "Данте из пролога",
+      "fileName": "Dante",
+      "nickName": "Данте из пролога",
+      "staringSide": "left",
+      "scale": 0.9,
+      "bottomYPos": 55,
+      "portraitSpritePath": "StoryLog_Dante"
+    },
+    {
+      "name": "프롤로그파우스트",
+      "krname": "Фауст из пролога",
+      "fileName": "Faust",
+      "nickName": "Фауст из пролога",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Faust"
+    },
+    {
+      "name": "???",
+      "krname": "???",
+      "fileName": "",
+      "nickName": "???"
+    },
+    {
+      "name": "헤르만",
+      "krname": "Германн",
+      "fileName": "Hermann",
+      "nickName": "Германн",
+      "jpname": "ヘルマン",
+      "nameTagColor": "#221f34",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Hermann"
+    },
+    {
+      "name": "피묻은귀도",
+      "krname": "Гвидо",
+      "fileName": "Guido_blood",
+      "scale": 0.9,
+      "bottomYPos": -60,
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Guido"
+    },
+    {
+      "name": "다친소드",
+      "krname": "Сод",
+      "fileName": "SodeBlood",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#0c0c41",
+      "portraitSpritePath": "StoryLog_SodeLCC"
+    },
+    {
+      "name": "변신크로머",
+      "krname": "Кромер",
+      "fileName": "CromerMonster",
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e",
+      "bottomYPos": 205,
+      "portraitSpritePath": "StoryLog_CromerMonster"
+    },
+    {
+      "name": "애프터팀상사",
+      "krname": "Старший сотрудник команды \"After\"",
+      "fileName": "",
+      "nickName": "LCCA",
+      "nameTagColor": "#f8c200",
+      "nameFontColor": "#740016"
+    },
+    {
+      "name": "구보",
+      "krname": "Губо",
+      "fileName": "Gubo",
+      "nameTagColor": "#221f34",
+      "bottomYPos": -40,
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Gubo"
+    },
+    {
+      "name": "가환",
+      "krname": "Цзя Хуань",
+      "fileName": "Gahwan",
+      "bottomYPos": -130,
+      "nameTagColor": "#221f34",
+      "nameFontColor": "#d6001e",
+      "portraitSpritePath": "StoryLog_Gahwan"
+    },
+    {
+      "name": "더미",
+      "fileName": "Empty",
+      "nameTagColor": "#ffef23",
+      "portraitSpritePath": "StoryLog_DonQuixote"
+    },
+    {
+      "name": "더미2",
+      "fileName": "Empty"
+    },
+    {
+      "name": "크로머목소리",
+      "fileName": "",
+      "nameTagColor": "#edddb9",
+      "nameFontColor": "#d6001e"
+    },
+    {
+      "name": "그레고르요리사",
+      "krname": "Грегор",
+      "jpname": "グレゴール",
+      "enname": "Gregor",
+      "fileName": "Gregor_cook",
+      "nickName": "Грешник №13",
+      "jpNickName": "囚人13番",
+      "enNickName": "Sinner #13",
+      "staringSide": "left",
+      "bottomYPos": -32,
+      "portraitSpritePath": "StoryLog_Gregor_cook",
+      "nameTagColor": "#69350b"
+    },
+    {
+      "name": "뫼르소요리사",
+      "krname": "Мерсо",
+      "jpname": "ムルソー",
+      "enname": "Meursault",
+      "fileName": "Meursault_cook",
+      "nickName": "Грешник №5",
+      "jpNickName": "囚人5番",
+      "enNickName": "Sinner #5",
+      "staringSide": "right",
+      "headPosX": 90,
+      "headPosY": 500,
+      "bottomYPos": -100,
+      "portraitSpritePath": "StoryLog_Meursault_cook",
+      "nameTagColor": "#293b95"
+    },
+    {
+      "name": "오티스요리사",
+      "krname": "Отис",
+      "jpname": "ウーティス",
+      "enname": "Outis",
+      "fileName": "Outis_cook",
+      "nickName": "Грешница №12",
+      "jpNickName": "囚人12番",
+      "enNickName": "Sinner #12",
+      "staringSide": "left",
+      "bottomYPos": -25,
+      "portraitSpritePath": "StoryLog_Outis_cook",
+      "nameTagColor": "#325339"
+    },
+    {
+      "name": "료슈요리사",
+      "krname": "Рёшу",
+      "jpname": "良秀",
+      "enname": "Ryōshū",
+      "fileName": "Ryoshu_cook",
+      "nickName": "Грешница №4",
+      "jpNickName": "囚人4番",
+      "enNickName": "Sinner #4",
+      "staringSide": "right",
+      "portraitSpritePath": "StoryLog_Ryoshu_cook",
+      "nameTagColor": "#cf0000"
+    },
+    {
+      "name": "삼조",
+      "krname": "Самджо",
+      "fileName": "Samjo",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_Samjo"
+    },
+    {
+      "name": "보살치킨",
+      "krname": "Бодхиссатва курочки",
+      "fileName": "Bosal",
+      "portraitSpritePath": "StoryLog_Bosal"
+    },
+    {
+      "name": "은봉치킨",
+      "krname": "Курочка Ынбон",
+      "fileName": "Eunbong",
+      "portraitSpritePath": "StoryLog_Eunbong"
+    },
+    {
+      "name": "히스클리프요리사",
+      "krname": "Хитклифф",
+      "jpname": "ヒースクリフ",
+      "enname": "Heathcliff",
+      "fileName": "Heathcliff_cook",
+      "nickName": "Грешник №7",
+      "jpNickName": "囚人7番",
+      "enNickName": "Sinner #7",
+      "staringSide": "left",
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_Heathcliff_cook",
+      "nameTagColor": "#4e3076"
+    },
+    {
+      "name": "뒤틀린닭1",
+      "krname": "1-я искажённая курица",
+      "fileName": "Chicken1",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Chicken1"
+    },
+    {
+      "name": "뒤틀린닭2",
+      "krname": "2-я искажённая курица",
+      "fileName": "Chicken2",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_Chicken2"
+    },
+    {
+      "name": "뒤틀린손님1",
+      "krname": "1-й гость Искажения",
+      "fileName": "ChickenGirl",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "portraitSpritePath": "StoryLog_ChickenGirl"
+    },
+    {
+      "name": "뒤틀린손님2",
+      "krname": "2-й гость Искажения",
+      "fileName": "ChickenBoy",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "scale": 0.9,
+      "bottomYPos": -40,
+      "portraitSpritePath": "StoryLog_K_Chicken"
+    },
+    {
+      "name": "뒤틀린주인",
+      "krname": "Глава Искажения",
+      "fileName": "ChickenKing",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "scale": 0.8,
+      "bottomYPos": 150,
+      "portraitSpritePath": "StoryLog_ChickenKing"
+    },
+    {
+      "name": "그렉료슈",
+      "krname": "Грегор и Рёшу",
+      "fileName": "Ryoshu_Gregor",
+      "nickName": "",
+      "staringSide": "left"
+    },
+    {
+      "name": "뒤틀린주인카운트1",
+      "krname": "1-й счётчик",
+      "fileName": "ChickenKing_Count1",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "scale": 0.8,
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_ChickenKing"
+    },
+    {
+      "name": "뒤틀린주인카운트2",
+      "krname": "2-й счётчик",
+      "fileName": "ChickenKing_Count2",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "scale": 0.8,
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_ChickenKing"
+    },
+    {
+      "name": "뒤틀린주인카운트3",
+      "krname": "3-й счётчик",
+      "fileName": "ChickenKing_Count3",
+      "nickName": "Искажение",
+      "staringSide": "left",
+      "scale": 0.8,
+      "bottomYPos": 10,
+      "portraitSpritePath": "StoryLog_ChickenKing"
+    },
+    {
+      "name": "알폰소",
+      "krname": "Альфонсо",
+      "fileName": "Alfonso",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_Alfonso"
+    },
+    {
+      "name": "동백",
+      "krname": "Донбэк",
+      "fileName": "Dongback",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Dongback"
+    },
+    {
+      "name": "동랑",
+      "krname": "Донран",
+      "fileName": "Dongrang",
+      "bottomYPos": 30,
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_Dongrang"
+    },
+    {
+      "name": "마리르",
+      "krname": "Мариль",
+      "fileName": "Marie",
+      "bottomYPos": 70,
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Marie"
+    },
+    {
+      "name": "니코",
+      "krname": "Нико",
+      "fileName": "Niko",
+      "portraitSpritePath": "StoryLog_Niko"
+    },
+    {
+      "name": "란",
+      "krname": "Ран",
+      "fileName": "Ran",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Ran"
+    },
+    {
+      "name": "K사드론들",
+      "krname": "Беспилотник Корп. K",
+      "fileName": "K_machine2",
+      "scale": 0.6,
+      "bottomYPos": 1000,
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_machine2"
+    },
+    {
+      "name": "기술해방연합기계",
+      "krname": "Машина Союза освобождения технологий",
+      "fileName": "LobotomyMachine",
+      "scale": 0.9,
+      "bottomYPos": 400,
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_LobotomyMachine"
+    },
+    {
+      "name": "장미스패너1",
+      "krname": "1-й работник мастерской Ключа и розы",
+      "fileName": "Rose1",
+      "bottomYPos": -50,
+      "portraitSpritePath": "StoryLog_Rose1"
+    },
+    {
+      "name": "장미스패너2",
+      "krname": "2-й работник мастерской Ключа и розы",
+      "fileName": "Rose2",
+      "bottomYPos": -80,
+      "portraitSpritePath": "StoryLog_Rose2"
+    },
+    {
+      "name": "K사앰플기계",
+      "krname": "Ампульный помощник Корп. K",
+      "fileName": "K_Machine1",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_Machine1"
+    },
+    {
+      "name": "해킹당한K사앰플기계",
+      "krname": "Ампульный помощник Корп. K",
+      "fileName": "K_Machine3",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_K_Machine3"
+    },
+    {
+      "name": "슈렌느",
+      "krname": "Сюренна",
+      "fileName": "Surenne",
+      "bottomYPos": 120,
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_Surenne"
+    },
+    {
+      "name": "K사3등급전투원",
+      "krname": "Солдат 3-го класса Корп. K",
+      "fileName": "K_3_Soldier",
+      "scale": 0.9,
+      "bottomYPos": 100,
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_3_Soldier"
+    },
+    {
+      "name": "K사연구원1",
+      "krname": "Спешащий исследователь Корп. K",
+      "fileName": "K_Researcher1",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_Researcher1"
+    },
+    {
+      "name": "K사연구원2",
+      "krname": "Умирающий исследователь Корп. K",
+      "fileName": "K_Researcher2",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_Researcher2"
+    },
+    {
+      "name": "기술해방연합1",
+      "krname": "Участник Союза освобождения технологий",
+      "fileName": "Liberation1",
+      "bottomYPos": 80,
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Liberation1"
+    },
+    {
+      "name": "각성기술해방연합1",
+      "krname": "Пробудивший ЭГО участник ОСТ",
+      "fileName": "Liberation_EGO",
+      "bottomYPos": 82,
+      "portraitSpritePath": "StoryLog_Liberation_EGO"
+    },
+    {
+      "name": "동백여우각성",
+      "krname": "Пробуждённая Донбэк",
+      "fileName": "Dongback_fox1",
+      "bottomYPos": -57,
+      "portraitSpritePath": "StoryLog_Dongback_fox1"
+    },
+    {
+      "name": "동백에고각성중",
+      "krname": "Трепещущая Донбэк",
+      "fileName": "Dongback_fox2",
+      "portraitSpritePath": "StoryLog_Dongback_fox2"
+    },
+    {
+      "name": "동백에고각성",
+      "krname": "Удовлетворённая Донбэк",
+      "fileName": "Dongback_EGO",
+      "portraitSpritePath": "StoryLog_Dongback_EGO"
+    },
+    {
+      "name": "과거동백",
+      "krname": "Донбэк из прошлого",
+      "fileName": "Dongback_past",
+      "bottomYPos": -28,
+      "portraitSpritePath": "StoryLog_Dongback_past"
+    },
+    {
+      "name": "되살아난해방연합",
+      "krname": "Воскрешённый? член СОТ",
+      "fileName": "Liberation_Tear",
+      "portraitSpritePath": "StoryLog_Liberation_Tear"
+    },
+    {
+      "name": "T사기술청1",
+      "krname": "Технический сотрудник Корп. T",
+      "fileName": "T_Employee1",
+      "portraitSpritePath": "StoryLog_T_Employee1"
+    },
+    {
+      "name": "각성동랑",
+      "krname": "Пробуждённый Донран",
+      "fileName": "Dongrang_EGO",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_T_Dongrang_EGO"
+    },
+    {
+      "name": "도망치던시민",
+      "krname": "Убегающий житель",
+      "fileName": "K_people",
+      "portraitSpritePath": "StoryLog_K_people"
+    },
+    {
+      "name": "파우스트와삼조",
+      "krname": "Фауст и Самджо",
+      "fileName": "FauSam",
+      "portraitSpritePath": "StoryLog_FauSam"
+    },
+    {
+      "name": "검문소경비2",
+      "krname": "Сотрудник контроля",
+      "fileName": "K_Employee",
+      "nickName": "Контроль Корп. K",
+      "staringSide": "left",
+      "bottomYPos": -100,
+      "scale": 0.9,
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_K_Employee"
+    },
+    {
+      "name": "기술해방연합기계2",
+      "krname": "2-я машина Союза освобождения технологий",
+      "fileName": "LobotomyMachine2",
+      "portraitSpritePath": "StoryLog_LobotomyMachine2",
+      "scale": 0.8,
+      "bottomYPos": 400
+    },
+    {
+      "name": "T사기술청2",
+      "krname": "2-й технический сотрудник Корп. T",
+      "fileName": "T_Employee2",
+      "portraitSpritePath": "StoryLog_T_Employee2"
+    },
+    {
+      "name": "변신T사기술청",
+      "krname": "Технический сотрудник Корп. T",
+      "fileName": "T_Employee2_2",
+      "scale": 0.9,
+      "portraitSpritePath": "StoryLog_T_Employee2_2",
+      "bottomYPos": 220
+    },
+    {
+      "name": "K사안내방송",
+      "krname": "Оповещение",
+      "nameTagColor": "#282828",
+      "fileName": "Empty",
+      "nameFontColor": "#00ff00"
+    },
+    {
+      "name": "옷벗은삼조",
+      "krname": "Самджо",
+      "fileName": "Samjo_Off",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00",
+      "portraitSpritePath": "StoryLog_Samjo"
+    },
+    {
+      "name": "동백여우각성_먼지",
+      "krname": "Донбэк",
+      "fileName": "Dongback_fox1_dust",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Dongback_fox1"
+    },
+    {
+      "name": "동백에고각성중_먼지",
+      "krname": "Донбэк",
+      "fileName": "Dongback_fox2_dust",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Dongback_fox1"
+    },
+    {
+      "name": "동백에고각성중_다침",
+      "krname": "Донбэк",
+      "fileName": "Dongback_EGO_Hurt",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Dongback_EGO"
+    },
+    {
+      "name": "상이",
+      "krname": "наС И",
+      "fileName": "Empty",
+      "nameTagColor": "#ebcaa2",
+      "nameFontColor": "#d4e1e8"
+
+    },
+    {
+      "name": "과거이상",
+      "krname": "И Сан",
+      "fileName": "Empty",
+      "nameTagColor": "#ea9a00",
+      "nameFontColor": "#ffffff",
+      "portraitSpritePath": "StoryLog_YiSang"
+    },
+    {
+      "name": "동백에고각성중_찔림",
+      "krname": "Донбэк",
+      "fileName": "Dongback_EGO_Hurt2",
+      "nameTagColor": "#dacfb3",
+      "nameFontColor": "#ea9a00",
+      "portraitSpritePath": "StoryLog_Dongback_EGO"
+    },
+    {
+      "name": "K사임원진1",
+      "krname": "1-й член правления Корп. K",
+      "fileName": "Empty",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00"
+    },
+    {
+      "name": "K사임원진2",
+      "krname": "2-й член правления Корп. K",
+      "fileName": "Empty",
+      "nameTagColor": "#282828",
+      "nameFontColor": "#00ff00"
+    }
+  ]
+}

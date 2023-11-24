@@ -9,7 +9,8 @@ module ObiterDicta
     using Scratch, Git
 
     function MainParser(input)
-        Commands = [SetLangCommand, HelpCommand, EXPCommand, 
+        Commands = [SetLangCommand, HelpCommand, EXPCommand,
+                    UpdateBundleCommand, 
                     BuffCommand, PassiveCommand, SkillCommand]
         for command in Commands
             S = CheckCommand(command, input)
@@ -22,6 +23,7 @@ module ObiterDicta
     function getHelp()
         S = raw"""Available Commands:
                   lang (Set Language)
+                  update (Updates Data Files. Warning: for internal use)
                   exp (Experience Levels)
                   buff (Status Effects)
                   skill (Skills)

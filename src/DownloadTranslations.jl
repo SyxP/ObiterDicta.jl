@@ -1,4 +1,37 @@
 # The purpose of this file is to ease in the updating process of translations.
+# After updating, `git push` /  make a pull request.
+# This code will modify the base directory.
+
+function UpdateBundleHelp()
+    S = raw"""Updates data/ and Downloads bundles from catalog_S1.json.
+              These commands will fetch the files from the internet.
+              `update CN`   - Updates Chinese data files.
+              `update RU`   - Updates Russian data files.
+              `update main` - Updates English/Korean/Japanese data files from PMoon source. (*)
+              `update all`  - Updates all data files. (Currently only CN and RU)
+
+              `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch. (*)
+              `update bundle all`           - Downloads all bundles. (warning: ~9GB) (*)
+              `update list bundles`         - List available bundles. (*) 
+              `update bundle _num_`         - After list, download _num_th bundle. (*)
+
+              (*) commands are unimplemented.
+              """
+    
+    println(S)
+end
+
+function UpdateBundleParser(input)
+    input == "CN"  && return updateCN()
+    input == "RU"  && return updateRU()
+    input == "all" && return updateAll()
+
+    @info "Unable to parse $input (try `update help`)"
+    return
+end
+
+UpdateBundleRegex = r"^update (.*)$"
+UpdateBundleCommand = Command(UpdateBundleRegex, UpdateBundleParser, [1], UpdateBundleHelp)
 
 function updateTranslation(lang, refSite)
     global git_download_cache
@@ -41,3 +74,8 @@ updateCN() = updateTranslation("cn",
 
 updateRU() = updateTranslation("ru",
              "https://github.com/Crescent-Corporation/LimbusCompanyBusRUS")
+
+function updateAll()
+    updateCN()
+    updateRU()
+end

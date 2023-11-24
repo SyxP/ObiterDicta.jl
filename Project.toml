@@ -5,8 +5,10 @@ version = "1.0.0-DEV"
 
 [deps]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 ReplMaker = "b873ce64-0db9-51f5-a568-4457d8e49576"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 StringDistances = "88034a9c-02f8-509d-84a9-84ec65e18404"
 Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"

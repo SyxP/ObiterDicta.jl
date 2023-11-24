@@ -4,7 +4,9 @@ module ObiterDicta
     using StringDistances
     using Unicode
     using JSON
+
     using Downloads
+    using Scratch, Git
 
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand, 
@@ -36,6 +38,7 @@ module ObiterDicta
     include("DebugFunctions.jl")   
     include("KeywordLocalization.jl")
     include("CoinStruct.jl")
+    include("DownloadTranslations.jl")
 
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
@@ -60,6 +63,12 @@ module ObiterDicta
              start_key=')', 
              mode_name="Limbus_mode",
              show_function=(args...) -> nothing)    
+    end
+
+    # This will be filled in inside `__init__()`
+    git_download_cache = ""
+    function __init__()
+        global git_download_cache = @get_scratch!("downloaded_files")
     end
 
     export StartREPL

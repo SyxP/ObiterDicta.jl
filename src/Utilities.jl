@@ -31,12 +31,7 @@ function findStaticDataInfo(name)
 end
 
 function LocalizedData(Name, CurrLang = CurrLanguage)
-    forceReload = false
-    if DebugMode
-        prompt = DefaultPrompt(["yes", "no"], 2, "Would you like to force reload $Name?")
-        c = ask(prompt)
-        isYesInput(c) && (forceReload = true)
-    end
+    forceReload =  ForceReloadDebug("Would you like to force reload $Name?")
 
     if !forceReload && haskey(LocalizeDatabase, (Name, CurrLang))
         return LocalizeDatabase[(Name, CurrLang)]
@@ -62,12 +57,7 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
 end
 
 function StaticData(Name)
-    forceReload = false
-    if DebugMode
-        prompt = DefaultPrompt(["yes", "no"], 2, "Would you like to force reload $Name?")
-        c = ask(prompt)
-        isYesInput(c) && (forceReload = true)
-    end
+    forceReload =  ForceReloadDebug("Would you like to force reload $Name?")
 
     if !forceReload && haskey(StaticDatabase, Name)
         return StaticDatabase[Name]

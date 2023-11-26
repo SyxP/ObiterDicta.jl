@@ -10,10 +10,12 @@ function UpdateBundleHelp()
               `update main` - Updates English/Korean/Japanese data files from PMoon source. (*)
               `update all`  - Updates all data files. (Currently only CN and RU)
 
-              `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch. (*)
-              `update bundle all`           - Downloads all bundles. (warning: ~9GB) (*)
-              `update list bundles`         - List available bundles. (*) 
-              `update bundle _num_`         - After list, download _num_th bundle. (*)
+              `update list bundles`         - List available bundles. 
+
+              `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch.
+              `update bundle all`           - Downloads all bundles. (warning: ~9GB) 
+              `update bundle data`          - Downloads only `static_s1` and `localize_s1`.
+              `update bundle _num_`         - After list, download _num_th bundle.
 
               (*) commands are unimplemented.
               """
@@ -25,6 +27,20 @@ function UpdateBundleParser(input)
     input == "CN"  && return updateCN()
     input == "RU"  && return updateRU()
     input == "all" && return updateAll()
+
+    input == "bundle all" && return DownloadAllBundles()
+    input == "bundle data" && return DownloadDataBundles()
+    input == "list bundles" && return listBundlesFromCatalog()
+
+    S = match(r"^bundle ([1-9][0-9]*)$", input)
+    if S !== nothing
+        return DownloadNBundleFromCatalog(S.captures[1])
+    end
+
+    S = match(r"^bundle (.*)$", input)
+    if S !== nothing
+        return DownloadNameBundleFromCatalog(S.captures[1])
+    end
 
     @info "Unable to parse $input (try `update help`)"
     return
@@ -79,3 +95,4 @@ function updateAll()
     updateCN()
     updateRU()
 end
+

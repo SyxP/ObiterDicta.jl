@@ -14,7 +14,7 @@ function getMasterFileList(::Type{T}) where T
 end
 
 function getMasterList(::Type{T}, MasterList) where T
-    forceReload = ForceReloadDebug()
+    forceReload = ForceReloadDebug("Would you like to reload the master list?")
     
     !forceReload && length(MasterList) != 0 && return MasterList
 

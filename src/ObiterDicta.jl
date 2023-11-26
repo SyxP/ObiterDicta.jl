@@ -40,7 +40,10 @@ module ObiterDicta
     include("DebugFunctions.jl")   
     include("KeywordLocalization.jl")
     include("CoinStruct.jl")
+
+    # Downloading
     include("DownloadTranslations.jl")
+    include("DownloadBundles.jl")
 
     # Contains File Retrieval and String Searching
     include("Utilities.jl")

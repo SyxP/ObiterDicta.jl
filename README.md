@@ -59,7 +59,8 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 1. Item IDs (0%)
 2. Battle Pass Information (0%)
 3. Announcer Voice Lines (0%)
-4. Automatic Updating of Bundles (20%)
+4. Profile Card Information (100%)
+5. Automatic Updating of Bundles (90%)
 
 ### Known Bugs/Specific Requested Features
 

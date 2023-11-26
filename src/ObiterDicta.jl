@@ -10,7 +10,7 @@ module ObiterDicta
 
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
-                    UpdateBundleCommand, 
+                    UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand]
         for command in Commands
             S = CheckCommand(command, input)
@@ -27,6 +27,7 @@ module ObiterDicta
                   exp (Experience Levels)
                   buff (Status Effects)
                   skill (Skills)
+                  banner greeting (Profile Card Text)
     
                   For more information you can use `[command] help`
             """
@@ -51,6 +52,9 @@ module ObiterDicta
 
     # Utility Modes
     include("ExperienceLevels.jl")
+
+    include("BannerGreetingsStrings.jl")
+    include("BannerGreetingsCommand.jl")
 
     include("BuffStrings.jl")
     include("BuffCommand.jl")

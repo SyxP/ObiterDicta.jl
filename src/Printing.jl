@@ -34,7 +34,7 @@ function DisplaySkillAsTree(SkillDict, Title = "")
 end
 
 function EscapeString(Str)
-    replace(Str, "{" => "[[", "}" => "]]")
+    strip(replace(Str, "{" => "[[", "}" => "]]"))
 end
 
 function EscapeAndFlattenField(value)

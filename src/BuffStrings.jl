@@ -28,7 +28,7 @@ function getLocalizedList(::Type{Buff})
     [LocalizedData(file) for file in Files]
 end
 
-function getInternalVersion(myBuff :: Buff; dontWarn = !DebugMode)
+function getInternalVersion(myBuff :: Buff; dontWarn = !GlobalDebugMode)
     for BuffList in getInternalList(Buff)
         for buff in BuffList["list"]
             (buff["id"] == myBuff.id) && return buff
@@ -39,7 +39,7 @@ function getInternalVersion(myBuff :: Buff; dontWarn = !DebugMode)
     return
 end
 
-function getLocalizedVersion(myBuff :: Buff; dontWarn = !DebugMode)
+function getLocalizedVersion(myBuff :: Buff; dontWarn = !GlobalDebugMode)
     for BuffList in getLocalizedList(Buff)
         for buff in BuffList["dataList"]
             (buff["id"] == myBuff.id) && return buff

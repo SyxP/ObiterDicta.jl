@@ -25,7 +25,7 @@ function getLocalizedList(::Type{CombatSkill})
     [LocalizedData(file) for file in Files]
 end
 
-function getInternalVersion(mySkill :: CombatSkill; dontWarn = !DebugMode)
+function getInternalVersion(mySkill :: CombatSkill; dontWarn = !GlobalDebugMode)
     for SkillList in getInternalList(CombatSkill)
         for skill in SkillList["list"]
             (skill["id"] == mySkill.id) && return skill
@@ -36,7 +36,7 @@ function getInternalVersion(mySkill :: CombatSkill; dontWarn = !DebugMode)
     return
 end
 
-function getLocalizedVersion(mySkill :: CombatSkill; dontWarn = !DebugMode)
+function getLocalizedVersion(mySkill :: CombatSkill; dontWarn = !GlobalDebugMode)
     for SkillList in getLocalizedList(CombatSkill)
         if !haskey(SkillList, "dataList")
             if (length(SkillList) > 0)

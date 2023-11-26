@@ -26,7 +26,7 @@ function getLocalizedList(::Type{Passive})
     [LocalizedData(file) for file in Files]
 end
 
-function getInternalVersion(myPassive :: Passive; dontWarn = !DebugMode)
+function getInternalVersion(myPassive :: Passive; dontWarn = !GlobalDebugMode)
     for PassiveList in getInternalList(Passive)
         for passive in PassiveList["list"]
             (passive["id"] == myPassive.id) && return passive
@@ -37,7 +37,7 @@ function getInternalVersion(myPassive :: Passive; dontWarn = !DebugMode)
     return
 end
 
-function getLocalizedVersion(myPassive :: Passive; dontWarn = !DebugMode)
+function getLocalizedVersion(myPassive :: Passive; dontWarn = !GlobalDebugMode)
     for PassiveList in getLocalizedList(Passive)
         if !haskey(PassiveList, "dataList")
             if (length(PassiveList) > 0)

@@ -44,7 +44,7 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
     try
         global LocalizeDatabase[(Name, CurrLang)] = JSON.parsefile(filePath)
     catch ex
-        DebugMode && @warn "Unable to load $filePath" # Incomplete Translation
+        GlobalDebugMode && @warn "Unable to load $filePath" # Incomplete Translation
         if CurrLang == English
             @warn "No English files exists for $filePath"
             rethrow(ex)

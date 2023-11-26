@@ -2,9 +2,9 @@
 
 This creates a Limbus Company REPL Mode.
  
-To install, use `]add https://github.com/SyxP/ObiterDicta.jl` and `using ObiterDicta`.
+To install, use `]add https://github.com/SyxP/ObiterDicta.jl` and `using ObiterDicta`. In the future, when updates have been made, you can use `]up` to update directly. 
 
-To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>` mode via ')'.
+To initialise, call `StartREPL()`. You can now freely access the `Limbus Query>` mode via ')'. Use `help` to see the list of commands and for each command `_command_ help` would access the command specific help.
 
 Chinese translations are from https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany
 

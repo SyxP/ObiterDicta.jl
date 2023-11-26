@@ -9,7 +9,8 @@ function PassiveHelp()
               `passive !i 31415`
     
               Available Flags:
-              !i/!internal - Only perform the query on internal IDs.              
+              !i/!internal - Only perform the query on internal IDs.
+              !text        - Searches through the description of the Passive.              
               !top_num_    - Outputs the top _num_ passives matching the query. Default is 5.      
         """
     println(S)
@@ -25,12 +26,14 @@ function PassiveParser(input)
 
     TopNumber = 1
     UseInternalIDs = false
+    UseTexts = false
     PassiveSearchList = Passive[]
 
     Applications = Dict{Regex, Function}()
     Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true)
     Applications[r"^![tT]op$"] = () -> (TopNumber = 5)
     Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x))
+    Applications[r"^![tT]ext$"] = () -> (UseTexts = true)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -40,9 +43,13 @@ function PassiveParser(input)
     (length(PassiveSearchList) == 0) && (PassiveSearchList = getMasterList(Passive))
     HaystackPassives = [] 
     for myPass in PassiveSearchList
-        id = getID(myPass)
         if UseInternalIDs
             push!(HaystackPassives, (getStringID(myPass), myPass))
+        elseif UseTexts
+            S = getEscapedDesc(myPass)
+            if S !== nothing
+                push!(HaystackPassives, (S, myPass))
+            end
         else
             if hasLocalizedVersion(myPass)
                 push!(HaystackPassives, (getName(myPass), myPass))
@@ -51,7 +58,7 @@ function PassiveParser(input)
     end
         
     TopNumber == 1 && return searchSinglePassive(newQuery, HaystackPassives)    
-    return searchTopPassives(newQuery, HaystackPassives, TopNumber)
+    return searchTopPassives(newQuery, HaystackPassives, TopNumber; searchText = UseTexts)
     
     @info "Unable to parse $input (try `passive help`)"
     return
@@ -78,7 +85,7 @@ function searchSinglePassive(query, haystack)
 end
 
 PassivePreviousSearchResult = Passive[]
-function searchTopPassives(query, haystack, topN)
+function searchTopPassives(query, haystack, topN; searchText = false)
     tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
     ResultStrings = String[]
@@ -89,7 +96,14 @@ function searchTopPassives(query, haystack, topN)
     for (target, myPass) in result
         push!(PassivePreviousSearchResult, myPass)
         id = getStringID(myPass)
-        if target == id
+        if searchText
+            lengthCutoff = 80
+            prefix = target[begin:min(lengthCutoff, end)] 
+            (length(target) > lengthCutoff) && (prefix *= "...")
+            passName = getName(myPass)
+
+            push!(ResultStrings, "$passName ($(@dim(prefix)))")
+        elseif target == id
             push!(ResultStrings, target)
         else
             push!(ResultStrings, "$target ("* @dim(id) * ")")

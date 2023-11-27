@@ -11,6 +11,7 @@ function UpdateBundleHelp()
               `update all`  - Updates all data files. (Currently only CN and RU)
 
               `update list bundles`         - List available bundles. 
+              `update catalog _num_`        - Downloads _num_th bundle. If _num_ is not given, downloads the latest bundle.     
 
               `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch.
               `update bundle all`           - Downloads all bundles. (warning: ~9GB) 
@@ -31,6 +32,12 @@ function UpdateBundleParser(input)
     input == "bundle all" && return DownloadAllBundles()
     input == "bundle data" && return DownloadDataBundles()
     input == "list bundles" && return listBundlesFromCatalog()
+
+    S = match(r"^catalog ([1-9][0-9]*)$", input)
+    if S !== nothing
+        return downloadNCatalogS1(S.captures[1])
+    end
+    input == "catalog" && return downloadLatestCatalogS1()
 
     S = match(r"^bundle ([1-9][0-9]*)$", input)
     if S !== nothing
@@ -94,5 +101,6 @@ updateRU() = updateTranslation("ru",
 function updateAll()
     updateCN()
     updateRU()
+    downloadLatestCatalogS1()
 end
 

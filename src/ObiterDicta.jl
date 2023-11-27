@@ -45,6 +45,7 @@ module ObiterDicta
     # Downloading
     include("DownloadTranslations.jl")
     include("DownloadBundles.jl")
+    include("DownloadCatalogS1.jl")
 
     # Contains File Retrieval and String Searching
     include("Utilities.jl")

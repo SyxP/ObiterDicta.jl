@@ -15,3 +15,9 @@ function ForceReloadDebug(Query, DebugMode = false)
 end
 
 isYesInput(Str) = Str ∈ ["y", "Y", "yes", "Yes", "YES"]
+
+function Beep()
+    if Sys.iswindows()
+        run(`powershell -Command "[console]::beep(600,300)"`)
+    end
+end

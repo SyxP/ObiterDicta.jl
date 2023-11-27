@@ -27,18 +27,24 @@ function parseCatalog(file = "$DataDir/catalog_S1.json")
 end
 
 function CheckProposedLocation(Location) 
+    S = splitpath(Location)
+    if length(S) > 1
+        prefixLocation = joinpath(splitpath(Location)[begin:end-1]...)
+        CheckProposedLocation(prefixLocation)
+    end
+
     # Check if Location exists. If not make the directory
     isdir(Location) && return
     mkdir(Location)
 end
 
-function DownloadBundle(bundleURL, bundleLocation)
+function DownloadBundle(bundleURL, bundleLocation, URLBase = "https://d7g8h56xas73g.cloudfront.net") 
     bundleURLParts = split(bundleURL, "/")
-    fileName = bundleURLParts[end]
-    versionNum = bundleURLParts[end-1]
-    CheckProposedLocation(bundleLocation)
-    CheckProposedLocation(bundleLocation*versionNum)
-    filePath = joinpath(bundleLocation, versionNum, fileName)
+    urlBaseParts = split(URLBase, "/")
+    fileName = bundleURLParts[(length(urlBaseParts) + 1) : end]
+    dirPath = joinpath(bundleLocation, fileName[begin:(end - 1)]...)
+    CheckProposedLocation(dirPath)
+    filePath = joinpath(bundleLocation, fileName...)
     @info "Downloading $filePath"
 
     try
@@ -50,7 +56,7 @@ function DownloadBundle(bundleURL, bundleLocation)
         return false
     end
 
-    return true
+    return filePath
 end
 
 function DownloadAllBundles(bundleLocation = "$git_download_cache/Bundles/")
@@ -75,11 +81,53 @@ function DownloadDataBundles(bundleLocation = "$git_download_cache/Bundles/")
     end
 end
 
+function getFileHashes(bundleLocation)
+    HashList = String[]
+    for (root, dirs, files) in walkdir(bundleLocation)
+        for file in files
+            filePath = joinpath(root, file)
+            HashStr = uppercase(bytes2hex(open(filePath) do f
+                sha2_256(f)
+            end))
+
+            push!(HashList, HashStr)
+        end
+    end
+
+    return HashList
+end
+
+function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/")
+    @info "Downloading to $bundleLocation"
+
+    HashList = getFileHashes(bundleLocation)
+    URLs = parseCatalog()
+    for url in URLs
+        fileLocation = DownloadBundle(url, bundleLocation)
+        sleep(0.2) # To not overwhelm the server
+        if fileLocation != false
+            bundleHash = uppercase(bytes2hex(open(fileLocation) do f
+                sha2_256(f)
+            end))
+
+            if (bundleHash ∈ HashList)
+                @info "Found Hash in Hashlist $fileLocation"
+                rm(fileLocation)
+            end
+        end
+    end
+end
+
 function DownloadNBundleFromCatalog(n, bundleLocation = "$git_download_cache/Bundles/")
     @info "Downloading to $bundleLocation"
     CatalogList = parseCatalog()
 
     bundleNumber = parse(Int, n)
+    if !(1 ≤ bundleNumber ≤ length(CatalogList))
+        @info "There are only $(length(CatalogList)) entries in the current catalog_s1 database. You asked for the $bundleNumber-th entry."
+        return
+    end
+
     bundleURL = CatalogList[bundleNumber]
     DownloadBundle(bundleURL, bundleLocation)
 end

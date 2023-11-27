@@ -7,6 +7,8 @@ module ObiterDicta
 
     using Downloads
     using Scratch, Git
+    using HTTP
+    using SHA
 
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand,

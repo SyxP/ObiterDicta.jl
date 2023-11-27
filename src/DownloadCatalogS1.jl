@@ -66,3 +66,58 @@ function downloadNCatalogS1(N)
 
     downloadCatalogS1JSON(CatalogS1Versions[Nth])
 end
+
+function getAccessKey()
+    io = open("$DataDir/BundleAccessKey.txt", "r")
+    key = readline(io)
+    close(io)
+    
+    return key
+end
+
+function uploadBundleFile(bundleFilePath, name)
+    io = open(bundleFilePath)
+    HashStr = uppercase(bytes2hex(open(bundleFilePath) do f
+        sha2_256(f)
+    end))
+    Header = ["Checksum"  => HashStr,
+              "AccessKey" => getAccessKey()]
+    HTTP.put("https://sg.storage.bunnycdn.com/limbus-company-bundle/$name", Header, io)
+    close(io)
+end
+
+function uploadAllBundles(filePath = "$git_download_cache/Bundles/")
+    @info "Uploading $filePath"
+    N = length(splitpath(filePath))
+    
+    for (root, dirs, files) in walkdir(filePath)
+        for file in files
+            filePath = joinpath(root, file)
+            nameOfFile = join(splitpath(filePath)[(N+1):end], "/")
+            uploadBundleFile(filePath, nameOfFile)
+        end
+    end
+end
+
+function autoPackageBundle(N = length(CatalogS1Versions))
+    if !(1 ≤ N ≤ length(CatalogS1Versions))
+        @info "There are only $(length(CatalogS1Versions)) entries in the current catalog_s1 database. You asked for the $N-th entry."
+        return
+    end
+
+    catalogURL = CatalogS1Versions[N]
+    Location   = "$git_download_cache/Bundles/$catalogURL/"
+    println("Auto Packaging $catalogURL at $Location.")
+    
+    URL = "https://d7g8h56xas73g.cloudfront.net/" * catalogURL * "/catalog_S1.json"
+    CheckProposedLocation(Location)
+    Downloads.download(URL, "$Location/catalog_S1.json")
+
+    downloadCatalogS1JSON(CatalogS1Versions[N])
+    DownloadAllBundles()
+    Beep()
+    sleep(10)
+    
+    uploadAllBundles()
+    Beep() ## Notify Long running process is done.
+end

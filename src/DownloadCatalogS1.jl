@@ -3,7 +3,12 @@
     A non-exhaustive list of all the previous catalog_s1:
 """
 
+# https://steamdb.info/depot/1973531/history/
+# The folder in StreamingAssets/aa change shows new site.
+
 CatalogS1Versions = [
+    "StandaloneWindows64Cloud_a"
+    "StandaloneWindows64Cloud_b"
     "StandaloneWindows64Cloud_0309_a"
     "StandaloneWindows64Cloud_0316_a"
     "StandaloneWindows64Cloud_0323_j"
@@ -14,6 +19,7 @@ CatalogS1Versions = [
     "StandaloneWindows64Cloud_0420_i"
     "StandaloneWindows64Cloud_0427_p"
     "StandaloneWindows64Cloud_0504_z"
+    "StandaloneWindows64Cloud_0504_z_hotfix"
     "StandaloneWindows64Cloud_0511_t"
     "StandaloneWindows64Cloud_0518_r"
     "StandaloneWindows64Cloud_0525_t"
@@ -25,8 +31,20 @@ CatalogS1Versions = [
     "s0706_cVisJt8vQsWrZjAFJPcV"
     "s0713_9Ls4-_512whD2RWW295Z"
     "s0720_Z0NIcgj5VjyqZH-EpeOM"
-    # s0727 - s1109 are missing. TODO: Reconstruct the links via Steam Dump
-    "s0914_zZ-TPEBYrTGBPUDO2Eim" 
+    "s0727_B7WXhm7FAQgTlH2HlTir"
+    "s0803_pUYo5fw5NfZCyVpUasDV"
+    "s0810_TC9WIFJQD5KnegBUE-SK"
+    "s0817_UsH-OmRAstNiOwTWXav3"
+    "s0824_li9VINIvKxFaQ5SEW-RX"
+    "s0831_JuvhJViAVdME19OqDHL0"
+    "s0907_rFyTicczA7MA1H_zrmWR"
+    "s0914_zZ-TPEBYrTGBPUDO2Eim"
+    "s0921_qGoCDlb_9ad7AXo5rDnZ"
+    "s1012_e6emARX-t5ll0cNJDl5w"
+    "s1019_DIIBTpxCMXbHpMN669E4"
+    "s1026_7vm6tvhdT5T7H6qknIMN"
+    "s1102_EmBeOUQlI-sFV50kyEKq"
+    "s1109_ltmk2wDjw0ynIj8EM82i"
     "s1116_GiWH7BIIPKvl98vphGaw"
     "s1123_TTSlH021Looc8jCZJ4-a"
 ]

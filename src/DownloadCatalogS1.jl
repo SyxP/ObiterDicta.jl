@@ -115,8 +115,6 @@ function autoPackageBundle(N = length(CatalogS1Versions))
 
     downloadCatalogS1JSON(CatalogS1Versions[N])
     DownloadAllBundles()
-    Beep()
-    sleep(10)
     
     uploadAllBundles()
     Beep() ## Notify Long running process is done.

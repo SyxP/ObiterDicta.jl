@@ -35,7 +35,7 @@ end
 function DownloadBundle(bundleURL, bundleLocation)
     bundleURLParts = split(bundleURL, "/")
     fileName = bundleURLParts[end]
-    versionNum = bundleURLParts[end-1][1:5]
+    versionNum = bundleURLParts[end-1]
     CheckProposedLocation(bundleLocation)
     CheckProposedLocation(bundleLocation*versionNum)
     filePath = joinpath(bundleLocation, versionNum, fileName)

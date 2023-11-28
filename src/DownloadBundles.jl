@@ -38,13 +38,19 @@ function CheckProposedLocation(Location)
     mkdir(Location)
 end
 
-function DownloadBundle(bundleURL, bundleLocation, URLBase = "https://d7g8h56xas73g.cloudfront.net") 
+function getFilePathFromBundleURL(bundleURL, bundleLocation, URLBase = "https://d7g8h56xas73g.cloudfront.net")
     bundleURLParts = split(bundleURL, "/")
     urlBaseParts = split(URLBase, "/")
     fileName = bundleURLParts[(length(urlBaseParts) + 1) : end]
     dirPath = joinpath(bundleLocation, fileName[begin:(end - 1)]...)
-    CheckProposedLocation(dirPath)
     filePath = joinpath(bundleLocation, fileName...)
+
+    filePath, dirPath
+end
+
+function DownloadBundle(bundleURL, bundleLocation) 
+    filePath, dirPath = getFilePathFromBundleURL(bundleURL, bundleLocation)
+    CheckProposedLocation(dirPath)
     @info "Downloading $filePath"
 
     try

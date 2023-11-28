@@ -76,6 +76,7 @@ function getAccessKey()
 end
 
 function uploadBundleFile(bundleFilePath, name)
+    @info "Uploading $name ($bundleFilePath)"
     io = open(bundleFilePath)
     HashStr = uppercase(bytes2hex(open(bundleFilePath) do f
         sha2_256(f)
@@ -118,4 +119,33 @@ function autoPackageBundle(N = length(CatalogS1Versions))
     
     uploadAllBundles()
     Beep() ## Notify Long running process is done.
+end
+
+function checkFile(file)
+    if !isfile(file)
+        @error "File $file does not exist."
+        return false
+    end
+    return true
+end
+
+function checkPackageBundle(N = length(CatalogS1Versions))
+    if !(1 ≤ N ≤ length(CatalogS1Versions))
+        @info "There are only $(length(CatalogS1Versions)) entries in the current catalog_s1 database. You asked for the $N-th entry."
+        return
+    end
+
+    catalogURL = CatalogS1Versions[N]
+    bundleLocation = "$git_download_cache/Bundles"
+    Location   = "$bundleLocation/$catalogURL"
+    checkFile("$Location/catalog_S1.json")
+    
+    downloadCatalogS1JSON(CatalogS1Versions[N])
+    URLs = parseCatalog()
+    for url in URLs
+        filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
+        checkFile(filePath)
+    end
+
+    return
 end

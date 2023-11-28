@@ -129,6 +129,22 @@ function checkFile(file)
     return true
 end
 
+function cleanUpBundleFolder(location = "$git_download_cache/Bundles/")
+    @info "Cleaning Up $location."
+    
+    Flag = true
+    while Flag
+        Flag = false
+        for (root, dirs, files) in walkdir(location)
+            if length(files) + length(dirs) == 0
+                rm(root)
+                Flag = true
+            end 
+        end
+    end
+    return
+end
+
 function checkPackageBundle(N = length(CatalogS1Versions))
     if !(1 ≤ N ≤ length(CatalogS1Versions))
         @info "There are only $(length(CatalogS1Versions)) entries in the current catalog_s1 database. You asked for the $N-th entry."

@@ -14,7 +14,8 @@ function UpdateBundleHelp()
               `update catalog _num_`        - Downloads _num_th bundle. If _num_ is not given, downloads the latest bundle.     
 
               `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch.
-              `update bundle all`           - Downloads all bundles. (warning: ~9GB) 
+              `update bundle all`           - Downloads all bundles. (warning: ~9GB)
+              `update bundle new`           - Downloads only new bundles, not in your folder. 
               `update bundle data`          - Downloads only `static_s1` and `localize_s1`.
               `update bundle _num_`         - After list, download _num_th bundle.
 
@@ -30,6 +31,7 @@ function UpdateBundleParser(input)
     input == "all" && return updateAll()
 
     input == "bundle all" && return DownloadAllBundles()
+    input == "bundle new" && return DownloadNewBundles()
     input == "bundle data" && return DownloadDataBundles()
     input == "list bundles" && return listBundlesFromCatalog()
 
@@ -101,6 +103,5 @@ updateRU() = updateTranslation("ru",
 function updateAll()
     updateCN()
     updateRU()
-    downloadLatestCatalogS1()
 end
 

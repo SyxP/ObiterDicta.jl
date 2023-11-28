@@ -60,9 +60,8 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 2. Battle Pass Information (0%)
 3. Announcer Voice Lines (0%)
 4. Profile Card Information (100%)
-5. Automatic Updating of Bundles (90%)
+5. Automatic Updating of Bundles (100%)
 
 ### Known Bugs/Specific Requested Features
 
 1. Let Damage Type be localized
-2. Download only new Bundles, as well as to filter Bundles by specific types.

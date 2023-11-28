@@ -122,6 +122,9 @@ function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/")
             end
         end
     end
+
+    cleanUpBundleFolder(bundleLocation)
+    return
 end
 
 function DownloadNBundleFromCatalog(n, bundleLocation = "$git_download_cache/Bundles/")

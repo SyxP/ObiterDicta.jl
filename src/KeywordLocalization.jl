@@ -7,7 +7,7 @@ function getSinString(str)
         return str
     end
 
-    return "{$colour}" * myDict[str] * "{/$colour}"
+    return Term.Style.apply_style("{$colour}" * myDict[str] * "{/$colour}")
 end
 
 function getHexFromColour(colour)
@@ -20,7 +20,9 @@ function getHexFromColour(colour)
         "AZURE" => "blue",
         "INDIGO" => "#4B0082",
         "VIOLET" => "#7F00FF",
-        "NEUTRAL" => "202020"
+        "NEUTRAL" => "202020",
+        "BLACK" => "black",
+        "WHITE" => "CCCCCC"
     )
     if !haskey(Mapping, colour)
         @warn "Unable to Parse Colour $colour."

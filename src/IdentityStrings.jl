@@ -108,7 +108,6 @@ for (fn, field, default) in InternalIdentityFields
         getInternalField(identity, $field, $default, nothing)
 end
 
-
 function getOtherFields(identity :: Personality)
     Entries = String[]
     LongEntries = String[]
@@ -229,7 +228,11 @@ function getResistanceString(identity :: Personality)
 end
 
 function isEvent(identity :: Personality)
-    getAdditionalAttachment(identity) == "EVENT"
+    S = getAdditionalAttachment(identity)
+    if S ∉ ["EVENT", ""]
+        @info "Unable to parse Additional Attachment $S"
+    end
+    return S == "EVENT"
 end
 function getSeasonStr(identity :: Personality)
     N = getSeason(identity)

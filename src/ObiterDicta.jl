@@ -42,7 +42,7 @@ module ObiterDicta
     include("LanguageInternalization.jl")
     include("DebugFunctions.jl")   
     include("KeywordLocalization.jl")
-    include("CoinStruct.jl")
+    include("SinnerNames.jl")
 
     # Downloading
     include("DownloadTranslations.jl")
@@ -52,6 +52,9 @@ module ObiterDicta
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
     include("CommonInterface.jl")
+
+    # Internal Structures
+    include("CoinStruct.jl")
 
     # Utility Modes
     include("ExperienceLevels.jl")
@@ -69,9 +72,11 @@ module ObiterDicta
     include("CombatSkillCommand.jl")
 
     include("IdentityStrings.jl")
+
+    include("EGOStrings.jl")
     
     # Dependent on Structs
-    include("PanicString.jl")
+    include("PanicStrings.jl")
     include("PersonalityPassiveMap.jl")
 
     function StartREPL()

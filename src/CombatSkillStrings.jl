@@ -112,7 +112,8 @@ end
 
 for (fn, field, defValue) in [(:getName, "name", ""),
                               (:getCoinDesc, "coinlist", Any[]),
-                              (:getDesc, "desc", "")]
+                              (:getDesc, "desc", ""),
+                              (:getAbName, "abName", "")]
     @eval function $fn(skill :: CombatSkill, tier = 999)
         entry = getLocalizedLevelList(skill, tier)
         entry === nothing && return nothing
@@ -202,6 +203,13 @@ end
 
 function getDescriptionString(skill :: CombatSkill, tier = 999)
     AnsArr = String[]
+    
+    Str = getAbName(skill, tier)
+    if Str !== nothing && Str != ""
+        S = @blue("Origin") * ": $(EscapeAndFlattenField(Str))"
+        push!(AnsArr, S)
+    end
+
     Str = getDesc(skill, tier)
     shouldNotSkip = true
     (Str === nothing) && (shouldNotSkip = false)

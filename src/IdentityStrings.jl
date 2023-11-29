@@ -174,7 +174,7 @@ function getHP(identity :: Personality, level)
     baseHP = getBaseHP(identity)
     increment = getIncrementHP(identity)
 
-    totalHP = baseHP + level*increment
+    totalHP = Float64(baseHP + level*increment)
     roundedHP = round(Int, totalHP, RoundNearestTiesUp)
     return roundedHP
 end

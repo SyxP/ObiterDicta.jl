@@ -165,3 +165,8 @@ function checkPackageBundle(N = length(CatalogS1Versions))
 
     return
 end
+
+function forceDownloadCatalogS1(URL)
+    @info "Downloading from $(URL)"
+    Downloads.download(string(URL), "$DataDir/catalog_S1.json")
+end  

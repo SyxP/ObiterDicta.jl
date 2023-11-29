@@ -113,6 +113,10 @@ function SearchClosestString(needle, haystack; top = 1)
     function evaluator(newStr)
         evaluate(TokenMax(JaroWinkler()), superNormString(newStr), normNeedle)
     end
-    
-    return partialsort(haystack, 1:top; by = x -> evaluator(x[1]))
+ 
+    if top > length(haystack)
+        return sort(haystack; by = x -> evaluator(x[1]))
+    else
+        return partialsort(haystack, 1:top; by = x -> evaluator(x[1]))
+    end
 end

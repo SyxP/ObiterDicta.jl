@@ -59,3 +59,27 @@ function AttackTypes(S)
                        "NONE" => "None") 
     return haskey(ReplaceDict, S) ? ReplaceDict[S] : S
 end
+
+function getSeasonNameFromInt(N)
+    # Hardcoded Function
+
+    if N == 0
+        Ans = "Season 0"
+    elseif N == 1
+        Ans = "Season 1: Orientation"
+    elseif N == 2
+        Ans = "Season 2: Reminiscence"
+    elseif N == 3
+        Ans = "Season 3: Bon Voyage"
+    elseif N == 9101
+        Ans = "Walpurgis Night"
+    else
+        @info "Unknown Season $N"
+    end
+
+    return Ans
+end
+
+function getPanicName(id)
+
+end

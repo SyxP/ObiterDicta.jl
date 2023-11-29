@@ -34,7 +34,9 @@ function DisplaySkillAsTree(SkillDict, Title = "")
 end
 
 function EscapeString(Str)
-    strip(replace(Str, "{" => "[[", "}" => "]]"))
+    nStr = strip(replace(Str, "{" => "[[", "}" => "]]"))
+    nStr = replace(nStr, r"</?[a-zA-Z=%0-9]+>" => "")
+    return nStr
 end
 
 function EscapeAndFlattenField(value)
@@ -43,6 +45,10 @@ function EscapeAndFlattenField(value)
     else
         return EscapeString(string(value))
     end
+end
+
+function NumberStringWithSign(n)
+    (n < 0 ? "" : "+") * string(n)
 end
 
 function GridFromList(StringList, columns = 1; labelled = false)
@@ -57,3 +63,18 @@ function GridFromList(StringList, columns = 1; labelled = false)
     GridList = [TextBox(rstrip(Str), fit = true, padding = Padding(0, 0, 0, 0)) for Str in StringCols]
     return grid(GridList; layout=(nothing, columns))
 end
+
+isAlpha(c) = ('a' ≤ c ≤ 'z') || ('A' ≤ c ≤ 'Z')
+function replaceRegexNumHoles(inputStr, holedStr)
+    S = eachmatch(r"(\d+)", inputStr)
+    Ans = holedStr
+    if S !== nothing
+        for (idx, val) in enumerate(S)
+            Ans = replace(Ans, "{$(idx - 1)}" => val.captures[1])
+        end
+    end
+
+    return Ans
+end
+
+LineBreak(S) =  hLine(93, "{bold white}$S{/bold white}", box = :DOUBLE)

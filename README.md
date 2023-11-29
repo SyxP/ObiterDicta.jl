@@ -25,7 +25,7 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 1. EXP Tables (100%)
 2. Buffs / Status Effects (100%)
 3. Skills (100%)
-4. Identities (0%)
+4. Identities (50%)
 5. E.G.O (0%)
 6. Passives (100%)
 7. Enemy Information (0%)

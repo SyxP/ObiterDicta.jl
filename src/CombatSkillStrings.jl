@@ -154,10 +154,11 @@ function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbos
 
     tmp = getOffLevelCorrection(skill, tier)
     if tmp !== nothing
+        Ntmp = NumberStringWithSign(tmp)
         if offenseLvl == -1 
-            push!(Entries, "$(@blue("Offense Level Corr.")): $tmp")
+            push!(Entries, "$(@blue("Offense Level Corr.")): $Ntmp")
         else
-            push!(Entries, "$(@blue("Offense Level")): $(offenseLvl + tmp) ($tmp)")
+            push!(Entries, "$(@blue("Offense Level")): $(offenseLvl + tmp) ($Ntmp)")
         end
     end
 
@@ -334,10 +335,13 @@ function getSubtitle(skill :: CombatSkill, tier = 999)
     return String(take!(io))
 end
 
-function InternalSkillPanel(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbose = true)
-    Title = getTitle(skill, tier)
+function InternalSkillPanel(skill :: CombatSkill, 
+    tier = 999, offenseLvl = -1; 
+    verbose = true, addedTitle = "", addedSubtitle = "")
+    
+    Title = addedTitle * getTitle(skill, tier)
     content = getNormDescriptionString(skill, tier)
-    mySub = getSubtitle(skill, tier)
+    mySub = addedSubtitle * getSubtitle(skill, tier)
 
     MainFields = getMainFields(skill, tier, offenseLvl; verbose)
     if MainFields != ""

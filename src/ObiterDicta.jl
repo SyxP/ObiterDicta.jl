@@ -68,6 +68,12 @@ module ObiterDicta
     include("CombatSkillStrings.jl")
     include("CombatSkillCommand.jl")
 
+    include("IdentityStrings.jl")
+    
+    # Dependent on Structs
+    include("PanicString.jl")
+    include("PersonalityPassiveMap.jl")
+
     function StartREPL()
         initrepl(MainParser, 
              prompt_text="Limbus Query> ",

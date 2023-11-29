@@ -44,3 +44,18 @@ getField(x, getLocalizedVersion, fieldName, cantFind, defaultReturn)
 
 getInternalField(x :: T, fieldName, cantFind, defaultReturn) where T = 
 getField(x, getInternalVersion, fieldName, cantFind, defaultReturn)
+
+function getLevelList(myDict, readLevel, tier)
+    copyDict = copy(myDict)
+
+    sort!(copyDict, by = readLevel)
+    Cumulative = Dict{String, Any}()
+    for entry in copyDict
+        readLevel(entry) > tier && break
+        for (key, value) in entry
+            Cumulative[key] = value
+        end
+    end
+    return Cumulative
+
+end

@@ -64,47 +64,28 @@ end
 getID(skill :: CombatSkill) = skill.id
 getStringID(skill :: CombatSkill) = string(skill.id)
 
+
 function getLocalizedLevelList(skill :: CombatSkill, tier = 0) 
     # Tier 0 means no only taking input with no uptie/threadspin field.
     levelList = getLocalizedField(skill, "levelList", Dict{String, Any}[], nothing)
     levelList === nothing && return nothing
-    levelList = copy(levelList)
     
     function readLevel(entry)
         haskey(entry, "level") ? entry["level"] : -1
     end
-    
-    sort!(levelList; by = readLevel)
-    Cumulative = Dict{String, Any}()
-    for entry in levelList
-        readLevel(entry) > tier && break
-        for (key, value) in entry
-            Cumulative[key] = value
-        end
-    end
-    
-    return Cumulative
+   
+    return getLevelList(levelList, readLevel, tier)
 end
 
 function getInternalLevelList(skill :: CombatSkill, tier = 0)
     levelList = getInternalField(skill, "skillData", Dict{String, Any}[], nothing)
     levelList === nothing && return nothing
-    levelList = copy(levelList)
     
     function readLevel(entry)
         haskey(entry, "gaksungLevel") ? entry["gaksungLevel"] : -1
     end
-    
-    sort!(levelList; by = readLevel)
-    Cumulative = Dict{String, Any}()
-    for entry in levelList
-        readLevel(entry) > tier && break
-        for (key, value) in entry
-            Cumulative[key] = value
-        end
-    end
-    
-    return Cumulative
+   
+    return getLevelList(levelList, readLevel, tier)
 end
 
 function getCoinValues(skill :: CombatSkill, tier = 999)

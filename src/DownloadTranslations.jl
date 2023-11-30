@@ -12,6 +12,7 @@ function UpdateBundleHelp()
 
               `update list bundles`         - List available bundles. 
               `update catalog _num_`        - Downloads _num_th bundle. If _num_ is not given, downloads the latest bundle.     
+              `update catalog force _url_`  - Downloads the bundle at _url_ to replace the Catalog_S1 file
 
               `update bundle _bundle_name_` - Downloads _bundle_name_ to scratch.
               `update bundle all`           - Downloads all bundles. (warning: ~9GB)
@@ -34,6 +35,11 @@ function UpdateBundleParser(input)
     input == "bundle new" && return DownloadNewBundles()
     input == "bundle data" && return DownloadDataBundles()
     input == "list bundles" && return listBundlesFromCatalog()
+
+    S = match(r"^catalog force (.*)$", input)
+    if S !== nothing
+        return forceDownloadCatalogS1(S.captures[1])
+    end
 
     S = match(r"^catalog ([1-9][0-9]*)$", input)
     if S !== nothing

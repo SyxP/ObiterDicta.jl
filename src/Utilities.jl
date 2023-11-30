@@ -11,11 +11,42 @@ function getLocalizeDataInfo()
     return LocalizeMasterDatabase
 end
 
+function getDatFile(filePath)
+    Ext = split(filePath, ".")[end]
+    if Ext == "json"
+        return JSON.parsefile(filePath)
+    end
+
+    io = open(filePath, "r")
+    S = read(io, String)
+    close(io)
+
+    myS = collect(filter(x-> x != '\0' && x != '\x10', S))
+    St, En = 1, length(myS)
+    while myS[St] != '{' && St < En
+        St += 1
+    end
+    while myS[En] != '}' && En > St
+        En -= 1
+    end
+
+    Rest = String(myS[St:En])
+
+    try
+        return JSON.parse(Rest)
+    catch _ 
+        @info "Unable to parse $filePath"
+        return
+    end
+
+    return Dict{String, Any}()
+end
+
 StaticMasterDatabase = nothing
 function getStaticDataInfo()
     global StaticMasterDatabase
     if StaticMasterDatabase === nothing
-        StaticMasterDatabase = JSON.parsefile("$DataDir/StaticData/static-data/static-data-info.json")
+        StaticMasterDatabase = getDatFile("$DataDir/StaticData/static-data/static-data-info.dat")
     end
     return StaticMasterDatabase
 end
@@ -42,7 +73,7 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
 
     filePath = "$DataDir/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
     try
-        global LocalizeDatabase[(Name, CurrLang)] = JSON.parsefile(filePath)
+        global LocalizeDatabase[(Name, CurrLang)] = getDatFile(filePath)
     catch ex
         GlobalDebugMode && @warn "Unable to load $filePath" # Incomplete Translation
         if CurrLang == English
@@ -63,9 +94,9 @@ function StaticData(Name)
         return StaticDatabase[Name]
     end
     
-    filePath = "$DataDir/StaticData/static-data/" * Name * ".json"
+    filePath = "$DataDir/StaticData/static-data/" * Name * ".dat"
     try
-        global StaticDatabase[Name] = JSON.parsefile(filePath)
+        global StaticDatabase[Name] = getDatFile(filePath)
     catch ex
         @error "Unable to load $filePath"
         rethrow(ex)

@@ -47,6 +47,7 @@ CatalogS1Versions = [
     "s1109_ltmk2wDjw0ynIj8EM82i"
     "s1116_GiWH7BIIPKvl98vphGaw"
     "s1123_TTSlH021Looc8jCZJ4-a"
+    "s1130_-03Kwa0B7JoMDqlY0pZ3"
 ]
 
 

@@ -112,7 +112,7 @@ function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/")
     URLs = parseCatalog()
     for url in URLs
         filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
-        hasfile(filePath) && continue
+        isfile(filePath) && continue
         fileLocation = DownloadBundle(url, bundleLocation)
         sleep(0.2) # To not overwhelm the server
         if fileLocation != false

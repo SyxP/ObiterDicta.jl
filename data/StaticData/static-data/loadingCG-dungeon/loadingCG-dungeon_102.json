@@ -1,0 +1,67 @@
+{
+  "chapterId": 102,
+  "list": [
+    {
+      "id": 10,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_B1_vault"
+      ]
+    },
+    {
+      "id": 50,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_B1_vault"
+      ]
+    },
+    {
+      "id": 110,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_B2_mine"
+      ]
+    },
+    {
+      "id": 111,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_B2_mine"
+      ]
+    },
+    {
+      "id": 112,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_B2_mine"
+      ]
+    },
+    {
+      "id": 200,
+      "clearCGList": [
+        "CG/S205_1",
+        "CG/S206_1",
+        "BG/story_b3_Fathoms of the Ego_entrance"
+      ]
+    },
+    {
+      "id": 250,
+      "clearCGList": [
+        "CG/S208_1",
+        "CG/S207_2",
+        "CG/S210_1",
+        "CG/S210_2",
+        "CG/S215",
+        "CG/S209",
+        "CG/S211_1",
+        "CG/S218",
+        "BG/story_B3_Fathoms of the Ego"
+      ]
+    }
+  ]
+}

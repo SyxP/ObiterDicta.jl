@@ -1,0 +1,57 @@
+{
+    "list": [
+      {
+        "mainchapterid": 1,
+        "subchapterlist": [
+          {
+            "subchapterid": 105,
+            "progressRewardList": [
+              {
+                "type": "NORMALCLEAR_ONETHIRD",
+                "rewardList": [
+                  {
+                    "type": "ITEM",
+                    "id": 2,
+                    "num": 130
+                  }
+                ]
+              },
+              {
+                "type": "NORMALCLEAR_TWOTHIRD",
+                "rewardList": [
+                  {
+                    "type": "ITEM",
+                    "id": 2,
+                    "num": 130
+                  }
+                ]
+              },
+              {
+                "type": "NORMALCLEAR_ALLCLEAR",
+                "rewardList": [
+                  {
+                    "type": "ITEM",
+                    "id": 2,
+                    "num": 130
+                  }
+                ]
+              },
+              {
+                "type": "EXCLEAR_ALLCLEAR",
+                "rewardList": [
+                  {
+                    "type": "ITEM",
+                    "id": 2,
+                    "num": 260
+                  }
+                ]
+              }
+            ],
+            "excludedNodeIdList": [
+              10528,10531,10536
+            ]
+          }
+        ]
+      }
+    ]
+  }

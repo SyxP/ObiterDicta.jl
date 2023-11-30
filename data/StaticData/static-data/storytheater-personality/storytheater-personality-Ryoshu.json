@@ -1,0 +1,96 @@
+{
+  "list": [
+    {
+        "characterId": 4,
+        "storyList":
+        [
+            {
+                "personalityId": 10401,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                ],
+                "profileId": "",
+                "analysisId": ""
+            },
+            {
+                "personalityId": 10402,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                  {
+                    "storyId": "P10402",
+                    "lockCondition": "gacksung",
+                    "order": 1,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "seven_ryoshu_profile",
+                "analysisId": "seven_ryoshu_analysis"
+            },
+            {
+                "personalityId": 10403,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList": [
+                  {
+                    "storyId": "P10403",
+                    "lockCondition": "gacksung",
+                    "order": 1,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "kurokumo_ryoshu_profile",
+                "analysisId": "kurokumo_ryoshu_analysis"
+            },
+            {
+              "personalityId": 10404,
+              "releaseDay": 20230420,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P10404",
+                  "lockCondition": "gacksung",
+                  "order": 2,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+              "profileId": "23GuCooker_ryoshu_profile",
+              "analysisId": "23GuCooker_ryoshu_analysis"
+          },
+          {
+            "personalityId": 10405,
+            "releaseDay": 20230824,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10405",
+                "lockCondition": "gacksung",
+                "order": 4,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "Wcorp_ryoshu_profile",
+            "analysisId": "Wcorp_ryoshu_analysis"
+          },
+          {
+            "personalityId": 10406,
+            "releaseDay": 20231116,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10406",
+                "lockCondition": "gacksung",
+                "order": 3,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "lccb_ryoshu_profile",
+            "analysisId": "lccb_ryoshu_analysis"
+          }        
+        ]
+    }
+  ]
+}

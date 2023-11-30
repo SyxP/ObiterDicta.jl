@@ -1,0 +1,1374 @@
+{
+	"list": [
+		{
+			"id": 2,
+			"startDate": "2023-07-27T03:00:00.000Z",
+			"endDate": "2023-08-10T00:59:59.000Z",
+			"gracePeriod": "2023-08-17T00:59:59.000Z",
+			"eventRewardDatas": [
+				{
+					"rewardId": 1,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 25
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 2,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 50
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 20
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 3,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 75
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 4,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 100
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 5,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 125
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 6,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 150
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 20
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 7,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 175
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 8,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 200
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 9,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 225
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 10,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 250
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 30
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 11,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 300
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 4
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 12,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 350
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 13,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 400
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 4
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 14,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 450
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 30
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 15,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 500
+					},
+					"rewardItemList": [
+						{
+							"type": "PERSONALITY",
+							"id": 11007,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 16,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 550
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 17,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 600
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 18,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 650
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 19,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 700
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 50
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 20,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 750
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 21,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 800
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 22,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 850
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 7
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 23,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 900
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 50
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 24,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 950
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 8
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 25,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1000
+					},
+					"rewardItemList": [
+						{
+							"type": "USERBANNER",
+							"id": 12,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 26,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1100
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 4
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 27,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1200
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 28,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1300
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 29,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1400
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 30,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1500
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 31,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1600
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 50
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 32,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1700
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 7
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 33,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1800
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 34,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 1900
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 7
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 35,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2000
+					},
+					"rewardItemList": [
+						{
+							"type": "EGO",
+							"id": 20405,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 36,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2100
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 8
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 37,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2200
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 8
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 38,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2300
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 39,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2400
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 8
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 40,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2500
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 41,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2600
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 50
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 42,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2700
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 43,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2800
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 44,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 2900
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 45,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3000
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 223,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 46,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3100
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 47,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3200
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 48,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3300
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 49,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3400
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 50,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3500
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 3
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 51,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3600
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 100
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 52,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3700
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1102,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 53,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3800
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 101,
+							"num": 2
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 54,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 3900
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 1202,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 55,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20001,
+						"num": 4000
+					},
+					"rewardItemList": [
+						{
+							"type": "USER_TICKET_DECO_LEFT",
+							"id": 11,
+							"num": 1
+						},
+						{
+							"type": "USER_TICKET_DECO_RIGHT",
+							"id": 11,
+							"num": 1
+						},
+						{
+							"type": "USER_TICKET_DECO_EGOBG",
+							"id": 11,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				}
+			],
+			"eventBonusPersonalityList": [
+				{
+					"id": 11007,
+					"percentage": 20,
+					"element": {
+						"type": "PERSONALITY",
+						"id": 11007
+					}
+				},
+				{
+					"id": 10807,
+					"percentage": 40,
+					"element": {
+						"type": "PERSONALITY",
+						"id": 10807
+					}
+				}
+			],
+			"eventBonusEgoList": [
+				{
+					"id": 20405,
+					"percentage": 20,
+					"element": {
+						"type": "EGO",
+						"id": 20405
+					}
+				},
+				{
+					"id": 20604,
+					"percentage": 40,
+					"element": {
+						"type": "EGO",
+						"id": 20604
+					}
+				}
+			],
+			"eventSpecialProbability": {
+				"stageNodes": [
+					{
+						"targetId": 10102,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10103,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10104,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10105,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10106,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10107,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10108,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10109,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10110,
+						"prob": 0.03
+					},
+
+
+					{
+						"targetId": 10202,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10204,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10205,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10206,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10207,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10208,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10209,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10210,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10211,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10212,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10213,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10214,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10215,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10218,
+						"prob": 0.03
+					},
+
+
+					{
+						"targetId": 10302,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10304,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10305,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10306,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10310,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10311,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10312,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10313,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10314,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10315,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10316,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10317,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10318,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10319,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10320,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10321,
+						"prob": 0.03
+					},
+
+
+					{
+						"targetId": 910301,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910302,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910303,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910304,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910305,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910306,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910307,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910308,
+						"prob": 0.03
+					},
+
+
+					{
+						"targetId": 10402,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10403,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10404,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10405,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10406,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10410,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10411,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10412,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10413,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10414,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10416,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10417,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10418,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10419,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10420,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10421,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10422,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10423,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10424,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10425,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10430,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10431,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10432,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10433,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10434,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10435,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10436,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10437,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10438,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10439,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10440,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10441,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10442,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10443,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10444,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10445,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10446,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10447,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10448,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10449,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10450,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10451,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10452,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10453,
+						"prob": 0.03
+					},
+
+
+					{
+						"targetId": 910402,
+						"prob": 0.045
+					},
+					{
+						"targetId": 910403,
+						"prob": 0.045
+					},
+					{
+						"targetId": 910405,
+						"prob": 0.06
+					},
+					{
+						"targetId": 910407,
+						"prob": 0.045
+					},
+					{
+						"targetId": 910408,
+						"prob": 0.045
+					},
+					{
+						"targetId": 910409,
+						"prob": 0.06
+					},
+					{
+						"targetId": 910411,
+						"prob": 0.045
+					},
+					{
+						"targetId": 910412,
+						"prob": 0.075
+					}
+				],
+				"storyDungeons": [
+					{
+						"targetId": 10111,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10219,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10322,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910309,
+						"prob": 0.03
+					},
+					{
+						"targetId": 910310,
+						"prob": 0.03
+					},
+					{
+						"targetId": 10454,
+						"prob": 0.03
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "list": [
+    {
+      "id": 401,
+      "category": "CONSUMABLE",
+      "itemUseType":"PACKAGE_BOXED",
+      "spriteStr":"twine_package",
+      "contents": [
+        {
+          "type": "ITEM",
+          "id": 201,
+          "minNum": 1,
+          "maxNum": 3
+        }
+      ]
+    }
+  ]
+}

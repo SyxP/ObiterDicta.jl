@@ -1,0 +1,72 @@
+{
+  "chapterId": 9103,
+  "list": [
+    {
+      "id": 910301,
+      "clearCGList": [
+        "BG/story_street"
+
+      ]
+    },
+    {
+      "id": 910302,
+      "clearCGList": [
+        "BG/story_street",
+        "BG/story_Franchise chicken",
+        "BG/story_story_oldrestaurant",
+        "CG/E303_4"
+      ]
+    },
+    {
+      "id": 910303,
+      "clearCGList": [
+        "BG/story_street",
+        "BG/story_Franchise chicken",
+        "BG/story_story_oldrestaurant",
+        "CG/E306_11"
+      ]
+    },
+    {
+      "id": 910304,
+      "clearCGList": [
+        "BG/story_oldrestaurant",
+        "BG/story_oldrestaurant_inside_now",
+        "BGstory_oldrestaurant_kitchen",
+        "CG/E306_11"
+      ]
+    },
+    {
+      "id": 910305,
+      "clearCGList": [
+        "BG/story_oldrestaurant_kitchen",
+        "BG/story_oldrestaurant_inside_now",
+        "CG/E306_11"
+      ]
+    },
+    {
+      "id": 910306,
+      "clearCGList": [
+        "BG/story_oldrestaurant_kitchen",
+        "BG/story_oldrestaurant_inside_now",
+        "CG/E306_11"
+      ]
+    },
+    {
+      "id": 910307,
+      "clearCGList": [
+        "BG/story_oldrestaurant_kitchen",
+        "BG/story_oldrestaurant_inside_now",
+        "CG/E306_11"
+      ]
+    },
+    {
+      "id": 910308,
+      "clearCGList": [
+        "CG/E302",
+        "BG/story_oldrestaurant_kitchen",
+        "BG/story_oldrestaurant_inside_now"
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "eventId": "RailwayDungeonBanner",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_RailwayLine2"
+    }
+  ]
+}

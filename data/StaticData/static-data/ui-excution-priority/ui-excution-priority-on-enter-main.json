@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "id": "NewDungeonUpdated",
+      "priority": 4
+    },
+    {
+      "id": "BattlePassOpened",
+      "priority": 1
+    },
+    {
+      "id": "DailyLoginEvent",
+      "priority": 3
+    },
+    {
+      "id": "SeasonOpenedOrClosed",
+      "priority": 2
+    }
+  ]
+}

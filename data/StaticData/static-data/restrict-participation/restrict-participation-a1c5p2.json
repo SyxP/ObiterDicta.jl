@@ -1,0 +1,13 @@
+{
+    "list": [
+        {
+            "stageType": "NORMAL_BATTLE",
+            "restrictList": [
+                {
+                    "id" : 10532,
+                    "mustParticipateIds": [ 8 ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+  "list": [
+    {
+      "id": "VibrationExplosion",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "SinkingSurge",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "MentalSystemResultIncrease_Typo",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "MentalSystemResultDecrease_Typo",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "Aggro",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "Discard",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "AaCePcBr",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "AaCePcBs",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "AaCePcBt",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    }
+  ]
+}

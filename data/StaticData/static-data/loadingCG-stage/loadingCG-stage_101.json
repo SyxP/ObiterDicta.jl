@@ -1,0 +1,97 @@
+{
+  "chapterId": 101,
+  "list": [
+    {
+      "id": 10100,
+      "clearCGList": [
+        "CG/S3",
+        "CG/S4_4",
+        "CG/S5_4",
+        "CG/S22"
+      ]
+    },
+    {
+      "id": 10101,
+      "clearCGList": [
+        "CG/S3",
+        "CG/S4_4",
+        "CG/S5_4",
+        "CG/S22"
+      ]
+    },
+    {
+      "id": 10102,
+      "clearCGList": [
+        "CG/S6_4",
+        "CG/S4_4",
+        "CG/S5_4",
+        "CG/S5_2",
+        "CG/S22",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10103,
+      "clearCGList": [
+        "CG/S6_4",
+        "CG/S4_4",
+        "CG/S5_4",
+        "CG/S22",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10104,
+      "clearCGList": [
+        "CG/S6_4",
+        "CG/S4_4",
+        "CG/S5_4",
+        "CG/S22",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10105,
+      "clearCGList": [
+        "CG/S7",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10106,
+      "clearCGList": [
+        "CG/S7",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10107,
+      "clearCGList": [
+        "CG/S7",
+        "BG/story_D_backsteat"
+      ]
+    },
+    {
+      "id": 10108,
+      "clearCGList": [
+        "CG/S7",
+        "BG/Lobotomy_Center_Entrance"
+      ]
+    },
+    {
+      "id": 10109,
+      "clearCGList": [
+        "CG/S7",
+        "BG/Lobotomy_Center_Entrance"
+      ]
+    },
+    {
+      "id": 10110,
+      "clearCGList": [
+        "CG/S8",
+        "BG/Lobotomy_Center_Deep2",
+        "BG/Lobotomy_Center"
+      ]
+    }
+  ]
+}

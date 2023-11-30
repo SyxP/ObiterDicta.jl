@@ -11,7 +11,7 @@ function getLocalizeDataInfo()
     return LocalizeMasterDatabase
 end
 
-function getDatFile(filePath)
+function readDataFile(filePath)
     Ext = split(filePath, ".")[end]
     if Ext == "json"
         return JSON.parsefile(filePath)
@@ -46,7 +46,7 @@ StaticMasterDatabase = nothing
 function getStaticDataInfo()
     global StaticMasterDatabase
     if StaticMasterDatabase === nothing
-        StaticMasterDatabase = getDatFile("$DataDir/StaticData/static-data/static-data-info.dat")
+        StaticMasterDatabase = readDataFile("$DataDir/StaticData/static-data/static-data-info.json")
     end
     return StaticMasterDatabase
 end
@@ -73,7 +73,7 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
 
     filePath = "$DataDir/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
     try
-        global LocalizeDatabase[(Name, CurrLang)] = getDatFile(filePath)
+        global LocalizeDatabase[(Name, CurrLang)] = readDataFile(filePath)
     catch ex
         GlobalDebugMode && @warn "Unable to load $filePath" # Incomplete Translation
         if CurrLang == English
@@ -94,9 +94,9 @@ function StaticData(Name)
         return StaticDatabase[Name]
     end
     
-    filePath = "$DataDir/StaticData/static-data/" * Name * ".dat"
+    filePath = "$DataDir/StaticData/static-data/" * Name * ".json"
     try
-        global StaticDatabase[Name] = getDatFile(filePath)
+        global StaticDatabase[Name] = readDataFile(filePath)
     catch ex
         @error "Unable to load $filePath"
         rethrow(ex)

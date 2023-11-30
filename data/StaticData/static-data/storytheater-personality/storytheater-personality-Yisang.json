@@ -1,0 +1,96 @@
+{
+  "list": [
+    {
+        "characterId": 1,
+        "storyList":
+        [
+            {
+                "personalityId": 10101,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                ],
+                "profileId": "",
+                "analysisId": ""
+            },
+            {
+                "personalityId": 10102,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                  {
+                    "storyId": "P10102",
+                    "lockCondition": "gacksung",
+                    "order": 2,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "seven_yisang_profile",
+                "analysisId": "seven_yisang_analysis"
+            },
+            {
+                "personalityId": 10103,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList": [
+                  {
+                    "storyId": "P10103",
+                    "lockCondition": "gacksung",
+                    "order": 4,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "blade_yisang_profile",
+                "analysisId": "blade_yisang_analysis"
+            },
+            {
+              "personalityId": 10104,
+              "releaseDay": 20230615,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P10104",
+                  "lockCondition": "gacksung",
+                  "order": 5,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+              "profileId": "lego_yisang_profile",
+              "analysisId": "lego_yisang_analysis"
+          },
+          {
+            "personalityId": 10105,
+            "releaseDay": 20230914,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10105",
+                "lockCondition": "gacksung",
+                "order": 1,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "molar_yisang_profile",
+            "analysisId": "molar_yisang_analysis"
+          },
+          {
+            "personalityId": 10106,
+            "releaseDay": 20231109,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10106",
+                "lockCondition": "gacksung",
+                "order": 6,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "wcorp_yisang_profile",
+            "analysisId": "wcorp_yisang_analysis"
+          }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "chapterId": 103,
+  "list": [
+    {
+      "id": 10,
+      "clearCGList": [
+        "CG/S314_2",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 12,
+      "clearCGList": [
+        "CG/S314_2",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 20,
+      "clearCGList": [
+        "CG/S314_2",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 31,
+      "clearCGList": [
+        "CG/S314_6",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 164,
+      "clearCGList": [
+        "CG/S314_2",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 62,
+      "clearCGList": [
+        "CG/S314_2",
+        "BG/story_sinclair_b1_lobotomy"
+      ]
+    },
+    {
+      "id": 210,
+      "clearCGList": [
+        "CG/S309_3",
+        "CG/S309_5",
+        "BG/story_B3_Fathoms of the Ego_3"
+      ]
+    },
+    {
+      "id": 210,
+      "clearCGList": [
+        "CG/S309_3",
+        "CG/S309_5",
+        "BG/story_B3_Fathoms of the Ego_3"
+      ]
+    },
+    {
+      "id": 220,
+      "clearCGList": [
+        "CG/S307_1",
+        "CG/S307_2",
+        "BG/story_sinclair_classroom"
+      ]
+    },
+    {
+      "id": 230,
+      "clearCGList": [
+        "CG/S308_6",
+        "BG/story_sinclair_classroom"
+      ]
+    },
+    {
+      "id": 240,
+      "clearCGList": [
+        "CG/S310",
+        "BG/story_sinclair_classroom"
+      ]
+    },
+    {
+      "id": 250,
+      "clearCGList": [
+        "CG/S310",
+        "BG/story_sinclair_classroom"
+      ]
+    },
+    {
+      "id": 260,
+      "clearCGList": [
+        "CG/S311_1",
+        "CG/S311_2",
+        "CG/S311_3",
+        "BG/story_sinclair_classroom"
+      ]
+    },
+    {
+      "id": 270,
+      "clearCGList": [
+        "CG/S311_1",
+        "CG/S311_2",
+        "CG/S311_3",
+        "BG/story_afternoon alley"
+      ]
+    },
+    {
+      "id": 2100,
+      "clearCGList": [
+        "CG/S311_1",
+        "CG/S311_2",
+        "CG/S311_3",
+        "BG/story_B3_Fathoms of the Ego_v1"
+      ]
+    }
+  ]
+}

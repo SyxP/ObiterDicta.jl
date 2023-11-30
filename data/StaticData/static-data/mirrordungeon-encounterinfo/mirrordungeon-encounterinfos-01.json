@@ -1,0 +1,129 @@
+{
+  "list": [
+    {
+      "dungeonId": 1,
+      "typeIndex": 0,
+      "encounters": [
+        {
+          "encounterType": "BATTLE",
+          "floorList": [
+            {
+              "floor": 1,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.05,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            },
+            {
+              "floor": 2,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.05,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.05,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "encounterType": "AB_BATTLE",
+          "floorList": [
+            {
+              "floor": 2,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.75,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.75,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "encounterType": "HARD_BATTLE",
+          "floorList": [
+            {
+              "floor": 2,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.35,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            },
+            {
+              "floor": 3,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 0.35,
+                  "showNumber": 1,
+                  "selectNumber": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "encounterType": "BOSS",
+          "floorList": [
+            {
+              "floor": 1,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 1,
+                  "showNumber": 3,
+                  "selectNumber": 1
+                }
+              ]
+            },
+            {
+              "floor": 2,
+              "rewardList": [
+                {
+                  "type": "GetEgogift",
+                  "probability": 1,
+                  "showNumber": 3,
+                  "selectNumber": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

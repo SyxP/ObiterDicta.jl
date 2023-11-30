@@ -101,6 +101,16 @@ function uploadAllBundles(filePath = "$git_download_cache/Bundles/")
     end
 end
 
+function getOriginURL()
+    if GlobalDebugMode && isfile("$DataDir/BundleURL.txt")
+        io = open("$DataDir/BundleURL.txt", "r")
+        URL = readline(io)
+        close(io)
+        return URL
+    end
+    return "https://d7g8h56xas73g.cloudfront.net"
+end
+
 function autoPackageBundle(N = length(CatalogS1Versions))
     if !(1 ≤ N ≤ length(CatalogS1Versions))
         @info "There are only $(length(CatalogS1Versions)) entries in the current catalog_s1 database. You asked for the $N-th entry."
@@ -170,4 +180,5 @@ end
 function forceDownloadCatalogS1(URL)
     @info "Downloading from $(URL)"
     Downloads.download(string(URL), "$DataDir/catalog_S1.json")
-end  
+end 
+

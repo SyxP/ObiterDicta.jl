@@ -1,0 +1,191 @@
+{
+  "list": [
+    {
+      "id": "NailPersonality",
+      "iconId": "Nail",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Self",
+            "stack": 1,
+            "turn": -1,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "LoseStackOnRoundEndByRatio",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": "AssemblePersonality",
+      "iconId": "Assemble",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "AssemblePersonality"
+        }
+      ]
+    },
+    {
+      "id": "MarkOfHeresy",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "TakeAtkDamageMultiplierByStack",
+          "atk": "PENETRATE",
+          "value": 0.2
+        },
+        {
+          "ability": "TakeAtkDamageMultiplierByStack",
+          "atk": "HIT",
+          "value": 0.2
+        },
+        {
+          "ability": "MarkOfHeresy"
+        }
+      ]
+    },
+    {
+      "id": "Thirst",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "MpTakeDamageDown",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "MpTakeDamageDown",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "KCorpSerum",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "InstantDeathOnRoundStart",
+          "value": 4
+        },
+        {
+          "ability": "RecoverSelfHpByMaxHpOnRoundStartFloor",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "Talisman",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "Talisman"
+        }
+      ]
+    },
+    {
+      "id": "DuelDeclaration",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "canBeDuplicated": true,
+      "list": [
+        {
+          "ability": "DuelDeclaration"
+        }
+      ]
+    },
+    {
+      "id": "Muckworm",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "TakeHpDamageOnRoundEndByStack",
+          "attribute": "SHAMROCK"
+        },
+        {
+          "ability": "GiveBuffOnRoundEnd",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Self",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "LoseStackOnRoundEnd",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "PinkRibbon_Ishmael",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "PinkRibbonIshmael"
+        }
+      ]
+    },
+    {
+      "id": "Unjust_Enrichment",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 4,
+      "canBeDespelled": true,
+      "list": [
+      ]
+    },
+    {
+      "id": "Resentment",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 5,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "Resentment"
+        }
+      ]
+    },
+    {
+      "id": "RetaliationBook",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "totalStack": 1,
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "list": [
+      ]
+    }
+  ]
+}

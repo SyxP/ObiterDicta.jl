@@ -1,0 +1,81 @@
+{
+  "list": [
+    {
+        "characterId": 11,
+        "storyList":
+        [
+            {
+                "personalityId": 11101,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                ],
+                "profileId": "",
+                "analysisId": ""
+            },
+            {
+                "personalityId": 11102,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList":
+                [
+                  {
+                    "storyId": "P11102",
+                    "lockCondition": "gacksung",
+                    "order": 5,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "blade_outis_profile",
+                "analysisId": "blade_outis_analysis"
+            },
+            {
+                "personalityId": 11103,
+                "releaseDay": 20221223,
+                "cv_Id": "",
+                "personalityStoryList": [
+                  {
+                    "storyId": "P11103",
+                    "lockCondition": "gacksung",
+                    "order": 2,
+                    "reward":{"type":"ITEM","id":2,"num":40}
+                  }
+                ],
+                "profileId": "gcorp_outis_profile",
+                "analysisId": "gcorp_outis_analysis"
+            },
+            {
+              "personalityId": 11104,
+              "releaseDay": 20230406,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P11104",
+                  "lockCondition": "gacksung",
+                  "order": 3,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+              "profileId": "SevenAsso6_outis_profile",
+              "analysisId": "SevenAsso6_outis_analysis"
+          },
+          {
+            "personalityId": 11105,
+            "releaseDay": 20230928,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11105",
+                "lockCondition": "gacksung",
+                "order": 2,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "molar_outis_profile",
+            "analysisId": "molar_outis_analysis"
+        }
+        ]
+    }
+  ]
+}

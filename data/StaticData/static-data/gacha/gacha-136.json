@@ -1,0 +1,256 @@
+{
+  "list": [
+    {
+      "id": 136,
+      "startDate": "2023-08-28T03:00:00.000Z",
+      "endDate": "2023-10-26T00:59:59.000Z",
+      "bannerInfo": {
+        "endDate": "2023-10-26T00:59:59.000Z",
+        "bannerType": "TEMPORARY_MAIN",
+        "priority": 100,
+        "pickupIdList": [ 20704 ],
+        "illustList": [ "gacha_136_illust" ],
+        "videoList": [ "20704" ]
+      },
+      "payments": [
+        {
+          "paymentId": 0,
+          "gachaUIState": "Limit",
+          "requiredItemId": 1,
+          "requiredNum": 13,
+          "requiredChanceId": 136,
+          "count": 1
+        },
+        {
+          "paymentId": 1,
+          "gachaUIState": "One",
+          "requiredItemId": 3,
+          "requiredNum": 130,
+          "count": 1
+        },
+        {
+          "paymentId": 2,
+          "gachaUIState": "Ten",
+          "requiredItemId": 3,
+          "requiredNum": 1300,
+          "count": 10
+        },
+        {
+          "paymentId": 3,
+          "gachaUIState": "One",
+          "requiredItemId": 101,
+          "requiredNum": 1,
+          "count": 1
+        },
+        {
+          "paymentId": 4,
+          "gachaUIState": "Ten",
+          "requiredItemId": 102,
+          "requiredNum": 1,
+          "count": 10
+        },
+        {
+          "paymentId": 5,
+          "gachaUIState": "Ten",
+          "requiredItemId": 101,
+          "requiredNum": 10,
+          "count": 10
+        }
+      ],
+      "contents": [
+        {
+          "groupType": "1",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 8300
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 8400
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10101,
+            10201,
+            10301,
+            10401,
+            10501,
+            10601,
+            10701,
+            10801,
+            10901,
+            11001,
+            11101,
+            11201
+          ]
+        },
+        {
+          "groupType": "2",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 1280
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 9580
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 1300
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_TENTH",
+              "occupancy": 9700
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10102,
+            10202,
+            10203,
+            10205,
+            10303,
+            10304,
+            10402,
+            10502,
+            10505,
+            10602,
+            10604,
+            10606,
+            10702,
+            10704,
+            10706,
+            10803,
+            10804,
+            10805,
+            10903,
+            10904,
+            10906,
+            11003,
+            11004,
+            11006,
+            11102,
+            11103,
+            11202,
+            11205
+          ]
+        },
+        {
+          "groupType": "3",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 290
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 290
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 300
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_TENTH",
+              "occupancy": 300
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10103,
+            10104,
+            10204,
+            10206,
+            10302,
+            10305,
+            10403,
+            10405,
+            10503,
+            10504,
+            10506,
+            10603,
+            10605,
+            10703,
+            10705,
+            10802,
+            10806,
+            10807,
+            10902,
+            10905,
+            10907,
+            11002,
+            11005,
+            11104,
+            11203,
+            11206
+          ]
+        },
+        {
+          "groupType": "EGO",
+          "samplingWithoutReplacement": true,
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 65
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 65
+            }
+          ],
+          "elementType": "EGO",
+          "elementIdList": [
+            20103,
+            20104,
+            20203,
+            20204,
+            20303,
+            20403,
+            20404,
+            20503,
+            20603,
+            20604,
+            20803,
+            21004,
+            21103,
+            21203
+          ]
+        },
+        {
+          "groupType": "EGO_pickup",
+          "samplingWithoutReplacement": true,
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 65
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 65
+            }
+          ],
+          "elementType": "EGO",
+          "elementIdList": [
+            20704
+          ]
+        }
+      ],
+      "pitySystem": {
+        "endDate": "2023-10-26T00:59:59.000Z",
+        "catalog": [
+          {
+            "element": {
+              "type": "EGO",
+              "id": 20704,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          }
+        ]
+      }
+    }
+  ]
+}

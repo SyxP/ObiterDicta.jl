@@ -1,0 +1,293 @@
+{
+  "chapterId": 105,
+  "list": [
+    {
+      "id": 10501,
+      "clearCGList": [
+        "CG/E041X_1",
+        "CG/E041X_2",
+        "CG/E041X_Corridor"
+      ]
+    },
+    {
+      "id": 10502,
+      "clearCGList": [
+        "BG/story_boat_clearsky",
+        "CG/S501_1",
+        "CG/S507"   
+      ]
+    },
+    {
+      "id": 10503,
+      "clearCGList": [
+        "CG/S502_1",
+        "CG/S502_2",
+        "CG/S503_1",
+        "BG/story_u_city"
+      ]
+    },
+    {
+      "id": 10504,
+      "clearCGList": [
+        "BG/story_u_city",
+        "BG/story_u_backstreet01",
+        "CG/S511_2",
+        "CG/S508",
+        "BG/story_u_backstreet02"
+      ]
+    },
+    {
+      "id": 10505,
+      "clearCGList": [
+        "BG/story_u_backstreet02",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10506,
+      "clearCGList": [
+        "BG/story_club_outside",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10507,
+      "clearCGList": [
+        "BG/story_club_outside",
+        "BG/story_club_inside_1",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10509,
+      "clearCGList": [
+        "BG/story_club_inside_2",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10510,
+      "clearCGList": [
+        "BG/story_club_bossroom",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10511,
+      "clearCGList": [
+        "BG/story_containerbox",
+        "CG/S511_2",
+        "CG/S508"
+      ]
+    },
+    {
+      "id": 10514,
+      "clearCGList": [
+        "BG/story_containerbox",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10515,
+      "clearCGList": [
+        "BG/story_u_city",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10516,
+      "clearCGList": [
+        "BG/story_u_city",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10517,
+      "clearCGList": [
+        "BG/story_pirateship",
+        "CG/S504_1",
+        "CG/S504_2",
+        "CG/S504_3",
+        "CG/S505_1",
+        "CG/S505_2"
+      ]
+    },
+    {
+      "id": 10518,
+      "clearCGList": [
+        "BG/story_boat_cloudy2",
+        "BG/story_boat_storm",
+        "CG/S510"
+
+      ]
+    },
+    {
+      "id": 10519,
+      "clearCGList": [
+        "BG/story_boat_storm",
+        "CG/S509_1"
+
+      ]
+    },
+    {
+      "id": 10520,
+      "clearCGList": [
+        "BG/story_boat_brownlake",
+        "BG/story_smallboat_brown",
+        "CG/S519_1",
+        "CG/S524_3"
+
+      ]
+    },
+    {
+      "id": 10521,
+      "clearCGList": [
+        "BG/story_cruiseship_1",
+        "BG/story_smallboat_brown",
+        "CG/S519_1",
+        "CG/S524_3"
+
+      ]
+    },
+    {
+      "id": 10522,
+      "clearCGList": [
+        "BG/story_cruiseship_2",
+        "CG/S513_1",
+        "CG/S513_2"
+
+      ]
+    },
+    {
+      "id": 10523,
+      "clearCGList": [
+        "BG/story_cruiseship_2",
+        "BG/story_boat_brownlake",
+        "CG/S524_2",
+        "CG/S524_1"
+
+      ]
+    },
+    {
+      "id": 10524,
+      "clearCGList": [
+        "BG/story_boat_virescencelake",
+        "BG/story_drilling vessel_entrance",
+        "BG/story_smallboat_greenlake",
+        "BG/story_drilling vessel_1f",
+        "CG/S524_2",
+        "CG/S524_1"
+
+      ]
+    },
+    {
+      "id": 10525,
+      "clearCGList": [
+        "BG/story_drilling vessel_1f",
+        "CG/S515",
+        "CG/S541",
+        "CG/S539"
+
+      ]
+    },
+    {
+      "id": 10526,
+      "clearCGList": [
+        "BG/story_drilling vessel_2f",
+        "CG/S542",
+        "CG/S541",
+        "CG/S539"
+
+      ]
+    },
+    {
+      "id": 10530,
+      "clearCGList": [
+        "BG/story_drilling vessel_1f",
+        "BG/story_drilling vessel_out_(off)",
+        "BG/story_drilling vessel_entrance_2",
+        "BG/story_drilling vessel_out(on)",
+        "CG/S512"
+
+      ]
+    },
+    {
+      "id": 10532,
+      "clearCGList": [
+        "BG/story_drilling vessel_1f",
+        "BG/story_drilling vessel_out_(off)",
+        "BG/story_drilling vessel_entrance_2",
+        "BG/story_drilling vessel_out(on)",
+        "CG/S512",
+        "CG/S518"
+
+      ]
+    },
+    {
+      "id": 10532,
+      "clearCGList": [
+        "BG/story_drilling vessel_out(on)",
+        "CG/S512",
+        "CG/S518",
+        "CG/S0_2_5",
+        "CG/S20",
+        "CG/S540"
+
+      ]
+    },
+    {
+      "id": 10533,
+      "clearCGList": [
+        "BG/story_drilling vessel_out(on)",
+        "CG/S516"
+    
+      ]
+    },
+    {
+      "id": 10534,
+      "clearCGList": [
+        "BG/story_boat_greenlake",
+        "CG/S522",
+        "CG/S520"
+    
+      ]
+    },
+    {
+      "id": 10535,
+      "clearCGList": [
+        "BG/story_boat_biowhale",
+        "CG/S522",
+        "CG/S520"
+    
+      ]
+    },
+    {
+      "id": 10538,
+      "clearCGList": [
+        "BG/story_boat_obelisk",
+        "CG/S517",
+        "CG/S521_1",
+        "CG/S523"
+    
+      ]
+    }
+  
+  ]
+}

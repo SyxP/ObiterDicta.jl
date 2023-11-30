@@ -1,0 +1,99 @@
+{
+  "list": [
+    {
+      "personalityID": 11101,
+      "battlePassiveList": [
+        {
+          "level": 1,
+          "passiveIDList": [
+            1110101
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110121
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11102,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1110201
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110221
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11103,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1110301
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110321
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11104,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1110401
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110421
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11105,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1110501
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110521
+          ]
+        }
+      ]
+    }
+  ]
+}

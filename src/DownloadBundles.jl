@@ -72,8 +72,15 @@ function DownloadAllBundles(bundleLocation = "$git_download_cache/Bundles/")
     for url in URLs
         filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
         isfile(filePath) && continue
-        DownloadBundle(url, bundleLocation)
-        sleep(0.2) # To not overwhelm the server
+
+        newSource = getOriginURL()
+        if newSource == "https://d7g8h56xas73g.cloudfront.net"
+            DownloadBundle(url, bundleLocation)
+            sleep(0.2) # Not overwhelm PMoon Server
+        else
+            newURL = replace(url, "https://d7g8h56xas73g.cloudfront.net" => newSource)
+            DownloadBundle(newURL, bundleLocation)
+        end
     end
 end
 

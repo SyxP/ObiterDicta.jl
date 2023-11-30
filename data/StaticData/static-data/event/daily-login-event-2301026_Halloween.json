@@ -1,0 +1,125 @@
+{
+	"list": [
+		{
+			"id": 4,
+			"startDate": "2023-10-26T03:00:00.000Z",
+			"startDateForUI": "2023-10-26T03:00:00.000Z",
+			"endDate": "2023-11-08T20:59:59.000Z",
+			"gracePeriod": "2023-11-08T20:59:59.000Z",
+			"eventRewardDatas": [
+				{
+					"rewardId": 1,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 1
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 2,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 2
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 20
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 3,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 3
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 11,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 4,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 4
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 213,
+							"num": 10
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 5,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 5
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 201,
+							"num": 30
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 6,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 6
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 301,
+							"num": 5
+						}
+					],
+					"limitCount": 1
+				},
+				{
+					"rewardId": 7,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20006,
+						"num": 7
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 102,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				}
+			]
+		}
+	]
+}

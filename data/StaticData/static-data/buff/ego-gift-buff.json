@@ -1,0 +1,254 @@
+{
+  "list": [
+    {
+      "id": "LittleCourage",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "Choice_90103301",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Agility",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "RefreshSpeedOnRoundStart"
+        }
+      ]
+    },
+    {
+      "id": "Choice_90103402",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Agility",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "RefreshSpeedOnRoundStart"
+        }
+      ]
+    },
+    {
+      "id": "Choice_901001",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "TakeHpDamageOnRoundStartByStack",
+          "attribute": "CRIMSON"
+        },
+        {
+          "ability": "LoseStackOnRoundStartByRatio",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Choice_901007",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "RecoverSelfHpOnRoundStart",
+          "value": 10
+        },
+        {
+          "ability": "RecoverSelfMpOnRoundStart",
+          "value": 10
+        },
+        {
+          "ability": "LoseStackOnRoundStart",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Choice_901009",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "id": "Choice_901010",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "Choice901010"
+        }
+      ]
+    },
+    {
+      "id": "Choice_901019",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "RefreshSpeedOnRoundStart"
+        }
+      ]
+    },
+    {
+      "id": "Choice_1030301",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Choice_1030501",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Reduction",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Choice_1031001",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "AttackDmgDown",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Choice_1040301",
+      "buffClass": "VolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStart",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Choice_90104001",
+      "buffClass": "VolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "Choice_9010400101",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Choice_90104002",
+      "buffClass": "NonvolatileBuff",
+      "iconId": "Choice_Buf",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerAdderAsStack",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

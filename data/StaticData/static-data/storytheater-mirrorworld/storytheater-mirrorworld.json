@@ -1,0 +1,175 @@
+{
+  "list": [
+    {
+      "mirrorWorldId": 1,
+      "needsPersonalityIdList": [
+        10403,
+        10602,
+        10902,
+        10103,
+        11102,
+        11002
+      ]
+    },
+    {
+      "mirrorWorldId": 2,
+      "needsPersonalityIdList": [
+        11202,
+        10502,
+        10604,
+        10806
+      ]
+    },
+    {
+      "mirrorWorldId": 3,
+      "needsPersonalityIdList": [
+        11003,
+        10906,
+        11206,
+        10205
+      ]
+    },
+    {
+      "mirrorWorldId": 4,
+      "needsPersonalityIdList": [
+        10702,
+        10803,
+        10303
+      ]
+    },
+    {
+      "mirrorWorldId": 5,
+      "needsPersonalityIdList": [
+        10402,
+        10102,
+        11104,
+        10206,
+        10706
+      ]
+    },
+    {
+      "mirrorWorldId": 6,
+      "needsPersonalityIdList": [
+        10302,
+        10202,
+        10503,
+        10405,
+        10606,
+        10106
+      ]
+    },
+    {
+      "mirrorWorldId": 7,
+      "needsPersonalityIdList": [
+        10703,
+        10802,
+        10506
+      ]
+    },
+    {
+      "mirrorWorldId": 8,
+      "needsPersonalityIdList": [
+        10903,
+        10804,
+        10406
+      ]
+    },
+    {
+      "mirrorWorldId": 9,
+      "needsPersonalityIdList": [
+        10203
+      ]
+    },
+    {
+      "mirrorWorldId": 10,
+      "needsPersonalityIdList": [
+        11203,
+        11103
+      ]
+    },
+    {
+      "mirrorWorldId": 11,
+      "needsPersonalityIdList": [
+        10603,
+        11004
+      ]
+    },
+    {
+      "mirrorWorldId": 12,
+      "needsPersonalityIdList": [
+        10904,
+        10504,
+        10204,
+        10704,
+        10304,
+        11005
+      ]
+    },
+    {
+      "mirrorWorldId": 13,
+      "needsPersonalityIdList": [
+        10404,
+        11204
+      ]
+    },
+    {
+      "mirrorWorldId": 14,
+      "needsPersonalityIdList": [
+        10905,
+        10505,
+        11205,
+        10705,
+        10104,
+        10805,
+        10605,
+        11006
+      ]
+    },
+    {
+      "mirrorWorldId": 15,
+      "needsPersonalityIdList": [
+        10305
+      ]
+    },
+    {
+      "mirrorWorldId": 16,
+      "needsPersonalityIdList": [
+        10807,
+        11007
+      ]
+    },
+    {
+      "mirrorWorldId": 17,
+      "needsPersonalityIdList": [
+        10105,
+        11105
+      ]
+    },
+    {
+      "mirrorWorldId": 18,
+      "needsPersonalityIdList": [
+        10907
+      ]
+    },
+    {
+      "mirrorWorldId": 19,
+      "needsPersonalityIdList": [
+        10207
+      ]
+    },
+    {
+      "mirrorWorldId": 20,
+      "needsPersonalityIdList": [
+        10607
+      ]
+    },
+    {
+      "mirrorWorldId": 21,
+      "needsPersonalityIdList": [
+        11207,
+        10306,
+        10507
+      ]
+    }
+  ]
+}

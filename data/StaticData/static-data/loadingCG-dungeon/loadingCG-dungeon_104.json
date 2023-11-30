@@ -1,0 +1,225 @@
+{
+  "chapterId": 104,
+  "list": [
+    {
+      "id": 10402,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01"
+      ]
+    },
+    {
+      "id": 10403,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01"
+      ]
+    },
+    {
+      "id": 10408,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01",
+        "CG/S416"
+      ]
+    },
+    {
+      "id": 10411,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01",
+        "CG/S416"
+      ]
+    },
+    {
+      "id": 10413,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10415,
+      "clearCGList": [
+        "BG/story_bandofnine_lab01",
+        "CG/S420_1",
+        "CG/S420_4",
+        "CG/S420_5"
+      ]
+    },
+    {
+      "id": 10417,
+      "clearCGList": [
+        "BG/story_t_street",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10421,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10422,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10423,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10424,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S423",
+        "CG/S411"
+      ]
+    },
+    {
+      "id": 10425,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S437_1",
+        "CG/S421_1"
+      ]
+    },
+    {
+      "id": 10426,
+      "clearCGList": [
+        "BG/story_bandofnine_lab02",
+        "CG/S437_1",
+        "CG/S421_1"
+      ]
+    },
+    {
+      "id": 10429,
+      "clearCGList": [
+        "BG/story_bandofnine_lab03",
+        "CG/S437_1",
+        "CG/S421_1"
+      ]
+    },
+    {
+      "id": 10430,
+      "clearCGList": [
+        "BG/story_bandofnine_lab03",
+        "CG/S437_1",
+        "CG/S421_1"
+      ]
+    },
+    {
+      "id": 10431,
+      "clearCGList": [
+        "BG/story_bandofnine_lab03",
+        "CG/S437_1",
+        "CG/S421_1"
+      ]
+    },
+    {
+      "id": 10434,
+      "clearCGList": [
+        "BG/story_bandofnine_lab03",
+        "BG/story_bandofnine_lab04",
+        "BG/story_t_street"
+      ]
+    },
+    {
+      "id": 10435,
+      "clearCGList": [
+        "BG/story_bandofnine_lab03",
+        "BG/story_bandofnine_lab04",
+        "BG/story_t_street"
+      ]
+    },
+    {
+      "id": 10436,
+      "clearCGList": [
+        "BG/story_bandofnine_lab04"
+
+      ]
+    },
+    {
+      "id": 10438,
+      "clearCGList": [
+        "BG/story_bandofnine_lab04",
+        "BG/story_shedding tears_main",
+        "CG/S437_1",
+        "CG/S437_2",
+        "CG/S421_2",
+        "CG/S421_3",
+        "CG/S421_4"
+      ]
+    },
+    {
+      "id": 10440,
+      "clearCGList": [
+        "BG/story_Nlab",
+        "CG/S417"
+      ]
+    },
+    {
+      "id": 10443,
+      "clearCGList": [
+        "BG/story_Nlab",
+        "CG/S417",
+        "CG/S433_1"
+      ]
+    },
+    {
+      "id": 10446,
+      "clearCGList": [
+        "CG/S433_2",
+        "CG/S434_1",
+        "CG/S434_2"
+      ]
+    },
+    {
+      "id": 10451,
+      "clearCGList": [
+        "CG/S434_3",
+        "BG/story_Nlab",
+        "BG/story_shedding tears_main",
+        "CG/S421_5",
+        "CG/S421_6"
+      ]
+    },
+    {
+      "id": 10453,
+      "clearCGList": [
+        "CG/S418_6",
+        "CG/S418_1",
+        "CG/S418_2",
+        "CG/S418_3",
+        "CG/S418_4",
+        "CG/S418_5",
+        "CG/S421_7",
+        "CG/S422_1",
+        "CG/S422_2",
+        "CG/S434_3",
+        "CG/S434_2",
+        "CG/S411",
+        "CG/S415",
+        "CG/S435",
+        "CG/S422_2",
+        "CG/S422_3",
+        "CG/S423",
+        "CG/S424",
+        "CG/S422_4",
+        "CG/S422_4",
+        "CG/S422_5",
+        "CG/S436",
+        "BG/story_shedding tears_main"
+      ]
+    }
+
+  ]
+}

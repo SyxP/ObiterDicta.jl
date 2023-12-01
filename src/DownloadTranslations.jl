@@ -19,8 +19,6 @@ function UpdateBundleHelp()
               `update bundle new`           - Downloads only new bundles, not in your folder. 
               `update bundle data`          - Downloads only `static_s1` and `localize_s1`.
               `update bundle _num_`         - After list, download _num_th bundle.
-
-              (*) commands are unimplemented.
               """
     
     println(S)

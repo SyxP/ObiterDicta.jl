@@ -6,8 +6,7 @@ This creates a Limbus Company REPL Mode.
 
 1. Download Julia.
 2. In Julia, enter `]add https://github.com/SyxP/ObiterDicta.jl` (or `]add https://limbus.wiki`)
-3. To run, in Julia mode (you should see `julia>`, if not press Backspace), enter `using ObiterDicta`. Then, 
-start the REPL via `StartREPL()`. 
+3. To run, in Julia mode (you should see `julia>`, if not press Backspace), enter `using ObiterDicta`. 
 4. You can now freely access the `Limbus Query>` mode via `)`. Use `help` to see the list of commands and 
 for each command `_command_ help` would access the command specific help.
 5. In the future, when updates have been made, you can use `]up` to update the package directly. 

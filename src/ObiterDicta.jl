@@ -92,7 +92,13 @@ module ObiterDicta
     git_download_cache = ""
     function __init__()
         global git_download_cache = @get_scratch!("downloaded_files")
+        StartREPL()
     end
 
-    export StartREPL
+    function qUpdate(URL = "")
+        (URL != "") && appendNewCatalogS1Version(URL)
+        updateAll()
+    end
+
+    export qUpdate
 end

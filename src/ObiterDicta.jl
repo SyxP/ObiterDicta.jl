@@ -103,9 +103,10 @@ module ObiterDicta
             @info "Update Failed, Likely due to world age issue. Run it again."
             rethrow(err)
         end
-
+        sleep(2)
         @info "Download Complete. Adding Git Commits"
-        run(`$(git()) add $(pkgdir(@__MODULE__))`)
+        
+        run(`$(git()) add $(DataDir)`)
         run(`$(git()) commit -m "Update $(getLatestCatalogS1())"`)
     end
 

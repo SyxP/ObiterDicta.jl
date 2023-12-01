@@ -96,11 +96,15 @@ module ObiterDicta
     end
 
     function qUpdate(URL = "")
-        (URL != "") && appendNewCatalogS1Version(URL)
+        Latest = getLatestCatalogS1()
+        if !(URL == "" && URL == Latest)
+            appendNewCatalogS1Version(URL)
+        end
+        
         try
             updateAll()
         catch err
-            @info "Update Failed, Likely due to world age issue. Run it again."
+            @info "Update Failed. If due to world age issues, run it again."
             rethrow(err)
         end
         sleep(2)

@@ -72,6 +72,10 @@ for (newFn, pListFn) in [(:getBattlePassive, getBattlePList),
         end
 
         S = getLevelList(($pListFn)(myPass), readLevel, uptie)
-        return Passive.(S["passiveIDList"])
+        if haskey(S, "passiveIDList")
+            return Passive.(S["passiveIDList"])
+        else
+            return Passive[]
+        end
     end
 end

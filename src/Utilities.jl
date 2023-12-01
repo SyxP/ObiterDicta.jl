@@ -69,9 +69,28 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
     end
 
     fileParts = split(Name, "/")
-    fileParts[end] = uppercase(getLangMode()) * "_" * fileParts[end]
+    exactFileName = uppercase(getLangMode()) * "_" * fileParts[end] * ".json"
+    filePath = ""
 
-    filePath = "$DataDir/Localize/$(getLangMode())/" * join(fileParts, "/") * ".json"
+    for (root, _, files) in walkdir(joinpath(DataDir, "Localize", getLangMode()))
+        for file in files
+            if file == exactFileName
+                filePath = joinpath(root, file)
+                break
+            end
+        end
+
+        filePath == "" || break
+    end
+
+    if filePath == ""
+        if CurrLang == English
+            @error "No English files exists for $Name"
+        end
+        @warn "No $CurrLang files exists for $Name"
+        return LocalizedData(Name, English)
+    end
+
     try
         global LocalizeDatabase[(Name, CurrLang)] = readDataFile(filePath)
     catch ex

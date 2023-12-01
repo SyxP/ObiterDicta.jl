@@ -73,6 +73,7 @@ module ObiterDicta
 
     include("IdentityStrings.jl")
 
+    include("EGOVoiceStrings.jl")
     include("EGOStrings.jl")
     
     # Dependent on Structs

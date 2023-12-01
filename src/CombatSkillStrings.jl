@@ -64,7 +64,6 @@ end
 getID(skill :: CombatSkill) = skill.id
 getStringID(skill :: CombatSkill) = string(skill.id)
 
-
 function getLocalizedLevelList(skill :: CombatSkill, tier = 0) 
     # Tier 0 means no only taking input with no uptie/threadspin field.
     levelList = getLocalizedField(skill, "levelList", Dict{String, Any}[], nothing)

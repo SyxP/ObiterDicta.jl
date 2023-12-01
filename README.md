@@ -58,8 +58,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 1. Dante's Notes (0%)
 2. Abnormality Observation Levels (0%)
-3. Manager Card Taglines (0%)
-4. Identity Uptie Stories (0%)
+3. Identity Uptie Stories (0%)
 
 ### Miscellaneous Utility
 

@@ -161,6 +161,9 @@ function getMainFields(ego :: EGO; verbose)
         append!(LongFields, LongEntries)
     end
 
+    egoVoice = getEGOVoiceStrings(EGOVoice, getID(ego))
+    append!(LongFields, egoVoice)
+
     Content = GridFromList(Fields, 4)
     Content /= join(LongFields, "\n ")
 

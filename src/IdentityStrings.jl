@@ -67,6 +67,7 @@ function getEscapedTitle(identity :: Personality)
     S = replace(S, "  " => " ")
     return S
 end
+
 getSinnerName(identity :: Personality) = getLocalizedField(identity, "name", "", "")
 function getSearchTitle(identity :: Personality)
     getTitle(identity)*getSinnerName(identity)

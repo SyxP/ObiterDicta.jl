@@ -106,7 +106,7 @@ module ObiterDicta
         sleep(2)
         @info "Download Complete. Adding Git Commits"
         
-        run(`$(git()) add $(DataDir)`)
+        run(`$(git()) add -u $(DataDir)`)
         run(`$(git()) commit -m "Update $(getLatestCatalogS1())"`)
     end
 

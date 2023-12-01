@@ -97,7 +97,7 @@ module ObiterDicta
 
     function qUpdate(URL = "")
         Latest = getLatestCatalogS1()
-        if !(URL == "" && URL == Latest)
+        if !(URL == "" || URL == Latest)
             appendNewCatalogS1Version(URL)
         end
         

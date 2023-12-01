@@ -1,12 +1,6 @@
 using JSON, Downloads
 
 # This file's goal is to get the new bundle information each week, from the `catalog_S1` file.
-#
-# 1. Put the catalog_S1
-# 2. Run `ObiterDicta.DownloadDataBundles(".")` 
-# 3. Use AssetRipper/AssetDumper on `localize_s1` and `static_s1` Bundles
-#    to get the two folders `Localize` and `StaticData`
-#
 
 function parseCatalog(file = "$DataDir/catalog_S1.json") 
     # Read file
@@ -26,17 +20,7 @@ function parseCatalog(file = "$DataDir/catalog_S1.json")
     return URLs
 end
 
-function CheckProposedLocation(Location) 
-    S = splitpath(Location)
-    if length(S) > 1
-        prefixLocation = joinpath(splitpath(Location)[begin:end-1]...)
-        CheckProposedLocation(prefixLocation)
-    end
-
-    # Check if Location exists. If not make the directory
-    isdir(Location) && return
-    mkdir(Location)
-end
+CheckProposedLocation(Location) = mkpath(dirname(Location))
 
 function getFilePathFromBundleURL(bundleURL, bundleLocation, URLBase = "https://d7g8h56xas73g.cloudfront.net")
     bundleURLParts = split(bundleURL, "/")
@@ -50,6 +34,7 @@ end
 
 function DownloadBundle(bundleURL, bundleLocation) 
     filePath, dirPath = getFilePathFromBundleURL(bundleURL, bundleLocation)
+    isfile(filePath) && return true
     CheckProposedLocation(dirPath)
     @info "Downloading $filePath"
 
@@ -70,9 +55,6 @@ function DownloadAllBundles(bundleLocation = "$git_download_cache/Bundles/")
     
     URLs = parseCatalog()
     for url in URLs
-        filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
-        isfile(filePath) && continue
-
         newSource = getOriginURL()
         if newSource == "https://d7g8h56xas73g.cloudfront.net"
             DownloadBundle(url, bundleLocation)
@@ -84,15 +66,17 @@ function DownloadAllBundles(bundleLocation = "$git_download_cache/Bundles/")
     end
 end
 
+function getDataURLs()
+    URLs = parseCatalog()
+    return filter(x -> match(r"localize|static", x) !== nothing, URLs)
+end
+
 function DownloadDataBundles(bundleLocation = "$git_download_cache/Bundles/")
     @info "Downloading to $bundleLocation"
 
-    URLs = parseCatalog()
-    for url in URLs
-        if match(r"localize|static", url) !== nothing
-            DownloadBundle(url, bundleLocation)
-            sleep(0.2) # To not overwhelm the server
-        end
+    for url in getDataURLs()
+        DownloadBundle(url, bundleLocation)
+        sleep(0.2) # To not overwhelm the server
     end
 end
 
@@ -118,8 +102,6 @@ function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/")
     HashList = getFileHashes(bundleLocation)
     URLs = parseCatalog()
     for url in URLs
-        filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
-        isfile(filePath) && continue
         fileLocation = DownloadBundle(url, bundleLocation)
         sleep(0.2) # To not overwhelm the server
         if fileLocation != false
@@ -184,4 +166,45 @@ function DownloadNameBundleFromCatalog(query, catalogFile = "$DataDir/catalog_S1
         DownloadBundle(result[1][2], bundleLocation)
     end
     return result
+end
+
+function DeleteDataFiles()
+    for SubDir in ["StaticData/", "Localize/en", "Localize/jp", "Localize/kr"]
+        targetDir = joinpath(DataDir, SubDir)
+        rm(targetDir; recursive = true, force = true)
+    end
+    rm(joinpath(DataDir, "Localize", "RemoteLocalizeFileList.json"); force = true)
+    rm(joinpath(git_download_cache, "Unbundled Data"); force = true, recursive = true)
+    return
+end
+
+function UpdateDataFilesFromCatalogS1()
+    # This does everything pseudo-automatically magically
+    # It might break if the internal structure changes
+    # It might also break with other edits to this file
+
+    DownloadDataBundles()
+    DeleteDataFiles()
+    
+    @eval using UnityPy
+    bundleLocation = joinpath(git_download_cache, "Bundles")
+    unzipLocation = joinpath(git_download_cache, "Unbundled Data") 
+    for file in getDataURLs()
+        filepath, _ = getFilePathFromBundleURL(file, bundleLocation)
+        @info filepath 
+        LoadTextBundle(filepath, unzipLocation)
+    end
+
+    NewHome = joinpath(unzipLocation, "Assets", "Resources_moved")
+    for (root, _, files) in walkdir(NewHome)
+        for file in files
+            absPath = joinpath(root, file)
+            fileName = relpath(absPath, NewHome)
+            target = joinpath(DataDir, fileName)
+            CheckProposedLocation(target)
+            mv(absPath, joinpath(DataDir, fileName))
+        end
+    end
+
+    cleanUpBundleFolder(unzipLocation)
 end

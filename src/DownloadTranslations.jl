@@ -7,7 +7,7 @@ function UpdateBundleHelp()
               These commands will fetch the files from the internet.
               `update CN`   - Updates Chinese data files.
               `update RU`   - Updates Russian data files.
-              `update main` - Updates English/Korean/Japanese data files from PMoon source. (*)
+              `update main` - Updates English/Korean/Japanese data files from PMoon source.
               `update all`  - Updates all data files. (Currently only CN and RU)
 
               `update list bundles`         - List available bundles. 
@@ -29,6 +29,7 @@ end
 function UpdateBundleParser(input)
     input == "CN"  && return updateCN()
     input == "RU"  && return updateRU()
+    input == "main" && return UpdateDataFilesFromCatalogS1()
     input == "all" && return updateAll()
 
     input == "bundle all" && return DownloadAllBundles()
@@ -109,5 +110,6 @@ updateRU() = updateTranslation("ru",
 function updateAll()
     updateCN()
     updateRU()
+    UpdateDataFilesFromCatalogS1()
 end
 

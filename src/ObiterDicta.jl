@@ -97,7 +97,16 @@ module ObiterDicta
 
     function qUpdate(URL = "")
         (URL != "") && appendNewCatalogS1Version(URL)
-        updateAll()
+        try
+            updateAll()
+        catch err
+            @info "Update Failed, Likely due to world age issue. Run it again."
+            rethrow(err)
+        end
+
+        @info "Download Complete. Adding Git Commits"
+        run(`$(git()) add $(pkgdir(@__MODULE__))`)
+        run(`$(git()) commit -m "Update $(getLatestCatalogS1())"`)
     end
 
     export qUpdate

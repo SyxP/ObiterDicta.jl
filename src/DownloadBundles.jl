@@ -1,5 +1,3 @@
-using JSON, Downloads
-
 # This file's goal is to get the new bundle information each week, from the `catalog_S1` file.
 
 function parseCatalog(file = "$DataDir/catalog_S1.json") 

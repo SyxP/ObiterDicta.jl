@@ -14,7 +14,8 @@ function downloadCatalogS1JSON(catalogURL)
     Downloads.download(URL, "$DataDir/catalog_S1.json")
 end
 
-downloadLatestCatalogS1() = downloadCatalogS1JSON(getCatalogS1Versions()[end])
+getLatestCatalogS1() = getCatalogS1Versions()[end]
+downloadLatestCatalogS1() = downloadCatalogS1JSON(getLatestCatalogS1())
 function downloadNCatalogS1(N)
     Nth = parse(Int, N)
     CatalogS1Versions = getCatalogS1Versions()

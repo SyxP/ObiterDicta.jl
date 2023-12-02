@@ -28,7 +28,7 @@ end
 function UpdateBundleParser(input)
     input == "CN"  && return updateCN()
     input == "RU"  && return updateRU()
-    input == "main" && return UpdateDataFilesFromCatalogS1()
+    input == "main" && return updateGlobal()
     input == "all" && return updateAll()
 
     input == "bundle all" && return DownloadAllBundles()
@@ -106,9 +106,18 @@ updateCN() = updateTranslation("cn",
 updateRU() = updateTranslation("ru",
              "https://github.com/Crescent-Corporation/LimbusCompanyBusRUS")
 
+function updateGlobal()
+    try
+        UpdateDataFilesFromCatalogS1()
+    catch _
+        @info "ObiterDictaUnity.jl not loaded. Try `using ObiterDictaUnity`"
+    end
+    return
+end
+
 function updateAll()
     updateCN()
     updateRU()
-    UpdateDataFilesFromCatalogS1()
+    updateGlobal()
 end
 

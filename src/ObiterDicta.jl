@@ -95,28 +95,4 @@ module ObiterDicta
         global git_download_cache = @get_scratch!("downloaded_files")
         StartREPL()
     end
-
-    function qUpdate(URL = "")
-        Latest = getLatestCatalogS1()
-        if !(URL == "" || URL == Latest)
-            appendNewCatalogS1Version(URL)
-        end
-        
-        try
-            updateAll()
-        catch err
-            @info "Update Failed. If due to world age issues, run it again."
-            rethrow(err)
-        end
-        sleep(2)
-        @info "Download Complete. Adding Git Commits"
-       
-        run(`$(git()) status`)
-        run(`$(git()) add $(DataDir)`)
-        run(`$(git()) commit -m "Update $(getLatestCatalogS1())"`)
-
-        return
-    end
-
-    export qUpdate
 end

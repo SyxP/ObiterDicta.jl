@@ -1,7 +1,7 @@
 module ObiterDictaUnity
 
     using UnityPy, ObiterDicta, Git
-    
+
     function (ObiterDicta.UpdateDataFilesFromCatalogS1)()
         # This does everything pseudo-automatically magically
         # It might break if the internal structure changes
@@ -10,8 +10,8 @@ module ObiterDictaUnity
         ObiterDicta.DownloadDataBundles()
         ObiterDicta.DeleteDataFiles()
 
-        bundleLocation = joinpath(git_download_cache, "Bundles")
-        unzipLocation = joinpath(git_download_cache, "Unbundled Data") 
+        bundleLocation = joinpath(ObiterDicta.git_download_cache, "Bundles")
+        unzipLocation = joinpath(ObiterDicta.git_download_cache, "Unbundled Data") 
         for file in ObiterDicta.getDataURLs()
             filepath = ObiterDicta.getFilePathFromBundleURL(file, bundleLocation)
             @info filepath 

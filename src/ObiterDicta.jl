@@ -95,4 +95,6 @@ module ObiterDicta
         global git_download_cache = @get_scratch!("downloaded_files")
         StartREPL()
     end
+
+    export qUpdate
 end

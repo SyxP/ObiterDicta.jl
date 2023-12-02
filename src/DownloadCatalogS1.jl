@@ -129,7 +129,7 @@ function checkPackageBundle(N = length(CatalogS1Versions))
     downloadCatalogS1JSON(CatalogS1Versions[N])
     URLs = parseCatalog()
     for url in URLs
-        filePath, _ = getFilePathFromBundleURL(url, bundleLocation)
+        filePath = getFilePathFromBundleURL(url, bundleLocation)
         checkFile(filePath)
     end
 

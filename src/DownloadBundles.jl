@@ -24,16 +24,13 @@ function getFilePathFromBundleURL(bundleURL, bundleLocation, URLBase = "https://
     bundleURLParts = split(bundleURL, "/")
     urlBaseParts = split(URLBase, "/")
     fileName = bundleURLParts[(length(urlBaseParts) + 1) : end]
-    dirPath = joinpath(bundleLocation, fileName[begin:(end - 1)]...)
-    filePath = joinpath(bundleLocation, fileName...)
-
-    filePath, dirPath
+    return filePath = joinpath(bundleLocation, fileName...)
 end
 
 function DownloadBundle(bundleURL, bundleLocation) 
-    filePath, dirPath = getFilePathFromBundleURL(bundleURL, bundleLocation)
+    filePath = getFilePathFromBundleURL(bundleURL, bundleLocation)
     isfile(filePath) && return true
-    CheckProposedLocation(dirPath)
+    CheckProposedLocation(filePath)
     @info "Downloading $filePath"
 
     try
@@ -188,7 +185,7 @@ function UpdateDataFilesFromCatalogS1()
     bundleLocation = joinpath(git_download_cache, "Bundles")
     unzipLocation = joinpath(git_download_cache, "Unbundled Data") 
     for file in getDataURLs()
-        filepath, _ = getFilePathFromBundleURL(file, bundleLocation)
+        filepath = getFilePathFromBundleURL(file, bundleLocation)
         @info filepath 
         LoadTextBundle(filepath, unzipLocation)
     end

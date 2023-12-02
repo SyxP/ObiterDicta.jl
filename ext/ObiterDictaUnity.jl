@@ -1,6 +1,5 @@
 module ObiterDictaUnity
 
-    using ObiterDicta
     using UnityPy
 
     function UpdateDataFilesFromCatalogS1()

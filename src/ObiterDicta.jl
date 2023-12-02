@@ -81,10 +81,18 @@ module ObiterDicta
     include("PersonalityPassiveMap.jl")
 
     function StartREPL()
+        currRepl = nothing
+        try 
+            currRepl = Base.active_repl
+        catch _
+            return
+        end
+
         initrepl(MainParser, 
              prompt_text="Limbus Query> ",
              prompt_color = :blue, 
              start_key=')', 
+             repl = currRepl,
              mode_name="Limbus_mode",
              show_function=(args...) -> nothing)    
     end

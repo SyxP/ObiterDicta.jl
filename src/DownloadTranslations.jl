@@ -109,9 +109,8 @@ updateRU() = updateTranslation("ru",
 function updateGlobal()
     try
         UpdateDataFilesFromCatalogS1()
-    catch err
-        @info "ObiterDictaUnity.jl not loaded. Try `using ObiterDictaUnity`"
-        rethrow(err)
+    catch _
+        @info "UnityPy.jl not loaded. Try `using UnityPy` (https://github.com/SyxP/UnityPy.jl)"
     end
     return
 end

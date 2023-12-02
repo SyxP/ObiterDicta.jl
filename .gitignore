@@ -1,4 +1,5 @@
 data/BundleAccessKey.txt
 data/BundleURL.txt
 .CondaPkg
+.vscode
 Manifest.toml

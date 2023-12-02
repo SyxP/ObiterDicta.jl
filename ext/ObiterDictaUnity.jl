@@ -23,9 +23,9 @@ module ObiterDictaUnity
             for file in files
                 absPath = joinpath(root, file)
                 fileName = relpath(absPath, NewHome)
-                target = joinpath(DataDir, fileName)
+                target = joinpath(ObiterDicta.DataDir, fileName)
                 ObiterDicta.CheckProposedLocation(target)
-                mv(absPath, joinpath(DataDir, fileName))
+                mv(absPath, joinpath(ObiterDicta.DataDir, fileName))
             end
         end
     
@@ -43,8 +43,8 @@ module ObiterDictaUnity
         @info "Download Complete. Adding Git Commits"
        
         run(`$(git()) status`)
-        run(`$(git()) add $(DataDir)`)
-        run(`$(git()) commit -m "Update $(getLatestCatalogS1())"`)
+        run(`$(git()) add $(ObiterDicta.DataDir)`)
+        run(`$(git()) commit -m "Update $(ObiterDicta.getLatestCatalogS1())"`)
 
         return
     end

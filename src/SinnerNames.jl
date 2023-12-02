@@ -8,3 +8,12 @@ function getSinnerName(id)
 
     return ""
 end
+
+function getClosestSinnerIDFromName(name)
+    SinnerName = LocalizedData("Characters")["dataList"]
+    haystack = [(item["name"], item["id"]) for item in SinnerName]
+    SinnerName = LocalizedData("Characters", English)["dataList"]
+    append!(haystack, [(item["name"], item["id"]) for item in SinnerName])
+
+    return SearchClosestString(name, haystack)[1][2]
+end

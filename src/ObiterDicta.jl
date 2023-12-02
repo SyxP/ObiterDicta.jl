@@ -13,7 +13,8 @@ module ObiterDicta
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
-                    BuffCommand, PassiveCommand, SkillCommand]
+                    BuffCommand, PassiveCommand, SkillCommand,
+                    PersonalityCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S
@@ -30,6 +31,7 @@ module ObiterDicta
                   buff (Status Effects)
                   skill (Skills)
                   banner greeting (Profile Card Text)
+                  id (Sinner Identities)
     
                   For more information you can use `[command] help`
             """
@@ -73,6 +75,7 @@ module ObiterDicta
     include("CombatSkillCommand.jl")
 
     include("IdentityStrings.jl")
+    include("IdentityCommand.jl")
 
     include("EGOVoiceStrings.jl")
     include("EGOStrings.jl")

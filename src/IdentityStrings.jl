@@ -60,6 +60,9 @@ end
 ### Retrieval
 getID(identity :: Personality) = identity.id
 getStringID(identity :: Personality) = string(identity.id)
+getMaxUptie(::Type{Personality}) = 4
+getMaxLevel(::Type{Personality}) = 40
+
 getTitle(identity :: Personality) = getLocalizedField(identity, "title", "", "")
 function getEscapedTitle(identity :: Personality) 
     S = strip(getTitle(identity))
@@ -245,7 +248,7 @@ function getSeasonStr(identity :: Personality)
 end
 
 
-function getMainFields(identity :: Personality, level = 40, uptie = 4; verbose)
+function getMainFields(identity :: Personality, level, uptie; verbose)
     Fields = getResistanceString(identity)
     LongFields = String[]
     function AddField(FieldName, FieldValue)
@@ -281,7 +284,7 @@ end
 
 ### Printing
 
-function getTopPanel(identity :: Personality, level = 40, uptie = 4; verbose = false)
+function getTopPanel(identity :: Personality, level, uptie; verbose = false)
     title = getFullTitle(identity, level, uptie)
     subtitle = getSubtitle(identity, uptie)
     content = getMainFields(identity, level, uptie; verbose)
@@ -295,7 +298,7 @@ function getTopPanel(identity :: Personality, level = 40, uptie = 4; verbose = f
         fit=false)
 end
 
-function getAttackPanel(identity :: Personality, level = 40, uptie = 4; verbose = false)
+function getAttackPanel(identity :: Personality, level, uptie; verbose = false)
     Panels = []
     for (idx, entry) in enumerate(getAttackCombatSkills(identity))
         Ct = @blue(string(entry[1]))
@@ -312,7 +315,7 @@ function getAttackPanel(identity :: Personality, level = 40, uptie = 4; verbose 
     end
 end
 
-function getDefensePanel(identity :: Personality, level = 40, uptie = 4; verbose = false)
+function getDefensePanel(identity :: Personality, level, uptie; verbose = false)
     Skills = getDefenseCombatSkill(identity)
     if length(Skills) == 1
         return InternalSkillPanel(Skills[1], uptie, level; verbose = verbose, addedTitle = "Defense:")
@@ -327,7 +330,7 @@ function getDefensePanel(identity :: Personality, level = 40, uptie = 4; verbose
     return vstack(Panels...)
 end
 
-function getPanicPanel(identity :: Personality, level = 40, uptie = 4)
+function getPanicPanel(identity :: Personality, level, uptie)
     return InternalSkillPanel(getPanicCombatSkill(identity), uptie, level; verbose = true, addedTitle = "Panic:")
 end
 function getSanityFactors(identity :: Personality, uptie, type)
@@ -364,7 +367,8 @@ function getPassivePanel(identity :: Personality, uptie)
     return vstack(Panels...)
 end
 
-function getFullPanel(identity :: Personality, level = 40, uptie = 4; verbose = false)
+function getFullPanel(identity :: Personality, level = getMaxLevel(Personality), 
+                      uptie = getMaxUptie(Personality); verbose = false)
     Ans = getTopPanel(identity, level, uptie; verbose)
     Ans /= getAttackPanel(identity, level, uptie; verbose)
     Ans /= getDefensePanel(identity, level, uptie; verbose)

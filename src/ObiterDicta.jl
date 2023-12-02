@@ -43,6 +43,7 @@ module ObiterDicta
     include("DebugFunctions.jl")   
     include("KeywordLocalization.jl")
     include("SinnerNames.jl")
+    include("ExtensionsHandler.jl")
 
     # Downloading
     include("DownloadTranslations.jl")

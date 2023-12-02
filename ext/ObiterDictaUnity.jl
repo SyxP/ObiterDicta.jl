@@ -1,6 +1,7 @@
 module ObiterDictaUnity
 
     using UnityPy
+    import ObiterDicta: UpdateDataFilesFromCatalogS1, qUpdate
 
     function (ObiterDicta.UpdateDataFilesFromCatalogS1)()
         # This does everything pseudo-automatically magically

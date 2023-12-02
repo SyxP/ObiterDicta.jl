@@ -1,7 +1,7 @@
 module ObiterDictaUnity
 
-    using UnityPy, ObiterDicta
-
+    using UnityPy, ObiterDicta, Git
+    
     function (ObiterDicta.UpdateDataFilesFromCatalogS1)()
         # This does everything pseudo-automatically magically
         # It might break if the internal structure changes

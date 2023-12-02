@@ -105,5 +105,6 @@ module ObiterDicta
         StartREPL()
     end
 
-    export qUpdate
+    # Not meant to be used. Internal hooks
+    export qUpdate, UpdateDataFilesFromCatalogS1
 end

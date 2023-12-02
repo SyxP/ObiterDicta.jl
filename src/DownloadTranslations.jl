@@ -109,8 +109,9 @@ updateRU() = updateTranslation("ru",
 function updateGlobal()
     try
         UpdateDataFilesFromCatalogS1()
-    catch _
+    catch err
         @info "ObiterDictaUnity.jl not loaded. Try `using ObiterDictaUnity`"
+        rethrow(err)
     end
     return
 end

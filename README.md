@@ -11,6 +11,13 @@ This creates a Limbus Company REPL Mode.
 for each command `_command_ help` would access the command specific help.
 5. In the future, when updates have been made, you can use `]up` to update the package directly. 
 
+## Uninstalling
+
+1. In Julia, enter `]rm ObiterDicta`
+2. If you wish to also remove all the data bundle files, `]gc`. Note that upon uninstalling,
+doing other processes in Julia may delete the data bundle files! If you wish to keep them,
+do back them up.
+
 ## Other Sources
 
 Chinese translations are from https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany

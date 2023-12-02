@@ -1,9 +1,8 @@
 module ObiterDictaUnity
 
     using UnityPy
-    import ObiterDicta: UpdateDataFilesFromCatalogS1, qUpdate
 
-    function (ObiterDicta.UpdateDataFilesFromCatalogS1)()
+    function UpdateDataFilesFromCatalogS1()
         # This does everything pseudo-automatically magically
         # It might break if the internal structure changes
         # It might also break with other edits to this file
@@ -33,7 +32,7 @@ module ObiterDictaUnity
         ObiterDicta.cleanUpBundleFolder(unzipLocation)
     end
 
-    function (ObiterDicta.qUpdate)(URL = "")
+    function qUpdate(URL = "")
         Latest = ObiterDicta.getLatestCatalogS1()
         if !(URL == "" || URL == Latest)
             ObiterDicta.appendNewCatalogS1Version(URL)

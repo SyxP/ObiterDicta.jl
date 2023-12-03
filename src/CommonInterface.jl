@@ -59,3 +59,18 @@ function getLevelList(myDict, readLevel, tier)
     return Cumulative
 
 end
+
+function CompareNumbers(a, b, op :: String)
+    if op == "<"
+        return a < b
+    elseif op == "≤"
+        return a ≤ b
+    elseif op == "="
+        return a == b
+    elseif op == "≥"
+        return a ≥ b
+    elseif op == ">"
+        return a > b
+    end
+    return true
+end

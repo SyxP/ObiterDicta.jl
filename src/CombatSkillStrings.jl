@@ -108,6 +108,9 @@ function getCoinString(skill :: CombatSkill, tier = 999)
     Ans = getCoinValues(skill, tier)
     return getCoinString(Ans)
 end
+getMinRoll(skill :: CombatSkill, tier) = minRoll(getCoinValues(skill, tier))
+getMaxRoll(skill :: CombatSkill, tier) = maxRoll(getCoinValues(skill, tier))
+getNumCoins(skill :: CombatSkill, tier) = numCoins(getCoinValues(skill, tier))
 
 for (fn, field, defValue) in [(:getName, "name", ""),
                               (:getCoinDesc, "coinlist", Any[]),

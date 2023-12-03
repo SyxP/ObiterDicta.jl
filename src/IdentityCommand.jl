@@ -40,6 +40,7 @@ function FilterHelp(::Type{Personality})
 
               * can be one of S1, S2, S3, atkSkills, def, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
+              [^_query_] constructs a filter that is true if [_query_] is false.
         """
 
     println(S)
@@ -113,8 +114,8 @@ function PersonalityParser(input)
         end
     end
 
-
     PrintAll && return printAllPersonality(PersonalitySearchList, Tier)
+    length(PersonalitySearchList) == 0 && return printAllPersonality(PersonalitySearchList, Tier)
     
     HaystackPersonality = []
     for myID in PersonalitySearchList
@@ -140,6 +141,11 @@ struct PersonalityFilter
     description :: String # printed while Filter is applied
 end
 TrivialPersonalityFilter = PersonalityFilter((x, lvl, uptie) -> true, "")
+
+function NotFilter(filter :: PersonalityFilter)
+    Fn(x, lvl, uptie) = !filter.fn(x, lvl, uptie)
+    return PersonalityFilter(Fn, "$(@red("Not")) " * filter.description)
+end
 
 function SinnerPersonalityFilter(num :: Integer)
     Fn(x, lvl, utpie) = getCharID(x) == num
@@ -255,6 +261,18 @@ for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "mini
 end
 
 function constructFilter(::Type{Personality}, input)
+    Ct = 0
+    while Ct < length(input) && input[Ct + 1] == '^'
+        Ct += 1
+    end
+    if Ct > 0
+        if Ct % 2 == 1
+            return NotFilter(constructFilter(Personality, input[Ct+1:end]))
+        else
+            return constructFilter(Personality, input[Ct+1:end])
+        end
+    end
+
     S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)
     if S !== nothing
         N = parse(Int, S.captures[2])
@@ -370,6 +388,11 @@ end
 PersonalityPreviousSearchResult = Personality[]
 function printFromPersonalityList(list, tier = getMaxUptie(Personality))
     global PersonalityPreviousSearchResult = copy(list)
+
+    if length(PersonalityPreviousSearchResult) == 0
+        println("No results found.")
+        return PersonalityPreviousSearchResult
+    end
     
     ResultStrings = String[]
     for myID in list

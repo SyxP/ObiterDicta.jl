@@ -14,6 +14,8 @@ function EGOHelp()
               After (*), `ego _number_` will directly output the corresponding E.G.O.
               To see available filters, use `ego filters help`.
               Example usage:
+              `ego !i 20805 !ts2` - Outputs the internal E.G.O with ID 20805 and Threadspin 2.
+              `ego !all [id=fish] [wrathRes>1]` - Outputs all Ishmael E.G.Os with Wrath Resistance > 1.
         """
     
     println(S)
@@ -21,7 +23,16 @@ function EGOHelp()
 end
 
 function FilterHelp(::Type{EGO})
-    S = "" # TODO
+    S = raw"""Filters reduce the search space.
+              Note that filters can not have spaces between the [].
+              Available Fitlers:
+              [id:_num_]     - Sinner's Number must be _num_.
+              [id:_name_]    - Sinner's Name must be _name_.
+
+              _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
+              [^_query_] constructs a filter that is true iff [_query_] is false.
+              [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
+        """
 
     println(S)
     return S

@@ -16,7 +16,7 @@ function PersonalityHelp()
               After (*), `id _number_` will directly output the corresponding identity.
               To see available filters, use `id filters help`.
               Example usage:
-              `id !i 1010101 !ut1 !olvl40` - Outputs the internal identity with ID 1010101 Uptie 1 and Level 40.
+              `id !i 10101 !ut1 !olvl40` - Outputs the internal identity with ID 10101 Uptie 1 and Level 40.
               `id !all [id=donqui] [s2=wrath]` - Outputs all Don Quixote identities with Wrath S2.
         """
 
@@ -28,7 +28,7 @@ function FilterHelp(::Type{Personality})
     S = raw"""Filters reduce the search space. 
               Note that filters can not have spaces between the [].
               Available Filters:
-              [id:_num_]               - Sinner's Number must _num_. Note that Sinclair is given the ID 10.
+              [id:_num_]               - Sinner's Number must be _num_. Note that Sinclair is given the ID 10.
               [id:_name_]              - Sinner's Name must be _name_.
               [rarity:_x_]             - Rarity must be _x_. (_x_ should be "2*"/"00")
               [health_op__num_]        - Health of the identity must _op_ _num_.
@@ -45,8 +45,8 @@ function FilterHelp(::Type{Personality})
 
               * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
-              [^_query_] constructs a filter that is true if [_query_] is false.
-              [_queryA_|_queryB_] constructs a filter that is true if either [_queryA_] or [_queryB_] is true.
+              [^_query_] constructs a filter that is true iff [_query_] is false.
+              [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
         """
 
     println(S)

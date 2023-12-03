@@ -1,7 +1,7 @@
 function PersonalityHelp()
     S = raw"""Looks up identities. Available Commands:
               `id list jsons`         - List all internal JSONs.
-              `id list _bundle.json_` - List all identities in _bundle.json_
+              `id list _bundle.json_` - List all identities in _bundle.json_. (*)
               `id _query_ _flags_`    - Looks up _query_.
 
               Available Flags:
@@ -54,7 +54,7 @@ function FilterHelp(::Type{Personality})
 end
 
 function PersonalityParser(input)
-    S = match(r"^filters? help", input)
+    S = match(r"^filters? help$", input)
     (S !== nothing) && return FilterHelp(Personality)
     
     S = match(r"^list jsons?$", input)
@@ -488,7 +488,7 @@ printRandom(::Type{Personality}, verbose) =
 function searchSinglePersonality(query, haystack, tier, level, verbose)
     tprint("Using {red}$query{/red} as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Tier: {red}$tier{red}")
+    tier !== 999 && push!(AddParams, "Uptie: {red}$tier{red}")
     level != -1 && push!(AddParams, "Level: {red}$level{/red}")
 
     length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")

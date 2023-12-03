@@ -15,7 +15,7 @@ module ObiterDicta
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
-                    PersonalityCommand]
+                    PersonalityCommand, EGOCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S
@@ -33,6 +33,7 @@ module ObiterDicta
                   skill (Skills)
                   banner greeting (Profile Card Text)
                   id (Sinner Identities)
+                  ego (E.G.Os)
     
                   For more information you can use `[command] help`
             """
@@ -81,6 +82,7 @@ module ObiterDicta
 
     include("EGOVoiceStrings.jl")
     include("EGOStrings.jl")
+    include("EGOCommand.jl")
     
     # Dependent on Structs
     include("PanicStrings.jl")

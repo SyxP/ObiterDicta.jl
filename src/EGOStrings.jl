@@ -4,6 +4,7 @@ end
 
 # ego-empty are placeholders for EGO not in game yet.
 getMasterFileClasses(::Type{EGO}) = ["ego"]
+getMaxThreadspin(::Type{EGO}) = 4
 
 function handleDataFile(::Type{EGO}, MasterList, file)
     for item in StaticData(file)["list"]
@@ -185,6 +186,7 @@ function getRequirementStr(ego :: EGO)
     return join(EGOMats, @dim("; "))
 end
 
+getSearchTitle(ego :: EGO) = getSinnerName(getSinnerID(ego))*getTitle(ego)
 function getFullTitle(ego :: EGO)
     io = IOBuffer()
     SinnerName = getSinnerName(getSinnerID(ego))
@@ -208,7 +210,7 @@ function getSubtitle(ego :: EGO)
     return String(take!(io))
 end
 
-function getTopPanel(ego :: EGO, threadspin = 4; verbose = false)
+function getTopPanel(ego :: EGO, threadspin = getMaxThreadspin(EGO); verbose = false)
     title = getFullTitle(ego, threadspin)
     subtitle = getSubtitle(ego)
     content = getMainFields(ego; verbose = verbose)
@@ -222,7 +224,7 @@ function getTopPanel(ego :: EGO, threadspin = 4; verbose = false)
         fit=false)
 end
 
-function getSkillPanel(ego :: EGO, threadspin = 4; verbose = false)
+function getSkillPanel(ego :: EGO, threadspin; verbose = false)
     awakeningSkill = getAwakeningSkill(ego)
     corrosionSkill = getCorrosionSkill(ego)
     
@@ -241,7 +243,7 @@ function getSkillPanel(ego :: EGO, threadspin = 4; verbose = false)
     return vstack(Panels...)
 end
 
-function getPassivePanel(ego :: EGO, threadspin = 4; verbose = false)
+function getPassivePanel(ego :: EGO, threadspin; verbose = false)
     S = Passive.(getPassiveList(ego))
     Panels = Panel[]
     threadspin == 1 && return vstack(Panels...)
@@ -256,7 +258,7 @@ function getPassivePanel(ego :: EGO, threadspin = 4; verbose = false)
     return vstack(Panels...)
 end
 
-function getFullPanel(ego :: EGO, threadspin = 4; verbose = false)
+function getFullPanel(ego :: EGO, threadspin = getMaxThreadspin(EGO); verbose = false)
     Ans = getTopPanel(ego, threadspin; verbose)
     Ans /= getSkillPanel(ego, threadspin; verbose)
     Ans /= getPassivePanel(ego, threadspin; verbose)

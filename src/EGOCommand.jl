@@ -147,7 +147,7 @@ end
 
 function EvalFilter(::Type{EGO}, str :: String)
     Fn = FilterRegistry[str]
-    return EGOFilter(Fn, "Custom Filter: $(@blue(str))"
+    return EGOFilter(Fn, "Custom Filter: $(@blue(str))")
 end
 
 function SinnerEGOFilter(num :: Integer)

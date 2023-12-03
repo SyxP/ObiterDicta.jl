@@ -131,14 +131,11 @@ function getOtherFields(identity :: Personality)
 end
 
 function getRarityString(identity :: Personality)
-    Yellow0 = @yellow("0")
     N = getRarity(identity)
-    if (N isa Int) && 1 ≤ N ≤ 3
-        return Yellow0^N
-    else
-        @info "Unable to parse Rarity String: $N"
-        return ""
-    end
+    (N isa Int) && return getRarityString(N)
+        
+    @info "Unable to parse Rarity String: $N"
+    return ""
 end
 function getSubtitle(identity :: Personality, uptie)
     io = IOBuffer()

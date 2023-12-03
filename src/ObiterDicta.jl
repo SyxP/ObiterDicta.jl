@@ -59,6 +59,7 @@ module ObiterDicta
 
     # Internal Structures
     include("CoinStruct.jl")
+    include("RarityUtils.jl")
 
     # Utility Modes
     include("ExperienceLevels.jl")

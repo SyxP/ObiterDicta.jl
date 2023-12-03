@@ -1,6 +1,7 @@
 module ObiterDicta
     using ReplMaker
     using Term, Term.Layout, Term.Prompts
+    using UnicodePlots
     using StringDistances
     using Unicode
     using JSON

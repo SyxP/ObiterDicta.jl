@@ -5,6 +5,7 @@ function EXPHelp()
               exp uptie / exp ut
               exp threadspin / exp ts 
               exp id _level_
+              exp id plot
               exp refill
     """
 
@@ -34,6 +35,8 @@ function EXPParser(input)
             return getEXPIdentity(level1, level2)
         end
     end
+    S = match(r"^id(entity)? plots?$", input)
+    (S !== nothing) && return getEXPPlot()
 
     match(r"(uptie|ut)$", input) !== nothing && return getEXPUptie()
     match(r"(threadspin|ts)$", input) !== nothing && return getEXPThreadspin()
@@ -117,8 +120,9 @@ function getEXPThreadspin()
     end
 end
 
+getEXPDatabase() = StaticData("common-data/common-data")["personalityLevelTable"]["expTable"]
 function getEXPIdentity(level)
-    IdentityEXPDatabase = StaticData("common-data/common-data")["personalityLevelTable"]["expTable"]
+    IdentityEXPDatabase = getEXPDatabase()
     if !(1 <= level <= length(IdentityEXPDatabase) + 1)
         @info "Identity Level out of range."
         return
@@ -143,7 +147,7 @@ end
 function getEXPIdentity(level1, level2)
     level1 > level2 && return getEXPIdentity(level2, level1) # Ensure level1 < level2
 
-    IdentityEXPDatabase = StaticData("common-data/common-data")["personalityLevelTable"]["expTable"]
+    IdentityEXPDatabase = getEXPDatabase()
     for level in [level1, level2]
         if !(1 <= level <= length(IdentityEXPDatabase) + 1)
             @info "Identity Level $level out of range."
@@ -157,6 +161,17 @@ function getEXPIdentity(level1, level2)
             * @blue(string(level1)) * " => " * @blue(string(level2)) * " is "
             * @magenta(string(CumSumEXP)) * ".")
     return CumSumEXP
+end
+
+function getEXPPlot()
+    IdentityEXPDatabase = getEXPDatabase()
+    Title = "Experience Points Needed Per Level"
+    xRange = 2:(length(IdentityEXPDatabase)+1)
+    yRange = Int.(IdentityEXPDatabase)
+
+    S = lineplot(xRange, yRange; title = Title, xlabel = "Level", ylabel = "EXP Needed")
+    tprintln(S)
+    return S
 end
 
 function getEXPRefill()

@@ -183,6 +183,12 @@ function constructFilter(::Type{EGO}, input)
         end
     end
 
+    S = match(r"^fn[:=](.+)$", input)
+    if S !== nothing
+        query = string(S.captures[1])
+        return EvalFilter(EGO, query)
+    end
+
     S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)
     if S !== nothing
         N = parse(Int, S.captures[2])

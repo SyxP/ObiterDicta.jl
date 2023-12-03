@@ -215,6 +215,15 @@ function getDefenseCombatSkill(identity :: Personality)
 end
 getPanicCombatSkill(identity :: Personality) = CombatSkill(getPanicSkillRaw(identity))
 
+function getResistance(identity :: Personality, resistType)
+    for entry in getResistInfoRaw(identity)["atkResistList"]
+        if entry["type"] == resistType
+            return entry["value"]
+        end
+    end
+    return 1.0
+end
+
 function getResistanceString(identity :: Personality)
     resistStrList = String[]
     for entry in getResistInfoRaw(identity)["atkResistList"]

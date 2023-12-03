@@ -28,15 +28,16 @@ function FilterHelp(::Type{Personality})
     S = raw"""Filters reduce the search space. 
               Note that filters can not have spaces between the [].
               Available Filters:
-              [id:_num_]            - Sinner's Number must _num_. Note that Sinclair is given the ID 10.
-              [id:_name_]           - Sinner's Name must be _name_.
-              [health_op__num_]     - Health of the identity must _op_ _num_.
-              [def:type:_type_]     - Defensive Type must be _type_ (e.g. Guard).
-              [*:sin:_type_]        - Any (*) skill must have sin Affinity _type_.
-              [*:atkType:_type_]    - Any (*) skill must have attack Type _type_.
-              [*:minRoll_op__num_]  - All (*) skill must have minimum roll _op_ _num_.
-              [*:maxRoll_op__num_]  - All (*) skill must have maximum roll _op_ _num_.
-              [*:numCoins_op__num_] - All (*) skill must have number of coins _op_ _num_.
+              [id:_num_]               - Sinner's Number must _num_. Note that Sinclair is given the ID 10.
+              [id:_name_]              - Sinner's Name must be _name_.
+              [health_op__num_]        - Health of the identity must _op_ _num_.
+              [resist:_type__op__num_] - Resistance of type _type_ _op_ _num_.
+              [def:type:_type_]        - Defensive Type must be _type_ (e.g. Guard).
+              [*:sin:_type_]           - Any (*) skill must have sin Affinity _type_.
+              [*:atkType:_type_]       - Any (*) skill must have attack Type _type_.
+              [*:minRoll_op__num_]     - All (*) skill must have minimum roll _op_ _num_.
+              [*:maxRoll_op__num_]     - All (*) skill must have maximum roll _op_ _num_.
+              [*:numCoins_op__num_]    - All (*) skill must have number of coins _op_ _num_.
 
               * can be one of S1, S2, S3, atkSkills, def, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -229,6 +230,29 @@ function CombatSkillSinFilter(skillNumStr, sinQuery)
     return PersonalityFilter(Fn, filterStr)
 end
 
+function CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
+    skillFn, skillDesc = getSkillFunctions(skillNumStr)
+    skillDesc == "" && return TrivialPersonalityFilter
+    internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
+    function Fn(x, lvl, uptie)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            if Lst isa Vector
+                for skill in Lst
+                    getAtkType(skill, uptie) == internalAtkType && return true
+                end
+            else
+                skill = Lst
+                getAtkType(skill, uptie) == internalAtkType && return true
+            end
+        end
+        return false
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have Attack Type $(AttackTypes(internalAtkType)) (Input: $(@dim(atkTypeQuery)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
 for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "minimum roll"),
                                    (:CombatSkillMaxRollFilter, getMaxRoll, "maximum roll"),
                                    (:CombatSkillNumCoinsFilter, getNumCoins, "number of coins")]
@@ -258,6 +282,22 @@ for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "mini
         filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op))$(@red(num)) "
         return PersonalityFilter(Fn, filterStr)
     end
+end
+
+function SinnerResistanceFilter(resistType, op, num)
+    compareN = tryparse(Float64, num)
+    compareN === nothing && return TrivialPersonalityFilter
+    searchType = getClosestAtkTypeFromName(resistType) 
+    (op == "<=") && (op = "≤")
+    (op == ">=") && (op = "≥")
+
+    function Fn(x, lvl, uptie)
+        N = getResistance(x, searchType) 
+        return CompareNumbers(N, compareN, op) 
+    end
+
+    filterStr = "Filter: Sinner's resistance to $(AttackTypes(searchType)) $(@blue(op))$(@red(num))× (Input: $(@dim(resistType)))"
+    return PersonalityFilter(Fn, filterStr)
 end
 
 function constructFilter(::Type{Personality}, input)
@@ -334,6 +374,14 @@ function constructFilter(::Type{Personality}, input)
         num = string(S.captures[4])
         op = string(S.captures[3])
         return CombatSkillNumCoinsFilter(skillNumStr, num, op)
+    end
+
+    S = match(r"^[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", input)
+    if S !== nothing
+        resType = string(S.captures[2])
+        op = string(S.captures[3])
+        num = string(S.captures[4])
+        return SinnerResistanceFilter(resType, op, num)
     end
 
     return TrivialPersonalityFilter

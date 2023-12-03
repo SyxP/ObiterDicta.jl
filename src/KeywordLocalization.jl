@@ -54,12 +54,42 @@ function getSkillReplaceDict()
     return ReplacementDict
 end
 
+function getClosestSinFromName(str)
+    Haystack = Tuple{String, String}[]
+    for entry in LocalizedData("AttributeText")["dataList"]
+        push!(Haystack, (entry["name"], entry["id"]))
+        push!(Haystack, (entry["id"], entry["id"]))
+    end
+
+    for entry in LocalizedData("AttributeText", English)["dataList"]
+        push!(Haystack, (entry["name"], entry["id"]))
+    end
+    for nullStr in ["Neutral", "Nothing", "None"]
+        push!(Haystack, (nullStr, "NEUTRAL"))
+    end
+    
+    return SearchClosestString(str, Haystack)[1][2]
+end
+
 function AttackTypes(S)
     ReplaceDict = Dict("HIT" => "Blunt",
                        "PENETRATE" => "Pierce",
                        "SLASH" => "Slash",
                        "NONE" => "None") 
     return haskey(ReplaceDict, S) ? ReplaceDict[S] : S
+end
+
+function getClosestAtkTypeFromName(str)
+    Haystack = [("hit", "HIT"),
+                ("blunt", "HIT"),
+                ("penetrate", "PENETRATE"),
+                ("pierce", "PENETRATE"),
+                ("slash", "SLASH")]
+
+    for nullStr in ["Neutral", "Nothing", "None"]
+        push!(Haystack, (nullStr, "NONE"))
+    end
+    return SearchClosestString(str, Haystack)[1][2]
 end
 
 function getSeasonNameFromInt(N)

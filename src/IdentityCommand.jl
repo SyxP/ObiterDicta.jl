@@ -25,7 +25,17 @@ function PersonalityHelp()
 end
 
 function FilterHelp(::Type{Personality})
-    S = "Currently being worked on." ## TODO
+    S = raw"""Filters reduce the search space. 
+              Note that filters can not have spaces between the [].
+              Available Filters:
+              [id:_num_]         - Sinner's Number must _num_. Note that Sinclair is given the ID 10.
+              [id:_name_]        - Sinner's Name must be _name_.
+              [def:type:_type_]  - Defensive Type must be _type_ (e.g. Guard).
+              [*:sin:_type_]     - Any (*) skill must have sin Affinity _type_.
+              [*:atkType:_type_] - Any (*) skill must have attack Type _type_.
+
+              * can be one of S1, S2, S3, atkSkills, def, allSkills
+        """
 
     println(S)
     return S
@@ -67,6 +77,7 @@ function PersonalityParser(input)
     PersonalitySearchList = Personality[]
     Tier = getMaxUptie(Personality)
     Level = getMaxLevel(Personality)
+    pFilters = PersonalityFilter[]
 
     Applications = Dict{Regex, Function}()
     Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true)
@@ -79,6 +90,8 @@ function PersonalityParser(input)
     Applications[r"^![lL]evel([0-9]+)$"] = (x) -> (Level = parse(Int, x))
     Applications[r"^![uU]ptie([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![uU][tT]([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
+    Applications[r"^\[(.*)\]$"] = (x) -> push!(pFilters, constructFilter(Personality, x))
+
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -86,7 +99,16 @@ function PersonalityParser(input)
     end
 
     (length(PersonalitySearchList) == 0) && (PersonalitySearchList = getMasterList(Personality))
-    
+
+    for currFilter in pFilters
+        Tmp = ""
+        PersonalitySearchList, Tmp = applyFilter(PersonalitySearchList, currFilter, Level, Tier)
+        if Tmp != ""
+            tprintln(Tmp)
+        end
+    end
+
+
     PrintAll && return printAllPersonality(PersonalitySearchList, Tier)
     
     HaystackPersonality = []
@@ -107,6 +129,186 @@ end
 PersonalityRegex = r"^(id|identity|identities) (.*)$"
 PersonalityCommand = Command(PersonalityRegex, PersonalityParser,
                              [2], PersonalityHelp)
+# Filters
+struct PersonalityFilter
+    fn :: Function # returns true if passed Filter
+    description :: String # printed while Filter is applied
+end
+TrivialPersonalityFilter = PersonalityFilter((x, lvl, uptie) -> true, "")
+
+function SinnerPersonalityFilter(num :: Integer)
+    Fn(x, lvl, utpie) = getCharID(x) == num
+    filterStr = "Filter: Sinner to $(@red(getSinnerName(num)))"
+
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function SinnerPersonalityFilter(str :: String)
+    num = getClosestSinnerIDFromName(str)
+    Fn(x, lvl, uptie) = getCharID(x) == num
+    filterStr = "Filter: Sinner to $(@red(getSinnerName(num))) (Input: $(@dim(str)))"
+
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function SinnerHealthFilter(num :: String, relation :: String)
+    N = parse(Int, num)
+    (relation == "<=") && (relation = "≤")
+    (relation == ">=") && (relation = "≥")
+    
+    function Fn(x, lvl, uptie)
+        totalHP = getHP(x, lvl)
+        if relation == "<"
+            return totalHP < N
+        elseif relation == "≤"
+            return totalHP ≤ N
+        elseif relation == "="
+            return totalHP == N
+        elseif relation == "≥"
+            return totalHP ≥ N
+        elseif relation == ">"
+            return totalHP > N
+        end
+        return true
+    end
+
+    filterStr = "Filter: Sinner Health $(@blue(relation)) $(@red(num))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function DefenseTypePersonalityFilter(str :: String)
+    newStr = lowercase(superNormString(str))
+    function Fn(x, lvl, uptie)
+        defSkillList = getDefenseCombatSkill(x)
+        Lst = [lowercase(superNormString(getType(x))) for x in defSkillList]
+        return any(Lst .== newStr)
+    end
+
+    filterStr = "Filter: Defense Type to $(@red(newStr))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function getSkillFunctions(skillStr)
+    if match(r"^[sS](kill)?1$", skillStr) !== nothing
+        return [getSkill1], "Skill 1"
+    elseif match(r"^[sS](kill)?2$", skillStr) !== nothing
+        return [getSkill2], "Skill 2"
+    elseif match(r"^[sS](kill)?3$", skillStr) !== nothing
+        return [getSkill3], "Skill 3"
+    elseif match(r"^[aA](tk|ttack)([sS]kills?)$", skillStr) !== nothing
+        return [getSkill1, getSkill2, getSkill3], "All Attack Skills"
+    elseif match(r"^[dD](ef|effence)([sS]kills?)?$", skillStr) !== nothing
+        return [getDefenseCombatSkill], "All Defense Skills"
+    elseif match(r"^[aA]ll([sS]kills?)$", skillStr) !== nothing
+        SkillFn = [getSkill1, getSkill2, getSkill3, getDefenseCombatSkill]
+        return SkillFn, "All Skills"
+    end
+    return Function[], ""
+end
+
+function CombatSkillSinFilter(skillNumStr, sinQuery)
+    skillFn, skillDesc = getSkillFunctions(skillNumStr)
+    skillDesc == "" && return TrivialPersonalityFilter
+    internalSin = getClosestSinFromName(sinQuery)
+    function Fn(x, lvl, uptie)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            if Lst isa Vector
+                for skill in Lst
+                    getSinType(skill, uptie) == internalSin && return true
+                end
+            else
+                skill = Lst
+                getSinType(skill, uptie) == internalSin && return true
+            end
+        end
+        return false
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have Sin Affinity $(getSinString(internalSin)) (Input: $(@dim(sinQuery)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
+    skillFn, skillDesc = getSkillFunctions(skillNumStr)
+    skillDesc == "" && return TrivialPersonalityFilter
+    internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
+    function Fn(x, lvl, uptie)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            if Lst isa Vector
+                for skill in Lst
+                    getAtkType(skill, uptie) == internalAtkType && return true
+                end
+            else
+                skill = Lst
+                getAtkType(skill, uptie) == internalAtkType && return true
+            end
+        end
+        return false
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have attack Type $(AttackTypes(internalAtkType)) (Input: $(@dim(atkTypeQuery)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function constructFilter(::Type{Personality}, input)
+    S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)
+    if S !== nothing
+        N = parse(Int, S.captures[2])
+        return SinnerPersonalityFilter(N)
+    end
+
+    S = match(r"[iI]d(entity)?[=:](.+)", input)
+    if S !== nothing
+        query = string(S.captures[2])
+        return SinnerPersonalityFilter(query)
+    end
+
+    S = match(r"[dD]ef[:=][tT]ype[:=](.+)", input)
+    if S !== nothing
+        query = string(S.captures[1])
+        return DefenseTypePersonalityFilter(query)
+    end
+
+    S = match(r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", input)
+    if S !== nothing
+        skillNumStr = string(S.captures[1])
+        sinQuery = string(S.captures[3])
+        return CombatSkillSinFilter(skillNumStr, sinQuery)
+    end
+
+    S = match(r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", input)
+    if S !== nothing
+        skillNumStr = string(S.captures[1])
+        atkTypeQuery = string(S.captures[3])
+        return CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
+    end
+
+    S = match(r"^(health|hp)([<>=≤≥]+)([0-9]+)$", input)
+    if S !== nothing
+        num = string(S.captures[3])
+        op = string(S.captures[2])
+        return SinnerHealthFilter(num, op)
+    end
+
+    return TrivialPersonalityFilter
+end
+
+function applyFilter(personalityList, pFilter, lvl, uptie)
+    N = length(personalityList)
+    newList = Personality[]
+    for myID in personalityList
+        if pFilter.fn(myID, lvl, uptie)
+            push!(newList, myID)
+        end
+    end
+    if length(newList) < N
+        return newList, pFilter.description
+    else
+        return newList, ""
+    end
+end
 
 # Printing and Searching
 
@@ -148,7 +350,7 @@ function printFromPersonalityList(list, tier = getMaxUptie(Personality))
         push!(ResultStrings, getFullTitle(myID))
     end
 
-    println(GridFromList(ResultStrings, 1; labelled = true))
+    print(GridFromList(ResultStrings, 1; labelled = true))
     return PersonalityPreviousSearchResult
 end
 

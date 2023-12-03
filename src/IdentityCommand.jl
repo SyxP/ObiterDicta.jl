@@ -43,7 +43,7 @@ function FilterHelp(::Type{Personality})
               [*:weight_op__num_]      - All (*) skill must have weight _op_ _num_.
               [*:offCor_op__num_]      - All (*) skill must have offense correction _op_ _num_.
 
-              * can be one of S1, S2, S3, atkSkills, def, allSkills
+              * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true if [_query_] is false.
               [_queryA_|_queryB_] constructs a filter that is true if either [_queryA_] or [_queryB_] is true.

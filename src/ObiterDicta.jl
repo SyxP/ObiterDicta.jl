@@ -13,6 +13,7 @@ module ObiterDicta
 
     function MainParser(input)
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
+                    FiltRegCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
                     PersonalityCommand, EGOCommand]
@@ -61,6 +62,7 @@ module ObiterDicta
     # Internal Structures
     include("CoinStruct.jl")
     include("RarityUtils.jl")
+    include("EvalRegisterFunction.jl")
 
     # Utility Modes
     include("ExperienceLevels.jl")

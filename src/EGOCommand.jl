@@ -28,6 +28,7 @@ function FilterHelp(::Type{EGO})
               Available Fitlers:
               [id:_num_]     - Sinner's Number must be _num_.
               [id:_name_]    - Sinner's Name must be _name_.
+              [fn:_FunName_] - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
@@ -142,6 +143,11 @@ function OrFilter(filterList :: Vector{EGOFilter})
         println(io, " - $(@dim(string(idx))): " * filter.description)
     end
     return EGOFilter(Fn, String(take!(io)))
+end
+
+function EvalFilter(::Type{EGO}, str :: String)
+    Fn = FilterRegistry[str]
+    return EGOFilter(Fn, "Custom Filter: $(@blue(str))"
 end
 
 function SinnerEGOFilter(num :: Integer)

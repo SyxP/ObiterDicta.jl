@@ -42,6 +42,7 @@ function FilterHelp(::Type{Personality})
               [*:numCoins_op__num_]    - All (*) skill must have number of coins _op_ _num_.
               [*:weight_op__num_]      - All (*) skill must have weight _op_ _num_.
               [*:offCor_op__num_]      - All (*) skill must have offense correction _op_ _num_.
+              [fn:_FunName_]           - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
 
               * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -162,6 +163,11 @@ function OrFilter(filterList :: Vector{PersonalityFilter})
     end
     filterStr = String(take!(io))
     return PersonalityFilter(Fn, filterStr)        
+end
+
+function EvalFilter(::Type{Personality}, str :: String)
+    Fn = FilterRegistry[str]
+    return PersonalityFilter(Fn, "Custom Filter: $(@blue(str))")
 end
 
 function SinnerPersonalityFilter(num :: Integer)
@@ -356,6 +362,12 @@ function constructFilter(::Type{Personality}, input)
         else
             return constructFilter(Personality, input[Ct+1:end])
         end
+    end
+
+    S = match(r"^fn[:=](.+)$", input)
+    if S !== nothing
+        query = string(S.captures[1])
+        return EvalFilter(Personality, query)
     end
 
     S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)

@@ -7,7 +7,7 @@ end
 function FilterRegistryHelpStr()
     S = raw"""For use in filters, you may wish to use your own functions.
               You first write your function in Julia Mode. Then, you 
-              register it with: `ObiterDicta.RegisterFunction(\"FilterName\", YourFn)`.
+              register it with: `RegisterFunction(\"FilterName\", YourFn)`.
 
               You can list the registered filters with: `filtreg list`.
         """

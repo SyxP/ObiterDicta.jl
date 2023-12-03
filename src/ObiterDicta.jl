@@ -114,6 +114,8 @@ module ObiterDicta
         StartREPL()
     end
 
+    export RegisterFunction # For RegistryFunctions
+
     # Not meant to be used. Internal hooks
     export qUpdate, UpdateDataFilesFromCatalogS1
 end

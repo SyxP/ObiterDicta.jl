@@ -26,8 +26,10 @@ function FilterHelp(::Type{EGO})
     S = raw"""Filters reduce the search space.
               Note that filters can not have spaces between the [].
               Available Fitlers:
-              [id:_num_]     - Sinner's Number must be _num_.
-              [id:_name_]    - Sinner's Name must be _name_.
+              [id:_num_]     - E.G.O owner's Number must be _num_.
+              [id:_name_]    - E.G.O owner's Name must be _name_.
+              [season:_x_]   - E.G.O is from Season _x_.
+              [event]        - E.G.O is from an event.
               [fn:_FunName_] - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -165,6 +167,22 @@ function SinnerEGOFilter(str :: String)
     return EGOFilter(Fn, filterStr)
 end
 
+function EGOEventFilter()
+    Fn(x, ts) = isEvent(x)
+    filterStr = "Filter: Sinner is from an Event"
+    return EGOFilter(Fn, filterStr)
+end
+
+function EGOSeasonFilter(str)
+    N = getSeasonIDFromName(str)
+    N == -1 && return TrivialPersonalityFilter
+    Fn(x, ts) = getSeason(x) == N
+    filterStr = "Filter: EGO Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
+
+    return EGOFilter(Fn, filterStr)
+end
+
+
 function constructFilter(::Type{EGO}, input)
     parts = split(input, "|")
     if length(parts) > 1
@@ -189,16 +207,19 @@ function constructFilter(::Type{EGO}, input)
         return EvalFilter(EGO, query)
     end
 
-    S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)
+    S = match(r"^[iI]d(entity)?[=:]([0-9]+)$", input)
     if S !== nothing
         N = parse(Int, S.captures[2])
         return SinnerEGOFilter(N)
     end
-
-    S = match(r"[iI]d(entity)?[=:](.+)", input)
-    if S !== nothing
-        query = string(S.captures[2])
-        return SinnerEGOFilter(query)
+    for (myRegex, filterFn, params) in [(r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
+                                        (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
+                                        (r"^[eE]vent$", EGOEventFilter, [])]
+        S = match(myRegex, input)
+        if S !== nothing
+            stringParams = [string(S.captures[i]) for i in params]
+            return filterFn(stringParams...)
+        end
     end
 
     return TrivialEGOFilter
@@ -232,7 +253,7 @@ function searchSingleEGO(query, haystack, threadspin, verbose)
     AddParams = String[]
     threadspin != 999 && push!(AddParams, "Threadspin: {red}$threadspin{/red}")
 
-    length(AddParams) > 0 && tprintln(" with $(join(AddParams, "; "))")
+    length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")
     tprintln(".")
 
     result = SearchClosestString(query, haystack)[1][2]

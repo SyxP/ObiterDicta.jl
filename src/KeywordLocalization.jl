@@ -112,6 +112,19 @@ function getSeasonNameFromInt(N)
     return Ans
 end
 
-function getPanicName(id)
+function getSeasonIDFromName(Str)
+    Haystack = Tuple{String, Int}[]
+    function AddEntry(SeasonID, ListOfSeasonName)
+        for SeasonName in ListOfSeasonName
+            push!(Haystack, (SeasonName, SeasonID))
+        end
+    end
 
+    AddEntry(0, ["S0", "0", "Season0", "SeasonZero", "Zero"])
+    AddEntry(1, ["S1", "1", "Season1", "SeasonOne", "One", "Orientation"])
+    AddEntry(2, ["S2", "2", "Season2", "SeasonTwo", "Two", "Reminiscence"])
+    AddEntry(3, ["S3", "3", "Season3", "SeasonThree", "Three", "BonExpedition"])
+    AddEntry(9101, ["Walpurgis Night", "Walpurgisnacht", "9101"])
+
+    return SearchClosestString(Str, Haystack)[1][2]
 end

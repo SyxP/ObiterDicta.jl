@@ -28,11 +28,15 @@ function FilterHelp(::Type{Personality})
     S = raw"""Filters reduce the search space. 
               Note that filters can not have spaces between the [].
               Available Filters:
-              [id:_num_]               - Sinner's Number must be _num_. Note that Sinclair is given the ID 10.
-              [id:_name_]              - Sinner's Name must be _name_.
+              [id:_num_]               - ID's Number must be _num_. Note that Sinclair is given the ID 10.
+              [id:_name_]              - ID's Name must be _name_.
               [rarity:_x_]             - Rarity must be _x_. (_x_ should be "2*"/"00")
+              [season:_x_]             - ID is from Season _x_.
+              [event]                  - ID is from Event
               [health_op__num_]        - Health of the identity must _op_ _num_.
               [defCor_op__num_]        - Defense Correction of the identity must _op_ _num_.
+              [maxSpeed_op__num_]      - Maximum Speed of the identity must _op_ _num_.
+              [minSpeed_op__num_]      - Minimum Speed of the identity must _op_ _num_.
               [resist:_type__op__num_] - Resistance of type _type_ _op_ _num_.
               [def:type:_type_]        - Defensive Type must be _type_ (e.g. Guard).
               [*:sin:_type_]           - Any (*) skill must have sin Affinity _type_.
@@ -185,6 +189,20 @@ function SinnerPersonalityFilter(str :: String)
     return PersonalityFilter(Fn, filterStr)
 end
 
+function SinnerEventFilter()
+    Fn(x, lvl, uptie) = isEvent(x)
+    filterStr = "Filter: Sinner is from an Event"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function SinnerSeasonFilter(str)
+    N = getSeasonIDFromName(str)
+    N == -1 && return TrivialPersonalityFilter
+    Fn(x, lvl, uptie) = getSeason(x) == N
+    filterStr = "Filter: Sinner Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
 function SinnerRarityFilter(str :: String)
     N = getRarityFromString(str)
     N == 0 && return TrivialPersonalityFilter
@@ -197,14 +215,32 @@ function SinnerHealthFilter(num :: String, relation :: String)
     N = parse(Int, num)
     (relation == "<=") && (relation = "≤")
     (relation == ">=") && (relation = "≥")
-    
+
     function Fn(x, lvl, uptie)
-        totalHP = getHP(x, lvl)
-        return CompareNumbers(totalHP, N, relation)
+        compareN = getHP(x, lvl)
+        return CompareNumbers(compareN, N, relation)
     end
 
     filterStr = "Filter: Sinner Health $(@blue(relation)) $(@red(num))"
     return PersonalityFilter(Fn, filterStr)
+end
+
+
+for (fnName, lookupFn, desc) in [(:SinnerMaxSpeedFilter, getMaxSpeed, "Maximum Speed"),
+                                 (:SinnerMinSpeedFilter, getMinSpeed, "Minimum Speed")]
+    @eval function ($fnName)(num :: String, relation :: String)
+        N = parse(Int, num)
+        (relation == "<=") && (relation = "≤")
+        (relation == ">=") && (relation = "≥")
+    
+        function Fn(x, lvl, uptie)
+            compareN = ($lookupFn)(x, uptie)
+            return CompareNumbers(compareN, N, relation)
+        end
+
+        filterStr = "Filter: Sinner " * $desc * " $(@blue(relation)) $(@red(num))"
+        return PersonalityFilter(Fn, filterStr)
+    end
 end
 
 function SinnerDefCorrectionFilter(num :: String, relation :: String)
@@ -300,7 +336,7 @@ end
 for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "minimum roll"),
                                    (:CombatSkillMaxRollFilter, getMaxRoll, "maximum roll"),
                                    (:CombatSkillNumCoinsFilter, getNumCoins, "number of coins"),
-                                   (:CombatSkillWeight, getWeight, "weight"),
+                                   (:CombatSkillWeightFilter, getWeight, "weight"),
                                    (:CombatSkillOffCorFilter, getOffLevelCorrection, "offensive level correction")]
     @eval function ($defineFn)(skillNumStr, num :: String, op)
         (op == "<=") && (op = "≤")
@@ -375,99 +411,29 @@ function constructFilter(::Type{Personality}, input)
         N = parse(Int, S.captures[2])
         return SinnerPersonalityFilter(N)
     end
-
-    S = match(r"[iI]d(entity)?[=:](.+)", input)
-    if S !== nothing
-        query = string(S.captures[2])
-        return SinnerPersonalityFilter(query)
-    end
-
-    S = match(r"[dD]ef[:=][tT]ype[:=](.+)", input)
-    if S !== nothing
-        query = string(S.captures[1])
-        return DefenseTypePersonalityFilter(query)
-    end
-
-    S = match(r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        sinQuery = string(S.captures[3])
-        return CombatSkillSinFilter(skillNumStr, sinQuery)
-    end
-
-    S = match(r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        atkTypeQuery = string(S.captures[3])
-        return CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
-    end
-
-    S = match(r"^(health|hp)([<>=≤≥]+)([0-9]+)$", input)
-    if S !== nothing
-        num = string(S.captures[3])
-        op = string(S.captures[2])
-        return SinnerHealthFilter(num, op)
-    end
-
-    S = match(r"^[rR]arity[:=](.+)$", input)
-    if S !== nothing
-        query = string(S.captures[1])
-        return SinnerRarityFilter(query)
-    end
-
-    S = match(r"^[dD]ef[cC]or(rection)?([<>=≤≥]+)([-+]?[0-9]+)$", input)
-    if S !== nothing
-        num = string(S.captures[3])
-        op = string(S.captures[2])
-        return SinnerDefCorrectionFilter(num, op)
-    end
-
-    S = match(r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        num = string(S.captures[3])
-        op = string(S.captures[2])
-        return CombatSkillMinRollFilter(skillNumStr, num, op)
-    end
-
-    S = match(r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        num = string(S.captures[3])
-        op = string(S.captures[2])
-        return CombatSkillMaxRollFilter(skillNumStr, num, op)
-    end
-
-    S = match(r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        num = string(S.captures[4])
-        op = string(S.captures[3])
-        return CombatSkillNumCoinsFilter(skillNumStr, num, op)
-    end
-
-    S = match(r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        num = string(S.captures[3])
-        op = string(S.captures[2])
-        return CombatSkillWeight(skillNumStr, num, op)
-    end
-
-    S = match(r"^[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", input)
-    if S !== nothing
-        resType = string(S.captures[2])
-        op = string(S.captures[3])
-        num = string(S.captures[4])
-        return SinnerResistanceFilter(resType, op, num)
-    end
-
-    S = match(r"^(.*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", input)
-    if S !== nothing
-        skillNumStr = string(S.captures[1])
-        num = string(S.captures[5])
-        op = string(S.captures[4])
-        return CombatSkillOffCorFilter(skillNumStr, num, op)
+  
+    for (myRegex, filterFn, params) in [(r"[iI]d(entity)?[:=](.+)$", SinnerPersonalityFilter, [2]),
+                                        (r"^[dD]ef[:=][tT]ype[:=](.+)$", DefenseTypePersonalityFilter, [1]),
+                                        (r"^[rR]arity[:=](.+)$", SinnerRarityFilter, [1]),
+                                        (r"^[eE]vent$", SinnerEventFilter, []),
+                                        (r"^[sS]eason[:=](.+)$", SinnerSeasonFilter, [1]),
+                                        (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", CombatSkillSinFilter, [1, 3]),
+                                        (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", CombatSkillAtkTypeFilter, [1, 3]),
+                                        (r"^(health|hp)([<>=≤≥]+)([0-9]+)$", SinnerHealthFilter, [3, 2]),
+                                        (r"^min[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMinSpeedFilter, [2, 1]),
+                                        (r"^max[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMaxSpeedFilter, [2, 1]),
+                                        (r"^[dD]ef[cC]or(rection)?([<>=≤≥]+)([-+]?[0-9]+)$", SinnerDefCorrectionFilter, [3, 2]),
+                                        (r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMinRollFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMaxRollFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
+                                        (r"[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", SinnerResistanceFilter, [2, 3, 4]),
+                                        (r"^(.*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
+                                        (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3])]
+        S = match(myRegex, input)
+        if S !== nothing
+            stringParams = [string(S.captures[i]) for i in params]
+            return filterFn(stringParams...)
+        end
     end
 
     return TrivialPersonalityFilter

@@ -26,6 +26,8 @@ function DisplaySkillAsTree(SkillDict, Title = "")
             print(io, Title)
         elseif node isa AbstractDict
             print(io, string(typeof(node)))
+        elseif node isa AbstractVector
+            print(io, string(typeof(node)))
         else
             print(io, node)
         end

@@ -46,7 +46,8 @@ function getSanityFactorString(Factor :: String, type, sgn)
 
     Ans = Factor
     if entry !== nothing && haskey(entry, type)
-        Ans = replaceRegexNumHoles(Factor, entry[type])
+        S = eachmatch(r"(\d+)", Factor)
+        Ans = replaceNumHoles([x.captures[1] for x in S], entry[type])
     end
 
     return "$sgn " * EscapeAndFlattenField(Ans)

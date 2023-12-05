@@ -65,13 +65,10 @@ function GridFromList(StringList, columns = 1; labelled = false)
 end
 
 isAlpha(c) = ('a' ≤ c ≤ 'z') || ('A' ≤ c ≤ 'Z')
-function replaceRegexNumHoles(inputStr, holedStr)
-    S = eachmatch(r"(\d+)", inputStr)
+function replaceNumHoles(inputStr, holedStr)
     Ans = holedStr
-    if S !== nothing
-        for (idx, val) in enumerate(S)
-            Ans = replace(Ans, "{$(idx - 1)}" => val.captures[1])
-        end
+    for (idx, val) in enumerate(inputStr)
+        Ans = replace(Ans, "{$(idx - 1)}" => val)
     end
 
     return Ans

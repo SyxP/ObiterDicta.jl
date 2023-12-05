@@ -89,6 +89,41 @@ function getInternalTopLine(buff :: Buff)
     return GridFromList(TopLine, 3)
 end
 
+function guessLocalizedSummaryFromList(buff :: Buff)
+    actionList = getActionList(buff)
+    
+    FileList = getLocalizeDataInfo()["buffAbilities"]
+    function findEntry(ability)
+        for file in FileList
+            for buffAbility in LocalizedData(file)["dataList"]
+                if buffAbility["id"] == ability
+                    return buffAbility
+                end
+            end
+        end
+        return nothing
+    end
+
+    function getSummary(action)
+        Tmp = findEntry(action["ability"])
+        Tmp === nothing && return ""
+        
+        value = haskey(action, "value") ? action["value"] : "{0}"
+        if haskey(action, "atk")
+            attackStr = AttackTypes(action["atk"])
+            return replaceNumHoles([attackStr, value], Tmp["variation"]) 
+        elseif haskey(action, "attribute")
+            attrStr = getSinString(action["attribute"])
+            return replaceNumHoles([attrStr, value], Tmp["variation"])
+        else
+            return replaceNumHoles([value], Tmp["desc"])
+        end
+    end
+        
+    S = join(EscapeString.(getSummary.(actionList)), "\n")
+    S *= "\n" * @red("Note") * ": Description determined from effects."
+end
+
 function getLocalizedTopLine(buff :: Buff)
     io = IOBuffer()
     for (fn, name) in [(getSummary, "Summary"),
@@ -102,8 +137,11 @@ function getLocalizedTopLine(buff :: Buff)
     if Tmp !== nothing && Tmp == "-"
         println(io, "Has {blue}undefined{/blue} (\"-\") field.")
     end
-    
-    return TextBox(String(take!(io)))
+   
+    S = String(take!(io))
+    (S == "") && (S = guessLocalizedSummaryFromList(buff))
+
+    return TextBox(S)
 end
 
 function getOtherFieldsInternal(buff :: Buff)

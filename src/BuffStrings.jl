@@ -116,7 +116,8 @@ function guessLocalizedSummaryFromList(buff :: Buff)
             attrStr = getSinString(action["attribute"])
             return replaceNumHoles([attrStr, value], Tmp["variation"])
         else
-            return replaceNumHoles([value], Tmp["desc"])
+            HoledStr = Tmp["desc"]
+            return occursin("{1}", HoledStr) ? HoledStr : replaceNumHoles([value], HoledStr; PercentageFlag = true)
         end
     end
         

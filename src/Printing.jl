@@ -65,9 +65,10 @@ function GridFromList(StringList, columns = 1; labelled = false)
 end
 
 isAlpha(c) = ('a' ≤ c ≤ 'z') || ('A' ≤ c ≤ 'Z')
-function replaceNumHoles(inputStr, holedStr)
+function replaceNumHoles(inputStr, holedStr; PercentageFlag = false)
     Ans = holedStr
     for (idx, val) in enumerate(inputStr)
+        PercentageFlag && (Ans = replace(Ans, "{$(idx - 1)}%" => "$(100val)%"))
         Ans = replace(Ans, "{$(idx - 1)}" => val)
     end
 

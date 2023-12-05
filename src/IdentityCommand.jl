@@ -33,6 +33,7 @@ function FilterHelp(::Type{Personality})
               [rarity:_x_]             - Rarity must be _x_. (_x_ should be "2*"/"00")
               [season:_x_]             - ID is from Season _x_.
               [event]                  - ID is from Event
+              [faction:_name_]         - ID is from Faction _name_
               [health_op__num_]        - Health of the identity must _op_ _num_.
               [defCor_op__num_]        - Defense Correction of the identity must _op_ _num_.
               [maxSpeed_op__num_]      - Maximum Speed of the identity must _op_ _num_.
@@ -200,6 +201,17 @@ function SinnerSeasonFilter(str)
     N == -1 && return TrivialPersonalityFilter
     Fn(x, lvl, uptie) = getSeason(x) == N
     filterStr = "Filter: Sinner Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+function SinnerFactionFilter(str)
+    normStr = lowercase(superNormString(str))
+    function Fn(x, lvl, uptie)
+        factionList = getFactionList(x)
+        Lst = [lowercase(superNormString(x)) for x in factionList]
+        return any(Lst .== normStr)
+    end
+    filterStr = "Filter: Sinner Faction to $(@red(normStr))"
     return PersonalityFilter(Fn, filterStr)
 end
 
@@ -417,6 +429,7 @@ function constructFilter(::Type{Personality}, input)
                                         (r"^[rR]arity[:=](.+)$", SinnerRarityFilter, [1]),
                                         (r"^[eE]vent$", SinnerEventFilter, []),
                                         (r"^[sS]eason[:=](.+)$", SinnerSeasonFilter, [1]),
+                                        (r"^[fF]ac(tion)?[:=](.+)$", SinnerFactionFilter, [2]),
                                         (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", CombatSkillSinFilter, [1, 3]),
                                         (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", CombatSkillAtkTypeFilter, [1, 3]),
                                         (r"^(health|hp)([<>=≤≥]+)([0-9]+)$", SinnerHealthFilter, [3, 2]),

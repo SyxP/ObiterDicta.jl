@@ -2,21 +2,41 @@ module ObiterDicta
     using ReplMaker
     using Term, Term.Layout, Term.Prompts
     using UnicodePlots
-    using StringDistances
-    using Unicode
-    using JSON
 
-    using Downloads
+    using InteractiveUtils: clipboard
+    using StringManipulation: remove_decorations
+    using Unicode
+
+    using StringDistances
+
+    using Downloads, HTTP, JSON
     using Scratch, Git
-    using HTTP
     using SHA
 
     function MainParser(input)
+        S = match(r"^clipboard (.*)$", input) 
+        if S !== nothing
+            cFile = mktemp()[1]
+            io = open(cFile, "w")
+            redirect_stdout(io) do
+                MainParser(string(S.captures[1]))
+            end
+            close(io)
+
+            io = open(cFile, "r")            
+            Ans = remove_decorations(read(io, String))
+            println("Saved to clipboard. Query: $(S.captures[1])")
+            clipboard(Ans)
+            close(io)
+            return
+        end
+
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
                     FiltRegCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
-                    PersonalityCommand, EGOCommand]
+                    PersonalityCommand, EGOCommand,
+                    PersonalityVoiceCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S
@@ -34,9 +54,12 @@ module ObiterDicta
                   skill (Skills)
                   banner greeting (Profile Card Text)
                   id (Sinner Identities)
+                  id-voice (Identity Voice Lines)
                   ego (E.G.Os)
     
-                  For more information you can use `[command] help`
+                  For more information you can use `[command] help`.
+                  To save the information to your clipboard, you can use
+                  `clipboard [command] _args_`.
             """
         println(S)
     end
@@ -61,6 +84,7 @@ module ObiterDicta
 
     # Internal Structures
     include("CoinStruct.jl")
+    include("CharacterStructs.jl")
     include("RarityUtils.jl")
     include("EvalRegisterFunction.jl")
 
@@ -79,6 +103,7 @@ module ObiterDicta
     include("CombatSkillStrings.jl")
     include("CombatSkillCommand.jl")
 
+    include("IdentityVoice.jl")
     include("IdentityStrings.jl")
     include("IdentityCommand.jl")
 

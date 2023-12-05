@@ -30,6 +30,7 @@ function FilterHelp(::Type{EGO})
               [id:_name_]    - E.G.O owner's Name must be _name_.
               [season:_x_]   - E.G.O is from Season _x_.
               [event]        - E.G.O is from an event.
+              [type:_tier_] - E.G.O is of type _tier_ (e.g. ZAYIN).
               [fn:_FunName_] - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -182,7 +183,14 @@ function EGOSeasonFilter(str)
     return EGOFilter(Fn, filterStr)
 end
 
+function EGOTypeFilter(str)
+    typeStr = getClosestEGOType(str)
+    Fn(x, ts) = getEGOType(x) == typeStr
+    filterStr = "Filter: EGO Class is $(@red(typeStr)) (Input: $(@dim(str)))"
 
+    return EGOFilter(Fn, filterStr)
+end
+    
 function constructFilter(::Type{EGO}, input)
     parts = split(input, "|")
     if length(parts) > 1
@@ -214,7 +222,9 @@ function constructFilter(::Type{EGO}, input)
     end
     for (myRegex, filterFn, params) in [(r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
                                         (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
-                                        (r"^[eE]vent$", EGOEventFilter, [])]
+                                        (r"^[eE]vent$", EGOEventFilter, []),
+                                        (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]) 
+                                        ]
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

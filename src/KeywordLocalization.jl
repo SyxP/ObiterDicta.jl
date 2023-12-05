@@ -128,3 +128,15 @@ function getSeasonIDFromName(Str)
 
     return SearchClosestString(Str, Haystack)[1][2]
 end
+
+
+getEGOTiers() = ["ZAYIN", "TETH", "HE", "WAW", "ALEPH"]
+function getClosestEGOType(str)
+    Haystack = Tuple{String, String}[]
+    for (idx, class) in enumerate(getEGOTiers())
+        push!(Haystack, (string(idx), class))
+        push!(Haystack, (class, class))
+    end
+
+    return SearchClosestString(str, Haystack)[1][2]
+end

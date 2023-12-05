@@ -103,7 +103,7 @@ end
 
 function getEXPThreadspin()
     ThreadspinDatabase = StaticData("common-data/common-data")["egoLevelTable"]["gacksungPieceTable"]
-    Tiers = ["ZAYIN", "TETH", "HE", "WAW", "ALEPH"]
+    Tiers = getEGOTiers()
     for tier in Tiers
         println("For $(@yellow(tier)) Threadspins:")
         ThreadspinStrings = String[]

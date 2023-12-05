@@ -37,12 +37,13 @@ function getVoiceData(myID :: Personality; verbose = false)
         end
         
         print(io, ": ")
+        paddingLength = maxLength + N + 3
         S = split(EscapeString(entry["dlg"]), "\n")
         AnsArr = String[]
         function insertStr(str)
-            if lastindex(str) > 75
+            if lastindex(str) > 90 - paddingLength
                 for c in collect(eachindex(str))
-                    c < 70 && continue
+                    c < (80 - paddingLength) && continue
                     str[c] != ' ' && continue
                     push!(AnsArr, str[begin:prevind(str, c)])
                     return insertStr(str[nextind(str, c):end])
@@ -56,7 +57,7 @@ function getVoiceData(myID :: Personality; verbose = false)
         for entryDlg in S
             insertStr(entryDlg)
         end
-        Seperator = "\n"*" "^(maxLength + N + 4)
+        Seperator = "\n"*" "^paddingLength
         print(io, join(AnsArr, Seperator))
         println(io)
     end

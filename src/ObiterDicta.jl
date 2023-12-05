@@ -2,9 +2,6 @@ module ObiterDicta
     using ReplMaker
     using Term, Term.Layout, Term.Prompts
     using UnicodePlots
-
-    using InteractiveUtils: clipboard
-    using StringManipulation: remove_decorations
     using Unicode
 
     using StringDistances
@@ -14,23 +11,6 @@ module ObiterDicta
     using SHA
 
     function MainParser(input)
-        S = match(r"^clipboard (.*)$", input) 
-        if S !== nothing
-            cFile = mktemp()[1]
-            io = open(cFile, "w")
-            redirect_stdout(io) do
-                MainParser(string(S.captures[1]))
-            end
-            close(io)
-
-            io = open(cFile, "r")            
-            Ans = remove_decorations(read(io, String))
-            println("Saved to clipboard. Query: $(S.captures[1])")
-            clipboard(Ans)
-            close(io)
-            return
-        end
-
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
                     FiltRegCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,

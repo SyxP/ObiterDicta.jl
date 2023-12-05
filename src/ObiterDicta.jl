@@ -38,8 +38,6 @@ module ObiterDicta
                   ego (E.G.Os)
     
                   For more information you can use `[command] help`.
-                  To save the information to your clipboard, you can use
-                  `clipboard [command] _args_`.
             """
         println(S)
     end

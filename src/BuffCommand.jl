@@ -118,24 +118,27 @@ function printJSONList(::Type{Buff})
 end
 
 BuffPreviousSearchResult = Buff[]
+function printBuffSearchResult(List)
+    global BuffPreviousSearchResult
+    BuffPreviousSearchResult = copy(List)
+
+    println(GridFromList(getTitle.(List), 2; labelled = true))
+    return BuffPreviousSearchResult
+end
 
 function printBuffFromJSONInternal(file)
     BuffDatabase = StaticData(file)["list"]
     Names = [Buff(buff["id"]) for buff in BuffDatabase]
-    global BuffPreviousSearchResult = Names
-
+    
     tprintln("Listing the buffs in {yellow}$file{/yellow}: ")
-    println(GridFromList(getID.(Names), 4; labelled = true))
-    return Names
+    return printBuffSearchResult(Names)
 end
 
 function printMasterList(::Type{Buff})
     Names = getMasterList(Buff)
-    global BuffPreviousSearchResult = copy(Names)
 
     tprintln("Listing all the buffs: ")
-    println(GridFromList(getID.(Names), 4; labelled = true))
-    return Names
+    return printBuffSearchResult(Names)
 end
 
 function printBuffFromJSON(input)

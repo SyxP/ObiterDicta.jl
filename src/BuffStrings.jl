@@ -63,6 +63,21 @@ getSummary(buff :: Buff) = getLocalizedField(buff, "summary", nothing, "")
 getDesc(buff :: Buff) = getLocalizedField(buff, "desc", nothing, "")
 getUndefinedStatus(buff :: Buff) = getLocalizedField(buff, "undefined", nothing, "")
 
+function getTitle(buff :: Buff)
+    io = IOBuffer()
+    S = getName(buff)
+    if S !== ""
+        print(io, @red(S))
+        print(io, " (")
+        print(io, @dim(@blue(getID(buff))))
+        print(io, ")")
+    else
+        print(io, @blue(getID(buff)))
+    end
+
+    return String(take!(io))
+end
+
 function getInternalTitle(buff :: Buff)
     io = IOBuffer()
     print(io, "{red} $(getID(buff)) {/red} (")

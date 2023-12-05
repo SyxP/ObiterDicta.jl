@@ -144,14 +144,11 @@ function PersonalityParser(input)
     return searchTopPersonality(newQuery, HaystackPersonality, TopNumber, Tier)
 end
 
-PersonalityRegex = r"^(id|identity|identities) (.*)$"
+PersonalityRegex = r"^[iI](d|D|dentity|dentities) (.*)$"
 PersonalityCommand = Command(PersonalityRegex, PersonalityParser,
                              [2], PersonalityHelp)
 # Filters
-struct PersonalityFilter
-    fn :: Function # returns true if passed Filter
-    description :: String # printed while Filter is applied
-end
+
 TrivialPersonalityFilter = PersonalityFilter((x, lvl, uptie) -> true, "")
 
 function NotFilter(filter :: PersonalityFilter)
@@ -469,8 +466,10 @@ end
 
 # Printing and Searching
 
-printSingle(myID :: Personality, tier, level, verbose) = 
+function printSingle(myID :: Personality, tier, level, verbose)
     tprintln(getFullPanel(myID, level, tier; verbose = verbose))
+    return myID
+end
 
 printRandom(::Type{Personality}, verbose) = 
     printSingle(rand(getMasterList(Personality)), rand(1:getMaxUptie(Personality)), 

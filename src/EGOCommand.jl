@@ -127,10 +127,6 @@ EGORegex = r"^(ego|EGO) (.*)$"
 EGOCommand = Command(EGORegex, EGOParser, [2], EGOHelp)
 
 # Filters
-struct EGOFilter
-    fn :: Function # return true if passed Filter
-    description :: String # printed while Filter is applied
-end
 TrivialEGOFilter = EGOFilter((x, threadspin) -> true, "")
 
 function NotFilter(filter :: EGOFilter)

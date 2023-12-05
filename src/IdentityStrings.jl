@@ -1,7 +1,3 @@
-struct Personality
-    id :: Int
-end
-
 getMasterFileClasses(::Type{Personality}) = ["personality"]
 
 function handleDataFile(::Type{Personality}, MasterList, file)
@@ -25,7 +21,7 @@ function getLocalizedList(::Type{Personality})
     [LocalizedData(file) for file in Files]
 end
 
-function getInternalVersion(myIdentity::Personality; dontWarn=!GlobalDebugMode)
+function getInternalVersion(myIdentity :: Personality; dontWarn=!GlobalDebugMode)
     for IdentityList in getInternalList(Personality)
         for identity in IdentityList["list"]
             (identity["id"] == myIdentity.id) && return identity
@@ -36,7 +32,7 @@ function getInternalVersion(myIdentity::Personality; dontWarn=!GlobalDebugMode)
     return nothing
 end
 
-function getLocalizedVersion(myIdentity::Personality; dontWarn=!GlobalDebugMode)
+function getLocalizedVersion(myIdentity :: Personality; dontWarn=!GlobalDebugMode)
     for IdentityList in getLocalizedList(Personality)
         if !haskey(IdentityList, "dataList")
             if (length(IdentityList) > 0)

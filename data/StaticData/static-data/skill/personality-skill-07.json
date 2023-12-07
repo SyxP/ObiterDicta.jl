@@ -2442,6 +2442,585 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1070701,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 1,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AddTauntOnUse2"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AddTauntOnUse3"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 3
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AddTauntOnUse5"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070702,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 1,
+          "defaultValue": 3,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse2"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1070702_2",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": -1,
+                    "activeRound": 0,
+                    "value": 4
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse3"
+            },
+            {
+              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3_Limit10",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1070702_2",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": -1,
+                    "activeRound": 0,
+                    "value": 4
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 4
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse5"
+            },
+            {
+              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3_Limit10",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1070702_2",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": -1,
+                    "activeRound": 0,
+                    "value": 3
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070703,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderSelf1IfARNotLessThan_VIOLET3"
+            },
+            {
+              "scriptName": "CoinScaleAdder1IfARNotLessThan_VIOLET4"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan50",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan50",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 3
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "actionIndex": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "CriticalDmgUpByRatio30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderSelf1IfARNotLessThan_VIOLET3"
+            },
+            {
+              "scriptName": "CoinScaleAdder1IfARNotLessThan_VIOLET4"
+            },
+            {
+              "scriptName": "CoinScaleAdder1IfPRNotLessThan_VIOLET6"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan75",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan50",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan75",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfSelfHpRatioLessThan50",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 3
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "actionIndex": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "CriticalDmgUpByRatio50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070704,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "CRIMSON",
+          "atkType": "PENETRATE",
+          "defType": "COUNTER",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse2"
+            },
+            {
+              "scriptName": "1070704(limit:1)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 5,
+          "attributeType": "CRIMSON",
+          "iconID": "1070704_4",
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse5"
+            },
+            {
+              "scriptName": "1070704(limit:1)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        }
+      ]
     }
   ]
 }

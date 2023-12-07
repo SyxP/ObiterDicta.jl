@@ -3,7 +3,7 @@
     {
       "id": 10901,
       "appearance": "10901_Rodion_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,

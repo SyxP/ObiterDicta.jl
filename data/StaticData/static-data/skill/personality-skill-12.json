@@ -3551,7 +3551,7 @@
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3(Limit:5)",
+              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3_Limit5",
               "buffData": {
                 "buffKeyword": "Breath",
                 "target": "Self",
@@ -3611,7 +3611,7 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3(Limit:10)",
+              "scriptName": "GiveBuffOnUsePerBuffStack_Laceration3_Limit10",
               "buffData": {
                 "buffKeyword": "Breath",
                 "target": "Self",

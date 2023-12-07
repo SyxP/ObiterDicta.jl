@@ -2329,7 +2329,7 @@
           "defType": "ATTACK",
           "skillTargetType": "FRONT",
           "targetNum": 1,
-          "range" :  8,
+          "range": 8,
           "mpUsage": 0,
           "skillLevelCorrection": 3,
           "defaultValue": 4,
@@ -2487,7 +2487,7 @@
           "defType": "ATTACK",
           "skillTargetType": "FRONT",
           "targetNum": 1,
-          "range" :  6,
+          "range": 6,
           "mpUsage": 0,
           "skillLevelCorrection": 3,
           "defaultValue": 4,
@@ -2977,6 +2977,615 @@
               "scriptName": "1010604(limit:3)"
             }
           ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010701,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 2,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 3
+        },
+        {
+          "gaksungLevel": 4,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010702,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 2,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "RerollOnSACUpto1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "RerollOnSACUpto1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 3
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "RerollOnSACUpto3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010703,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "SHAMROCK",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 2,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "cutsceneStart": true,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "actionIndex": 2,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 6,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010704,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": -3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 3,
+          "attributeType": "INDIGO",
+          "iconID": "1010704_4",
           "coinList": [
             {
               "operatorType": "ADD",

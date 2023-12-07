@@ -297,6 +297,17 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnECTLeastMpAlly4",
+                  "buffData": {
+                    "buffKeyword": "AttackDmgUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
                 }
               ]
             }
@@ -358,6 +369,17 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnECLeastMpAlly4",
+                  "buffData": {
+                    "buffKeyword": "AttackDmgUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
                 }
               ]
             }
@@ -406,7 +428,7 @@
                     "turn": 3,
                     "activeRound": 0
                   }
-                },                
+                },
                 {
                   "scriptName": "GiveBuffOnSucceedAttackHead",
                   "buffData": {

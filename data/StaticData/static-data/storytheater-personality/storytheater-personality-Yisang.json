@@ -89,6 +89,21 @@
             ],
             "profileId": "wcorp_yisang_profile",
             "analysisId": "wcorp_yisang_analysis"
+          },
+          {
+            "personalityId": 10107,
+            "releaseDay": 20231207,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10107",
+                "lockCondition": "gacksung",
+                "order": 5,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "starb_yisang_profile",
+            "analysisId": "starb_yisang_analysis"
           }
         ]
     }

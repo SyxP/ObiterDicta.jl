@@ -3,7 +3,7 @@
     {
       "id": 10201,
       "appearance": "10201_Faust_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 2,
       "panicType": 9999,
       "season": 0,

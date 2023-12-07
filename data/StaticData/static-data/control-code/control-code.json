@@ -35,5 +35,6 @@
   "isBlockKeyboardInput": false,
   "isCompareCatalogHashSteam": true,
   "isCompareCatalogHashIOS": false,
-  "isCompareCatalogHashAndroid": false
+  "isCompareCatalogHashAndroid": true,
+  "isClosableAPIActivated": true
 }

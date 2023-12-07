@@ -122,7 +122,10 @@
               "attributeType": "AMBER"
             }
           ]
-        }
+        },
+        "silenceCharacterUniqueIdList": [
+          12
+        ]
       }
     },
     {
@@ -408,7 +411,10 @@
               "attributeType": "SHAMROCK"
             }
           ]
-        }
+        },
+        "silenceCharacterUniqueIdList": [
+          1
+        ]
       }
     },
     {
@@ -438,7 +444,10 @@
               "attributeType": "CRIMSON"
             }
           ]
-        }
+        },
+        "silenceCharacterUniqueIdList": [
+          1
+        ]
       }
     },
     {
@@ -467,7 +476,10 @@
               "attributeType": "AMBER"
             }
           ]
-        }
+        },
+        "silenceCharacterUniqueIdList": [
+          1
+        ]
       }
     },
     {

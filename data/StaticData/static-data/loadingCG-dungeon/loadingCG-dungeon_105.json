@@ -100,6 +100,18 @@
       "id": 10536,
       "clearCGList": [
         "BG/story_depths_heart"
+
+      
+ 
+      ]
+    },
+    {
+      "id": 10538,
+      "clearCGList": [
+        "BG/story_depths_heart",
+        "BG/story_depths_heart_gaslight_off",
+        "BG/story_boat_sunset",
+        "CG/S543_2"
  
       ]
     }

@@ -3,7 +3,7 @@
     {
       "id": 10601,
       "appearance": "10601_Honglu_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 6,
       "panicType": 9999,
       "season": 0,

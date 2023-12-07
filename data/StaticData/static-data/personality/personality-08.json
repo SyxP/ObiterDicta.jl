@@ -3,7 +3,7 @@
     {
       "id": 10801,
       "appearance": "10801_Ishmael_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 8,
       "panicType": 9999,
       "season": 0,

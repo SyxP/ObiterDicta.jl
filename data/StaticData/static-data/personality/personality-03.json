@@ -3,7 +3,7 @@
     {
       "id": 10301,
       "appearance": "10301_Donquixote_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 0,

@@ -89,6 +89,21 @@
               ],
             "profileId": "seven_heathcliff_profile",
             "analysisId": "seven_heathcliff_analysis"
+            },
+            {
+              "personalityId": 10707,
+              "releaseDay": 20231207,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P10707",
+                  "lockCondition": "gacksung",
+                  "order": 4,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+            "profileId": "qui_heathcliff_profile",
+            "analysisId": "qui_heathcliff_analysis"
             }
         ]
     }

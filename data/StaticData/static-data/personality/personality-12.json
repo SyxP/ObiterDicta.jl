@@ -3,7 +3,7 @@
     {
       "id": 11201,
       "appearance": "11201_Gregor_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 12,
       "panicType": 9999,
       "season": 0,

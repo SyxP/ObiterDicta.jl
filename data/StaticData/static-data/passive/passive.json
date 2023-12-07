@@ -1930,6 +1930,54 @@
       ]
     },
     {
+      "id": 1010701,
+      "attributeStockCondition": [
+        {
+          "type": "INDIGO",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1010721,
+      "attributeStockCondition": [
+        {
+          "type": "INDIGO",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
+    },
+    {
+      "id": 1070701,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
+          "value": 5
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1070721,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
+          "value": 5
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
+    },
+    {
       "id": 90001
     },
     {

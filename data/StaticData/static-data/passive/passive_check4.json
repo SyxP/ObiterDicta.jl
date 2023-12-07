@@ -299,6 +299,30 @@
       "requireIDList": [
         "CheckAwakenLevel4"
       ]
+    },
+    {
+      "id": 1070711,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
+          "value": 5
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1070731,
+      "attributeStockCondition": [
+        {
+          "type": "VIOLET",
+          "value": 5
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
     }
   ]
 }

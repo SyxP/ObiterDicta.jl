@@ -3,7 +3,7 @@
     {
       "id": 10701,
       "appearance": "10701_Heathclif_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -611,6 +611,103 @@
         },
         {
           "skillId": 1070603,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10707,
+      "appearance": "10707_Heathclif_QueequegAppearance",
+      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "characterId": 7,
+      "panicType": 9999,
+      "season": 3,
+      "defenseSkillIDList": [
+        1070704
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 99,
+        "incrementByLevel": 3.41
+      },
+      "defCorrection": 5,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          80
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1070701,
+          "number": 3
+        },
+        {
+          "skillId": 1070702,
+          "number": 2
+        },
+        {
+          "skillId": 1070703,
           "number": 1
         }
       ]

@@ -3,7 +3,7 @@
     {
       "id": 10501,
       "appearance": "10501_Meursault_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,

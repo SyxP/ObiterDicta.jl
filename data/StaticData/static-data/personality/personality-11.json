@@ -3,7 +3,7 @@
     {
       "id": 11101,
       "appearance": "11101_Outis_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 11,
       "panicType": 9999,
       "season": 0,

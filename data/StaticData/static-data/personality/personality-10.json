@@ -3,7 +3,7 @@
     {
       "id": 11001,
       "appearance": "11001_Sinclair_BaseAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 0,

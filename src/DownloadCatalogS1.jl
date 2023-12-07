@@ -70,7 +70,9 @@ function getOriginURL()
     return "https://d7g8h56xas73g.cloudfront.net"
 end
 
-function autoPackageBundle(N = length(CatalogS1Versions))
+function autoPackageBundle(N = length(getCatalogS1Versions()))
+    CatalogS1Versions = getCatalogS1Versions()
+
     if !(1 ≤ N ≤ length(CatalogS1Versions))
         @info "There are only $(length(CatalogS1Versions)) entries in the current catalog_s1 database. You asked for the $N-th entry."
         return

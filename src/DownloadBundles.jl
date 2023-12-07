@@ -75,10 +75,13 @@ function DownloadDataBundles(bundleLocation = "$git_download_cache/Bundles/")
     end
 end
 
-function getFileHashes(bundleLocation)
+function getFileHashes(bundleLocation; ignoreCurrent = false)
     HashList = String[]
     for (root, dirs, files) in walkdir(bundleLocation)
         for file in files
+            if ignoreCurrent
+                (splitpath(root)[end] == getLatestCatalogS1()) && continue
+            end
             filePath = joinpath(root, file)
             HashStr = uppercase(bytes2hex(open(filePath) do f
                 sha2_256(f)
@@ -91,15 +94,16 @@ function getFileHashes(bundleLocation)
     return HashList
 end
 
-function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/")
+function DownloadNewBundles(bundleLocation = "$git_download_cache/Bundles/"; ignoreCurrent = false)
     @info "Downloading to $bundleLocation"
 
-    HashList = getFileHashes(bundleLocation)
+    HashList = getFileHashes(bundleLocation; ignoreCurrent = ignoreCurrent)
     URLs = parseCatalog()
     for url in URLs
-        fileLocation = DownloadBundle(url, bundleLocation)
-        sleep(0.2) # To not overwhelm the server
-        if fileLocation != false
+        downloaded = DownloadBundle(url, bundleLocation)
+        fileLocation = getFilePathFromBundleURL(url, bundleLocation)
+        (downloaded == true) || sleep(0.2) # To not overwhelm the server
+        if downloaded != false
             bundleHash = uppercase(bytes2hex(open(fileLocation) do f
                 sha2_256(f)
             end))

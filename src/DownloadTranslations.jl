@@ -70,6 +70,7 @@ function updateTranslation(lang, refSite)
 
     srcPath = joinpath(git_download_cache, llang)
     localPath = joinpath(DataDir, "Localize", llang)
+    rm(localPath; force = true, recursive = true)
     !isdir(localPath) && mkdir(localPath)
 
     if isdir(srcPath)

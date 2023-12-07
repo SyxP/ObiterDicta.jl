@@ -65,6 +65,10 @@ function PersonalityParser(input)
     
     S = match(r"^list jsons?$", input)
     (S !== nothing) && return printJSONList(Personality)
+
+    if match(r"list all", input) !== nothing
+        println("Do you mean: `id !all`?")
+    end
     
     S = match(r"^list (.*)$", input)
     (S !== nothing) && return printPersonalityFromJSON(S.captures[1])
@@ -529,6 +533,7 @@ end
 
 function printPersonalityFromJSONInternal(file)
     PersonalityDatabase = StaticData(file)["list"]
+    println("Listing the identities in $(@yellow(file)):")
     Names = [Personality(s["id"]) for s in PersonalityDatabase]
     return printFromPersonalityList(Names)
 end

@@ -130,7 +130,7 @@ function printBuffFromJSONInternal(file)
     BuffDatabase = StaticData(file)["list"]
     Names = [Buff(buff["id"]) for buff in BuffDatabase]
     
-    tprintln("Listing the buffs in {yellow}$file{/yellow}: ")
+    tprintln("Listing the buffs in $(@yellow(file)): ")
     return printBuffSearchResult(Names)
 end
 

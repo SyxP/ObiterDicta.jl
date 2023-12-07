@@ -49,6 +49,10 @@ function EGOParser(input)
     S = match(r"^list jsons?$", input)
     (S !== nothing) && return printJSONList(EGO)
 
+    if match(r"list all", input) !== nothing
+        println("Do you mean: `ego !all`?")
+    end
+
     S = match(r"^list (.*)$", input)
     (S !== nothing) && return printEGOFromJSON(S.captures[1])
 
@@ -306,6 +310,7 @@ function printJSONList(::Type{EGO})
 end
 
 function printEGOFromJSONInternal(file)
+    println("Listing the E.G.Os of $(@yellow(file)):")
     EGODatabase = StaticData(file)["list"]
     Names = [EGO(item["id"]) for item in EGODatabase]
     return printFromEGOList(Names)

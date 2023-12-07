@@ -50,6 +50,11 @@ function getSkillReplaceDict()
             ReplacementDict["[$(entry["id"])]"] = entry["name"]
         end
     end
+    for file in getLocalizeDataInfo()["keyword"]
+        for entry in LocalizedData(file)["dataList"]
+            ReplacementDict["[$(entry["id"])]"] = entry["name"]
+        end
+    end
 
     return ReplacementDict
 end

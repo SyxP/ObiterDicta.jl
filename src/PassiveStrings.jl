@@ -67,9 +67,12 @@ getName(passive :: Passive) = getLocalizedField(passive, "name", "", "")
 getDesc(passive :: Passive) = getLocalizedField(passive, "desc", nothing, "")
 
 function getEscapedDesc(passive :: Passive)
-    Desc = getDesc(passive)
-    Desc === nothing && return nothing
-    return replace(Desc, "\n" => " ", r"<[^<>]*>" => "")
+    Str = getDesc(passive)
+    Str === nothing && return nothing
+    for change in getSkillReplaceDict()
+        Str = replace(Str, change)
+    end
+    return replace(Str, "\n" => " ", r"<[^<>]*>" => "")
 end
 
 function getReqCondition(myPassive :: Passive)

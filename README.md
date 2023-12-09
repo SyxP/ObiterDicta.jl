@@ -80,3 +80,12 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 1. Let Damage Type be localized
 2. Fix printing of id-voice with non English language.
+
+### Immediate Upcoming Plans
+
+1. Let function filters take parameters. 
+(Add the 433, Mono-Sin, UT3->UT4 Coin Value increase as examples)
+2. E.G.O filters `[awake:X]` and `[corr:X]`.
+3. Naive implementation of clash calculator.
+4. E.G.O gifts printing
+5. Enemy printing

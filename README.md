@@ -53,7 +53,7 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 2. Mirror Dungeon - Choice Events (0%)
 3. Mirror Dungeon - List of Fights (0%)
 4. Mirror Dungeon - Drop Rates (0%)
-5. Mirror Dungeon 2 - Starlight Buffs (0%)
+5. Mirror Dungeon 2 - Starlight Buffs (20%)
 6. Luxcavation - Enemies (0%)
 7. Refraction Railway 1 - Enemies (0%)
 8. Refraction Railway 2 - Enemies (0%)
@@ -79,7 +79,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 ### Known Bugs/Specific Requested Features
 
 1. Let Damage Type be localized
-2. Fix printing of id-voice with non English language.
+2. Fix printing of id-voice with non-English language.
 
 ### Immediate Upcoming Plans
 

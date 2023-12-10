@@ -172,7 +172,8 @@ function OrFilter(filterList :: Vector{PersonalityFilter})
 end
 
 function EvalFilter(::Type{Personality}, str :: String)
-    Fn = FilterRegistry[str]
+    Entries = split(str, ":")
+    Fn(x, lvl, uptie) = (FilterRegistry[Entries[1]])(x, lvl, uptie, Entries[2:end]...)
     return PersonalityFilter(Fn, "Custom Filter: $(@blue(str))")
 end
 

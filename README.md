@@ -83,9 +83,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Immediate Upcoming Plans
 
-1. Let function filters take parameters. 
-(Add the 433, Mono-Sin, UT3->UT4 Coin Value increase as examples)
-2. E.G.O filters `[awake:X]` and `[corr:X]`.
-3. Naive implementation of clash calculator.
-4. E.G.O gifts printing
-5. Enemy printing
+1. E.G.O filters `[awake:X]` and `[corr:X]`.
+2. Naive implementation of clash calculator.
+3. E.G.O gifts printing
+4. Enemy printing

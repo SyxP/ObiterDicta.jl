@@ -149,7 +149,8 @@ function OrFilter(filterList :: Vector{EGOFilter})
 end
 
 function EvalFilter(::Type{EGO}, str :: String)
-    Fn = FilterRegistry[str]
+    Entries = split(str, ":")
+    Fn(x, ts) = (FilterRegistry[Entries[1]])(x, ts, Entries[2:end]...)
     return EGOFilter(Fn, "Custom Filter: $(@blue(str))")
 end
 

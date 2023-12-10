@@ -74,3 +74,37 @@ end
 
 minRoll(coinList :: Vector{Coin}) = extremaValues(coinList)[1]
 maxRoll(coinList :: Vector{Coin}) = extremaValues(coinList)[2]
+
+CoinRegex = r"^([0-9]*)(\([+-×*][0-9]+\)([×*x][0-9]+)?)+$"
+
+function getCoinVecFromString(str :: String)
+    NewStr = replace(str, r"[^0-9\(\)+\-*×x]" => "")
+    if !occursin(CoinRegex, NewStr)
+        @info "Unable to parse to Coin String $str."
+        return
+    end
+    
+    Vec = split(NewStr, "(")
+    Ans = Coin[]
+    push!(Ans, Coin(parse(Int, Vec[1]), "ADD"))
+    for entry in Vec[2:end]
+        operation = entry[begin]
+        opStr = ""
+        if operation == '+'
+            opStr = "ADD"
+        elseif operation == '-'
+            opStr = "SUB"
+        elseif operation ∈ "×x*"
+            opStr = "MUL"
+        end
+        Reps = 1
+        SplitStr = split(entry, ")")
+        Value = parse(Int, SplitStr[1][2:end])
+        if length(SplitStr) == 2 && length(SplitStr[2]) > 1
+            Reps = parse(Int, SplitStr[2][2:end])
+        end
+        append!(Ans, fill(Coin(Value, opStr), Reps))
+    end
+
+    return Ans
+end 

@@ -33,6 +33,7 @@ function FilterHelp(::Type{EGO})
               [canCorrode]             - E.G.O can corrode.
               [type:_tier_]            - E.G.O is of type _tier_ (e.g. ZAYIN).
               [resist:_type__op__num_] - Conferred resistance of sin _type_ _op_ _num_.
+              [cost:_type__op__num_]   - Require _op_ _num_ E.G.O resources of sin _type_.
               [*:sin:_type_]           - Any (*) skill must have sin Affinity _type_.
               [*:atkType:_type_]       - Any (*) skill must have attack Type _type_.
               [*:targetType:_type_]    - All (*) skill must have target type _type_.
@@ -337,10 +338,26 @@ function EGOResistFilter(sinType, op, num)
         return CompareNumbers(N, compareN, op) 
     end
 
-    filterStr = "Filter: E.G.O conferred $(getSinString(searchType)) resistances $(@blue(op)) $(@red(num)) (Input: $(@dim(sinType)))"
+    filterStr = "Filter: E.G.O conferred $(getSinString(searchType)) resistances $(@blue(op))$(@red(num)) (Input: $(@dim(sinType)))"
     return EGOFilter(Fn, filterStr)
 end
+
+function EGOCostFilter(sinType, op = ">", num = "0")
+    compareN = tryparse(Int, num)
+    compareN === nothing && return TrivialEGOFilter
+    searchType = getClosestSinFromName(sinType)
+    (op == "<=") && (op = "≤")
+    (op == ">=") && (op = "≥")
     
+    function Fn(x, ts)
+        N = getRequirement(x, searchType)
+        return CompareNumbers(N, compareN, op) 
+    end
+
+    filterStr = "Filter: E.G.O requires $(@blue(op))$(@red(num)) $(getSinString(searchType)) E.G.O resources (Input: $(@dim(sinType)))"
+    return EGOFilter(Fn, filterStr)
+end
+
 function constructFilter(::Type{EGO}, input)
     parts = split(input, "|")
     if length(parts) > 1
@@ -378,6 +395,8 @@ function constructFilter(::Type{EGO}, input)
                                         (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
                                         (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
                                         (r"^(.*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
+                                        (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
+                                        (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
                                         (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
                                         (r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
                                         (r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),

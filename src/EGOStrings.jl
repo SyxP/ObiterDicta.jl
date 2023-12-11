@@ -103,7 +103,7 @@ function getOtherFields(ego :: EGO)
     return Entries, LongEntries
 end
 
-function getConferredResistance(ego, sinType)
+function getConferredResistance(ego :: EGO, sinType)
     for entry in getConferredResistance(ego)
         if entry["type"] == sinType
             return entry["value"]
@@ -111,7 +111,6 @@ function getConferredResistance(ego, sinType)
     end
     return nothing
 end
-
 function getConferredResistanceStr(ego :: EGO; verbose)
     AnsArr = String[]
     
@@ -185,6 +184,14 @@ function getMainFields(ego :: EGO; verbose)
     return Content
 end
 
+function getRequirement(ego :: EGO, sinStr)
+    for entry in getRequirement(ego)
+        if entry["attributeType"] == sinStr
+            return entry["num"]
+        end
+    end
+    return 0
+end
 function getRequirementStr(ego :: EGO)
     EGOMats = String[]
     for entry in getRequirement(ego)

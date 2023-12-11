@@ -107,3 +107,21 @@ function EGODifferentAtkType(ego, ts)
     return getAtkType(awakeSkill, ts) != getAtkType(corrSkill, ts)
 end
 # RegisterFunction("ego-diff-atype", EGODifferentAtkType)
+
+function EGOCostNum(ego, ts, numWithOp)
+    Reqs = getRequirement(ego)
+    newNum = replace(numWithOp, "<=" => "≤", ">=" => "≥")
+    op = newNum[1:1]
+    N = parse(Int, newNum[nextind(numWithOp, 1):end])
+    return CompareNumbers(length(Reqs), N, op)
+end
+# RegisterFunction("ego-cost-num", EGOCostNum)
+
+function EGOTotalResources(ego, ts, numWithOp)
+    Reqs = getRequirement(ego)
+    newNum = replace(numWithOp, "<=" => "≤", ">=" => "≥")
+    op = newNum[1:1]
+    N = parse(Int, newNum[nextind(numWithOp, 1):end])
+    return CompareNumbers(sum(x["num"] for x in Reqs), N, op)
+end
+# RegisterFunction("ego-total-cost", EGOTotalResources)

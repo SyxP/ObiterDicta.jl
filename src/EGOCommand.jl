@@ -26,19 +26,23 @@ function FilterHelp(::Type{EGO})
     S = raw"""Filters reduce the search space.
               Note that filters can not have spaces between the [].
               Available Fitlers:
-              [id:_num_]            - E.G.O owner's Number must be _num_.
-              [id:_name_]           - E.G.O owner's Name must be _name_.
-              [season:_x_]          - E.G.O is from Season _x_.
-              [event]               - E.G.O is from an event.
-              [type:_tier_]         - E.G.O is of type _tier_ (e.g. ZAYIN).
-              [*:sin:_type_]        - Any (*) skill must have sin Affinity _type_.
-              [*:atkType:_type_]    - Any (*) skill must have attack Type _type_.
-              [*:minRoll_op__num_]  - All (*) skill must have minimum roll _op_ _num_.
-              [*:maxRoll_op__num_]  - All (*) skill must have maximum roll _op_ _num_.
-              [*:numCoins_op__num_] - All (*) skill must have number of coins _op_ _num_.
-              [*:weight_op__num_]   - All (*) skill must have weight _op_ _num_.
-              [*:offCor_op__num_]   - All (*) skill must have offense correction _op_ _num_.
-              [fn:_FunName_]        - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
+              [id:_num_]               - E.G.O owner's Number must be _num_.
+              [id:_name_]              - E.G.O owner's Name must be _name_.
+              [season:_x_]             - E.G.O is from Season _x_.
+              [event]                  - E.G.O is from an event.
+              [canCorrode]             - E.G.O can corrode.
+              [type:_tier_]            - E.G.O is of type _tier_ (e.g. ZAYIN).
+              [resist:_type__op__num_] - Conferred resistance of sin _type_ _op_ _num_.
+              [*:sin:_type_]           - Any (*) skill must have sin Affinity _type_.
+              [*:atkType:_type_]       - Any (*) skill must have attack Type _type_.
+              [*:targetType:_type_]    - All (*) skill must have target type _type_.
+              [*:minRoll_op__num_]     - All (*) skill must have minimum roll _op_ _num_.
+              [*:maxRoll_op__num_]     - All (*) skill must have maximum roll _op_ _num_.
+              [*:SPUse_op__num_]       - All (*) skill must have sanity usage _op_ _num_.
+              [*:numCoins_op__num_]    - All (*) skill must have number of coins _op_ _num_.
+              [*:weight_op__num_]      - All (*) skill must have weight _op_ _num_.
+              [*:offCor_op__num_]      - All (*) skill must have offense correction _op_ _num_.
+              [fn:_FunName_]           - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
               * can be one of awake, corr, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -179,7 +183,7 @@ function EGOSeasonFilter(str)
     N = getSeasonIDFromName(str)
     N == -1 && return TrivialPersonalityFilter
     Fn(x, ts) = getSeason(x) == N
-    filterStr = "Filter: EGO Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
+    filterStr = "Filter: E.G.O Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
 
     return EGOFilter(Fn, filterStr)
 end
@@ -187,7 +191,14 @@ end
 function EGOTypeFilter(str)
     typeStr = getClosestEGOType(str)
     Fn(x, ts) = getEGOType(x) == typeStr
-    filterStr = "Filter: EGO Class is $(@red(typeStr)) (Input: $(@dim(str)))"
+    filterStr = "Filter: E.G.O Class is $(@red(typeStr)) (Input: $(@dim(str)))"
+
+    return EGOFilter(Fn, filterStr)
+end
+
+function EGOCorrodableFilter()
+    Fn(x, ts) = getCorrosionSkill(x) !== nothing
+    filterStr = "Filter: E.G.O can corrode"
 
     return EGOFilter(Fn, filterStr)
 end
@@ -253,10 +264,37 @@ function EGOAtkTypeFilter(skillNumStr, atkTypeQuery)
     return EGOFilter(Fn, filterStr)
 end
 
+function EGOTargetTypeFilter(skillNumStr, targetType)
+    skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
+    skillDesc == "" && return TrivialEGOFilter
+    normTargetType = lowercase(superNormString(targetType))
+    function Fn(x, ts)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            Lst === nothing && continue
+            if Lst isa Vector
+                for skill in Lst
+                    S = getTargetType(skill, ts)
+                    lowercase(superNormString(S)) == normTargetType || return false
+                end
+            else
+                skill = Lst
+                S = getTargetType(skill, ts)
+                lowercase(superNormString(S)) == normTargetType || return false
+            end
+        end
+        return true
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have Target Type $(@red(targetType)) (Input: $(@dim(targetType)))"
+    return EGOFilter(Fn, filterStr)
+end
+
 for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll"),
                                    (:EGOMaxRollFilter, getMaxRoll, "maximum roll"),
                                    (:EGONumCoinsFilter, getNumCoins, "number of coins"),
                                    (:EGOWeightFilter, getWeight, "weight"),
+                                   (:EGOSanityCostFilter, getMPUsage, "sanity cost"),
                                    (:EGOOffCorFilter, getOffLevelCorrection, "offensive level correction")]
     @eval function ($defineFn)(skillNumStr, num :: String, op)
         (op == "<=") && (op = "≤")
@@ -285,6 +323,22 @@ for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll
         filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op)) $(@red(num)) "
         return EGOFilter(Fn, filterStr)
     end
+end
+
+function EGOResistFilter(sinType, op, num)
+    compareN = tryparse(Float64, num)
+    compareN === nothing && return TrivialEGOFilter
+    searchType = getClosestSinFromName(sinType)
+    (op == "<=") && (op = "≤")
+    (op == ">=") && (op = "≥")
+
+    function Fn(x, ts)
+        N = getConferredResistance(x, searchType)
+        return CompareNumbers(N, compareN, op) 
+    end
+
+    filterStr = "Filter: E.G.O conferred $(getSinString(searchType)) resistances $(@blue(op)) $(@red(num)) (Input: $(@dim(sinType)))"
+    return EGOFilter(Fn, filterStr)
 end
     
 function constructFilter(::Type{EGO}, input)
@@ -319,12 +373,16 @@ function constructFilter(::Type{EGO}, input)
     for (myRegex, filterFn, params) in [(r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
                                         (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
                                         (r"^[eE]vent$", EGOEventFilter, []),
+                                        (r"^[cC]an[cC]orrode$", EGOCorrodableFilter, []),
                                         (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]),
                                         (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
                                         (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
+                                        (r"^(.*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
+                                        (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
                                         (r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
                                         (r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
                                         (r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
                                         (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
                                         (r"^(.*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3])]
         S = match(myRegex, input)

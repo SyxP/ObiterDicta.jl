@@ -133,7 +133,8 @@ LocalCombatFields = [(:getType, "defType", ""),
                      (:getAtkType, "atkType", ""),
                      (:getWeight, "targetNum", ""),
                      (:getMPUsage, "mpUsage", -1000),
-                     (:getIndiscriminate, "canTeamKill", nothing)]
+                     (:getIndiscriminate, "canTeamKill", nothing),
+                     (:getTargetType, "skillTargetType", nothing)]
 
 for (fn, field, defValue) in LocalCombatFields
     @eval function $fn(skill :: CombatSkill, tier = 999)
@@ -146,9 +147,10 @@ end
 function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbose = false)
     Entries = String[]
     for (key, fn, defVal) in [("Type", getType, ""),
-                             ("Sanity Cost", getMPUsage, -1000),
-                             ("Weight", getWeight, ""),
-                             ("Indiscriminate", getIndiscriminate, nothing)]
+                              ("Sanity Cost", getMPUsage, -1000),
+                              ("Weight", getWeight, ""),
+                              ("Indiscriminate", getIndiscriminate, nothing),
+                              ("Target Type", getTargetType, nothing)]
         S = fn(skill, tier)
         S == "" && continue
         S === defVal && continue

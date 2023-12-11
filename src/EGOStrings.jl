@@ -103,6 +103,15 @@ function getOtherFields(ego :: EGO)
     return Entries, LongEntries
 end
 
+function getConferredResistance(ego, sinType)
+    for entry in getConferredResistance(ego)
+        if entry["type"] == sinType
+            return entry["value"]
+        end
+    end
+    return nothing
+end
+
 function getConferredResistanceStr(ego :: EGO; verbose)
     AnsArr = String[]
     

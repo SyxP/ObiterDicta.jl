@@ -61,7 +61,7 @@ function IDDuplicateSinFilter(id, lvl, uptie)
     Sins = [getSinType(skillFn(id), uptie) for skillFn in SkillFnList]
     return length(unique(Sins)) < 3
 end
-RegisterFunction("id-has-same-sin", IDDuplicateSinFilter)
+# RegisterFunction("id-has-same-sin", IDDuplicateSinFilter)
 
 function IDNoChangeInMaxRoll(id, lvl, uptie)
     SkillFnList, _ = getSkillFunctions("atkSkills")
@@ -70,3 +70,18 @@ function IDNoChangeInMaxRoll(id, lvl, uptie)
     return MaxRolls3 == MaxRolls4
 end
 # RegisterFunction("id-ut3->4-no-maxroll-change", IDNoChangeInMaxRoll)
+
+function IDNumStaggerThreshold(id, lvl, uptie, num)
+    Sections = getBreakSectionRaw(id)["sectionList"]
+    return length(Sections) == parse(Int, num)
+end
+# RegisterFunction("id-num-stagger-threshold", IDNumStaggerThreshold)
+
+function IDFirstStaggerPecentage(id, lvl, uptie, percentage)
+    Sections = getBreakSectionRaw(id)["sectionList"]
+    newPecentage = replace(percentage, "<=" => "≤", ">=" => "≥")
+    op = newPecentage[1:1]
+    N = parse(Int, newPecentage[nextind(newPecentage, 1):end])
+    return CompareNumbers(Sections[1], N, op)
+end
+# RegisterFunction("id-1st-stagger%", IDFirstStaggerPecentage)

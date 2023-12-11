@@ -71,6 +71,8 @@ function CompareNumbers(a, b, op :: String)
         return a ≥ b
     elseif op == ">"
         return a > b
+    elseif op == "≠"
+        return a != b
     end
-    return true
+    return true # Fallback if op is invalid
 end

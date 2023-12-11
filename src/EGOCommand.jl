@@ -26,13 +26,21 @@ function FilterHelp(::Type{EGO})
     S = raw"""Filters reduce the search space.
               Note that filters can not have spaces between the [].
               Available Fitlers:
-              [id:_num_]     - E.G.O owner's Number must be _num_.
-              [id:_name_]    - E.G.O owner's Name must be _name_.
-              [season:_x_]   - E.G.O is from Season _x_.
-              [event]        - E.G.O is from an event.
-              [type:_tier_] - E.G.O is of type _tier_ (e.g. ZAYIN).
-              [fn:_FunName_] - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
+              [id:_num_]            - E.G.O owner's Number must be _num_.
+              [id:_name_]           - E.G.O owner's Name must be _name_.
+              [season:_x_]          - E.G.O is from Season _x_.
+              [event]               - E.G.O is from an event.
+              [type:_tier_]         - E.G.O is of type _tier_ (e.g. ZAYIN).
+              [*:sin:_type_]        - Any (*) skill must have sin Affinity _type_.
+              [*:atkType:_type_]    - Any (*) skill must have attack Type _type_.
+              [*:minRoll_op__num_]  - All (*) skill must have minimum roll _op_ _num_.
+              [*:maxRoll_op__num_]  - All (*) skill must have maximum roll _op_ _num_.
+              [*:numCoins_op__num_] - All (*) skill must have number of coins _op_ _num_.
+              [*:weight_op__num_]   - All (*) skill must have weight _op_ _num_.
+              [*:offCor_op__num_]   - All (*) skill must have offense correction _op_ _num_.
+              [fn:_FunName_]        - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
+              * can be one of awake, corr, allSkills
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
               [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
@@ -183,6 +191,101 @@ function EGOTypeFilter(str)
 
     return EGOFilter(Fn, filterStr)
 end
+
+function getSkillFunctions(::Type{EGO}, skillStr)
+    if match(r"^[aA]wake(ning)?$", skillStr) !== nothing
+        return [getAwakeningSkill], "Awakening Skill"
+    elseif match(r"^[cC]orr(osion)?$", skillStr) !== nothing
+        return [getCorrosionSkill], "Corrosion Skill"
+    elseif match(r"^[aA]ll([sS]kills?)$", skillStr) !== nothing
+        SkillFn = [getAwakeningSkill, getCorrosionSkill]
+        return SkillFn, "All Skills"
+    end
+
+    return Function[], ""
+end
+
+function EGOSinFilter(skillNumStr, sinQuery)
+    skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
+    skillDesc == "" && return TrivialEGOFilter
+    internalSin = getClosestSinFromName(sinQuery)
+    function Fn(x, ts)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            Lst === nothing && continue
+            if Lst isa Vector
+                for skill in Lst
+                    getSinType(skill, ts) == internalSin && return true
+                end
+            else
+                skill = Lst
+                getSinType(skill, ts) == internalSin && return true
+            end
+        end
+        return false
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have Sin Affinity $(getSinString(internalSin)) (Input: $(@dim(sinQuery)))"
+    return EGOFilter(Fn, filterStr)
+end
+
+function EGOAtkTypeFilter(skillNumStr, atkTypeQuery)
+    skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
+    skillDesc == "" && return TrivialEGOFilter
+    internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
+    function Fn(x, ts)
+        for tmpFn in skillFn
+            Lst = tmpFn(x)
+            Lst === nothing && continue
+            if Lst isa Vector
+                for skill in Lst
+                    getAtkType(skill, ts) == internalAtkType && return true
+                end
+            else
+                skill = Lst
+                getAtkType(skill, ts) == internalAtkType && return true
+            end
+        end
+        return false
+    end
+
+    filterStr = "Filter: $(@red(skillDesc)) to have Attack Type $(AttackTypes(internalAtkType)) (Input: $(@dim(atkTypeQuery)))"
+    return EGOFilter(Fn, filterStr)
+end
+
+for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll"),
+                                   (:EGOMaxRollFilter, getMaxRoll, "maximum roll"),
+                                   (:EGONumCoinsFilter, getNumCoins, "number of coins"),
+                                   (:EGOWeightFilter, getWeight, "weight"),
+                                   (:EGOOffCorFilter, getOffLevelCorrection, "offensive level correction")]
+    @eval function ($defineFn)(skillNumStr, num :: String, op)
+        (op == "<=") && (op = "≤")
+        (op == ">=") && (op = "≥")
+        compareN = parse(Int, num)
+        skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
+        skillDesc == "" && return TrivialEGOFilter
+        function Fn(x, ts)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                Lst === nothing && continue
+                if Lst isa Vector
+                    for skill in Lst
+                        N = ($lookupFn)(skill, ts)
+                        CompareNumbers(N, compareN, op) || return false
+                    end
+                else
+                    skill = Lst
+                    N = ($lookupFn)(skill, ts)
+                    CompareNumbers(N, compareN, op) || return false
+                end
+            end
+            return true
+        end
+
+        filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op)) $(@red(num)) "
+        return EGOFilter(Fn, filterStr)
+    end
+end
     
 function constructFilter(::Type{EGO}, input)
     parts = split(input, "|")
@@ -216,8 +319,14 @@ function constructFilter(::Type{EGO}, input)
     for (myRegex, filterFn, params) in [(r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
                                         (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
                                         (r"^[eE]vent$", EGOEventFilter, []),
-                                        (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]) 
-                                        ]
+                                        (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]),
+                                        (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
+                                        (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
+                                        (r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
+                                        (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
+                                        (r"^(.*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3])]
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

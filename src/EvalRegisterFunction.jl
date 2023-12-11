@@ -34,12 +34,14 @@ function printFilterRegistryList()
     return FilterRegistry
 end
 
-### Examples of usage for Filter Registry Functions
-### Too niche to be considered in main help
+# Examples of usage for Filter Registry Functions
+# Too niche to be considered in standard inclusion
+# You may need to RegisterFunction(_name_, ObiterDicta._fn_)
+# instead of RegisterFunction(_name_, _fn_)
 
 function IDSkillHasCoinFilter(id, lvl, uptie, skillNumStr, coinNumStr)
     # Checks if id @ uptie has coinNumStr for any skill in skillNumStr
-    SkillFnList, _ = getSkillFunctions(skillNumStr)
+    SkillFnList, _ = getSkillFunctions(Personality, skillNumStr)
     CoinVec = getCoinVecFromString(string(coinNumStr))
     for tmpFn in SkillFnList
         Lst = tmpFn(id)
@@ -57,14 +59,14 @@ end
 RegisterFunction("id-coin", IDSkillHasCoinFilter)
 
 function IDDuplicateSinFilter(id, lvl, uptie)
-    SkillFnList, _ = getSkillFunctions("atkSkills")
+    SkillFnList, _ = getSkillFunctions(Personality, "atkSkills")
     Sins = [getSinType(skillFn(id), uptie) for skillFn in SkillFnList]
     return length(unique(Sins)) < 3
 end
 # RegisterFunction("id-has-same-sin", IDDuplicateSinFilter)
 
 function IDNoChangeInMaxRoll(id, lvl, uptie)
-    SkillFnList, _ = getSkillFunctions("atkSkills")
+    SkillFnList, _ = getSkillFunctions(Personality, "atkSkills")
     MaxRolls3 = [getMaxRoll(skillFn(id), 3) for skillFn in SkillFnList]
     MaxRolls4 = [getMaxRoll(skillFn(id), 4) for skillFn in SkillFnList]
     return MaxRolls3 == MaxRolls4
@@ -85,3 +87,23 @@ function IDFirstStaggerPecentage(id, lvl, uptie, percentage)
     return CompareNumbers(Sections[1], N, op)
 end
 # RegisterFunction("id-1st-stagger%", IDFirstStaggerPecentage)
+
+function EGODifferentSin(ego, ts)
+    awakeSkill = getAwakeningSkill(ego)
+    corrSkill  = getCorrosionSkill(ego)
+    if awakeSkill === nothing || corrSkill === nothing
+        return false
+    end
+    return getSinType(awakeSkill, ts) != getSinType(corrSkill, ts)
+end
+# RegisterFunction("ego-diff-sin", EGODifferentSin)
+
+function EGODifferentAtkType(ego, ts)
+    awakeSkill = getAwakeningSkill(ego)
+    corrSkill  = getCorrosionSkill(ego)
+    if awakeSkill === nothing || corrSkill === nothing
+        return false
+    end
+    return getAtkType(awakeSkill, ts) != getAtkType(corrSkill, ts)
+end
+# RegisterFunction("ego-diff-atype", EGODifferentAtkType)

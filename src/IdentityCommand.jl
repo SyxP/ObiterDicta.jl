@@ -274,7 +274,7 @@ function DefenseTypePersonalityFilter(str :: String)
     return PersonalityFilter(Fn, filterStr)
 end
 
-function getSkillFunctions(skillStr)
+function getSkillFunctions(::Type{Personality}, skillStr)
     if match(r"^[sS](kill)?1$", skillStr) !== nothing
         return [getSkill1], "Skill 1"
     elseif match(r"^[sS](kill)?2$", skillStr) !== nothing
@@ -289,11 +289,12 @@ function getSkillFunctions(skillStr)
         SkillFn = [getSkill1, getSkill2, getSkill3, getDefenseCombatSkill]
         return SkillFn, "All Skills"
     end
+    
     return Function[], ""
 end
 
 function CombatSkillSinFilter(skillNumStr, sinQuery)
-    skillFn, skillDesc = getSkillFunctions(skillNumStr)
+    skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
     skillDesc == "" && return TrivialPersonalityFilter
     internalSin = getClosestSinFromName(sinQuery)
     function Fn(x, lvl, uptie)
@@ -316,7 +317,7 @@ function CombatSkillSinFilter(skillNumStr, sinQuery)
 end
 
 function CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
-    skillFn, skillDesc = getSkillFunctions(skillNumStr)
+    skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
     skillDesc == "" && return TrivialPersonalityFilter
     internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
     function Fn(x, lvl, uptie)
@@ -347,7 +348,7 @@ for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "mini
         (op == "<=") && (op = "≤")
         (op == ">=") && (op = "≥")
         compareN = parse(Int, num)
-        skillFn, skillDesc = getSkillFunctions(skillNumStr)
+        skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
         skillDesc == "" && return TrivialPersonalityFilter
         function Fn(x, lvl, uptie)
             for tmpFn in skillFn

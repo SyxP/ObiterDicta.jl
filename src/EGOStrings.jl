@@ -62,13 +62,22 @@ InternalEGOFields = [(:getPassiveList, "awakeningPassiveList", Any[]),
                      (:getSeason, "season", -1),
                      (:getAdditionalAttachment, "additionalAttachment", ""),
                      (:getConferredResistance, "attributeResistList", Any[]),
-                     (:getAwakeningSkill, "awakeningSkillId", -1),
-                     (:getCorrosionSkill, "corrosionSkillId", -1),
+                     (:getAwakeningISkill, "awakeningSkillId", -1),
+                     (:getCorrosionISkill, "corrosionSkillId", -1),
                      (:getCorrosionProb, "corrosionSectionList", [])]
 
 for (fn, field, default) in InternalEGOFields 
     @eval $fn(ego :: EGO) =
         getInternalField(ego, $field, $default, nothing)
+end
+
+for (fn, internalFn) in [(:getAwakeningSkill, getAwakeningISkill),
+                         (:getCorrosionSkill, getCorrosionISkill)]
+    @eval function ($fn)(ego :: EGO)
+        iSkillID = ($internalFn)(ego)
+        iSkillID == -1 && return nothing
+        return CombatSkill(iSkillID)
+    end
 end
 
 function getOtherFields(ego :: EGO)
@@ -225,14 +234,12 @@ function getSkillPanel(ego :: EGO, threadspin; verbose = false)
     corrosionSkill = getCorrosionSkill(ego)
     
     Panels = Panel[]
-    if awakeningSkill != -1
-        CSawakeSkill = CombatSkill(awakeningSkill)
-        S = InternalSkillPanel(CSawakeSkill, threadspin; verbose = verbose)
+    if awakeningSkill !== nothing
+        S = InternalSkillPanel(awakeningSkill, threadspin; verbose = verbose)
         push!(Panels, S)
     end
-    if corrosionSkill != -1
-        CScorrodeSkill = CombatSkill(corrosionSkill)
-        S = InternalSkillPanel(CScorrodeSkill, threadspin; verbose = verbose)
+    if corrosionSkill !== nothing
+        S = InternalSkillPanel(corrosionSkill, threadspin; verbose = verbose)
         push!(Panels, S)
     end
 

@@ -73,20 +73,6 @@ function PersonalityParser(input)
     S = match(r"^list (.*)$", input)
     (S !== nothing) && return printPersonalityFromJSON(S.captures[1])
 
-    S = match(r"^([0-9]+)$", input)
-    if S !== nothing
-        return printPersonalityExactNumberInput(S.captures[1], false)
-    end
-
-    S = match(r"^([0-9]+) +![vV](erbose)?$", input)
-    if S !== nothing
-        return printPersonalityExactNumberInput(S.captures[1], true)
-    end
-    S = match(r"^![vV](erbose)? ([0-9]+)$", input)
-    if S !== nothing
-        return printPersonalityExactNumberInput(S.captures[2], true)
-    end
-
     S = match(r"^!rand$", input)
     (S !== nothing) && return printRandom(Personality, false)
     S = match(r"^(!rand ![vV](erbose)?)|(![vV](erbose)? !rand)$", input)
@@ -100,24 +86,29 @@ function PersonalityParser(input)
     Tier = getMaxUptie(Personality)
     Level = getMaxLevel(Personality)
     pFilters = PersonalityFilter[]
+    ExactNumber = true
 
     Applications = Dict{Regex, Function}()
-    Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true)
-    Applications[r"^![tT]op$"] = () -> (TopNumber = 5)
-    Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x))
-    Applications[r"^![aA](ll)?$"] = (_) -> (PrintAll = true)
+    Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true; ExactNumber = false)
+    Applications[r"^![tT]op$"] = () -> (TopNumber = 5; ExaxtNumber = false)
+    Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x); ExactNumber = false)
+    Applications[r"^![aA](ll)?$"] = (_) -> (PrintAll = true; ExactNumber = false)
     Applications[r"^![vV](erbose)?$"] = (_) -> (Verbose = true)
     Applications[r"^![tT]ier([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![lL]vl([0-9]+)$"] = (x) -> (Level = parse(Int, x))
     Applications[r"^![lL]evel([0-9]+)$"] = (x) -> (Level = parse(Int, x))
     Applications[r"^![uU]ptie([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![uU][tT]([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
-    Applications[r"^\[(.*)\]$"] = (x) -> push!(pFilters, constructFilter(Personality, x))
-
+    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(Personality, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
         Applications[flag]((match(flag, token).captures)...)
+    end
+
+    S = match(r"^([0-9]+)$", newQuery)
+    if S !== nothing && ExactNumber
+        return printPersonalityExactNumberInput(newQuery, Tier, Level, Verbose)
     end
 
     (length(PersonalitySearchList) == 0) && (PersonalitySearchList = getMasterList(Personality))
@@ -551,7 +542,7 @@ function printPersonalityFromJSON(input)
     return printPersonalityFromJSONInternal(result[begin][begin])
 end
 
-function printPersonalityExactNumberInput(num, verbose)
+function printPersonalityExactNumberInput(num, uptie, level, verbose)
     global PersonalityPreviousSearchResult
     if length(PersonalityPreviousSearchResult) == 0
         @info "No previously search `identity list`."
@@ -566,5 +557,5 @@ function printPersonalityExactNumberInput(num, verbose)
     end
 
     return printSingle(PersonalityPreviousSearchResult[N],
-                       getMaxUptie(Personality), getMaxLevel(Personality), verbose)
+                       uptie, level, verbose)
 end

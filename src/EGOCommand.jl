@@ -56,20 +56,6 @@ function EGOParser(input)
     S = match(r"^list (.*)$", input)
     (S !== nothing) && return printEGOFromJSON(S.captures[1])
 
-    S = match(r"^([0-9]+)$", input)
-    if S !== nothing
-        return printEGOExactNumberInput(S.captures[1], false)
-    end
-
-    S = match(r"^([0-9]+) +![vV](erbose)?$", input)
-    if S !== nothing
-        return printEGOExactNumberInput(S.captures[1], true)
-    end
-    S = match(r"^![vV](erbose)? ([0-9]+)$", input)
-    if S !== nothing
-        return printEGOExactNumberInput(S.captures[2], true)
-    end
-
     S = match(r"^!rand$", input)
     (S !== nothing) && return printRandom(EGO, false)
     S = match(r"^(!rand ![vV](erbose)?)|(![vV](erbose)? !rand)$", input)
@@ -82,21 +68,27 @@ function EGOParser(input)
     EGOSearchList = EGO[]
     Tier = getMaxThreadspin(EGO)
     pFilters = EGOFilter[]
+    ExactNumber = true
 
     Applications = Dict{Regex, Function}()
-    Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true)
-    Applications[r"^![tT]op$"] = () -> (TopNumber = 5)
-    Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x))
+    Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true; ExactNumber = false)
+    Applications[r"^![tT]op$"] = () -> (TopNumber = 5; ExactNumber = false)
+    Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x); ExactNumber = false)
     Applications[r"^![vV](erbose)?$"] = (_) -> (Verbose = true)
-    Applications[r"^![aA](ll)?$"] = (_) -> (PrintAll = true)
+    Applications[r"^![aA](ll)?$"] = (_) -> (PrintAll = true; ExactNumber = false)
     Applications[r"^![tT]ier([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![tT]hreadspin([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![tT][sS]([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
-    Applications[r"^\[(.*)\]$"] = (x) -> push!(pFilters, constructFilter(EGO, x))
+    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(EGO, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
         Applications[flag]((match(flag, token).captures)...)
+    end
+
+    S = match(r"^([0-9]+)$", newQuery)
+    if S !== nothing && ExactNumber
+        return printEGOExactNumberInput(newQuery, Tier, Verbose)
     end
 
     (length(EGOSearchList) == 0) && (EGOSearchList = getMasterList(EGO))
@@ -329,7 +321,7 @@ function printEGOFromJSON(input)
     return printEGOFromJSONInternal(result[begin][begin])
 end
 
-function printEGOExactNumberInput(num, verbose)
+function printEGOExactNumberInput(num, ts, verbose)
     global EGOPreviousSearchResult
     if length(EGOPreviousSearchResult) == 0
         @info "No previously search `ego list`."
@@ -343,5 +335,5 @@ function printEGOExactNumberInput(num, verbose)
         return ""
     end
 
-    return printSingle(EGOPreviousSearchResult[N], getMaxThreadspin(EGO), verbose)
+    return printSingle(EGOPreviousSearchResult[N], ts, verbose)
 end

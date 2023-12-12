@@ -99,19 +99,19 @@ SkillCommand = Command(SkillRegex, SkillParser, [1], SkillHelp)
 # Printing and Searching
 
 printSingle(skill :: CombatSkill, tier, offenseLevel, verbose) = 
-    tprintln(InternalSkillPanel(skill, tier, offenseLevel; verbose = verbose))
+    println(InternalSkillPanel(skill, tier, offenseLevel; verbose = verbose))
 
 printRandom(::Type{CombatSkill}, verbose) = 
     printSingle(rand(getMasterList(CombatSkill)), rand(1:4), -1, verbose)
 
 function searchSingleSkill(query, haystack, tier, offenseLevel, verbose)
-    tprint("Using {red}$query{/red} as query")
+    print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Tier: {red}$tier{red}")
-    offenseLevel != -1 && push!(AddParams, "OLvl: {red}$offenseLevel{/red}")
+    tier !== 999 && push!(AddParams, "Tier: $(@red(tier))")
+    offenseLevel != -1 && push!(AddParams, "OLvl: $(@red(offenseLevel))")
 
-    length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")
-    tprintln(".")
+    length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
+    println(".")
 
     result = SearchClosestString(query, haystack)[1][2]
     printSingle(result, tier, offenseLevel, verbose)
@@ -119,13 +119,13 @@ function searchSingleSkill(query, haystack, tier, offenseLevel, verbose)
 end
 
 function searchTopSkills(query, haystack, topN, tier) 
-    tprint("Using {red}$query{/red} as query")
+    print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Tier: {red}$tier{red}")
+    tier !== 999 && push!(AddParams, "Tier: $(@red(tier))")
 
-    length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")
-    tprintln(".")
-    tprintln("The $topN closest skills are:")
+    length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
+    println(".")
+    println("The $topN closest skills are:")
     result = SearchClosestString(query, haystack; top = topN)
 
     ResultStrings = String[]
@@ -155,7 +155,7 @@ function printSkillFromJSONInternal(file)
     Names = [CombatSkill(s["id"]) for s in SkillDatabase]
     global SkillPreviousSearchResult = Names
 
-    tprintln("Listing the skills in {yellow}$file{/yellow}:")
+    println("Listing the skills in $(@yellow(file)):")
     println(GridFromList(getPrintTitle.(Names), 4; labelled = true))
     return Names
 end
@@ -164,7 +164,7 @@ function printMasterList(::Type{CombatSkill})
     Names = getMasterList(CombatSkill)
     global SkillPreviousSearchResult = copy(Names)
     
-    tprintln("Listing all the skills:")
+    println("Listing all the skills:")
     println(GridFromList(getPrintTitle.(Names), 3; labelled = true))
     return Names
 end

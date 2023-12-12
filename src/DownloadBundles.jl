@@ -155,9 +155,9 @@ function listBundlesFromCatalog(catalogFile = "$DataDir/catalog_S1.json")
 end
 
 function DownloadNameBundleFromCatalog(query, catalogFile = "$DataDir/catalog_S1.json", bundleLocation = "$git_download_cache/Bundles/")
-    tprintln("Using {red}$query{/red} as query")
+    println("Using $(@red(query)) as query")
     result = SearchClosestString(query, nameBundlesFromCatalog(catalogFile))
-    tprintln("The closest match was {red}$(result[1][1]){/red}.")
+    println("The closest match was $(@red(result[1][1])).")
 
     downloadQuery = ForceReloadDebug("Would you like to download?", true)
     if downloadQuery

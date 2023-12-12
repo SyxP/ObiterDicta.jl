@@ -78,14 +78,14 @@ function toString(greet :: Greeting)
         @info "Unable to parse condition of $(greet.ID)"
     end
 
-    println(io, "{blue}Word{/blue}:  $(getWordContent(greet))")
-    println(io, "{blue}Sentence{/blue}: $(getSentenceContent(greet))")
+    println(io, "$(@blue("Word")):  $(getWordContent(greet))")
+    println(io, "$(@blue("Sentence")): $(getSentenceContent(greet))")
     return String(take!(io))
 end
 
 function getRandomCombination(::Type{Greeting})
     myWord = getWordContent(rand(getMasterList(Greeting)))
-    mySentence = getUnescapedSentenceContent(rand(getMasterList(Greeting)))
+    mySentence = getUnescapedSentenceContent(rand(filter(x-> getSentenceContent(x) != "", getMasterList(Greeting))))
     
     if match(r"\{0\}", mySentence) !== nothing
         mySentence = replace(mySentence, "{0}" => @red(myWord))

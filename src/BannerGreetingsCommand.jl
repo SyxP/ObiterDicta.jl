@@ -1,6 +1,7 @@
 function BannerGreetingsHelp()
     S = raw"""Look up banner greetings. Available Commands:
-              `banner greeting word list`        - List all word greetings.
+              `banner greeting list words`       - List all word greetings.
+              `banner greeting list sentences`   - List all sentence greetings.
               `banner greeting _query_`          - Looks up _query_ in a word greeting.
 
               Available Flags:
@@ -64,16 +65,16 @@ end
 BannerGreetingsRegex = r"^banner greeting (.*)$"
 BannerGreetingsCommand = Command(BannerGreetingsRegex, BannerGreetingsParser, [1], BannerGreetingsHelp)
 
-printSingleBannerGreeting(greet :: Greeting) = tprintln(toString(greet))
+printSingleBannerGreeting(greet :: Greeting) = println(toString(greet))
 
 function printRandom(::Type{Greeting})
     S = getRandomCombination(Greeting)
-    tprintln(S)
+    println(S)
     return
 end
 
 function searchSingleBannerGreeting(query, haystack, TopNumber)
-    tprintln("Using {red}$query{/red} as query.")
+    println("Using $(@red(query)) as query.")
     result = SearchClosestString(query, haystack)[1][2]
     printSingleBannerGreeting(result)
     return result
@@ -81,7 +82,7 @@ end
 
 global BannerPreviousSearchResult = Greeting[]
 function searchTopBannerGreeting(query, haystack, TopNumber)
-    tprintln("Using {red}$query{/red} as query. The $TopNumber closest Banner Greetings are:")
+    println("Using $(@red(query)) as query. The $TopNumber closest Banner Greetings are:")
     result = SearchClosestString(query, haystack; top = TopNumber)
 
     ResultStrings = String[]

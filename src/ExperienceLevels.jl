@@ -170,7 +170,7 @@ function getEXPPlot()
     yRange = Int.(IdentityEXPDatabase)
 
     S = lineplot(xRange, yRange; title = Title, xlabel = "Level", ylabel = "EXP Needed")
-    tprintln(S)
+    println(S)
     return S
 end
 

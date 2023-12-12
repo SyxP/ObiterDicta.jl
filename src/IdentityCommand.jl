@@ -117,7 +117,7 @@ function PersonalityParser(input)
         Tmp = ""
         PersonalitySearchList, Tmp = applyFilter(PersonalitySearchList, currFilter, Level, Tier)
         if Tmp != ""
-            tprintln(Tmp)
+            println(Tmp)
         end
     end
 
@@ -229,7 +229,6 @@ function SinnerHealthFilter(num :: String, relation :: String)
     filterStr = "Filter: Sinner Health $(@blue(relation)) $(@red(num))"
     return PersonalityFilter(Fn, filterStr)
 end
-
 
 for (fnName, lookupFn, desc) in [(:SinnerMaxSpeedFilter, getMaxSpeed, "Maximum Speed"),
                                  (:SinnerMinSpeedFilter, getMinSpeed, "Minimum Speed")]
@@ -464,7 +463,7 @@ end
 # Printing and Searching
 
 function printSingle(myID :: Personality, tier, level, verbose)
-    tprintln(getFullPanel(myID, level, tier; verbose = verbose))
+    println(getFullPanel(myID, level, tier; verbose = verbose))
     return myID
 end
 
@@ -473,13 +472,13 @@ printRandom(::Type{Personality}, verbose) =
                 rand(1:getMaxLevel(Personality)), verbose)
 
 function searchSinglePersonality(query, haystack, tier, level, verbose)
-    tprint("Using {red}$query{/red} as query")
+    print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Uptie: {red}$tier{red}")
-    level != -1 && push!(AddParams, "Level: {red}$level{/red}")
+    tier !== 999 && push!(AddParams, "Uptie: $(@red(tier))")
+    level != -1 && push!(AddParams, "Level: $(@red(level))")
 
-    length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")
-    tprintln(".")
+    length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
+    println(".")
 
     result = SearchClosestString(query, haystack)[1][2]
     printSingle(result, tier, level, verbose)
@@ -487,7 +486,7 @@ function searchSinglePersonality(query, haystack, tier, level, verbose)
 end
 
 function searchTopPersonality(query, haystack, topN, tier)
-    tprintln("Using {red}$query{/red} as query. The $topN closest Personalitys are:")
+    println("Using $(@red(query)) as query. The $topN closest Personalitys are:")
     result = SearchClosestString(query, haystack; top = topN)
     resultPersonality = [x[2] for x in result]
     

@@ -110,7 +110,7 @@ function EGOParser(input)
         Tmp = ""
         EGOSearchList, Tmp = applyFilter(EGOSearchList, currFilter, Tier)
         if Tmp != ""
-            tprintln(Tmp)
+            println(Tmp)
         end
     end
 
@@ -432,18 +432,18 @@ end
 # Printing and Searching
 
 printSingle(myEGO :: EGO, threadspin, verbose) = 
-    tprintln(getFullPanel(myEGO, threadspin; verbose = verbose))
+    println(getFullPanel(myEGO, threadspin; verbose = verbose))
 
 printRandom(::Type{EGO}, verbose) = 
     printSingle(rand(getMasterList(EGO)), rand(1:getMaxThreadspin(EGO)), verbose)
 
 function searchSingleEGO(query, haystack, threadspin, verbose)
-    tprint("Using {red}$query{/red} as query")
+    print("Using $(@red(query)) as query")
     AddParams = String[]
-    threadspin != 999 && push!(AddParams, "Threadspin: {red}$threadspin{/red}")
+    threadspin != 999 && push!(AddParams, "Threadspin: $(@red(threadspin))")
 
-    length(AddParams) > 0 && tprint(" with $(join(AddParams, "; "))")
-    tprintln(".")
+    length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
+    println(".")
 
     result = SearchClosestString(query, haystack)[1][2]
     printSingle(result, threadspin, verbose)
@@ -451,7 +451,7 @@ function searchSingleEGO(query, haystack, threadspin, verbose)
 end
 
 function searchTopEGO(query, haystack, topN, threadspin)
-    tprintln("Using {red}$query{/red} as query. The $topN closest EGOs are:")
+    println("Using $(@red(query)) as query. The $topN closest EGOs are:")
     result = SearchClosestString(query, haystack; top = topN)
     resultEGO = [x[2] for x in result]
 

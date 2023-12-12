@@ -4,7 +4,7 @@ function DisplaySkillAsTree(SkillDict, Title = "")
     if haskey(myDict, "ability")
         Title *= " (" * @red(myDict["ability"])
         if haskey(myDict, "value")
-            Title *= ", {yellow}value{/yellow} ⇒ " * @blue(string(myDict["value"]))
+            Title *= ", $(@yellow("value")) ⇒ " * @blue(string(myDict["value"]))
             delete!(myDict, "value")
         end
         Title *= ")"

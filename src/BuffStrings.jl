@@ -80,16 +80,16 @@ end
 
 function getInternalTitle(buff :: Buff)
     io = IOBuffer()
-    print(io, "{red} $(getID(buff)) {/red} (")
-    print(io, "{blue} $(getBuffClass(buff)) {/blue}")
+    print(io, " $(@red(getID(buff)))  (")
+    print(io, " $(@blue(getBuffClass(buff))) ")
     print(io, ": Max Stacks = $(getMaxStacks(buff)))")
     return String(take!(io))
 end
 
 function getLocalizedTitle(buff :: Buff)
     io = IOBuffer()
-    print(io, "{red} $(getName(buff)) {/red} (")
-    print(io, "{blue} $(getID(buff)) {/blue})")
+    print(io, " $(@red(getName(buff)))  (")
+    print(io, " $(@blue(getID(buff))) )")
     return String(take!(io))
 end
 
@@ -151,7 +151,7 @@ function getLocalizedTopLine(buff :: Buff)
     
     Tmp = getUndefinedStatus(buff)
     if Tmp !== nothing && Tmp == "-"
-        println(io, "Has {blue}undefined{/blue} (\"-\") field.")
+        println(io, "Has $(@blue("undefined")) (\"-\") field.")
     end
    
     S = String(take!(io))

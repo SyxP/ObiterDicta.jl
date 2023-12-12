@@ -78,18 +78,18 @@ BuffCommand = Command(BuffRegex, BuffParser, [1], BuffHelp)
 
 # Printing and Searching
 
-printSingle(id :: Buff) = tprintln(toString(id))
-printLocalized(id :: Buff) = tprintln(LocalizedBuffPanel(id))
+printSingle(id :: Buff) = println(toString(id))
+printLocalized(id :: Buff) = println(LocalizedBuffPanel(id))
 
 function searchSingleBuff(query, haystack; verbose = true)
-    tprintln("Using {red}$query{/red} as query.")
+    println("Using $(@red(query)) as query.")
     result = SearchClosestString(query, haystack)[1][2]
     verbose ? printSingle(result) : printLocalized(result)
     return result
 end
 
 function searchTopBuffs(query, haystack, topN)
-    tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
+    println("Using $(@red(query)) as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
     
     ResultStrings = String[]
@@ -130,14 +130,14 @@ function printBuffFromJSONInternal(file)
     BuffDatabase = StaticData(file)["list"]
     Names = [Buff(buff["id"]) for buff in BuffDatabase]
     
-    tprintln("Listing the buffs in $(@yellow(file)): ")
+    println("Listing the buffs in $(@yellow(file)): ")
     return printBuffSearchResult(Names)
 end
 
 function printMasterList(::Type{Buff})
     Names = getMasterList(Buff)
 
-    tprintln("Listing all the buffs: ")
+    println("Listing all the buffs: ")
     return printBuffSearchResult(Names)
 end
 

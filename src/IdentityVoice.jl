@@ -76,7 +76,7 @@ function PersonalityVoiceHelp()
               will be updated.
         """
 
-    tprintln(S)
+    println(S)
     return S
 end
 
@@ -97,7 +97,7 @@ function PersonalityVoiceParse(input)
     isVerbose = match(r"![vV]", input) !== nothing 
 
     S = getVoiceData(result; verbose = isVerbose)
-    tprintln(S)
+    println(S)
     return result
 end 
 

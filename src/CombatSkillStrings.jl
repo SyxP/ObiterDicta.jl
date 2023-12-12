@@ -238,8 +238,8 @@ function getDescriptionString(skill :: CombatSkill, tier = 999)
                 desc["desc"] == "" && continue
 
                 descIO = IOBuffer()
-                print(descIO, "Coin {red}$coin{/red}")
-                N > 1 && print(descIO, " ({blue}$action{/blue})")
+                print(descIO, "Coin $(@red(string(coin)))")
+                N > 1 && print(descIO, " ($(@blue(string(action))))")
 
                 print(descIO, ": $(EscapeString(desc["desc"]))")
                 push!(AnsArr, String(take!(descIO)))
@@ -300,11 +300,11 @@ end
 function getTitle(skill :: CombatSkill, tier = 999)
     io = IOBuffer()
     Str = getName(skill, tier)
-    Str !== nothing && print(io, "{red} $Str {/red}")
-    print(io, " ({blue} $(getStringID(skill)) {/blue}")
+    Str !== nothing && print(io, " $(@red(Str)) ")
+    print(io, " ( $(@blue(getStringID(skill))) ")
 
     if getTier(skill) != -1
-        print(io, " @ Tier : {blue}$(getTier(skill, tier)){/blue}")
+        print(io, " @ Tier : $(@blue(string(getTier(skill, tier))))")
     end
     print(io, ")")
         

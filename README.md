@@ -83,7 +83,6 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Immediate Upcoming Plans
 
-1. E.G.O filters `[awake:X]` and `[corr:X]`.
-2. Naive implementation of clash calculator.
-3. E.G.O gifts printing
-4. Enemy printing
+1. Naive implementation of clash calculator.
+2. E.G.O gifts printing
+3. Enemy printing

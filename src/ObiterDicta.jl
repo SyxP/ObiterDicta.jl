@@ -1,7 +1,8 @@
 module ObiterDicta
-    using ReplMaker
+    using ReplMaker, InteractiveUtils
     using Term, Term.Layout, Term.Prompts
     using UnicodePlots
+    using StringManipulation
     using Unicode
 
     using StringDistances
@@ -10,7 +11,45 @@ module ObiterDicta
     using Scratch, Git
     using SHA
 
+    function usesClipboard(input)
+        clipboardRegexes = [r"^clipboard (.*)$", r"^(.*) clipboard$"]
+        for clipboardRegex in clipboardRegexes
+            S = match(clipboardRegex, input)
+            if S !== nothing
+                return true
+            end
+        end
+        return false
+    end
+
+    function ClipboardParser(input)
+        clipboardRegexes = [r"^clipboard (.*)$", r"^(.*) clipboard$"]
+        for clipboardRegex in clipboardRegexes
+            S = match(clipboardRegex, input)
+            if S !== nothing
+                tmpFile, _ = mktemp()
+                io = open(tmpFile, "w")
+                returnValue = nothing
+                redirect_stdout(io) do
+                    returnValue = MainParser(string(S.captures[1]))
+                end
+                close(io)
+
+                io = open(tmpFile, "r")
+                copyString = read(io, String)
+                close(io)
+                clipboard(remove_decorations(copyString))
+                println("Output of command $(@red(S.captures[1])) saved to clipboard.")
+
+                return returnValue
+            end
+        end
+
+        return nothing
+    end
+
     function MainParser(input)
+        usesClipboard(input) && return ClipboardParser(input)  
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
                     FiltRegCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
@@ -38,6 +77,7 @@ module ObiterDicta
                   ego (E.G.Os)
     
                   For more information you can use `[command] help`.
+                  To save the output of a command to clipboard, use `clipboard [command]`.
             """
         println(S)
     end

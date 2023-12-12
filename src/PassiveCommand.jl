@@ -69,7 +69,7 @@ PassiveCommand = Command(PassiveRegex, PassiveParser, [1], PassiveHelp)
 
 # Printing and Searching
 
-printSinglePassive(id :: Passive) = tprintln(toString(id))
+printSinglePassive(id :: Passive) = println(toString(id))
 
 function printRandomPassive()
     myPass = rand(getMasterList(Passive))
@@ -78,7 +78,7 @@ function printRandomPassive()
 end
 
 function searchSinglePassive(query, haystack)
-    tprintln("Using {red}$query{/red} as query.")
+    println("Using $(@red(query)) as query.")
     result = SearchClosestString(query, haystack)[1][2]
     printSinglePassive(result)
     return result
@@ -86,7 +86,7 @@ end
 
 PassivePreviousSearchResult = Passive[]
 function searchTopPassives(query, haystack, topN; searchText = false)
-    tprintln("Using {red}$query{/red} as query. The $topN closest Buffs are:")
+    println("Using $(@red(query)) as query. The $topN closest Buffs are:")
     result = SearchClosestString(query, haystack; top = topN)
     ResultStrings = String[]
 

@@ -88,7 +88,7 @@ function getReqCondition(myPassive :: Passive)
     end
     
     Ans = join(S, "{dim};{/dim} ")
-    (Ans == "") && (Ans = "{red}No Condition{/red}")
+    (Ans == "") && (Ans = @red("No Condition"))
     return Ans
 end
 
@@ -105,7 +105,7 @@ function getTopLine(myPassive :: Passive)
     io = IOBuffer()
     for (fn, name) in [(getEscapedDesc, "Description")]
         Tmp = fn(myPassive)
-        (Tmp !== nothing) && println(io, "{blue}$(name): {/blue} $Tmp")
+        (Tmp !== nothing) && println(io, "$(@blue(name)): $Tmp")
     end
     
     return TextBox(String(take!(io)); width = 93, fit = false)

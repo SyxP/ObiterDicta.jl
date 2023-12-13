@@ -111,7 +111,7 @@ end
 
 function increasePlusCoinPower(coinList :: Vector{Coin}, power :: Int)
     Ans = Coin[]
-    for coin in coinList
+    for coin in coinList[2:end]
         if coin.operation == "ADD"
             push!(Ans, Coin(coin.value + power, coin.operation))
         else
@@ -123,7 +123,7 @@ end
 
 function increaseMinusCoinPower(coinList :: Vector{Coin}, power :: Int)
     Ans = Coin[]
-    for coin in coinList
+    for coin in coinList[2:end]
         if coin.operation == "SUB"
             push!(Ans, Coin(coin.value - power, coin.operation))
         else

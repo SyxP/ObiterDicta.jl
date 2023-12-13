@@ -279,7 +279,7 @@ function printClashOutcome(Skill1, Skill2)
         Skill2.CoinVec = augmentBasePower(Skill2.CoinVec, boost)
     end
 
-    Trials = 100_000
+    Trials = 1_000_000
     s1WonFirstClash, s2WonFirstClash, results = clashEvaluateSkills(Skill1.CoinVec, Skill1.FinalPower, Skill1.Sanity, 
                                                                     Skill2.CoinVec, Skill2.FinalPower, Skill2.Sanity;
                                                                     Iters = Trials)

@@ -2,7 +2,7 @@ module ObiterDicta
     using ReplMaker, InteractiveUtils
     using Term, Term.Layout, Term.Prompts
     using UnicodePlots
-    using StringManipulation
+    using StringManipulation, Printf
     using Unicode
 
     using StringDistances
@@ -55,7 +55,8 @@ module ObiterDicta
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
                     PersonalityCommand, EGOCommand,
-                    PersonalityVoiceCommand]
+                    PersonalityVoiceCommand,
+                    ClashCalculatorCommand]
         for command in Commands
             S = CheckCommand(command, input)
             S == false || return S
@@ -75,6 +76,7 @@ module ObiterDicta
                   id (Sinner Identities)
                   id-voice (Identity Voice Lines)
                   ego (E.G.Os)
+                  clash-calc (Clash Calculator)
     
                   For more information you can use `[command] help`.
                   To save the output of a command to clipboard, use `clipboard [command]`.
@@ -128,6 +130,8 @@ module ObiterDicta
     include("EGOVoiceStrings.jl")
     include("EGOStrings.jl")
     include("EGOCommand.jl")
+
+    include("ClashCalculator.jl")
     
     # Dependent on Structs
     include("PanicStrings.jl")

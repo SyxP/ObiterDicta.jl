@@ -60,7 +60,7 @@ function getLocalizedVersion(mySkill :: CombatSkill; dontWarn = !GlobalDebugMode
 end
 
 ### Skill Specific Retrievals
-
+getMaxTier(:: Type{CombatSkill}) = 4
 getID(skill :: CombatSkill) = skill.id
 getStringID(skill :: CombatSkill) = string(skill.id)
 
@@ -87,7 +87,7 @@ function getInternalLevelList(skill :: CombatSkill, tier = 0)
     return getLevelList(levelList, readLevel, tier)
 end
 
-function getCoinValues(skill :: CombatSkill, tier = 999)
+function getCoinValues(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     entry = getInternalLevelList(skill, tier)
     Ans = Coin[]
     entry === nothing && return Ans
@@ -104,7 +104,7 @@ function getCoinValues(skill :: CombatSkill, tier = 999)
     return Ans
 end
 
-function getCoinString(skill :: CombatSkill, tier = 999)
+function getCoinString(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     Ans = getCoinValues(skill, tier)
     return getCoinString(Ans)
 end
@@ -116,7 +116,7 @@ for (fn, field, defValue) in [(:getName, "name", ""),
                               (:getCoinDesc, "coinlist", Any[]),
                               (:getDesc, "desc", ""),
                               (:getAbName, "abName", "")]
-    @eval function $fn(skill :: CombatSkill, tier = 999)
+    @eval function $fn(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
         entry = getLocalizedLevelList(skill, tier)
         entry === nothing && return nothing
         return haskey(entry, $field) ? entry[$field] : $defValue
@@ -137,14 +137,14 @@ LocalCombatFields = [(:getType, "defType", ""),
                      (:getTargetType, "skillTargetType", nothing)]
 
 for (fn, field, defValue) in LocalCombatFields
-    @eval function $fn(skill :: CombatSkill, tier = 999)
+    @eval function $fn(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
         entry = getInternalLevelList(skill, tier)
         entry === nothing && return nothing
         return haskey(entry, $field) ? entry[$field] : $defValue
     end
 end
 
-function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbose = false)
+function getMainFields(skill :: CombatSkill, tier = getMaxTier(CombatSkill), offenseLvl = -1; verbose = false)
     Entries = String[]
     for (key, fn, defVal) in [("Type", getType, ""),
                               ("Sanity Cost", getMPUsage, -1000),
@@ -184,10 +184,10 @@ function getMainFields(skill :: CombatSkill, tier = 999, offenseLvl = -1; verbos
     return content
 end
 
-getLocalizedAtkType(skill :: CombatSkill, tier = 999) = 
+getLocalizedAtkType(skill :: CombatSkill, tier = getMaxTier(CombatSkill)) = 
     AttackTypes(getAtkType(skill, tier))
 
-function getOtherFields(skill :: CombatSkill, tier = 999)
+function getOtherFields(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     Entries = String[]
     LongEntries = String[]
     EntriesToSkip = [x[2] for x in LocalCombatFields]
@@ -205,7 +205,7 @@ function getOtherFields(skill :: CombatSkill, tier = 999)
     return Entries, LongEntries
 end
 
-function getDescriptionString(skill :: CombatSkill, tier = 999)
+function getDescriptionString(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     AnsArr = String[]
     
     Str = getAbName(skill, tier)
@@ -261,7 +261,7 @@ function getSkillExceptionChange(Str)
     return Str
 end
 
-function getNormDescriptionString(skill :: CombatSkill, tier = 999)
+function getNormDescriptionString(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     StrArr = getDescriptionString(skill, tier)
     
     StrArr = getSkillExceptionChange.(StrArr)
@@ -275,7 +275,7 @@ function getNormDescriptionString(skill :: CombatSkill, tier = 999)
     return TextBox(Str; width = 85, fit = false)
 end
 
-function getActionsString(skill :: CombatSkill, tier = 999)
+function getActionsString(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     LineBreak = hLine(93, "{bold white} Actions {/bold white}"; box = :DOUBLE)
     content = LineBreak
     hasEntries = false
@@ -297,7 +297,7 @@ function getActionsString(skill :: CombatSkill, tier = 999)
     return content
 end
 
-function getTitle(skill :: CombatSkill, tier = 999)
+function getTitle(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     io = IOBuffer()
     Str = getName(skill, tier)
     Str !== nothing && print(io, " $(@red(Str)) ")
@@ -311,7 +311,7 @@ function getTitle(skill :: CombatSkill, tier = 999)
     return  String(take!(io))
 end
 
-function getPrintTitle(skill :: CombatSkill, tier = 999)
+function getPrintTitle(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     io = IOBuffer()
     Str = getName(skill, tier)
     hasPrinted = false
@@ -330,7 +330,7 @@ function getPrintTitle(skill :: CombatSkill, tier = 999)
     return String(take!(io))
 end
 
-function getSubtitle(skill :: CombatSkill, tier = 999)
+function getSubtitle(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     io = IOBuffer()
     Str = getSinType(skill, tier)
     if Str == ""
@@ -348,7 +348,7 @@ function getSubtitle(skill :: CombatSkill, tier = 999)
 end
 
 function InternalSkillPanel(skill :: CombatSkill, 
-    tier = 999, offenseLvl = -1; 
+    tier = getMaxTier(CombatSkill), offenseLvl = -1; 
     verbose = true, addedTitle = "", addedSubtitle = "")
     
     Title = addedTitle * getTitle(skill, tier)

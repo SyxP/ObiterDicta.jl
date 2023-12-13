@@ -55,6 +55,15 @@ function FilterHelp(::Type{EGO})
     return S
 end
 
+function EGOThreadspinParser(input)
+    for tsRegex in [r"![tT]hreadspin([0-9]+)", r"![tT][sS]([0-9]+)", r"![tT]ier([0-9]+)"]
+        S = match(tsRegex, input)
+        S !== nothing && return tryparse(Int, S.captures[1])
+    end
+
+    return getMaxThreadspin(EGO)
+end
+
 function EGOParser(input)
     S = match(r"^filters? help$", input)
     (S !== nothing) && return FilterHelp(EGO)
@@ -440,7 +449,7 @@ printRandom(::Type{EGO}, verbose) =
 function searchSingleEGO(query, haystack, threadspin, verbose)
     print("Using $(@red(query)) as query")
     AddParams = String[]
-    threadspin != 999 && push!(AddParams, "Threadspin: $(@red(threadspin))")
+    threadspin != getMaxThreadspin(EGO) && push!(AddParams, "Threadspin: $(@red(string(threadspin)))")
 
     length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
     println(".")

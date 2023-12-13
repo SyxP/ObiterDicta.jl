@@ -59,6 +59,15 @@ function FilterHelp(::Type{Personality})
     return S
 end
 
+function PersonalityUptieParser(input)
+    for uptieRegex in [r"![uU]ptie([0-9]+)", r"![uU][tT]([0-9]+)", r"![tT]ier([0-9]+)"]
+        S = match(uptieRegex, input)
+        S !== nothing && return tryparse(Int, S.captures[1])
+    end
+
+    return getMaxUptie(Personality)
+end
+
 function PersonalityParser(input)
     S = match(r"^filters? help$", input)
     (S !== nothing) && return FilterHelp(Personality)
@@ -474,8 +483,8 @@ printRandom(::Type{Personality}, verbose) =
 function searchSinglePersonality(query, haystack, tier, level, verbose)
     print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Uptie: $(@red(tier))")
-    level != -1 && push!(AddParams, "Level: $(@red(level))")
+    tier !== getMaxUptie(Personality) && push!(AddParams, "Uptie: $(@red(string(tier)))")
+    level != -1 && push!(AddParams, "Level: $(@red(string(level)))")
 
     length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
     println(".")

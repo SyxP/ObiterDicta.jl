@@ -25,6 +25,14 @@ function SkillHelp()
     return S
 end
 
+function SkillTierParser(input)
+    for tierRegex in [r"!tier([0-9])+"]
+        S = match(tierRegex, input)
+        S !== nothing && return tryparse(Int, S.captures[1])
+    end
+    return getMaxTier(CombatSkill)
+end
+
 function SkillParser(input)
     S = match(r"list jsons?$", input)
     (S !== nothing) && return printJSONList(CombatSkill)
@@ -58,7 +66,7 @@ function SkillParser(input)
     UseInternalIDs = false
     Verbose = false
     SkillSearchList = CombatSkill[]
-    Tier = 999
+    Tier = getMaxTier(CombatSkill)
     OffenseLevel = -1
 
     Applications = Dict{Regex, Function}()
@@ -107,7 +115,7 @@ printRandom(::Type{CombatSkill}, verbose) =
 function searchSingleSkill(query, haystack, tier, offenseLevel, verbose)
     print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Tier: $(@red(tier))")
+    tier !== getMaxTier(CombatSkill) && push!(AddParams, "Tier: $(@red(string(tier)))")
     offenseLevel != -1 && push!(AddParams, "OLvl: $(@red(offenseLevel))")
 
     length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")

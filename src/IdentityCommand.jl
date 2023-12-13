@@ -476,9 +476,13 @@ function printSingle(myID :: Personality, tier, level, verbose)
     return myID
 end
 
-printRandom(::Type{Personality}, verbose) = 
-    printSingle(rand(getMasterList(Personality)), rand(1:getMaxUptie(Personality)), 
+function printRandom(::Type{Personality}, verbose)
+    randID = rand(getMasterList(Personality))
+    printSingle(randID, rand(1:getMaxUptie(Personality)), 
                 rand(1:getMaxLevel(Personality)), verbose)
+
+    return randID
+end
 
 function searchSinglePersonality(query, haystack, tier, level, verbose)
     print("Using $(@red(query)) as query")

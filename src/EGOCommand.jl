@@ -440,11 +440,16 @@ end
 
 # Printing and Searching
 
-printSingle(myEGO :: EGO, threadspin, verbose) = 
+function printSingle(myEGO :: EGO, threadspin, verbose)
     println(getFullPanel(myEGO, threadspin; verbose = verbose))
+    return myEGO
+end
 
-printRandom(::Type{EGO}, verbose) = 
-    printSingle(rand(getMasterList(EGO)), rand(1:getMaxThreadspin(EGO)), verbose)
+function printRandom(::Type{EGO}, verbose)
+    Ans = rand(getMasterList(EGO))
+    printSingle(Ans, rand(1:getMaxThreadspin(EGO)), verbose)
+    return Ans
+end
 
 function searchSingleEGO(query, haystack, threadspin, verbose)
     print("Using $(@red(query)) as query")

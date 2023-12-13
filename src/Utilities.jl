@@ -1,12 +1,25 @@
 LocalizeDatabase = Dict{Tuple{String, LangMode}, Dict{String, Any}}()
 StaticDatabase   = Dict{String, Dict{String, Any}}()
 DataDir          = pkgdir(@__MODULE__, "data")
+BackupDir        = pkgdir(@__MODULE__, "old-data")
+
+function fetchDataFilepath(path)
+    if isfile(joinpath(DataDir, path))
+        return joinpath(DataDir, path)
+    elseif isfile(joinpath(BackupDir, path))
+        return joinpath(BackupDir, path)
+    else
+        @info "File at $path not found."
+        return nothing
+    end
+end
+
 
 LocalizeMasterDatabase = nothing
 function getLocalizeDataInfo()
     global LocalizeMasterDatabase
     if LocalizeMasterDatabase === nothing
-        LocalizeMasterDatabase = JSON.parsefile("$DataDir/Localize/RemoteLocalizeFileList.json")
+        LocalizeMasterDatabase = JSON.parsefile(fetchDataFilepath("Localize/RemoteLocalizeFileList.json"))
     end
     return LocalizeMasterDatabase
 end
@@ -46,7 +59,7 @@ StaticMasterDatabase = nothing
 function getStaticDataInfo()
     global StaticMasterDatabase
     if StaticMasterDatabase === nothing
-        StaticMasterDatabase = readDataFile("$DataDir/StaticData/static-data/static-data-info.json")
+        StaticMasterDatabase = readDataFile(fetchDataFilepath("StaticData/static-data/static-data-info.json"))
     end
     return StaticMasterDatabase
 end
@@ -113,7 +126,7 @@ function StaticData(Name)
         return StaticDatabase[Name]
     end
     
-    filePath = "$DataDir/StaticData/static-data/" * Name * ".json"
+    filePath = fetchDataFilepath("StaticData/static-data/" * Name * ".json")
     try
         global StaticDatabase[Name] = readDataFile(filePath)
     catch ex

@@ -249,6 +249,331 @@
           "value": 1
         }
       ]
+    },
+    {
+      "id": "MDcFaBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffStackAdder",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "stack": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffStackAdder",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "stack": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffStackAdder",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "stack": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffStackAdder",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "stack": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBe",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffStackAdder",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "stack": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBf",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "atk": "SLASH",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBg",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "atk": "PENETRATE",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBh",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "atk": "HIT",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "CRIMSON",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "SCARLET",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "AMBER",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "SHAMROCK",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBe",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "AZURE",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBf",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "INDIGO",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBg",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AttributeResistExcept",
+          "attribute": "VIOLET",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDcFbBh",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "MaxHpMultiplier",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SlotWeightAdder",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "RecoverAbnormalitySelfHpOnSucceedAttackByDmg",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveAbsMpDmgTargetOnSAOnEnemy",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBe",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStartIfGiveHpDmgToEnemyPrevTurn",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBf",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "GiveBuffOnRoundStartIfNotTakeHpDmgFromEnemyPrevTurn",
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBg",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStackIfOneSideAttack",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "MDcFcBh",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "ParryingResultAdderAsStack",
+          "value": 1
+        }
+      ]
     }
   ]
 }

@@ -507,6 +507,12 @@
       "condition": "GetPersonality",
       "conditionRefId": 10107,
       "sortingOrder": 1
+    },
+    {
+      "id": 100,
+      "condition": "GetEGO",
+      "conditionRefId": 20905,
+      "sortingOrder": 1
     }
   ]
 }

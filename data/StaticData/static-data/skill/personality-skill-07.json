@@ -2857,7 +2857,7 @@
               "scriptName": "CoinScaleAdder1IfARNotLessThan_VIOLET4"
             },
             {
-              "scriptName": "CoinScaleAdder1IfPRNotLessThan_VIOLET6"
+              "scriptName": "CoinScaleAdder1IfPRSumNotLessThan_VIOLET6"
             }
           ],
           "coinList": [

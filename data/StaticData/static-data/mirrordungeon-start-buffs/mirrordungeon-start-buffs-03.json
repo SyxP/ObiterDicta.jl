@@ -1,0 +1,190 @@
+{
+  "list": [
+    {
+      "dungeonId": 3,
+      "maxchip": 9999,
+      "buffs": [
+        {
+          "id": 101,
+          "iconType": "SPECIAL",
+          "required": [],
+          "cost": 100,
+          "localizeId": "mirror_dungeon_3_buffs_title_1",
+          "effects": [
+            {
+              "type": "ADDITIONAL_3_TIER_START_EGO_GIFT_CHANCE",
+              "value": 1,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_1"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "iconType": "SPECIAL",
+          "required": [101],
+          "cost": 150,
+          "localizeId": "mirror_dungeon_3_buffs_title_2",
+          "effects": [
+            {
+              "type": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
+              "value": 1,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_2"
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "iconType": "SPECIAL",
+          "required": [101],
+          "cost": 200,
+          "localizeId": "mirror_dungeon_3_buffs_title_3",
+          "effects": [
+            {
+              "type": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
+              "value": 1,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_3"
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "iconType": "SPECIAL",
+          "required": [102],
+          "cost": 250,
+          "localizeId": "mirror_dungeon_3_buffs_title_4",
+          "effects": [
+            {
+              "type": "ADDITIONAL_START_EGO_GIFT_SLOT",
+              "value": 1,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_4"
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "iconType": "COST",
+          "required": [103, 104],
+          "cost": 250,
+          "localizeId": "mirror_dungeon_3_buffs_title_5",
+          "effects": [
+            {
+              "type": "ADDITIONAL_START_COST",
+              "value": 50,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_5"
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "iconType": "SPECIAL",
+          "required": [105],
+          "cost": 250,
+          "localizeId": "mirror_dungeon_3_buffs_title_6",
+          "effects": [
+            {
+              "type": "ADDITIONAL_EGO_GIFT_CHANCE",
+              "value": 3,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_6"
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "iconType": "COST",
+          "required": [106],
+          "cost": 300,
+          "localizeId": "mirror_dungeon_3_buffs_title_7",
+          "effects": [
+            {
+              "type": "ADDITIONAL_BATTLE_WIN_COST_RATE",
+              "value": 10,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_7"
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "iconType": "SPECIAL",
+          "required": [107],
+          "cost": 300,
+          "localizeId": "mirror_dungeon_3_buffs_title_8",
+          "effects": [
+            {
+              "type": "ADDITIONAL_START_EGO_GIFT_SELECT",
+              "value": 1,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_8"
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "iconType": "COST",
+          "required": [108],
+          "cost": 200,
+          "localizeId": "mirror_dungeon_3_buffs_title_9",
+          "effects": [
+            {
+              "type": "REDUCE_SHOP_REFRESH_EGO_GIFT_COST_RATE",
+              "value": 20,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_9"
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "iconType": "COST",
+          "required": [108],
+          "cost": 300,
+          "localizeId": "mirror_dungeon_3_buffs_title_10",
+          "effects": [
+            {
+              "type": "REDUCE_UPGRADE_EGO_GIFT_COST",
+              "value": 20,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_10"
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "iconType": "COST",
+          "required": [110],
+          "cost": 300,
+          "localizeId": "mirror_dungeon_3_buffs_title_11",
+          "effects": [
+            {
+              "type": "INCREASE_SHOP_SELL_EGO_GIFT_COST_RATE",
+              "value": 20,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_11"
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "iconType": "COST",
+          "required": [109, 111],
+          "cost": 400,
+          "localizeId": "mirror_dungeon_3_buffs_title_12",
+          "effects": [
+            {
+              "type": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE",
+              "value": 15,
+              "isTypoExist": false,
+              "typoName": "mirror_dungeon_3_buffs_title_12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,5 +36,7 @@
   "isCompareCatalogHashSteam": true,
   "isCompareCatalogHashIOS": false,
   "isCompareCatalogHashAndroid": true,
-  "isClosableAPIActivated": true
+  "isClosableAPIActivated": true,
+  "isAllowToRedefineEgoIndex": true,
+  "isAllowToSendUUID": true
 }

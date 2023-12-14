@@ -1,0 +1,51 @@
+{
+  "list": [
+    {
+      "chapterId": 1,
+      "subchapterId": 103,
+      "unlockCondition": {
+        "unlockCode": 102
+      },
+      "illustSprName": "103",
+      "region": "k",
+      "sprName": "chapter3",
+      "subChapterNumber": "3"
+    },
+    {
+      "chapterId": 91,
+      "subchapterId": 9103,
+      "unlockCondition": {
+        "unlockCode": 103
+      },
+      "illustSprName": "9103",
+      "region": "k",
+      "sprName": "hells-chicken",
+      "subChapterNumber": "3.5"
+    },
+    {
+      "chapterId": 1,
+      "subchapterId": 104,
+      "unlockCondition": {
+        "unlockCode": 9103
+      },
+      "subchapterdetailList": [
+        {
+          "idx": 0,
+          "openDate": "2023-11-16T03:00:00.000Z"
+        },
+        {
+          "idx": 1,
+          "openDate": "2023-11-23T03:00:00.000Z"
+        },
+        {
+          "idx": 2,
+          "openDate": "2023-11-30T03:00:00.000Z"
+        }
+      ],
+      "illustSprName": "104",
+      "region": "k",
+      "sprName": "chapter4",
+      "subChapterNumber": "4"
+    }
+  ]
+}

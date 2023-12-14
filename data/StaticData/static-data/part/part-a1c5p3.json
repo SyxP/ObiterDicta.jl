@@ -1276,6 +1276,80 @@
           "nextSubchapterid": -1,
           "lastnodeid": 10539
         }
+      ],
+      "subchapterUIList": [
+        {
+          "chapterId": 1,
+          "subchapterId": 100,
+          "type": "main"
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 101,
+          "type": "main"
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 102,
+          "type": "main"
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 103,
+          "type": "main"
+        },
+        {
+          "chapterId": 91,
+          "subchapterId": 9103,
+          "type": "sub",
+          "relatedEventId": "HellsChicken"
+        },
+        {
+          "subchapterId": 9010,
+          "storyIdInTheaterData": 1,
+          "type": "mini_story"
+        },
+        {
+          "subchapterId": 9010,
+          "storyIdInTheaterData": 2,
+          "type": "mini_story"
+        },
+        {
+          "subchapterId": 9010,
+          "storyIdInTheaterData": 3,
+          "type": "mini_story"
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 104,
+          "type": "main"
+        },
+        {
+          "chapterId": 91,
+          "subchapterId": 9104,
+          "type": "sub",
+          "relatedEventId": "Umida"
+        },
+        {
+          "subchapterId": 9011,
+          "storyIdInTheaterData": 1,
+          "type": "mini_story"
+        },
+        {
+          "subchapterId": 9011,
+          "storyIdInTheaterData": 2,
+          "type": "mini_story"
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 105,
+          "type": "main"
+        },
+        {
+          "subchapterId": 9012,
+          "storyIdInTheaterData": 1,
+          "type": "mini_story"
+        }
       ]
     },
     {

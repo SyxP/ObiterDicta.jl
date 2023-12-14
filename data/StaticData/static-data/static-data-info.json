@@ -37,7 +37,8 @@
                 "abnormality-part91-4",
                 "abnormality-part-a1c5p1",
                 "abnormality-part-a1c5p2",
-                "abnormality-part-a1c5p3"
+                "abnormality-part-a1c5p3",
+                "abnormality-refraction3-part"
             ]
         },
         {
@@ -50,7 +51,8 @@
                 "abnormality-unit91-4",
                 "abnormality-unit-a1c5p1",
                 "abnormality-unit-a1c5p2",
-                "abnormality-unit-a1c5p3"
+                "abnormality-unit-a1c5p3",
+                "abnormality-refraction3-unit"
             ]
         },
         {
@@ -156,6 +158,7 @@
             "fileList": [
                 "ego-gift-mirrordungeon",
                 "ego-gift-mirrordungeon2",
+                "ego-gift-mirrordungeon3",
                 "hidden-ego-gift-mirrordungeon"
             ]
         },
@@ -166,7 +169,8 @@
                 "enemy91-4",
                 "enemy-a1c5p1",
                 "enemy-a1c5p2",
-                "enemy-a1c5p3"
+                "enemy-a1c5p3",
+                "enemy-mirrordungeon3"
             ]
         },
         {
@@ -195,7 +199,9 @@
                 "gacha-142",
                 "gacha-143",
                 "gacha-144",
-                "gacha-145"
+                "gacha-145",
+                "gacha-146",
+                "gacha-147"
             ]
         },
         {
@@ -352,11 +358,13 @@
             "dataClass": "battle-mirrordungeon",
             "fileList": [
                 "mirrordungeon-battle1-1",
-                "mirrordungeon-abbattle1-1",
                 "mirrordungeon-battle2-0",
-                "mirrordungeon-abbattle2-0",
                 "mirrordungeon-battle2-1",
-                "mirrordungeon-abbattle2-1"
+                "mirrordungeon-battle3-0",
+                "mirrordungeon-abbattle1-1",
+                "mirrordungeon-abbattle2-0",
+                "mirrordungeon-abbattle2-1",
+                "mirrordungeon-abbattle3-0"
             ]
         },
         {
@@ -449,17 +457,13 @@
         {
             "dataClass": "mirrordungeon",
             "fileList": [
-                "mirrordungeon-01",
-                "mirrordungeon-02",
-                "mirrordungeon-02-hard"
+                "mirrordungeon-03"
             ]
         },
         {
             "dataClass": "mirrordungeon-encounterinfo",
             "fileList": [
-                "mirrordungeon-encounterinfos-01",
-                "mirrordungeon-encounterinfos-02-normal",
-                "mirrordungeon-encounterinfos-02-hard"
+                "mirrordungeon-encounterinfos-03-normal"
             ]
         },
         {
@@ -510,7 +514,8 @@
                 "storytheater-other-9103",
                 "storytheater-other-9104",
                 "storytheater-other-9010",
-                "storytheater-other-9011"
+                "storytheater-other-9011",
+                "storytheater-other-9012"
             ]
         },
         {
@@ -537,19 +542,14 @@
         {
             "dataClass": "mirrordungeon-egogift-droppool",
             "fileList": [
-                "mirrordungeon-egogift-droppool",
-                "mirrordungeon-egogift-droppool-2"
+                "mirrordungeon-egogift-droppool-3"
             ]
         },
         {
             "dataClass": "mirrordungeon-generatenodepool",
             "fileList": [
-                "mirrordungeon-generatenodepool-1-1",
-                "mirrordungeon-generatenodepool-event-1-1",
-                "mirrordungeon-generatenodepool-2-0",
-                "mirrordungeon-generatenodepool-event-2-0",
-                "mirrordungeon-generatenodepool-2-1",
-                "mirrordungeon-generatenodepool-event-2-1"
+                "mirrordungeon-generatenodepool-3-0",
+                "mirrordungeon-generatenodepool-event-3-0"
             ]
         },
         {
@@ -884,15 +884,13 @@
         {
             "dataClass": "mirrordungeon-start-buffs",
             "fileList": [
-                "mirrordungeon-start-buffs-02"
+                "mirrordungeon-start-buffs-03"
             ]
         },
         {
             "dataClass": "mirrordungeon-acquire-cost-in-battle",
             "fileList": [
-                "mirrordungeon-acquire-cost-in-battle-1-0",
-                "mirrordungeon-acquire-cost-in-battle-2-0",
-                "mirrordungeon-acquire-cost-in-battle-2-1"
+                "mirrordungeon-acquire-cost-in-battle-3-0"
             ]
         },
         {
@@ -916,9 +914,7 @@
         {
             "dataClass": "event",
             "fileList": [
-              "daily-login-event-230907",
-              "daily-login-event-2301026_Halloween",
-              "daily-login-event-2301118_7thAnniversary"
+              
             ]
         },
         {
@@ -961,6 +957,12 @@
             "dataClass": "story-dungeon-map-text",
             "fileList": [
               "story-dungeon-map-text"
+            ]
+        },
+        {
+            "dataClass": "mirror-dungeon-common-data",
+            "fileList": [
+              "mirror-dungeon-common-data"
             ]
         }
     ]

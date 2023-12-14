@@ -919,7 +919,10 @@
                   "scriptName": "1060302_3"
                 },
                 {
-                  "scriptName": "AttackDmgUpByRatio50IfReuseSkillHead"
+                  "scriptName": "AttackDmgUpByRatio50IfHead"
+                },
+                {
+                  "scriptName": "AttackDmgUpByRatio50IfReuseCoinHead"
                 }
               ]
             }

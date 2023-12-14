@@ -701,7 +701,7 @@
           "gaksungLevel": 3,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderOneOnRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnRC_SCARLET4"
             }
           ],
           "coinList": [
@@ -739,10 +739,10 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderOneOnRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnRC_SCARLET4"
             },
             {
-              "scriptName": "TargetNumAdderOneOnPRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnPRMaxC_SCARLET4"
             }
           ],
           "coinList": [
@@ -858,7 +858,7 @@
           "gaksungLevel": 3,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderOneOnRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnRC_SCARLET4"
             }
           ],
           "coinList": [
@@ -907,10 +907,10 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderOneOnRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnRC_SCARLET4"
             },
             {
-              "scriptName": "TargetNumAdderOneOnPRC_SCARLET4"
+              "scriptName": "TargetNumAdder1OnPRMaxC_SCARLET4"
             }
           ],
           "coinList": [

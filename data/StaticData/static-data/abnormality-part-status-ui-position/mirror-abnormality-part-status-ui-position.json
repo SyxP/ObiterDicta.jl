@@ -214,13 +214,13 @@
       "id": 8089,
       "partPositionDatas": [
         {
-          "id": 808901,
+          "id": 804701,
           "offsetX": 400.0,
           "offsetY": 150.0,
           "lineDirection": "LEFT"
         },
         {
-          "id": 808902,
+          "id": 804702,
           "offsetX": -200.0,
           "offsetY": 200.0,
           "lineDirection": "RIGHT"

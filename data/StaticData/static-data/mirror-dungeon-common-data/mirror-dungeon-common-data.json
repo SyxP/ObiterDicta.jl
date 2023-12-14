@@ -1,0 +1,201 @@
+{
+	"egoGiftUpgradeCostTable": {
+		"table": [
+			{
+				"tier": 1,
+				"cost": [
+					80,
+					160
+				]
+			},
+			{
+				"tier": 2,
+				"cost": [
+					100,
+					200
+				]
+			},
+			{
+				"tier": 3,
+				"cost": [
+					125,
+					250
+				]
+			},
+			{
+				"tier": 4,
+				"cost": [
+					160,
+					320
+				]
+			},
+			{
+				"tier": 5,
+				"cost": [
+					200,
+					400
+				]
+			}
+		]
+	},
+	"selectNewStartEgoGiftCategoryChip": 12,
+	"egoGiftCombineTierTable": {
+		"maximumAvailableTier": 3,
+		"combineTwo": [
+			{
+				"aTier": 1,
+				"bTier": 1,
+				"mismatchedAttributeResult": 1,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 2,
+				"mismatchedAttributeResult": 1,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 3,
+				"mismatchedAttributeResult": 2,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 2,
+				"bTier": 2,
+				"matchedAttributeResult": 2,
+				"mismatchedAttributeResult": 2
+			},
+			{
+				"aTier": 2,
+				"bTier": 3,
+				"matchedAttributeResult": 2,
+				"mismatchedAttributeResult": 2
+			},
+			{
+				"aTier": 3,
+				"bTier": 3,
+				"mismatchedAttributeResult": 3,
+				"matchedAttributeResult": 3
+			}
+		],
+		"combineThree": [
+			{
+				"aTier": 1,
+				"bTier": 1,
+				"cTier": 1,
+				"mismatchedAttributeResult": 1,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 1,
+				"cTier": 2,
+				"mismatchedAttributeResult": 1,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 1,
+				"cTier": 3,
+				"mismatchedAttributeResult": 2,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 2,
+				"cTier": 2,
+				"mismatchedAttributeResult": 2,
+				"matchedAttributeResult": 2
+			},
+			{
+				"aTier": 1,
+				"bTier": 2,
+				"cTier": 3,
+				"mismatchedAttributeResult": 2,
+				"matchedAttributeResult": 3
+			},
+			{
+				"aTier": 1,
+				"bTier": 3,
+				"cTier": 3,
+				"mismatchedAttributeResult": 3,
+				"matchedAttributeResult": 3
+			},
+			{
+				"aTier": 2,
+				"bTier": 2,
+				"cTier": 2,
+				"mismatchedAttributeResult": 3,
+				"matchedAttributeResult": 3
+			},
+			{
+				"aTier": 2,
+				"bTier": 2,
+				"cTier": 3,
+				"mismatchedAttributeResult": 3,
+				"matchedAttributeResult": 3
+			},
+			{
+				"aTier": 2,
+				"bTier": 3,
+				"cTier": 3,
+				"mismatchedAttributeResult": 3,
+				"matchedAttributeResult": 4
+			},
+			{
+				"aTier": 3,
+				"bTier": 3,
+				"cTier": 3,
+				"mismatchedAttributeResult": 4,
+				"matchedAttributeResult": 4
+			}
+		]
+	},
+	"egoGiftCombineFixedTable": {
+		"combineFixed": [
+			{
+				"aEgoGiftId": 9003,
+				"bEgoGiftId": 9053,
+				"resultEgoGiftId": 9088
+			},
+			{
+				"aEgoGiftId": 9042,
+				"bEgoGiftId": 9089,
+				"resultEgoGiftId": 9090
+			},
+			{
+				"aEgoGiftId": 9031,
+				"bEgoGiftId": 9091,
+				"resultEgoGiftId": 9092
+			},
+			{
+				"aEgoGiftId": 9013,
+				"bEgoGiftId": 9033,
+				"resultEgoGiftId": 9094
+			},
+			{
+				"aEgoGiftId": 9059,
+				"bEgoGiftId": 9074,
+				"resultEgoGiftId": 9096
+			},
+			{
+				"aEgoGiftId": 9056,
+				"bEgoGiftId": 9097,
+				"resultEgoGiftId": 9098
+			},
+			{
+				"aEgoGiftId": 9069,
+				"bEgoGiftId": 9099,
+				"resultEgoGiftId": 9100
+			}
+		]
+	},
+	"maxRestingCountForPersonality": 5,
+	"additionalCostForPersonalityRank": [ 25, 25, 0 ],
+	"additionalCostForNotFormerlyUsedPersonality": 25,
+	"additionalChipForFullRestPersonality": [ 0, 1, 2, 3, 4, 5 ],
+	"shopRefreshCostPerCount": 25,
+	"acquireChipPerFloor": [ 5, 10, 15, 25, 40 ],
+	"startRestingCount": 0
+}

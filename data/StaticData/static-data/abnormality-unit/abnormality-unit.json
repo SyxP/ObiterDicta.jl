@@ -11535,7 +11535,7 @@
     {
       "id": 8034,
       "appearance": "8034_Chicken_NormalAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BONGE_CHICKEN" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11573,7 +11573,7 @@
     {
       "id": 8035,
       "appearance": "8035_Chicken_SeasoningAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BONGE_CHICKEN" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11610,7 +11610,7 @@
     {
       "id": 8036,
       "appearance": "8036_Chicken_SoyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BONGE_CHICKEN" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11687,7 +11687,7 @@
     {
       "id": 8037,
       "appearance": "8037_Chicken_EliteAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BONGE_CHICKEN" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",

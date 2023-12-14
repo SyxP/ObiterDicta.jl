@@ -1,0 +1,94 @@
+{
+  "list": [
+    {
+      "subchapterId": 103,
+      "nodeId": 10301,
+      "stageNodeType": "STORY",
+      "stageId": 10301,
+
+      "posx": 1348,
+      "posy": 2765,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10302,
+      "stageNodeType": "NORMAL",
+      "stageId": 10302,
+
+      "posx": 2706,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10303,
+      "stageNodeType": "STORY",
+      "stageId": 10303,
+
+      "posx": 3860,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910301,
+      "stageNodeType": "NORMAL",
+      "stageId": 910301,
+
+      "posx": 1000,
+      "posy": 1007,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910302,
+      "stageNodeType": "NORMAL",
+      "stageId": 910302,
+
+      "posx": 2700,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910303,
+      "stageNodeType": "NORMAL",
+      "stageId": 910303,
+
+      "posx": 4200,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10401,
+      "stageNodeType": "STORY",
+      "stageId": 10401,
+
+      "posx": 683,
+      "posy": 1809,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10402,
+      "stageNodeType": "NORMAL",
+      "stageId": 10002,
+
+      "posx": 1490,
+      "posy": 1809,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10403,
+      "stageNodeType": "NORMAL",
+      "stageId": 10403,
+
+      "posx": 2293,
+      "posy": 1809,
+      "upper": 0
+    }
+  ]
+}

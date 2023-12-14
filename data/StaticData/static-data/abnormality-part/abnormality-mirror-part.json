@@ -3153,7 +3153,7 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 1
+            "value": 0.5
           },
           {
             "type": "PENETRATE",
@@ -3161,17 +3161,17 @@
           },
           {
             "type": "HIT",
-            "value": 1
+            "value": 2
           }
         ],
         "attributeResistList": [
           {
             "type": "CRIMSON",
-            "value": 0.75
+            "value": 1.5
           },
           {
             "type": "SCARLET",
-            "value": 0.75
+            "value": 0.5
           },
           {
             "type": "AMBER",
@@ -3179,11 +3179,11 @@
           },
           {
             "type": "SHAMROCK",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "AZURE",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "INDIGO",
@@ -3195,11 +3195,11 @@
           },
           {
             "type": "WHITE",
-            "value": 0.75
+            "value": 2
           },
           {
             "type": "BLACK",
-            "value": 0.75
+            "value": 2
           }
         ]
       },
@@ -3249,17 +3249,17 @@
           },
           {
             "type": "HIT",
-            "value": 1
+            "value": 2
           }
         ],
         "attributeResistList": [
           {
             "type": "CRIMSON",
-            "value": 0.75
+            "value": 1.5
           },
           {
             "type": "SCARLET",
-            "value": 0.75
+            "value": 0.5
           },
           {
             "type": "AMBER",
@@ -3267,7 +3267,7 @@
           },
           {
             "type": "SHAMROCK",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "AZURE",
@@ -3275,19 +3275,19 @@
           },
           {
             "type": "INDIGO",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "VIOLET",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "WHITE",
-            "value": 0.75
+            "value": 2
           },
           {
             "type": "BLACK",
-            "value": 0.75
+            "value": 2
           }
         ]
       },
@@ -3327,7 +3327,7 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 1
+            "value": 2
           },
           {
             "type": "PENETRATE",
@@ -3335,17 +3335,17 @@
           },
           {
             "type": "HIT",
-            "value": 1
+            "value": 1.5
           }
         ],
         "attributeResistList": [
           {
             "type": "CRIMSON",
-            "value": 0.75
+            "value": 1.5
           },
           {
             "type": "SCARLET",
-            "value": 0.75
+            "value": 0.5
           },
           {
             "type": "AMBER",
@@ -3353,7 +3353,7 @@
           },
           {
             "type": "SHAMROCK",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "AZURE",
@@ -3361,19 +3361,19 @@
           },
           {
             "type": "INDIGO",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "VIOLET",
-            "value": 0.75
+            "value": 1
           },
           {
             "type": "WHITE",
-            "value": 0.75
+            "value": 2
           },
           {
             "type": "BLACK",
-            "value": 0.75
+            "value": 2
           }
         ]
       },

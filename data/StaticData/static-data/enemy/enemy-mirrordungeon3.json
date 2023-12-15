@@ -13735,9 +13735,10 @@
                 ]
             },
             "startActionSlotNumList": [
+                2,
                 3,
                 3,
-                4
+                5
             ],
             "maxActionSlotNum": 5,
             "attributeList": [

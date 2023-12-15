@@ -10,8 +10,8 @@
       "classType": "ZAYIN",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 653,
-        "incrementByLevel": 22.5
+        "defaultStat": 626,
+        "incrementByLevel": 14.85
       },
       "patternID": "CryingToad",
       "startActionSlotNum": 1,
@@ -825,8 +825,8 @@
       "classType": "HE",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 561,
-        "incrementByLevel": 38.71
+        "defaultStat": 400,
+        "incrementByLevel": 30.5
       },
       "patternID": "KQE",
       "startActionSlotNum": 1,
@@ -1182,8 +1182,8 @@
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 130,
-        "incrementByLevel": 6.73
+        "defaultStat": 104,
+        "incrementByLevel": 5.38
       },
       "patternID": "KQE_Arm",
       "startActionSlotNum": 1,
@@ -1626,8 +1626,8 @@
         8083
       ],
       "hp": {
-        "defaultStat": 235,
-        "incrementByLevel": 16.21
+        "defaultStat": 159,
+        "incrementByLevel": 11.673
       },
       "startActionSlotNum": 4,
       "maxActionSlotNum": 4,
@@ -2027,8 +2027,8 @@
       "classType": "HE",
       "attributeType": "SCARLET",
       "hp": {
-        "defaultStat": 326,
-        "incrementByLevel": 27
+        "defaultStat": 261,
+        "incrementByLevel": 21.6
       },
       "startActionSlotNum": 5,
       "maxActionSlotNum": 5,
@@ -2492,8 +2492,8 @@
       "classType": "HE",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 548,
-        "incrementByLevel": 41.54
+        "defaultStat": 394,
+        "incrementByLevel": 29.907
       },
       "patternID": "WaterFish_Mirror",
       "abnormalityPartList": [
@@ -3908,8 +3908,8 @@
       "classType": "HE",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 548,
-        "incrementByLevel": 41.54
+        "defaultStat": 394,
+        "incrementByLevel": 29.907
       },
       "startActionSlotNum": 2,
       "maxActionSlotNum": 2,
@@ -4526,8 +4526,8 @@
       "classType": "HE",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 495,
-        "incrementByLevel": 44.38
+        "defaultStat": 320,
+        "incrementByLevel": 33
       },
       "abnormalityPartList": [
         808601,
@@ -5212,8 +5212,8 @@
       "classType": "HE",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 548,
-        "incrementByLevel": 45.31
+        "defaultStat": 372,
+        "incrementByLevel": 32
       },
       "abnormalityPartList": [
         808701,
@@ -5602,8 +5602,8 @@
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 53,
-        "incrementByLevel": 1.09
+        "defaultStat": 42,
+        "incrementByLevel": 0.1
       },
       "patternID": "AutoPick",
       "startActionSlotNum": 1,
@@ -5907,8 +5907,8 @@
       "classType": "TETH",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 521,
-        "incrementByLevel": 40.96
+        "defaultStat": 480,
+        "incrementByLevel": 33.5
       },
       "abnormalityPartList": [
         809001,
@@ -6276,8 +6276,8 @@
       "classType": "TETH",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 521,
-        "incrementByLevel": 39.55
+        "defaultStat": 520,
+        "incrementByLevel": 35.5
       },
       "abnormalityPartList": [
         809201,
@@ -6642,8 +6642,8 @@
       "classType": "TETH",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 118,
-        "incrementByLevel": 8.91
+        "defaultStat": 94,
+        "incrementByLevel": 7.13
       },
       "abnormalityPartList": [
         809301
@@ -6916,8 +6916,8 @@
       "classType": "TETH",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 411,
-        "incrementByLevel": 42.5
+        "defaultStat": 320,
+        "incrementByLevel": 33.5
       },
       "patternID": "8041",
       "abnormalityPartList": [

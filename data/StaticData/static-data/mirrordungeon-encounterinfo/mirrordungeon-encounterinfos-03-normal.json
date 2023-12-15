@@ -41,7 +41,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.5,
+                  "probability": 0.75,
                   "showNumber": 1,
                   "selectNumber": 1
                 }
@@ -52,7 +52,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.5,
+                  "probability": 0.75,
                   "showNumber": 1,
                   "selectNumber": 1
                 }
@@ -63,7 +63,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.5,
+                  "probability": 0.75,
                   "showNumber": 1,
                   "selectNumber": 1
                 }
@@ -79,7 +79,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.25,
+                  "probability": 1,
                   "showNumber": 1,
                   "selectNumber": 1
                 }
@@ -90,7 +90,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.25,
+                  "probability": 1,
                   "showNumber": 1,
                   "selectNumber": 1
                 }
@@ -101,7 +101,7 @@
               "rewardList": [
                 {
                   "type": "GetEgogift",
-                  "probability": 0.25,
+                  "probability": 1,
                   "showNumber": 1,
                   "selectNumber": 1
                 }

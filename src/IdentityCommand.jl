@@ -517,7 +517,7 @@ function constructFilter(::Type{Personality}, input)
                                         (r"^(.*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
                                         (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
                                         (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]es(on)?(anance)?$", SinnerPassiveResonFilter, [2]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=]((is)?[sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?([sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
                                         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
                                         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3])]
         S = match(myRegex, input)

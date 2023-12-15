@@ -277,10 +277,10 @@ function getPassivePanel(ego :: EGO, threadspin; verbose = false)
     return vstack(Panels...)
 end
 
-function getFullPanel(ego :: EGO, threadspin = getMaxThreadspin(EGO); verbose = false)
+function getFullPanel(ego :: EGO, threadspin = getMaxThreadspin(EGO); verbose = false, showSkills = true, showPassives = true)
     Ans = getTopPanel(ego, threadspin; verbose)
-    Ans /= getSkillPanel(ego, threadspin; verbose)
-    Ans /= getPassivePanel(ego, threadspin; verbose)
+    showSkills && (Ans /= getSkillPanel(ego, threadspin; verbose))
+    showPassives && (Ans /= getPassivePanel(ego, threadspin; verbose))
 
     return Ans
 end

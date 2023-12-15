@@ -11,9 +11,11 @@ function PersonalityHelp()
               !i/!internal - Only performs the query on internal identity names.
               !ut_num_     - Sets the uptie at _num_. Without this, it is set to the maximum possible.
               !level_num_  - Sets the offense level at _num_. (!lvl is equivalent)
+              !s/!succint  - Only show the ID panel. You can also !hide-skills, !hide-passives.
               [_filter_]   - Filter the list of identities
 
               After (*), `id _number_` will directly output the corresponding identity.
+              !hide-skills, !hide-passives and !succint will decrease print less output. 
               To see available filters, use `id filters help`.
               Example usage:
               `id !i 10101 !ut1 !olvl40` - Outputs the internal identity with ID 10101 Uptie 1 and Level 40.
@@ -102,6 +104,8 @@ function PersonalityParser(input)
     Level = getMaxLevel(Personality)
     pFilters = PersonalityFilter[]
     ExactNumber = true
+    ShowSkills = true
+    ShowPassives = true
 
     Applications = Dict{Regex, Function}()
     Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true; ExactNumber = false)
@@ -114,6 +118,9 @@ function PersonalityParser(input)
     Applications[r"^![lL]evel([0-9]+)$"] = (x) -> (Level = parse(Int, x))
     Applications[r"^![uU]ptie([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![uU][tT]([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
+    Applications[r"^![sS](uccint)?$"] = (_) -> (ShowSkills = false; ShowPassives = false)
+    Applications[r"^![hH]ide-?[pP](assives?)?$"] = (_) -> (ShowPassives = false)
+    Applications[r"^![hH]ide-?[sS](kills?)?$"] = (_) -> (ShowSkills = false)
     Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(Personality, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
@@ -123,7 +130,7 @@ function PersonalityParser(input)
 
     S = match(r"^([0-9]+)$", newQuery)
     if S !== nothing && ExactNumber
-        return printPersonalityExactNumberInput(newQuery, Tier, Level, Verbose)
+        return printPersonalityExactNumberInput(newQuery, Tier, Level, Verbose; showSkills = ShowSkills, showPassives = ShowPassives)
     end
 
     (length(PersonalitySearchList) == 0) && (PersonalitySearchList = getMasterList(Personality))
@@ -150,7 +157,8 @@ function PersonalityParser(input)
         end
     end
 
-    TopNumber == 1 && return searchSinglePersonality(newQuery, HaystackPersonality, Tier, Level, Verbose)
+    TopNumber == 1 && return searchSinglePersonality(newQuery, HaystackPersonality, Tier, Level, 
+                                                     Verbose; showSkills = ShowSkills, showPassives = ShowPassives)
     return searchTopPersonality(newQuery, HaystackPersonality, TopNumber, Tier)
 end
 
@@ -603,8 +611,8 @@ end
 
 # Printing and Searching
 
-function printSingle(myID :: Personality, tier, level, verbose)
-    println(getFullPanel(myID, level, tier; verbose = verbose))
+function printSingle(myID :: Personality, tier, level, verbose; showSkills = true, showPassives = true)
+    println(getFullPanel(myID, level, tier; verbose = verbose, showSkills = showSkills, showPassives = showPassives))
     return myID
 end
 
@@ -616,7 +624,7 @@ function printRandom(::Type{Personality}, verbose)
     return randID
 end
 
-function searchSinglePersonality(query, haystack, tier, level, verbose)
+function searchSinglePersonality(query, haystack, tier, level, verbose; showSkills = true, showPassives = true)
     print("Using $(@red(query)) as query")
     AddParams = String[]
     tier !== getMaxUptie(Personality) && push!(AddParams, "Uptie: $(@red(string(tier)))")
@@ -626,7 +634,7 @@ function searchSinglePersonality(query, haystack, tier, level, verbose)
     println(".")
 
     result = SearchClosestString(query, haystack)[1][2]
-    printSingle(result, tier, level, verbose)
+    printSingle(result, tier, level, verbose; showSkills = showSkills, showPassives = showPassives)
     return result
 end
 
@@ -687,7 +695,7 @@ function printPersonalityFromJSON(input)
     return printPersonalityFromJSONInternal(result[begin][begin])
 end
 
-function printPersonalityExactNumberInput(num, uptie, level, verbose)
+function printPersonalityExactNumberInput(num, uptie, level, verbose; showSkills = true, showPassives = true)
     global PersonalityPreviousSearchResult
     if length(PersonalityPreviousSearchResult) == 0
         @info "No previously search `identity list`."
@@ -701,6 +709,6 @@ function printPersonalityExactNumberInput(num, uptie, level, verbose)
         return -1
     end
 
-    return printSingle(PersonalityPreviousSearchResult[N],
-                       uptie, level, verbose)
+    return printSingle(PersonalityPreviousSearchResult[N], uptie, level, 
+                       verbose; showSkills = showSkills, showPassives = showPassives)
 end

@@ -370,12 +370,12 @@ function getPassivePanel(identity :: Personality, uptie)
 end
 
 function getFullPanel(identity :: Personality, level = getMaxLevel(Personality), 
-                      uptie = getMaxUptie(Personality); verbose = false)
+                      uptie = getMaxUptie(Personality); verbose = false, showSkills = true, showPassives = true)
     Ans = getTopPanel(identity, level, uptie; verbose)
-    Ans /= getAttackPanel(identity, level, uptie; verbose)
-    Ans /= getDefensePanel(identity, level, uptie; verbose)
+    showSkills && (Ans /= getAttackPanel(identity, level, uptie; verbose))
+    showSkills && (Ans /= getDefensePanel(identity, level, uptie; verbose))
     verbose && (Ans /= getPanicPanel(identity, level, uptie))
-    Ans /= getPassivePanel(identity, uptie)
+    showPassives && (Ans /= getPassivePanel(identity, uptie))
 
     return Ans
 end

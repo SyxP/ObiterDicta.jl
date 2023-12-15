@@ -9,6 +9,7 @@ function EGOHelp()
               !top_num_    - Outputs the top _num_ E.G.Os matching the query. Default is 5. (*)
               !i/!internal - Only performs the query on internal E.G.O names.
               !ts_num_     - Sets the threadspin at _num_. Without this, it is set to the maximum possible.
+              !s/!succint  - Only show the E.G.O panel. You can also !hide-skills, !hide-passives.
               [_filter_]   - Filter the list of E.G.Os
 
               After (*), `ego _number_` will directly output the corresponding E.G.O.
@@ -93,6 +94,8 @@ function EGOParser(input)
     Tier = getMaxThreadspin(EGO)
     pFilters = EGOFilter[]
     ExactNumber = true
+    ShowSkills = true
+    ShowPassives = true
 
     Applications = Dict{Regex, Function}()
     Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true; ExactNumber = false)
@@ -103,6 +106,9 @@ function EGOParser(input)
     Applications[r"^![tT]ier([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![tT]hreadspin([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
     Applications[r"^![tT][sS]([0-9]+)$"] = (x) -> (Tier = parse(Int, x))
+    Applications[r"^![sS](uccint)?$"] = (_) -> (ShowSkills = false; ShowPassives = false)
+    Applications[r"^![hH]ide-?[pP](assives?)?$"] = (_) -> (ShowPassives = false)
+    Applications[r"^![hH]ide-?[sS](kills?)?$"] = (_) -> (ShowSkills = false)
     Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(EGO, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
@@ -112,7 +118,7 @@ function EGOParser(input)
 
     S = match(r"^([0-9]+)$", newQuery)
     if S !== nothing && ExactNumber
-        return printEGOExactNumberInput(newQuery, Tier, Verbose)
+        return printEGOExactNumberInput(newQuery, Tier, Verbose; showSkills = ShowSkills, showPassives = ShowPassives)
     end
 
     (length(EGOSearchList) == 0) && (EGOSearchList = getMasterList(EGO))
@@ -139,7 +145,7 @@ function EGOParser(input)
         end
     end
 
-    TopNumber == 1 && return searchSingleEGO(newQuery, HaystackEGO, Tier, Verbose)
+    TopNumber == 1 && return searchSingleEGO(newQuery, HaystackEGO, Tier, Verbose; showSkills = ShowSkills, showPassives = ShowPassives)
     return searchTopEGO(newQuery, HaystackEGO, TopNumber, Tier)
 end
 
@@ -494,8 +500,8 @@ end
 
 # Printing and Searching
 
-function printSingle(myEGO :: EGO, threadspin, verbose)
-    println(getFullPanel(myEGO, threadspin; verbose = verbose))
+function printSingle(myEGO :: EGO, threadspin, verbose; showSkills = true, showPassives = true)
+    println(getFullPanel(myEGO, threadspin; verbose = verbose, showSkills = showSkills, showPassives = showPassives))
     return myEGO
 end
 
@@ -505,7 +511,7 @@ function printRandom(::Type{EGO}, verbose)
     return Ans
 end
 
-function searchSingleEGO(query, haystack, threadspin, verbose)
+function searchSingleEGO(query, haystack, threadspin, verbose; showSkills = true, showPassives = true)
     print("Using $(@red(query)) as query")
     AddParams = String[]
     threadspin != getMaxThreadspin(EGO) && push!(AddParams, "Threadspin: $(@red(string(threadspin)))")
@@ -514,7 +520,7 @@ function searchSingleEGO(query, haystack, threadspin, verbose)
     println(".")
 
     result = SearchClosestString(query, haystack)[1][2]
-    printSingle(result, threadspin, verbose)
+    printSingle(result, threadspin, verbose; showSkills = showSkills, showPassives = showPassives)
     return result
 end
 
@@ -575,7 +581,7 @@ function printEGOFromJSON(input)
     return printEGOFromJSONInternal(result[begin][begin])
 end
 
-function printEGOExactNumberInput(num, ts, verbose)
+function printEGOExactNumberInput(num, ts, verbose; showSkills = true, showPassives = true)
     global EGOPreviousSearchResult
     if length(EGOPreviousSearchResult) == 0
         @info "No previously search `ego list`."
@@ -589,5 +595,5 @@ function printEGOExactNumberInput(num, ts, verbose)
         return ""
     end
 
-    return printSingle(EGOPreviousSearchResult[N], ts, verbose)
+    return printSingle(EGOPreviousSearchResult[N], ts, verbose; showSkills = showSkills, showPassives = showPassives)
 end

@@ -23,6 +23,44 @@ function CheckCommand(CustomCommand :: Command, Query :: String)
     return false
 end
 
+function splitQuery(query)
+    parts = String[]
+    io = IOBuffer()
+    OpenParenthesis = 0
+    OpenBrackets = 0
+    for c in query
+        if c == '('
+            OpenParenthesis += 1
+        elseif c == ')'
+            OpenParenthesis -= 1
+        elseif c == '['
+            OpenBrackets += 1
+        elseif c == ']'
+            OpenBrackets -= 1
+        end
+            
+        if c == ' ' && OpenParenthesis == 0 && OpenBrackets == 0
+            S = strip(String(take!(io)))
+            match(r"^\s*$", S) !== nothing || push!(parts, S)
+        else
+            print(io, c)
+        end
+
+        if OpenBrackets < 0 || OpenParenthesis < 0
+            @info "Mismatched Brackets: Unable to parse $query"
+            return String[]
+        end
+    end
+    push!(parts, String(take!(io)))
+
+    if OpenParenthesis != 0 || OpenBrackets != 0
+        @info "Mismatched Brackets: Unable to parse $query"
+        return String[]
+    end
+
+    return parts
+end
+
 function parseQuery(query, flags)
     # flags is an array of regexs representing the flags
     # This locates all the substrings of query that are flags
@@ -31,7 +69,7 @@ function parseQuery(query, flags)
     # activeFlags is an array of (flag, tokens) that were found
     # Note: This takes O(query * flags) time. 
 
-    queryArr = split(query, r" ")
+    queryArr = splitQuery(query)
     activeFlags = Tuple{Regex, String}[]
     for flag in flags
         for (i, token) in enumerate(queryArr)

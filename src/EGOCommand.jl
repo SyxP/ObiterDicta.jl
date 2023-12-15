@@ -407,12 +407,12 @@ function constructFilter(::Type{EGO}, input)
                                         (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
                                         (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
                                         (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
-                                        (r"^(.*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
-                                        (r"^(.*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
-                                        (r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
-                                        (r"^(.*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
-                                        (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
-                                        (r"^(.*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3])]
+                                        (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
+                                        (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
+                                        (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
+                                        (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
+                                        (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
+                                        (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3])]
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

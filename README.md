@@ -4,7 +4,7 @@ This creates a Limbus Company REPL Mode.
  
 ## Installation
 
-1. Download Julia.
+1. Download Julia. (This is not compatable with the LTS version, please use the current stable release.)
 2. In Julia, enter `]add https://github.com/SyxP/ObiterDicta.jl` (or `]add https://limbus.wiki`)
 3. To run, in Julia mode (you should see `julia>`, if not press Backspace), enter `using ObiterDicta`. 
 4. You can now freely access the `Limbus Query>` mode via `)`. Use `help` to see the list of commands and 

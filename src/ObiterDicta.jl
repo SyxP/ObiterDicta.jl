@@ -122,6 +122,7 @@ module ObiterDicta
    
     include("CombatSkillStrings.jl")
     include("CombatSkillCommand.jl")
+    include("CombatSkillBuffs.jl")
 
     include("IdentityVoice.jl")
     include("IdentityStrings.jl")

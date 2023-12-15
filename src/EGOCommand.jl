@@ -43,9 +43,11 @@ function FilterHelp(::Type{EGO})
               [*:numCoins_op__num_]    - All (*) skill must have number of coins _op_ _num_.
               [*:weight_op__num_]      - All (*) skill must have weight _op_ _num_.
               [*:offCor_op__num_]      - All (*) skill must have offense correction _op_ _num_.
+              [*:†:_buff_]             - Any (*) (†) _buff_
               [fn:_FunName_]           - ⟨Adv⟩ Filters based on FunName(ego, ts). See `filtreg help`.
 
               * can be one of awake, corr, allSkills
+              † can be gains, gainsCount, gainsPot, inflicts, inflictsCount, inflictsPot or interacts
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
               [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
@@ -367,6 +369,51 @@ function EGOCostFilter(sinType, op = ">", num = "0")
     return EGOFilter(Fn, filterStr)
 end
 
+for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuffCount, "inflicts count of"),
+                                   (:EGOSkillInflictsBuffPotencyFilter, inflictBuffPotency, "inflicts potency of"),
+                                   (:EGOSkillInflictsBuffFilter, inflictBuff, "inflicts"),
+                                   (:EGOSkillGainsBuffCountFilter, gainsBuffCount, "gains count of"),
+                                   (:EGOSkillGainsBuffPotencyFilter, gainsBuffPotency, "gains potency of"),
+                                   (:EGOSkillGainsBuffFilter, gainsBuff, "gains"),
+                                   (:EGOSkillInteractsBuffFilter, interactsBuff, "interacts with")]
+    @eval function ($defineFn)(skillStr, buffStr)
+        skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
+        skillDesc == "" && return TrivialEGOFilter
+
+        foundBuff = nothing
+        io = Pipe()
+        redirect_stdout(io) do
+            foundBuff = BuffParser(buffStr)
+        end
+        close(io)
+
+        if foundBuff isa Vector
+            length(foundBuff) == 0 && return TrivialEGOFilter
+            foundBuff = foundBuff[1]
+        end
+        foundBuff === nothing && return TrivialEGOFilter
+
+        function Fn(x, uptie)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                Lst === nothing && continue
+                if Lst isa Vector
+                    for skill in Lst
+                        ($lookupFn)(skill, uptie, foundBuff) && return true
+                    end
+                else
+                    skill = Lst
+                    ($lookupFn)(skill, uptie, foundBuff) && return true
+                end
+            end
+            return false
+        end
+
+        filterStr = "Filter: $skillDesc " * $desc * " $(getTitle(foundBuff)) (Input: $(@dim(buffStr)))"
+        return EGOFilter(Fn, filterStr)
+    end
+end
+
 function constructFilter(::Type{EGO}, input)
     parts = split(input, "|")
     if length(parts) > 1
@@ -374,7 +421,7 @@ function constructFilter(::Type{EGO}, input)
     end
 
     Ct = 0
-    while Ct < length(input) && input[Ct + 1] == '^'
+    while Ct < length(input) && input[Ct+1] == '^'
         Ct += 1
     end
     if Ct > 0
@@ -401,18 +448,25 @@ function constructFilter(::Type{EGO}, input)
                                         (r"^[eE]vent$", EGOEventFilter, []),
                                         (r"^[cC]an[cC]orrode$", EGOCorrodableFilter, []),
                                         (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]),
-                                        (r"^(.*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
-                                        (r"^(.*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
-                                        (r"^(.*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
                                         (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
                                         (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
                                         (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
+                                        (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
                                         (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
                                         (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
                                         (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
                                         (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
                                         (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
-                                        (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3])]
+                                        (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3]),
+                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", EGOSkillGainsBuffFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillGainsBuffCountFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", EGOSkillInflictsBuffFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillInflictsBuffCountFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 3]),
+                                        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3])]
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

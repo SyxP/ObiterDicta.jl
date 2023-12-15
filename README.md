@@ -31,12 +31,12 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 1. EXP Tables (100%)
 2. Buffs / Status Effects (100%)
 3. Skills (100%)
-4. Identities (90%)
-5. E.G.O (90%)
+4. Identities (100%)
+5. E.G.O (100%)
 6. Passives (100%)
 7. Enemy Information (0%)
 8. Uptie/Threadspin Comparator (0%)
-9. Clash Calculator (0%)
+9. Clash Calculator (40%)
 10. Damage Calculator (0%)
 
 ### Story Data 
@@ -53,13 +53,14 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 2. Mirror Dungeon - Choice Events (0%)
 3. Mirror Dungeon - List of Fights (0%)
 4. Mirror Dungeon - Drop Rates (0%)
-5. Mirror Dungeon 2 - Starlight Buffs (20%)
-6. Luxcavation - Enemies (0%)
-7. Refraction Railway 1 - Enemies (0%)
-8. Refraction Railway 2 - Enemies (0%)
-9. Refraction Railway 2 - Buffs (0%)
+5. Luxcavation - Enemies (0%)
+6. Refraction Railway 1 - Enemies (0%)
+7. Refraction Railway 2 - Enemies (0%)
+8. Refraction Railway 2 - Buffs (0%)
 
 For Mirror Dungeon, as the content may be revamp in the near future, may require specific backups to ensure the data is not lost.
+1. Mirror Dungeon 1 and 2 - List of Fights (0%)
+2. Mirror Dungeon 2 - Starlight Buffs (20%)
 
 ### Miscellaneous Story
 
@@ -83,6 +84,6 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Immediate Upcoming Plans
 
-1. Naive implementation of clash calculator.
-2. E.G.O gifts printing
+1. E.G.O gifts printing
+2. Choice Events printing
 3. Enemy printing

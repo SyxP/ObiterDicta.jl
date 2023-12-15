@@ -48,7 +48,7 @@ function FilterHelp(::Type{Personality})
               [*:weight_op__num_]       - All (*) skill must have weight _op_ _num_.
               [*:offCor_op__num_]       - All (*) skill must have offense correction _op_ _num_.
               [pass:**:isReson]         - All (**) passives have resonance requirements.
-              [pass:**:isStock]         - All (**) passives have stock requirements.
+              [pass:**:isStock]         - All (**) passives have owned requirements.
               [pass:**:_type__op__num_] - All (**) passives have cost _type_ _op_ _num_.
               [fn:_FunName_]            - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
 
@@ -415,7 +415,7 @@ function SinnerResistanceFilter(resistType, op, num)
 end
 
 for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondition, "Resonance"),
-                                   (:SinnerPassiveStockFilter, hasStockCondition, "Stock")]
+                                   (:SinnerPassiveStockFilter, hasStockCondition, "Owned")]
     @eval function ($defineFn)(passStr)
         passFn, passDesc = getPassiveFunctions(Personality, passStr)
         passDesc == "" && return TrivialPersonalityFilter
@@ -516,8 +516,8 @@ function constructFilter(::Type{Personality}, input)
                                         (r"[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", SinnerResistanceFilter, [2, 3, 4]),
                                         (r"^(.*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
                                         (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]eson(anance)?$", SinnerPassiveResonFilter, [2]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[sS]tock$", SinnerPassiveStockFilter, [2]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]es(on)?(anance)?$", SinnerPassiveResonFilter, [2]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=]((is)?[sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
                                         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
                                         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3])]
         S = match(myRegex, input)

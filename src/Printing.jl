@@ -35,8 +35,15 @@ function DisplaySkillAsTree(SkillDict, Title = "")
     Term.Tree(myDict; print_node_function = pn)
 end
 
-function EscapeString(Str)
-    nStr = strip(replace(Str, "{" => "[[", "}" => "]]"))
+function replaceSkillTag(str = clipboard())
+    for change in getSkillReplaceDict()
+        str = replace(str, change)
+    end
+    return replace(str, "\n" => " ", r"<[^<>]*>" => "")
+end
+
+function EscapeString(str = clipboard())
+    nStr = strip(replace(str, "{" => "[[", "}" => "]]"))
     nStr = replace(nStr, r"</?[a-zA-Z=%0-9]+>" => "")
     return nStr
 end

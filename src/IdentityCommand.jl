@@ -28,28 +28,32 @@ function FilterHelp(::Type{Personality})
     S = raw"""Filters reduce the search space. 
               Note that filters can not have spaces between the [].
               Available Filters:
-              [id:_num_]               - ID's Number must be _num_. Note that Sinclair is given the ID 10.
-              [id:_name_]              - ID's Name must be _name_.
-              [rarity:_x_]             - Rarity must be _x_. (_x_ should be "2*"/"00")
-              [season:_x_]             - ID is from Season _x_.
-              [event]                  - ID is from Event
-              [faction:_name_]         - ID is from Faction _name_
-              [health_op__num_]        - Health of the identity must _op_ _num_.
-              [defCor_op__num_]        - Defense Correction of the identity must _op_ _num_.
-              [maxSpeed_op__num_]      - Maximum Speed of the identity must _op_ _num_.
-              [minSpeed_op__num_]      - Minimum Speed of the identity must _op_ _num_.
-              [resist:_type__op__num_] - Resistance of type _type_ _op_ _num_.
-              [def:type:_type_]        - Defensive Type must be _type_ (e.g. Guard).
-              [*:sin:_type_]           - Any (*) skill must have sin Affinity _type_.
-              [*:atkType:_type_]       - Any (*) skill must have attack Type _type_.
-              [*:minRoll_op__num_]     - All (*) skill must have minimum roll _op_ _num_.
-              [*:maxRoll_op__num_]     - All (*) skill must have maximum roll _op_ _num_.
-              [*:numCoins_op__num_]    - All (*) skill must have number of coins _op_ _num_.
-              [*:weight_op__num_]      - All (*) skill must have weight _op_ _num_.
-              [*:offCor_op__num_]      - All (*) skill must have offense correction _op_ _num_.
-              [fn:_FunName_]           - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
+              [id:_num_]                - ID's Number must be _num_. Note that Sinclair is given the ID 10.
+              [id:_name_]               - ID's Name must be _name_.
+              [rarity:_x_]              - Rarity must be _x_. (_x_ should be "2*"/"00")
+              [season:_x_]              - ID is from Season _x_.
+              [event]                   - ID is from Event
+              [faction:_name_]          - ID is from Faction _name_
+              [health_op__num_]         - Health of the identity must _op_ _num_.
+              [defCor_op__num_]         - Defense Correction of the identity must _op_ _num_.
+              [maxSpeed_op__num_]       - Maximum Speed of the identity must _op_ _num_.
+              [minSpeed_op__num_]       - Minimum Speed of the identity must _op_ _num_.
+              [resist:_type__op__num_]  - Resistance of type _type_ _op_ _num_.
+              [def:type:_type_]         - Defensive Type must be _type_ (e.g. Guard).
+              [*:sin:_type_]            - Any (*) skill must have sin Affinity _type_.
+              [*:atkType:_type_]        - Any (*) skill must have attack Type _type_.
+              [*:minRoll_op__num_]      - All (*) skill must have minimum roll _op_ _num_.
+              [*:maxRoll_op__num_]      - All (*) skill must have maximum roll _op_ _num_.
+              [*:numCoins_op__num_]     - All (*) skill must have number of coins _op_ _num_.
+              [*:weight_op__num_]       - All (*) skill must have weight _op_ _num_.
+              [*:offCor_op__num_]       - All (*) skill must have offense correction _op_ _num_.
+              [pass:**:isReson]         - All (**) passives have resonance requirements.
+              [pass:**:isStock]         - All (**) passives have stock requirements.
+              [pass:**:_type__op__num_] - All (**) passives have cost _type_ _op_ _num_.
+              [fn:_FunName_]            - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
 
               * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
+              ** can be pass, spass or allPass
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
               [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
@@ -301,6 +305,18 @@ function getSkillFunctions(::Type{Personality}, skillStr)
     return Function[], ""
 end
 
+function getPassiveFunctions(::Type{Personality}, skillStr)
+    if match(r"^[pP]ass(ive)?$", skillStr) !== nothing
+        return [getBattlePassive], "Passive"
+    elseif match(r"[sS][pP]ass(ive)?$", skillStr) !== nothing
+        return [getSupportPassive], "Support Passive"
+    elseif match(r"[aA]ll[pP]ass(ives?)?$", skillStr) !== nothing
+        return [getBattlePassive, getSupportPassive], "All Passives"
+    end
+
+    return Function[], ""
+end
+
 function CombatSkillSinFilter(skillNumStr, sinQuery)
     skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
     skillDesc == "" && return TrivialPersonalityFilter
@@ -392,7 +408,61 @@ function SinnerResistanceFilter(resistType, op, num)
         return CompareNumbers(N, compareN, op) 
     end
 
-    filterStr = "Filter: Sinner's resistance to $(AttackTypes(searchType)) $(@blue(op)) $(@red(num))× (Input: $(@dim(resistType)))"
+    filterStr = "Filter: Sinner's resistance to $(AttackTypes(searchType)) $(@blue(op)) $(@red(string(num)))× (Input: $(@dim(resistType)))"
+    return PersonalityFilter(Fn, filterStr)
+end
+
+for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondition, "Resonance"),
+                                   (:SinnerPassiveStockFilter, hasStockCondition, "Stock")]
+    @eval function ($defineFn)(passStr)
+        passFn, passDesc = getPassiveFunctions(Personality, passStr)
+        passDesc == "" && return TrivialPersonalityFilter
+
+        function Fn(x, lvl, uptie)
+            for tmpFn in passFn
+                Lst = tmpFn(x, uptie)
+                if Lst isa Vector
+                    for pass in Lst
+                        ($lookupFn)(pass) || return false
+                    end
+                else
+                    pass = Lst
+                    ($lookupFn)(pass) || return false
+                end
+            end
+            return true
+        end
+
+        filterStr = "Filter: $passDesc has " * $desc * " condition"
+        return PersonalityFilter(Fn, filterStr)
+    end
+end
+
+function SinnerPassiveSinFilter(passStr, sinQuery, num = 0, op = ">")
+    passFn, passDesc = getPassiveFunctions(Personality, passStr)
+    passDesc == "" && return TrivialPersonalityFilter
+    internalSin = getClosestSinFromName(sinQuery)
+    (op == "<=") && (op = "≤")
+    (op == ">=") && (op = "≥")
+
+    function Fn(x, lvl, uptie)
+        for tmpFn in passFn
+            Lst = tmpFn(x, uptie)
+            if Lst isa Vector
+                for pass in Lst
+                    N = getRequirement(pass, internalSin)
+                    CompareNumbers(N, num, op) || return false
+                end
+            else
+                pass = Lst
+                N = getRequirement(pass, internalSin)
+                CompareNumbers(N, num, op) || return false
+            end
+        end
+        return true
+    end
+
+    filterStr = "Filter: $passDesc to require $(getSinString(internalSin)) E.G.O resources $(@blue(op)) $(@red(string(num))) (Input: $(@dim(sinQuery)))"
     return PersonalityFilter(Fn, filterStr)
 end
 
@@ -443,7 +513,11 @@ function constructFilter(::Type{Personality}, input)
                                         (r"^(.*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
                                         (r"[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", SinnerResistanceFilter, [2, 3, 4]),
                                         (r"^(.*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
-                                        (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3])]
+                                        (r"^(.*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]eson(anance)?$", SinnerPassiveResonFilter, [2]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[sS]tock$", SinnerPassiveStockFilter, [2]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
+                                        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3])]
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

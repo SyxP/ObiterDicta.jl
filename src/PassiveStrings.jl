@@ -72,6 +72,29 @@ function getEscapedDesc(passive :: Passive)
     return EscapeString(replaceSkillTag(str))
 end
 
+function hasResonanceCondition(myPassive :: Passive)
+    Tmp = getInternalField(myPassive, "attributeResonanceCondition", nothing, nothing)
+    return Tmp !== nothing
+end
+function hasStockCondition(myPassive :: Passive)
+    Tmp = getInternalField(myPassive, "attributeStockCondition", nothing, nothing)
+    return Tmp !== nothing
+end
+function getRequirement(myPassive :: Passive, sinStr)
+    Ans = 0
+    for fieldName in ["attributeResonanceCondition", "attributeStockCondition"]
+        Tmp = getInternalField(myPassive, fieldName, nothing, nothing)
+        if Tmp !== nothing
+            for entry in Tmp
+                !haskey(entry, "type") && continue
+                (entry["type"] == sinStr) && (Ans += entry["value"])
+            end
+        end
+    end
+
+    return Ans
+end
+
 function getReqCondition(myPassive :: Passive)
     S = String[]
     

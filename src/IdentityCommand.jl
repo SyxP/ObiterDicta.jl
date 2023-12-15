@@ -308,6 +308,8 @@ end
 function getPassiveFunctions(::Type{Personality}, skillStr)
     if match(r"^[pP]ass(ive)?$", skillStr) !== nothing
         return [getBattlePassive], "Passive"
+    elseif match(r"[sS]upp(ort)?$", skillStr) !== nothing
+        return [getSupportPassive], "Support Passive"
     elseif match(r"[sS][pP]ass(ive)?$", skillStr) !== nothing
         return [getSupportPassive], "Support Passive"
     elseif match(r"[aA]ll[pP]ass(ives?)?$", skillStr) !== nothing

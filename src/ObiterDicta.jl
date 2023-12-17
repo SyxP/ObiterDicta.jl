@@ -132,6 +132,8 @@ module ObiterDicta
     include("EGOStrings.jl")
     include("EGOCommand.jl")
 
+    include("EGOGiftStrings.jl")
+
     include("ClashCalculator.jl")
     
     # Dependent on Structs

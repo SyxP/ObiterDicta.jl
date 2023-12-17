@@ -88,6 +88,26 @@ function IDFirstStaggerPecentage(id, lvl, uptie, percentage)
 end
 # RegisterFunction("id-1st-stagger%", IDFirstStaggerPecentage)
 
+function IDPassCheck(id, lvl, uptie, sin, lowStr, highStr)
+    low = parse(Int, lowStr)
+    high = parse(Int, highStr)
+    iSin = getClosestSinFromName(sin)
+
+    SkillFnList, _ = getSkillFunctions(Personality, "atkSkills")
+    for fn in SkillFnList
+        skill = fn(id)
+        N = getMaxRoll(skill, uptie)
+        if getSinType(skill, uptie) == iSin
+            N ≥ low && return true
+        else
+            N ≥ high && return true
+        end
+    end
+    return false
+end
+
+RegisterFunction("id-pass-check", IDPassCheck) 
+
 function EGODifferentSin(ego, ts)
     awakeSkill = getAwakeningSkill(ego)
     corrSkill  = getCorrosionSkill(ego)

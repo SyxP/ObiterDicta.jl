@@ -72,7 +72,7 @@ module ObiterDicta
                   exp (Experience Levels)
                   buff (Status Effects)
                   skill (Skills)
-                  banner greeting (Profile Card Text)
+                  greeting (Profile Card Text)
                   id (Sinner Identities)
                   id-voice (Identity Voice Lines)
                   ego (E.G.Os)

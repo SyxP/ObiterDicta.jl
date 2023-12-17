@@ -65,13 +65,15 @@ getSentenceContent(greet :: Greeting) =
     EscapeString(getUnescapedSentenceContent(greet))
 getStringID(greet :: Greeting) = string(greet.ID)
 getStringOwner(greet :: Greeting) = string(greet.Owner)
+getEGOFromOwner(greet :: Greeting) = getTitle(EGO(greet.Owner))
+getIDFromOwner(greet :: Greeting)  = getEscapedTitle(Personality(greet.Owner))
 
 function toString(greet :: Greeting)
     io = IOBuffer()
     if greet.Condition == "GetEGO"
-        println(io, "When acquiring the ego $(@red(getStringOwner(greet))),")
+        println(io, "When acquiring the ego $(@red(getEGOFromOwner(greet))) ($(@dim(getStringOwner(greet)))),")
     elseif greet.Condition == "GetPersonality"
-        println(io, "When acquiring the identity $(@red(getStringOwner(greet))),")
+        println(io, "When acquiring the identity $(@red(getIDFromOwner(greet))) ($(@dim(getStringOwner(greet)))),")
     elseif greet.Condition == "Default"
         println(io, "At the start of the game, you get")
     else

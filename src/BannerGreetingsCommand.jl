@@ -1,13 +1,13 @@
 function BannerGreetingsHelp()
     S = raw"""Look up banner greetings. Available Commands:
-              `banner greeting list words`       - List all word greetings.
-              `banner greeting list sentences`   - List all sentence greetings.
-              `banner greeting _query_`          - Looks up _query_ in a word greeting.
+              `greeting list words`       - List all word greetings.
+              `greeting list sentences`   - List all sentence greetings.
+              `greeting _query_`          - Looks up _query_ in a word greeting.
 
               Available Flags:
               !top_num_    - Outputs the top _num_ greetings matching the query. Default is 5.
               !i/!internal - Only perform the query on unlock condition.
-              !sentence    - Searches through the added sentence instead of the added word.
+              !s/!sentence - Searches through the added sentence instead of the added word.
         """
 
     println(S)
@@ -33,7 +33,7 @@ function BannerGreetingsParser(input)
     Applications[r"^![iI](nternal)?$"] = (_) -> (UseInternalIDs = true)
     Applications[r"^![tT]op$"] = () -> (TopNumber = 5)
     Applications[r"^![tT]op([0-9]+)$"] = (x) -> (TopNumber = parse(Int, x))
-    Applications[r"^![sS]entence$"] = () -> (UseSentence = true)
+    Applications[r"^![sS](entence)?$"] = (x) -> (UseSentence = true)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -58,11 +58,11 @@ function BannerGreetingsParser(input)
     TopNumber == 1 && return searchSingleBannerGreeting(newQuery, HaystackBannerGreetings, TopNumber)
     return searchTopBannerGreeting(newQuery, HaystackBannerGreetings, TopNumber)
 
-    @info "Unable to parse $input (try `banner greeting help`)"
+    @info "Unable to parse $input (try `greeting help`)"
     return
 end
 
-BannerGreetingsRegex = r"^banner greeting (.*)$"
+BannerGreetingsRegex = r"^greeting (.*)$"
 BannerGreetingsCommand = Command(BannerGreetingsRegex, BannerGreetingsParser, [1], BannerGreetingsHelp)
 
 printSingleBannerGreeting(greet :: Greeting) = println(toString(greet))

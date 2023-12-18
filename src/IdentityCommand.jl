@@ -137,7 +137,7 @@ function PersonalityParser(input)
 
     for currFilter in pFilters
         Tmp = ""
-        PersonalitySearchList, Tmp = applyFilter(PersonalitySearchList, currFilter, Level, Tier)
+        PersonalitySearchList, Tmp = applyFilter(Personality, PersonalitySearchList, currFilter, Level, Tier)
         if Tmp != ""
             println(Tmp)
         end
@@ -582,36 +582,38 @@ function constructFilter(::Type{Personality}, input)
         return SinnerPersonalityFilter(N)
     end
   
-    for (myRegex, filterFn, params) in [(r"[iI]d(entity)?[:=](.+)$", SinnerPersonalityFilter, [2]),
-                                        (r"^[dD]ef[:=][tT]ype[:=](.+)$", DefenseTypePersonalityFilter, [1]),
-                                        (r"^[rR]arity[:=](.+)$", SinnerRarityFilter, [1]),
-                                        (r"^[eE]vent$", SinnerEventFilter, []),
-                                        (r"^[sS]eason[:=](.+)$", SinnerSeasonFilter, [1]),
-                                        (r"^[fF]ac(tion)?[:=](.+)$", SinnerFactionFilter, [2]),
-                                        (r"^(health|hp)([<>=≤≥]+)([0-9]+)$", SinnerHealthFilter, [3, 2]),
-                                        (r"^min[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMinSpeedFilter, [2, 1]),
-                                        (r"^max[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMaxSpeedFilter, [2, 1]),
-                                        (r"^[dD]ef[cC]or(rection)?([<>=≤≥]+)([-+]?[0-9]+)$", SinnerDefCorrectionFilter, [3, 2]),
-                                        (r"[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", SinnerResistanceFilter, [2, 3, 4]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]es(on)?(anance)?$", SinnerPassiveResonFilter, [2]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?([sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
-                                        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3]),
-                                        (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", CombatSkillSinFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", CombatSkillAtkTypeFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMinRollFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMaxRollFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
-                                        (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
-                                        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", SinnerSkillBurstTremorFilter, [1]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", SinnerSkillGainsBuffFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillGainsBuffCountFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillGainsBuffPotencyFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", SinnerSkillInflictsBuffFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillInflictsBuffCountFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", SinnerSkillInteractsBuffFilter, [1, 3])]
+    for (myRegex, filterFn, params) in [
+        (r"[iI]d(entity)?[:=](.+)$", SinnerPersonalityFilter, [2]),
+        (r"^[dD]ef[:=][tT]ype[:=](.+)$", DefenseTypePersonalityFilter, [1]),
+        (r"^[rR]arity[:=](.+)$", SinnerRarityFilter, [1]),
+        (r"^[eE]vent$", SinnerEventFilter, []),
+        (r"^[sS]eason[:=](.+)$", SinnerSeasonFilter, [1]),
+        (r"^[fF]ac(tion)?[:=](.+)$", SinnerFactionFilter, [2]),
+        (r"^(health|hp)([<>=≤≥]+)([0-9]+)$", SinnerHealthFilter, [3, 2]),
+        (r"^min[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMinSpeedFilter, [2, 1]),
+        (r"^max[sS]peed([<>=≤≥]+)([0-9]+)$", SinnerMaxSpeedFilter, [2, 1]),
+        (r"^[dD]ef[cC]or(rection)?([<>=≤≥]+)([-+]?[0-9]+)$", SinnerDefCorrectionFilter, [3, 2]),
+        (r"[rR]es(ist)?[:=]([a-zA-Z]+)([<>=≤≥]+)([0-9\.]+)$", SinnerResistanceFilter, [2, 3, 4]),
+        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?[rR]es(on)?(anance)?$", SinnerPassiveResonFilter, [2]),
+        (r"^[pP]ass(ive)?[:=](.*)[:=](is)?([sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
+        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
+        (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3]),
+        (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", CombatSkillSinFilter, [1, 3]),
+        (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", CombatSkillAtkTypeFilter, [1, 3]),
+        (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMinRollFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMaxRollFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
+        (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
+        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", SinnerSkillBurstTremorFilter, [1]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", SinnerSkillGainsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillGainsBuffCountFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillGainsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", SinnerSkillInflictsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillInflictsBuffCountFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", SinnerSkillInteractsBuffFilter, [1, 3])]
+        
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]
@@ -622,7 +624,7 @@ function constructFilter(::Type{Personality}, input)
     return TrivialPersonalityFilter
 end
 
-function applyFilter(personalityList, pFilter, lvl, uptie)
+function applyFilter(::Type{Personality}, personalityList, pFilter, lvl, uptie)
     N = length(personalityList)
     newList = Personality[]
     for myID in personalityList

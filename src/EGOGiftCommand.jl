@@ -290,6 +290,7 @@ function constructFilter(::Type{EGOGift}, input)
         (r"^[kK](ey)?word[:=](.+)$", EGOGiftKeywordFilter, [2]),
         (r"^[bB]uff[:=](.+)$", EGOGiftKeywordFilter, [1]),
         (r"^[cC]ost([<>=≤≥]+)(.+)$", EGOGiftCostFilter, [2, 1]),]
+        
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]

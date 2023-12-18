@@ -126,7 +126,7 @@ function EGOParser(input)
 
     for currFilter in pFilters
         Tmp = ""
-        EGOSearchList, Tmp = applyFilter(EGOSearchList, currFilter, Tier)
+        EGOSearchList, Tmp = applyFilter(EGO, EGOSearchList, currFilter, Tier)
         if Tmp != ""
             println(Tmp)
         end
@@ -478,31 +478,33 @@ function constructFilter(::Type{EGO}, input)
         N = parse(Int, S.captures[2])
         return SinnerEGOFilter(N)
     end
-    for (myRegex, filterFn, params) in [(r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
-                                        (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
-                                        (r"^[eE]vent$", EGOEventFilter, []),
-                                        (r"^[cC]an[cC]orrode$", EGOCorrodableFilter, []),
-                                        (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]),
-                                        (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
-                                        (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
-                                        (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
-                                        (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
-                                        (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
-                                        (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
-                                        (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
-                                        (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3]),
-                                        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", EGOSkillBurstTremorFilter, [1]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", EGOSkillGainsBuffFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillGainsBuffCountFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", EGOSkillInflictsBuffFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillInflictsBuffCountFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 3]),
-                                        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3])]
+    for (myRegex, filterFn, params) in [
+        (r"^[iI]d(entity)?[:=](.+)$", SinnerEGOFilter, [2]),
+        (r"^[sS]eason[:=](.*)", EGOSeasonFilter, [1]),
+        (r"^[eE]vent$", EGOEventFilter, []),
+        (r"^[cC]an[cC]orrode$", EGOCorrodableFilter, []),
+        (r"^[tT]ype[:=](.*)", EGOTypeFilter, [1]),
+        (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
+        (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
+        (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
+        (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
+        (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
+        (r"^([^:]*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
+        (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", EGOMinRollFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][mM]ax[rR]olls?([<>=≤≥]+)(.+)$", EGOMaxRollFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", EGOWeightFilter, [1, 3, 2]),
+        (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
+        (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
+        (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3]),
+        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", EGOSkillBurstTremorFilter, [1]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", EGOSkillGainsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillGainsBuffCountFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", EGOSkillInflictsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillInflictsBuffCountFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3])]
+        
         S = match(myRegex, input)
         if S !== nothing
             stringParams = [string(S.captures[i]) for i in params]
@@ -513,7 +515,7 @@ function constructFilter(::Type{EGO}, input)
     return TrivialEGOFilter
 end
 
-function applyFilter(EGOList, pFilter, threadspin)
+function applyFilter(::Type{EGO}, EGOList, pFilter, threadspin)
     N = length(EGOList)
     newList = EGO[]
     for myEGO in EGOList

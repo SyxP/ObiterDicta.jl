@@ -19,7 +19,7 @@ function PersonalityHelp()
               To see available filters, use `id filters help`.
               Example usage:
               `id !i 10101 !ut1 !olvl40` - Outputs the internal identity with ID 10101 Uptie 1 and Level 40.
-              `id !all [id=donqui] [s2=wrath]` - Outputs all Don Quixote identities with Wrath S2.
+              `id !all [id=donqui] [s2:sin=glut]` - Outputs all Don Quixote identities with Gluttony S2.
         """
 
     println(S)
@@ -102,7 +102,7 @@ function PersonalityParser(input)
     PersonalitySearchList = Personality[]
     Tier = getMaxUptie(Personality)
     Level = getMaxLevel(Personality)
-    pFilters = PersonalityFilter[]
+    pFilters = Filter{Personality}[]
     ExactNumber = true
     ShowSkills = true
     ShowPassives = true
@@ -121,7 +121,7 @@ function PersonalityParser(input)
     Applications[r"^![sS](uccint)?$"] = (_) -> (ShowSkills = false; ShowPassives = false)
     Applications[r"^![hH]ide-?[pP](assives?)?$"] = (_) -> (ShowPassives = false)
     Applications[r"^![hH]ide-?[sS](kills?)?$"] = (_) -> (ShowSkills = false)
-    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(Personality, x)); ExactNumber = false)
+    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructGeneralFilter(Personality, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -137,7 +137,7 @@ function PersonalityParser(input)
 
     for currFilter in pFilters
         Tmp = ""
-        PersonalitySearchList, Tmp = applyFilter(Personality, PersonalitySearchList, currFilter, Level, Tier)
+        PersonalitySearchList, Tmp = applyFilter(PersonalitySearchList, currFilter, Level, Tier)
         if Tmp != ""
             println(Tmp)
         end
@@ -166,36 +166,11 @@ PersonalityRegex = r"^[iI](d|D|dentity|dentities) (.*)$"
 PersonalityCommand = Command(PersonalityRegex, PersonalityParser,
                              [2], PersonalityHelp)
 # Filters
-
-TrivialPersonalityFilter = PersonalityFilter((x, lvl, uptie) -> true, "")
-
-function NotFilter(filter :: PersonalityFilter)
-    Fn(x, lvl, uptie) = !filter.fn(x, lvl, uptie)
-    return PersonalityFilter(Fn, "$(@red("Not")) " * filter.description)
-end
-
-function OrFilter(filterList :: Vector{PersonalityFilter})
-    Fn(x, lvl, uptie) = any(filterList[i].fn(x, lvl, uptie) for i in 1:length(filterList))
-    io = IOBuffer()
-    println(io, "$(@red("Or")) Filter with length $(length(filterList)):")
-    for (idx, filter) in enumerate(filterList)
-        println(io, " - $(@dim(string(idx))): $(filter.description)")
-    end
-    filterStr = String(take!(io))
-    return PersonalityFilter(Fn, filterStr)        
-end
-
-function EvalFilter(::Type{Personality}, str :: String)
-    Entries = split(str, ":")
-    Fn(x, lvl, uptie) = (FilterRegistry[Entries[1]])(x, lvl, uptie, Entries[2:end]...)
-    return PersonalityFilter(Fn, "Custom Filter: $(@blue(str))")
-end
-
 function SinnerPersonalityFilter(num :: Integer)
     Fn(x, lvl, utpie) = getCharID(x) == num
     filterStr = "Filter: Sinner to $(@red(getSinnerName(num)))"
 
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerPersonalityFilter(str :: String)
@@ -203,21 +178,21 @@ function SinnerPersonalityFilter(str :: String)
     Fn(x, lvl, uptie) = getCharID(x) == num
     filterStr = "Filter: Sinner to $(@red(getSinnerName(num))) (Input: $(@dim(str)))"
 
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerEventFilter()
     Fn(x, lvl, uptie) = isEvent(x)
     filterStr = "Filter: Sinner is from an Event"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerSeasonFilter(str)
     N = getSeasonIDFromName(str)
-    N == -1 && return TrivialPersonalityFilter
+    N == -1 && return TrivialFilter(Personality)
     Fn(x, lvl, uptie) = getSeason(x) == N
     filterStr = "Filter: Sinner Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerFactionFilter(str)
@@ -230,15 +205,15 @@ function SinnerFactionFilter(str)
         return any(normLst .== normStr)
     end
     filterStr = "Filter: Sinner Faction to $(@red(str))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerRarityFilter(str :: String)
     N = getRarityFromString(str)
-    N == 0 && return TrivialPersonalityFilter
+    N == 0 && return TrivialFilter(Personality)
     Fn(x, lvl, uptie) = getRarity(x) == N
     filterStr = "Filter: Sinner Rarity is $(getRarityString(N))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function SinnerHealthFilter(num :: String, relation :: String)
@@ -252,7 +227,7 @@ function SinnerHealthFilter(num :: String, relation :: String)
     end
 
     filterStr = "Filter: Sinner Health $(@blue(relation)) $(@red(num))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 for (fnName, lookupFn, desc) in [(:SinnerMaxSpeedFilter, getMaxSpeed, "Maximum Speed"),
@@ -268,7 +243,7 @@ for (fnName, lookupFn, desc) in [(:SinnerMaxSpeedFilter, getMaxSpeed, "Maximum S
         end
 
         filterStr = "Filter: Sinner " * $desc * " $(@blue(relation)) $(@red(num))"
-        return PersonalityFilter(Fn, filterStr)
+        return Filter{Personality}(Fn, filterStr)
     end
 end
 
@@ -283,7 +258,7 @@ function SinnerDefCorrectionFilter(num :: String, relation :: String)
     end
 
     filterStr = "Filter: Sinner Defense Correction $(@blue(relation)) $(@red(NumberStringWithSign(N)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function DefenseTypePersonalityFilter(str :: String)
@@ -295,7 +270,7 @@ function DefenseTypePersonalityFilter(str :: String)
     end
 
     filterStr = "Filter: Defense Type to $(@red(newStr))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function getSkillFunctions(::Type{Personality}, skillStr)
@@ -333,7 +308,7 @@ end
 
 function CombatSkillSinFilter(skillNumStr, sinQuery)
     skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
-    skillDesc == "" && return TrivialPersonalityFilter
+    skillDesc == "" && return TrivialFilter(Personality)
     internalSin = getClosestSinFromName(sinQuery)
     function Fn(x, lvl, uptie)
         for tmpFn in skillFn
@@ -351,12 +326,12 @@ function CombatSkillSinFilter(skillNumStr, sinQuery)
     end
 
     filterStr = "Filter: $(@red(skillDesc)) to have Sin Affinity $(getSinString(internalSin)) (Input: $(@dim(sinQuery)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
     skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
-    skillDesc == "" && return TrivialPersonalityFilter
+    skillDesc == "" && return TrivialFilter(Personality)
     internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
     function Fn(x, lvl, uptie)
         for tmpFn in skillFn
@@ -374,7 +349,7 @@ function CombatSkillAtkTypeFilter(skillNumStr, atkTypeQuery)
     end
 
     filterStr = "Filter: $(@red(skillDesc)) to have Attack Type $(AttackTypes(internalAtkType)) (Input: $(@dim(atkTypeQuery)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "minimum roll"),
@@ -387,7 +362,7 @@ for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "mini
         (op == ">=") && (op = "≥")
         compareN = parse(Int, num)
         skillFn, skillDesc = getSkillFunctions(Personality, skillNumStr)
-        skillDesc == "" && return TrivialPersonalityFilter
+        skillDesc == "" && return TrivialFilter(Personality)
         function Fn(x, lvl, uptie)
             for tmpFn in skillFn
                 Lst = tmpFn(x)
@@ -406,13 +381,13 @@ for (defineFn, lookupFn, desc) in [(:CombatSkillMinRollFilter, getMinRoll, "mini
         end
 
         filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op)) $(@red(num)) "
-        return PersonalityFilter(Fn, filterStr)
+        return Filter{Personality}(Fn, filterStr)
     end
 end
 
 function SinnerResistanceFilter(resistType, op, num)
     compareN = tryparse(Float64, num)
-    compareN === nothing && return TrivialPersonalityFilter
+    compareN === nothing && return TrivialFilter(Personality)
     searchType = getClosestAtkTypeFromName(resistType) 
     (op == "<=") && (op = "≤")
     (op == ">=") && (op = "≥")
@@ -423,14 +398,14 @@ function SinnerResistanceFilter(resistType, op, num)
     end
 
     filterStr = "Filter: Sinner's resistance to $(AttackTypes(searchType)) $(@blue(op)) $(@red(string(num)))× (Input: $(@dim(resistType)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondition, "Resonance"),
                                    (:SinnerPassiveStockFilter, hasStockCondition, "Owned")]
     @eval function ($defineFn)(passStr)
         passFn, passDesc = getPassiveFunctions(Personality, passStr)
-        passDesc == "" && return TrivialPersonalityFilter
+        passDesc == "" && return TrivialFilter(Personality)
 
         function Fn(x, lvl, uptie)
             for tmpFn in passFn
@@ -448,14 +423,14 @@ for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondi
         end
 
         filterStr = "Filter: $passDesc has " * $desc * " condition"
-        return PersonalityFilter(Fn, filterStr)
+        return Filter{Personality}(Fn, filterStr)
     end
 end
 
 for (defineFn, lookupFn, desc) in [(:SinnerSkillBurstTremorFilter, burstTremor, "bursts tremor")]
     @eval function ($defineFn)(skillStr)
         skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
-        skillDesc == "" && return TrivialPersonalityFilter
+        skillDesc == "" && return TrivialFilter(Personality)
 
         function Fn(x, lvl, uptie)
             for tmpFn in skillFn
@@ -473,7 +448,7 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillBurstTremorFilter, burstTremor, 
         end
 
         filterStr = "Filter: $(@red(skillDesc)) " * $desc
-        return PersonalityFilter(Fn, filterStr)
+        return Filter{Personality}(Fn, filterStr)
     end
 end
 
@@ -486,7 +461,7 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflict
                                    (:SinnerSkillInteractsBuffFilter, interactsBuff, "interacts with")]
     @eval function ($defineFn)(skillStr, buffStr)
         skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
-        skillDesc == "" && return TrivialPersonalityFilter
+        skillDesc == "" && return TrivialFilter(Personality)
 
         foundBuff = nothing
         io = Pipe()
@@ -497,10 +472,10 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflict
 
 
         if foundBuff isa Vector
-            length(foundBuff) == 0 && return TrivialPersonalityFilter
+            length(foundBuff) == 0 && return TrivialFilter(Personality)
             foundBuff = foundBuff[1]
         end
-        foundBuff === nothing && return TrivialPersonalityFilter
+        foundBuff === nothing && return TrivialFilter(Personality)
 
         function Fn(x, lvl, uptie)
             for tmpFn in skillFn
@@ -519,14 +494,14 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflict
         end
 
         filterStr = "Filter: $skillDesc " * $desc * " $(getTitle(foundBuff)) (Input: $(@dim(buffStr)))"
-        return PersonalityFilter(Fn, filterStr)
+        return Filter{Personality}(Fn, filterStr)
     end
 end
 
 
 function SinnerPassiveSinFilter(passStr, sinQuery, num = 0, op = ">")
     passFn, passDesc = getPassiveFunctions(Personality, passStr)
-    passDesc == "" && return TrivialPersonalityFilter
+    passDesc == "" && return TrivialFilter(Personality)
     internalSin = getClosestSinFromName(sinQuery)
     (op == "<=") && (op = "≤")
     (op == ">=") && (op = "≥")
@@ -549,33 +524,10 @@ function SinnerPassiveSinFilter(passStr, sinQuery, num = 0, op = ">")
     end
 
     filterStr = "Filter: $passDesc to require $(getSinString(internalSin)) E.G.O resources $(@blue(op)) $(@red(string(num))) (Input: $(@dim(sinQuery)))"
-    return PersonalityFilter(Fn, filterStr)
+    return Filter{Personality}(Fn, filterStr)
 end
 
 function constructFilter(::Type{Personality}, input)
-    parts = split(input, "|")
-    if length(parts) > 1
-        return OrFilter([constructFilter(Personality, x) for x in parts])
-    end
-    
-    Ct = 0
-    while Ct < length(input) && input[Ct + 1] == '^'
-        Ct += 1
-    end
-    if Ct > 0
-        if Ct % 2 == 1
-            return NotFilter(constructFilter(Personality, input[Ct+1:end]))
-        else
-            return constructFilter(Personality, input[Ct+1:end])
-        end
-    end
-
-    S = match(r"^fn[:=](.+)$", input)
-    if S !== nothing
-        query = string(S.captures[1])
-        return EvalFilter(Personality, query)
-    end
-
     S = match(r"[iI]d(entity)?[=:]([0-9]+)", input)
     if S !== nothing
         N = parse(Int, S.captures[2])
@@ -621,24 +573,8 @@ function constructFilter(::Type{Personality}, input)
         end
     end
 
-    return TrivialPersonalityFilter
+    return TrivialFilter(Personality)
 end
-
-function applyFilter(::Type{Personality}, personalityList, pFilter, lvl, uptie)
-    N = length(personalityList)
-    newList = Personality[]
-    for myID in personalityList
-        if pFilter.fn(myID, lvl, uptie)
-            push!(newList, myID)
-        end
-    end
-    if length(newList) < N
-        return newList, pFilter.description
-    else
-        return newList, ""
-    end
-end
-
 # Printing and Searching
 
 function printSingle(myID :: Personality, tier, level, verbose; showSkills = true, showPassives = true)

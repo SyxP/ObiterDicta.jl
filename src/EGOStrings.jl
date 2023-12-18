@@ -1,3 +1,7 @@
+struct EGO
+    id :: Int
+end
+
 # ego-empty are placeholders for EGO not in game yet.
 getMasterFileClasses(::Type{EGO}) = ["ego"]
 getMaxThreadspin(::Type{EGO}) = 4

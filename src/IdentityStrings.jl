@@ -1,3 +1,7 @@
+struct Personality
+    id :: Int
+end
+
 getMasterFileClasses(::Type{Personality}) = ["personality"]
 
 function handleDataFile(::Type{Personality}, MasterList, file)

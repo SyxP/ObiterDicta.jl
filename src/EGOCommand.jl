@@ -93,7 +93,7 @@ function EGOParser(input)
     PrintAll = false
     EGOSearchList = EGO[]
     Tier = getMaxThreadspin(EGO)
-    pFilters = EGOFilter[]
+    pFilters = Filter{EGO}[]
     ExactNumber = true
     ShowSkills = true
     ShowPassives = true
@@ -110,7 +110,7 @@ function EGOParser(input)
     Applications[r"^![sS](uccint)?$"] = (_) -> (ShowSkills = false; ShowPassives = false)
     Applications[r"^![hH]ide-?[pP](assives?)?$"] = (_) -> (ShowPassives = false)
     Applications[r"^![hH]ide-?[sS](kills?)?$"] = (_) -> (ShowSkills = false)
-    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructFilter(EGO, x)); ExactNumber = false)
+    Applications[r"^\[(.*)\]$"] = (x) -> (push!(pFilters, constructGeneralFilter(EGO, x)); ExactNumber = false)
 
     newQuery, activeFlags = parseQuery(input, keys(Applications))
     for (flag, token) in activeFlags
@@ -126,7 +126,7 @@ function EGOParser(input)
 
     for currFilter in pFilters
         Tmp = ""
-        EGOSearchList, Tmp = applyFilter(EGO, EGOSearchList, currFilter, Tier)
+        EGOSearchList, Tmp = applyFilter(EGOSearchList, currFilter, Tier)
         if Tmp != ""
             println(Tmp)
         end
@@ -154,34 +154,11 @@ EGORegex = r"^(ego|EGO) (.*)$"
 EGOCommand = Command(EGORegex, EGOParser, [2], EGOHelp)
 
 # Filters
-TrivialEGOFilter = EGOFilter((x, threadspin) -> true, "")
-
-function NotFilter(filter :: EGOFilter)
-    Fn(x, ts) = !filter.fn(x, ts)
-    return EGOFilter(Fn, "$(@red("Not")) " * filter.description)
-end
-
-function OrFilter(filterList :: Vector{EGOFilter})
-    Fn(x, ts) = any([filter.fn(x, ts) for filter in filterList])
-    io = IOBuffer()
-    println(io, "$(@red("Or")) Filter with length $(length(filterList))")
-    for (idx, filter) in enumerate(filterList)
-        println(io, " - $(@dim(string(idx))): " * filter.description)
-    end
-    return EGOFilter(Fn, String(take!(io)))
-end
-
-function EvalFilter(::Type{EGO}, str :: String)
-    Entries = split(str, ":")
-    Fn(x, ts) = (FilterRegistry[Entries[1]])(x, ts, Entries[2:end]...)
-    return EGOFilter(Fn, "Custom Filter: $(@blue(str))")
-end
-
 function SinnerEGOFilter(num :: Integer)
     Fn(x, ts) = getSinnerID(x) == num
     filterStr = "Filter: Sinner to $(@red(getSinnerName(num)))"
 
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function SinnerEGOFilter(str :: String)
@@ -189,22 +166,22 @@ function SinnerEGOFilter(str :: String)
     Fn(x, ts) = getSinnerID(x) == num
     filterStr = "Filter: Sinner to $(@red(getSinnerName(num))) (Input: $(@dim(str)))"   
 
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOEventFilter()
     Fn(x, ts) = isEvent(x)
     filterStr = "Filter: Sinner is from an Event"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOSeasonFilter(str)
     N = getSeasonIDFromName(str)
-    N == -1 && return TrivialPersonalityFilter
+    N == -1 && return TrivialFilter(EGO)
     Fn(x, ts) = getSeason(x) == N
     filterStr = "Filter: E.G.O Season is $(@red(getSeasonNameFromInt(N))) (Input: $(@dim(str)))"
 
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOTypeFilter(str)
@@ -212,14 +189,14 @@ function EGOTypeFilter(str)
     Fn(x, ts) = getEGOType(x) == typeStr
     filterStr = "Filter: E.G.O Class is $(@red(typeStr)) (Input: $(@dim(str)))"
 
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOCorrodableFilter()
     Fn(x, ts) = getCorrosionSkill(x) !== nothing
     filterStr = "Filter: E.G.O can corrode"
 
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function getSkillFunctions(::Type{EGO}, skillStr)
@@ -237,7 +214,7 @@ end
 
 function EGOSinFilter(skillNumStr, sinQuery)
     skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
-    skillDesc == "" && return TrivialEGOFilter
+    skillDesc == "" && return TrivialFilter(EGO)
     internalSin = getClosestSinFromName(sinQuery)
     function Fn(x, ts)
         for tmpFn in skillFn
@@ -256,12 +233,12 @@ function EGOSinFilter(skillNumStr, sinQuery)
     end
 
     filterStr = "Filter: $(@red(skillDesc)) to have Sin Affinity $(getSinString(internalSin)) (Input: $(@dim(sinQuery)))"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOAtkTypeFilter(skillNumStr, atkTypeQuery)
     skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
-    skillDesc == "" && return TrivialEGOFilter
+    skillDesc == "" && return TrivialFilter(EGO)
     internalAtkType = getClosestAtkTypeFromName(atkTypeQuery)
     function Fn(x, ts)
         for tmpFn in skillFn
@@ -280,12 +257,12 @@ function EGOAtkTypeFilter(skillNumStr, atkTypeQuery)
     end
 
     filterStr = "Filter: $(@red(skillDesc)) to have Attack Type $(AttackTypes(internalAtkType)) (Input: $(@dim(atkTypeQuery)))"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOTargetTypeFilter(skillNumStr, targetType)
     skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
-    skillDesc == "" && return TrivialEGOFilter
+    skillDesc == "" && return TrivialFilter(EGO)
     normTargetType = lowercase(superNormString(targetType))
     function Fn(x, ts)
         for tmpFn in skillFn
@@ -306,7 +283,7 @@ function EGOTargetTypeFilter(skillNumStr, targetType)
     end
 
     filterStr = "Filter: $(@red(skillDesc)) to have Target Type $(@red(targetType)) (Input: $(@dim(targetType)))"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll"),
@@ -320,7 +297,7 @@ for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll
         (op == ">=") && (op = "≥")
         compareN = parse(Int, num)
         skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
-        skillDesc == "" && return TrivialEGOFilter
+        skillDesc == "" && return TrivialFilter(EGO)
         function Fn(x, ts)
             for tmpFn in skillFn
                 Lst = tmpFn(x)
@@ -340,13 +317,13 @@ for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll
         end
 
         filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op)) $(@red(num)) "
-        return EGOFilter(Fn, filterStr)
+        return Filter{EGO}(Fn, filterStr)
     end
 end
 
 function EGOResistFilter(sinType, op, num)
     compareN = tryparse(Float64, num)
-    compareN === nothing && return TrivialEGOFilter
+    compareN === nothing && return TrivialFilter(EGO)
     searchType = getClosestSinFromName(sinType)
     (op == "<=") && (op = "≤")
     (op == ">=") && (op = "≥")
@@ -357,12 +334,12 @@ function EGOResistFilter(sinType, op, num)
     end
 
     filterStr = "Filter: E.G.O conferred $(getSinString(searchType)) resistances $(@blue(op))$(@red(num)) (Input: $(@dim(sinType)))"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 function EGOCostFilter(sinType, op = ">", num = "0")
     compareN = tryparse(Int, num)
-    compareN === nothing && return TrivialEGOFilter
+    compareN === nothing && return TrivialFilter(EGO)
     searchType = getClosestSinFromName(sinType)
     (op == "<=") && (op = "≤")
     (op == ">=") && (op = "≥")
@@ -373,13 +350,13 @@ function EGOCostFilter(sinType, op = ">", num = "0")
     end
 
     filterStr = "Filter: E.G.O requires $(@blue(op))$(@red(num)) $(getSinString(searchType)) E.G.O resources (Input: $(@dim(sinType)))"
-    return EGOFilter(Fn, filterStr)
+    return Filter{EGO}(Fn, filterStr)
 end
 
 for (defineFn, lookupFn, desc) in [(:EGOSkillBurstTremorFilter, burstTremor, "bursts tremor")]
     @eval function ($defineFn)(skillStr)
         skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
-        skillDesc == "" && return TrivialEGOFilter
+        skillDesc == "" && return TrivialFilter(EGO)
 
         function Fn(x, ts)
             for tmpFn in skillFn
@@ -399,7 +376,7 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillBurstTremorFilter, burstTremor, "bu
         end
 
         filterStr = "Filter: $(@red(skillDesc)) to have Burst Tremor"
-        return EGOFilter(Fn, filterStr)
+        return Filter{EGO}(Fn, filterStr)
     end
 end
 
@@ -412,7 +389,7 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
                                    (:EGOSkillInteractsBuffFilter, interactsBuff, "interacts with")]
     @eval function ($defineFn)(skillStr, buffStr)
         skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
-        skillDesc == "" && return TrivialEGOFilter
+        skillDesc == "" && return TrivialFilter(EGO)
 
         foundBuff = nothing
         io = Pipe()
@@ -422,10 +399,10 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
         close(io)
 
         if foundBuff isa Vector
-            length(foundBuff) == 0 && return TrivialEGOFilter
+            length(foundBuff) == 0 && return TrivialFilter(EGO)
             foundBuff = foundBuff[1]
         end
-        foundBuff === nothing && return TrivialEGOFilter
+        foundBuff === nothing && return TrivialFilter(EGO)
 
         function Fn(x, uptie)
             for tmpFn in skillFn
@@ -445,34 +422,11 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
         end
 
         filterStr = "Filter: $skillDesc " * $desc * " $(getTitle(foundBuff)) (Input: $(@dim(buffStr)))"
-        return EGOFilter(Fn, filterStr)
+        return Filter{EGO}(Fn, filterStr)
     end
 end
 
 function constructFilter(::Type{EGO}, input)
-    parts = split(input, "|")
-    if length(parts) > 1
-        return OrFilter([constructFilter(EGO, x) for x in parts])
-    end
-
-    Ct = 0
-    while Ct < length(input) && input[Ct+1] == '^'
-        Ct += 1
-    end
-    if Ct > 0
-        if Ct % 2 == 1
-            return NotFilter(constructFilter(EGO, input[Ct+1:end]))
-        else
-            return constructFilter(EGO, input[Ct+1:end])
-        end
-    end
-
-    S = match(r"^fn[:=](.+)$", input)
-    if S !== nothing
-        query = string(S.captures[1])
-        return EvalFilter(EGO, query)
-    end
-
     S = match(r"^[iI]d(entity)?[=:]([0-9]+)$", input)
     if S !== nothing
         N = parse(Int, S.captures[2])
@@ -512,22 +466,7 @@ function constructFilter(::Type{EGO}, input)
         end
     end
 
-    return TrivialEGOFilter
-end
-
-function applyFilter(::Type{EGO}, EGOList, pFilter, threadspin)
-    N = length(EGOList)
-    newList = EGO[]
-    for myEGO in EGOList
-        if pFilter.fn(myEGO, threadspin)
-            push!(newList, myEGO)
-        end
-    end
-    if length(newList) < N
-        return newList, pFilter.description
-    else
-        return newList, ""
-    end
+    return TrivialFilter(EGO)
 end
 
 # Printing and Searching

@@ -103,10 +103,10 @@ module ObiterDicta
     # Contains File Retrieval and String Searching
     include("Utilities.jl")
     include("CommonInterface.jl")
+    include("Filter.jl")
 
     # Internal Structures
     include("CoinStruct.jl")
-    include("CharacterStructs.jl")
     include("RarityUtils.jl")
     include("RegisterFunction.jl")
 
@@ -126,12 +126,12 @@ module ObiterDicta
     include("CombatSkillCommand.jl")
     include("CombatSkillBuffs.jl")
 
-    include("IdentityVoice.jl")
     include("IdentityStrings.jl")
+    include("IdentityVoice.jl")
     include("IdentityCommand.jl")
 
-    include("EGOVoiceStrings.jl")
     include("EGOStrings.jl")
+    include("EGOVoiceStrings.jl")
     include("EGOCommand.jl")
 
     include("EGOGiftStrings.jl")

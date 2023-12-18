@@ -1,3 +1,6 @@
+struct EGOVoice
+end
+
 function getLocalizedList(::Type{EGOVoice})
     Files = getLocalizeDataInfo()["egoVoice"]
 end

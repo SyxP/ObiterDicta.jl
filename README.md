@@ -45,11 +45,12 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 2. Main Story - Drop Rates (0%)
 3. Main Story - Enemies (0%)
 4. Main Story - Dungeons (0%)
-5. Main Story - Choice Events (0%)
+5. Main Story - E.G.O Gifts (100%)
+6. Main Story - Choice Events (0%)
 
 ### Specific Game Modes
 
-1. Mirror Dungeon - E.G.O Gifts (0%)
+1. Mirror Dungeon - E.G.O Gifts (100%)
 2. Mirror Dungeon - Choice Events (0%)
 3. Mirror Dungeon - List of Fights (0%)
 4. Mirror Dungeon - Drop Rates (0%)
@@ -61,6 +62,9 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 For Mirror Dungeon, as the content may be revamp in the near future, may require specific backups to ensure the data is not lost.
 1. Mirror Dungeon 1 and 2 - List of Fights (0%)
 2. Mirror Dungeon 2 - Starlight Buffs (20%)
+3. Mirror Dungeon 3 - Fusion Mechanics (0%)
+4. Mirror Dungeon 3 - Fusion Calculator (0%)
+5. Mirror Dungeon 3 - Starlight Buffs (0%)
 
 ### Miscellaneous Story
 
@@ -74,8 +78,9 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 2. Battle Pass Information (0%)
 3. Voice Lines - Announcer (0%)
 4. Voice Lines - Identity (100%)
-5. Profile Card Information (100%)
-6. Automatic Updating of Bundles (100%)
+5. Choice Event Identity Check Text (0%)
+6. Profile Card Information (100%)
+7. Automatic Updating of Bundles (100%)
 
 ### Known Bugs/Specific Requested Features
 
@@ -84,6 +89,5 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Immediate Upcoming Plans
 
-1. E.G.O gifts printing
-2. Choice Events printing
-3. Enemy printing
+1. Choice Events printing
+2. Enemy printing

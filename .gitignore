@@ -3,3 +3,4 @@ data/BundleURL.txt
 .CondaPkg
 .vscode
 Manifest.toml
+.aider*

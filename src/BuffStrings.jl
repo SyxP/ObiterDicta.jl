@@ -218,15 +218,13 @@ function InternalBuffPanel(buff :: Buff; subtitle = "")
     
     OtherFields = getOtherFieldsInternal(buff)
     if OtherFields != ""
-        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box = :DOUBLE)
-        content /= LineBreak
+        content /= LineBreak("Other Fields")
         content /= TextBox(OtherFields; width = 93, fit = false)
     end
     
     Actions = getActionList(buff)
     if length(Actions) > 0
-        LineBreak = hLine(93, "{bold white}Actions{/bold white}"; box = :DOUBLE)
-        content /= LineBreak
+        content /= LineBreak("Actions")
         for (i, Action) in enumerate(Actions)
             content /= DisplaySkillAsTree(Action, "Action $i")
         end
@@ -257,8 +255,7 @@ function LocalizedBuffPanel(buff :: Buff; subtitle = "")
     
     OtherFields = getOtherFieldsLocalized(buff)
     if OtherFields != ""
-        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
-        content /= LineBreak
+        content /= LineBreak("Other Fields")
         content /= TextBox(OtherFields; width = 93, fit = false)
     end
     

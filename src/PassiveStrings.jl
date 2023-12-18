@@ -66,11 +66,7 @@ getStringID(passive :: Passive) = string(getID(passive))
 getName(passive :: Passive) = getLocalizedField(passive, "name", "", "")
 getDesc(passive :: Passive) = getLocalizedField(passive, "desc", nothing, "")
 
-function getEscapedDesc(passive :: Passive)
-    str = getDesc(passive)
-    str === nothing && return nothing
-    return EscapeString(replaceSkillTag(str))
-end
+getEscapedDesc(passive :: Passive) = getEscape(getDesc, passive)
 
 function hasResonanceCondition(myPassive :: Passive)
     Tmp = getInternalField(myPassive, "attributeResonanceCondition", nothing, nothing)
@@ -167,8 +163,7 @@ function PassivePanel(myPassive :: Passive; subtitle = "")
     content = getTopLine(myPassive)
     OtherFields = getOtherFields(myPassive)
     if OtherFields != ""
-        LineBreak = hLine(93, "{bold white}Other Fields{/bold white}"; box=:DOUBLE)
-        content /= LineBreak
+        content /= LineBreak("Other Fields")
         content /= TextBox(OtherFields; width = 93, fit = false)
     end
     

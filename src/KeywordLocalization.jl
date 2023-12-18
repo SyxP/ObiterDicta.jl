@@ -59,6 +59,17 @@ function getSkillReplaceDict()
     return ReplacementDict
 end
 
+function getEGOGiftKeywordDict()
+    ReplacementDict = Dict{String, String}()
+    for file in getLocalizeDataInfo()["egoGiftCategory"]
+        for entry in LocalizedData(file)["dataList"]
+            ReplacementDict[entry["id"]] = entry["name"]
+        end
+    end
+
+    return ReplacementDict
+end
+
 function getClosestSinFromName(str)
     Haystack = Tuple{String, String}[]
     for entry in LocalizedData("AttributeText")["dataList"]
@@ -133,7 +144,6 @@ function getSeasonIDFromName(Str)
 
     return SearchClosestString(Str, Haystack)[1][2]
 end
-
 
 getEGOTiers() = ["ZAYIN", "TETH", "HE", "WAW", "ALEPH"]
 function getClosestEGOType(str)

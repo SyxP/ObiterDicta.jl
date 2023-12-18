@@ -45,6 +45,7 @@ end
 function EscapeString(str = clipboard())
     nStr = strip(replace(str, "{" => "[[", "}" => "]]"))
     nStr = replace(nStr, r"</?[a-zA-Z=%0-9]+>" => "")
+    nStr = replace(nStr, r"  +" => " ")
     return nStr
 end
 
@@ -54,6 +55,12 @@ function EscapeAndFlattenField(value)
     else
         return EscapeString(string(value))
     end
+end
+
+function getEscape(fn, x)
+    str = fn(x)
+    str === nothing && return nothing
+    return EscapeString(replaceSkillTag(str))
 end
 
 function NumberStringWithSign(n)

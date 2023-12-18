@@ -276,8 +276,7 @@ function getNormDescriptionString(skill :: CombatSkill, tier = getMaxTier(Combat
 end
 
 function getActionsString(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
-    LineBreak = hLine(93, "{bold white} Actions {/bold white}"; box = :DOUBLE)
-    content = LineBreak
+    content = LineBreak("Actions")
     hasEntries = false
 
     for (i, Action) in enumerate(getAbilityScriptList(skill, tier))
@@ -357,8 +356,7 @@ function InternalSkillPanel(skill :: CombatSkill,
 
     MainFields = getMainFields(skill, tier, offenseLvl; verbose)
     if MainFields != ""
-        LineBreak = hLine(93, "{bold white} Fields {/bold white}"; box = :DOUBLE)
-        content /= LineBreak
+        content /= LineBreak("Fields")
         content /= TextBox(MainFields; width = 93, fit = false)
     end
 

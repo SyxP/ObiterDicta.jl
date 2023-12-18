@@ -38,7 +38,7 @@ module ObiterDicta
                 io = open(tmpFile, "r")
                 copyString = read(io, String)
                 close(io)
-                clipboard(remove_decorations(copyString))
+                clipboard(completeStrip(copyString))
                 println("Output of command $(@red(S.captures[1])) saved to clipboard.")
 
                 return returnValue
@@ -55,6 +55,7 @@ module ObiterDicta
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
                     PersonalityCommand, EGOCommand,
+                    EGOGiftCommand,
                     PersonalityVoiceCommand,
                     ClashCalculatorCommand]
         for command in Commands
@@ -76,6 +77,7 @@ module ObiterDicta
                   id (Sinner Identities)
                   id-voice (Identity Voice Lines)
                   ego (E.G.Os)
+                  ego-gift (E.G.O Gifts)
                   clash-calc (Clash Calculator)
     
                   For more information you can use `[command] help`.
@@ -133,6 +135,7 @@ module ObiterDicta
     include("EGOCommand.jl")
 
     include("EGOGiftStrings.jl")
+    include("EGOGiftCommand.jl")
 
     include("ClashCalculator.jl")
     

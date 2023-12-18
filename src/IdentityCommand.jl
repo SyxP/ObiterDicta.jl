@@ -28,7 +28,6 @@ end
 
 function FilterHelp(::Type{Personality})
     S = raw"""Filters reduce the search space. 
-              Note that filters can not have spaces between the [].
               Available Filters:
               [id:_num_]               - ID's Number must be _num_. Note that Sinclair is given the ID 10.
               [id:_name_]              - ID's Name must be _name_.

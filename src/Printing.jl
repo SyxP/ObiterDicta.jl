@@ -42,11 +42,15 @@ function replaceSkillTag(str = clipboard())
     return replace(str, "\n" => " ", r"<[^<>]*>" => "")
 end
 
+function completeStrip(str)
+    strip(remove_decorations(str))
+end
+
 function EscapeString(str = clipboard())
     nStr = strip(replace(str, "{" => "[[", "}" => "]]"))
     nStr = replace(nStr, r"</?[a-zA-Z=%0-9]+>" => "")
     nStr = replace(nStr, r"  +" => " ")
-    return nStr
+    return strip(nStr)
 end
 
 function EscapeAndFlattenField(value)

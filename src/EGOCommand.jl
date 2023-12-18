@@ -9,6 +9,7 @@ function EGOHelp()
               !top_num_    - Outputs the top _num_ E.G.Os matching the query. Default is 5. (*)
               !i/!internal - Only performs the query on internal E.G.O names.
               !ts_num_     - Sets the threadspin at _num_. Without this, it is set to the maximum possible.
+              !a/!all      - Outputs all E.G.Os matching the filters.
               !s/!succint  - Only show the E.G.O panel. You can also !hide-skills, !hide-passives.
               [_filter_]   - Filter the list of E.G.Os
 
@@ -25,8 +26,7 @@ end
 
 function FilterHelp(::Type{EGO})
     S = raw"""Filters reduce the search space.
-              Note that filters can not have spaces between the [].
-              Available Fitlers:
+              Available Filters:
               [id:_num_]               - E.G.O owner's Number must be _num_.
               [id:_name_]              - E.G.O owner's Name must be _name_.
               [season:_x_]             - E.G.O is from Season _x_.

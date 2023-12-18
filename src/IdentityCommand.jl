@@ -57,6 +57,7 @@ function FilterHelp(::Type{Personality})
 
               * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
               † can be gains, gainsCount, gainsPot, inflicts, inflictsCount, inflictsPot or interacts
+              † can be burstTremor but :_buff_ would then be omitted (e.g. `s3:burstTremor`)
               ‡ can be pass, spass or allPass
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
@@ -222,12 +223,14 @@ end
 
 function SinnerFactionFilter(str)
     normStr = lowercase(superNormString(str))
+    normStr = replace(normStr, "_" => "", " " => "")
     function Fn(x, lvl, uptie)
         factionList = getFactionList(x)
         Lst = [lowercase(superNormString(x)) for x in factionList]
-        return any(Lst .== normStr)
+        normLst = [replace(x, "_" => "", " " => "") for x in Lst]
+        return any(normLst .== normStr)
     end
-    filterStr = "Filter: Sinner Faction to $(@red(normStr))"
+    filterStr = "Filter: Sinner Faction to $(@red(str))"
     return PersonalityFilter(Fn, filterStr)
 end
 
@@ -450,6 +453,31 @@ for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondi
     end
 end
 
+for (defineFn, lookupFn, desc) in [(:SinnerSkillBurstTremorFilter, burstTremor, "bursts tremor")]
+    @eval function ($defineFn)(skillStr)
+        skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
+        skillDesc == "" && return TrivialPersonalityFilter
+
+        function Fn(x, lvl, uptie)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                if Lst isa Vector
+                    for skill in Lst
+                        ($lookupFn)(skill, uptie) && return true
+                    end
+                else
+                    skill = Lst
+                    ($lookupFn)(skill, uptie) && return true
+                end
+            end
+            return false
+        end
+
+        filterStr = "Filter: $(@red(skillDesc)) " * $desc
+        return PersonalityFilter(Fn, filterStr)
+    end
+end
+
 for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflictBuffCount, "inflicts count of"),
                                    (:SinnerSkillInflictsBuffPotencyFilter, inflictBuffPotency, "inflicts potency of"),
                                    (:SinnerSkillInflictsBuffFilter, inflictBuff, "inflicts"),
@@ -577,6 +605,7 @@ function constructFilter(::Type{Personality}, input)
                                         (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
                                         (r"^([^:]*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
                                         (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
+                                        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", SinnerSkillBurstTremorFilter, [1]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", SinnerSkillGainsBuffFilter, [1, 3]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillGainsBuffCountFilter, [1, 3]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillGainsBuffPotencyFilter, [1, 3]),

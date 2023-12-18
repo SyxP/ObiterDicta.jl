@@ -73,6 +73,11 @@ function gainsBuffCountInternal(Action :: Dict{String, Any}, str)
     return false
 end
 
+function burstTremorInternal(Action :: Dict{String, Any})
+    !haskey(Action, "scriptName") && return false
+    return occursin("VibrationExplosion", Action["scriptName"])
+end
+
 function WalkActionTree(fn, skill :: CombatSkill, tier)
     for action in getAbilityScriptList(skill, tier)
         fn(action) && return true
@@ -127,5 +132,11 @@ function interactsBuff(skill :: CombatSkill, tier, buff :: Buff)
     buffStr = getID(buff)
     return WalkActionTree(skill, tier) do Action
         actionScriptHasBuff(Action, buffStr)
+    end
+end
+
+function burstTremor(skill :: CombatSkill, tier)
+    return WalkActionTree(skill, tier) do Action
+        burstTremorInternal(Action)
     end
 end

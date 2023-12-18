@@ -49,6 +49,7 @@ function FilterHelp(::Type{EGO})
 
               * can be one of awake, corr, allSkills
               † can be gains, gainsCount, gainsPot, inflicts, inflictsCount, inflictsPot or interacts
+              † can be burstTremor but :_buff_ would then be omitted (e.g. `awake:burstTremor`)
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
               [_queryA_|_queryB_] constructs a filter that is true iff either [_queryA_] or [_queryB_] is true.
@@ -375,6 +376,33 @@ function EGOCostFilter(sinType, op = ">", num = "0")
     return EGOFilter(Fn, filterStr)
 end
 
+for (defineFn, lookupFn, desc) in [(:EGOSkillBurstTremorFilter, burstTremor, "bursts tremor")]
+    @eval function ($defineFn)(skillStr)
+        skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
+        skillDesc == "" && return TrivialEGOFilter
+
+        function Fn(x, ts)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                if Lst isa Vector
+                    for skill in Lst
+                        skill === nothing && continue
+                        ($lookupFn)(skill, ts) && return true
+                    end
+                else
+                    skill = Lst
+                    skill === nothing && continue
+                    ($lookupFn)(skill, ts) && return true
+                end
+            end
+            return false
+        end
+
+        filterStr = "Filter: $(@red(skillDesc)) to have Burst Tremor"
+        return EGOFilter(Fn, filterStr)
+    end
+end
+
 for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuffCount, "inflicts count of"),
                                    (:EGOSkillInflictsBuffPotencyFilter, inflictBuffPotency, "inflicts potency of"),
                                    (:EGOSkillInflictsBuffFilter, inflictBuff, "inflicts"),
@@ -402,13 +430,14 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
         function Fn(x, uptie)
             for tmpFn in skillFn
                 Lst = tmpFn(x)
-                Lst === nothing && continue
                 if Lst isa Vector
                     for skill in Lst
+                        skill === nothing && continue
                         ($lookupFn)(skill, uptie, foundBuff) && return true
                     end
                 else
                     skill = Lst
+                    skill === nothing && continue
                     ($lookupFn)(skill, uptie, foundBuff) && return true
                 end
             end
@@ -466,6 +495,7 @@ function constructFilter(::Type{EGO}, input)
                                         (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
                                         (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
                                         (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3]),
+                                        (r"^([^:]*)[:=][bB]ursts?[tT]remor$", EGOSkillBurstTremorFilter, [1]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", EGOSkillGainsBuffFilter, [1, 3]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillGainsBuffCountFilter, [1, 3]),
                                         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 3]),

@@ -37,6 +37,11 @@ function FilterHelp(::Type{T}) where T <: EGOGift
               [tag:_tag_]         - E.G.O Gift has tag _tag_.
               [tier:_tier_]       - E.G.O Gift is of tier _tier_.
               [attribute:_sin_]   - E.G.O Gift has attribute _sin_.
+              [cost_op__num_]     - E.G.O Gift has cost _op_ _num_.
+
+              [noKeyword]         - E.G.O Gift is not affiliated with any buffs.
+              [noTier]            - E.G.O Gift is not affiliated with any tiers.
+              [canUpgrade]        - E.G.O Gift can be upgraded.
     """
 
     println(S)
@@ -104,7 +109,7 @@ function EGOGiftParser(input)
 
     for currFilter in pFilters
         Tmp = ""
-        EGOGiftSearchList, Tmp = applyFilter(EGOGiftSearchList, currFilter)
+        EGOGiftSearchList, Tmp = applyFilter(EGOGift, EGOGiftSearchList, currFilter)
         if Tmp != ""
             println(Tmp)
         end
@@ -158,6 +163,98 @@ function EvalFilter(::Type{EGOGift}, str)
     return EGOGiftFilter(Fn, "Custom Filter: $(@blue(str))")
 end
 
+function EGOGiftTierFilter(tier)
+    tierNum = tryparse(Int, tier)
+    tierNum === nothing && return TrivialEGOGiftFilter
+    function Fn(x)
+        getTier(x) === nothing && return false
+        return getTier(x) == tierNum
+    end
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift has tier $(@red(tier))")
+end
+
+function EGOGiftCostFilter(cost, op)
+    compareN = tryparse(Int, cost)
+    compareN === nothing && return TrivialEGOGiftFilter
+    (op == "<=") && (op = "≤")
+    (op == ">=") && (op = "≥")
+
+    function Fn(x)
+        getPrice(x) === nothing && return false
+        return CompareNumbers(getPrice(x), compareN, op)
+    end
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift costs $(@blue(op))$(@red(cost))")
+end
+
+function EGOGiftAttributeFilter(sin)
+    sinStr = getClosestSinFromName(sin)
+    sinStr === nothing && return TrivialEGOGiftFilter
+    function Fn(x)
+        getAttributeType(x) === nothing && return false
+        return getAttributeType(x) == sinStr
+    end
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift has attribute $(getSinString(sinStr)) (Input: $(@dim(sin)))")
+end
+
+function EGOGiftTagFilter(tag)
+    newTag = superNormString(tag)
+    newTag = replace(newTag, " " => "", "_" => "")
+
+    function Fn(x)
+        getTags(x) === nothing && return false
+        Lst = [superNormString(x) for x in getTags(x)]
+        normLst = [replace(x, " " => "", "_" => "") for x in Lst]
+        return newTag ∈ normLst
+    end
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift has tag $(@red(tag))")
+end
+
+function EGOGiftKeywordFilter(buff)
+    io = Pipe()
+    foundBuff = nothing
+    redirect_stdout(io) do
+        foundBuff = BuffParser(buff)
+    end
+    close(io)
+
+    foundBuff === nothing && return TrivialEGOGiftFilter
+    if foundBuff isa Vector
+        length(foundBuff) == 0 && return TrivialEGOGiftFilter
+        foundBuff = foundBuff[1]
+    end
+
+    function Fn(x)
+        getKeyword(x) === nothing && return false
+        return getKeyword(x) == getID(foundBuff)
+    end
+    Desc = "Filter: E.G.O Gift has keyword $(@red(getName(foundBuff))) (Input: $(@dim(buff)))"
+    return EGOGiftFilter(Fn, Desc)
+end
+
+function EGOGiftNoKeywordFilter()
+    function Fn(x)
+        S = getKeyword(x)
+        S === nothing && return true
+        S == "" && return true
+        return false
+    end
+    
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift has no keyword")
+end
+
+function EGOGiftNoTierFilter()
+    function Fn(x)
+        getTier(x) === nothing && return true
+        getTier(x) == -1 && return true
+        return false
+    end
+    return EGOGiftFilter(Fn, "Filter: E.G.O Gift has no tier")
+end
+
+function EGOGiftCanUpgradeFilter()
+    return EGOGiftFilter(hasUpgrade, "Filter: E.G.O Gift can be upgraded")
+end
+
 function constructFilter(::Type{EGOGift}, input)
     parts = split(input, "|")
     if length(parts) > 1
@@ -182,7 +279,42 @@ function constructFilter(::Type{EGOGift}, input)
         return EvalFilter(EGOGift, query)
     end
 
+    for (myRegex, filterFn, params) in [
+        (r"^noKeyword$", EGOGiftNoKeywordFilter, []),
+        (r"^noTier$", EGOGiftNoTierFilter, []),
+        (r"^canUpgrade$", EGOGiftCanUpgradeFilter, []),
+        (r"^[tT]ier[:=](.+)$", EGOGiftTierFilter, [1]),
+        (r"^[aA]ttribute[:=](.+)$", EGOGiftAttributeFilter, [1]),
+        (r"^[sS]in[:=](.+)$", EGOGiftAttributeFilter, [1]),
+        (r"^[tT]ag[:=](.+)$", EGOGiftTagFilter, [1]),
+        (r"^[kK](ey)?word[:=](.+)$", EGOGiftKeywordFilter, [2]),
+        (r"^[bB]uff[:=](.+)$", EGOGiftKeywordFilter, [1]),
+        (r"^[cC]ost([<>=≤≥]+)(.+)$", EGOGiftCostFilter, [2, 1]),]
+        S = match(myRegex, input)
+        if S !== nothing
+            stringParams = [string(S.captures[i]) for i in params]
+            return filterFn(stringParams...)
+        end
+    end
+
     return TrivialEGOGiftFilter
+end
+
+function applyFilter(::Type{EGOGift}, EGOGiftList, pFilter)
+    N = length(EGOGiftList)
+    newList = EGOGift[]
+
+    for myEGOGift in EGOGiftList
+        if pFilter.fn(myEGOGift)
+            push!(newList, myEGOGift)
+        end
+    end
+
+    if length(newList) < N
+        return newList, pFilter.description
+    else
+        return newList, ""
+    end
 end
 
 # Printing and Searching
@@ -200,7 +332,7 @@ end
 function searchSingleEGOGift(query, haystack, verbose)
     print("Using $(@red(query)) as query")
     println(".")
-    
+
     result = SearchClosestString(query, haystack)[1][2]
     printSingle(result, verbose)
     return result

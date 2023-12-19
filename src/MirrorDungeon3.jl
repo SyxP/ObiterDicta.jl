@@ -85,7 +85,7 @@ function parseListOfGifts(input)
     tokens = tokenize(input)
     giftList = EGOGift[]
     for token in tokens
-        S = match(r"^\(?([^\?]*)\)?$", token)
+        S = match(r"^\(?([^\(\)]*)\)?$", token)
         foundGift = searchMirrorDungeonEGOGift(S.captures[1])
         (S === nothing) && continue
         (foundGift === nothing) && continue

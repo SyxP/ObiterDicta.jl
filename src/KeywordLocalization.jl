@@ -69,6 +69,28 @@ function getEGOGiftKeywordDict()
 
     return ReplacementDict
 end
+function getEGOGiftKeywordFromAttribute()
+    oldDict = getEGOGiftKeywordDict()
+    replaceDict = Dict{String, String}()
+
+    for (key, value) in oldDict
+        buff = Buff(key)
+        attributeType = getAttributeType(buff)
+        colourValue = "Random"
+        if attributeType != ""
+            colour = getHexFromColour(attributeType)
+            colourValue = Term.Style.apply_style("{$colour}" * value * "{/$colour}")
+        end
+
+        replaceDict[attributeType] = colourValue
+    end
+
+    return replaceDict
+end
+function getKeywordSinString(attributeType)
+    replaceDict = getEGOGiftKeywordFromAttribute()
+    return replaceDict[attributeType]
+end
 
 function getClosestSinFromName(str)
     Haystack = Tuple{String, String}[]

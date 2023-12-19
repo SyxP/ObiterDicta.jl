@@ -23,7 +23,7 @@ function CheckCommand(CustomCommand :: Command, Query :: String)
     return false
 end
 
-function splitQuery(query)
+function tokenize(query)
     parts = String[]
     io = IOBuffer()
     OpenParenthesis = 0
@@ -69,7 +69,7 @@ function parseQuery(query, flags)
     # activeFlags is an array of (flag, tokens) that were found
     # Note: This takes O(query * flags) time. 
 
-    queryArr = splitQuery(query)
+    queryArr = tokenize(query)
     activeFlags = Tuple{Regex, String}[]
     for flag in flags
         for (i, token) in enumerate(queryArr)

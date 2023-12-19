@@ -56,6 +56,7 @@ module ObiterDicta
                     BuffCommand, PassiveCommand, SkillCommand,
                     PersonalityCommand, EGOCommand,
                     EGOGiftCommand,
+                    MirrorDungeon3Command,
                     PersonalityVoiceCommand,
                     ClashCalculatorCommand]
         for command in Commands
@@ -136,6 +137,8 @@ module ObiterDicta
 
     include("EGOGiftStrings.jl")
     include("EGOGiftCommand.jl")
+
+    include("MirrorDungeon3.jl")
 
     include("ClashCalculator.jl")
     

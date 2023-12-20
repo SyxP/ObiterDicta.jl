@@ -277,7 +277,7 @@ function printEGOGiftPriceRanges(discount = nothing)
         minCost, maxCost = tier
         print(io, "Tier $(@blue(string(i))): $(@blue(string(minCost))) ~ $(@blue(string(maxCost))) Cost")
         if newDiscountPercent != 0
-            print(io, " (with $(newDiscountPercent)% discount")
+            print(io, " (with $(newDiscountPercent)% discount,")
             discountMinCost = floor(Int, floatDiscount * minCost)
             discountMaxCost = floor(Int, floatDiscount * maxCost)
             print(io, " $(@blue(string(discountMinCost))) ~ $(@blue(string(discountMaxCost))) Cost)")

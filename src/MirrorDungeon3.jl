@@ -1,9 +1,10 @@
 function MirrorDungeon3Help()
     S = raw"""Mirror Dungeon 3 Functions:
-              `md3 compare _giftList_` - Quickly compare _giftList_.
-              `md3 fusion chart`       - Shows the fusion chart.
-              `md3 fusion fixed`       - Shows the fixed fusion formulaes.
-              `md3 fusion _giftList_`  - Shows likely output of fusion of _giftList_.
+              `md3 compare _giftList_`     - Quickly compare _giftList_.
+              `md3 fusion chart`           - Shows the fusion chart.
+              `md3 fusion fixed`           - Shows the fixed fusion formulaes.
+              `md3 fusion _giftList_`      - Shows likely output of fusion of _giftList_.
+              `md3 price chart _discount_` - Shows the price chart of E.G.O gifts with _discount_ (in %).
 
               `_giftList_` is a space-separated list of E.G.O Gift names.
               Each E.G.O Gift name should be in a bracket. For example,
@@ -25,6 +26,12 @@ function MirrorDungeon3Parser(input)
 
     S = match(r"^[fF]usion (.+)$", input)
     (S !== nothing) && return printFusedGifts(S.captures[1])
+
+    S = match(r"^[pP]rice [cC]hart$", input)
+    (S !== nothing) && return printEGOGiftPriceRanges("15")
+
+    S = match(r"^[pP]rice [cC]hart ([0-9]+)%?$", input)
+    (S !== nothing) && return printEGOGiftPriceRanges(S.captures[1])
 
     @info "Unable to parse $input (try `md3 help`)"
     return
@@ -243,4 +250,41 @@ end
 function printFusedGifts(input)
     giftList = parseListOfGifts(input)
     return fuseEGOGifts(giftList)
+end
+
+function getEGOGiftTierRanges()
+    egoGifts = getMasterList(MirrorDungeonEGOGift)
+    Ans = Tuple{Int, Int}[]
+    for tier in 1:5
+        tierGifts = filter(x -> getTier(x) == tier, egoGifts)
+        minCost, maxCost = extrema(getPrice.(tierGifts))
+        push!(Ans, (minCost, maxCost))
+    end
+    return Ans
+end
+function printEGOGiftPriceRanges(discount = nothing)
+    newDiscountPercent = 0
+    if discount !== nothing
+        S = match(r"^([0-9]+)%?$", discount)
+        (S !== nothing) && (newDiscountPercent = parse(Int, S.captures[1]))
+    end
+    floatDiscount = 1 - newDiscountPercent / 100
+
+    io = IOBuffer()
+    println(io, "There are 5 tiers of E.G.O. Gift. In the shop,")
+    prices = getEGOGiftTierRanges()
+    for (i, tier) in enumerate(prices)
+        minCost, maxCost = tier
+        print(io, "Tier $(@blue(string(i))): $(@blue(string(minCost))) ~ $(@blue(string(maxCost))) Cost")
+        if newDiscountPercent != 0
+            print(io, " (with $(newDiscountPercent)% discount")
+            discountMinCost = floor(Int, floatDiscount * minCost)
+            discountMaxCost = floor(Int, floatDiscount * maxCost)
+            print(io, " $(@blue(string(discountMinCost))) ~ $(@blue(string(discountMaxCost))) Cost)")
+        end
+        println(io)
+    end
+
+    print(String(take!(io)))
+    return prices 
 end

@@ -1,0 +1,68 @@
+{
+  "list": [
+    {
+      "id": 100,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":100
+      }
+    },
+    {
+      "id": 101,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":101
+      }
+    },
+    {
+      "id": 102,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":102
+      }
+    },
+    {
+      "id": 103,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":103
+      }
+    },
+    {
+      "id": 9103,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":9103
+      }
+    },
+    {
+      "id": 104,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":104
+      }
+    },
+    {
+      "id": 9104,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":9104
+      }
+    },
+    {
+      "id": 105,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":105
+      }
+    }
+  ]
+}

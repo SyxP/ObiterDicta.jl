@@ -201,25 +201,26 @@
                 "gacha-144",
                 "gacha-145",
                 "gacha-146",
-                "gacha-147"
+                "gacha-147",
+                "gacha-148"
             ]
         },
         {
             "dataClass": "item",
-          "fileList": [
-            "item-0-currency",
-            "item-100-gacha",
-            "item-200-ticket",
-            "item-300-consumable",
-            "item-400-consumablebox",
-            "item-1100-season-randompackage",
-            "item-1100-season-randompackage-a1c5",
-            "item-1200-season-optionalpackage",
-            "item-1200-season-optionalpackage-a1c5",
-            "item-piece",
-            "item-piece-a1c5",
-            "item-20000-event"
-          ]
+            "fileList": [
+                "item-0-currency",
+                "item-100-gacha",
+                "item-200-ticket",
+                "item-300-consumable",
+                "item-400-consumablebox",
+                "item-1100-season-randompackage",
+                "item-1100-season-randompackage-a1c5",
+                "item-1200-season-optionalpackage",
+                "item-1200-season-optionalpackage-a1c5",
+                "item-piece",
+                "item-piece-a1c5",
+                "item-20000-event"
+            ]
         },
         {
             "dataClass": "passive",
@@ -361,10 +362,12 @@
                 "mirrordungeon-battle2-0",
                 "mirrordungeon-battle2-1",
                 "mirrordungeon-battle3-0",
+                "mirrordungeon-battle3-1",
                 "mirrordungeon-abbattle1-1",
                 "mirrordungeon-abbattle2-0",
                 "mirrordungeon-abbattle2-1",
-                "mirrordungeon-abbattle3-0"
+                "mirrordungeon-abbattle3-0",
+                "mirrordungeon-abbattle3-1"
             ]
         },
         {
@@ -391,8 +394,8 @@
         {
             "dataClass": "dungeon",
             "fileList": [
-              "dungeon",
-              "dungeon-a1c5p3"
+                "dungeon",
+                "dungeon-a1c5p3"
             ]
         },
         {
@@ -457,22 +460,24 @@
         {
             "dataClass": "mirrordungeon",
             "fileList": [
-                "mirrordungeon-03"
+                "mirrordungeon-03",
+                "mirrordungeon-03-hard"
             ]
         },
         {
             "dataClass": "mirrordungeon-encounterinfo",
             "fileList": [
-                "mirrordungeon-encounterinfos-03-normal"
+                "mirrordungeon-encounterinfos-03-normal",
+                "mirrordungeon-encounterinfos-03-hard"
             ]
         },
         {
             "dataClass": "battlepass",
-          "fileList": [
-            "battlepass",
-            "battlepass-2",
-            "battlepass-3-a1c5"
-          ]
+            "fileList": [
+                "battlepass",
+                "battlepass-2",
+                "battlepass-3-a1c5"
+            ]
         },
         {
             "dataClass": "storytheater-main",
@@ -549,7 +554,9 @@
             "dataClass": "mirrordungeon-generatenodepool",
             "fileList": [
                 "mirrordungeon-generatenodepool-3-0",
-                "mirrordungeon-generatenodepool-event-3-0"
+                "mirrordungeon-generatenodepool-event-3-0",
+                "mirrordungeon-generatenodepool-3-1",
+                "mirrordungeon-generatenodepool-event-3-1"
             ]
         },
         {
@@ -645,11 +652,11 @@
         },
         {
             "dataClass": "season-info",
-          "fileList": [
-            "season-1",
-            "season-2",
-            "season-3"
-          ]
+            "fileList": [
+                "season-1",
+                "season-2",
+                "season-3"
+            ]
         },
         {
             "dataClass": "gacha-panning",
@@ -731,10 +738,10 @@
         },
         {
             "dataClass": "exp-dungeon",
-          "fileList": [
-            "exp-dungeon-01",
-            "exp-dungeon-02-a1c5p1"
-          ]
+            "fileList": [
+                "exp-dungeon-01",
+                "exp-dungeon-02-a1c5p1"
+            ]
         },
         {
             "dataClass": "battle-exp-dungeon",
@@ -861,10 +868,10 @@
         },
         {
             "dataClass": "story-dungeon-map-illust",
-          "fileList": [
-            "story-dungeon-map-illust",
-            "story-dungeon-map-illust-a1c5p3"
-          ]
+            "fileList": [
+                "story-dungeon-map-illust",
+                "story-dungeon-map-illust-a1c5p3"
+            ]
         },
         {
             "dataClass": "restrict-participation",
@@ -890,7 +897,8 @@
         {
             "dataClass": "mirrordungeon-acquire-cost-in-battle",
             "fileList": [
-                "mirrordungeon-acquire-cost-in-battle-3-0"
+                "mirrordungeon-acquire-cost-in-battle-3-0",
+                "mirrordungeon-acquire-cost-in-battle-3-1"
             ]
         },
         {
@@ -913,9 +921,7 @@
         },
         {
             "dataClass": "event",
-            "fileList": [
-              
-            ]
+            "fileList": []
         },
         {
             "dataClass": "railway-dungeon-buff",
@@ -938,31 +944,37 @@
         {
             "dataClass": "ego-empty",
             "fileList": [
-              "ego-empty"
+                "ego-empty"
             ]
         },
         {
             "dataClass": "ui-excution-priority",
             "fileList": [
-              "ui-excution-priority-on-enter-main"
+                "ui-excution-priority-on-enter-main"
             ]
         },
         {
             "dataClass": "story-auto-change-model",
             "fileList": [
-              "story-auto-change-model"
+                "story-auto-change-model"
             ]
         },
         {
             "dataClass": "story-dungeon-map-text",
             "fileList": [
-              "story-dungeon-map-text"
+                "story-dungeon-map-text"
             ]
         },
         {
             "dataClass": "mirror-dungeon-common-data",
             "fileList": [
-              "mirror-dungeon-common-data"
+                "mirror-dungeon-common-data"
+            ]
+        },
+        {
+            "dataClass": "unlockcode",
+            "fileList": [
+                "unlockcode-subchapter"
             ]
         }
     ]

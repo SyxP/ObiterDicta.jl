@@ -51,6 +51,13 @@ function getSkillReplaceDict()
         end
     end
     for file in getLocalizeDataInfo()["keyword"]
+        if !haskey(LocalizedData(file), "dataList")
+            if GlobalDebugMode && length(keys(LocalizedData(file))) > 0
+                @info "Unable to parse file $LocalizedData(file)"
+            end
+            continue
+        end
+        
         for entry in LocalizedData(file)["dataList"]
             ReplacementDict["[$(entry["id"])]"] = entry["name"]
         end

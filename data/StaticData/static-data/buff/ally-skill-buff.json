@@ -107,7 +107,36 @@
       ]
     },
     {
-      "id": "DuelDeclaration",
+      "id": "DuelDeclaration_DonQuixote",
+      "iconId": "DuelDeclaration",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "canBeDuplicated": true,
+      "list": [
+        {
+          "ability": "DuelDeclaration"
+        }
+      ]
+    },
+    {
+      "id": "DuelDeclaration_Outis",
+      "iconId": "DuelDeclaration",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 1,
+      "canBeDespelled": true,
+      "canBeDuplicated": true,
+      "list": [
+        {
+          "ability": "DuelDeclaration"
+        }
+      ]
+    },
+    {
+      "id": "DuelDeclaration_Sinclair",
+      "iconId": "DuelDeclaration",
       "buffClass": "NonvolatileBuff",
       "buffType": "Negative",
       "maxStack": 1,

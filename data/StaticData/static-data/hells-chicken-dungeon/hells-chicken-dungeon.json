@@ -4,7 +4,7 @@
       "id": 910301,
       "requireEnkephalinModule":1,
       "isHardMode": false,
-      "gradeList": [ 3, 5 ],
+      "gradeList": [ 4, 5 ],
       "levelList": [ 15, 30],
       "floors": [
         {
@@ -27,7 +27,7 @@
       "id": 910302,
       "requireEnkephalinModule": 2,
       "isHardMode": true,
-      "gradeList": [ 3, 5 ],
+      "gradeList": [ 4, 5 ],
       "levelList": [ 15, 30 ],
       "floors": [
         {

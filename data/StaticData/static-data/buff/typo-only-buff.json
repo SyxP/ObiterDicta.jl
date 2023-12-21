@@ -80,6 +80,15 @@
       "list": [
 
       ]
+    },
+    {
+      "id": "OneOnOneDuel",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
     }
   ]
 }

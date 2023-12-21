@@ -197,5 +197,7 @@
 	"additionalChipForFullRestPersonality": [ 0, 1, 2, 3, 4, 5 ],
 	"shopRefreshCostPerCount": 25,
 	"acquireChipPerFloor": [ 5, 10, 15, 25, 40 ],
-	"startRestingCount": 0
+	"startRestingCount": 0,
+	"startEgoGiftPoolCreatedMaxCount": 2,
+	"minEnemyLevelBuffForAdditionalEgoGift": 4
 }

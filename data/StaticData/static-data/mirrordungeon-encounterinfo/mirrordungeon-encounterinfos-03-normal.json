@@ -144,17 +144,6 @@
                   "selectNumber": 1
                 }
               ]
-            },
-            {
-              "floor": 4,
-              "rewardList": [
-                {
-                  "type": "GetEgogiftWithEnemyBuf",
-                  "probability": 1,
-                  "showNumber": 3,
-                  "selectNumber": 1
-                }
-              ]
             }
           ]
         }

@@ -406,7 +406,7 @@
     {
       "id": 10805,
       "appearance": "10805_Ishmeal_FairyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "ATL" ],
       "characterId": 8,
       "panicType": 9999,
       "season": 2,

@@ -166,7 +166,7 @@
     },
     {
       "id": 2040005,
-      "stageLevel": 35,
+      "stageLevel": 40,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -181,7 +181,7 @@
             {
               "unitID": 8066,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 40
             }
           ],
           "bgmList": [
@@ -191,7 +191,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "id": 2040006,
-      "stageLevel": 35,
+      "stageLevel": 40,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -222,7 +222,7 @@
             {
               "unitID": 8068,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 40
             }
           ],
           "bgmList": [
@@ -232,7 +232,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -248,7 +248,7 @@
     },
     {
       "id": 2040007,
-      "stageLevel": 35,
+      "stageLevel": 40,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -263,7 +263,7 @@
             {
               "unitID": 8064,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 40
             }
           ],
           "bgmList": [
@@ -273,7 +273,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "id": 2040008,
-      "stageLevel": 35,
+      "stageLevel": 40,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -304,7 +304,7 @@
             {
               "unitID": 8066,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 40
             }
           ],
           "bgmList": [
@@ -314,7 +314,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -330,7 +330,7 @@
     },
     {
       "id": 2040009,
-      "stageLevel": 35,
+      "stageLevel": 40,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -345,7 +345,7 @@
             {
               "unitID": 8065,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 40
             }
           ],
           "bgmList": [
@@ -355,7 +355,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -371,7 +371,7 @@
     },
     {
       "id": 2040010,
-      "stageLevel": 35,
+      "stageLevel": 45,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -386,7 +386,7 @@
             {
               "unitID": 8064,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 45
             }
           ],
           "bgmList": [
@@ -396,7 +396,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 45,
       "turnLimit": 99,
       "questlist": [
         {
@@ -412,7 +412,7 @@
     },
     {
       "id": 2040011,
-      "stageLevel": 35,
+      "stageLevel": 45,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -427,7 +427,7 @@
             {
               "unitID": 8064,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 45
             }
           ],
           "bgmList": [
@@ -437,7 +437,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 45,
       "turnLimit": 99,
       "questlist": [
         {
@@ -453,7 +453,7 @@
     },
     {
       "id": 2040012,
-      "stageLevel": 35,
+      "stageLevel": 45,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -468,7 +468,7 @@
             {
               "unitID": 8069,
               "unitCount": 6,
-              "unitLevel": 35
+              "unitLevel": 45
             }
           ],
           "bgmList": [
@@ -478,7 +478,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 35,
+      "recommendedLevel": 45,
       "turnLimit": 99,
       "questlist": [
         {
@@ -21172,7 +21172,7 @@
     },
     {
       "id": 2044203,
-      "stageLevel": 49,
+      "stageLevel": 50,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -21187,19 +21187,19 @@
             {
               "unitID": 8087,
               "unitCount": 1,
-              "unitLevel": 49
+              "unitLevel": 50
             },
             {
               "unitID": 8088,
               "unitCount": 4,
-              "unitLevel": 49
+              "unitLevel": 50
             }
           ],
           "subUnitList": [
             {
               "unitID": 8088,
               "unitCount": 4,
-              "unitLevel": 49
+              "unitLevel": 50
             }
           ],
           "bgmList": [
@@ -21210,7 +21210,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 49,
+      "recommendedLevel": 50,
       "turnLimit": 99,
       "questlist": [
         {
@@ -21221,7 +21221,11 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent\tUmbrellaFox_Mirror\t804601",
+      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "eventScriptName": "UmbrellaFox_Mirror",
+      "abnormalityEventList": [
+        804601
+      ],
       "attackType": "PENETRATE",
       "attributeType": "AZURE"
     },
@@ -21438,7 +21442,7 @@
     },
     {
       "id": 2044207,
-      "stageLevel": 50,
+      "stageLevel": 49,
       "stageType": "Abnormality",
       "participantInfo": {
         "min": 6,
@@ -21453,7 +21457,7 @@
             {
               "unitID": 8075,
               "unitCount": 1,
-              "unitLevel": 50
+              "unitLevel": 49
             }
           ],
           "bgmList": [
@@ -21464,7 +21468,7 @@
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 50,
+      "recommendedLevel": 49,
       "turnLimit": 99,
       "questlist": [
         {

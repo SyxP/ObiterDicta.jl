@@ -128,7 +128,9 @@
     {
       "mirrorWorldId": 15,
       "needsPersonalityIdList": [
-        10305
+        10305,
+        11008,
+        11106
       ]
     },
     {

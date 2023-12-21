@@ -1,0 +1,1466 @@
+{
+  "list": [
+    {
+      "id": 3,
+      "typeIndex": 1,
+      "isPersonalityLevelByUserData": true,
+      "startCost": 0,
+
+      "startBuffCoefficient": 1.25,
+      "startBuffAcquireChipMultiplyer": 1,
+
+      "startMaxPersonalityNumber": 12,
+
+      "isShopExistForFloor": [ false, true, true, true ],
+
+      "eventPoolOfEgoGifTierInFloor": [
+        { "list": [ 1, 1 ] },
+        { "list": [ 1, 1, 1 ] },
+        { "list": [ 1, 1, 1, 1 ] },
+        { "list": [ 1, 1, 1, 1 ] },
+        { "list": [ 1, 1, 1, 1 ] }
+      ],
+
+
+      "randompickmaxcost": 0,
+      "randompickrewardmultiplyer": 1.2,
+
+      "requireEnkephalinModule": 18,
+      "globalEventPercentage": 0,
+      "acquireCharacterEventPercentage": 0,
+      "levelUpCharacterEventPercentage": 0,
+      "specialBattleAppearedFloor": 2,
+
+      "openCondition": {
+        "chapterCleared": {
+          "mainChapterId": 1,
+          "subChapterId": 104,
+          "nodeId": 10454,
+          "unlockCode": 104
+        },
+        "dungeonCleared": {
+          "isConditionExist": true,
+          "dungeonId": 3,
+          "typeIndex": 0
+        }
+      },
+
+      "startSelectCount": 12,
+      "gradeList": [ 5 ],
+      "levelList": [ 40 ],
+
+      "addLevel": 5,
+      "currentRewardId": 1,
+
+      "addPersonalityCount": 12,
+      "defaultPersonalityPrice": 0,
+      "personalityPriceByRank": [ 0, 0, 0 ],
+      "defaultEgoPrice": 0,
+      "egoPriceByRank": [ 0, 0, 0, 0, 0 ],
+      "restingEvent": {
+        "heal": [
+          {
+            "index": 0,
+            "price": 100,
+            "isForAll": false,
+            "isHealHpPercentage": true,
+            "healHpAmount": 0.5,
+            "isHealMpPercentage": false,
+            "healMpAmount": 45
+          },
+          {
+            "index": 1,
+            "price": 100,
+            "isForAll": true,
+            "isHealHpPercentage": true,
+            "healHpAmount": 0.2,
+            "isHealMpPercentage": false,
+            "healMpAmount": 15
+          }
+        ],
+        "changeFormation": {
+          "price": 200,
+          "changeableCount": 3
+        },
+        "egoGiftUpgrade": {
+          "isActive": true
+        },
+        "egoGiftComposite": {
+          "isActive": true
+        }
+      },
+
+      "shop": {
+        "heal": [
+          {
+            "index": 0,
+            "price": 100,
+            "isForAll": false,
+            "isHealHpPercentage": true,
+            "healHpAmount": 0.5,
+            "isHealMpPercentage": false,
+            "healMpAmount": 45
+          },
+          {
+            "index": 1,
+            "price": 100,
+            "isForAll": true,
+            "isHealHpPercentage": true,
+            "healHpAmount": 0.2,
+            "isHealMpPercentage": false,
+            "healMpAmount": 15
+          }
+        ],
+        "upgradePersonality": [
+          {
+            "index": 0,
+            "fromSkill": 0,
+            "toSkill": 1,
+            "price": 75
+          },
+          {
+            "index": 1,
+            "fromSkill": 1,
+            "toSkill": 2,
+            "price": 125
+          },
+          {
+            "index": 2,
+            "fromSkill": 0,
+            "toSkill": 2,
+            "price": 200
+          }
+        ],
+        "changeFormation": {
+          "price": 200,
+          "changeableCount": 3
+        },
+        "egoGiftSell": {
+          "isActive": true
+        },
+        "refreshShop": {
+          "isActive": true
+        }
+      },
+
+      "acquireEgoGiftByFloorForUI": [ 0, 0, 0, 0, 0 ],
+
+      "floors": [
+        {
+          "count": 0,
+          "roomCount": 3,
+          "sectorCount": 4,
+          "hardBattlePercentage": 0.0,
+          "abnormalityBattlePercentage": 0.0,
+          "eventNodePercentage": 0.2,
+          "enemyBuffPool": [ 992031, 992032, 992033, 992034 ],
+          "mirrorSector": [
+            {
+              "rewardId": 1,
+              "additionalBattlePassExpForWeeklyBonus": 0,
+              "additionalLunacyForWeeklyBonus": 0,
+              "chanceReward": {
+                "acquireUserExp": 0,
+                "rewardList": [],
+                "randomPackagePiece": 0,
+                "optionalPackagePiece": 0
+              },
+              "normalReward": {
+                "acquireUserExp": 0,
+                "rewardList": [],
+                "randomPackagePiece": 0,
+                "optionalPackagePiece": 0
+              }
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 0,
+                  "additionalLunacyForWeeklyBonus": 0,
+                  "chanceReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 0,
+                  "additionalLunacyForWeeklyBonus": 0,
+                  "chanceReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 0,
+                  "additionalLunacyForWeeklyBonus": 0,
+                  "chanceReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 0,
+                  "additionalLunacyForWeeklyBonus": 0,
+                  "chanceReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "roomCount": 3,
+          "sectorCount": 4,
+          "hardBattlePercentage": 0.08,
+          "abnormalityBattlePercentage": 0.12,
+          "eventNodePercentage": 0.2,
+          "enemyBuffPool": [ 992035, 992036, 992037, 992038 ],
+          "mirrorSector": [
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 10,
+                  "additionalLunacyForWeeklyBonus": 75,
+                  "chanceReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 180,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 35,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "roomCount": 3,
+          "sectorCount": 6,
+          "hardBattlePercentage": 0.1,
+          "abnormalityBattlePercentage": 0.15,
+          "eventNodePercentage": 0.2,
+          "enemyBuffPool": [ 992039, 992040, 992041, 992042, 992043, 992044 ],
+          "mirrorSector": [
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 15,
+                  "additionalLunacyForWeeklyBonus": 150,
+                  "chanceReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 270,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 75,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "roomCount": 3,
+          "sectorCount": 7,
+          "hardBattlePercentage": 0.12,
+          "abnormalityBattlePercentage": 0.18,
+          "eventNodePercentage": 0.25,
+          "enemyBuffPool": [ 992045, 992046, 992047, 992048, 992049, 992050, 992051 ],
+          "mirrorSector": [
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 20,
+                  "additionalLunacyForWeeklyBonus": 200,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 120,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "roomCount": 3,
+          "sectorCount": 9,
+          "hardBattlePercentage": 0.12,
+          "abnormalityBattlePercentage": 0.18,
+          "eventNodePercentage": 0.25,
+          "enemyBuffPool": [ ],
+          "mirrorSector": [
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 135,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            },
+            {
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 25,
+                  "additionalLunacyForWeeklyBonus": 250,
+                  "chanceReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 150,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 360,
+                    "rewardList": [
+                      {
+                        "id": 1,
+                        "num": 150,
+                        "type": "BATTLEPASS_POINT"
+                      }
+                    ],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clientConfig": {
+        "startUnitsParticipateCount": 6
+      }
+    }
+  ]
+}

@@ -110,7 +110,23 @@
           ],
           "profileId": "ucorp_sinclair_profile",
           "analysisId": "ucorp_sinclair_analysis"
-      }
+        },
+        {
+          "personalityId": 11008,
+          "releaseDay": 20231221,
+          "cv_Id": "",
+          "personalityStoryList": [
+            {
+              "storyId": "P11008",
+              "lockCondition": "gacksung",
+              "order": 2,
+              "reward":{"type":"ITEM","id":2,"num":40}
+            }
+          
+          ],
+          "profileId": "cinq_sinclair_profile",
+          "analysisId": "cinq_sinclair_analysis"
+        }
         ]
     }
   ]

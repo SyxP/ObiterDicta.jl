@@ -74,7 +74,22 @@
             ],
             "profileId": "molar_outis_profile",
             "analysisId": "molar_outis_analysis"
-        }
+          },
+          {
+            "personalityId": 11106,
+            "releaseDay": 20231221,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11106",
+                "lockCondition": "gacksung",
+                "order": 3,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "cinq_outis_profile",
+            "analysisId": "cinq_outis_analysis"
+          }
         ]
     }
   ]

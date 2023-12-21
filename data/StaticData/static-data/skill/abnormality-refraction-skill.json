@@ -1236,7 +1236,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 5,
           "abilityScriptList": [
             {
@@ -1292,7 +1292,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "abilityScriptList": [
             {
@@ -1352,7 +1352,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "abilityScriptList": [
             {
@@ -1444,7 +1444,7 @@
           "viewType": "ENCOUNTER",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 18,
           "abilityScriptList": [
             {
@@ -1543,7 +1543,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 6,
           "abilityScriptList": [
             {
@@ -1599,7 +1599,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 5,
           "abilityScriptList": [
             {
@@ -1671,7 +1671,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "range": 999,
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 6,
           "abilityScriptList": [
             {
@@ -1718,7 +1718,7 @@
           "skillMotion": "S2",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "skillLevelCorrection": 5,
+          "skillLevelCorrection": 0,
           "defaultValue": 5,
           "abilityScriptList": [
             {
@@ -1767,8 +1767,8 @@
           "skillMotion": "S1",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "skillLevelCorrection": 5,
-          "defaultValue": 5,
+          "skillLevelCorrection": 0,
+          "defaultValue": 4,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
@@ -1816,8 +1816,8 @@
           "skillMotion": "S4",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "skillLevelCorrection": 5,
-          "defaultValue": 5,
+          "skillLevelCorrection": 0,
+          "defaultValue": 6,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
@@ -1826,7 +1826,7 @@
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 6,
+              "scale": 5,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -1842,7 +1842,7 @@
             },
             {
               "operatorType": "ADD",
-              "scale": 6
+              "scale": 5
             }
           ]
         }
@@ -1865,7 +1865,7 @@
           "skillMotion": "S2",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "skillLevelCorrection": 10,
+          "skillLevelCorrection": 3,
           "defaultValue": 3,
           "abilityScriptList": [
             {
@@ -1918,7 +1918,7 @@
           "skillMotion": "S4",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "skillLevelCorrection": 10,
+          "skillLevelCorrection": 3,
           "defaultValue": 4,
           "abilityScriptList": [
             {
@@ -2042,7 +2042,7 @@
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 6,
+              "scale": 4,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",

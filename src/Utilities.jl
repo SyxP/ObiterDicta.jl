@@ -98,7 +98,9 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
 
     if filePath == ""
         if CurrLang == English
-            @error "No English files exists for $Name"
+            @info "No English files exists for $Name"
+            global LocalizeDatabase[(Name, CurrLang)] = Dict{String, Any}()
+            return LocalizeDatabase[(Name, CurrLang)]
         end
         @warn "No $CurrLang files exists for $Name"
         return LocalizedData(Name, English)

@@ -11,8 +11,8 @@
       "classType": "TETH",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 661,
-        "incrementByLevel": 27.36
+        "defaultStat": 530,
+        "incrementByLevel": 18.26
       },
       "abnormalityPartList": [
         811701,

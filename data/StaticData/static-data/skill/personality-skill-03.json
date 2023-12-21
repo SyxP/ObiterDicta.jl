@@ -1936,7 +1936,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "DuelDeclaration",
+                    "buffKeyword": "DuelDeclaration_DonQuixote",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 1,
@@ -1973,7 +1973,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "DuelDeclaration",
+                    "buffKeyword": "DuelDeclaration_DonQuixote",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 1,

@@ -1663,7 +1663,7 @@
     },
     {
       "id": 97501,
-      "sdPortrait": 90092,
+      "sdPortrait": 90093,
       "appearance": "90092_LCCB_Infested_AAppearance",
       "unitKeywordList": [ "WHITE_PARASITE" ],
       "level": 2,
@@ -1805,7 +1805,7 @@
     },
     {
       "id": 97502,
-      "sdPortrait": 90093,
+      "sdPortrait": 90092,
       "appearance": "90093_LCCB_Infested_BAppearance",
       "unitKeywordList": [ "WHITE_PARASITE" ],
       "level": 2,

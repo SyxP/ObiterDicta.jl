@@ -41,6 +41,12 @@ end
 
 function getLocalizedVersion(myBuff :: Buff; dontWarn = !GlobalDebugMode)
     for BuffList in getLocalizedList(Buff)
+        if !haskey(BuffList, "dataList")
+            if GlobalDebugMode && length(keys(BuffList)) > 0
+                @info "Unable to parse non-empty file $(BuffList)."
+            end
+            continue
+        end
         for buff in BuffList["dataList"]
             (buff["id"] == myBuff.id) && return buff
         end

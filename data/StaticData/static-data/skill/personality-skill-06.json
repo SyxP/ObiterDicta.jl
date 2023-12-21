@@ -1010,7 +1010,7 @@
                   "scriptName": "AttackDmgUpByRatio100IfReuseSkillHead"
                 },
                 {
-                  "scriptName": "DmgUpByBuff",
+                  "scriptName": "1060303_4th",
                   "buffData": {
                     "buffKeyword": "Laceration",
                     "target": "Target",

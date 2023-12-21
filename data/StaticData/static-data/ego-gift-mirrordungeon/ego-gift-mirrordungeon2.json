@@ -344,7 +344,8 @@
         90531
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_COMBUSTION"
       ],
       "keyword": "Combustion",
       "lockType": false,
@@ -449,7 +450,8 @@
         90591
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_SINKING"
       ],
       "keyword": "Sinking",
       "lockType": false,
@@ -507,7 +509,7 @@
         "TIER_1"
       ],
       "keyword": "Charge",
-	  "upgradeDataList": [
+      "upgradeDataList": [
         {
           "upgradeLevel": 0,
           "localizeID": 9062,

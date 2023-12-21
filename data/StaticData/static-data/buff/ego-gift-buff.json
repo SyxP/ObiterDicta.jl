@@ -462,7 +462,7 @@
       "canBeDespelled": false,
       "list": [
         {
-          "ability": "MaxHpMultiplier",
+          "ability": "MaxHpMultiplierEnemy",
           "value": 0.15
         }
       ]
@@ -572,6 +572,350 @@
         {
           "ability": "ParryingResultAdderAsStack",
           "value": 1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFaBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "DefAdderByStack",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "MDHcFaBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "DefSkillPowerAdderAsStack",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "MDHcFaBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.10
+        }
+      ]
+    },
+    {
+      "id": "MDHcFaBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "TakeAtkDamageMultiplierByStack",
+          "value": -0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFbBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkAdderByStack",
+          "value": 3
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "MDHcFbBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 1
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "MDHcFbBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerAdderAsStack",
+          "value": 1
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "MDHcFbBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.15
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 1
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 2
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": -4
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerAdderAsStack",
+          "value": 1
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerAdderAsStack",
+          "value": 2
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": -4
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBe",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "CoinScaleAdderByStack",
+          "coinOperator": "ADD",
+          "value": 1
+        },
+        {
+          "ability": "CoinScaleAdderByStack",
+          "coinOperator": "SUB",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFcBf",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkAdderByStack",
+          "value": 7
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": -7
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 2
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": 6
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerResultAdderAsStack",
+          "value": 3
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "CoinScaleAdderByStack",
+          "coinOperator": "ADD",
+          "value": 1
+        },
+        {
+          "ability": "CoinScaleAdderByStack",
+          "coinOperator": "SUB",
+          "value": -1
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "SkillPowerAdderAsStack",
+          "value": 2
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": 3
+        },
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBe",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkAdderByStack",
+          "value": 10
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": -7
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBf",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "MaxHpMultiplierEnemy",
+          "value": 0.25
+        },
+        {
+          "ability": "DefAdderByStack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "MDHcFdBg",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.5
+        },
+        {
+          "ability": "TakeAtkDamageMultiplierByStack",
+          "value": -0.5
         }
       ]
     }

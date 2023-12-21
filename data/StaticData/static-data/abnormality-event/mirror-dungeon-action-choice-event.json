@@ -1165,7 +1165,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2010303
                     }
                   }
@@ -2665,7 +2665,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2040008
                     }
                   }
@@ -2886,7 +2886,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2040010
                     }
                   }
@@ -3063,7 +3063,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2040011
                     }
                   }
@@ -3239,7 +3239,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2040012
                     }
                   }
@@ -4291,7 +4291,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Danger",
+                      "resultEffect": "StartBattle_Abnormality",
                       "nextBattleID": 2040007
                     }
                   }

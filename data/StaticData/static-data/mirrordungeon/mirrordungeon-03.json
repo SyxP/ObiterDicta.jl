@@ -834,7 +834,7 @@
           "hardBattlePercentage": 0.12,
           "abnormalityBattlePercentage": 0.18,
           "eventNodePercentage": 0.25,
-          "enemyBuffPool": [ 992013, 992014, 992015, 992016 ],
+          "enemyBuffPool": [ ],
           "mirrorSector": [
             {
               "rewardList": [

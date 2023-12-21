@@ -603,7 +603,8 @@
         90311
       ],
       "tag": [
-        "TIER_1"
+        "TIER_1",
+        "EXTRA_VIBRATION"
       ],
       "keyword": "Vibration",
       "lockType": false,
@@ -647,7 +648,8 @@
         90331
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_BURST"
       ],
       "keyword": "Burst",
       "lockType": false,

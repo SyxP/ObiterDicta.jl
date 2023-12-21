@@ -299,7 +299,7 @@
     {
       "id": 10104,
       "appearance": "10104_YiSang_SpicebushFlowerAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "ATL" ],
       "characterId": 1,
       "panicType": 9999,
       "season": 2,

@@ -48,7 +48,8 @@
         90881
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_COMBUSTION"
       ],
       "keyword": "Combustion",
       "lockType": false,
@@ -78,7 +79,8 @@
         }
       ],
       "tag": [
-        "TIER_1"
+        "TIER_1",
+        "EXTRA_LACERATION"
       ],
       "keyword": "Laceration",
       "lockType": false,
@@ -91,7 +93,8 @@
         90901
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_LACERATION"
       ],
       "keyword": "Laceration",
       "lockType": false,
@@ -131,7 +134,8 @@
         90921
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_VIBRATION"
       ],
       "keyword": "Vibration",
       "lockType": false,
@@ -171,7 +175,8 @@
         90941
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_BURST"
       ],
       "keyword": "Burst",
       "lockType": false,
@@ -211,7 +216,8 @@
         90961
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_SINKING"
       ],
       "keyword": "Sinking",
       "lockType": false,
@@ -241,7 +247,8 @@
         }
       ],
       "tag": [
-        "TIER_1"
+        "TIER_1",
+        "EXTRA_BREATH"
       ],
       "keyword": "Breath",
       "lockType": false,
@@ -254,7 +261,8 @@
         90981
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_BREATH"
       ],
       "keyword": "Breath",
       "lockType": false,
@@ -281,7 +289,8 @@
         }
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_CHARGE"
       ],
       "keyword": "Charge",
       "lockType": false,
@@ -294,7 +303,8 @@
         91001
       ],
       "tag": [
-        "TIER_4"
+        "TIER_4",
+        "EXTRA_CHARGE"
       ],
       "keyword": "Charge",
       "lockType": false,

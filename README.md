@@ -61,10 +61,11 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 
 For Mirror Dungeon, as the content may be revamp in the near future, may require specific backups to ensure the data is not lost.
 1. Mirror Dungeon 1 and 2 - List of Fights (0%)
-2. Mirror Dungeon 2 - Starlight Buffs (20%)
-3. Mirror Dungeon 3 - Fusion Mechanics (0%)
-4. Mirror Dungeon 3 - Fusion Calculator (0%)
-5. Mirror Dungeon 3 - Starlight Buffs (0%)
+2. Mirror Dungeon 1 and 2 - Historical E.G.O Gifts (0%)
+3. Mirror Dungeon 2 - Starlight Buffs (20%)
+4. Mirror Dungeon 3 - Fusion Mechanics (100%)
+5. Mirror Dungeon 3 - Fusion Calculator (70%)
+6. Mirror Dungeon 3 - Starlight Buffs (0%)
 
 ### Miscellaneous Story
 
@@ -81,6 +82,8 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 5. Choice Event Identity Check Text (0%)
 6. Profile Card Information (100%)
 7. Automatic Updating of Bundles (100%)
+8. Historic Gacha Information (0%)
+9. Gacha Simulator (0%)
 
 ### Known Bugs/Specific Requested Features
 

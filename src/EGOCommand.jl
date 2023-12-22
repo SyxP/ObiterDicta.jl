@@ -426,6 +426,54 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
     end
 end
 
+for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, getInflictedBuffCount, "inflicts count of"),
+                                   (:EGOSkillInflictsBuffPotencyFilter, getInflictedBuffPotency, "inflicts potency of"),
+                                   (:EGOSkillGainsBuffCountFilter, getGainedBuffCount, "gains count of"),
+                                   (:EGOSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of")]
+    @eval function ($defineFn)(skillStr, buffStr, NStr, op)
+        skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
+        skillDesc == "" && return TrivialFilter(EGO)
+
+        op == "<=" && (op = "≤")
+        op == ">=" && (op = "≥")
+        compareN = tryparse(Int, NStr)
+        compareN === nothing && return TrivialFilter(EGO)
+
+        foundBuff = nothing
+        io = Pipe()
+        redirect_stdout(io) do
+            foundBuff = BuffParser(buffStr)
+        end
+        close(io)
+
+        if foundBuff isa Vector
+            length(foundBuff) == 0 && return TrivialFilter(EGO)
+            foundBuff = foundBuff[1]
+        end
+        foundBuff === nothing && return TrivialFilter(EGO)
+        
+        function Fn(x, uptie)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                if Lst isa Vector
+                    for skill in Lst
+                        skill === nothing && continue
+                        CompareNumbers(($lookupFn)(skill, uptie, foundBuff), compareN, op) && return true
+                    end
+                else
+                    skill = Lst
+                    skill === nothing && continue
+                    CompareNumbers(($lookupFn)(skill, uptie, foundBuff), compareN, op) && return true
+                end
+            end
+            return false
+        end
+
+        filterStr = "Filter: $skillDesc " * $desc * " $(getTitle(foundBuff)) $(op) $(compareN) (Input: $(@dim(buffStr)))"
+        return Filter{EGO}(Fn, filterStr)
+    end
+end
+
 function constructFilter(::Type{EGO}, input)
     S = match(r"^[iI]d(entity)?[=:]([0-9]+)$", input)
     if S !== nothing
@@ -441,6 +489,7 @@ function constructFilter(::Type{EGO}, input)
         (r"^[cC]ost[:=](.+)([<=>≤≥]+)(.+)$", EGOCostFilter, [1, 2, 3]),
         (r"^[cC]ost[:=](.+)$", EGOCostFilter, [1]),
         (r"^[rR]es(ist)?[:=](.*)([<=>≤≥]+)(.+)$", EGOResistFilter, [2, 3, 4]),
+
         (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", EGOSinFilter, [1, 3]),
         (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", EGOAtkTypeFilter, [1, 3]),
         (r"^([^:]*)[:=][tT]arget[tT]ype[:=](.+)$", EGOTargetTypeFilter, [1, 2]),
@@ -450,13 +499,18 @@ function constructFilter(::Type{EGO}, input)
         (r"^([^:]*)[:=][sS][pP]([cC]ost|[uU]se)?([<>=≤≥]+)(.+)$", EGOSanityCostFilter, [1, 4, 3]),
         (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", EGONumCoinsFilter, [1, 4, 3]),
         (r"^([^:]*)[:=][oO]ff[cC]or(rection)?([<>=≤≥]+)(.+)$", EGOOffCorFilter, [1, 4, 3]),
+
         (r"^([^:]*)[:=][bB]ursts?[tT]remor$", EGOSkillBurstTremorFilter, [1]),
         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", EGOSkillGainsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillGainsBuffCountFilter, [1, 3, 5, 4]),
         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillGainsBuffCountFilter, [1, 3]),
-        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillGainsBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillGainsBuffPotencyFilter, [1, 4]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", EGOSkillInflictsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillInflictsBuffCountFilter, [1, 3, 5, 4]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillInflictsBuffCountFilter, [1, 3]),
-        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 4]),
         (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3])]
         
         S = match(myRegex, input)

@@ -498,6 +498,53 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflict
     end
 end
 
+for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, getInflictedBuffCount, "inflicts count of"),
+                                   (:SinnerSkillInflictsBuffPotencyFilter, getInflictedBuffPotency, "inflicts potency of"),
+                                   (:SinnerSkillGainsBuffCountFilter, getGainedBuffCount, "gains count of"),
+                                   (:SinnerSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of")]
+    @eval function ($defineFn)(skillStr, buffStr, NStr, op)
+        skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
+        skillDesc == "" && return TrivialFilter(Personality)
+
+        op == "<=" && (op = "≤")
+        op == ">=" && (op = "≥")
+        @info NStr op
+        compareN = tryparse(Int, NStr)
+        compareN === nothing && return TrivialFilter(Personality)
+
+        foundBuff = nothing
+        io = Pipe()
+        redirect_stdout(io) do
+            foundBuff = BuffParser(buffStr)
+        end
+        close(io)
+
+        if foundBuff isa Vector
+            length(foundBuff) == 0 && return TrivialFilter(Personality)
+            foundBuff = foundBuff[1]
+        end
+        foundBuff === nothing && return TrivialFilter(Personality)
+
+        function Fn(x, lvl, uptie)
+            for tmpFn in skillFn
+                Lst = tmpFn(x)
+                Lst === nothing && continue
+                if Lst isa Vector
+                    for skill in Lst
+                        CompareNumbers(($lookupFn)(skill, uptie, foundBuff), compareN, op) && return true
+                    end
+                else
+                    skill = Lst
+                    CompareNumbers(($lookupFn)(skill, uptie, foundBuff), compareN, op) && return true
+                end
+            end
+            return false
+        end
+
+        filterStr = "Filter: $skillDesc " * $desc * " $(getTitle(foundBuff)) $(op) $(compareN) (Input: $(@dim(buffStr)))"
+        return Filter{Personality}(Fn, filterStr)
+    end
+end
 
 function SinnerPassiveSinFilter(passStr, sinQuery, num = 0, op = ">")
     passFn, passDesc = getPassiveFunctions(Personality, passStr)
@@ -550,6 +597,7 @@ function constructFilter(::Type{Personality}, input)
         (r"^[pP]ass(ive)?[:=](.*)[:=](is)?([sS]tock|[oO]wn(ed)?)$", SinnerPassiveStockFilter, [2]),
         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerPassiveSinFilter, [2, 3, 5, 4]),
         (r"^[pP]ass(ive)?[:=](.*)[:=](.+)$", SinnerPassiveSinFilter, [2, 3]),
+
         (r"^([^:]*)[:=][sS]in(type|affinity)?[:=](.+)$", CombatSkillSinFilter, [1, 3]),
         (r"^([^:]*)[:=][aA](tk|ttack)[tT]ype[:=](.+)$", CombatSkillAtkTypeFilter, [1, 3]),
         (r"^([^:]*)[:=][mM]in[rR]olls?([<>=≤≥]+)(.+)$", CombatSkillMinRollFilter, [1, 3, 2]),
@@ -557,13 +605,18 @@ function constructFilter(::Type{Personality}, input)
         (r"^([^:]*)[:=][wW]eight([<>=≤≥]+)(.+)$", CombatSkillWeightFilter, [1, 3, 2]),
         (r"^([^:]*)[:=][oO]ff(ense)?[cC]or(rection)?([<>=≤≥]+)(.+)$", CombatSkillOffCorFilter, [1, 5, 4]),
         (r"^([^:]*)[:=]([nN]um)?[cC]oins?([<>=≤≥]+)(.+)$", CombatSkillNumCoinsFilter, [1, 4, 3]),
+
         (r"^([^:]*)[:=][bB]ursts?[tT]remor$", SinnerSkillBurstTremorFilter, [1]),
         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[:=](.+)$", SinnerSkillGainsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillGainsBuffCountFilter, [1, 3, 5, 4]),
         (r"^([^:]*)[:=][gG]ains?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillGainsBuffCountFilter, [1, 3]),
-        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillGainsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillGainsBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][gG]ains?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillGainsBuffPotencyFilter, [1, 4]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[:=](.+)$", SinnerSkillInflictsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillInflictsBuffCountFilter, [1, 3, 5, 4]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillInflictsBuffCountFilter, [1, 3]),
-        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 3]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 4]),
         (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", SinnerSkillInteractsBuffFilter, [1, 3])]
         
         S = match(myRegex, input)

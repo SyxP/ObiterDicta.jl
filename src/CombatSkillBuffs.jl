@@ -7,9 +7,19 @@ function hasBuffCount(Action :: Dict{String, Any}, str)
     return haskey(bData, "turn") && bData["turn"] != 0
 end
 
+function getBuffCountPerAction(Action :: Dict{String, Any}, str)
+    bData = Action["buffData"]
+    return haskey(bData, "turn") ? abs(bData["turn"]) : 0
+end
+
 function hasBuffPotency(Action :: Dict{String, Any}, str)
     bData = Action["buffData"]
     return haskey(bData, "stack") && bData["stack"] != 0
+end
+
+function getBuffPotencyPerAction(Action :: Dict{String, Any}, str)
+    bData = Action["buffData"]
+    return haskey(bData, "stack") ? abs(bData["stack"]) : 0
 end
 
 function inflictsBuff(Action :: Dict{String, Any})
@@ -42,35 +52,39 @@ end
 
 function inflictBuffPotencyInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffPotency(Action, str) && inflictsBuff(Action)
-        return true
+        return getBuffPotencyPerAction(Action, str)
     end
 
-    if actionScriptRandomDebuff(Action, str) && (match(r"^GiveRandomDebuffSinStack", Action["scriptName"]) !== nothing)
-        return true
+    if actionScriptRandomDebuff(Action, str)
+        S = match(r"^GiveRandomDebuffSinStack([0-9]+)$", Action["scriptName"])
+        S !== nothing && return parse(Int, S.captures[1])
     end
 
-    return false
+    return 0
 end
 
 function inflictBuffCountInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffCount(Action, str) && inflictsBuff(Action)
-        return true
+        return getBuffCountPerAction(Action, str)
     end
-    return false
+
+    return 0
 end
 
 function gainsBuffPotencyInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffPotency(Action, str) && gainsBuff(Action)
-        return true
+        return getBuffPotencyPerAction(Action, str)
     end
-    return false
+
+    return 0
 end
 
 function gainsBuffCountInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffCount(Action, str) && gainsBuff(Action)
-        return true
+        return getBuffCountPerAction(Action, str)
     end
-    return false
+
+    return 0
 end
 
 function burstTremorInternal(Action :: Dict{String, Any})
@@ -93,36 +107,32 @@ function WalkActionTree(fn, skill :: CombatSkill, tier)
     return false
 end
 
-function inflictBuffPotency(skill :: CombatSkill, tier, buff :: Buff)
-    buffStr = getID(buff)
-    return WalkActionTree(skill, tier) do Action
-        inflictBuffPotencyInternal(Action, buffStr)
+for (boolFnName, ctFnName, retrieveFn) in 
+    [(:inflictBuffPotency, :getInflictedBuffPotency, inflictBuffPotencyInternal),
+     (:inflictBuffCount, :getInflictedBuffCount,  inflictBuffCountInternal),
+     (:gainsBuffPotency, :getGainedBuffPotency, gainsBuffPotencyInternal),
+     (:gainsBuffCount, :getGainedBuffCount,   gainsBuffCountInternal)]
+
+    @eval function ($boolFnName)(skill :: CombatSkill, tier, buff :: Buff)
+        buffStr = getID(buff)
+        return WalkActionTree(skill, tier) do Action
+            ($retrieveFn)(Action, buffStr) > 0
+        end
+    end
+
+    @eval function ($ctFnName)(skill :: CombatSkill, tier, buff :: Buff)
+        buffStr = getID(buff)
+        Ct = 0
+        WalkActionTree(skill, tier) do Action
+            Ct += ($retrieveFn)(Action, buffStr)
+            false
+        end
+        return Ct
     end
 end
 
-function inflictBuffCount(skill :: CombatSkill, tier, buff :: Buff)
-    buffStr = getID(buff)
-    return WalkActionTree(skill, tier) do Action
-        inflictBuffCountInternal(Action, buffStr)
-    end
-end
 
 inflictBuff(skill :: CombatSkill, tier, buff :: Buff) = (inflictBuffPotency(skill, tier, buff) || inflictBuffCount(skill, tier, buff))
-
-function gainsBuffPotency(skill :: CombatSkill, tier, buff :: Buff)
-    buffStr = getID(buff)
-    return WalkActionTree(skill, tier) do Action
-        gainsBuffPotencyInternal(Action, buffStr)
-    end
-end
-
-function gainsBuffCount(skill :: CombatSkill, tier, buff :: Buff)
-    buffStr = getID(buff)
-    return WalkActionTree(skill, tier) do Action
-        gainsBuffCountInternal(Action, buffStr)
-    end
-end
-
 gainsBuff(skill :: CombatSkill, tier, buff :: Buff) = (gainsBuffPotency(skill, tier, buff) || gainsBuffCount(skill, tier, buff))
 
 function interactsBuff(skill :: CombatSkill, tier, buff :: Buff)

@@ -129,7 +129,7 @@ end
 function searchTopSkills(query, haystack, topN, tier) 
     print("Using $(@red(query)) as query")
     AddParams = String[]
-    tier !== 999 && push!(AddParams, "Tier: $(@red(tier))")
+    tier != getMaxTier(CombatSkill) && push!(AddParams, "Tier: $(@red(string(tier)))")
 
     length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
     println(".")

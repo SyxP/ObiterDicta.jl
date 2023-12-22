@@ -508,7 +508,6 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, getInfl
 
         op == "<=" && (op = "≤")
         op == ">=" && (op = "≥")
-        @info NStr op
         compareN = tryparse(Int, NStr)
         compareN === nothing && return TrivialFilter(Personality)
 

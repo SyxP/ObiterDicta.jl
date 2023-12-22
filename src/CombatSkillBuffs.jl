@@ -154,7 +154,7 @@ function interactsBuff(skill :: CombatSkill, tier, buff :: Buff)
     
     buffStr = getID(buff)
     return WalkActionTree(skill, tier) do Action
-        actionScriptHasBuff(Action, buffStr)
+        actionScriptHasBuff(Action, buffStr) || hasBuffData(Action, buffStr)
     end
 end
 

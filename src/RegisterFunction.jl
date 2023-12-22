@@ -65,6 +65,22 @@ function IDDuplicateSinFilter(id, lvl, uptie)
 end
 # RegisterFunction("id-has-same-sin", IDDuplicateSinFilter)
 
+function IDDifferentAtkTypeFilter(id, lvl, uptie)
+    SkillFnList, _ = getSkillFunctions(Personality, "allSkills")
+    AttackTypes = Any[]
+    for skillFn in SkillFnList
+        Lst = skillFn(id)
+        if Lst isa Vector
+            append!(AttackTypes, [getLocalizedAtkType(x, uptie) for x in Lst])
+        else
+            push!(AttackTypes, getLocalizedAtkType(Lst, uptie))
+        end
+    end
+
+    return "Slash" ∈ AttackTypes && "Pierce" ∈ AttackTypes && "Blunt" ∈ AttackTypes
+end
+RegisterFunction("id-all-diff-atk", IDDifferentAtkTypeFilter)
+
 function IDNoChangeInMaxRoll(id, lvl, uptie)
     SkillFnList, _ = getSkillFunctions(Personality, "atkSkills")
     MaxRolls3 = [getMaxRoll(skillFn(id), 3) for skillFn in SkillFnList]

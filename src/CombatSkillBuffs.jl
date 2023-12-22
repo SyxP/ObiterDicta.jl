@@ -46,12 +46,21 @@ function actionScriptRandomDebuff(Action :: Dict{String, Any}, str)
     haskey(Action, "scriptName") || return false
     match(r"^GiveRandomDebuffSin", Action["scriptName"]) !== nothing || return false
     str ∈ ["Combustion", "Laceration", "Vibration", "Burst", "Sinking"]
-end 
+end
+
+function actionScriptMatchesRegex(Action :: Dict{String, Any}, str :: Regex)
+    haskey(Action, "scriptName") || return false
+    return match(str, Action["scriptName"]) !== nothing
+end
 
 ### Internal Functions
 
 function inflictBuffPotencyInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffPotency(Action, str) && inflictsBuff(Action)
+        return getBuffPotencyPerAction(Action, str)
+    end
+
+    if actionScriptMatchesRegex(Action, r"^1040603$") && hasBuffData(Action, str) # Ryoushuu O.O.F
         return getBuffPotencyPerAction(Action, str)
     end
 
@@ -65,6 +74,10 @@ end
 
 function inflictBuffCountInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffCount(Action, str) && inflictsBuff(Action)
+        return getBuffCountPerAction(Action, str)
+    end
+
+    if actionScriptMatchesRegex(Action, r"^1040603$") && hasBuffData(Action, str) # Ryoushuu O.O.F
         return getBuffCountPerAction(Action, str)
     end
 

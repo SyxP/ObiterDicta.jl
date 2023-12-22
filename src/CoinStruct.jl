@@ -110,7 +110,8 @@ function getCoinVecFromString(str)
 end 
 
 function increasePlusCoinPower(coinList :: Vector{Coin}, power :: Int)
-    Ans = Coin[]
+    length(coinList) == 0 && return coinList
+    Ans = [coinList[1]]
     for coin in coinList[2:end]
         if coin.operation == "ADD"
             push!(Ans, Coin(coin.value + power, coin.operation))
@@ -122,7 +123,8 @@ function increasePlusCoinPower(coinList :: Vector{Coin}, power :: Int)
 end
 
 function increaseMinusCoinPower(coinList :: Vector{Coin}, power :: Int)
-    Ans = Coin[]
+    length(coinList) == 0 && return coinList
+    Ans = [coinList[1]]
     for coin in coinList[2:end]
         if coin.operation == "SUB"
             push!(Ans, Coin(coin.value - power, coin.operation))

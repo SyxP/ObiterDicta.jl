@@ -51,11 +51,13 @@ function FilterHelp(::Type{Personality})
               [pass:‡:isReson]         - All (**) passives have resonance requirements.
               [pass:‡:isStock]         - All (**) passives have owned requirements.
               [pass:‡:_type__op__num_] - All (**) passives have cost _type_ _op_ _num_.
-              [*:†:_buff_]             - Any (*) (†) _buff_
-              [fn:_FunName_]            - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
+              [*:†:_buff__op__num_]    - Any (*) (†) _buff_ _op_ _num_
+              [fn:_FunName_]           - ⟨Adv⟩ Filters based on FunName(id, level, uptie). See `filtreg help`.
 
               * can be one of S1, S2, S3, atkSkills (S1, S2 and S3), def, allSkills
               † can be gains, gainsCount, gainsPot, inflicts, inflictsCount, inflictsPot or interacts
+              † can have `_op_ _num_` if it has a Pot or Count.
+              † can be exactPot or exactCount
               † can be burstTremor but :_buff_ would then be omitted (e.g. `s3:burstTremor`)
               ‡ can be pass, spass or allPass
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
@@ -458,7 +460,9 @@ for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, inflict
                                    (:SinnerSkillGainsBuffCountFilter, gainsBuffCount, "gains count of"),
                                    (:SinnerSkillGainsBuffPotencyFilter, gainsBuffPotency, "gains potency of"),
                                    (:SinnerSkillGainsBuffFilter, gainsBuff, "gains"),
-                                   (:SinnerSkillInteractsBuffFilter, interactsBuff, "interacts with")]
+                                   (:SinnerSkillInteractsBuffFilter, interactsBuff, "interacts with"),
+                                   (:SinnerSkillExactBuffCountFilter, exactBuffCount, "exact `GainBuff` count of"),
+                                   (:SinnerSkillExactBuffPotencyFilter, exactBuffPotency, "exact `GainBuff` potency of"),]
     @eval function ($defineFn)(skillStr, buffStr)
         skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
         skillDesc == "" && return TrivialFilter(Personality)
@@ -501,7 +505,9 @@ end
 for (defineFn, lookupFn, desc) in [(:SinnerSkillInflictsBuffCountFilter, getInflictedBuffCount, "inflicts count of"),
                                    (:SinnerSkillInflictsBuffPotencyFilter, getInflictedBuffPotency, "inflicts potency of"),
                                    (:SinnerSkillGainsBuffCountFilter, getGainedBuffCount, "gains count of"),
-                                   (:SinnerSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of")]
+                                   (:SinnerSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of"),
+                                   (:SinnerSkillExactBuffCountFilter, getExactBuffCount, "exact `GainBuff` count of"),
+                                   (:SinnerSkillExactBuffPotencyFilter, getExactBuffPotency, "exact `GainBuff` potency of")]
     @eval function ($defineFn)(skillStr, buffStr, NStr, op)
         skillFn, skillDesc = getSkillFunctions(Personality, skillStr)
         skillDesc == "" && return TrivialFilter(Personality)
@@ -616,7 +622,11 @@ function constructFilter(::Type{Personality}, input)
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillInflictsBuffCountFilter, [1, 3]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 4, 6, 5]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillInflictsBuffPotencyFilter, [1, 4]),
-        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", SinnerSkillInteractsBuffFilter, [1, 3])]
+        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", SinnerSkillInteractsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[pP]ot(ency)?[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillExactBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[pP]ot(ency)?[:=](.+)$", SinnerSkillExactBuffPotencyFilter, [1, 4]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[cC]ount[:=](.+)([<>=≤≥]+)([0-9]+)$", SinnerSkillExactBuffCountFilter, [1, 3, 5, 4]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[cC]ount[:=](.+)$", SinnerSkillExactBuffCountFilter, [1, 3])]
         
         S = match(myRegex, input)
         if S !== nothing

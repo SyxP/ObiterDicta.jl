@@ -55,6 +55,22 @@ end
 
 ### Internal Functions
 
+function exactBuffPotencyInternal(Action :: Dict{String, Any}, str)
+    if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffPotency(Action, str) 
+        return getBuffPotencyPerAction(Action, str)
+    end
+
+    return 0
+end
+
+function exactBuffCountInternal(Action :: Dict{String, Any}, str)
+    if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffCount(Action, str) 
+        return getBuffCountPerAction(Action, str)
+    end
+
+    return 0
+end
+
 function inflictBuffPotencyInternal(Action :: Dict{String, Any}, str)
     if actionScriptGivesBuff(Action, str) && hasBuffData(Action, str) && hasBuffPotency(Action, str) && inflictsBuff(Action)
         return getBuffPotencyPerAction(Action, str)
@@ -124,7 +140,9 @@ for (boolFnName, ctFnName, retrieveFn) in
     [(:inflictBuffPotency, :getInflictedBuffPotency, inflictBuffPotencyInternal),
      (:inflictBuffCount, :getInflictedBuffCount,  inflictBuffCountInternal),
      (:gainsBuffPotency, :getGainedBuffPotency, gainsBuffPotencyInternal),
-     (:gainsBuffCount, :getGainedBuffCount,   gainsBuffCountInternal)]
+     (:gainsBuffCount, :getGainedBuffCount, gainsBuffCountInternal),
+     (:exactBuffCount, :getExactBuffCount, exactBuffCountInternal),
+     (:exactBuffPotency, :getExactBuffPotency, exactBuffPotencyInternal)]
 
     @eval function ($boolFnName)(skill :: CombatSkill, tier, buff :: Buff)
         buffStr = getID(buff)

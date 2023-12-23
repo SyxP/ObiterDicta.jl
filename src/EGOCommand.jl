@@ -49,6 +49,8 @@ function FilterHelp(::Type{EGO})
 
               * can be one of awake, corr, allSkills
               † can be gains, gainsCount, gainsPot, inflicts, inflictsCount, inflictsPot or interacts
+              † can have `_op_ _num_` if it has a Pot or Count.
+              † can be exactPot or exactCount
               † can be burstTremor but :_buff_ would then be omitted (e.g. `awake:burstTremor`)
               _op_ can be one of =, <, ≤ (<=), >, ≥ (>=)
               [^_query_] constructs a filter that is true iff [_query_] is false.
@@ -386,7 +388,9 @@ for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, inflictBuf
                                    (:EGOSkillGainsBuffCountFilter, gainsBuffCount, "gains count of"),
                                    (:EGOSkillGainsBuffPotencyFilter, gainsBuffPotency, "gains potency of"),
                                    (:EGOSkillGainsBuffFilter, gainsBuff, "gains"),
-                                   (:EGOSkillInteractsBuffFilter, interactsBuff, "interacts with")]
+                                   (:EGOSkillInteractsBuffFilter, interactsBuff, "interacts with"),
+                                   (:EGOSkillExactBuffCountFilter, exactBuffCount, "exact `GainBuff` count of"),
+                                   (:EGOSkillExactBuffPotencyFilter, exactBuffPotency, "exact `GainBuff` potency of")]
     @eval function ($defineFn)(skillStr, buffStr)
         skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
         skillDesc == "" && return TrivialFilter(EGO)
@@ -429,7 +433,9 @@ end
 for (defineFn, lookupFn, desc) in [(:EGOSkillInflictsBuffCountFilter, getInflictedBuffCount, "inflicts count of"),
                                    (:EGOSkillInflictsBuffPotencyFilter, getInflictedBuffPotency, "inflicts potency of"),
                                    (:EGOSkillGainsBuffCountFilter, getGainedBuffCount, "gains count of"),
-                                   (:EGOSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of")]
+                                   (:EGOSkillGainsBuffPotencyFilter, getGainedBuffPotency, "gains potency of"),
+                                   (:EGOSkillExactBuffCountFilter, getExactBuffCount, "exact `GainBuff` count of"),
+                                   (:EGOSkillExactBuffPotencyFilter, getExactBuffPotency, "exact `GainBuff` potency of")]
     @eval function ($defineFn)(skillStr, buffStr, NStr, op)
         skillFn, skillDesc = getSkillFunctions(EGO, skillStr)
         skillDesc == "" && return TrivialFilter(EGO)
@@ -511,7 +517,11 @@ function constructFilter(::Type{EGO}, input)
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[cC]ount[:=](.+)$", EGOSkillInflictsBuffCountFilter, [1, 3]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 4, 6, 5]),
         (r"^([^:]*)[:=][iI]nflicts?([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillInflictsBuffPotencyFilter, [1, 4]),
-        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3])]
+        (r"^([^:]*)[:=][iI]nteracts?([bB]uff)?[:=](.+)$", EGOSkillInteractsBuffFilter, [1, 3]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[pP]ot(ency)?[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillExactBuffPotencyFilter, [1, 4, 6, 5]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[pP]ot(ency)?[:=](.+)$", EGOSkillExactBuffPotencyFilter, [1, 4]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[cC]ount[:=](.*)([<>=≤≥]+)(.+)$", EGOSkillExactBuffCountFilter, [1, 3, 5, 4]),
+        (r"^([^:]*)[:=][eE]xact([bB]uff)?[cC]ount[:=](.+)$", EGOSkillExactBuffCountFilter, [1, 3])]
         
         S = match(myRegex, input)
         if S !== nothing

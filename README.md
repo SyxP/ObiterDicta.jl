@@ -84,6 +84,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 7. Automatic Updating of Bundles (100%)
 8. Historic Gacha Information (0%)
 9. Gacha Simulator (0%)
+10. Limbus News/Announcement Search (0%)
 
 ### Known Bugs/Specific Requested Features
 

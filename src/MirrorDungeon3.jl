@@ -225,6 +225,13 @@ function fuseEGOGifts(inputs :: Vector{T}) where T <: EGOGift
         return [outputGift]
     end
 
+    for input in inputs
+        if getTier(input) === nothing || !(1 ≤ getTier(input) ≤ getMaximumFusionTier())
+            println("The gift $(getTitle(input)) is not fusable.")
+            return []
+        end
+    end
+
     listTypes = getAttributeType.(inputs)
     tierTypes = sort(getTier.(inputs))
     fusionDict = getFusionTierDict()

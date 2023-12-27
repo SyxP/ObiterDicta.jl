@@ -206,7 +206,7 @@ function EGOGiftKeywordFilter(buff)
         return getKeyword(x) == getID(foundBuff)
     end
     Desc = "Filter: E.G.O Gift has keyword $(@red(getName(foundBuff))) (Input: $(@dim(buff)))"
-    return EGOGiftFilter(Fn, Desc)
+    return Filter{EGOGift}(Fn, Desc)
 end
 
 function EGOGiftNoKeywordFilter()

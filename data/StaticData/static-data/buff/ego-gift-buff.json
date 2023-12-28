@@ -18,6 +18,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Agility",
             "target": "Self",
@@ -40,6 +41,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Agility",
             "target": "Self",
@@ -125,6 +127,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Binding",
             "target": "Self",
@@ -147,6 +150,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Enhancement",
             "target": "Self",
@@ -166,6 +170,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Reduction",
             "target": "Self",
@@ -185,6 +190,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "AttackDmgDown",
             "target": "Self",
@@ -204,6 +210,7 @@
       "list": [
         {
           "ability": "GiveBuffOnRoundStart",
+          "value": 1,
           "buffData": {
             "buffKeyword": "Burst",
             "target": "Self",

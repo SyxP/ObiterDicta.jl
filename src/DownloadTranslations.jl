@@ -41,7 +41,7 @@ function UpdateBundleParser(input)
         return forceDownloadCatalogS1(S.captures[1])
     end
 
-    S = match(r"^catalog ([1-9][0-9]*)$", input)
+    S = match(r"^catalog ?([1-9][0-9]*)$", input)
     if S !== nothing
         return downloadNCatalogS1(S.captures[1])
     end

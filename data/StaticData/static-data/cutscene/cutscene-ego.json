@@ -753,23 +753,21 @@
       "pivotList": [
         {
           "cutsceneType": "EGO_AWAKEN",
-          "offsetX": 0.01,
-          "offsetY": -0.06,
+          "offsetX": 0.06,
+          "offsetY": 0.1,
 
-          "offsetStartX":  0.24,
-          "offsetStartY":  0.05,
+          "offsetStartY":  -0.2,
 
-          "closeUp": 0.67
+          "closeUp": 0.46
         },
         {
           "cutsceneType": "EGO_EROSION",
-          "offsetX": 0.01,
-          "offsetY": 0.21,
+          "offsetX": 0.06,
+          "offsetY": 0.27,
 
-          "offsetStartX": 0.01,
-          "offsetStartY": -0.06,
+          "offsetStartY": -0.08,
 
-          "closeUp": 0.67
+          "closeUp": 0.46
         }
       ]
     },
@@ -1197,21 +1195,22 @@
       "pivotList": [
         {
           "cutsceneType": "EGO_AWAKEN",
-          "offsetX": 0.02,
+          "offsetX": -0.1,
           "offsetY": -0.06,
 
-          "offsetStartX": -0.2,
+          "offsetStartX": 0.2,
 
-          "closeUp": 0.57
+          "closeUp": 0.46
         },
         {
           "cutsceneType": "EGO_EROSION",
-          "offsetX": -0.25,
-          "offsetY": -0.06,
+          "offsetX": 0.22,
+          "offsetY": 0.19,
 
-          "offsetStartY": 0.02,
+          "offsetStartX": -0.1,
+          "offsetStartY": -0.06,
 
-          "closeUp": 0.57
+          "closeUp": 0.46
 
         }
       ]

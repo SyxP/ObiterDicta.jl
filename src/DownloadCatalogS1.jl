@@ -10,8 +10,8 @@ getCatalogS1Versions() = readlines(joinpath(DataDir, "CatalogS1Versions.txt"))
 
 function downloadCatalogS1JSON(catalogURL)
     URL = "https://d7g8h56xas73g.cloudfront.net/" * catalogURL * "/catalog_S1.json"
-    @info "Downloading $(URL)."
-    Downloads.download(URL, "$DataDir/catalog_S1.json")
+    # @info "Downloading $(URL)."
+    Downloads.download(URL, joinpath(DataDir, "catalog_S1.json"))
 end
 
 getLatestCatalogS1() = getCatalogS1Versions()[end]

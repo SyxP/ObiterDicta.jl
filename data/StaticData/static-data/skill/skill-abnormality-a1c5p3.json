@@ -5156,7 +5156,7 @@
           "attributeType": "AMBER",
           "atkType": "PENETRATE",
           "defType": "COUNTER",
-          "skillMotion": "S1",
+          "skillMotion": "S8",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "targetNum": 1,

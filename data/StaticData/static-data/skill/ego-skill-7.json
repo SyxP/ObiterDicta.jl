@@ -826,7 +826,7 @@
           "defType": "ATTACK",
           "skillTargetType": "RANDOM",
           "targetNum": 2,
-          "range" : 999,
+          "range": 999,
           "mpUsage": 25,
           "skillLevelCorrection": -1,
           "defaultValue": 33,
@@ -1000,6 +1000,171 @@
                 },
                 {
                   "scriptName": "2070421_end"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070511,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SHAMROCK",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 0,
+          "defaultValue": 17,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbilityHead1And2And5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbilityHead1And2And5"
+                },
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinSecondAbility2And1And1And1And1And1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "targetNum": 2,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbility1And2And7"
+                },
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinSecondAbility2And2And2And2And2And2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070521,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SHAMROCK",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 0,
+          "defaultValue": 25,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestMpTarget"
+            },
+            {
+              "scriptName": "GiveMpDmgBeforeAttackTarget10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbility1And2And7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "targetNum": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestMpTarget"
+            },
+            {
+              "scriptName": "GiveMpDmgBeforeAttackTarget10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbility1And2And7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestMpTarget"
+            },
+            {
+              "scriptName": "TagetNumAdderBeforeBehaviour1IfTargetMpNotLessThan15"
+            },
+            {
+              "scriptName": "GiveMpDmgBeforeAttackTarget10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HeathcliffFifthEgoCoinFirstAbility1And2And7"
                 }
               ]
             }

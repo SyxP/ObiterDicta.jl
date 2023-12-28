@@ -20,6 +20,11 @@
           "lockedNodePosY": 1840
         }
       ]
+    },
+    {
+      "partId": 91,
+      "subchapterId": 9105,
+      "bgmTypeByUIPanel": "EVENT_STAGE_MAIN"
     }
   ]
 }

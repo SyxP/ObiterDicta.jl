@@ -437,8 +437,8 @@
         "Default3"
       ],
       "hp": {
-        "defaultStat": 4,
-        "incrementByLevel": 0.24
+        "defaultStat": 6,
+        "incrementByLevel": 0.36
       },
       "defCorrection": -2,
       "minSpeedList": [
@@ -526,8 +526,8 @@
         "Default3"
       ],
       "hp": {
-        "defaultStat": 29,
-        "incrementByLevel": 1.95
+        "defaultStat": 47,
+        "incrementByLevel": 2.92
       },
       "defCorrection": -2,
       "minSpeedList": [
@@ -544,8 +544,7 @@
       "partType": "LEG",
       "breakSection": {
         "sectionList": [
-          50,
-          0
+          50
         ]
       },
       "resistInfo": {
@@ -613,10 +612,10 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 107,
-        "incrementByLevel": 1.71
+        "defaultStat": 201,
+        "incrementByLevel": 9.72
       },
-      "defCorrection": -3,
+      "defCorrection": -1,
       "minSpeedList": [
         1
       ],
@@ -630,9 +629,8 @@
       "partType": "BODY",
       "breakSection": {
         "sectionList": [
-          40,
-          20,
-          0
+          35,
+          15
         ]
       },
       "resistInfo": {
@@ -697,10 +695,10 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 107,
-        "incrementByLevel": 1.5
+        "defaultStat": 179,
+        "incrementByLevel": 8.62
       },
-      "defCorrection": -5,
+      "defCorrection": -2,
       "minSpeedList": [
         2
       ],
@@ -715,8 +713,7 @@
       "breakSection": {
         "sectionList": [
           70,
-          40,
-          0
+          40
         ]
       },
       "resistInfo": {
@@ -781,10 +778,10 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 107,
-        "incrementByLevel": 1.93
+        "defaultStat": 179,
+        "incrementByLevel": 8.62
       },
-      "defCorrection": 0,
+      "defCorrection": 4,
       "minSpeedList": [
         1
       ],
@@ -798,8 +795,7 @@
       "partType": "BODY",
       "breakSection": {
         "sectionList": [
-          40,
-          0
+          40
         ]
       },
       "resistInfo": {
@@ -3919,7 +3915,7 @@
         "defaultStat": 131,
         "incrementByLevel": 4.98
       },
-      "defCorrection": 0,
+      "defCorrection": 5,
       "minSpeedList": [
         2
       ],
@@ -4010,7 +4006,7 @@
         "defaultStat": 21,
         "incrementByLevel": 0.72
       },
-      "defCorrection": -5,
+      "defCorrection": 0,
       "minSpeedList": [
         1
       ],
@@ -4090,7 +4086,6 @@
       "id": 813701,
       "sdPortrait": 810101,
       "nameID": 810101,
-      "viewid": 810101,
       "slotWeightConditionList": [
         "Default2"
       ],
@@ -4114,8 +4109,7 @@
       "breakSection": {
         "sectionList": [
           50,
-          0,
-          -50
+          0
         ]
       },
       "resistInfo": {
@@ -4182,7 +4176,6 @@
       "id": 813702,
       "sdPortrait": 810102,
       "nameID": 810102,
-      "viewid": 810102,
       "slotWeightConditionList": [
         "Default2"
       ],
@@ -4279,7 +4272,7 @@
         "defaultStat": 11,
         "incrementByLevel": 0.36
       },
-      "defCorrection": -5,
+      "defCorrection": 0,
       "minSpeedList": [
         1
       ],

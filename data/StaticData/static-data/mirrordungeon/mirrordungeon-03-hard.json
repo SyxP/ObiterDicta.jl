@@ -5,14 +5,15 @@
       "typeIndex": 1,
       "isPersonalityLevelByUserData": true,
       "startCost": 0,
-
       "startBuffCoefficient": 1.25,
       "startBuffAcquireChipMultiplyer": 1,
-
       "startMaxPersonalityNumber": 12,
-
-      "isShopExistForFloor": [ false, true, true, true ],
-
+      "isShopExistForFloor": [
+        false,
+        true,
+        true,
+        true
+      ],
       "eventPoolOfEgoGifTierInFloor": [
         { "list": [ 1, 1 ] },
         { "list": [ 1, 1, 1 ] },
@@ -20,17 +21,13 @@
         { "list": [ 1, 1, 1, 1 ] },
         { "list": [ 1, 1, 1, 1 ] }
       ],
-
-
       "randompickmaxcost": 0,
       "randompickrewardmultiplyer": 1.2,
-
       "requireEnkephalinModule": 18,
       "globalEventPercentage": 0,
       "acquireCharacterEventPercentage": 0,
       "levelUpCharacterEventPercentage": 0,
       "specialBattleAppearedFloor": 2,
-
       "openCondition": {
         "chapterCleared": {
           "mainChapterId": 1,
@@ -44,19 +41,30 @@
           "typeIndex": 0
         }
       },
-
       "startSelectCount": 12,
-      "gradeList": [ 5 ],
-      "levelList": [ 40 ],
-
+      "gradeList": [
+        5
+      ],
+      "levelList": [
+        40
+      ],
       "addLevel": 5,
       "currentRewardId": 1,
-
       "addPersonalityCount": 12,
       "defaultPersonalityPrice": 0,
-      "personalityPriceByRank": [ 0, 0, 0 ],
+      "personalityPriceByRank": [
+        0,
+        0,
+        0
+      ],
       "defaultEgoPrice": 0,
-      "egoPriceByRank": [ 0, 0, 0, 0, 0 ],
+      "egoPriceByRank": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "restingEvent": {
         "heal": [
           {
@@ -89,7 +97,6 @@
           "isActive": true
         }
       },
-
       "shop": {
         "heal": [
           {
@@ -156,21 +163,25 @@
           "enemyBuffPool": [ 992031, 992032, 992033, 992034 ],
           "mirrorSector": [
             {
-              "rewardId": 1,
-              "additionalBattlePassExpForWeeklyBonus": 0,
-              "additionalLunacyForWeeklyBonus": 0,
-              "chanceReward": {
-                "acquireUserExp": 0,
-                "rewardList": [],
-                "randomPackagePiece": 0,
-                "optionalPackagePiece": 0
-              },
-              "normalReward": {
-                "acquireUserExp": 0,
-                "rewardList": [],
-                "randomPackagePiece": 0,
-                "optionalPackagePiece": 0
-              }
+              "rewardList": [
+                {
+                  "rewardId": 1,
+                  "additionalBattlePassExpForWeeklyBonus": 0,
+                  "additionalLunacyForWeeklyBonus": 0,
+                  "chanceReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  },
+                  "normalReward": {
+                    "acquireUserExp": 0,
+                    "rewardList": [],
+                    "randomPackagePiece": 0,
+                    "optionalPackagePiece": 0
+                  }
+                }
+              ]
             },
             {
               "rewardList": [
@@ -269,6 +280,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -281,6 +297,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -313,6 +334,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -325,6 +351,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -346,6 +377,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -358,6 +394,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -379,6 +420,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -391,6 +437,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -412,6 +463,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -424,6 +480,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -445,6 +506,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -457,6 +523,11 @@
                         "id": 1,
                         "num": 35,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -478,6 +549,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -490,6 +566,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -522,6 +603,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -534,6 +620,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -555,6 +646,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -567,6 +663,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -588,6 +689,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -600,6 +706,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -621,6 +732,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -633,6 +749,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -654,6 +775,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -666,6 +792,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -687,6 +818,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -699,6 +835,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -720,6 +861,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -732,6 +878,11 @@
                         "id": 1,
                         "num": 75,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -753,6 +904,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -765,6 +921,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -797,6 +958,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -809,6 +975,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -830,6 +1001,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -842,6 +1018,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -863,6 +1044,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -875,6 +1061,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -896,6 +1087,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -908,6 +1104,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -929,6 +1130,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -941,6 +1147,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -962,6 +1173,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -974,6 +1190,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -995,6 +1216,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1007,6 +1233,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1028,6 +1259,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1040,6 +1276,11 @@
                         "id": 1,
                         "num": 120,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 150,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1061,6 +1302,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1073,6 +1319,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1105,6 +1356,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1117,6 +1373,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1138,6 +1399,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1150,6 +1416,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1171,6 +1442,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1183,6 +1459,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1204,6 +1485,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1216,6 +1502,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1237,6 +1528,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1249,6 +1545,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1270,6 +1571,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1282,6 +1588,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1303,6 +1614,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1315,6 +1631,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1336,6 +1657,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1348,6 +1674,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1369,6 +1700,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1381,6 +1717,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1402,6 +1743,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1414,6 +1760,11 @@
                         "id": 1,
                         "num": 135,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1435,6 +1786,11 @@
                         "id": 1,
                         "num": 150,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,
@@ -1447,6 +1803,11 @@
                         "id": 1,
                         "num": 150,
                         "type": "BATTLEPASS_POINT"
+                      },
+                      {
+                        "id": 20009,
+                        "num": 200,
+                        "type": "ITEM"
                       }
                     ],
                     "randomPackagePiece": 0,

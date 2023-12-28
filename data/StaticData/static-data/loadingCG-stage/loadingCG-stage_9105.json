@@ -1,0 +1,67 @@
+{
+  "chapterId": 9105,
+  "list": [
+    {
+      "id": 910501,
+      "clearCGList": [
+        "BG/E041X_clearsky"
+
+      ]
+    },
+    {
+      "id": 910502,
+      "clearCGList": [
+        "CG/S505_1_1"
+      ]
+    },
+    {
+      "id": 910503,
+      "clearCGList": [
+        "BG/story_drawing room_off",
+        "BG/story_drawing room_on"
+      ]
+    },
+    {
+      "id": 910504,
+      "clearCGList": [
+        "CG/S505_3_1",
+        "BG/story_drawing room_off",
+        "BG/story_drawing room_on"
+      ]
+    },
+    {
+      "id": 910505,
+      "clearCGList": [
+        "BG/story_factory"
+      ]
+    },
+    {
+      "id": 910508,
+      "clearCGList": [
+        "BG/story_factory_v1",
+        "CG/S505_4_1"
+      ]
+    },
+    {
+      "id": 910510,
+      "clearCGList": [
+        "BG/story_gift making"
+      ]
+    },
+    {
+      "id": 910511,
+      "clearCGList": [
+        "BG/story_giftmaking_lightoff"
+      ]
+    },
+    {
+      "id": 910512,
+      "clearCGList": [
+        "CG/S505_5_1",
+        "CG/S505_6_1",
+        "BG/story_giftmaking_lightoff"
+      ]
+    }
+  
+  ]
+}

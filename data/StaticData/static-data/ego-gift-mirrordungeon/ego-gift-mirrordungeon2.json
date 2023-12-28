@@ -887,7 +887,7 @@
     },
     {
       "id": 9081,
-      "attributeType": "AZURE",
+      "attributeType": "INDIGO",
       "tag": [
         "TIER_4"
       ],
@@ -923,7 +923,7 @@
     },
     {
       "id": 9083,
-      "attributeType": "AZURE",
+      "attributeType": "VIOLET",
       "tag": [
         "TIER_5"
       ],
@@ -932,7 +932,7 @@
     },
     {
       "id": 9084,
-      "attributeType": "AMBER",
+      "attributeType": "SHAMROCK",
       "tag": [
         "TIER_4",
         "EXTRA"
@@ -942,7 +942,7 @@
     },
     {
       "id": 9085,
-      "attributeType": "AMBER",
+      "attributeType": "AZURE",
       "tag": [
         "TIER_4",
         "EXTRA"

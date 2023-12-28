@@ -20643,8 +20643,7 @@
           "bgmList": [
             "Battle_Cp2_Ally_3",
             "Battle_Cp2_Enemy_3"
-          ],
-          "enemyPositionID": 13
+          ]
         },
         {
           "unitList": [
@@ -20794,8 +20793,7 @@
           "bgmList": [
             "Battle_Cp4_Ally_5",
             "Battle_Cp4_Enemy_5"
-          ],
-          "enemyPositionID": 17
+          ]
         },
         {
           "unitList": [
@@ -20945,8 +20943,7 @@
           "bgmList": [
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
-          ],
-          "enemyPositionID": 13
+          ]
         },
         {
           "unitList": [
@@ -21021,8 +21018,7 @@
           "bgmList": [
             "Battle_Cp2_Ally_3",
             "Battle_Cp2_Enemy_3"
-          ],
-          "enemyPositionID": 31
+          ]
         },
         {
           "unitList": [
@@ -21097,8 +21093,7 @@
           "bgmList": [
             "Battle_Cp3_Ally_2",
             "Battle_Cp3_Enemy_2"
-          ],
-          "enemyPositionID": 28
+          ]
         },
         {
           "unitList": [
@@ -21173,8 +21168,7 @@
           "bgmList": [
             "Battle_Cp4_Ally_5",
             "Battle_Cp4_Enemy_5"
-          ],
-          "enemyPositionID": 13
+          ]
         },
         {
           "unitList": [
@@ -21249,8 +21243,7 @@
           "bgmList": [
             "Battle_Cp5_Ally_1",
             "Battle_Cp5_Enemy_2"
-          ],
-          "enemyPositionID": 13
+          ]
         },
         {
           "unitList": [
@@ -21325,8 +21318,7 @@
           "bgmList": [
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
-          ],
-          "enemyPositionID": 40
+          ]
         },
         {
           "unitList": [
@@ -21401,8 +21393,7 @@
           "bgmList": [
             "Battle_Cp2_Ally_3",
             "Battle_Cp2_Enemy_3"
-          ],
-          "enemyPositionID": 13
+          ]
         },
         {
           "unitList": [

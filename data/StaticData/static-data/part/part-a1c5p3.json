@@ -1349,6 +1349,12 @@
           "subchapterId": 9012,
           "storyIdInTheaterData": 1,
           "type": "mini_story"
+        },
+        {
+          "chapterId": 91,
+          "subchapterId": 9105,
+          "type": "sub",
+          "relatedEventId": "MiracleOfDistrict20"
         }
       ]
     },
@@ -1558,6 +1564,129 @@
           "nextMainchapterid": 1,
           "nextSubchapterid": 105,
           "lastnodeid": 910411
+        },
+        {
+          "id": 9105,
+          "illustSprName": "9105",
+          "region": "u",
+          "sprName": "chapter5.5_miracle",
+          "subChapterNumber": "5.5",
+          "mapSizeRow": 1,
+          "mapSizeColoumn": 6,
+          "unlockCondition": {
+            "unlockCode": 105
+          },
+          "stageNodeList": [
+            {
+              "nodeId": 910501,
+              "stageId": 910501,
+              "posx": 625,
+              "posy": 630,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 910502,
+              "stageId": 910502,
+              "posx": 1167,
+              "posy": 630,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 910503,
+              "stageId": 910503,
+              "posx": 2890,
+              "posy": 630,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910504,
+              "stageId": 910504,
+              "posx": 4115,
+              "posy": 638,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910505,
+              "stageId": 910505,
+              "posx": 3788,
+              "posy": 1370,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910506,
+              "stageId": 910506,
+              "posx": 4638,
+              "posy": 1370,
+              "upper": 1,
+              "stageNodeType": "NORMAL",
+              "nodeIllustIdString": "910505"
+            },
+            {
+              "nodeId": 910507,
+              "stageId": 910507,
+              "posx": 5510,
+              "posy": 1370,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910508,
+              "stageId": 910508,
+              "posx": 6494,
+              "posy": 1370,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910509,
+              "stageId": 910509,
+              "posx": 8060,
+              "posy": 1370,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910510,
+              "stageId": 910510,
+              "posx": 9037,
+              "posy": 1200,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910511,
+              "stageId": 910511,
+              "posx": 9866,
+              "posy": 1200,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910512,
+              "stageId": 910512,
+              "posx": 11090,
+              "posy": 1200,
+              "upper": 0,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 910513,
+              "stageId": 910513,
+              "posx": 11825,
+              "posy": 1200,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            }
+          ],
+          "nextMainchapterid": -1,
+          "nextSubchapterid": -1,
+          "lastnodeid": 910512,
+          "relatedMainEventId": "MiracleOfDistrict20"
         }
       ]
     }

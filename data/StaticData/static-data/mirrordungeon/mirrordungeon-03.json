@@ -5,31 +5,31 @@
       "typeIndex": 0,
       "isPersonalityLevelByUserData": false,
       "startCost": 0,
-
       "startBuffCoefficient": 1.25,
       "startBuffAcquireChipMultiplyer": 1,
-
       "startMaxPersonalityNumber": 12,
-
       "isShopExistForFloor": [ false, true, true, true ],
-
       "eventPoolOfEgoGifTierInFloor": [
-        { "list": [ 1, 1 ] },
-        { "list": [ 1, 1, 1 ] },
-        { "list": [ 1, 1, 1, 1 ] },
-        { "list": [ 1, 1, 1, 1 ] }
+        {
+          "list": [ 1, 1 ]
+        },
+        {
+          "list": [ 1, 1, 1 ]
+        },
+        {
+          "list": [ 1, 1, 1, 1 ]
+        },
+        {
+          "list": [ 1, 1, 1, 1 ]
+        }
       ],
-
-
       "randompickmaxcost": 0,
       "randompickrewardmultiplyer": 1.2,
-
       "requireEnkephalinModule": 5,
       "globalEventPercentage": 0,
       "acquireCharacterEventPercentage": 0,
       "levelUpCharacterEventPercentage": 0,
       "specialBattleAppearedFloor": 2,
-
       "openCondition": {
         "chapterCleared": {
           "mainChapterId": 1,
@@ -41,14 +41,11 @@
           "isConditionExist": false
         }
       },
-
       "startSelectCount": 12,
       "gradeList": [ 5 ],
       "levelList": [ 40 ],
-
       "addLevel": 5,
       "currentRewardId": 1,
-
       "addPersonalityCount": 12,
       "defaultPersonalityPrice": 0,
       "personalityPriceByRank": [ 0, 0, 0 ],
@@ -86,7 +83,6 @@
           "isActive": true
         }
       },
-
       "shop": {
         "heal": [
           {
@@ -139,9 +135,7 @@
           "isActive": true
         }
       },
-
       "acquireEgoGiftByFloorForUI": [ 0, 0, 0, 0, 0 ],
-
       "floors": [
         {
           "count": 0,
@@ -177,17 +171,13 @@
                   "rewardId": 1,
                   "chanceReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   },
                   "normalReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   }
@@ -200,17 +190,13 @@
                   "rewardId": 1,
                   "chanceReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   },
                   "normalReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   }
@@ -223,17 +209,13 @@
                   "rewardId": 1,
                   "chanceReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   },
                   "normalReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   }
@@ -246,17 +228,13 @@
                   "rewardId": 1,
                   "chanceReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   },
                   "normalReward": {
                     "acquireUserExp": 0,
-                    "rewardList": [
-
-                    ],
+                    "rewardList": [],
                     "randomPackagePiece": 0,
                     "optionalPackagePiece": 0
                   }
@@ -270,6 +248,11 @@
                   "chanceReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 2,
                         "num": 75,
@@ -287,6 +270,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -318,6 +306,11 @@
                     "acquireUserExp": 50,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 75,
                         "type": "ITEM"
@@ -334,6 +327,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -354,6 +352,11 @@
                     "acquireUserExp": 50,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 75,
                         "type": "ITEM"
@@ -370,6 +373,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -390,6 +398,11 @@
                     "acquireUserExp": 50,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 75,
                         "type": "ITEM"
@@ -406,6 +419,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -426,6 +444,11 @@
                     "acquireUserExp": 50,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 75,
                         "type": "ITEM"
@@ -442,6 +465,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -462,6 +490,11 @@
                     "acquireUserExp": 50,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 75,
                         "type": "ITEM"
@@ -478,6 +511,11 @@
                   "normalReward": {
                     "acquireUserExp": 50,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 25,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 8,
@@ -497,6 +535,11 @@
                   "chanceReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 2,
                         "num": 150,
@@ -514,6 +557,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -545,6 +593,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -561,6 +614,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -581,6 +639,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -597,6 +660,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -617,6 +685,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -633,6 +706,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -653,6 +731,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -669,6 +752,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -689,6 +777,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -705,6 +798,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -725,6 +823,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -741,6 +844,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -761,6 +869,11 @@
                     "acquireUserExp": 75,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 150,
                         "type": "ITEM"
@@ -777,6 +890,11 @@
                   "normalReward": {
                     "acquireUserExp": 75,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 50,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 16,
@@ -796,6 +914,11 @@
                   "chanceReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 2,
                         "num": 200,
@@ -813,6 +936,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -834,7 +962,7 @@
           "hardBattlePercentage": 0.12,
           "abnormalityBattlePercentage": 0.18,
           "eventNodePercentage": 0.25,
-          "enemyBuffPool": [ ],
+          "enemyBuffPool": [],
           "mirrorSector": [
             {
               "rewardList": [
@@ -844,6 +972,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -860,6 +993,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -880,6 +1018,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -896,6 +1039,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -916,6 +1064,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -932,6 +1085,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -952,6 +1110,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -968,6 +1131,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -988,6 +1156,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -1004,6 +1177,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -1024,6 +1202,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -1040,6 +1223,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -1060,6 +1248,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -1076,6 +1269,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -1096,6 +1294,11 @@
                     "acquireUserExp": 100,
                     "rewardList": [
                       {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
+                      {
                         "id": 2,
                         "num": 200,
                         "type": "ITEM"
@@ -1112,6 +1315,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 75,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 24,
@@ -1131,6 +1339,11 @@
                   "chanceReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 2,
                         "num": 250,
@@ -1148,6 +1361,11 @@
                   "normalReward": {
                     "acquireUserExp": 100,
                     "rewardList": [
+                      {
+                        "id": 20009,
+                        "num": 100,
+                        "type": "ITEM"
+                      },
                       {
                         "id": 1,
                         "num": 30,

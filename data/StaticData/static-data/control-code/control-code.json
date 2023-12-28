@@ -38,5 +38,6 @@
   "isCompareCatalogHashAndroid": true,
   "isClosableAPIActivated": true,
   "isAllowToRedefineEgoIndex": true,
-  "isAllowToSendUUID": true
+  "isAllowToSendUUID": true,
+  "isLoadEgoGiftFromMirrorDungeonFirst": true
 }

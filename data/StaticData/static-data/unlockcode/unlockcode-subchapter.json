@@ -63,6 +63,14 @@
         "type":"SUBCAHPTER",
         "id":105
       }
+    },
+    {
+      "id": 9105,
+      "unlockcodeType": "SUBCHAPTER_CLEAR",
+      "unlockcodeTargetElement":{
+        "type":"SUBCAHPTER",
+        "id":9105
+      }
     }
   ]
 }

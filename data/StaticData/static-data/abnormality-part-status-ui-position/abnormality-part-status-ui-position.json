@@ -733,6 +733,23 @@
           "lineDirection": "LEFT"
         }
       ]
+    },
+    {
+      "id": 8113,
+      "partPositionDatas": [
+        {
+          "id": 811301,
+          "offsetX": -200.0,
+          "offsetY": 50.0,
+          "lineDirection": "RIGHT"
+        },
+        {
+          "id": 811302,
+          "offsetX": 200.0,
+          "offsetY": 200.0,
+          "lineDirection": "LEFT"
+        }
+      ]
     }
   ]
 }

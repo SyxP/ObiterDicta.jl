@@ -2974,7 +2974,7 @@
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "skillMotion": "Default",
+          "skillMotion": "S1",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "abilityScriptList": [

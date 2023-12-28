@@ -310,6 +310,82 @@
       ],
       "awakeningSkillId": 2070411,
       "corrosionSkillId": 2070421
+    },
+    {
+      "id": 20705,
+      "characterId": 7,
+      "egoType": "ZAYIN",
+      "egoClass": 2,
+      "season": 3,
+      "additionalAttachment": "EVENT",
+      "skillTier": 3,
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 1
+        },
+        {
+          "type": "SCARLET",
+          "value": 1
+        },
+        {
+          "type": "AMBER",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 0.75
+        },
+        {
+          "type": "AZURE",
+          "value": 2
+        },
+        {
+          "type": "INDIGO",
+          "value": 1
+        },
+        {
+          "type": "VIOLET",
+          "value": 2
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "VIOLET",
+          "num": 2
+        },
+        {
+          "attributeType": "SHAMROCK",
+          "num": 3
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1.0
+        }
+      ],
+      "awakeningPassiveList": [
+        2070511
+      ],
+      "awakeningSkillId": 2070511,
+      "corrosionSkillId": 2070521
     }
   ]
 }

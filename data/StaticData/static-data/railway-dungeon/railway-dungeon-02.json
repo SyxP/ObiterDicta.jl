@@ -26,7 +26,7 @@
               "count": 3
             }
           ],
-          "endDate": "2024-01-25T00:59:59.000Z",
+          "endDate": "2024-02-01T00:59:59.000Z",
           "reward": {
             "type": "USERBANNER",
             "id": 13,
@@ -41,7 +41,7 @@
               "count": 5
             }
           ],
-          "endDate": "2024-01-25T00:59:59.000Z",
+          "endDate": "2024-02-01T00:59:59.000Z",
           "reward": {
             "type": "USERBANNER",
             "id": 14,
@@ -62,7 +62,7 @@
             }
           ],
           "startDateForUI": "2023-09-14T03:00:00.000Z",
-          "endDate": "2024-01-25T00:59:59.000Z",
+          "endDate": "2024-02-01T00:59:59.000Z",
           "reward": {
             "type": "USERBANNER",
             "id": 15,

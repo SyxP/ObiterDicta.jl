@@ -1,6 +1,9 @@
 {
   "contentType": "DUNGEON",
   "conentIdList": [
+    "miracle_of_district_20_update"
+  ],
+  "previouslyUsedContentIdList": [
     "MirrorDungeon_3_Normal"
   ]
 }

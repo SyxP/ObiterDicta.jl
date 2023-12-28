@@ -4,8 +4,36 @@
             "stageType": "NORMAL_BATTLE",
             "restrictList": [
                 {
-                    "id" : 10532,
-                    "mustParticipateIds": [ 8 ]
+                  "id": 10532,
+                  "mustParticipateIds": [ 8 ]
+                },
+                {
+                  "id": 910503,
+                  "abstainIds": [ 1, 2, 4, 5, 6, 8, 9, 10, 11, 12 ]
+                },
+                {
+                  "id": 910504,
+                  "abstainIds": [ 3, 7 ]
+                },
+                {
+                  "id": 910505,
+                  "abstainIds": [ 3, 7 ]
+                },
+                {
+                  "id": 910506,
+                  "abstainIds": [ 3, 7 ]
+                },
+                {
+                  "id": 910507,
+                  "abstainIds": [ 3, 7 ]
+                },
+                {
+                  "id": 910508,
+                  "abstainIds": [ 3, 7 ]
+                },
+                {
+                  "id": 910509,
+                  "abstainIds": [ 3, 7 ]
                 }
             ]
         }

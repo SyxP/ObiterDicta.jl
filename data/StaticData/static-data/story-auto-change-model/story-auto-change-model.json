@@ -32,6 +32,17 @@
 					"to": "단테2"
 				}
 			]
+		},
+		{
+			"includeConditions": {
+				"prefix": "E5"
+			},
+			"changeModel": [
+				{
+					"from": "단테",
+					"to": "단테2"
+				}
+			]
 		}
 	]
 }

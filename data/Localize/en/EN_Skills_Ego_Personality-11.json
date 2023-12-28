@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 Damage Up for the Affinity with the highest Resonance count to 2 allies with the least SP"
+                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 2 allies with the least SP"
                 },
                 {
                   "desc": "[EndSkill] Heal 20 SP for 2 allies with the least SP"
@@ -36,7 +36,7 @@
                   "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 Damage Up for the Affinity with the highest Resonance count to 3 allies with the least SP"
+                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 3 allies with the least SP"
                 },
                 {
                   "desc": "[EndSkill] Heal 20 SP for 3 allies with the least SP"
@@ -57,7 +57,7 @@
                   "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
-                  "desc": "[EndSkill] Apply 1 Damage Up for the Affinity with the highest Resonance count to 4 allies with the least SP"
+                  "desc": "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 4 allies with the least SP"
                 },
                 {
                   "desc": "[EndSkill] Heal 20 SP for 4 allies with the least SP"

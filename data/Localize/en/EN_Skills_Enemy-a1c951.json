@@ -100,7 +100,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 2 Breath and +2 [Breath] Count"
+                                    "desc": "[OnSucceedAttack] Gain 2 [Breath] and +2 [Breath] Count"
                                 }
                             ]
                         },
@@ -132,7 +132,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 2 Breath and +2 [Breath] Count"
+                                    "desc": "[OnSucceedAttack] Gain 2 [Breath] and +2 [Breath] Count"
                                 },
                                 {
                                     "desc": "+40% Damage on Critical Hit"
@@ -271,7 +271,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 2 Breath and +3 [Breath] Count"
+                                    "desc": "[OnSucceedAttack] Gain 2 [Breath] and +3 [Breath] Count"
                                 },
                                 {
                                     "desc": "+50% Damage on Critical Hit"
@@ -281,7 +281,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gain 3 Breath and +1 [Breath] Count"
+                                    "desc": "[OnSucceedAttack] Gain 3 [Breath] and +1 [Breath] Count"
                                 },
                                 {
                                     "desc": "+50% Damage on Critical Hit"

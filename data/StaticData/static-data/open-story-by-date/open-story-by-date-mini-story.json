@@ -2,6 +2,8 @@
   "list": [
     {
       "storyId": "E050X",
+      "unlockCode": 105,
+      "isRestrictByUnlockCode": true,
       "eventItemId": 20008,
       "startDate": "2023-12-14T01:00:00.000Z",
       "endDate": "2024-01-11T01:00:00.000Z"

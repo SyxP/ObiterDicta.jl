@@ -1281,79 +1281,79 @@
         {
           "chapterId": 1,
           "subchapterId": 100,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "chapterId": 1,
           "subchapterId": 101,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "chapterId": 1,
           "subchapterId": 102,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "chapterId": 1,
           "subchapterId": 103,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "chapterId": 91,
           "subchapterId": 9103,
-          "type": "sub",
+          "type": "SUB",
           "relatedEventId": "HellsChicken"
         },
         {
           "subchapterId": 9010,
           "storyIdInTheaterData": 1,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "subchapterId": 9010,
           "storyIdInTheaterData": 2,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "subchapterId": 9010,
           "storyIdInTheaterData": 3,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "chapterId": 1,
           "subchapterId": 104,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "chapterId": 91,
           "subchapterId": 9104,
-          "type": "sub",
+          "type": "SUB",
           "relatedEventId": "Umida"
         },
         {
           "subchapterId": 9011,
           "storyIdInTheaterData": 1,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "subchapterId": 9011,
           "storyIdInTheaterData": 2,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "chapterId": 1,
           "subchapterId": 105,
-          "type": "main"
+          "type": "MAIN"
         },
         {
           "subchapterId": 9012,
           "storyIdInTheaterData": 1,
-          "type": "mini_story"
+          "type": "MINI_STORY"
         },
         {
           "chapterId": 91,
           "subchapterId": 9105,
-          "type": "sub",
+          "type": "SUB",
           "relatedEventId": "MiracleOfDistrict20"
         }
       ]

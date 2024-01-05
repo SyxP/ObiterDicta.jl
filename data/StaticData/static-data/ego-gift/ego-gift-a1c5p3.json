@@ -43,6 +43,18 @@
 				20261,
 				20262
 			]
+		},
+		{
+			"id": 9019,
+			"attributeType": "SHAMROCK"
+		},
+		{
+			"id": 9009,
+			"attributeType": "SCARLET"
+		},
+		{
+			"id": 9073,
+			"attributeType": "VIOLET"
 		}
 	]
 }

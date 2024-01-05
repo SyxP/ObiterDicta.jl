@@ -167,15 +167,15 @@
         },
         {
             "dataClass": "enemy",
-            "fileList": [
-                "enemy",
-                "enemy91-4",
-                "enemy-a1c5p1",
-                "enemy-a1c5p2",
-                "enemy-a1c5p3",
-                "enemy-mirrordungeon3",
-                "enemy-a1c951"
-            ]
+          "fileList": [
+            "enemy",
+            "enemy91-4",
+            "enemy-a1c5p1",
+            "enemy-a1c5p2",
+            "enemy-a1c5p3",
+            "enemy-mirrordungeon3",
+            "enemy-a1c951"
+          ]
         },
         {
             "dataClass": "gacha",
@@ -354,16 +354,16 @@
         },
         {
             "dataClass": "battle-ab",
-            "fileList": [
-                "abbattle1-1",
-                "abbattle1-2",
-                "abbattle1-3",
-                "abbattle1-4",
-                "abbattle91-3",
-                "abbattle-a1c5p1",
-                "abbattle-a1c5p2",
-                "abbattle-a1c5p3"
-            ]
+          "fileList": [
+            "abbattle1-1",
+            "abbattle1-2",
+            "abbattle1-3",
+            "abbattle1-4",
+            "abbattle91-3",
+            "abbattle-a1c5p1",
+            "abbattle-a1c5p2",
+            "abbattle-a1c5p3"
+          ]
         },
         {
             "dataClass": "battle-mirrordungeon",

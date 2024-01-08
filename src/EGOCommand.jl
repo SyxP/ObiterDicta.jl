@@ -300,9 +300,11 @@ for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll
         skillFn, skillDesc = getSkillFunctions(EGO, skillNumStr)
         skillDesc == "" && return TrivialFilter(EGO)
         function Fn(x, ts)
+            Ct = 0
             for tmpFn in skillFn
                 Lst = tmpFn(x)
                 Lst === nothing && continue
+                Ct += 1
                 if Lst isa Vector
                     for skill in Lst
                         N = ($lookupFn)(skill, ts)
@@ -314,7 +316,7 @@ for (defineFn, lookupFn, desc) in [(:EGOMinRollFilter, getMinRoll, "minimum roll
                     CompareNumbers(N, compareN, op) || return false
                 end
             end
-            return true
+            return Ct > 0
         end
 
         filterStr = "Filter: $(@red(skillDesc)) to have "* $desc * " $(@blue(op)) $(@red(num)) "

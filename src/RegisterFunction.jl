@@ -168,5 +168,4 @@ function EGOCorrosionPlusCoin(ego, ts)
     CoinLst = getCoinValues(corrSkill, ts)
     return isPlusCoin(CoinLst)
 end
-
-RegisterFunction("ego-corr-plus-coin", EGOCorrosionPlusCoin)
+# RegisterFunction("ego-corr-plus-coin", EGOCorrosionPlusCoin)

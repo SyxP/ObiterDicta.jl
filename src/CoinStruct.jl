@@ -35,6 +35,10 @@ function getCoinString(coinList :: Vector{Coin})
     return String(take!(io))
 end
 
+function isPlusCoin(coinList :: Vector{Coin})
+    all(coin.operation == "ADD" for coin in coinList[begin+1:end])
+end
+
 function numCoins(coinList :: Vector{Coin})
     length(coinList) - 1 # First coin is always supposed to be base coin.
 end

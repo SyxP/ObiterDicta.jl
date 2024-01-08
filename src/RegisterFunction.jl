@@ -161,3 +161,12 @@ function EGOTotalResources(ego, ts, numWithOp)
     return CompareNumbers(sum(x["num"] for x in Reqs), N, op)
 end
 # RegisterFunction("ego-total-cost", EGOTotalResources)
+
+function EGOCorrosionPlusCoin(ego, ts)
+    corrSkill = getCorrosionSkill(ego)
+    corrSkill === nothing && return false
+    CoinLst = getCoinValues(corrSkill, ts)
+    return isPlusCoin(CoinLst)
+end
+
+RegisterFunction("ego-corr-plus-coin", EGOCorrosionPlusCoin)

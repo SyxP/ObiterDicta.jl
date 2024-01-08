@@ -39,6 +39,17 @@ function handleDataFile(::Type{T}, MasterList, file) where T
     end
 end
 
+function getInternalList(::Type{T}) where T
+    Files = getMasterFileList(T)
+    [StaticData(file) for file in Files]
+end
+
+function getLocalizedList(::Type{T}) where T
+    Names = getLocalizedFolders(T) 
+    Files = foldl(vcat, [getLocalizeDataInfo()[name] for name in Names])
+    [LocalizedData(file) for file in Files]
+end
+
 function getField(x :: T, fn :: Function, fieldName, cantFind, defaultReturn) where T
     Ver = fn(x)
     if Ver !== nothing

@@ -21,11 +21,6 @@ function getMasterList(::Type{Greeting})
     getMasterList(Greeting, GreetingMasterList)
 end
 
-function getInternalList(::Type{Greeting})
-    Files = getMasterFileList(Greeting)
-    [StaticData(file) for file in Files]
-end
-
 function getLocalizedList(::Type{Greeting})
     [LocalizedData("IntroductionPreset")]
 end

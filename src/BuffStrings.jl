@@ -12,15 +12,7 @@ function getMasterList(::Type{Buff})
     getMasterList(Buff, BuffMasterList)
 end
 
-function getInternalList(::Type{Buff})
-    Files = getMasterFileList(Buff)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{Buff})
-    Files = getLocalizeDataInfo()["buf"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{Buff}) = ["buf"]
 
 function getInternalVersion(myBuff :: Buff; dontWarn = !GlobalDebugMode)
     for BuffList in getInternalList(Buff)

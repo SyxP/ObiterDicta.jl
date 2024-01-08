@@ -9,15 +9,7 @@ function getMasterList(::Type{Personality})
     getMasterList(Personality, IdentityMasterList)
 end
 
-function getInternalList(::Type{Personality})
-    Files = getMasterFileList(Personality)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{Personality})
-    Files = getLocalizeDataInfo()["personality"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{Personality}) = ["personality"]
 
 function getInternalVersion(myIdentity :: Personality; dontWarn=!GlobalDebugMode)
     for IdentityList in getInternalList(Personality)

@@ -11,15 +11,7 @@ function getMasterList(::Type{EGO})
     getMasterList(EGO, EGOMasterList)
 end
 
-function getInternalList(::Type{EGO})
-    Files = getMasterFileList(EGO)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{EGO})
-    Files = getLocalizeDataInfo()["ego"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{EGO}) = ["ego"]
 
 function getInternalVersion(myEGO :: EGO; dontWarn = !GlobalDebugMode)
     for EGOList in getInternalList(EGO)

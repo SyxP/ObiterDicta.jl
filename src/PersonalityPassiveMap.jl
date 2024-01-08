@@ -10,11 +10,6 @@ function getMasterList(::Type{PersonalityPassive})
     getMasterList(PersonalityPassive, PersonalityPassiveMasterList)
 end
 
-function getInternalList(::Type{PersonalityPassive})
-    Files = getMasterFileList(PersonalityPassive)
-    [StaticData(file) for file in Files]
-end
-
 function getInternalVersion(myPassive :: PersonalityPassive; dontWarn = !GlobalDebugMode)
     for PersonalityPassiveList in getInternalList(PersonalityPassive)
         for entry in PersonalityPassiveList["list"]

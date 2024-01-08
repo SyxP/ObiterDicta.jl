@@ -21,9 +21,9 @@ StoryEGOGiftMasterList = StoryEGOGift[]
 MDEGOGiftMasterList    = MirrorDungeonEGOGift[]
 HCDGOGiftMasterList    = HellsChickenDungeonEGOGift[]
 
-for (typeEGO, masterList) = [(StoryEGOGift, StoryEGOGiftMasterList),
-                             (MirrorDungeonEGOGift, MDEGOGiftMasterList),
-                             (HellsChickenDungeonEGOGift, HCDGOGiftMasterList)]
+for (typeEGO, masterList) in [(StoryEGOGift, StoryEGOGiftMasterList),
+                              (MirrorDungeonEGOGift, MDEGOGiftMasterList),
+                              (HellsChickenDungeonEGOGift, HCDGOGiftMasterList)]
     @eval function getMasterList(::Type{$typeEGO})
         getMasterList($typeEGO, $masterList)
     end
@@ -46,15 +46,7 @@ function getMasterList(::Type{EGOGift})
     return foldl(vcat, Lst)
 end
 
-function getInternalList(::Type{T}) where T <: EGOGift
-    Files = getMasterFileList(T)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{T}) where T <: EGOGift
-    Files = getLocalizeDataInfo()["egoGifts"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{T}) where T <: EGOGift = ["egoGifts"]
 
 function getInternalVersion(myEGOGift :: T; dontWarn = !GlobalDebugMode) where T <: EGOGift
     for EGOGiftList in getInternalList(T)

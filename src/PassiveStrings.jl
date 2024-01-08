@@ -10,15 +10,7 @@ function getMasterList(::Type{Passive})
     getMasterList(Passive, PassiveMasterList)
 end
 
-function getInternalList(::Type{Passive})
-    Files = getMasterFileList(Passive)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{Passive})
-    Files = getLocalizeDataInfo()["passive"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{Passive}) = ["passive"]
 
 function getInternalVersion(myPassive :: Passive; dontWarn = !GlobalDebugMode)
     for PassiveList in getInternalList(Passive)

@@ -9,15 +9,7 @@ function getMasterList(::Type{CombatSkill})
     getMasterList(CombatSkill, SkillMasterList)
 end
 
-function getInternalList(::Type{CombatSkill})
-    Files = getMasterFileList(CombatSkill)
-    [StaticData(file) for file in Files]
-end
-
-function getLocalizedList(::Type{CombatSkill})
-    Files = getLocalizeDataInfo()["skill"]
-    [LocalizedData(file) for file in Files]
-end
+getLocalizedFolders(::Type{CombatSkill}) = ["skill"]
 
 function getInternalVersion(mySkill :: CombatSkill; dontWarn = !GlobalDebugMode)
     for SkillList in getInternalList(CombatSkill)

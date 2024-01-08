@@ -5,12 +5,6 @@ PersonalityPassive(x :: Personality) = PersonalityPassive(x.id)
 
 getMasterFileClasses(::Type{PersonalityPassive}) = ["personality-passive"]
 
-function handleDataFile(::Type{PersonalityPassive}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, PersonalityPassive(item["personalityID"]))
-    end
-end
-
 const PersonalityPassiveMasterList = PersonalityPassive[]
 function getMasterList(::Type{PersonalityPassive})
     getMasterList(PersonalityPassive, PersonalityPassiveMasterList)

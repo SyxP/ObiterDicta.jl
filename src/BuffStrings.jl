@@ -7,12 +7,6 @@ end
 # TODO: BuffAbilities only exist in localized form, but not in internal form. They are wrapped in other Buffs.
 getMasterFileClasses(::Type{Buff}) = ["buff"]
 
-function handleDataFile(::Type{Buff}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, Buff(item["id"]))
-    end
-end
-
 const BuffMasterList = Buff[]
 function getMasterList(::Type{Buff})
     getMasterList(Buff, BuffMasterList)

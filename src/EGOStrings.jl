@@ -6,12 +6,6 @@ end
 getMasterFileClasses(::Type{EGO}) = ["ego"]
 getMaxThreadspin(::Type{EGO}) = 4
 
-function handleDataFile(::Type{EGO}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, EGO(item["id"]))
-    end
-end
-
 EGOMasterList = EGO[]
 function getMasterList(::Type{EGO})
     getMasterList(EGO, EGOMasterList)

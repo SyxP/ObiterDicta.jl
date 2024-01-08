@@ -16,19 +16,6 @@ getMasterFileClasses(::Type{MirrorDungeonEGOGift}) = ["ego-gift-mirrordungeon"]
 getMasterFileClasses(::Type{HellsChickenDungeonEGOGift}) = ["ego-gift-hellschickendungeon"]
 getMaxTier(::Type{T}) where T <: EGOGift = 3
 
-function handleDataFile(::Type{T}, MasterList, file) where T <: EGOGift
-    staticDB = StaticData(file)
-    if !haskey(staticDB, "list")
-        if length(keys(staticDB)) > 0
-            @info "Unknown File Format $file : $(keys(staticDB))"
-        end
-        return
-    end
-
-    for item in staticDB["list"]
-        push!(MasterList, T(item["id"]))
-    end
-end
 
 StoryEGOGiftMasterList = StoryEGOGift[]
 MDEGOGiftMasterList    = MirrorDungeonEGOGift[]

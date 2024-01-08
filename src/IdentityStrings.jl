@@ -4,12 +4,6 @@ end
 
 getMasterFileClasses(::Type{Personality}) = ["personality"]
 
-function handleDataFile(::Type{Personality}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, Personality(item["id"]))
-    end
-end
-
 IdentityMasterList = Personality[]
 function getMasterList(::Type{Personality})
     getMasterList(Personality, IdentityMasterList)

@@ -25,6 +25,20 @@ function getMasterList(::Type{T}, MasterList) where T
     return MasterList
 end
 
+function handleDataFile(::Type{T}, MasterList, file) where T
+    staticDB = StaticData(file)
+    if !haskey(staticDB, "list")
+        if length(keys(staticDB)) > 0
+            @info "Unknown File Format $file : $(keys(staticDB))"
+        end
+        return
+    end
+
+    for item in staticDB["list"]
+        push!(MasterList, T(item["id"]))
+    end
+end
+
 function getField(x :: T, fn :: Function, fieldName, cantFind, defaultReturn) where T
     Ver = fn(x)
     if Ver !== nothing

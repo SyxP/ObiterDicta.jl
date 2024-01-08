@@ -5,12 +5,6 @@ end
 # personality-passive is used to figure out the map Identity -> passive
 getMasterFileClasses(::Type{Passive}) = ["passive"]
 
-function handleDataFile(::Type{Passive}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, Passive(item["id"]))
-    end
-end
-
 PassiveMasterList = Passive[]
 function getMasterList(::Type{Passive})
     getMasterList(Passive, PassiveMasterList)

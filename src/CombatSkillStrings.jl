@@ -4,12 +4,6 @@ end
 
 getMasterFileClasses(::Type{CombatSkill}) = ["skill"]
 
-function handleDataFile(::Type{CombatSkill}, MasterList, file)
-    for item in StaticData(file)["list"]
-        push!(MasterList, CombatSkill(item["id"]))
-    end
-end
-
 const SkillMasterList = CombatSkill[]
 function getMasterList(::Type{CombatSkill})
     getMasterList(CombatSkill, SkillMasterList)

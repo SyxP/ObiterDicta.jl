@@ -22,7 +22,7 @@ function getVoiceData(myID :: Personality; verbose = false)
     filter!(x-> match(r"[^ ]", x["desc"]) !== nothing, currEntries)
     NumEntries = length(currEntries)
     N = ceil(Int, log10(NumEntries + 1))
-    lengthArr = length.([entry["desc"] for entry in file["dataList"]])  
+    lengthArr = textwidth.([entry["desc"] for entry in file["dataList"]])  
     maxLength = maximum(lengthArr) 
    
     for (idx, entry) in enumerate(currEntries)
@@ -41,10 +41,10 @@ function getVoiceData(myID :: Personality; verbose = false)
         S = split(EscapeString(entry["dlg"]), "\n")
         AnsArr = String[]
         function insertStr(str)
-            if lastindex(str) > 90 - paddingLength
-                for c in collect(eachindex(str))
-                    c < (80 - paddingLength) && continue
-                    str[c] != ' ' && continue
+            if textwidth(str) > 90 - paddingLength
+                for c in eachindex(str)
+                    textwidth(str[begin:c]) < (85 - paddingLength) && continue
+                    getLangMode() == "en" && str[c] != ' ' && continue
                     push!(AnsArr, str[begin:prevind(str, c)])
                     return insertStr(str[nextind(str, c):end])
                 end

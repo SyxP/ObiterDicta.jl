@@ -89,7 +89,6 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 ### Known Bugs/Specific Requested Features
 
 1. Let Damage Type be localized
-2. Fix printing of id-voice with non-English language.
 
 ### Immediate Upcoming Plans
 

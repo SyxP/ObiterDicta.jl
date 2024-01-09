@@ -140,6 +140,8 @@ module ObiterDicta
 
     include("MirrorDungeon3.jl")
 
+    include("EnemyStrings.jl")
+
     include("ClashCalculator.jl")
     
     # Dependent on Structs

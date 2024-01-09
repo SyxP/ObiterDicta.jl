@@ -262,6 +262,7 @@ end
 
 function printSingle(myEGOGift :: EGOGift, verbose)
     println(toString(myEGOGift; verbose = verbose))
+    return myEGOGift
 end
 
 function printRandom(::Type{EGOGift}, verbose)
@@ -320,10 +321,9 @@ end
 function printEGOGiftExactNumberInput(num, verbose)
     global EGOGiftPreviousSearchResult
     if length(EGOGiftPreviousSearchResult) == 0
-        @info "No previously search `ego-gift list`."
+        @info "No previously searched `ego-gift list`."
         return ""
     end
-
 
     N = parse(Int, num)
 

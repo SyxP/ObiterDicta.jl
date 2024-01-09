@@ -77,7 +77,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 1. Item IDs (0%)
 2. Battle Pass Information (0%)
-3. Voice Lines - Announcer (0%)
+3. Voice Lines - Announcer (100%)
 4. Voice Lines - Identity (100%)
 5. Choice Event Identity Check Text (0%)
 6. Profile Card Information (100%)

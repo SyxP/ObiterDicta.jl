@@ -57,7 +57,7 @@ module ObiterDicta
                     PersonalityCommand, EGOCommand,
                     EGOGiftCommand,
                     MirrorDungeon3Command,
-                    PersonalityVoiceCommand,
+                    PersonalityVoiceCommand, AnnouncerVoiceCommand,
                     ClashCalculatorCommand]
         for command in Commands
             S = CheckCommand(command, input)
@@ -80,6 +80,7 @@ module ObiterDicta
                   ego (E.G.Os)
                   ego-gift (E.G.O Gifts)
                   clash-calc (Clash Calculator)
+                  announcer (Announcer)
     
                   For more information you can use `[command] help`.
                   To save the output of a command to clipboard, use `clipboard [command]`.
@@ -143,6 +144,8 @@ module ObiterDicta
     include("EnemyStrings.jl")
 
     include("ClashCalculator.jl")
+
+    include("Announcer.jl")
     
     # Dependent on Structs
     include("PanicStrings.jl")

@@ -46,7 +46,7 @@ function getVoiceData(myID :: Personality; verbose = false)
                     textwidth(str[begin:c]) < (85 - paddingLength) && continue
                     getLangMode() == "en" && str[c] != ' ' && continue
                     push!(AnsArr, str[begin:prevind(str, c)])
-                    return insertStr(str[nextind(str, c):end])
+                    return insertStr(strip(str[c:end]))
                 end
             end
 

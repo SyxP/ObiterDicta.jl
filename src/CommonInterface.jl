@@ -70,6 +70,30 @@ getField(x, getLocalizedVersion, fieldName, cantFind, defaultReturn)
 getInternalField(x :: T, fieldName, cantFind, defaultReturn) where T = 
 getField(x, getInternalVersion, fieldName, cantFind, defaultReturn)
 
+GlobalPreviousSearch = Dict{Type, Any}()
+function getPreviousSearch(::Type{T}) where T
+    global GlobalPreviousSearch
+    get(GlobalPreviousSearch, T, T[])
+end
+function getCopyPreviousSearch(::Type{T}) where T
+    global GlobalPreviousSearch
+    deepcopy(getPreviousSearch(T))
+end
+function setPreviousSearch(::Type{T}, newSearch) where T
+    global GlobalPreviousSearch
+    GlobalPreviousSearch[T] = newSearch
+    return newSearch
+end
+function resetPreviousSearch(::Type{T}) where T
+    global GlobalPreviousSearch
+    haskey(GlobalPreviousSearch, T) && delete!(GlobalPreviousSearch, T)
+end
+function resetPreviousSearch() 
+    global GlobalPreviousSearch
+    GlobalPreviousSearch = Dict{Type, Any}()
+end
+
+
 function getLevelList(myDict, readLevel, tier)
     copyDict = copy(myDict)
 
@@ -82,7 +106,6 @@ function getLevelList(myDict, readLevel, tier)
         end
     end
     return Cumulative
-
 end
 
 function CompareNumbers(a, b, op :: String)

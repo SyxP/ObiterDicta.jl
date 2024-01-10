@@ -1,0 +1,284 @@
+
+
+
+
+
+
+
+
+
+October 26th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on October 26th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. The 1st Walpurgis Night Target Extraction
+(Oct. 26th 12:00 ~ Nov. 9th 09:59 (KST))
+Extraction rate increases for the following Identities and E.G.O:
+   - E.G.O [TETH] Regret Meursault
+   - 3★: Lobotomy E.G.O::Regret Faust
+   - 2★: Hook Office Fixer Hong Lu
+
+2. New Identities & E.G.O added
+The following is added to the list of extractable Identities & E.G.O:
+   - E.G.O [TETH] Regret Meursault
+   - 3★: Lobotomy E.G.O::Regret Faust
+   - 2★: Hook Office Fixer Hong Lu
+
+1/9
+
+PROJECT MOON
+Update Contents
+
+3. Halloween Attendance Check Event
+
+7 DAYS LOGIN
+HALLOWEEN ATTENDANCE CHECK EVENT
+
+2023.10.26(THU) 12:00 - 2023.11.9(THU) 05:59 [KST]
+
+▶︎ Event Period
+Oct. 26th 12:00 ~ Nov. 9th 05:59 (KST)
+
+※ We would like to inform you that we mislabeled the event end period as Nov. 9th 09:59 (KST) on our last notice.
+We apologize for this mistake.
+
+▶︎ Major Rewards
+- 7 days attended: Decaextraction Ticket x1
+
+▶︎ Event Description
+- You'll receive more rewards the more attendance checks you accumulate over the event period.
+- You will receive your daily attendance check once your log-in after the daily reset period (06:00, KST) is recognized by the server.
+- Once the event is over, the rewards cannot be claimed.
+Please make sure to claim them before the event ends.
+
+2/9
+
+PROJECT MOON
+Notice Regarding Event Identities & E.G.O
+We would like to inform you on how Event Identities & E.G.O are handled in Extractions and Dispenser.
+
+Event Identities & E.G.O are divided into the following categories.
+
+(1) Acquired from Extractions
+- Season 1: [E.G.O] Lifetime Stew Sinclair, 
+[3★] R.B. Chef de Cuisine Ryōshū
+- Season 2: [E.G.O] Soda Hong Lu,
+[3★] Molar Boatworks Fixer Ishmael
+
+(2) Acquired from Event Currencies
+- Season 1: [E.G.O] Lifetime Stew Don Quixote,
+[2★] R.B. Sous-chef Gregor
+- Season 2: [E.G.O] Soda Ryōshū,
+[2★] Molar Boatworks Fixer Sinclair
+
+(3) Acquired from Attendance Check Events
+- Season 2: [3★] Molar Office Fixer Outis,
+[2★] Molar Office Fixer Yi Sang
+
+Each category of Identities & E.G.O mentioned above will be included in Extractions or Dispenser as follows:
+
+(1) Acquired from Extractions
+- They become available from Extractions and Dispenser from the start of their event to the end of the Season.
+- Once the Season is over, they can no longer be extracted.
+(Except from Season relevant Extractions)
+- Once the Season is over, they cannot be acquired from the Dispenser in the immediately following Season. However, they will become available from the Dispenser in the Season after that.
+
+(2) Acquired from Event Currencies
+- While they cannot be acquired from the Dispenser in the immediately following Season, they will become available from the Dispenser in the Season after that.
+
+(3) Acquired from Attendance Check Events
+- Once the Event is over, they can be acquired from the Dispenser for the rest of the Season.
+- Once the Season is over, they cannot be acquired from the Dispenser in the immediately following Season. However, they will become available from the Dispenser in the Season after that.
+3/9
+
+PROJECT MOON
+Notice Regarding Event Identities & E.G.O
+
+▶️ Extractions
+
+Extraction
+
+Season 1
+
+Season 2
+
+Start of Season 3
+
+Available
+
+[E.G.O]
+Lifetime Stew Sinclair
+[3★]
+R.B. Chef de Cuisine Ryōshū
+
+[E.G.O]
+Soda Hong Lu
+[3★]
+Molar Boatworks Fixer Ishmael
+
+[E.G.O]
+Soda Hong Lu
+[3★]
+Molar Boatworks Fixer Ishmael
+
+Unavailable
+
+[E.G.O]
+Lifetime Stew Sinclair
+[3★]
+R.B. Chef de Cuisine Ryōshū
+
+▶️ Dispenser
+
+Dispenser
+
+Season 1
+
+Season 2
+
+Start of Season 3
+
+Available
+
+[E.G.O]
+Lifetime Stew Sinclair
+[3★]
+R.B. Chef de Cuisine Ryōshū
+
+[E.G.O] Soda Hong Lu
+[3★] Molar Boatworks Fixer Ishmael
+<After the Attendance Check Event>
+[3★] Molar Office Fixer Outis
+[2★] Molar Office Fixer Yi Sang
+
+[E.G.O] Lifetime Stew Sinclair
+[3★] R.B. Chef de Cuisine Ryōshū
+[E.G.O] Lifetime Stew Don Quixote
+[2★] R.B. Sous-chef Gregor
+
+Unavailable
+
+[E.G.O]
+Lifetime Stew Sinclair
+[3★]
+R.B. Chef de Cuisine Ryōshū
+
+[E.G.O]
+Soda Hong Lu
+[3★]
+Molar Boatworks Fixer Ishmael
+[3★] Molar Office Fixer Outis
+[2★] Molar Office Fixer Yi Sang
+
+4/9
+
+PROJECT MOON
+Optimizations
+
+1. Improved resource loading speed in the game's UI
+Resource loading speed has been improved for viewing certain menus such as the Team Menu, Extract, and Drive and its Canto I~IV Selection Menu.
+
+2. Deleted ~1.1GB of unused resources
+
+UI/UX Improvements
+
+1. Identities & E.G.O detailed information popups improved
+
+- Intent: We have added a 'Summary' tab to reduce the number of steps required to access the E.G.O details from the Identity details menu. We have also redesigned the current old-school, folder-like UI to a more solid, vintage mechanical design.
+
+2. UI for viewing equipped E.G.O and Identity Skill Info from the Team Menu added
+
+- Intent: We have added these functions so that players can view all Identities' Skill Damage Types, equipped E.G.O, E.G.O resources that can be gained by Identities, and E.G.O resources used by E.G.O Skills at once.
+
+5/9
+
+PROJECT MOON
+UI/UX Improvements
+
+3. UI Behavior for Deploying & Dismissing Identities changed
+
+- Intent: In the older version of the Team Menu, behaviors for switching out an Identity and deploying an Identity to combat were rather confusing. The separate 'Edit Team' button on the bottom right added unnecessary steps to the process. That button has been removed in favor of clarifying the difference between the behavior for switching out an Identity and the behavior for deploying Identities to battle.
+
+※ Tutorials for 0-2, 0-3, 0-4 Stages, Team Menu, Identity Details, E.G.O Details have been updated accordingly.
+
+4. Stage Clear Results UI Redesigned
+
+- Intent: As previously mentioned in UI/UX Improvement #1, we have redesigned the current UI to a more solid, vintage mechanical design. Stage Clear Results UI has been updated accordingly as well.
+
+6/9
+
+PROJECT MOON
+UI/UX Improvements
+
+5. Mirror Dungeon Preset function improved
+- Intent: The old Preset function simply reloaded the last-used Team loadout, which meant that it was cumbersome when trying to employ a variety of Team loadouts. In order to reduce the unnecessary steps to changing your presets, we have made changes to the Preset function so that you can swap out your Team based on Teams you have made in the 'Sinner' window.
+
+6. Abnormality Focused Encounter 'Staggered' label added to Skill Slots in Staggered Abnormality parts
+
+- Intent: We have added this label resource to clarify Staggered parts of the Abnormality.
+
+Major Changes
+
+1. Dante's Notes -
+Adjusted certain categories' arrangement orders
+Certain categories' arrangement orders have been changed so that spaces between words would not come before ㅂ,ㅏ, or ㄷ.
+
+7/9
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where, when a Notice or a Dispenser popup would appear when the Banner was showing the red exclamation symbol in the Window’s User Banner section, the Banner's symbol would be overlayed on top of the popups
+
+▶ Fixed an issue where "Let one person drink it all" choice in a Mirror Dungeon Event didn't work as intended
+   - Before: The first effect was applied to the selected Sinner, and the second effect was applied to a different Sinner after the results were calculated again
+   - After: Both effects are applied to the selected Sinner
+
+▶ Fixed an issue where if, at the point in which the Mini Episode is updated, the player did not meet its unlock conditions, but met the conditions later and unlocked the Mini Episode, then watched the Mini Episode in the Theater, the Mini Episode would still play automatically upon startup.
+   ▶ Fixed an issue where, in the JP build of the game, the symbol (学) did not display properly
+
+▶ Fixed an issue where, upon entering the fourth phase of the Doomsday Calendar and failing the choice Event, the HP loss displayed in the choice results screen did not match the actual HP loss. (Effective values are unchanged)
+
+▶ (EN Only) Fixed an issue where Blade Lineage Cutthroat Outis's Skill 1 'Draw of the Sword' was mislabeled as "At 5+ Poise, Coin Power +3"
+   instead of "At 5+ Poise, Coin Power +1
+   - Before : At 5+ Poise, Coin Power +3
+   - After : At 5+ Poise, Coin Power +1
+(Effective values are unchanged. We apologize for causing confusion with the incorrect translation. Going forward, we will more diligently proofread our translations.)
+
+Known Issues after Oct. 26th Update
+
+▶ An issue where viewing Identity or E.G.O details from the popup menu that appears after using Yisang (Ideality) to extract would cause the game to lock due to the lack of a button to exit the details menu
+
+This issue will be corrected upon the next Scheduled Update. Please note that viewing Identity or E.G.O details from the aforementioned popup menu will cause the game to lock.
+8/9
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 Nov. 2nd 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+    - You will not be able to play <Limbus Company> during maintenance. Please understand.
+    - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+    - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+    - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+    - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+9/9
+
+PROJECT MOON
+

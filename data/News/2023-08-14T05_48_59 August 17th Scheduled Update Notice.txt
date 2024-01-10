@@ -1,0 +1,96 @@
+
+
+
+
+August 17th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on Aug. 17th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+Major Changes
+
+1. When a unit gains shield, the Stagger threshold display on the HP bar below its sprite will now move to match the HP percentage
+
+Optimization Reports
+
+1. RAM Usage Optimization
+· (iOS) Fixed increased memory usage from R Corp. 4th Pack Rhino Meursault being in battle (Approx. 50mb)
+· Removed unused camera effects in combat screens (Approx. 20~80mb depending on device resolution)
+
+1/4
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+- (Japanese Language) Fixed an issue with Zwei South Section 4 Faust's Skill 2 'Client Protection' where the amount of Defense Level Up shown in the description was incorrect
+  - Old: [On Use] Apply 3 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)
+  - New: [On Use] Apply 4 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)
+- (English Language) Fixed an error with the description for Zwei South Section 4 Faust's Skill 1 'Patrolling' at Uptie 2
+  - Old: [Clash Lose] Gain 2 Defense Level Up
+  - New: [Clash Lose] Gain 3 Defense Level Up
+- (English Language) Fixed an error with the description for Zwei South Section 4 Faust's Skill 2 'Client Protection' at Uptie 2
+  - Old: [On Use] Apply 2 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)
+  - New: [On Use] Apply 3 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)
+- Fixed an issue where the effects of G Corp. Head Manager Outis' Combat Passive 'Morale Boost' did not apply to herself
+- Fixed an issue where LCB Sinner Sinclair's Skill 3 'Ravaging Cut' applied Rupture Count on Heads hit at Uptie Tier 4
+- Fixed issues with the effects of Zwei South Section 5 Rodion's Skill 2 'Focused Defense' at Uptie Tier 4:
+  -'[On Use] At 15+ shield, gain +2 Poise Count' applying Poise Count next turn rather than this turn
+  - The effect '[Heads Up] Gain 2 Poise Count on hit' is now changed to '[On Hit] Gain 2 Poise Count'
+- Fixed an issue where Kurokumo Wakashu Hong Lu's Combat Passive 'Dark Cloud Blade' was being applied to wrong skills
+- Fixed the descriptions of certain skills that consume Charge Count stating 'Charge' instead of 'Charge Count'
+  - W Corp. L2 Cleanup Agent Faust
+  - R Corp. Pack 4 Rhino Meursault
+- Fixed an issue with the effects of Don Quixote's 
+  E.G.O - Fluid Sac's passive
+  - Old: SP damage equal to (Pride A-Reson. * 2)
+  - New: SP damage equal to (Gloom A-Reson * 2)
+(※ An issue where the damage applies as Pride damage rather than Gloom damage to Abnormalities will be addressed in a future update.)
+
+2/4
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+- Fixed an issue with Outis' E.G.O where the 'Apply Attack Power Up to other allies' effect of 'Ya Śūnyatā Tad Rūpam' applied to the user
+- Adjusted descriptions of certain E.G.O Skills with "Burst Tremor" effects (Rime Shank for Rodion and Ledgermain for Gregor) to convey the timing clearer
+(※ The actual effect will remain the same.)
+- Fixed an issue with Rodion's E.G.O 'Rime Shank' where the effect text '[On Hit] Inflict Sinking Count' was not being displayed for the skill at Threadspin Tier 4
+- Fixed an issue with Sinclair's E.G.O 'Branch of Knowledge' where 'Tails Hit' effect text for the skill at Threadspin Tier 4 is displayed on a heads hit
+- Fixed the Stagger threshold display missing for the HP bar below Sinner portraits at the lower side of the screen
+- Fixed an issue with the added glow frame when a panic block is activated
+- Abnormalities - Fixed an issue with the effect of the buff 'Gentle Sendoff' gained in the event with Sunset Wayfarer
+- Abnormalities - Fairy Gentleman: Fixed an issue where 'Morale Boost' could be gained while inflicted with 'Tipsy'
+- Abnormalities - Fixed an issue with the behavior of kqe-1j-23
+- Abnormalities - Fixed an issue with the Skill 'Expound Sutras' where the effect '[On Use] Apply 2 Attack Power Up to a random other ally' applied to the user
+- Abnormalities - Fixed an issue with the Skills 'Compulsory Offering' and 'Sluggard Waker' where the effect '[Clash Lose] Apply 20 Karma to a random other ally next turn' applies to the user
+- K Corp. Checkpoint Security - Issue with the Skill 'Cover' where the effect 'Apply 2 Protection to a random other ally next turn' applied to the user
+- Fixed the On Use and Clash Lose effects of Shock Centipede's skill 'Wriggling Tail' being swapped with each other in Mirror Dungeon #2
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: All users whose game accounts were created before Aug. 24th, 2023 09:59(KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

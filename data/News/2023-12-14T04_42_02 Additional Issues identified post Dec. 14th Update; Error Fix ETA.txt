@@ -1,0 +1,28 @@
+Hello, this is Project Moon.
+
+After the Dec. 14th, 12:00 (KST) Scheduled Update, we have identified the following issues. We are currently investigating and fixing the issues.
+
+<Critical Issues Identified So Far>
+
+[Can be corrected via Hotfix - ETA 3 Hours]
+- An issue where entering Mirror Dungeon #3 Floor 3 Boss room would sometimes soft-lock the game, making it impossible to progress
+- An issue where the music for a certain Mirror Dungeon #3 encounter does not play
+
+[Cannot be corrected via Hotfix - Requires client build & review]
+- An issue where Identities could not be deployed after selecting Support units
+
+
+[Additional issue currently under investigation]
+- An issue where, upon clearing a certain Canto IV Story Dungeon Encounter, a server error (Error code 75221) would occur
+
+
+We will post another notice with details regarding the error fixes and hotfixes.
+We apologize for these issues that prevent you from playing our new content.
+
+
+
+[Regarding difficulty & Play experience]
+
+We are constantly collecting Mirror Dungeon #3's difficulty data such as average clear time.
+We are also taking into account your opinions and feedback. We are conducting an internal discussion and tests to optimize the experience.
+

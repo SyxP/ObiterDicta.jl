@@ -1,0 +1,91 @@
+
+
+LIMBUS COMPANY Twinhook Pirates First Mate Gregor
+
+ENTITY INFO
+
+SKILL 1 Negotiation Start
+[On Use] Gain Poise
+If target has X+ Bleed, Coin Power +Y
+[On Hit] Gain +X Poise Count
+[On Crit] Inflict X Bleed
+[On Crit] Inflict X Bleed
+
+SKILL 2 Unilateral Business
+Coin Power +X for every Y Bleed on target
+[On Use] Gain +X Poise Count
+[On Hit] Gain X Poise
+[On Crit] Inflict X Bleed
+[On Hit] Inflict X Bleed
+[On Crit] Inflict X Bleed
+Deal additional damage with Critical Hit
+
+SKILL 3 Foregone Conclusion
+[On Use] Gain X Poise for every Y Bleed on target
+Gain Coin Power +X for every Y Poise on self
+[On Crit] Inflict +X Bleed Count
+[I] Spend Ammo
+Deal additional damage with Critical Hit
+[I] On Kill] Gain X Plus Coin Boost next turn
+
+DEFENSE Take a Breather
+[On Evade] Gain X Poise
+
+PASSIVE Bullets are Pricey
+• Always Activate: Begin encounters with X Ammo
+• On Heads Hit against target with Bleed, gain Unjust Enrichment.
+• If a Coin that uses Ammo hits, consume all
+Unjust Enrichment and deal (X x Unjust Enrichment consumed)% of damage dealt as bonus damage.
+• If this unit Critical Hits when out of Ammo, consume all Unjust Enrichment and deal (X x Unjust Enrichment consumed)% of damage dealt as bonus damage.
+
+SUPPORT PASSIVE New Breathing Hole
+If 1 ally with the most Poise defeats an enemy,
+gain X Pierce DMG Up next turn.
+
+Unjust Enrichment
+When the relevant Passive activates, consume all Unjust Enrichment stack to deal bonus damage.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+	Copyright © 2023 All rights reserved.
+LIMBUS COMPANY
+LCCB Assistant Manager
+Ryoshu
+SKILL 1 Shove
+[On Use] Gain X Poise Count
+AT-x Poise, Coin Power +Y
+[On Crit] Target Loses X SP
+
+SKILL 2 T.I.I.
+AT-x Poise, Coin Power +Y
+[On Hit] Gain X Poise
+[On Crit] Inflict X Offense Level Down
+[On Hit] Gain X Poise
+[On Crit] Inflict X Offense Level Down
+
+SKILL 3 O.O.F.
+[On Use] Gain X Poise
+Coin Power +X for every Y Poise on self
+[On Crit] Gain +X Poise Count
+[On Crit] Gain +X Poise Count
+Spend Ammo
+[On Crit] Inflict increased Tremor & Rupture Potency and Count
+[On Hit] Inflict X Tremor and Y Tremor Count
+[On Hit] Inflict X Rupture and Y Rupture Count
+[On Hit] Burst Tremor
+
+PASSIVE A.S.B.
+- Always Activate: Begin encounters with X Ammo
+- If this unit has X+ Poise at Turn End, heal Y SP.
+- If this unit already has max SP upon meeting the above condition, gain X Poise next turn
+
+SUPPORT PASSIVE The Lucky Sig
+- If 1 ally with the least Ammo uses a Skill that spends Ammo, gain X Poise.
+- If 1 ally with the least Ammo spends their last remaining Ammo with a Skill, deal X% of the damage dealt as bonus damage to that Skill's target at Attack End.
+
+ENTITY INFO
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2023 All rights reserved by LIMBUS COMPANY
+

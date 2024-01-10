@@ -1,0 +1,18 @@
+[May 4th Hotfix Applied]
+
+Greetings, Dear Manager.
+
+Version 1.6.0 of the Steam version had an issue that prevented the combat sprites of "The One Who Shall Grip Sinclair" and "N Corp. Mittelhammer Don Quixote" from being displayed.
+
+We have identified the issue with the combat sprite resources and have fixed it accordingly.
+
+If you're using the Steam version, please update the game client.
+
+We apologize for the inconvenience.
+
+[Compensation]
+Content: Lunacy x300
+Date: May 4 after 15:00 (KST)
+- Can be redeemed once per account
+- You can claim the item through the in-game mail system until 2023 May 11 09:59 (KST). (Mail Validity Period: 7 days)
+

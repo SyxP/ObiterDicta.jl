@@ -1,0 +1,22 @@
+
+Notice: Deleting your game Account on Steam
+
+Hello, this is Project Moon.
+
+We plan to add a function to delete your game account on the Steam version.
+
+Update Schedule
+- When: After Dec. 28th (Thu) 12:00 (KST) Scheduled Maintenance
+- Supported Versions: 1.33.0 or after
+
+Currently, in order to delete your account, you had to first link your account with the Mobile platforms first before deleting your account.
+In order to make account deletion easier, we plan to add a UI in the Steam version so that you can delete your account on Steam version of the game without linking it to a Mobile version.
+
+※ Upon Account Deletion request, you will have 7 days to revert your decision.
+After 7 days, the account linked to the Mobile version will be deleted as well. After your account is deleted, you can create a new game account on Steam version of the game by restarting the game.
+
+We apologize for the inconvenience.
+Thank you.
+
+PROJECT MOON
+

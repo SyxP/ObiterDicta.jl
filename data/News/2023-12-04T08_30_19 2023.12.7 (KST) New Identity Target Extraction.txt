@@ -1,0 +1,83 @@
+
+
+LIMBUS COMPANY
+The Pequod Harpooneer
+Heathcliff
+SKILL 1
+Stalk Prey
+[On Use] Gain Poise Count
+[On Use] Gain Aggro to this Skill Slot next turn
+[On Hit] Inflict Bleed
+SKILL 2
+Snagharpoon
+[On Use] Gain Aggro to this Skill Slot next turn
+[On Use] Gain Poise based on Bleed on target
+[On Crit] Inflict Bleed Count based on Bleed Potency on target
+SKILL 3
+Sever Knot
+At X+ Envy Reson, Clash Power +Y
+At X++ Envy Reson, Coin Power +Y
+At X+++ Envy A-Reson, Coin Power +Y
+[On Hit] Inflict Bleed
+[On Hit] At X%- HP, inflict Bleed
+[On Hit] At Y%- HP, inflict Bleed
+[On Hit] Inflict Bleed
+[On Hit] At X%- HP, inflict Bleed
+[On Hit] At Y%- HP, inflict Bleed
+[On Crit] X% Damage on Critical Hit
+DEFENSE
+Payback
+[On Use] Gain Aggro to this Skill Slot next turn
+[Combat Start] Gain Defense Level Up by Poise on self
+PASSIVE
+Mutilated Tattoos
+•Gain Offense Level Up and Defense Level Up next turn every time an ally (including this unit) is attacked.
+•Gain more of each if the attacked ally is from The Pequod.
+•Deal more damage the less HP this unit has.
+SUPPORT PASSIVE
+Desperation
+1 ally with the highest max HP deals more Pierce Damage the less HP it has.
+"The Identity's stats at max level and Upite tier are displayed here.
+*This image is for reference only; actual details subject to change."
+LIMBUS COMPANY
+The Pequod First Mate
+Yi Sang
+
+SKILL 1
+Impale
+[On Use] Gain Poise Count
+[On Hit] Inflict Bind next turn
+[On Hit] Inflict Bleed
+
+SKILL 2
+Relentless Stabbing
+[On Use] Gain Poise Count
+At X+ Poise, gain Clash Power
+[On Hit] Gain Poise
+[On Hit] Inflict Bleed
+[On Crit] Reuse this Coin
+
+SKILL 3
+Ambush
+[On Use] Gain Poise
+At X+ Poise, gain Coin Power
+[On Hit] Gain Poise Count
+[On Hit] Inflict Bleed
+[On Crit] Inflict Bleed Count
+
+DEFENSE
+Evade
+
+PASSIVE
+The First Mate's Harpoon
+On Crit, inflict more Bleed Potency with Skill effects
+
+SUPPORT PASSIVE
+The First Mate's Acumen
+When 1 ally with the most Poise Crits, inflict more Bleed Potency with Skill effects
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2023 All rights reserved. Published by Project Moon
+

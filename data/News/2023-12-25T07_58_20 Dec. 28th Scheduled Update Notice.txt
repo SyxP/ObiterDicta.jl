@@ -1,0 +1,134 @@
+
+
+
+
+
+Dec. 28th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on December 28th, 2023 (KST).
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. New E.G.O Target Extraction - [New E.G.O Target Extraction: Miracle in District 20] (Dec. 28th 12:00 ~ Jan. 11th 10:00 (KST))
+Extraction rate increases for the following E.G.O.
+- E.G.O [HE]: Holiday Outis
+
+2. New E.G.O Added
+The following is added to the list of extractable E.G.O.
+- E.G.O [HE]: Holiday Outis
+
+3. New Event [5.5 - Miracle in District 20]
+※ Please refer to the Steam Announcements page for more detailed information.
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Steam Account Delete Option added
+
+Upon Account Deletion request,
+you will have 7 days to revert your decision.
+(This is no different from non-Steam account deletion options.)
+※ Please refer to the 'Notice: Deleting your game Account on Steam' on Steam Announcements page for more information.
+
+Bug Fixes and Improvements
+
+▶ (EN Only) Fixed an issue where Cinq South Section 4 Outis Skill 3 has an incorrect description
+Before : [Clash Win] Deal more damage based on Clash count (Max 10)
+After : [Clash Win] Gain Poise based on Clash count (Max 10)
+
+▶ Added Faction keyword 'Technology Liberation Alliance' keyword to Dongbaek E.G.O.::Spicebush - Yi Sang/ Lobotomy E.G.O.:: Sunshower - Heathcliff/ Lobotomy E.G.O.::Sloshing - Ishmael/ Lobotomy E.G.O.::Red Sheet - Sinclair
+
+▶ (EN Only) Fixed an issue where the translation for Cinq South Section 5 Director Don Quixote's Skills was partially missing
+
+▶ Fixed an issue where texts were ordered incorrectly when Uptying Cing South Section 4 Outis' Skill 3
+
+▶ Fixed an issue where The Pequod Harpooneer Heathcliff's Counter Skill 'Payback' was missing an animation
+
+▶ Standardized the time displayed on the Yisang Exchange window to KST
+
+▶ (KR Only) Fixed an issue where the New Extraction Notice was missing an image resource
+
+▶ Mirror Dungeon #3 Hard - Changed 'Mounting Trials' icons ※ The icons have been fixed to match the actual effects.
+
+2/5
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+► Mirror Dungeon - Deleted 'Risky' marker on the Focused Encounter nodes
+
+► Fixed an issue where the Mirror Dungeon E.G.O Gift Clear Mirror, Calm Water stops working when Enhanced
+※ Currently, Clear Mirror, Calm Water+ and Clear Mirror, Calm Water++ effects do not activate. This issue will be fixed with the Dec. 28th Scheduled Update.
+
+► Fixed an issue where the Mirror Dungeon E.G.O Gift Bloody Mist activated on incorrect conditions
+※ It has been corrected from 6 to 5 Identities.
+
+► Fixed an issue where, in the Mirror Dungeon #3, the Max HP Up Buff did not apply properly to the disappeared part of the Faelantern(Body). (Only healed up to the un-boosted HP)
+
+► Fixed an issue where the 'Ambling Pearl' from Mirror Dungeon #3 did not activate its Passive regarding the Green Slime unit
+
+► Added Effects tag to Banners and Ticket embellishment icons
+
+► Fixed an issue where the Friends menu, after sending a friend request, did not immediately update afterward
+
+► Added descriptions for Identity Training Ticket IV and Level Boost Ticket IV items
+
+3/5
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+▶ Fixed the animation for the Main Story 5-36 Dungeon Boss' Counter Skill 'Insidious Pallidification'
+(Added a special Counter animation)
+
+▶ Fixed an issue where certain Skill cutscenes that disable the enemy sprites (Rodion E.G.O - Effervescent Corrosion, for example) did not work properly
+
+▶ Fixed an issue where in the Team menu prior to a stage, and deploying a certain Support Identity, and then swapping them out for a different Support Identity, caused to make it look as though unselected Support Identity was selected
+
+▶ Fixed an issue where setting the Detailed Info to 'E.G.O' then opening the Identity/E.G.O List UI caused the E.G.O filter to not work
+
+▶ Fixed an issue where certain Mirror Dungeon Encounters did not play music
+
+▶ Fixed an issue where enemies in certain Mirror Dungeon Encounters were standing in incorrect places
+
+▶ Fixed an issue where, under a specific circumstance, selecting the "Go Back" button from the Stage Select screen caused the Drive menu to display incorrectly
+
+Known Issues that were not fixed
+
+▶ An issue where the game conducts an incorrect Slot Weight calculation upon reusing an E.G.O skill when having the Mirror Dungeon E.G.O Gift Rusty Commemorative Coin
+
+※ We will notify you once this issue is corrected in a future notice.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Jan. 4th 2024 (KST)
+- When: After Dec. 28th (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Jan. 4th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+5/5
+
+PROJECT MOON
+

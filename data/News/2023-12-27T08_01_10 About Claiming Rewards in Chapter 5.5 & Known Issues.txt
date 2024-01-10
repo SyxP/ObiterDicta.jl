@@ -1,0 +1,49 @@
+
+About Claiming Rewards in Chapter 5.5
+& Known Issues
+
+Greetings, dear Manager.
+
+We would like to inform you about a few
+things about Claiming the Event Rewards.
+
+In [Chapter 5.5 - Miracle in District 20], you can obtain [Trinkets Sack]
+when claiming Rewards in the Mirror Dungeon.
+Using the Mirror Dungeon Hard Difficulty Bonus chance when
+obtaining the event currency will net you even more event currency.
+※ Using Weekly Bonus eligibilities, however, does not
+affect the amount of event currency you gain.
+
+Therefore, if you use your Hard Difficulty Bonus chance between
+06~10 (KST) on Dec. 28th, you will not be able to claim the extra
+event currency from the Hard Difficulty Bonus chance for that week.
+This means that you will not be able to
+claim as much event currency that week.
+
+Managers planning to claim Mirror Dungeon Hard Rewards between
+06~10 (KST) on Dec. 28th, please note the above information
+before using your Mirror Dungeon Hard Difficulty Bonus chance.
+
+Also, we are currently investigating the below issues.
+We will inform you via a Scheduled
+Notice as soon as these issues are corrected.
+
+Known Issues
+
+► An issue where Mirror Dungeon E.G.O Gift 'T-1 Perpetual Motion
+Machine' effect 'Next Turn Start: Each Identity gains (Total
+Charge Count consumed by Skill use/4) 'Offense Level'
+(Maxes out when 40 Charge Counts are consumed)' did not
+activate for certain Identities (W Corp. L3 Cleanup Agent Ryoshu,
+W Corp. L2 Cleanup Agent Hong Lu,
+R Corp. 4th Pack Reindeer Ishmael)
+
+► (iOS, Android) An issue where the event
+currency icons do not display in the Rewards Claim UI
+※ This issue has been identified
+to occur after the Dec. 28th Scheduled Update.
+
+We apologize for the inconvenience.
+
+PROJECT MOON
+

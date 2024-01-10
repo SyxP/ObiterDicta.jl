@@ -1,0 +1,335 @@
+
+
+
+
+
+
+
+
+
+
+
+November 16th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 06:00 [AM] through 12:00 [PM] on November 16th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+※ For your gameplay plans, please note that Season 3 update maintenance will last from Nov. 16th 06:00 ~ 12:00 (KST).
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction ??? Gregor & ??? Ryōshū] (Nov. 16th 12:00 ~ Nov. 30th 09:59 (KST))
+   Extraction rate increases for the following Identities.
+   - 3★ : ??? Gregor
+   - 2★ : ??? Ryōshū
+
+※ Please note that during the gradual Main Story update period, Identity Skill videos and details will be revealed on Thursday in order to avoid story spoilers.
+
+2. [Target Extraction: Faust]
+   (Nov. 16th 12:00 ~ Nov. 30th 09:59 (KST))
+   The following E.G.O and Identities will have increased odds of extraction.
+   - E.G.O [HE] : Telepole Faust
+   - E.G.O [TETH] : Hex Nail Faust
+   - 3★ : Seven South Section 4 Faust, The One Who Grips Faust
+   - 2★ : Zwei South Section 4 Faust, Lobotomy Corp. Remnant Faust, W Corp. L2 Cleanup Agent Faust
+   - 1★ : LCB Sinner Faust
+
+3. New Identities added
+   The following is added to the list of extractable Identities.
+   - 3★ : ??? Gregor
+   - 2★ : ??? Ryōshū
+
+1/10
+
+PROJECT MOON
+About The New Season
+
+※ Please refer to the Steam Announcements page
+for more details regarding Season 3.
+- [Posted Oct .16th] Guide to Season 3 : Bon Voyage
+
+1. Season 2 Egoshard Carryover
+Half of Season 2's Egoshards and Egoshard-related
+currencies will be carried over to Season 3.
+The rest will be automatically converted to Threads.
+       - Season 2 [Sinner's] Egoshard
+       - Season 2 Egoshard Crates
+       - Season 2 Nominable Egoshard Crates
+
+※ Please refer to the Steam Announcements
+page for more details regarding Egoshard Carryover.
+
+2. Gradual Main Story & Battle Pass Updates
+► Main Story Canto 5-(Part 1) Unlocked
+     - Unlock Conditions : Clear 4.5-11
+
+► Season 3 Limbus Pass - Bon Voyage (Part 1) Unlocked
+Battle Pass rewards from Lv.1 ~ Lv.20 will be unlocked. Pass Levels
+will continue to accumulate regardless of their unlock status.
+When subsequent updates unlock the rewards for higher Levels,
+you can immediately claim them up to your tracked Pass Level.
+
+3. Identity Level Cap Increase
+The max level of Identities will be increased from 35 to 40.
+
+4. EXP Luxcavation #4 and Thread Luxcavation #3 Added
+     - EXP Luxcavation Unlock Conditions : Clear 4-48
+     - Thread Luxcavation Unlock Conditions : Clear 4-54
+
+※ With the November 23rd (KST) Main Story Canto 5-(Part 2)
+update, EXP Luxcavation #5 will be added to the game.
+
+2/10
+
+PROJECT MOON
+About The New Season
+
+5. Season 3 Extractions
+The following will no longer be extractable from Season 3 Extractions.
+
+▶ [Season 2 Event] Identity & E.G.O
+- E.G.O [TETH] : Soda Hong Lu
+- 3★ : Molar Boatworks Fixer Ishmael
+
+6. Season 3 Dispenser
+The following will be added to the Season 3 Dispenser
+
+▶ [Season 1] Identities
+
+3★
+The One Who Grips Faust
+N Corp. Großhammer Meursault
+Tingfang Gang
+Gangleader Hong Lu
+The One Who Shall Grip Sinclair
+G Corp. Manager Corporal Gregor
+
+2★
+Lobotomy Corp. Remnant Faust
+N Corp. Mittelhammer Don Quixote
+N Corp. Kleinhammer Heathcliff
+LCCB Assistant Manager Ishmael
+LCCB Assistant Manager Rodion
+N Corp. Mittelhammer Rodion
+Jefe de Los Mariachis Sinclair
+G Corp. Head Manager Outis
+
+▶ [Season 1 Event] Identities & E.G.O
+- E.G.O [TETH] : Lifetime Stew Don Quixote, Lifetime Stew Sinclair
+- 3★ : R.B. Chef de Cuisine Ryōshū, R.B. Sous Chef Gregor
+
+▶ [Season 2 Pass] E.G.O
+
+HE                                TETH
+Capote Meursault         Capote Ishmael
+AEDD Gregor                AEDD Heathcliff
+Sunshower Yi Sang     Sunshower Outis
+
+3/10
+
+PROJECT MOON
+About The New Season
+
+The following can no longer be dispensed from the Season 3 Dispenser.
+
+▶ [Season 2] Identities
+
+3★
+Effloresced E.G.O.:
+Spicebush - Yi Sang
+
+K Corp. Class 3
+Excision Staff Hong Lu
+
+Lobotomy E.G.O.:
+Sunshower Heathcliff
+
+Rosespanner
+Workshop Rep. Rodion
+
+2★
+Rosespanner Workshop
+Fixer Meursault
+
+Lobotomy E.G.O.:
+Sloshing - Ishmael
+
+Lobotomy E.G.O.:
+Red Sheet - Sinclair
+
+Rosespanner
+Workshop Fixer Gregor
+
+▶ [Season 2 Event] Identities & E.G.O
+- E.G.O [TETH]: Soda Hong Lu
+- 3★: Molar Boatworks Fixer Ishmael, Molar Office Fixer Outis
+- 2★: Molar Office Fixer Yi Sang
+
+7. Dispenser - Purchasable E.G.O and Announcers from Past Season Passes
+
+An option to purchase E.G.O from past Season Pass E.G.O and Announcers with Paid Lunacy will be added to the Dispenser. (Past Season Pass E.G.O will still be purchasable with Egoshards)
+1 Season 3 Announcer will be added to the Dispenser.
+
+8. In-App Purchases
+
+With the release of [Season 3 : Bon Voyage] Battle Pass, 'Limbus Pass Package' will be added to the game.
+Please refer to the Steam Announcements page for further details regarding this release.
+
+- [Posted Nov. 6th] Guide on Changes to Season 3 Battle Pass
+- [Posted Nov. 7th] Additional Changes to Season 3 Battle Pass
+
+4/10
+
+PROJECT MOON
+About The New Season
+
+4 new Packages will be added to the in-game Package shop. One of the preexisting Packages will be adjusted.
+
+[New] Monthly EXP Pack
+- Price : ₩28,000 / $18.99 / ¥2,600
+- Contents : Level Boost Ticket IV x2, Identity Training Ticket IV x20, Identity Training Ticket III x20
+
+[New] Monthly Thread Pack
+- Price : ₩28,000 / $18.99 / ¥2,600
+- Contents : Thread x300
+
+[New] Weekly EXP Pack
+- Price : ₩9,900 / $6.99 / ¥1,000
+- Contents : Level Boost Ticket III x1, Identity Training Ticket IV x12, Identity Training Ticket III x20
+
+[Adjusted] Weekly Thread Pack
+- Price : ₩9,900 / $6.99 / ¥1,000
+- Contents : Thread x100 (Before : Thread x75)
+
+[New] Season 3 Settler Supplies
+- Price : ₩99,000 / $69.99 / ¥10,000
+- Contents : Lunacy x5040, Decaextraction Ticket x3, Level Boost Ticket III x1, Identity Training Ticket x30, Thread x80,
+Season 3 Nominable Egoshard Crate x40
+
+5/10
+
+PROJECT MOON
+UI/UX Improvements
+
+1. PC Keyboard Shortcuts Added
+
+- Intent : PC keyboard shortcuts have been added to provide a more convenient experience for Managers playing our game on PC.
+
+2. Changed the behavior mechanism of the Skill chaining phase in Focused Encounters
+
+- Intent : We intend to address the inconveniences with the previous versions of Focused Encounters(Overly small Skill Slots, Camera movement caused Skill Slots to overlap with no option of resetting them) with this overhaul.
+
+To do so, we have separated the Skill chaining and the camera movement in Focused Encounters. Now, the camera will zoom in only when connecting the Skills for the first time; you will be free to maneuver your Camera position and zoom levels manually afterward. We have added a button to the left of the dashboard so that you may reset the camera to the default settings upon first entry to the encounter.
+
+However, we recognize that this UI/UX update may prove to be inconvenient due to its lack of automatic camera movement in the Skill chaining phase. 
+
+With a future update, we will make the previous version of Focused Encounters UI/UX available to choose from as well so that Managers will be able to decide which option suits their needs the best.
+
+6/10
+
+PROJECT MOON
+Major Changes
+
+1. Daily Pass Mission changed
+  - Before: 1 daily log-in
+  - After: Assemble 1 Enkephalin Module
+
+2. 'Sanity' tab from Enemy Info locked & unlock conditions added
+  - Before Stage Clear: Enemy Sanity tab locked
+  - After Stage Clear: Enemy Sanity tab unlocked
+
+3. In-encounter character idle animation timing randomized
+
+4. Upon logging in for the first time after certain updates, new content alert VFX will play
+
+7/10
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue in the Refraction Railway Line 2 where, under certain conditions, incorrect number of Turns would be displayed
+※ We have adjusted the top UI and the retry popup UI upon defeat accordingly. 
+
+▶ Fixed an issue where claiming rewards for the Refraction Railway Line 2 did not show a window showing which rewards were claimed (The rewards were still claimed, this only affected the popup window)
+
+▶ Adjusted [Proelium Fatale] Cutscene conditions
+- Before: Applied to certain Abnormalities from Main Story - Canto 1
+- After: Applied to certain powerful boss battles throughout the Main Story
+※ This cutscene does not play in other non-story content such as Mirror Dungeons.
+
+▶ Keyword tooltips now applied to the [Sanity] tab in ID details
+
+▶ Fixed an issue where, while navigating the Sinners window, ID portraits did not display properly 
+
+▶ Fixed an issue where the Sinners window malfunctioned and displayed the incorrect resources
+
+▶ Fixed issues regarding the Brazen Bull Abnormality boss fight in the Main Story and the Mirror Dungeon
+(1) Fixed an issue where the debuff upon breaking its Head did not last as long as intended
+- Before: Applied only for 1 turn after its Head was broken
+- After: Applied until the end of that encounter
+(2) Fixed an issue where the buff values of 'Unresolved Sorrow' was incorrectly applied
+- Before: Apply 1 Attack Power Down
+- After: Apply 3 Attack Power Down
+(3) Fixed an issue where, after 1 turn, the buff stack of 'Unresolved Sorrow' was reduced by 1 when at less than 3 stacks
+
+8/10
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶️ Fixed an issue where, upon defeating a certain target in Abnormality - kqe-1j-23 encounter, their death animation did not play properly
+
+▶️ Fixed an issue where, upon attempting to clash with an enemy Skill not targeting this unit, the damage multiplier did not display
+
+▶️ Fixed an issue where Thread Luxcavation Alleyway Watchdog's 'Lightning' buff did not activate
+
+▶️ Fixed an issue where Main Story 0-1 displayed enemy stats
+
+▶️ Re-organized the Dispenser banner orders
+- Before: Shard::Thread Exchange / Walpurgis Night / Season (New-Old) / Standard Fare
+- After: Shard::Thread Exchange / Standard Fare / Season (New-Old) / Walpurgis Night
+(※ Will be moved above the Season Banner during Walpurgis Night event)
+
+▶️ Fixed an issue where the E.G.O Gift 'Charred Disk' did not activate
+
+▶️ Fixed an issue where the [ALL] filter in the Manager - Business Card - E.G.O did not activate
+
+Known Issues after Nov. 16th Update
+
+▶️ An issue where certain SFX were missing in the ??? Gregor extraction cutscene
+
+▶️ An issue where PC Keyboard Shortcuts are appearing in the Mobile version of the game (Pressing this button will not do anything; this menu will be removed from the future Mobile versions)
+
+▶️ An issue where the Dispenser would display a 'SOLD OUT' info on Standard Fare banner even if there are dispensable Identities & E.G.O remaining
+※ This issue can be corrected after reloading the dispenser tab.
+
+9/10
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Nov. 23rd 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play Limbus Company during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+
+10/10
+
+PROJECT MOON
+

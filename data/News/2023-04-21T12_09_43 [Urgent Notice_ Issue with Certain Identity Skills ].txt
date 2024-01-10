@@ -1,0 +1,2 @@
+The problem is currently being worked on as it is believed to be an issue that can be addressed by editing the text from the server-side without building a new client version. We will let you know in a separate notice once the issue has been resolved.
+

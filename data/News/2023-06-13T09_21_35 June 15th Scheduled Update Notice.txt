@@ -1,0 +1,112 @@
+
+
+
+
+June 15th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on June 15th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction: [Technology Liberation Alliance #2]
+(Jun 15 12:00 ~ Jun 29 09:59 (KST))
+Extraction rates increase for the following Identities:
+- 3✭: Effloresced E.G.O.::Spicebush - Yi Sang
+- 2✭: Lobotomy E.G.O.::Sloshing - Ishmael
+
+2. Identity Target Extraction: [Outis]
+(Jun 15 12:00 ~ Jun 29 09:59 (KST))
+Extraction rates increase for the following Identities and E.G.O:
+- E.G.O [TETH]: Ya Śūnyatā Tad Rūpam for Outis
+- 3✭: Seven Association South Section 6 Director Outis
+- 2✭: G Corp. Head Manager Outis
+- 2✭: Blade Lineage Cutthroat Outis
+- 1✭: LCB Sinner Outis
+
+3. New Identities Added
+The following are added to the list of extractable items:
+- 3✭: Effloresced E.G.O.::Spicebush - Yi Sang
+- 2✭: Lobotomy E.G.O.::Sloshing - Ishmael
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+4. Season 2 (Part 3) Changes and Additions
+   (1) Main Story Chapter 4 (Part 3) Added
+      - Requirements: Clear 4-48
+
+   (2) Season 2 Limbus Pass - Reminiscence (Part 3) Unlocked
+      Pass rewards for Lv. 41 to Lv. 60 will be unlocked.
+      The Pass level will be tracked normally regardless of the
+      gradual updates. When the rewards for higher levels are
+      unlocked with subsequent updates, you can immediately
+      claim them up to your current Pass level.
+
+   (3) Dispenser's Permanently Available Tabs Segmented
+      As Identities and E.G.O that fall into the 'Regular' category
+      cannot be put into the 'Pass' or 'Events' tabs, the following
+      changes have been made to the tabs.
+         - Old: Extraction
+         - New: Identities / E.G.O
+
+   (4) Adjusted enemy stats in regular combat
+      encounters for Chapter 4 Parts 1 and 2
+
+   (5) In Mirror Dungeons and Story Dungeons,
+      when a unit's SP is at -45 at the end of a combat encounter,
+      they undergo E.G.O corrosion and/or panic on the
+      first turn of the next encounter.
+
+2/4
+
+PROJECT MOON
+Update Contents
+
+5. Bug Fixes and Improvements
+
+- Fixed an error with stage effects in 4-48
+- Fixed dialogue voices missing for 4-48 scenes
+- Fixed an issue where certain enemies stayed in panic in 4-48
+- Fixed an issue where the battle wouldn't end if certain enemies were killed by status effects
+- Fixed Sanity values not being displayed on the info tab for certain enemies in 4-47
+- Removed Sanity display UI from regular stage enemies that have no Sanity (e.g. K Corp. Drones)
+- Fixed the stage select screen moving suddenly under certain circumstances
+- Fixed an error with the activation of The One Who Grips Faust's support passive 'Whispers'
+- Fixed the effect of Coin 3 on LCB Sinner Heathcliff's Skill 3 not activating for unopposed attacks
+- Fixed the story stage help button not functioning
+- Fixed an issue with clash designation for certain regular stages in Chapter 4 (Part 2)
+- Fixed an issue with the story dungeon tutorial in the English version
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 June 22nd, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

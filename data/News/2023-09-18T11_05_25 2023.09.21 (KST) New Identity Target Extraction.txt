@@ -1,0 +1,58 @@
+
+LIMBUS COMPANY
+Dieci South Section 4
+Rodion
+
+SKILL 1
+Illuminate Thy Vacuity
+Gain (Insight X % of Max HP) Shield if this Skill is Discarded.
+[On Use] If Insight is X or higher, gain Coin Power by (Insight - Y)
+[II] [On Hit] Lower user's Stagger Threshold by X
+
+SKILL 2
+Weight of Knowledge
+Gain (Insight X % of Max HP) Shield if this Skill is Discarded.
+[On Use] Discard the Skill of the lowest rank in all of this unit's Skill Slots.
+[On Use] This Slot gains X Aggro next turn
+[On Use] If target has X+ Sinking, gain Clash Power +Y
+[IV] [On Hit] Inflict X Sinking
+
+SKILL 3
+Excruciating Study
+Gain (Insight X % of Max HP) Shield if this Skill is Discarded.
+[On Use] Discard 2 Skills of the lowest ranks in all of this unit's Skill Slots.
+[On Use] This Slot gains X Aggro next turn
+[On Use] If target has X+ Sinking, gain Coin Power +Y
+[I] [Heads Hit] Inflict +X Sinking Count
+[IV] [On Hit] Inflict X Sinking Count
+
+DEFENSE
+Fixated Study
+[On Use] Discard the Skill of the highest rank in all of this unit's Skill Slots.
+[On Use] This Slot gains X Aggro next turn.
+
+PASSIVE
+Incandescent Enlightenment
+Gain Blunt DMG Up next turn based on the damage that this unit took this turn.
+(Shield damage included in the calculation.)
+If this unit has X Insight at the end of the turn, remove negative effect applied to self.
+
+SUPPORT PASSIVE
+Missionary of Knowledge
+1 ally with the highest Max HP gains Blunt DMG Up next turn based on the damage that they took this turn.
+(Shield damage included in the calculation.)
+
+Insight
+Displays the rank of the last Skill Discarded by the unit with this effect (Base Number: 1)
+
+*The identity's stats at max level and Uptier title are displayed here.
+*This image is for reference only; actual details subject to change.
+
+CAUTION   CAUTION   CAUTION   CAUTION   CAUTION   CAUTION   CAUTION   CAUTION 
+
+"*" "****" "Caution" "CAUTION" "CAUTION" "CAUTION" "CAUTION" "CAUTION" "****" "CAUTION" "CAUTION" "CAUTION" "CAUTION" "CAUTION"
+
+ENTITY INFO
+
+Copyright (C) 2023 Project Moon. All rights reserved.
+

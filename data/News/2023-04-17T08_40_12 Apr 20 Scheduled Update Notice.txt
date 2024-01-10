@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+Apr 20 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on April 20th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+Update Contents
+
+1. New Target Extraction: [Hell's Chicken]
+   (4/20 12:00 ~ 5/4 09:59 (KST))
+   Extraction rates increase for the following:
+   - ★3: R.B. Chef de Cuisine Ryōshū
+   - E.G.O: Lifetime Stew for Sinclair
+
+2. Sinner Target Extraction: [Don Quixote]
+   (4/20 12:00 ~ 5/4 09:59 (KST))
+   Extraction rates increase for the following:
+   - ★3: W Corp. Cleanup Agent Don Quixote
+   - ★2: Shi Section 5 Director Don Quixote
+   - ★1: LCB Sinner Don Quixote
+   - E.G.O: Telepole for Don Quixote
+
+3. New Identity & E.G.O Release
+   The following Identity and E.G.O will be added to the list of items available from Extraction:
+   - ★3: R.B. Chef de Cuisine Ryōshū
+   - E.G.O (TETH) : Lifetime Stew for Sinclair
+
+1/8
+
+PROJECT MOON
+Update Contents
+
+4. New Content - Chapter 3.5: Hell's Chicken
+[Event Description]
+1. When the event starts,
+the Ch. 3.5: Hell's Chicken Event Page will open.
+2. During the event period, you can earn [Bongy Plushies] by
+clearing stages and dungeons in the event and main story.
+3. You can redeem various rewards from the [Coupon Trade-in]
+based on the number of [Bongy Plushies] you have.
+
+[Period]
+Apr 20 12:00 ~ May 4 09:59 (KST)
+
+[Requirements]
+Clear Main Story 3-22
+
+[Redeeming Rewards]
+- [Coupon Trade-in] provides various rewards based on the
+number of [Bongy Plushies] you've earned.
+- [Coupon Trade-in] is open for 3 weeks,
+from Apr 20 12:00 to May 11 09:59 (KST).
+- Once the event ends on May 4 09:59 (KST),
+you will no longer be able to earn [Bongy Plushies].
+- [Coupon Trade-in] is open until May 11 09:59 (KST),
+and you will no longer be able to redeem its rewards once the
+page closes, so please mind the duration.
+- You can obtain the event reward Identity [R.B. Sous-chef Gregor]
+and E.G.O [Lifetime Stew for Don Quixote]
+from the [Coupon Trade-in].
+
+2/8
+
+PROJECT MOON
+Update Contents
+
+[Event Gameplay]
+- The content of Hell's Chicken consists of 8 stages and 2 dungeons.
+  - From Apr 20 12:00 to May 4 09:59 (KST), you can earn [Bongy Plushies] by clearing stages and dungeons in the event and main story.
+
+[Where to Find Bongy Plushies]
+- Stages and Dungeons in the Main Story of Ch. 1, 2, and 3: [Bongy Plushies] are rewarded based on the amount of Enkephalin consumed
+- Hell's Chicken Stages: [Bongy Plushies] are rewarded based on the amount of Enkephalin consumed; EX Clear rewards an additional batch of [Bongy Plushies] (One time only)
+- Hell's Chicken Dungeons: [Bongy Plushies] are rewarded based on the amount of Enkephalin consumed; EX Clear rewards an additional batch of [Bongy Plushies] (One time only)
+※ Mirror Dungeons, Luxcavation, and Refraction Railway do not give [Bongy Plushies].
+
+[Event Identities & E.G.O]
+Having Identities and E.G.O from the event on your team increases the amount of [Bongy Plushies] earned from stages and dungeons.
+▶ Extraction
+  - Identity: R.B. Chef de Cuisine Ryōshū
+    ([Bongy Plushies] earned +40%)
+  - E.G.O: Lifetime Stew for Sinclair
+    ([Bongy Plushies] earned +40%)
+
+▶ Event Rewards
+  - Identity: R.B. Sous-chef Gregor
+    ([Bongy Plushies] earned +20%)
+  - E.G.O: Lifetime Stew for Don Quixote
+    ([Bongy Plushies] earned +20%)
+
+- The boosts from event Identities and E.G.O are applied additively. (Decimals rounded up)
+- Event Identities and E.G.O provide their boost simply by being on the team, and do not have to directly participate in battle or be used.
+  - [Bongy Plushies’] earning-boosts do not apply to one-time EX Clear rewards.
+
+3/8
+
+PROJECT MOON
+Update Contents
+
+5. New Packs to Purchase
+3 new products have been added to the 'Packs' section of the shop.
+
+▶Weekly Extraction Pack
+- Price: 9,900 KRW ($6.99 / ¥1,100)
+- Purchase Limit: Once per week
+(Resets 06:00 every Thursday (KST))
+- Product Contents: Lunacy x273, Extraction Ticket x5
+
+▶Weekly Thread Pack
+- Price: 9,900 KRW ($6.99 / ¥1,100)
+- Purchase Limit: Once per week
+(Resets 06:00 every Thursday (KST))
+- Product Contents: Thread x75
+
+▶Weekly Enkephalin Pack
+- Price: 9,900 KRW ($6.99 / ¥1,100)
+- Purchase Limit: Once per week
+(Resets 06:00 every Thursday (KST))
+- Product Contents: Enkephalin Box x20
+
+6. Major Changes
+- Changed the map for certain Abnormalities in Thread Luxcavation
+- Added phrases for the intro tagline on user info that can be unlocked by obtaining Identities and
+E.G.O added in Apr 20 (KST) scheduled update
+- Applied the security program BattlEye for the Steam version
+
+4/8
+
+PROJECT MOON
+Update Contents
+
+7. Bug Fixes and Improvements
+- Fixed a discrepancy in the description of E.G.O Wishing
+Cairn’s Passive “Dol Hareubang”
+- Fixed an issue where W Corp. Cleanup Agent Meursault's skill
+"Energy Current" did not properly inflict Defense Level
+Down by spending Charge Count
+- Fixed an issue where Meursault’s E.G.O Skill “Pursuance” did not
+exclude the user from eligible buff recipients
+- Fixed an issue where the added skill is not shown on the UI when
+uptying N Corp. Großhammer Meursault to Tier 3
+- Fixed an issue where the opponent’s target would change
+when an Evade skill is reused
+- Extraction UI: Fixed an issue where the Spine CG was not being
+displayed properly in the detailed info screen for banner target Identities
+- Added text in the Account tab of the settings UI to show integration status
+- Fixed an issue where the layout of the UI for passives and buffs of units
+in battle was placed in an abnormal position
+- Fixed an issue where the sorting priorities of certain targeting functions
+tracking HP, SP, Speed, or other conditions instead based themselves
+on the physical distance from the unit
+- Fixed an issue where Coin effects that consume Counts of status effects
+to apply buffs did not activate properly
+- Fixed an issue where overriding an E.G.O skill with a defense skill and
+proceeding to the combat phase with it would not
+properly count the skill as disengaged
+- Theater: Improved UI motion for main story
+
+5/8
+
+PROJECT MOON
+Update Contents
+
+7. Bug Fixes and Improvements
+- Fixed a discrepancy in the description for the activation conditions of the Mirror Dungeon E.G.O Gift “Rusty Commemorative Coin”
+- Fixed an issue where the Abnormality “Doomsday Calendar” would not be suppressed properly
+- Extraction UI: Intro videos now play in a random order
+- Shop: When all stocks of a pack have been purchased, the corresponding UI will no longer display
+- Fixed an issue where every user ID on the add friend UI started with an ‘A’
+- Fixed an issue where the progression percentage for the main story was incorrectly displayed
+- Mirror Dungeons: Fixed an issue where the data from the simulation mode could apply to normal mode progression
+- Fixed an issue where the sprite for ‘Heart of the Townsfolk’ sometimes disappeared during the encounter with Kqe-1j-23
+- Improvements for a number of frame drop issues
+- Fixed an issue where the numbers of owned Enkephalin Boxes and Enkephalin Modules were displayed as the same in account integration info
+- Added Abnormality names for the E.G.O info screen
+- Fixed an issue where entering a story battle would save the most recent combat node data as the node data for the dungeon’s and prevented reentry after a forced shutdown
+- Added more visibility for Tremor’s Burst
+- Fixed an issue where the effect of Paralyze did not apply at 1 Count
+- Fixed an issue where the description of the status effect “Frenzy” was being displayed as "UNKNOWN"
+
+We apologize for the inconvenience caused by errors with skills of certain Identities and E.G.O. A compensation will be provided to all players. Please refer to below for more details.
+
+6/8
+
+PROJECT MOON
+Compensation for Skill Errors
+
+x300
+
+- Content: Lunacy x300
+- Recipients: Every user whose game account was created before 09:59 April 27th, 2023 (KST)
+
+Can be redeemed once per account. Mail Validity Period: 7 days.
+
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: Every user whose game account was created before 09:59 April 27th, 2023 (KST)
+
+Can be redeemed once per account. Mail Validity Period: 7 days.
+
+7/8
+
+PROJECT MOON
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you for playing our game.
+
+8/8
+
+PROJECT MOON
+

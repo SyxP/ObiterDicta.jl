@@ -1,0 +1,80 @@
+
+
+Apr 13 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on April 13th, 2023 (KST) for system optimizations and content updates.
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Refer to below for details about the update.
+
+Update Content
+
+1. Bug Fixes
+
+- Fixed an issue where the chance for a unit's Speed to be the maximum value was abnormally low
+
+- Fixed an issue where generating a defense skill and then canceling it next turn would remove the replaced skill
+
+- Refraction Railway: Fixed an issue where multiple instances of the 'Heart of the Townsfolk' could be generated at the same time during the encounter with Kqej-1j-23
+
+- Fixed an issue where the displayed damage value of a single coin with multiple hits was being shown as 1
+(The actual damage is calculated and applied normally; this issue only affected the visual presentation.)
+
+As one of the issues affected the Refraction Railway's gameplay, we would like to provide compensation to all players.
+Refer further below for more details.
+
+1/2
+
+PROJECT MOON
+Gameplay Error Compensation
+
+x300
+
+Content: Lunacy x300
+Recipients: All users whose game account was created before
+09:59 April 20th, 2023 (KST)
+
+The mail's contents are valid to claim for 7 days.
+Please redeem them within this timeframe.
+
+
+Maintenance and Application Update Compensation
+
+x300
+
+Content: Lunacy x300
+Recipients: All users whose game account was created before
+09:59 April 20th, 2023 (KST)
+
+The mail's contents are valid to claim for 7 days.
+Please redeem them within this timeframe.
+
+Notes
+
+- Please update your game client to the newest version
+on the respective store (Google Play/App Store/Steam).
+  - Forcibly shutting down the game
+while it is downloading resources may cause the download to fail,
+so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance.
+Please understand.
+  - The maintenance schedule may suddenly change
+depending on the status of maintenance.
+If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update.
+If you're using a mobile device,
+it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account,
+we recommend that you link your account
+with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account.
+Please note that the distribution may be slow
+due to network delays or other causes.
+  - The update gifts are valid to claim for 7 days.
+Please redeem them within this timeframe.
+
+2/2
+
+PROJECT MOON
+

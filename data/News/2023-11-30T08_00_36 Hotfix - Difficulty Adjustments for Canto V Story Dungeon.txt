@@ -1,0 +1,25 @@
+
+Hotfix - Difficulty Adjustments for Canto V Story Dungeon
+
+Hello, this is Kim Jihoon of Project Moon.
+
+We've recognized that the difficulties of certain boss fights in Canto V can vary greatly depending on which Sinner the player has decided to bring into the Dungeon.
+
+While the varying difficulty depending on the player's Team composition is an intended aspect of the game, it also means that bringing certain ineffective Team compositions into the Dungeon meant that the players had to restart the entire Dungeon from the beginning. This led to players being unable to freely experiment with their Team compositions to figure out a strategy for the bosses.
+
+In order to prevent this issue from occurring again, we plan to add nodes in Story Dungeons so that the players are able to change their Team compositions.
+
+Making the Identity & E.G.O compositions more accessible means that higher difficulties will lead to more experimentation and less frustration on the players' end, which is closer to our intentions.
+
+This function is, however, difficult to implement at the present time. So, for now, we will lower certain enemies' stat values such as their HP or Attack Powers.
+
+We will improve ourselves so that we can deliver more intended experiences in the future.
+
+Stat value adjustment can be processed without submitting a new Build, so we will post an additional notice as soon as the adjustments are made.
+
+With that, we will post a list of issues that we have identified so far.
+
+Thank you.
+
+PROJECT MOON
+

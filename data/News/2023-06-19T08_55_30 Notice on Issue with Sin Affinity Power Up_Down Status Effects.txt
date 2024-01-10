@@ -1,0 +1,17 @@
+[Notice on Issue with Sin Affinity Power Up/Down Status Effects]
+
+An issue where certain status effects that increase or decrease Power for a Sin Affinity can increase or decrease damage to abnormal degrees will be fixed with the June 29th update.
+Currently, 'Wrath/Sloth Power Up/Down' status effects are increasing or decreasing the damage by N * 100% rather than increasing or decreasing the Power by N.
+The list of affected skills is as follows:
+Capote for Meursault
+Sunshower for Yi Sang
+
+The cause of the issue has been identified and addressed today on June 19th, and because a client build is required to implement the fix, it will be addressed with next week's scheduled update on June 29th.
+We apologize for the inconvenience. 
+
+[Compensation]
+Content: Lunacy x500
+Date: Some time after scheduled maintenance on Jun 29 (Thu) (KST)
+Can be redeemed once per account
+You can claim the item through the in-game mail system until 2023 Jul 6 09:59 (KST). (Mail Validity Period: 7 days)
+

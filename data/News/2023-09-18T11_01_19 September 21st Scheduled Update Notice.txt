@@ -1,0 +1,151 @@
+
+
+
+
+
+
+September 21st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on September 21st, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction Dieci South Section 4 Rodion]
+(Sep. 21st 12:00 ~ Oct. 5th 09:59 (KST))
+Extraction rate increases for the following identity:
+- 3★: Dieci South Section 4 Rodion
+
+2. New Identity Added
+The following is added to the list of extractable Identities:
+- 3★: Dieci South Section 4 Rodion
+
+3. [Target Extraction: Gregor]
+will become available for a limited period.
+(Sep. 21st 12:00 ~ Oct. 5th 09:59 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+- E.G.O [TETH]: Lantern Gregor
+- 3★: Zwei South Section 4 Gregor, G Corp. Manager Corporal Gregor
+- 2★: Rosespanner Workshop Fixer Gregor, Liu South Section 6 Gregor
+- 1★: LCB Sinner Gregor
+
+1/6
+
+PROJECT MOON
+Major Changes
+
+1. Texts Added to Refraction Railway Line 2 Progression Arrows
+
+2. In-combat E.G.O Selection UI Changes & Improvements - 2
+When hovering over, or after selecting an E.G.O to be equipped, the changing resistance values upon using the E.G.O will be displayed.
+The E.G.O equipping method will be changed accordingly.
+
+- Before : E.G.O Skills were equipped immediately after selection
+- After : E.G.O Skills will be highlighted upon selection and will be equipped after selecting it again after the highlight
+
+※ Intent : To make the changing resistance information upon E.G.O use more easily accessible
+
+2/6
+
+PROJECT MOON
+Future Updates
+
+1. Special Attendance Check Event -
+Major Reward Identities Notice
+
+2023.9.7(THU) 12:00 - 2023.10.12(THU) 05:59 [KST]
+
+['Molar Office Fixer Outis'] and ['Molar Office Fixer Yi Sang']
+can be obtained from the ongoing Special Attendance Check Event.
+
+The event runs from Sep. 7th 12:00 ~ Oct. 12th 05:59 (KST),
+and once the Event is over, the two Event Identities will
+be added to the Dispense menu with the Oct. 12th (KST) Update.
+
+['Molar Office Fixer Outis'] and ['Molar Office Fixer Yi Sang'] are
+Season 2 Event Identities.
+
+Therefore, they cannot be crafted in the Dispense menu
+during Season 3, and will be added again once Season 4 begins.
+
+Managers who have not obtained the Event Identities during the
+Special Attendance Check Event period, please note the
+above information and craft them in the Dispense menu
+before the end of Season 2.
+
+3/6
+
+PROJECT MOON
+Future Updates
+
+2. Refraction Railway Line 2 Additional Rewards
+New rewards will be added to the Refraction Railway Line 2.
+The following content will be added mid-October, and we will post a reminder with a future Scheduled Update notice.
+
+The added rewards and unlock conditions are as follows.
+- New Banner
+
+Unlock Conditions: Clear Refraction Railway Line 2 with 5 or more Cycle Counts and under 150 Total Turns before the end of Season 2: Reminiscence. (Only records made AFTER Sep. 15th, 2023 20:15 (KST) will count toward unlocking this reward)
+
+- New Business Card Deco
+
+Unlock Conditions: Clear Refraction Railway Line 2 with 5 or more Cycle Counts and under 150 Total Turns before the end of Season 2: Reminiscence. (Only records made AFTER Sep. 15th, 2023 20:15 (KST) will count toward unlocking this reward)
+
+4/6
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+- Fixed an issue where, on the mobile version of the game, SFX regarding the 4 newly added Abnormalities did not play
+- Fixed an issue where W Corp. L3 Cleanup Agent Ryoshu and L2 Cleanup Agent Hong Lu's Charge Barrier effect did not activate
+- Fixed an issue with the application of 'Blunt Power Up' in N Corp. Kleinhmmer Heathcliff's Combat Passive 'Bugger...'
+Before: 'Gain 1 [Blunt Power Up]'
+After: Changed the effect to 'Gain 1 [Blunt DMG Up]'
+- Added (Season 2 - EVENT) marker to Molar Office Fixer Outis and Molar Office Fixer Yi Sang
+- Fixed an issue where, if a Sinner with a higher Speed takes a targeted Sinner whose Speed is lower than the targeting enemy's Speed, the targeted Sinner was unable to clash against that Skill again
+- Fixed an issue where certain effects that activate upon enemy death didn't trigger when they were killed by Status Effect damages (ex: Burn, Rupture, etc)
+- Fixed an issue where the Abnormality Choice effects did not apply even after succeeding for the Abnormality in the First Stop of Refraction Railway Line 2
+- Fixed an issue where 'Misplaced Past' effect activated at the incorrect timing; clarified the Passive description
+- Fixed an issue where the Abnormality in Station #6 lacked Abnormality Risk Level and Code.
+- Fixed an issue where the Abnormality in Station #6 lacked Abnormality Observation Logs.
+- Fixed an issue with the activation of Abnormality Skill 'High-voltage Electric Discharge' upon [On Use]
+- Fixed an issue with the Abnormality in the Terminus where Abnormality Choice effects did not apply to summoned units that appeared after the Choice event was completed
+- Fixed an issue in the Refraction Railway Line 2 where the ally [Resurrect] Keyword appeared as [Unknown]
+- Fixed an issue where 'Low Morale' or 'Panic' effects did not trigger properly against enemies with SP values
+- Fixed an issue where attempting to clash with 'Cannot Clash' Skill still showed expected Clash values
+- Stage - Enemy info viewing improvements
+(1) Added a scroll function in case of multiple enemies
+(2) Added a 'close' button on the right
+- Abnormality - Fixed an issue where Headless Ichthys did not use 'Clotting' as a result of the Abnormality Choice
+- Abnormality - Fixed an issue where Alleyway Watchdog did not use 'Red Bolts' as a result of the Abnormality Choice
+- Abnormality - Fixed an issue where one of the animations for So That No One Will Cry was missing
+
+5/6
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 Sep. 28th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+6/6
+
+PROJECT MOON
+

@@ -1,0 +1,31 @@
+
+Issue Regarding Progression Blocker
+in Mirror Dungeon 2 Hard
+
+We have identified an issue where if 'Revived K Corp.
+Class 3 Staff' in Mirror Dungeon 2 Hard Difficulty is
+Staggered, it would become impossible to progress the game.
+This issue can be fixed via a server update,
+and is scheduled to be corrected today.
+
+Managers playing Mirror Dungeon 2 Hard, please refrain from
+continuing the dungeon until this issue is fixed.
+We apologize for the inconvenience.
+
+<Issue>
+- The game cannot be continued when 'Revived K Corp.
+Class 3 Staff' in Mirror Dungeon 2 Hard Difficulty is Staggered.
+- Fix ETA: After July 20th (Thu) 14:00 KST
+
+Game progression issue compensation
+
+x300
+
+Contents: Lunacy x300
+- Date: After July 20th (Thu) 14:00 (KST)
+- Sent once per account
+- You may receive the item via in-game mail until
+2023.07.27 09:59 (KST). (Mail valid to claim for 7 days)
+
+PROJECT MOON
+

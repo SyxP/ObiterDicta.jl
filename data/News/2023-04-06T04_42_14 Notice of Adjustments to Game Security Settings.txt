@@ -1,0 +1,52 @@
+
+
+Notice of Adjustments to Game Security Settings
+
+Greetings, Dear Manager.
+
+With the Apr 6 scheduled update, a number of security measures have been applied to the game application.
+
+Currently, the environments listed below will be prevented from playing the game.
+To allow for more comfortable access to the game, the following security settings will be temporarily disengaged and re-implemented on the next update (Apr 13).
+
+- Macro Prevention: Macro-related applications must be removed from the device to access the game.
+- Work Profile Secure Folder: The game cannot be accessed in a work profile environment.
+- USB Debugging: The game cannot be accessed if USB Debugging is enabled in developer mode.
+- Emulators: The game cannot be accessed while using certain emulators.
+
+We apologize for the inconvenience.
+
+We would like to provide recompense for issues and trouble accidentally caused by these security settings.
+Please refer below for more details.
+
+PROJECT MOON
+보상 안내
+補償アイテム支給のご案内
+Compensation
+
+x1000
+
+- 보상 내역: 광기 x 1000
+- 일시: 4/6 (KST) 13:30 이후 (계정당 1회 수령 가능)
+- 2023. 04.13 09:59(KST)까지 게임 내 우편을 통해
+보상을 확인하실 수 있습니다. (우편 수령 기한: 7일)
+
+감사합니다.
+
+- 補償: 狂気 x 1000
+- 日時: 4/6 (JST) 13:30以降 (アカウントにつき1回受領可能)
+- 2023. 04.13 09:59(JST)までゲーム内郵便を通じて
+メンテナンス補償を獲得することができます。(郵便受領期間: 7日)
+
+よろしくお願いします。
+
+- Content: Lunacy x1000
+- Date: Around Apr 6 13:30 (KST)
+(Can be redeemed once per account)
+- You can claim the item through the in-game mail system
+until 2023 Apr 13 09:59 (KST). (Mail Validity Period: 7 days)
+
+Thank you.
+
+PROJECT MOON
+

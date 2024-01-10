@@ -1,0 +1,116 @@
+
+
+
+
+Combat Error & Subsequent Refraction
+Railway Line 2 Measures
+
+Hello, this is Project Moon.
+
+Recently, we have identified an issue where an abnormal amount of damage could occur due to a glitch.
+We would like to inform you of the measures we will take regarding Refraction Railway Line 2 records.
+
+▶ Cause
+- The in-game data was not initializing properly when selecting Skills and designating Targets during the chaining phase.
+- While we were conducting the encounter tests, we did not consider making those inputs during the chaining phase.
+
+▶ Solution and Measures
+- We replicated and identified the cause of this issue, and it has been fixed after relevant codes were corrected.
+- We regret to inform you that, due to our technical limitations, it is difficult at the moment for us to 100% identify cases in which records were made using this glitch. Because of our technological inadequacies and the lack of time, we have not been recording detailed combat logs. We will gradually expand the amount of recorded info in our logs, particularly combat logs, so that no similar issue will occur again.
+- Therefore, we are unable to identify whether certain records have exploited this glitch or not. We have instead decided to use Total Turns as our metric to measure whether a glitch has been used or not, and withdraw the record and its rewards accordingly.
+- Also, since we are currently recording the total damage dealt by each Identity, we can also use that as our metric to determine whether an abnormal amount of damage has been dealt. If it has, the rewards for that record will be withdrawn.
+- Please refer to [Future Measures Regarding the Issue]
+for further details.
+- We apologize for being unable to use the combat logs to identify accounts that have exploited this error. Considering that Refraction Railway was content focused on challenging and achieving higher records, this glitch must have muddled the sense of fairness regarding the records and caused disappointment in many players. We apologize.
+We will make changes so that combat logs will be made available for us to check in case of other combat-related errors.
+
+1/4
+
+PROJECT MOON
+Combat Error & Subsequent Refraction
+Railway Line 2 Measures
+
+▶ Updates
+While we can immediately apply the fix to the STEAM platform, mobile platforms(iOS, Android) require us additional time to go through the app review process. We cannot submit another, separate error fix build for review at the moment, as that could cause issues with our Oct. 19th update schedule.
+
+In order to abide by our schedule, in order to apply the fix on all platforms at the same time, we have decided to deploy the fix to this issue via the October 19th Scheduled Update.
+
+▶ Future Plans
+- We will now collect detailed turn-by-turn combat encounter logs.
+
+    - We will gradually expand the types of
+       and the amount of combat logs we collect.
+
+- Particularly for content with emphasis on record-setting, such as Refraction Railways, we will take more detailed logs. If errors were to occur, we could take more refined measures regarding them.
+
+▶ Future Measures Regarding the Issue
+    1. Total Turns:
+       In order to identify accounts that have exploited this issue, 
+       we will be going through Refraction Railway Line 2 
+       Total Turn clear records of each account.
+
+    2. Total Damage:
+       Also, we will go through total damages of each deployed Identity for every Cycle. If an Identity has caused a disproportionately high amount of damage, far beyond our estimations, the rewards will be withdrawn as well. We are currently verifying the amount of possible damage, and we will make an additional notice regarding this issue if a more concrete value is decided.
+
+Total Turn record standards are as follows.
+
+2/4
+
+PROJECT MOON
+Combat Error & Subsequent Refraction
+Railway Line 2 Measures
+
+< Refraction Railway Line 2
+abnormal Total Turn records for each Cycle >
+
+Cycle | Abnormal Total Turn Records
+1            | 8
+2            | 16
+3            | 28
+4            | 42
+5            | 58
+
+Considering the Refraction Railway Line 2's systems, where Abnormalities' abilities and Skills are saved, we have determined that it is impossible to clear every stage within 2 turns in a single Cycle. We have been keeping records of Total Turns for the same cycle in which the final boss of the Refraction Railway Line 2 was defeated, but we regrettably have not kept a record of up to which Station the player may have played. Therefore, we have determined that records that spent 2 turns or less on each Station before the final Cycle and the Terminus may constitute abnormal clear records.
+
+Past Cycle 5, however, it is difficult for us to determine since buffs will begin to stack, and present far too many variables for our inadequacies to verify.
+
+We will make sure to collect more logs in the next Refraction Railway so that no such issue would occur again, and so that we could ensure the fairness of the records. We will improve ourselves so that if such an issue should occur again, we will be able to make fair and clear corrections.
+
+Accounts with records that match the above conditions will be met with the following measures.
+
+1. Line 2 Clear Records that have been identified as abnormal will be deleted.
+
+2. Line 2 Clear rewards and Banners that have been acquiredfrom Clear Records that have been identified as abnormal will be deleted.
+
+3. Refraction Railway Line 2 Combat Error Compensation given out via the Mailbox will be withdrawn (Because it will take some time for us to identify accounts with abnormal records, we have elected to first provide Compensation to all Managers, and withdraw them after the compensation claim period if the account has been identified to have used this error.)
+
+3/4
+
+PROJECT MOON
+Combat Error & Subsequent Refraction
+Railway Line 2 Measures
+
+We sincerely apologize to all users who have played through our content normally. We also sincerely apologize to all who have been directly or indirectly hurt by this issue.
+
+There are so many Managers who are putting in time and effort for better Refraction Railway Line 2 records - yet our inadequate systems have caused the records to lose credibility.
+
+We sincerely apologize for causing a sense of loss and disappointment to many Managers who have spent much time and effort playing Refraction Railway Line 2.
+
+We will strive further to be a game service that
+could provide a smooth experience for our users.
+
+We also apologize deeply to Managers who have passionately played Refraction Railway Line 2.
+
+Refraction Railway Line 2 Combat Error Compensation
+
+✖1300
+
+- Compensation : Lunacy x 1300
+- Recipients : All users whose accounts have been created before Oct. 26th, 2023 09:59
+- Can be claimed once per account
+- When : After Oct. 16th, 17:40 (KST)
+
+4/4
+
+PROJECT MOON
+

@@ -1,0 +1,201 @@
+
+
+
+
+[경험치 채광] 개선 핫픽스 안내
+[経験値採掘] 改善ホットアップスのご案内
+[EXP Luxcavation] Hotfix Notice
+
+안녕하세요. 프로젝트문입니다.
+경험치 채광의 난이도와 보상이 의도와 다르게 적용된 점이 발견되어
+오늘 중으로 수정될 예정입니다.
+
+기대하셨던 플레이 경험을 드리지 못해 진심으로 사과합니다.
+
+앞으로 경험치 채광의 난이도 및 보상이 수정될 예정입니다.
+모두 경험치 채광을 이미 플레이 하셨거나 실패로 소모하신 골고루체를 위해서,
+그리고 진심어린 마음을 담아 인격 학습 티켓 [III] 20개를
+보상으로 지급해드리고자합니다.
+
+재발 방지를 약속드리며 감사드립니다.
+
+------------------------------------
+
+お疲れさまです。Project Moonです。
+
+経験値採掘の難易度と報酬が意図と異なって適用された点が発見され、
+今日中に修正される予定です。
+
+ご期待のフレームを提供できなかったことを心よりお詫びいたします。
+
+以下のように経験値採掘の難易度および報酬が修正される予定です。
+また、経験値採掘をすでにプレイして回数を使い果たした経験者のために、
+そして心温かな気持ちを込めて、
+3段階人格学習チケット20枚を補償として支給しようと思います。
+
+再発防止については、下記をご参照ください。
+
+------------------------------------
+
+Hello. This is Project Moon.
+
+We have identified a discrepancy in the difficulty
+and rewards of Experience Luxcavation,
+which we plan to adjust sometime today
+in order to better reflect the intended experience.
+
+We apologize for our failure to deliver what was expected.
+
+The difficulty and rewards of Experience Luxcavation will receive
+adjustments as listed below.
+In addition, we are planning to give 20 Identity Training Tickets (III)
+to all users as compensation.
+
+Please refer below for more details.
+
+PROJECT MOON
+LIMBUS COMPANY
+
+보상 안내
+賠償のご案内
+Compensation
+
+- 보상 내역 : 인간 합성 티켓 III x 20
+- 보상 지급 대상 : 2023년 3월 23일 09:59(KST) 이전에 계정 생성을 완성한 모든 유저
+해당 보상의 수령 가능 기간은 7일 이므로 기한 내 수령해 주시기 바랍니다.
+
+- 賠償内容: 人格融合チケットIII x20
+- 賠償対象者: 2023年3月23日09:59(KST)以前に ゲームアカウントを作成したすべてのユーザー
+当該賠償の受取可能期間は7日ですので、期限内に受領してください。
+
+- Content: Identity Training Ticket III x20
+- Recipients: All users whose game accounts were created before 09:59 March 23rd, 2023 (KST)
+The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+PROJECT MOON
+업데이트 예정 일시: 3/16 18:00(KST) 이후
+アップデート予定日時:3/16 18:00(KST)以降
+Estimated Time of Update: Around Mar 16 18:00 (KST)
+
+경험치 챌린지 [3단계] 변경안
+経験値挑戦3段階変更予案
+EXP Luxcavation Stage 3 Planned Changes
+
+목록/List
+Before
+After
+
+(1일 3회 이하)
+인건 채취 티켓 보상
+(1日3回以下)
+人参照拾いチケット補償
+(First 3 daily clears)
+EXP Ticket Rewards
+X1
+X5
+X5
+
+개방 시기 및 장전 레벨
+開放時期および難易度レベル
+Unlock Requirements
+and Difficulty
+Clear 3-22
+Lv.30
+3 waves
+Clear 3-16
+Lv.28
+2 waves
+
+(1일 4회 이상)
+인건 채취 티켓 보상
+(1日4回以上)
+人参照拾いチケット補償
+(After 3 daily clears)
+EXP Ticket Rewards
+X1
+X0
+X3
+X3
+
+경험치 챌린지 [2단계] 변경안
+経験値挑戦2段階変更予案
+EXP Luxcavation Stage 2 Planned Changes
+
+목록/List
+Before
+After
+
+(1일 3회 이하)
+인건 채취 티켓 보상
+(1日3回以下)
+人参照拾いチケット補償
+(First 3 daily clears)
+EXP Ticket Rewards
+X5
+X4
+X3
+X3
+
+개방 시기 및 장전 레벨
+開放時期および難易度レベル
+Unlock Requirements
+and Difficulty
+3-12 클리어
+청전 레벨 20
+3 웨이브
+2-19 클리어
+청전레벨 18
+2 웨이브
+
+(1일 4회 이상)
+인건 채취 티켓 보상
+(1日4回以上)
+人参照拾いチケット補償
+(After 3 daily clears)
+EXP Ticket Rewards
+X3
+X3
+X2
+X2
+
+PROJECT MOON
+업데이트 예정 일시: 3/16 18:00(KST) 이후
+アップデート予定日時: 3/16 18:00(KST)以降
+Estimated Time of Update: Around Mar 16 18:00 (KST)
+
+경험치 채광 [1단계] 변경안
+経験値採掘1段階変更案
+EXP Luxcavation Stage 1 Planned Changes
+
+목록/目錄/List
+Before
+After
+
+(1일 3회 이하)
+인간 학습 티켓 보상
+(1日3回以下)
+人格学習券チケット補償
+(First 3 daily clears)
+EXP Ticket Rewards
+
+개방 시기 및 콘텐츠 난이도
+開放時期および難易度レベル
+Unlock Requirements
+and Difficulty
+
+[1일 4회 이상]
+인간 학습 티켓 보상
+(1日4回以上)
+人格学習券チケット補償
+(After 3 daily clears)
+EXP Ticket Rewards
+
+2-12 클리어
+최소 레벨 10
+3 위원
+2-12 클리어
+최소 레벨 8
+2 위원
+
+PROJECT MOON
+

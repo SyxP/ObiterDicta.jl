@@ -1,0 +1,10 @@
+Greetings, this is Project Moon.
+
+The following issue occurred on the November 16th Scheduled Update; the fix for this issue was deployed at 15:30 today.
+
+[Fixed Issue]
+(STEAM only) Fixed an issue where a character could not be selected for the Main Story 0-4, making it impossible to progress past that stage.
+
+For Managers experiencing this issue: please close the game, update the game client, and restart in order to progress.
+We apologize for causing a disturbance to your enjoyment of our game.
+

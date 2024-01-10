@@ -1,0 +1,126 @@
+
+
+LIMBUS COMPANY
+
+Corp. Kleinhammer
+
+Heathcliff
+
+ENTITY INFO
+
+SKILL 1
+
+Gawky Nailing
+
+[Heads Hit] Inflict Nails next turn
+
+[Tails Hit] Inflict Bleed
+
+[On Hit] Inflict Bleed
+
+SKILL 2
+
+Purify!
+
+[Clash Win] Heal SP
+
+[Heads Hit] Inflict
+
+Plus Coin Drop next turn
+
+SKILL 3
+
+Inferno Retribution
+
+[Heads Hit] Deal bonus damage based on damage dealt
+
+[Heads Hit]Deal bonus damage based on damage dealt
+
+[Heads Hit]Deal bonus damage based on damage dealt
+
+DEFENSE
+
+Guard
+
+PASSIVE
+
+Bugger...
+
+When an ally is defeated, lose SP and gain Blunt Power Up next turn
+
+SUPPORT PASSIVE
+
+Cantillation
+
+1 ally with the highest Speed inflicts additional Nails
+
+Nails
+
+At the start of the turn, gain 1 Bleed and increase the Bleed Count by this effect's Count. At the end of the turn, halve the Count. (Rounded down)
+
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+
+*The Identity's stats at max level and Uptime tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright (C) 2023 ALL RIGHTS RESERVED by Project Moon
+LIMBUS COMPANY
+
+The One Who Grins
+
+Faust
+
+Defense
+
+Such Filth
+[On Evade] Target loses SP
+
+PASSIVE
+
+Whistles
+At the start of the combat phase,
+heal allies with the lowest SP for SP.
+If the ally is from N Corp, also apply Fanatic.
+
+SUPPORT PASSIVE
+
+Whispers
+At the start of the combat phase,
+heal the ally with the lowest SP for SP.
+If the ally is from N Corp, also apply Fanatic.
+
+SKILL 1
+Cackle
+[Clash Win] Target loses SP
+[On Hit] Inflict Nails
+[On Hit] Inflict Bleed
+
+SKILL 2
+The Gripping
+[On Hit] Inflict Nails
+[Heads Hit] Inflict Paralyze next turn
+[On Hit] Inflict Gaze next turn
+
+SKILL 3
+Execution
+On kill, heal all allies for SP and apply
+Pierce DMG Up and Blunt DMG Up
+[On Hit] Inflict Nails
+[Heads Hit] Inflict Nails
+Deals extra damage if target has X
+or more Nails
+
+Nails
+At the start of the turn, gain 1 Bleed and increase the Bleed Count by this effect's Count. At the end of the turn, halve the Count. (Rounded down)
+
+Fanatic
+Raise Skill Final Power by the effect's Count against units with Nails.
+
+Gaze
+Affected unit takes more damage from Pierce and Blunt skills for one turn. The ally that defeats the marked unit heals sanity; if the ally is from N Corp, they also gain Fanatic next turn.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright (C) 2023 STUDIO L. All rights reserved. Published by Archbears.
+

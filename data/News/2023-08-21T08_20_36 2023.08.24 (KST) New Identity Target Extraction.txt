@@ -1,0 +1,107 @@
+
+
+Limbus Company
+W.Corp. L3 Cleanup Agent
+
+Ryoshu
+
+SKILL 1
+E.C.
+• AT+X Charge Count, deal increased damage
+• AT+Y Charge Count, deal additionally increased damage
+⓵ [On Hit] Gain +X Charge Count
+⓶ [On Hit] Gain +X Charge Count
+
+SKILL 2
+Leap
+[On Use] Gain +X Charge Count
+• AT+X Charge Count, gain Coin Power
+• AT+Y Charge Count, gain additional Coin Power
+⓵ [On Hit] AT+X Charge Count, inflict Slash Fragility
+⓶ [On Hit] If target's HP is below X%, deal increased damage
+⓷ [On Kill] Gain Haste next turn
+
+SKILL 3
+D.E.D.R.
+[On Use] When between X-Y Charge Count, Consume all Charge Count,
+And consume HP proportional to (Y - Charge Count Consumed) to gain Coin Power
+[On Use] Consume Y Charge Count to gain Coin Power
+⓵ [Heads Hit] The final Coin deals increased damage
+⓶ [Heads Hit] The final Coin deals increased damage
+⓷ [On Kill] If the skill consumed X Charge Count upon use,
+apply Charge Barrier to self and 1 randomly ally
+
+PASSIVE
+Charged Evade
+Base Power +X per Y Charge Count
+
+Dimensional Demon Edge
+Upon defeating an enemy, gain X Charge Count
+
+SUPPORT PASSIVE
+Dimensional Refraction Edge - Type: Blade 777
+Gain +X Charge Count when an ally with the lowest Max HP defeats an enemy
+
+Charge Barrier
+Gain (Charge Barrier # + X) Shield.
+If the unit is from W.Corp, gain additional Shield.
+Lose Y Charge Barrier after losing (Charge Barrier # + X) Shield.
+Turn End: Gain a Charge Count for each Charge Barrier #, and Charge Barrier and Shield gained from
+Charge Barrier expire completely next turn.
+
+"The Identity's stats at max level and Uptie tier are displayed here.
+**This image is for reference only; actual details subject to change."
+
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION  
+
+LIMBUS COMPANY
+W Corp. L2 Cleanup Agent
+Hong Lu
+
+SKILL 1
+Energy Cycle
+[On Use] Gain X Charge Count
+[On Hit] Gain X Charge Count
+[On Hit] Gain X Charge Count
+
+SKILL 2
+Cleanup Support
+[On Use] Gain X Charge Count
+Clash Power +X when Shielded
+[On Hit] Gain X Charge Count
+[On Hit] At X+ Charge Count, gain
+Y Charge Barrier next turn for every
+Z Charge Count.
+
+SKILL 3
+Deploy Charge Barrier
+[On Use] At X+ Charge Count, consume all
+Charge Count to apply Charge Barrier proportional
+to the consumed Charge Count to 2 allies with the
+lowest HP percentage.
+[On Hit] Inflict Rupture
+[On Hit] Gain Charge Barrier next turn
+
+PASSIVE
+Defense
+Guard
+[On Use] Gain Charge Barrier
+
+Cleanup Mastery
+• At X+ Charge Count at the start of the combat phase,
+gain Haste next turn.
+• At Y+ Charge Count, gain additional Haste.
+
+SUPPORT PASSIVE
+Train Cleanup Manual
+An ally with the lowest Speed gains 2 Haste next turn
+if at X+ Charge Count at the start of the combat phase
+
+Charge Barrier
+Gain (Charge Barrier # * X) Shield.
+If the unit is from W Corp, gain additional Shield.
+Lose Y Charge Barrier after losing (Charge Barrier # * X) Shield.
+Turn End: Gain a Charge Count for each Charge Barrier #,
+and Charge Barrier and Shield gained from
+Charge Barrier expire completely next turn.
+

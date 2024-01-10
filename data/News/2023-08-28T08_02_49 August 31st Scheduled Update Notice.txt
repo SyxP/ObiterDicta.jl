@@ -1,0 +1,95 @@
+
+
+
+
+
+August 31st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on August 31st, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+UI/UX Improvements
+
+1. In-combat E.G.O Selection UI Changes
+
+[E.G.O Selection UI], which appears when pressing and holding the Sinner portraits, has been changed as follows.
+Also, now SP consumption for E.G.O Skills and Overclocked E.G.O Skills are both taken into account when calculating Corrosion rates (To Corrode)
+
+1/5
+
+PROJECT MOON
+UI/UX Improvements
+
+2. Clash Arrow UI Improvements
+The appearance of Clash Arrows will be changed as follows:
+
+- Unopposed attack by an ally
+
+- Unopposed attack by an enemy
+
+- When Clashing
+
+2/5
+
+PROJECT MOON
+UI/UX Improvements
+
+Clash Arrow toggle button functionality will be changed as follows:
+
+- Clash Arrows toggled off
+
+- Display one Clash Arrow at a time
+
+- Display all Clash Arrows at once
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+- Fixed an issue where ‘S.E.A. Event’ bonus Scrap UI appears in the Sinner loadout menu before entering the Mirror Dungeon
+- Fixed an issue where the ‘Charge Barrier’ VFX does not appear when gaining Charge Barriers in the next turn
+- Fixed an issue where Los Mariachis Jefe Sinclair’s Combat Passive does not function as intended
+- Fixed the issue in Focused Encounters where player control of Skill Slots did not align properly with the visible UI
+
+Issues Currently Being Fixed
+
+- An issue where W Corp. L3 Cleanup Agent Ryōshū’s Uptide 4 [Charged Evade] skill does not activate against the enemies’ second skill use
+
+※ Because making direct changes to this skill could cause issues in other parts of the game, further investigation is required to correct this issue.
+We will notify you via a notice as soon as this issue is addressed. We apologize for causing inconvenience to your enjoyment of our game.
+
+4/5
+
+PROJECT MOON
+Limbus Company Half-Year Rewards
+
+- Rewards: 3★ Guarantee Decaextraction Ticket x1, Lunacy x1300
+- Recipients: Every user whose game account was created before 09:59 Sep. 28th, 2023 (KST)
+- Can be redeemed once per account
+- Date: After Aug. 28th (Mon) 12:00 (KST)
+
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: Every user whose game account was created before 09:59 Sep. 7th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

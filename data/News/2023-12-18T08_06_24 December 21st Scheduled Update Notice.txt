@@ -1,0 +1,153 @@
+
+
+
+
+
+
+December 21st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on December 21st, 2023 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction: Cinq South Section 4 Director Sinclair & Section 4 Outis] (Dec. 21st 12:00 ~ Jan. 4th 10:00 (KST)) 
+Extraction rate increases for the following identities.
+- 3★: Cinq South Section 4 Director Sinclair
+- 2★: Cinq South Section 4 Outis
+
+2. New Identities Added
+The following are added to the list of extractable Identities.
+- 3★: Cinq South Section 4 Director Sinclair
+- 2★: Cinq South Section 4 Outis
+
+3. Mirror Dungeon #3 Hard Added
+Mirror Dungeon #3 Hard will be added to the game.
+- Unlock Conditions: Clear Main Story Canto IV & Clear Mirror Dungeon #3 Normal
+※ Please refer to the Steam Announcements page for more detailed information.
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Yi Sang - Sunshower E.G.O Risk Level Adjusted
+Yi Sang - Sunshower E.G.O's Risk Level will be adjusted as follows.
+   - Before : HE
+   - After : WAW
+
+※ The resource cost needed for raising Yi Sang - Sunshower E.G.O's Threadspinning tiers will remain unchanged until the December 21st Scheduled Update.
+Please upgrade Yi Sang - Sunshower E.G.O before the December 21st Scheduled Update in order to use the current amount of resources for the upgrade before the E.G.O Level Adjustment comes into effect.
+
+Optimizations
+
+1. Mirror Dungeon & Story Dungeon now uses less RAM
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Main Story 5-36: Improved the controls & timings in a certain part of the final battle
+
+► Fixed an issue where the effects of Tingfang Gang Gangleader Hong Lu's Skill 3 'Mutilate', "[Reuse - Heads Hit] If target has 10+ Bleed, deal +50% damage" activated on targets not meeting the conditions as well
+
+► Mobile: Fixed an issue where the camera could not be manually controlled in non-Mirror Dungeon chaining phases
+
+► Teams - Support Unit Errors Fixed
+ (1) An issue where equipped Support Units could not be selected to be Deployed into battle
+ (2) An issue where equipped Support Units' E.G.O displays a pre-selection E.G.O lists
+ (3) An issue where, in the Support Unit setting menu, returning from the Detailed Info screen would show SELECTED label on the said Identity
+
+► An issue where Enkephalin recharge status did not immediately update after Daily Reset Periods (06:00)
+
+► Standardized Extraction End period labelings to KST
+
+► Standardized E.G.O Acquisition voiceline subtitles to be the color of the Sin Affinity corresponding to the E.G.O
+
+► Added a Keyword Label to the 'Tremor Burst' effect ※ (EN Only) Descriptions of Skills and Passives with 'Tremor Burst' effects have been modified to fit this addition.
+
+► Modified enemy Buff texts in the Mirror Dungeon Normal Difficulty to clarify to whom do the said Buff effects apply
+
+► Added 'Potency' to clarify certain E.G.O Gift descriptions that apply Burn, Bleed, Tremor, Rupture, Sinking, and Poise (This change is in order to make the difference between Potency and Count clearer. The Gifts' actual effects are untouched)
+
+► (EN Only) Fixed a typo in E.G.O Gift - Fiery Down++ description
+
+► (EN Only) Fixed a typo in E.G.O Gift - Wrist Guard++ description
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Intervallo 3.5 - Changed Equippable E.G.O 
+Risk Level based on Level in Stages 9 and 10
+- Before :
+Level 15 - ZAYIN / TETH / HE
+Level 30 - WAW / ALEPH
+
+- After:
+Level 15 - ZAYIN / TETH / HE / WAW
+Level 30 - ALEPH
+
+► Improved visual clarity when activating Evade type Defensive Skills
+
+► Fixed an issue where [Enemy Part Markers - Right Eye, 
+Left Eye] icons were incorrectly labeled
+
+► Standardized the labeling of Combat Encounters occurring 
+specifically as a consequence of a Mirror Dungeon Choice event as 
+"Abnormality Encounters"
+
+► Corrected grammatical issues with certain Choice results
+
+► Improved the aliasing effects on the glow 
+fonts on Mobile versions of the game
+
+Known Issues
+
+We are currently investigating the following issues. As soon as 
+these issues are fixed, we will notify you via future update notices. 
+We apologize for causing a disturbance to 
+your enjoyment of our game.
+
+► Post-Mirror Dungeon Clear Victory Screen: An issue where a 
+swapped-in Identity's art does not load when the 
+swapped-in Identity takes the MVP
+
+► An issue where the Mirror Dungeon 
+Choice result Buff "Relief" does not activate
+
+► (EN, JP Only) An issue where Yisang 
+Exchange timezone is not displayed in KST
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Dec. 28th 2023 (KST)
+- When: After Dec. 21st (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

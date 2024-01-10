@@ -1,0 +1,29 @@
+
+Notice Regarding Abuse of Convenience-store Payment in Japan Google Play
+
+Hello, this is Project Moon.
+
+We have identified an issue where "convenience-store payment" available in countries including Japan can be abused to illicitly acquire items and currencies such as Lunacy.
+
+The standard procedure of purchasing in-game items through "convenience-store payment" by using a code while the payment is cancelled or pending is as follows:
+
+1. Open game
+2. Make in-app purchase
+3. Select "convenience-store payment" as payment method
+4. Acquire payment code
+5. Go to convenience store and make payment according to guideline provided by the store (e.g. Issuing receipt via code input)
+
+The illicit procedure can occur in the following case:
+
+After performing Step 4, closing and restarting the game causes items from the pending purchase to be provided prematurely
+
+If you have made purchases through the standard procedure, the purchase and acquisition will have been logged accordingly, so you won't face any problems.
+
+We have made adjustments so that when purchasing in-game items through convenience-store payment, the items won't be provided until the payment has been confirmed to be made. In addition, we are aware that this issue can also raise problems in countries that do not support "convenience-store payment" due to proxy purchasing.
+
+We are currently in the process of reviewing in-game purchase and currency acquisition logs to confiscate illicitly purchased items and currencies, as well as restricting offending accounts.
+
+We apologize for the inconvenience.
+
+PROJECT MOON
+

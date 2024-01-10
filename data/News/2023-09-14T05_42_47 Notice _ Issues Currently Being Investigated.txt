@@ -1,0 +1,41 @@
+
+
+Notice : Issues Currently Being Investigated
+
+Greetings, Dear Manager.
+
+We have identified the following additional issues after the Refraction Railway Line 2 update.
+
+1. An issue where all rewards, regardless of the unlock conditions, were unlocked upon clearing the Terminus (Station #9)
+
+Currently, there is an issue with Refraction Railway Line 2 where rewards for Stages that the Managers did not complete are getting unlocked.
+
+We are working on a fix for that issue at this moment, And Refraction Railway Line 2 reward claims for all Managers will be temporarily paused until the fix is deployed.
+
+If the rewards for uncleared Stages are unlocked in your Lost & Found, Or if you have already claimed them, they will be withdrawn once the fix is deployed.
+
+We apologize for causing an issue with reward claim in this event. We will post an additional notice once the fix is deployed.
+
+1/2
+
+PROJECT MOON
+Notice: Issues Currently Being Investigated
+
+2. An issue where a certain Abnormality's Passive would activate at an incorrect timing
+
+There is an issue with the Abnormality on Station #2, where its Resistance changes are applied not on 'next turn' but 'this turn'. This issue will be fixed with the Sep. 21st (KST) Scheduled Update.
+
+Also, the permanent Resistance change with that Passive is an intended effect, And the description for that Passive will be updated for clarity.
+
+We apologize for the inconvenience that our unclear passive description caused.
+
+3. An issue where Molar Office Fixer Outis and Yi Sang's Identity details did not specify the Season
+
+Molar Office Fixer Outis and Yi Sang are Season 2 Event Identities, And their descriptions will be fixed with the Sep. 21st (KST) Scheduled Update.
+
+We will continue to update you with notices once additional issues are identified. We sincerely apologize for causing inconvenience to your enjoyment of our game.
+
+2/2
+
+PROJECT MOON
+

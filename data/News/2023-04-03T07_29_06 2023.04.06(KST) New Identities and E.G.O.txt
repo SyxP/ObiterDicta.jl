@@ -1,0 +1,128 @@
+
+
+
+LIMBUS COMPANY
+Liu Section 5
+Hong Lu
+
+SKILL 1
+Warm Up
+[When Use] Heal SP
+[On Hit] Inflict Burn
+
+SKILL 2
+Flowing Flame
+[On Hit] Inflict Burn;
+if target already has Burn, inflict more
+[On Hit] Inflict more Burn Count;
+inflict even more when the user's SP is
+above a certain amount
+
+SKILL 3
+Crimson Blaze Fist
+[On Hit] Inflict Burn;
+if target already has Burn, inflict Burn Count
+[Head Hit] Heal SP
+[On Hit] If target has a certain amount of Burn Count,
+raise Stagger Threshold by a portion of damage dealt
+
+DEFENSE
+Guard
+
+PASSIVE
+Flaring Up-
+Above a certain amount of SP, inflict more
+Burn Count with the effects of attack skills/coins
+
+SUPPORT PASSIVE
+Isn't it Warm?
+1 ally with the highest SP inflicts more Burn Count
+with the effects of attack skills/coins
+
+CAUTION
+CAUTION
+CAUTION
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+ENTITY INFO
+
+Copyright (C) 2023 All rights reserved by ProjectMoon
+LIMBUS COMPANY
+Seven Section 6 Director
+Outis
+
+SKILL 1
+Predictive Analysis
+In a clash, the opponent has reduced Clash Power
+[On Hit] Inflict Paralyze next turn
+
+SKILL 2
+Field Command
+In a clash, the opponent has reduced Clash Power
+[On Hit] Inflict Rupture Count
+[On Hit] Inflict Defense Level Down next turn
+[On Hit] Inflict Rupture Count
+[On Hit] Inflict Defense Level Down next turn
+
+SKILL 3
+Exploit the Gap
+In a clash, the opponent has reduced Clash Power
+[On Hit] Inflict Offense Level Down next turn
+[On Hit] Deal bonus Slash damage
+proportional to damage dealt
+[On Hit] Inflict Weakness Analyzed next turn
+
+DEFENSE
+[1] Take the Lead
+[When Use] Gain Haste and
+Defense Power Up next turn
+
+PASSIVE
+Grasping Vulnerabilities
+When attacking a target with a damage type the target is "Weak" or "Fatal" to, deal more damage
+
+SUPPORT PASSIVE
+Relay Intelligence
+1 ally with the highest Speed deals more damage
+when attacking a target with a damage type the target is "Weak" or "Fatal"
+
+Weakness Analyzed
+A random "Endure" or "Normal" resistance is weakened
+[+0.2 to damage multiplier] for one turn.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Telepole
+Faust
+HE
+
+E.G.O INFO
+F.G.O AWAKENING SKILL
+Telepole
+[On Hit] Inflict Paralyze
+[On Hit] Gain Charge Count
+[Head Hit] Apply Envy Power Up and Haste to random allies next turn
+
+F.G.O CORROSION SKILL
+Telepole
+[Indiscriminate] Targets randomly
+[On Hit] Inflict Paralyze
+[On Hit] Gain Charge Count
+[Tail Hit] Inflict Paralyze and Bind on random units next turn
+
+E.G.O PASSIVE
+Adaptive Release
+While this unit has Charge, deal more damage based on the amount of Charge Count;
+Skills spend less Charge Count
+
+Charge
+Resource used by certain skills for additional effects. Its Count can go up to 20.
+Count lowers by 1 at the end of each turn.
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2028 Archbears. All rights reserved.
+

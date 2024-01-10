@@ -1,0 +1,145 @@
+
+
+
+
+May 18th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance
+from 10:00 [AM] through 12:00 [PM] on May 18th,
+2023 (KST) for system optimizations and content updates.
+Please make note of the maintenance schedule;
+we recommend that you refrain from entering combat
+or making in-app purchases and close the application 
+before maintenance beings so that no data is lost.
+Refer below for details about the update.
+
+Update Content
+
+1. New Target Extraction: [E.G.O Target Extraction:
+Dimension Shredder for Yi Sang & Hong Lu]
+(May 18 12:00 ~ Jun 1 05:59 (KST))
+Extraction rates increase for the following E.G.O:
+- E.G.O [HE]: Dimension Shredder for Yi Sang,
+  Dimension Shredder for Hong Lu
+
+2. Sinner Target Extraction: [Faust]
+(May 18 12:00 ~ Jun 1 05:59 (KST))
+Extraction rates increase for the following Identities and E.G.O:
+- E.G.O [HE]: Telepole for Faust
+- E.G.O [TETH]: Hex Nail for Faust
+- 3★: The One Who Grips Faust
+- 2★: W Corp. Cleanup Agent Faust, Lobotomy Corp. Remnant Faust
+- 1★: LCB Sinner Faust
+
+3. New E.G.O
+The following E.G.O will be added to the list of items
+available from Extraction:
+- E.G.O [HE]: Dimension Shredder for Yi Sang,
+  Dimension Shredder for Hong Lu
+
+1/4
+
+PROJECT MOON
+Update Content
+
+4. Ending Events
+The following events will end with the May 18th scheduled update.
+
+[Refraction Railway Line 1]
+- The lowest total turn count that players have recorded will be etched on their account's banner.
+- Rewards from the Lost & Found will be lost if you have not spent Enkephalin Modules to gain access to it, so please make sure to unlock it in time.
+- If you have gained access to the Lost & Found, unclaimed rewards will be sent through the in-game mail system.
+
+[Hell's Chicken]
+- You will no longer be able to gain Bongy Plushies after the event is over.
+- Coupon Trade-in is open until May 25, 09:59 (KST), so please make sure to redeem the rewards in time.
+- The Hell's Chicken stages will be placed into Main Story after the event is over.
+
+5. End of Pre-registration Rewards Distribution
+The pre-registration rewards are available to claim for players whose accounts were created before 06:00 May 18th, 2023 (KST). The sent rewards are stored in the mailbox for up to 30 days. You will not be able to receive them afterwards, so please note this information.
+
+<Pre-registration Rewards>
+- 100,000 Registrations: 250 Lunacy
+- 110,000 Registrations: Enkephalin Box x2
+- 120,000 Registrations: 400 Lunacy
+- 130,000 Registrations: Enkephalin Box x3
+- 150,000 Registrations: 3★ Blade Lineage Yi Sang
+- 180,000 Registrations: Enkephalin Box x5
+
+2/4
+
+PROJECT MOON
+Update Content
+
+6. Bug Fixes and Improvements
+
+- Fixed an issue where normal skills could
+appear and be used during E.G.O Corrosion
+- Fixed an issue where the clear turns for Refraction Railway were
+displayed on the banner item on the acquisition pop-up
+- Fixed an issue where Ebony Queen's Apple constantly
+generated skill slots with "Shared Pain"
+- Forfeiting or losing an Abnormality encounter in dungeons
+now updates the Abnormality's info in the encyclopedia
+- Fixed an issue where the HP recovery of R.B. Sous-chef Gregor's
+skill "Butcher Viand" applied to enemies
+- Fixed an issue where the total damage display 
+for a skill could be omitted depending on the resistance
+(The damage calculation itself had no issue.)
+- Fixed the name of LCB Sinner Hong Lu's
+defense skill being incorrectly applied
+- Adjusted the brightness of the button showing
+the reward redemption status for Roll Call
+- Improved the Roll Call UI to reflect the server time
+- Improved visibility for the button to change
+artwork for support identities
+- Fixed the "Lunacy" text being omitted from daily
+one-time extraction in the English version
+- Set unlock conditions for accessing the mini-episodes
+in Detour Tales: <Unlocked after clearing 3.5-9>
+- UI Improvements for Dante's Notes
+1) Set unlock conditions for accessing
+Dante's Notes: Unlocked after clearing 3.5-9
+2) Changed the category UI
+Before: Number of subcategories included
+in a category shown to the right
+After: "Expand/shrink" button shown to the right of categories
+with subcategories (Using the button shows
+the subcategories included in the category.)
+3) Changed font for better readability
+4) Fixed an issue where the direction of the arrow
+flipped if Dante's Notes had too many categories
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: Every user whose game account was created before 09:59 May 25th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+    - The maintenance schedule may suddenly change depending on its status.
+
+If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. 
+  Please note that the distribution may be slow due to network delays or other causes.
+  - The update gifts are valid to claim for 7 days.
+    Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

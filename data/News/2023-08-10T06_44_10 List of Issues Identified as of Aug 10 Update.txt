@@ -1,0 +1,49 @@
+
+
+List of Issues Identified as of Aug 10 Update
+
+Greetings, dear manager.
+
+The following is a list of known issues and errors that have been identified as of today through the QA process and player reports.
+
+List of Known Issues
+
+• (Japanese Language) Issue with Zwei South Section 4 Faust's Skill 2 'Client Protection' where the amount of Defense Level Up shown in the description is incorrect
+- The correct version is '[On Use] Apply "4" Defense Level Up to the ally with the lowest HP percentage (3 times per turn)'.
+• Issue where the damage number display for counters shows the damage dealt as "0" (Damage is dealt normally; emerged with the Aug 10 update)
+• Issue with W Corp. L2 Cleanup Agent Faust's Skills 'Leap' and 'Overcharge' where the descriptions say Charge is spent instead of Charge Count
+• Issue where the effects of G Corp. Head Manager Outis' Combat Passive 'Morale Boost' does not apply to herself
+• Issue with function of Zwei South Section 5 Rodion's Skill 'Focused Defense' at Uptie Tier 4:
+- '[On Use] At 15+ shield, gain +2 Poise Count' applies Poise Count next turn rather than this turn
+→ The effect will apply on the same turn after the fix.
+- Issue where the effect '[Heads Hit] Gain 1 Poise Count' is functioning as '"[On Hit]" Gain "2" Poise Count'
+→ The effect will follow the description after the fix.
+• LCB Sinner Sinclair - Issue where the Skill 'Ravaging Cut' applies Rupture Count on Heads hit at Uptie Tier 4
+• Kurokumo Wakashu Hong Lu - Issue where the effects of his Combat Passive 'Dark Cloud Blade' are being applied to wrong skills
+• Skill effect descriptions for LCB Sinner Hong Lu's 'Dual Strike' and 'Whirlwind', Lobotomy Corp. Remnant Faust's 'Opportunistic Slash', and certain enemy skills to be adjusted to better match their actual activation conditions
+(The actual effect will remain the same; parts of the descriptions mentioning "last turn" will be adjusted.)
+
+1/2
+
+PROJECT MOON
+List of Known Issues
+
+- Outis' E.G.O - Issue where the 'Attack Power Up' effect of 'Ya Śūnyatā Tad Rūpaṃ' only applied to the user (Emerged with the Aug 10 update)
+- Sinclair's E.G.O - Issue where the UI elements for passive activation are not displayed when the Passive 'Unstable' of 'Branch of Knowledge' activates
+- Sinclair's E.G.O - Issue where SP loss/heal effects are highlighted in the comparison popup when Threads pining 'Branch of Knowledge' to Tier 4
+- Sinclair's E.G.O - Issue where 'Tails Hit' effect text for the skill of 'Branch of Knowledge' at Threadspin Tier 4 is displayed on a heads hit
+- Sinclair's E.G.O - Skill description for 'Impending Day' regarding the activation timing of "HP heal" effects to be adjusted (The actual effect will remain the same.)
+- Rodion's E.G.O - Issue where the effect text '[On Hit] Inflict Sinking Count' is not displayed for the skill of 'Rime Shank' at Threadspin Tier 4
+- Descriptions of certain E.G.O Skills with "Burst Tremor" effects to be adjusted to convey the timing clearer (The actual effect will remain the same.)
+- My Form Empties - Issue with the Skill 'Expound Sutras' where the effect '[On Use] Apply 2 Attack Power Up to a random other ally' applies to the user
+- My Form Empties - Issue with the Skills 'Compulsory Offering' and 'Sluggard Waker' where the effect '[Clash Lose] Apply 20 Karma to a random other ally next turn' applies to the user
+- K Corp. Checkpoint Security - Issue with the Skill 'Cover' where the effect 'Apply 2 Protection to a random other ally next turn' applies to the user
+
+When each error is addressed and fixed in the upcoming live version, we will let you know in the <Bug Fixes and Improvements> section of scheduled update notices.
+
+We apologize for the inconvenience caused by the issues.
+
+2/2
+
+PROJECT MOON
+

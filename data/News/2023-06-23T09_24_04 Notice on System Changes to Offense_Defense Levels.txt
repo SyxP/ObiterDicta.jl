@@ -1,0 +1,160 @@
+[b]※ The update will be made at the same time as the one that adds Uptie and Threadspin Tier 4.[/b]
+
+
+
+
+
+Notice on System Changes to Offense/Defense Levels
+
+Hello, this is Project Moon.
+
+For the sake of balancing and intuitiveness, the base values of Offense/Defense Levels will change to be similar to the unit's current level.
+
+Aims
+
+Offense/Defense Levels were implemented as a way to prevent the Coin Power values from inflating exceedingly.
+(e.g. To prevent cases like Base Coin Power 50 with a +Coin modifier of 20 with 3 Coins)
+
+Also, the base Offense/Defense Levels of units were set to have slight variations from each other to reflect the character's traits (e.g. low defense but attack-focused), based on the unit's current level.
+
+However, the current method of increasing Offense/Defense Levels by fixed coefficients could cause this gap to widen excessively as the unit's level grows higher. Because this can create a greater difference in the minimum and maximum values of Offense/Defense Levels than we intended as the level cap is raised in the long-term, we've decided that this needed addressing.
+
+In consideration of future character balance, the current method of fixed coefficients will not be stable in the long term, so we have adjusted the way each unit's Offense and Defense Level are determined.
+
+Also, we are planning to iron out unintuitive factors where the Offense/Defense Level can differ greatly from the unit's current level.
+(e.g. At unit level 35, the Offense Level can be 45, which makes it difficult to gauge the Defense Level from the unit's level and vice versa. If unit levels go up to 50 in the current system, the Offense Level could go up to 80, furthering the confusion.)
+
+This may result in certain skills' Offense Level being lower than before. To offset this, we will adjust the Offense/Defense Levels of enemies at the same time to ensure that the changes don't significantly affect the damage values and performance of skills.
+
+1/3
+
+PROJECT MOON
+Changes
+
+1. Changed the Calculation for Offense/Defense Levels
+The base values of a unit and its E.G.O's skill levels, and the unit's Defense Level will be determined by the unit's current level.
+
+- Old: Each skill has its own growth rate that increases the Offense/Defense Level as the unit's level goes up
+- New: The base values of Offense/Defense Levels are determined by the unit's current level, and a fixed modifier unique to the unit will be added or subtracted to produce the final value.
+(e.g. When a unit has an Offense Level modifier of +4 and a Defense Level modifier of -2: At level 35, the unit's Offense Level will be 39 and the Defense Level will be 33; At level 50, the Offense Level will be 54, and the Defense Level will be 48.)
+
+- Each unit or E.G.O has its own modifier value that may increase or decrease the Offense/Defense Level from the unit's current level.
+
+- Certain Identities may have different Offense Levels for each of their skills.
+
+- Enemies' Offense/Defense Levels will be collectively adjusted based on the current level of balance when the update is released.
+
+2. Changes to Clash Power Modifier by Difference in Offense Level
+To preserve the experience of Power differences in clashes after the adjustments, the formula through which Clash Power is increased based on the difference in Offense Level will be changed.
+
+- Old: In a clash, gain 1 Clash Power for 5 points of difference in Offense Level
+- New: In a clash, gain 1 Clash Power for 3 points of difference in Offense Level
+
+To accommodate for this change, the Identities, E.G.O, enemies, and E.G.O Gifts with related effects will have their parameters changed accordingly. We will make careful adjustments to ensure that the experience does not change too sharply. The specific changes will be noted in a future announcement.
+
+2/3
+
+PROJECT MOON
+Changes
+
+3. Changes to Status Effects
+that Influence Offense/Defense Levels
+The status effects that increase or decrease Offense/Defense Levels will receive the following changes.
+
+- Old : Offense/Defense Level increases or decreases by Count * 10% (Max 100%)
+- New : Offense/Defense Level increases or decreases by Count
+
+To accommodate for this change, the Identities, E.G.O, enemies, and E.G.O Gifts with related effects will have their parameters changed accordingly.
+
+We will make careful adjustments to ensure that the experience does not change too sharply. The specific changes will be noted in a future announcement.
+
+The list of Identities and E.G.O
+whose status effect amounts will change is as follows:
+
+• LCB Sinner Faust - Upward Slash, Acute Studies
+• Kurokumo Wakashu Ryoshu - Lenticular Swirl
+• South Seven Section 6 Director Outis - Exploit the Gap, Field Command
+• South Seven Section 6 Ryoshu - Upper Slash
+• W Corp. L2 Cleanup Agent Meursault - Energy Current
+• LCCB Assistant Manager Rodion - Suppress
+• Ishmael's E.G.O - Roseate Desire
+• Hong Lu's E.G.O - Roseate Desire
+
+We will adjust the Offense/Defense Levels of enemies at the same time to ensure that the changes don't significantly affect the damage values and performance of the skills.
+
+3/3
+
+PROJECT MOON
+```
+This image is for reference only; actual details subject to change.
+LV 35
++3 -1
+Uptie Tier
+MAX
+Skill1 Skill2 Skill3
+Defense
+Offense Level
+38
+(Identity Lv +3)
+On Hit] Inflict 3 Paralyze
+Status
+161 | 3 - 6 | 34
+Defense Level
+34
+(Identity Lv +1)
+Fatal
+(x2)
+Ineff.
+Normal
+(x1)
+This image is for reference only; actual details subject to change.
+
+This image is for reference only; actual details subject to change.
+LV 35
++3 +5
+Uptie Tier
+MAX
+Skill1 Skill2 Skill3
+Defense
+Offense Level
+32
+(Identity Lv +3)
+[Heads Hit] Inflict 4 Sinking
+Status
+209 | 2 - 3 | 40
+Defense Level
+40
+(Identity Lv +5)
+Fatal
+(x2)
+Ineff.
+Normal
+(x1)
+This image is for reference only; actual details subject to change.
+
+Ebony Queen's Arena
+HP
+456/456
+Blight Stem
+107/107
+Defense Level
+36
+(Enemy Lv -3)
+Dark Pillar
+107/107
+Fruit
+21
+Left Stem
+107/107
+Conditions Unmet
+Right Stem
+107/107
+Roots
+172
+Defense Level
+33
+(Enemy Lv -2)
+Status
+x 33
+```
+

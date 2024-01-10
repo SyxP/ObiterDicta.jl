@@ -1,0 +1,86 @@
+
+
+LIMBUS COMPANY
+22" Boatworks Fixer
+Sinclair
+
+SKILL 1
+Fierce Assault
+At X+ Tremor Count, Coin Power +Y
+I) [On Hit] Gain +X Tremor Count
+[Heads Hit] Inflict +X Tremor Count
+II) [On Hit] Gain +X Tremor Count
+[Heads Hit] Inflict +X Tremor Count
+III) [On Hit] Gain +X Tremor Count
+[Heads Hit] Inflict +X Tremor Count
+IV) [On Hit] Gain +X Tremor Count
+[Heads Hit] Inflict +X Tremor Count
+
+SKILL 2
+Steady...
+[On Use] Gain +X Tremor Count
+[On Hit] Inflict X Tremor
+
+SKILL 3
+Gamble
+[On Hit] At X+ Tremor Count,
+spend all Tremor Count to inflict target
+with the same amount of Tremor Count
+[On Hit] At less than X Tremor Count,
+gain Y Tremor and Burst Tremor on self
+Deal blunt damage equal to Tremor Burst damage
+
+IDENTITY INFO
+DEFENSE
+Crab Bastards...
+[On Use] Gain X Rupture Protection
+
+PASSIVE
+Unstable Power Output
+On hit with Heads Coins at X+ Tremor Count on self,
+Inflict +Y Tremor and Tremor Count with Coin effects.
+
+SUPPORT PASSIVE
+Modified Power Output
+1 ally with the most Max HP inflicts +X Tremor
+with the effects of their attack skills/coins.
+
+Rupture Protection
+Take -X damage per Count from Rupture effects
+for one turn.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Well Cheers!
+OCEAN SODA
+FREE
+
+Soda
+Ryoshu
+ZAYIN
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+E.G.O INFO
+
+E.G.O AWAKENING SKILL
+Soda
+[On Hit] Inflict X Sinking
+[On Kill] Gain X E.G.O resources of random Affinities currently owned; All allies heal Y SP.
+
+E.G.O CORROSION SKILL
+Soda
+[Indiscriminate] Targets randomly
+[On Hit] Inflict X Sinking
+[After Attack] Gain +X E.G.O Resource Amp, apply Haste next turn
+
+E.G.O PASSIVE
+Opened Can
+On hit, if the target has X+ Sinking, inflict Y Defense Power Down.
+
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION 
+
+All rights are owned by Project Moon
+

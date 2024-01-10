@@ -1,0 +1,104 @@
+
+
+
+
+September 14th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on September 14th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance beings so that no data is lost. Refer below for details about the update.
+
+Update Contents
+
+1. Refraction Railway Line 2
+MOBIUS
+기형철존선 2호선
+異形鉄線 2号線
+REFRACTION RAILWAY LINE 2
+2023. 09. 14 (KST)
+
+※ Please refer to the Steam announcement for further details.
+- [Posted Sep. 4th] New Content - Refraction Railway Line 2
+
+Major Changes 
+
+1. All Special Attendance Check reward Identities' detailed info can be viewed 
+
+1/4
+
+PROJECT MOON
+UI/UX Improvements
+
+1. Passives Panel Animation Simplified
+
+※ Intent: By simplifying the Passives panel Animation, we widened the visible area in combat and reduced the amount of graphic resources it consumed.
+
+2. Improved Press-and-hold E.G.O Overclock Activation
+
+- Before: E.G.O choice window closes, and Overclocked E.G.O is immediately equipped
+
+- After: E.G.O choice window doesn't close immediately; Overclocked E.G.O can be equipped with an additional press
+
+Optimizations
+
+1. In-combat rendering performance improvements
+
+- Graphic resource usage lowered via Passives window simplification (lowered to 2.5 ~ 15% of resources used before)
+- Deleted unused rendering camera objects
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+- Fixed typos in Seven Association South
+  Section 4 Faust's Identity Story
+- Fixed an issue where, in viewing Abnormality details during combat, the UI displayed "Destructible" even when the destructible Abnormality part was already destroyed
+- Fixed an issue where, after a status effect was lifted, the Count lingered even after Potency is reduced to 0
+- Fixed an issue where effects of Molar Boatworks Fixer Ishmael's Support Passive "Crab Driver" affected the ally with the highest HP instead of the ally with the lowest HP
+- Fixed an issue where Corrosion Image did not show properly when viewing the E.G.O selection UI in combat
+- Fixed an issue where, if the player changed a Skill that was already assigned to a target to a Defensive or an E.G.O Skill, other Skill Slots' UI(Sin Resonance, Favored & Struggling Text) did not update accordingly
+- Fixed an issue where a broken part would become Staggered due to Tremor Burst
+- Fixed an issue where, upon activating Sinking Deluge, Sinking values did not disappear
+
+- Sinking Deluge Keyword was generated with an intent to spend all Sinking values at once to deal damage.
+If this issue were to remain unfixed, Sinking would cause far too much consistent damage compared to other Keywords.
+We sincerely apologize to any Managers who have been using the Sinking Deluge keyword so far, for taking so long after the Identity's release to fix this issue.
+We will make sure not to make similar mistakes in the future with more rigorous tests. We again sincerely apologize for this mistake.
+
+3/4
+
+PROJECT MOON
+Error Fix Compensation
+
+X300
+
+- Compensation: Lunacy x300
+- Recipients: Every user whose game account was created before Sep. 21st, 2023 09:59
+- Can be redeemed once per account
+- Date: After Sep. 14th (Wed) 18:00 (KST)
+
+Maintenance & Application Update Compensation
+
+X300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Sep. 21th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

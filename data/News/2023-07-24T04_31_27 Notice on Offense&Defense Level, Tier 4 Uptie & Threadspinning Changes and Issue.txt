@@ -1,0 +1,382 @@
+
+
+
+
+
+
+Notice on Offense & Defense Level, Tier 4 Uptie & Threadspinning Changes and Issues 
+
+Greetings, this is Project Moon.
+
+We have identified several issues with the capabilities of several Identities and E.G.Os that arose after the Offense & Defense Level changes and Uptie 4 & Tier 4 Threadspinning update.
+The issue will be addressed with the July 27th Scheduled Update.
+
+We sincerely apologize for causing inconveniences regarding the Identities and E.G.O capabilities.
+
+From now on, we will make sure to more carefully review our update contents regarding character capabilities so that no similar incident will occur again in the future.
+And if there are any further statistical adjustments in the future, we will be sure to inform you of the details before the update.
+
+1/6
+
+PROJECT MOON
+Update Contents
+
+1. Adjustments to Identities and
+E.G.O Offense and Defense Levels
+
+After this update, Identities and E.G.Os that had their Offense & Defense Levels reduced in the last update will be re-adjusted.
+We apologize for causing confusion and disappointment from their reduced Offense & Defense Levels.
+
+The Offense & Defense Levels have been adjusted to match the values of the previous version at Level 35,
+And Identities & E.G.O Skills with Growth stats of 0.8 or higher have gained an additional Level.
+Moreover, for characters with significantly lower Offense & Defense levels, we have raised their stats to match their original visions better.
+
+Identity/
+E.G.O Name
+
+Offensive/Defensive
+Skill Name
+
+Changes
+
+Effloresced E.G.O::
+Spicebush Yi Sang
+
+Sprouting Bud
+
+Offense Level Modifier
++3 → +4
+
+LCB Sinner Faust
+
+Downward Slash,
+Upward Slash,
+Drilling Stab
+
+Offense Level Modifier
+-2 → -1
+
+W Corp. L2 Cleanup
+Agent Faust
+
+Guard
+
+Defense Level Modifier
++3 → +5
+
+Lobotomy Corp.
+Remnant Faust
+
+Sole Strike,
+Deep Cuts,
+Opportunistic Slash
+
+Offense Level Modifier
++2 → +3
+
+Lobotomy Corp.
+Remnant Faust
+
+Evade
+
+Defense Level Modifier
+-4 → 0
+
+The One Who
+Grips Faust
+
+Cackle,
+The Gripping, Slay
+
+Offense Level Modifier
++2 → +4
+
+The One Who
+Grips Faust
+
+Such Filth
+
+Defense Level Modifier
+-1 → 0
+
+LCB Sinner
+Don Quixote
+
+Joust, Galloping Tilt,
+For Justice!
+
+Offense Level Modifier
++1 → +2
+
+W Corp. L3 Cleanup
+Agent Don Quixote
+
+Evade
+
+Defense Level Modifier
+-1 → 0
+
+Shi Association South
+Section 5 Director
+Don Quixote
+
+Evade
+
+Defense Level Modifier
+-4 → 0
+
+N Corp.
+Mittelhammer
+Don Quixote
+
+Guard
+
+Defense Level Modifier
++1 → +3
+
+Seven Association
+South Section
+6 Ryōshū
+
+Slash, Upper Slash,
+Swash, Counter
+
+Offense Level Modifier
++3 → +5
+
+W Corp. L2 Cleanup
+Agent Meursault
+
+Guard
+
+Defense Level Modifier
++4 → +5
+
+LCB Sinner
+Hong Lu
+
+Downward Cleave,
+Dual Strike,
+Whirlwind
+
+Offense Level Modifier
++1 → +2
+
+Kurokumo Clan
+Wakashu Hong Lu
+
+Guard
+
+Defense Level Modifier
++1 → +2
+
+Liu Association
+South Section 5
+Hong Lu
+
+Guard
+
+Defense Level Modifier
++1 → +2
+
+N Corp.
+Kleinhammer
+Heathcliff
+
+Guard
+
+Defense Level Modifier
++1 → +2
+
+Lobotomy E.G.O.:
+Sunshower
+Heathcliff
+
+Warning
+
+Offense Level Modifier
++4 → +5
+
+LCCB Assistant
+Manager Ishmael
+
+Guard
+
+Defense Level Modifier
++3 → +5
+
+2/6
+
+PROJECT MOON
+Lobotomy E.G.O.: Sloshing Ishmael
+It’s Heavy…!, It’s Churning…!, Corrosive Splash
+Offense Level Modifier
+-2 → -1
+
+LCCB Assistant Manager Rodion
+Bludgeon, Thrust, Suppress
+Offense Level Modifier
++4 → +5
+
+LCCB Assistant Manager Rodion
+Guard
+Defense Level Modifier
+-4 → -2
+
+N Corp. Mittelhammer Rodion
+Devoted Hammering, Zealous Purge, Ironclad Retribution
+Offense Level Modifier
++2 → +3
+
+Rosespanner Workshop Rep Rodion
+Preheat
+Defense Level Modifier
+-1 → 0
+
+LCB Sinner Sinclair
+Downward Swing, Halberd Combo, Ravaging Cut, Counter
+Offense Level Modifier
++2 → +3
+
+Zwei Association South Section 6 Sinclair
+Guard
+Defense Level Modifier
++3 → +5
+
+The One Who Shall Grip Sinclair
+Coerced Judgement
+Offense Level Modifier
++3 → +4
+
+The One Who Shall Grip Sinclair
+Amoral Judgement, Self-destructive Purge
+Offense Level Modifier
++4 → +5
+
+Lobotomy E.G.O.: Red Sheet Sinclair
+Guard
+Defense Level Modifier
++0 → +1
+
+LCB Sinner Outis
+Pulled Blade, Backslash, Piercing Thrust
+Offense Level Modifier
++2 → +3
+
+LCB Sinner Outis
+Evade
+Defense Level Modifier
+-4 → -3
+
+Seven Association South Section 6 Director Outis
+I’ll Take the Lead
+Defense Level Modifier
++3 → +5
+
+Liu Association South Section 6 Gregor
+Single-point Stab, Rush Down, Perfected Palm Strike
+Offense Level Modifier
++4 → +5
+
+Liu Association South Section 6 Gregor
+Guard
+Defense Level Modifier
+-4 → -2
+
+R.B. Sous-Chef Gregor
+Guard
+Defense Level Modifier
++1 → +2
+
+Rosespanner Workshop Fixer Gregor
+Guard
+Defense Level Modifier
+-2 → -1
+
+Meursault - Screwloose Wallop
+Awakening, Corrosion
+Offense Level Modifier
++4 → +5
+
+Hong Lu - Dimension Shredder
+Corrosion
+Offense Level Modifier
++4 → +5
+
+3/6
+
+PROJECT MOON
+Update Contents
+
+2. Certain Uptie 4 Skill Effects Adjusted
+The following skills, the effects of which did not work correctly upon Uptying the identities to Uptie 4, will be changed as follows:
+
+▸ Lobotomy E.G.O::Red Sheet Sinclair - Rupturing Talisman
+- 1 Coin effect: [On Hit] Spend 5 Talisman on self; Give 7 Talisman → [On Hit] Spend 5 Talisman on self; Give 5 Talisman
+- 2 Coin effect: [On Hit] If target has Talisman, inflict +1 Rupture Count → If target has Talisman, inflict +3 Rupture Count
+
+▸ G Corp. Manager Corporal Gregor - Hack
+- Skill Effect: [Clash Win] Damage +40%. 
+If target has 5+ Rupture Count, Coin Power +1 → [Clash Win] Damage +40%. If target has 5+ Rupture, Coin Power +1
+
+▸ G Corp. Manager Corporal Gregor - Dismember
+- Skill Effect: If target has 5+ Rupture Count, deal +50% damage → If target has 5+ Rupture, deal +50% damage
+
+▸ G Corp. Manager Corporal Gregor - Eviscerate
+- Skill Effect: If target has 5+ Rupture Count, Coin Power +1 → If target has 5+ Rupture, Coin Power +1
+
+4/6
+
+PROJECT MOON
+Update Contents
+
+3. Bug fixes regarding Uptie 4, Tier 4 Threadspinning
+The following issues in Skills & Passives of Uptie 4 and Tier 4 Threadspinning will be fixed.
+
+► Don Quixote - La Sangre De Sancho
+Fixed an issue where upon Threadspinning it to Tier 4, the “Heal by X% of damage dealt” did not activate; fixed an issue where the activation condition for that skill was labeled incorrectly as [Heads Hit] and not [On Hit]
+
+► Heathcliff - Bodysack
+Fixed an issue where upon Threadspinning it to Tier 4, the activation condition for “Gain 2 Attack Power Up next turn” was labeled incorrectly as [After Attack] and not [On Kill]
+
+► N Corp. Großhammer Meursault - Drive
+Fixed an issue where the effects of Uptie 4 activated not at 50%- HP and instead activated at 50%+ HP
+
+► R Corp. 4th Pack Reindeer - Brainwave Focus
+Fixed an issue where the effects of Uptie 4 activated not at the start of the battle but at the start of the next turn
+
+► G Corp. Manager Corporal Gregor
+Fixed an issue where “Heal by X% of damage dealt” effects did not activate
+
+► Liu Association South Section 6 Meursault
+Friction Point : Fixed an issue where the Support Passive sometimes did not activate
+
+We again sincerely apologize for causing trouble to your enjoyment of the game with the issues regarding Offense & Defense Level and Tier 4 Uptie & Threadspinning. By way of our apology, please accept the following compensation. Please refer to the information below for further details.
+
+5/6
+
+PROJECT MOON
+Compensation
+
+Compensation: Lunacy x1300
+Date: After July 27th (KST) Scheduled Update
+- Can be redeemed once per account
+- You can claim the item through the in-game mail system until 2023 Aug 03 09:59(KST). (Mail Validity Period: 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+6/6
+
+PROJECT MOON
+

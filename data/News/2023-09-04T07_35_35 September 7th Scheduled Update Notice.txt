@@ -1,0 +1,132 @@
+
+
+
+
+
+September 7th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on September 7th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction - Seven South Section 4 Faust & Heathcliff] (Sep. 7th 12:00 ~ Sep. 21st 09:59 (KST)) Extraction rates increase for the following identities:
+- 3★ : Seven South Section 4 Faust
+- 2★ : Seven South Section 4 Heathcliff
+
+2. New Identities Added
+The following are added to the list of extractable Identities:
+- 3★ : Seven South Section 4 Faust
+- 2★ : Seven South Section 4 Heathcliff
+
+3. [Target Extraction: Don Quixote]
+will become available for a limited period.
+The following Identities and E.G.O
+will have increased odds of extraction.
+- E.G.O [HE]: Telepole Don Quixote
+- 3★ : Cing South Section 5 Director Don Quixote, W Corp. L3 Cleanup Agent Don Quixote
+- 2★ : N Corp. Mittelhammer Don Quixote,
+Shi South Section 5 Director Don Quixote
+- 1★ : LCB Sinner Don Quixote
+
+1/5
+
+PROJECT MOON
+Update Contents
+
+4. Special Attendance Check Event
+
+2023.9.7(THU) 12:00 - 2023.10.12(THU) 05:59 (KST)
+
+<Event Period>
+9/7 12:00 ~ 10/12 05:59 (KST)
+
+<Major Rewards>
+- 14 Days Attended : [00] Molar Office Fixer Yi Sang
+- 28 Days Attended : [000] Molar Office Fixer Outis
+
+<Event Description>
+- Collect more attendance checks and unlock greater rewards over the event period.
+- Log in after the daily reset period and receive your daily attendance checks.
+- Once the event is over, the rewards cannot be claimed. Claim them before the event ends.
+
+5. Customizable Loadout Names
+
+Now you can customize your loadout names using various Keywords.
+
+2/5
+
+PROJECT MOON
+Major Changes
+
+1. Limbus Pass Extended to Match the Extended Season 2 Period
+   With the extended Season 2 period, the Season 2 
+   Limbus Pass period will also be extended as follows.
+   - Before: ~ Oct. 12th. 2023. 05:59
+   - After: ~ Nov. 16th. 2023. 05:59
+
+2. Package Prices Adjusted
+   Prices for some of the packages sold in the Lunacy Shop will be
+   adjusted. Please refer to the August 30th Steam Notice
+   for the explanation of this change.
+   - [Posted Aug. 30th] Notice: Adjustments to Some Lunacy Packages
+
+   The packages in question are as follows:
+
+   (1) KRW - 2 package prices adjusted
+   - Lunacy Bundle (First-time, Normal): 5500 KRW → 5100 KRW
+
+   (2) JPY - 6 package prices adjusted
+   - Lunacy Bundle (First-time, Normal): 600 JPY → 460 JPY
+   - Lunacy Bouquet (First-time, Normal): 1800 JPY → 1650 JPY
+   - Lunacy Crate (First-time, Normal): 3500 JPY → 3400 JPY
+
+                                                                 3/5
+
+PROJECT MOON
+Major Changes
+
+3. Further Clash Arrow UI Improvements
+
+Clash Arrow colors for Clashes and Unopposed attacks will be changed.
+- Unopposed attack by allies: Blue hued
+- Unopposed attack by enemies: Red hued
+- When Clashing: Yellow hued
+
+Bug Fixes and Improvements
+
+• Fixed an issue where displaying the E.G.O Skill selection menu for the first time in combat would cause the game to hitch
+• (Steam) Fixed an issue where restarting the game after setting the FPS setting to AUTO would revert the setting back to 60 FPS
+• Fixed an issue where W Corp. L3 Cleanup Agent Ryōshū’s Uptie 4 [Charged Evade] skill did not activate upon activating the skill a second time
+• Fixed an issue where an “UNKNOWN” value was displayed in the Keywords menu of Uptie 4 N Corp. Mittelhammer Rodion’s Skill 3 “Ironclad Retribution”
+• Fixed an issue where players sometimes could not revert their 3★ Identity’s Uptie 3 art to pre-Uptie 3 art when changing them in the Lobby
+• Fixed an issue where certain effects in 3-22 of Canto III did not activate properly
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: All users whose game accounts were created before 09:59 Sep. 14th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

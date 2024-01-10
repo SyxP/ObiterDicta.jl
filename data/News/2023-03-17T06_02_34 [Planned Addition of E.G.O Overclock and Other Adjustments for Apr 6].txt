@@ -1,0 +1,55 @@
+
+
+Planned Addition of E.G.O Overclock
+and Other Adjustments for Apr 6
+
+Greetings, Dear Manager.
+Below is a list of planned additions and a
+adjustments to E.G.O expected to be applied on Apr 6th, 2023 (KST).
+
+1. New Feature
+
+E.G.O OVERCLOCK
+
+E.G.O Overclock will be a feature
+that allows the user to induce E.G.O Corrosion at will.
+With overclocking, you can manually generate a Corrosion skill
+by spending 1.5 times the required E.G.O resources and SP.
+It is also possible to overclock an E.G.O skill
+using the base E.G.O resource cost,
+but this results in an Unstable E.G.O Overclock,
+binding you in E.G.O resource-debt and making the skill volatile.
+
+(1) E.G.O Overclock (Stable)
+If you overclock an E.G.O skill
+with enough E.G.O resources in your possession,
+it becomes a <Stable Overclocked E.G.O Skill>.
+Stable overclocked E.G.O skills have the same effects
+and damage values as the corrosion skill
+while being able to distinguish friend from foe.
+
+(2) E.G.O Overclock (Unstable)
+If you overclock an E.G.O skill while you lack the E.G.O resources for it,
+it becomes an <Unstable Overclocked E.G.O Skill>.
+In this case, the E.G.O resource cost will be subtracted
+from your possession past 0, making it go into the negatives.
+Unstable overclocked skills carry
+the risk of targeting indiscriminately as well.
+
+PROJECT MOON
+Planned Addition of E.G.O Overclock
+and Other Adjustments for Apr 6
+
+2. Changes to Sin Resistance Modification when using E.G.O Skills
+
+◆ Current Iteration
+When using an E.G.O skill, only the better resistance values from the E.G.O will override the unit's current resistances.
+
+◆ After Update
+When using an E.G.O skill, the E.G.O's resistance values completely override the current ones regardless of if they are more advantageous.
+
+We will give you a more detailed notice on April 3rd (KST).
+Thank you.
+
+PROJECT MOON
+

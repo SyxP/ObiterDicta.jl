@@ -1,0 +1,163 @@
+[b]Target Extraction[/b]
+
+
+
+
+
+
+
+
+
+
+[b]Event Rewards[/b]
+
+
+
+
+R.B. Chef de Cuisine Ryoshu
+
+SKILL 1
+P.C.
+[I On Hit] Inflict Bleed Count
+[II On Hit] Gain Appetite
+
+SKILL 2
+L.H.
+[I On Hit] Inflict Bind next turn
+[II Heads Hit] Inflict Bleed
+[III On Hit] If target has Bleed or Paralyze, inflict HP Healing Down next turn
+
+SKILL 3
+I Can Cook Anything
+Boost damage based on target's missing HP
+[I Heads Hit] The final Coin deals more damage
+[II Heads Hit] The final Coin deals more damage
+[III Heads Hit] The final Coin deals more damage
+
+ENTITY INFO
+DEFENSE
+F.I. in Sight
+[On Evade] Gain Haste next turn
+
+PASSIVE
+Rustle Up
+After defeating an enemy, heal the ally with the lowest HP.
+If this unit has an Appetite, spend it to boost the healing based on its Count.
+
+SUPPORT PASSIVE
+Artistic Flavour
+When an enemy is defeated, the ally with the lowest HP heals HP.
+
+Appetite
+Increases the healing provided by the Passive [Rustle Up].
+Spent when the Passive activates.
+
+HP Healing Down
+Decreases HP healing provided by Passive abilities, Skills, and Coin effects.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Lifetime Stew
+Sinclair
+TETH
+
+E.G.O INFO
+
+E.G.O AWAKENING SKILL
+Lifetime Stew
+[Indiscriminate] [AoE]
+Targets the unit with the least HP
+If the target is an ally, this deals 0 damage
+[Heads Hit] If the target is an ally, 
+heal them proportionally to user's Max HP
+[Tails Hit] Inflict Burn; if target is an ally, 
+give Haste and E.G.O Resource Amp next turn
+
+E.G.O CORROSION SKILL
+Lifetime Stew
+[Indiscriminate] [AoE]
+Targets the unit with the least HP
+[Before Attack] Spend random E.G.O resources to boost damage
+[On Hit] Inflict Burn Count
+
+E.G.O PASSIVE
+Stew Spewage
+Tails Coins inflict Burn if hitting an enemy.
+
+E.G.O Resource Amp
+Increases the amount of E.G.O resources earned from skills
+by the effect's Count for one turn.
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Copyright ⓒ 2022 All rights reserved by PROJECT MOON
+LIMBUS COMPANY
+Event Reward Identity
+R.B. Sous-chef
+Gregor
+
+SKILL 1
+Keep It Fresh
+[On Hit] Inflict Paralyze; if target has Bleed, inflict Paralyze next turn
+[On Hit] Inflict Bleed
+
+SKILL 2
+You Fresh Enough?
+[On Hit] Inflict Bleed Count; Inflict Bind next turn
+
+SKILL 3
+Butcher Wand
+[On Hit] Inflict Bleed
+[On Hit] Inflict Paralyze
+[On Hit] Inflict Paralyze
+[On Hit] Heal HP based on target's Bleed
+
+DEFENSE
+Guard!
+
+PASSIVE
+Packed Pies
+Heal HP at the start of the combat phase.
+
+SUPPORT PASSIVE
+Culinary Aid
+At the start of the combat phase, the ally with the lowest HP heals HP. Boost the healing of R.B. Chef de Cuisine Ryōshū's Passive (Rustle Up).
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Event Reward E.G.O
+Lifetime Stew, TETH
+Don Quixote
+
+E.G.O INFO
+
+E.G.O AWAKENING SKILL
+Lifetime Stew
+[Before Attack] Boost damage based on current Lust resources
+[On Hit] Inflict Burn Count
+
+E.G.O CORROSION SKILL
+Lifetime Stew
+[Indiscriminate]
+Targets the unit with the most HP
+[Before Attack] Boost damage based on current Lust resources
+Then spend Lust resources by (Lust Reson.); 
+further boost damage by resource spent
+[On Hit] Inflict Burn Count
+
+E.G.O PASSIVE
+Cauldron of Forging
+At the start of the turn, convert random non-Lust E.G.O resources into Lust resource.
+
+Burn
+At the end of the turn, take fixed damage by the effect's Potency.
+Then, reduce its Count by 1.
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2022 OOO NEOWIZ. All rights reserved.
+

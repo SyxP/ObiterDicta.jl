@@ -1,0 +1,165 @@
+
+
+
+
+
+October 12th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on October 12th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or mating in-app purchases and close the application before maintenance beings so that no data is lost.
+Refer below for details about the update.
+
+Update Contents
+
+1. New E.G.O Target Extraction - [Ya Śūnyatā Tad Rūpam Heathcliff]
+(Oct. 12th 12:00 ~ Oct. 26th 09:59 (KST))
+Extraction rate increases for the following E.G.O:
+- E.G.O [HE] : Ya Śūnyatā Tad Rūpam Heathcliff
+
+2. New E.G.O Added
+The following is added to the list of extractable E.G.O:
+- E.G.O [HE] : Ya Śūnyatā Tad Rūpam Heathcliff
+
+3. Event Reward Identities added to the Dispenser
+The two Special Attendance Check Event Identities will be made available at the Dispenser. These two Identities count as Season 2 Event Identities and can be viewed from the Season 2 Banner’s Events section.
+- 3★ : Molar Office Fixer Outis
+- 2★ : Molar Office Fixer Yi Sang
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Refraction Railway Line 2 Banners’ Cycle Counts & Total Turns Text Location & Effects Adjusted
+- Before : [Cycle Count] - [Total Turns] records texts were both on the bottom right side of the Banner; flat color texts
+- After : [Cycle Count] on the bottom left, [Total Turns] on the bottom right of the Banner; glow effect added to the records texts
+
+Bug Fixes & Improvements
+
+▶ VFX settings changed
+With these fixes, the older character resources will be updated; please note that additional downloads will occur.
+(iOS: ~1.85GB, Android: ~2.37GB, Steam: ~2.29GB)
+
+▶ Fixed an issue where Zwei South Section 4 Gregor, Zwei South Section 4 Faust's attack VFX did not show properly on mobile(iOS, Android)
+
+▶ Fixed an issue where certain enemy skills in the Refraction Railway Line 2 were unaffected by Aggro
+(1) An enemy Skill from Station 2 
+(2) An enemy Skill from Station 4
+(3) Station 5
+- All Skills except 'Snagged Lure'
+(4) Station 9
+- Skills used by summoned units were properly affected by Aggro
+- All Skills except 'Endless Blooming'
+
+▶ Fixed K Corp. Class 3 Excision Staff Hong Lu's Support Passive description
+- Before : [At the start of the next turn], give 2 K Corp Ampule to the ally with the lowest HP percentage.
+- After : [At the start of the combat phase], give 2 K Corp Ampule to the ally with the lowest HP percentage.
+※ The Support Passive in question was activated not [At the start of the next turn], but [At the start of the combat phase]. Since [At the start of the combat phase] is easier than [At the start of the next turn] to recognize the units targeted by the Support Passive, and because it activates earlier, we have adjusted the description text to match its current activation timing.
+
+▶ Fixed an issue where Lobotomy E.G.O.::Sunshower Heathcliff's Combat Passive - 'Rain of Tears' did not activate its 'Protection' effect in the intended timing
+- Before : While the Passive did apply 'Protection', Protection effects were applied only after this unit took the first hit
+- After : When the Passive applies 'Protection', its effects are applied immediately, before this unit takes the first hit
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the activation condition of Lobotomy E.G.O.:: Sunshower Heathcliff Uptie 4 Skill 2 - 'Puddle Stomp' wasn't calculated [On Use] but in real-time (e.g. If, after the combat phase began, Heathcliff's SP healed beyond -15 or -25 due to SP healing triggers such as winning a Clash, his Skill 2 effects would stop applying in the middle of the combat phase as opposed to remaining activated until the end of the combat phase.)
+
+▶ Fixed an issue where Dieci Association South Section 4 Rodion's Support Passive's Blunt DMG Up maxed out at 5 instead of 3 as it is written
+- Before : Maxes out at 5
+- After : Maxes out at 3
+
+※ Due to our insufficient testing, the Support Passive's Blunt DMG Up maxed out at 5 instead of 3 as it is written. If this incorrect value were to be left unchanged, it would provide a significantly more powerful damage buff than the other Support Passives, so it has been adjusted. We sincerely apologize to all Managers who have so far utilized Dieci South Section 4 Rodion's Support Passive. Going forward, we will make sure to scrutinize the updates for issues regarding max values in the testing process before release.
+
+▶ Fixed an issue where the activation condition for the first Coin of Dieci Association South Section 4 Rodion Uptie 4 Skill 3 - 'Excruciating Study' was mislabeled
+- Before : [Heads Hit] Inflict +4 Sinking Count
+- After : [On Hit] Inflict +4 Sinking Count
+
+▶ (JP Only) Fixed a typo on Dieci Association South Section 4 Rodion Uptie 4 Skill 3 - 'Excruciating Study'
+- Before: [On Use] Discard "w" Skills of the lowest ranks in all of this unit's Skill Slots
+- After: [On Use] Discard "2" Skills of the lowest ranks in all of this unit's Skill Slots
+
+▶ Fixed an issue where the activation condition for the first Coin of Zwei Association South Section 5 Rodion Uptie 4 Skill 1 - 'Careful Obstruction' was mislabeled
+- Before : [Heads Hit] Gain +1 Poise Count
+- After : [On Hit] Gain +1 Poise Count
+
+▶ Fixed two issues with Zwei Association South Section 6 Sinclair Skill 3 'Strong Strike'
+- Fixed an issue where "If target has 5+ Tremor upon Tremor Burst, gain 2 Protection next turn" did not give this unit 2 Protection
+- Fixed an issue where Tremor Burst on target activated twice instead of once
+
+3/5
+
+PROJECT MOON
+Limbus Company
+
+Bug Fixes & Improvements
+
+▶ Fixed and improved certain animation sprites of Molar Office Fixer Outis
+
+▶ Fixed an issue where effects of Meursault E.G.O - Screwloose Wallop's Passive 'Final Augment' expired in the next turn
+
+▶ Fixed an issue where, if Rusty Commemorative Coin E.G.O Gift causes an E.G.O Skill to activate again, the UI did not display what buffs were being applied by the E.G.O Skill
+
+▶ Fixed an issue where the banner image for New E.G.O Target Extraction - Lantern Sinclair did not fit the banner box
+
+▶ Fixed an issue where the Identities' regular voice lines would
+play even when under the effects of E.G.O Corrosion
+
+▶ Fixed an issue where certain VFX did not display properly in the mobile versions of the game
+
+▶ Fixed an issue where, if the user uses a Ticket to extract after viewing the 'Not Enough Lunacy' notification, the before-and-after values of using the ticket did not show properly
+
+▶ (EN Only) Fixed a typo in the acquisition conditions of a Refraction Railway Line 2 Banner (which appears when pressing and holding the Banner)
+
+Issues Currently Being Investigated
+
+The following issues are currently being investigated. Once these issues have been resolved, we will inform you with a more detailed explanation of the fixes via update notices in the future.
+
+▶ An issue where Passive activation calculation happened upon stage entry, before the unit speeds were determined.
+This caused incorrect targets to be selected in the first turn by certain Support Passives with unit speed conditions.
+
+▶ Targeting conditions when more than a single target fit the conditions for activating certain effects(Skill effects, Passives, Buffs, Enemy Skill targeting conditions, Abnormality Choice effects) will be changed
+- Before: Applied in the order that the units are loaded
+- After:
+(1) Between Allies: Selected in the order in which the Identities were selected in the Team loadout menu
+(Selects the Identity added to the Team first)
+(2) Between Enemies & Allies: Selected Randomly
+(3) Between Enemies: Selected Randomly
+※ We would like to put more control in your hands when more than 1 ally fits the effect conditions, and clarify which ally the effects will target. We will do so by making it contingent on which unit you have selected first in the Team loadout menu.
+(Units will be selected randomly in other cases)
+
+4/5
+
+PROJECT MOON
+Dieci Association South Section 4 Rodion Support Passive Error Fix Compensation
+
+- Compensation: Lunacy x300
+- Recipients: Every user whose game account was created before Oct. 19th, 2023 09:59
+- Can be redeemed once per account
+- Date: After Oct. 12th (Thu) Scheduled Update
+
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Oct. 19th 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

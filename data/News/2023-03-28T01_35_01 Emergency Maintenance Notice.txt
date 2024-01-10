@@ -1,0 +1,10 @@
+[Emergency Maintenance Notice]
+Mar 28 10:30 ~ 11:00 (KST)
+- Emergency Compensation: Lunacy x300
+
+We have identified an issue with the maximum level cap of the Battle Pass.
+
+Currently, the max level of the pass displayed on the in-game UI is 60, but its "actual" level continues to be counted beyond this, stopping at 255. However, we have received reports of players who had reached that threshold. We are planning to remove this upper limit via emergency maintenance to ensure that players can continue to claim their max-level rewards without further issues.
+
+The server will enter emergency maintenance at 10:30 [AM] (KST), which is estimated to last 30 minutes. We have confirmed at least 3 reported cases of this issue and will send out compensation through the in-game mail system.
+

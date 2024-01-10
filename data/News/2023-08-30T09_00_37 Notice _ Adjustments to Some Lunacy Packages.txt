@@ -1,0 +1,46 @@
+
+Notice: Adjustments to Some Lunacy Packages
+
+Greetings, dear Manager.
+
+Some of the packages sold in the Lunacy Shop will be adjusted.
+
+With the May 4th Scheduled Update, Lunacy package prices have been adjusted in compliance with the App Store global price(KRW, JPY only) adjustments.
+
+We have notified you that, while the contents of the Packages will remain the same, package prices may be adjusted in the future with changes to the store(Based on USD) policies.
+
+Type | Name | USD | KRW | JPY
+Lunacy | Lunacy (1st Purchase) | $0.99 | ₩1,500 | ¥160
+Lunacy | Lunacy Bundle (1st Purchase) | $3.99 | ₩6,000 | ¥650
+Lunacy | Lunacy Crate (1st Purchase) | $11.99 | ₩15,000 | ¥1,800
+Lunacy | Lunacy Crate (1st Purchase) | $23.99 | ₩37,000 | ¥3,800
+Lunacy | Lunacy Mond (1st Purchase) | $41.99 | ₩65,000 | ¥6,900
+Lunacy | Lunacy Hoard (1st Purchase) | $79.99 | ₩119,000 | ¥12,800
+Lunacy | Lunacy | $0.99 | ₩1,500 | ¥160
+Lunacy | Lunacy Bundle | $3.99 | ₩6,000 | ¥650
+Lunacy | Lunacy Crate | $11.99 | ₩15,000 | ¥1,800
+Lunacy | Lunacy Crate | $23.99 | ₩37,000 | ¥3,800
+Lunacy | Lunacy Mond | $41.99 | ₩65,000 | ¥6,900
+Lunacy | Lunacy Hoard | $79.99 | ₩119,000 | ¥12,800
+
+Monthly | Monthly Lunacy Supply | $6.99 | ₩9,000 | ¥1,100
+Packs | Monthly Extraction Pack | $9.99 | ₩14,000 | ¥1,500
+Packs | Monthly Training Pack I | $0.99 | ₩1,500 | ¥160
+Packs | Monthly Training Pack II | $30.99 | ₩48,000 | ¥4,900
+Packs | New Manager's Onboarding Pack | $21.99 | ₩34,000 | ¥3,600
+Packs | Season 1 Orienter Supplies | $59.99 | ₩89,000 | ¥9,100
+Packs | Weekly Extraction Pack | $6.99 | ₩9,000 | ¥1,100
+Packs | Weekly Thread Pack | $6.99 | ₩9,000 | ¥1,100
+Packs | Weekly Enkephalin Pack | $6.99 | ₩9,000 | ¥1,100
+Battle Pass | Limbus Pass | $10.99 | ₩17,000 | ¥1,800
+
+[Apr. 21st Steam Notice] Notice of Changes to In-game Purchase Prices
+
+After an internal review, we have determined that the pricing of the App Store will remain consistent for the foreseeable future. Therefore, we plan to adjust some of the Lunacy packages accordingly.
+
+Considering the importance of the matter, we will carefully review the package contents and provide you with a new notice including the changes.
+
+Thank you.
+
+PROJECT MOON
+

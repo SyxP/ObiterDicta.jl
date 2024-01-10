@@ -1,0 +1,25 @@
+
+Notice: iOS, Android Crash Fix Store Update
+
+Hello, this is Project Moon.
+
+We have submitted an update(1.24.1) with a fix for the 'In-combat Crashing Issue' that occurred in Version 1.24.0.
+
+Issue Fix Deployment
+
+iOS, Android: Oct. 19th (Thu) 22:30 (KST)
+
+STEAM build was updated on Oct. 19th (Thu) 19:00 (KST).
+
+This update does not require maintenance, and you can download this update via the Google Play Store or the App Store.
+
+There may be a slight delay for our submissions to be reflected in each respective stores, so if the game cannot be updated, please wait a while before trying again.
+
+With this version update, Version 1.24.0 will no longer be playable after Oct. 20th (Fri) 11:00 (KST). Please download the update before then.
+
+After starting the game, check the bottom right end of the title screen. If the version number displayed is 1.24.1, it is the version with the error corrected.
+
+We apologize for causing inconvenience to your enjoyment of our game.
+
+PROJECT MOON
+

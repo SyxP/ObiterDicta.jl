@@ -1,0 +1,170 @@
+
+
+
+
+
+July 13th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on July 13th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Refer below for details about the update.
+
+NOTE
+
+Please note that the Weekly Bonus is not reset upon this update. Managers seeking to apply the Weekly Bonus to "Mirror Dungeon Hard Rewards", please take care to not use up their Weekly Bonus between July 13th 6:00~9:59 (KST)
+
+Update Contents
+
+1. New Target Extraction: [R Corp. 4th Pack Rhino Meursault & Zwei South Section 5 Rodion] (Jul 13 12:00 ~ Jul 27 09:59 (KST))
+Extraction rates increase for the following Identities:
+   - 3★ : R Corp. 4th Pack Rhino Meursault
+   - 2★ : Zwei South Section 5 Rodion
+
+2. Target Extraction [Yi Sang] (July 13 12:00 ~ July 27 09:59 (KST))
+Extraction rates increase for the following Identities and E.G.O:
+   - E.G.O [HE] : Dimension Shredder Yi Sang
+   - E.G.O [TETH] : Wishing Cairn Yi Sang
+   - 3★ : Effloresced E.G.O::Spicebush - Yi Sang,
+     Blade Lineage Salsu Yi Sang
+   - 2★ : Seven South Section 6 Yi Sang
+   - 1★ : LCB Sinner Yi Sang
+
+3. New Identity Extractions:
+The following Identities are newly added to the list of Identities that can be Extracted.
+   - 3★ : R Corp. 4th Pack Rhino Meursault
+   - 2★ : Zwei South Section 5 Rodion
+
+1/5
+
+PROJECT MOON
+Update Contents
+
+4. New Content <Mirror Dungeon 2 Hard>
+
+Please refer to the game's Steam News page for 
+details regarding Mirror Dungeon 2 Hard.
+- [June 30th] July 6th New Content - Mirror of Mirrors Hard
+- [July 10th] July 13th New Content -
+Mirror Dungeon 2 Hard 2nd Notice
+
+5. Major Changes
+ 
+► Sanity will now be reduced upon using Sinners' starting E.G.O
+※ Buffs are planned for certain starting E.G.O's upon
+July's scheduled 4th Uptie & Threadspinning Tier 2 Update.
+
+<Aims>
+・Base E.G.O
+Currently, the base E.G.O Sinners have by default costs no SP to use
+and requires relatively few E.G.O resources, while still having similar 
+Clash powers and effects as other E.G.O. To balance the base E.G.O
+with the others, we are planning to add an SP cost to them, and
+adjust some base E.G.O skills and passives that are considered to be weak.
+
+Sanity -10           Sanity -15         Sanity -20
+
+Yi Sang - Crow’s Eye View,           Hong Lu -           Faust -
+Don Quixote -                         Land of Illusion     Representation
+La Sangre de Sancho,                                                  Emitter
+Ryōshū -
+Forest for the Flames,
+Meursault -
+Chains of Others,
+Heathcliff - Bodysack,
+Ishmael - Snagharpoon,
+Rodion - What is Cast,
+Sinclair -
+Branch of Knowledge,
+Outis - To Páthos Máthos,
+Gregor - Suddenly, One Day
+
+2/5
+
+PROJECT MOON
+Update Contents
+
+5. Major Changes
+▶ Changes to Faust E.G.O - Representation Emitter’s Coin Effect and Passive
+<Aims>
+- Faust's Base E.G.O [Representation Emitter] We plan to adjust Faust's base E.G.O as it is considerably more powerful than the other base E.G.O. In addition, we have decided to adjust the significant SP heal effect her base E.G.O has in order to prevent her from being considered an absolute must in gameplay contents.
+
+1) Coin Effect
+- Threadspinning Tier 1
+Before: [After Attack] Heal 6 SP for all allies
+After: [After Attack] Heal 8 SP for 3 other allies with the lowest SP
+
+- Threadspinning Tier 3
+Before: [After Attack] Heal 12 SP for all allies
+After: [After Attack] Heal 10 SP for 3 other allies with the lowest SP
+
+2) Passive
+Before: Attack Skill’s Final Power +2. If 10+ turns into the battle, gain 2 Protection every turn, but lower Attack Skill Final Power by 2.
+After: If an enemy is staggered during this unit’s attack, 1 ally with the lowest SP has +2 Heal Efficiency next turn. (3 times max per turn)
+
+▶ Adjusted amount of SP regained when defeating an enemy of higher Level depending on Level difference
+1) Defeated by this unit
+- Before: Base 10 SP regained, additional 10 SP regained per 1 Level difference
+- After: 10 SP regained regardless of Level difference
+
+2) Defeated by an ally
+- Before: Base 5 SP regained, additional 5 SP regained per 1 Level difference
+- After: 5 SP regained regardless of Level difference
+
+3/5
+
+PROJECT MOON
+Update Contents
+
+5. Major Changes
+▶ Changes to terminology
+- Before: Abnormality Encounter
+- After: Focused Encounter
+
+6. Bug Fixes and Improvements
+- Fixed an issue when defeating an enemy with certain Identity Skills would cause its VFX to linger
+- Fixed an issue where speeding up Sunshower E.G.O Yi Sang’s E.G.O Corrosion would cause numbers to appear abnormally (a visual-only issue)
+- Fixed an issue where some E.G.O cinematic SFX would linger after it is completed
+- Fixed an issue where players sometimes could not progress to the next turn (Including when effects of Gifts such as Eclipse of Scarlet Moths would leave no living enemies on the stage) at the start of the turn
+- Fixed an issue where no damage numbers would display when a unit dies from a status effect and the camera wouldn't focus
+- Fixed an issue where Enemy Killed Voiceline would not play if a different animation than Inner Gate Elbow Strike's 4th animation killed the enemy
+- Abnormality - Fixed an issue where certain VFX for 'So That No One Will Cry' was missing
+- Fixed an issue where certain enemy skill VFX did not play as intended
+- Abnormality - Fixed errors in choices event of 'Blubbering Toad'
+- E.G.O Gift - Fixed an issue where E.G.O Gift Compendium did not feature Entry Ticket and Golden Entry Ticket
+- Fixed an issue where 'Lunar Memory' effect would not persist in battles with multiple enemy phases
+- Mirror Dungeon Shop - Fixed an issue where choosing to heal 1 Sinner would choose incorrectly
+- Lobotomy E.G.O.:: Red Sheet - Fixed an issue with Sinclair’s Talisman effect activation
+- Abnormality - Fixed an issue where the 'Doomsday Clock’ sometimes skip certain combat phases
+- Abnormality - Fixed an issue with the summon timing of “Fairy Wine”, which is a summon of 'Fairy Gentleman'
+- Changed Abnormality events to gain Costs in Hell's Chicken 3.5-9, 3.5-10 to different events
+- Before: Hurting Teddy Bear, Skin Prophet, kqe-1j-23
+- After: Brazen Bull, Monkey Tree, Rose Hunter
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 July 20th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+  - The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

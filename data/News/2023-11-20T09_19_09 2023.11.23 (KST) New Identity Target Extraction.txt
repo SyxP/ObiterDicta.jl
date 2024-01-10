@@ -1,0 +1,132 @@
+
+
+LIMBUS COMPANY
+The Middle Little Sister
+Don Quixote
+
+SKILL 1
+Checking the Book
+[On Use] Heal SP on self
+I [On Hit] Inflict Bleed
+II [On Hit] Inflict Bleed
+
+SKILL 2
+Proof of Loyalty
+[Combat Start] This Skill gains Offense Level by
+(highest A-Reson.X).
+If the highest A-Reson is Envy A-Reson, boost
+Offense Level gained by the above effect
+Boost Offense Level gain from the above effects further in
+Focused Encounters under a certain Participant Limit
+I [On Hit] Inflict Bleed
+II [On Hit] Inflict Damage Down
+
+SKILL 3
+A Just Vengeance
+[Combat Start] This Skill gains Offense Level by
+(highest A-Reson.X).
+If the highest A-Reson is Envy A-Reson, boost
+Offense Level gained by the above effect
+Boost Offense Level gain from the above effects further in
+Focused Encounters under a certain Participant Limit
+I [Heads Hit] Inflict Bleed
+II [Heads Hit] Inflict Bleed
+III [Heads Hit] Inflict Bleed
+IV [After Attack] If target is defeated,
+1 ally with the least SP heals SP
+
+ENTITY INFO
+OFFENSE
+Multifold Retribution
+[Combat Start] If at X+ Envy A-Reson including this
+Skill, use 'A Just Vengeance' as Counter.
+Upon activating the above effect,
+the Skill's affinity is changed to Envy.
+I [On Hit] Lower Stagger threshold on self
+II [On Hit] Lower Stagger threshold on self
+
+PASSIVE
+Vengeance Tattoo
+* Gain Envy DMG Up next turn every time the enemies
+strike an ally(including this unit) X times.
+* At Turn End, apply Vengeance Mark to 1 unit that dealt
+the most Skill damage to an ally.
+* If this unit's main target has Vengeance Mark, gain Coin Power
+
+SUPPORT PASSIVE
+Favoritism
+1 ally with the lowest Max HP gains Blunt DMG Up next turn
+every time the enemies strike an ally(not including this unit)
+X times.
+
+Vengeance Mark
+Applied to the unit that dealt the most damage
+to an ally.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+**This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+CAUTION
+CAUTION
+CAUTION
+
+The Middle Little Brother
+Meursault
+
+IDENTITY INFO
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+SKILL 1
+We Remember
+[Clash Lose] Gain Envy DMG Up next turn
+I On Hit] Inflict Bleed
+II [On Hit] Inflict Bleed
+
+SKILL 2
+Chains of Loyalty
+[Combat Start] Apply Envy Power Up to allies
+adjacent to this unit on the Dashboard.
+Apply Envy DMG Up as well when selecting
+Envy affinity Skills from the affected Skill Slots
+I [On Hit] Inflict Bleed
+II [On Hit] Inflict Bleed
+
+SKILL 3
+Recording
+At X+ Envy Reson, gain Coin Power
+At Y+ Envy A-Reson, gain Coin Power
+I [On Hit] If target has 'Vengeance Mark',
+inflict Plus Coin Drop next turn
+II [On Hit] If target has 'Vengeance Mark',
+inflict Envy Fragility next turn
+
+PASSIVE
+Loyalty
+At Turn End, apply Vengeance Mark to 1 unit that dealt 
+the most Skill damage to an ally.
+If this unit's main target has Vengeance Mark,
+gain Final Power
+If there is another surviving ally from the Middle other than
+this unit, this unit and the surviving ally from the Middle
+with the least SP both heal SP at every Turn End
+
+SUPPORT PASSIVE
+One Family
+1 ally with the least SP heals SP at Turn End if there is another
+ally from the same Faction
+
+Vengeance Mark
+Applied to the unit that dealt the most damage
+to an ally.
+
+DEFENSE
+Multifold Retribution
+If at X+ Envy A-Reson including this Skill,
+gain Coin Power
+I [On Hit] Inflict Bleed
+II [On Hit] Inflict Bleed
+
+Copyright © 2022 All rights reserved by Project Moon
+

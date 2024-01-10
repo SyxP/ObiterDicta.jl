@@ -1,0 +1,70 @@
+
+
+
+
+Issues and Errors Currently Being Fixed
+
+Greetings, Dear Manager.
+
+We are currently in the process of identifying and resolving issues that have emerged with the Apr 27 scheduled update. We apologize for the inconvenience caused during the event period.
+
+Fixes for the issues listed below will be implemented with the May 4 scheduled update.
+
+The fixes will be coming in a scheduled update instead of a hotfix for the following reason. Earlier, we released a hotfix to address a number of issues. However, the hasty adjustments caused new issues in the process. Therefore, we deemed that sufficient testing will be required to ensure the bug fixes won't result in more issues before releasing the update. Please understand; we will try to see to it that the same problem does not occur in the future.
+
+We once again apologize for the inconvenience caused by the issues; we will provide compensation to all players. Please refer below for the list of issues being worked on and details about the compensation.
+
+1/4
+
+PROJECT MOON
+List of Fixes and Improvements
+
+- Issue with skill slot additions and buff applications at turn start
+  - Enemy levels in Hell's Chicken dungeons occasionally being set to wrong values
+  - Issue where the Speed value of newly generated Abnormality parts is set to 0
+  - Issue where skill descriptions during Uptying and Threadspinning protrude through the UI area
+- Identity Details: Issue where pressing 'back' after viewing an Identity story causes the UI to malfunction
+  - Identity & E.G.O Details: Layout adjustments for locked skill and passive boxes
+  - E.G.O Details: Issue where the info of locked passives cannot be viewed
+- User Info: Issue where the 'change artwork' button doesn't work for R.B. Sous-chef Gregor
+- Driverside: Issue where an invisible Hell's Chicken banner is selected from Refraction Railway and Luxcavation screens
+- Issue where the report UI is displayed abnormally when pressing the report button on the server error popup
+- Issue where the passive ability "Coldness" of the E.G.O Rime Shank for Rodion applies the effect to targets with just 1+ Sinking rather than 5+ Sinking
+- Refraction Railway: Issue where the pre- or post- artwork setting selected by the user is not applied
+
+2/4
+
+PROJECT MOON
+List of Fixes and Improvements
+
+- Combat: Issue where the battle announcer voicelines are not played for certain situations
+- Combat: Add battle announcer cues for effective or ineffective attacks
+- Combat: Issue where the power value to be displayed on the UI is set as a negative number during an unopposed attack (No systemic issue)
+- Combat: Issue where the coin UI does not work properly during an unopposed attack if the power value set on the UI is below 0
+- Combat: Adjust camera work for one-on-one clashes
+- User Info: Issue where the currently set artwork cannot be selected in the artwork selection popup
+- User Info: Remove 'copy' button from friends' profiles
+- Enemy staggered line no longer plays during the execution of R.B. Chef de Cuisine Ryōshū's skill “I Can Cook Anything”
+- Issue where unlocked info in an Abnormality's Encyclopedia entry is shown as locked when forfeiting battle
+- Improvements for frame settings on PC
+- Issue where units with full HP can be targeted by skills that heal low-HP allies ※
+
+(Items marked with a ※ symbol are issues that are expected to take a considerable amount of time to resolve; they will be addressed in an update later than May 4th.)
+
+3/4
+
+PROJECT MOON
+Compensation
+
+x1000
+
+Content: Lunacy x1000
+Date: Around Apr 28 16:30 (KST)
+- Can be redeemed once per account
+
+- You can claim the item through the in-game mail system until 2023 May 11 23:59(KST). (Mail Validity Period: 7 days)
+
+4/4
+
+PROJECT MOON
+

@@ -1,0 +1,17 @@
+[Fixes for In-game Text Errors]
+
+Hello.
+This is Project Moon.
+
+We have confirmed various errors related to the in-game text and will work to fix them around 15:00 (KST). 
+
+<Errors>
+- Fixed an issue where the Japanese version of Stage 4-1's story had the wrong speaker displayed for dialogue.
+- Fixed an error where Yi Sang's name in certain standing images was erroneously spelled as LEE SANG.
+- [Additional] Fixed an issue where part of Stage 4-17's Japanese translation was in Korean
+
+The fix for the previously noted issue of the game not functioning on Android must undergo the Android review process and is unlikely to finish within the day.
+As soon as the review is complete, we will do our best to get the update on live servers ASAP.
+
+We apologize for any inconvenience this may have caused.
+

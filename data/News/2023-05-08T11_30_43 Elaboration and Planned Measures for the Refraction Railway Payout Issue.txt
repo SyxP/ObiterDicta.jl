@@ -1,0 +1,66 @@
+
+
+
+Elaboration and Planned Measures
+for the Refraction Railway Payout Issue
+
+Good evening. This is Project Moon.
+
+We must apologize once again for upsetting
+our dear managers with the Refraction Railway reward payout issue.
+Although a similar error previously occurred
+with the in-game mail system, 
+we've failed to prevent another currency-related issue.
+We can only offer our deepest apologies for these mistakes
+and ask for you to muster whatever patience
+and understanding you may have.
+
+Our previous announcement did not explain the issue
+and plans for future improvement and standards in enough detail.
+As such, we would like to provide a deeper elaboration
+on the incident, a resolution to the Refraction Railway
+error compensation, and a further explanation of
+how we might handle similar issues in the future.
+
+1/3
+
+PROJECT MOON
+Elaboration and Planned Measures for the Refraction Railway Payout Issue
+
+Elaboration
+
+We would like to share the exact circumstances in which the Refraction Railway reward payout duplication occurred.
+We created a method to send unclaimed rewards in bulk to a user's mailbox once Refraction Railway Line 1's operating period closes, given that they spent the necessary Enkephalin Modules.
+While programming this method, certain portions were written to combine various rewards of the same type (e.g., Thread, EXP Tickets, Extraction Tickets, etc.) into single lump sums to prevent UI clutter and lists of extreme sizes.
+
+However, due to programming oversight, the number of items from a single stage could unintentionally be changed to the number of the *lump sum* of said items, resulting in duplication.
+The game servers keep the reward table updated with the proper source data and numbers at irregular intervals, however, when there are several data requests at the same time the table cannot be updated and the reward combination is inserted into whatever's missing.
+
+Thus, the reward table was missing updates to ensure a fair payout to all users, and duplication incidents occurred.
+
+This issue has been corrected as per our previous notice regarding it.
+
+For items received via the mail system, we programmed a method to log everything that is sent, which allows us to take action on erroneous compensation or in-app purchases.
+However, for gameplay rewards such as those received from the Refraction Railway, we do not have a similar function to track this data. Regretfully, this means that it is impossible for us to rectify the reward payout issue and balance user accounts.
+
+2/3
+
+PROJECT MOON
+Elaboration and Planned Measures
+for the Refraction Railway Payout Issue
+
+Future Measures
+___________________
+
+Please read our plans for how we will handle similar issues.
+Moving forward, we will ensure that even the process of receiving gameplay rewards is monitored and logged closely.
+(E.g. Time of Acquisition, Item Type, Quantity, Usage after Acquisition, etc.)
+To resolve future issues, we plan to create a system that will compare the original reward data with the items on the user's account to revoke any duplicate items.
+We will also take additional steps when reviewing our programming and implementation to prevent such issues in the first place.
+
+We apologize and are also working toward addressing the other issues and errors currently being reported.
+
+3/3
+
+PROJECT MOON
+

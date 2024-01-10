@@ -1,0 +1,39 @@
+
+
+Information on the error of Refraction Railway compensation
+
+Hello, this is Project Moon.
+
+Since the update on May 4, we have confirmed that additional Refraction Railway compensation will be paid to some managers.
+
+The problem was caused by the change of the compensation table under certain conditions due to the code added during the 5/4 update, and we have identified the current cause and completed the error correction.
+
+In the case of this error, it is a compensation that is received immediately, not by mail, so we're very sorry to say that it is impossible to identify and retrieve the payment details at the moment.
+
+In the case of mail, after the problem that mail items were paid twice, the compensation payment history was saved to make it possible to inquire and retrieve.
+
+However, this error did not take into account the above duplicate payment problem on the Refraction Railway, so we did not save a separate detailed log of the compensation history. As a result, additional paid compensation cannot be recovered at the moment.
+
+We sincerely apologize for the inconvenience caused in using the game due to the problem and for causing concern to the manager once again.
+
+From now on, we will record the item collection log on all items so that we can take appropriate recovery measures when the same problem occurs.
+
+We would like to offer you a small reward, although it's not enough for the disappointment you must have been felt.
+
+We would appreciate it if you could refer to the details of the compensation below.
+
+PROJECT MOON
+Reward payment announcement
+
+Content: Deacaextraction Ticket x 3
+Date: Around May 8 13:30 (KST)
+
+- Can be redeemed once per account
+- You can claim the item through the in-game mail system until 2023 May 18 09:59(KST). (Mail Validity Period: 7 days)
+
+Once again, We're apologize for the inconvenience in using the game.
+
+We'll do our best to show you better performances in the future.
+
+PROJECT MOON
+

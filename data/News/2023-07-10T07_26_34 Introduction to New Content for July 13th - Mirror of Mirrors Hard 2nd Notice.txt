@@ -1,0 +1,113 @@
+
+
+
+
+July 13 New Content -
+Mirror of Mirrors Hard Difficulty 2nd Notice
+
+Greetings, dear manager.
+
+With the July 13th, 2023 (KST) update, new content <Mirror of Mirrors Hard Difficulty(Mirror Dungeon 2 Hard)>, will be added to the game. In this post, we will describe the changes and additions that have been made since our last notice.
+
+- Period: After July 13 12:00 (KST) Update
+- Requirements: Clear Mirror of Mirrors (Mirror Dungeon 2) on Normal Difficulty
+- Description: Play Mirror Dungeon 2 Hard to earn a large amount of Battle Pass XP!
+
+NOTE
+
+Please note that the Weekly Bonus is not reset upon this update. Managers seeking to apply the Weekly Bonus to "Mirror Dungeon Hard Rewards", please take care to not use up their Weekly Bonus between July 13th 6:00~9:59(KST)
+
+1/4
+
+PROJECT MOON
+New Additions and Major Changes
+
+▶ Starting Cost Adjusted
+
+Starting Cost will be adjusted from 400 to 200.
+
+▶ Deployment Cost Adjusted
+
+At the start, at Shops, and at Rest Stops, 
+Costs of all Identities under 3 stars will now be adjusted to 0.
+
+<Intent>
+Our goal was to encourage experimentation to enhance synergy 
+between the current loadout, E.G.O Gifts, and Skill changes, 
+while reducing anxiety caused by adjusting or rearranging the 
+starting composition in the middle of a run.
+
+2/4
+
+PROJECT MOON
+New Additions and Major Changes
+
+▶ Unpredictable Future - Fixed Encounters
+Shops and Rest Stops will now appear at fixed locations.
+- Shops : First room of F2, First room of F4, First room of F5, and the room immediately before the Boss fight
+- Rest Stop : First room of F3
+
+<Intent>
+There were instances in which Unpredictable Future prevented players from visiting a Shop, therefore making them unable to use their saved up Cost. This change was made to prevent such an occasion.
+
+▶ Floor Buffs Adjusted
+Buff effects applied to each floor will be adjusted based on difficulty.
+
+▶ Floor-based Gift Rarity categorization
+The Floor-based range of Gift Rarities will be adjusted.
+- F1 ~ F3 : Rarity 1 ~ Rarity 2 E.G.O Gifts
+- F4 ~ F5 : Rarity 3 ~ Rarity 5 E.G.O Gifts
+
+3/4
+
+PROJECT MOON
+Lobotomy Corporation
+LIMBUS COMPANY
+
+New Additions and Major Changes
+※ The following changes are applied to Mirror Dungeon 1, 2, and 2 Hard.
+
+▶ Added an option to refuse an E.G.O Gift
+An option to refuse an E.G.O Gift has been added.
+
+▶ Cost gained and E.G.O Gift
+spawn rate upon battle completion
+Cost gained and E.G.O Gift spawn rate upon
+battle completion will be adjusted as follows
+
+Cost gained           E.G.O Gift
+               spawn rate
+Normal         25                5%
+Encounter
+Focused        30                75%
+Encounter
+Risky          50                35%
+Encounter
+Floor Boss     (Depends on Floor)    100%
+               50~100
+
+▶ E.G.O Gifts adjusted
+The following E.G.O Gifts' tiers and effects
+will be adjusted as follows.
+
+<Milepost of Survival>
+- Rarity : 3 → 2
+- Effect : When moving to the next floor,
+all Identities heal by 12.5% of Max HP, and gain 100 Cost.
+→ When moving to the next floor,
+all Identities heal by 8% of Max HP, and gain 87 Cost.
+- Reason : If this Gift spawned on the 4th floor onward,
+it would activate only once. Thus, its Rarity was lowered
+and its effects adjusted accordingly.
+
+<Lunar Memory>
+- Rarity : 4 → 5
+- Effect : All type and affinity resistances of enemies
+(for Abnormalities, all Parts) change to 'Fatal.' → (Unchanged)
+- Explanation : The gift's Rarity will now reflect its powerful
+effects, and will now spawn less frequently.
+
+4/4
+
+PROJECT MOON
+

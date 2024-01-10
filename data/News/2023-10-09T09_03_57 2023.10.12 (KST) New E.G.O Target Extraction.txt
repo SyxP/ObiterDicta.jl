@@ -1,0 +1,40 @@
+
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+LIMBUS COMPANY
+Vajrayana: EGO INFO
+Heathcliff
+*This image shows the E.G.O's specifications at its maximum Threadspinn Tier.
+*This image is for reference only; actual details subject to change.
+E.G.O AWAKENING SKILL
+Vajrayana Tad Rupam
+[Before Attack] Ax +X SP, +Y Atk Weight
+[On Hit] Inflict X Attack Power Down next turn
+[After Attack] Heal X SP for 4 other allies with the least SP
+E.G.O CORROSION SKILL
+Vajrayana Tad Rupam
+[Indiscriminate] Targets randomly
+[Before Attack] At X- SP, +X Atk Weight
+[On Hit] Inflict X Defense Level Down to 1 other ally
+[On Hit] Gain X Defense Level Up next turn
+[On Hit] Gain X Damage Up next turn
+[Tails Hit] Heal X SP on self
+[Tails Hit] Inflict X Fragile
+E.G.O PASSIVE
+Dhyana
+Raise Max HP by X% of this Unit's base Max HP when recovering from Staggered state.
+Then, heal by X% of current Max HP. If at less than Y% of current Max HP, heal even more HP.
+(X times per encounter.)
+At Combat End, revert to base Max HP. Current HP value will be adjusted to reflect
+the HP percentage at the time of Combat End.
+Copyright (C) 2023 All rights reserved. Project Moon
+

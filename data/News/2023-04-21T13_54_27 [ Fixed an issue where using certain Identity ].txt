@@ -1,0 +1,4 @@
+[ Fixed an issue where using certain Identity skills could stop the game from progressing ]
+
+The issue was addressed quickly as it could be resolved by editing the text from the server-side and did not require building a new client version. We apologize for the inconvenience.
+

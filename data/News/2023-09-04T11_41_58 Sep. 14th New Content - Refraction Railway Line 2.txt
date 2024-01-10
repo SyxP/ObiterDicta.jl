@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+LIMBUS COMPANY
+
+Sep. 14th New Content - Refraction Railway Line 2
+
+Greetings, dear Manager.
+
+On September 14th, 2023 (KST), new content <Refraction Railway Line 2> will be added to the game.
+
+<Requirements>
+Clear Main Story 3-22
+
+<Event Description>
+• You will face 9 highly difficult encounters over the event period. More rewards can be claimed the further you progress into the Refraction Railway.
+• If you have achieved certain conditions at the time of final stage completion, you will be rewarded with a Special Decorative Banner.
+• Refraction Railway Line 2 will end with the start of Refraction Railway Line 3.
+
+1/7
+
+PROJECT MOON
+
+Refraction Railway Line 2
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- <Refraction Railway Line 2> will open after completing Main Story 3-22, and can be accessed via the 'Drive' menu.
+
+- Line 2 will feature a total of 9 high—difficulty encounters. There are a total of 8 Stations, and upon completing the 8th Station (Transfer Station), thus completing a single Revolution(and at 1 or more Revolutions), the 9th Station(Terminal Station) will activate.
+
+- As long as Line 2 is active, it can be accessed anytime without spending any resources. Line 2 will close upon the opening of <Refraction Railway Line 3>.
+
+- You can spend a certain number of Modules(only the first time) at the Lost & Found to claim your Refraction Railway rewards.
+
+- Upon entering, you will choose your Identities and E.G.O. to begin the expedition with. Unlike other combat-based content, any changes made to your Identities and E.G.O.’s levels, Uptie Tiers, and Threadspinning Tiers after starting the run will not immediately be reflected on your active team in the Railway. The upgrades will be applied upon beginning a fresh new run, however.
+
+2/7
+
+PROJECT MOON
+Combat Details
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- All encounters will be Focused Encounters where you, the Manager, will manually match your allies' skills against the enemies' skills.
+
+- A maximum of 7 Sinners may enter an encounter. Although you may do so with fewer than 7 Sinners, they will not gain additional Skill Slots.
+
+※ Intent: In Line 1 and other encounters, selecting fewer than 7 Sinners meant that each Sinner could receive more than a single Skill Slot.
+(Example: Selecting 5 Sinners in a Focused Encounter with max 7 Sinners meant that a new Skill Slot would be added with every turn, eventually adding up to 7 Skill Slots)
+
+In Line 2, Skill Slots will be identical to the number of selected Sinners.
+(Example: Selecting 5 Sinners in a Focused Encounter with max 7 Sinners means that no new Skill Slot would be added, and will remain at 5 Skill Slots)
+
+The previous system where each turn added a new Skill Slot added an element of uncontrollable randomness, which meant that unintended, unlucky retries could occur in this endgame content.
+
+After applying this method, we will analyze play data and experiences and take into consideration any feedback to evaluate if the game systems are working as intended or if the changes made the experience less enjoyable.
+Based on this data, we will continue to adjust our systems to provide our users with new enjoyable endgame content in the future.
+
+3/7
+
+PROJECT MOON
+Combat Details
+
+- The Identities' HP, SP, Speed, Skills on the Dashboard, used Skills of individual Identities, and remaining Skills will carry over to the subsequent encounter.
+
+- Starting a new stage loads in the information saved from the last, and the Speed of your Identities & Enemies will be saved.
+
+  - Forfeiting a stage will revert you to the state immediately before entering that Station.
+
+- Your Identities' HP, SP, Speed, Skills on the Dashboard, Used skills, and enemy Speed at the start of the stage will not change upon forfeiting and re-entering a stage.
+
+※ Intent : Before this, the goal of the players was to repeat every stage multiple times and reroll Skill Slots until an ideal set of skills was rolled for the best possible result.
+
+However, we have determined that having to reroll and reload every single encounter only caused unintended exhaustion and a sense of frustration.
+
+Therefore, we decided to modify the system so that users wouldn't have to reroll every single stage to get an ideal result. In the first turn of the first stage of Refraction Railway Line 2, it is possible to reroll the first set of Skills by canceling Railway entry and restarting.
+
+- Upon defeat, you may either revert to the state immediately before entering the stage or continue with the remaining IDs.
+  Should you choose to continue,
+  your enemies' HP will not recover, and the remaining HP percentages of your enemies in the stage will be displayed above the respective nodes.
+  
+- You can not change your Identity or E.G.O loadout once the Refraction Railway Run has started.
+
+4/7
+
+PROJECT MOON
+Content Progression
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- Total Turns spent before reaching the current stage will be displayed on top of the screen.
+
+- After completing the 8th Station(Transfer Station), you will gain 1 Revolution Count and return to the 1st Station. Revolution Count will be displayed on top of the screen alongside Total Turns.
+
+- You will be offered to choose a single beneficial effect for your allies at the end of every Revolution. However, the effect selected in the Revolution immediately before this one cannot be selected.
+
+- You will be offered to choose a single beneficial effect for your enemies at the end of every Revolution. However, no single effect can be selected more than once. Once all effects have been chosen at least once, they will become available once again. Also, 1 fixed effect will be applied to the enemies with every Revolution.
+
+- You can revive 1 Identity after every 5 Revolutions.
+
+- The 9th Station(Terminal Station) will open after completing your first Revolution, and can be accessed from any Station.
+
+- Your Refraction Railway records will be updated after completing the 9th Station(Terminal Station).
+
+5/7
+
+PROJECT MOON
+Claiming Rewards
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- After clearing a stage for the first time during the event period or meeting a certain milestone, rewards will be sent to the "Lost & Found". To access the "Lost & Found" for the first time, a certain number of Enkephalin Modules will be required. Rewards that can be claimed afterward are free of charge.
+
+- You can earn various level-up and extraction currencies here. Special rewards include [Level Boost Ticket III], [Season 2 - 3* Guarantee Deceaxtraction Ticket], [Refraction Railway Line 2 Themed Business Card Deco].
+
+Records
+
+- Your stats will be recorded upon clearing the 9th Station(Terminal Station), and can be viewed from your Logs.
+
+- Visible in the Logs are: Dates, Revolution Counts, Clear Turns, and damage dealt by Identities & E.G.O Used.
+
+- You can view only your own records in the Logs.
+
+- The higher your Revolution Count, the higher the ranking. The run with the lower Turn Count will be valued higher between two runs with the same Revolution Counts.
+
+6/7
+
+PROJECT MOON
+Special Decorative Banner
+
+Basic Banner                Decorative Banner     Special Decorative Banner
+
+※ The above image is for demonstration purposes only 
+and is subject to change before the official release.
+
+· Upon meeting a specific condition and completing 
+the final stage, you can earn the Refraction Railway 
+Line 2 Commemorative Banner [Line 2 MöBIUS].
+The harder the conditions, the more elaborate your Banner will be.
+
+※ However, after a certain number of Final Revolution 
+Count and Total Turns, you cannot earn a Decorative Banner.
+
+· If you earn your Refraction Railway Line 2 Commemorative Banner
+before Season 2: Reminiscence ends, a unique decoration
+will be added to your banner.
+
+· Your highest record will be displayed on the Banner.
+
+※ Please note that the above contents are subject 
+to change prior to release according to tests.
+
+7/7
+
+PROJECT MOON
+

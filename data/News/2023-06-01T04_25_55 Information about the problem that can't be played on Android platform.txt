@@ -1,0 +1,29 @@
+[Information about the problem that can't be played on Android platform]
+
+Hello. This is Project Moon.
+
+Currently, I've seen the game stop during a battle on the Android platform.
+
+The details are as follows.
+
+Phenomenon
+- On all battle stages, if the character dies, the directing will be stopped and the game will not proceed
+
+Cause
+- Test code present on Android platform
+- Test codes were used to implement new content and separate exception handling was omitted
+
+Solution
+- Client rebuild on Android platform
+
+We apologize for the inconvenience.
+After building the Android version, we will inform you additionally as soon as it passes the screening and updates.
+
+As an apology, compensation for errors will be provided for all players.
+Please refer below for more details.
+
+[Compensation]
+- Content: Lunacy x1000
+- Date: Around June 1 12:30 (KST) (Can be redeemed once per account)
+- You can claim the item through the in-game mail system until 2023 June 15 09:59 (KST). (Mail Validity Period: 7 days)
+

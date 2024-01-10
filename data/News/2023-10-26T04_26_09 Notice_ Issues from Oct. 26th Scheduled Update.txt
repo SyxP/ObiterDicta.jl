@@ -1,0 +1,42 @@
+
+
+Notice: Issues from
+Oct. 26th Scheduled Update
+
+Hello, this is Project Moon.
+
+The following issues have been identified in the Oct. 26th Scheduled Update, and will be corrected by 14:30 today.
+
+Additional downloads will occur after the fix is deployed, so please restart the game to download the update.
+
+Fixes
+
+1. An issue where Meursault E.G.O - Regret's Minus Coin Power was at 15, and not at 10 as intended upon Threadspinning Tier 4
+
+Before: At Threadspinning Tier 4, Minus Coin Power was at 15
+After: At Threadspinning Tier 4, Minus Coin Power is at 10
+
+We have neglected to further proofread the Coin Values in our E.G.O internal testing process, causing incorrect values to be applied to the game.
+We apologize for the confusion that this issue may have caused.
+
+2. An issue where certain strings were missing from the EN, JP versions of the Hook Office Fixer: Hong Lu's Identity Story
+
+The function to show the Title screen again upon new download is currently disabled, so that an issue where the UI does not show properly due to incorrectly loading resources could be prevented.
+Please note this information for your download.
+
+We apologize for the inconvenience.
+
+1/2
+
+PROJECT MOON
+10/26 Update Error Compensation
+
+Compensation: Lunacy x 300
+Recipients: All users whose accounts were created before 2023.Nov.09. 09:59
+Can be claimed once per account
+When: After 2023.Oct.26 14:30 (KST)
+
+2/2
+
+PROJECT MOON
+

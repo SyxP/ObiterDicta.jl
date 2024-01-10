@@ -1,0 +1,46 @@
+
+
+Notice : Refraction Railway Line 2 Issues Hotfix & Reward Claim Issues
+
+Greetings, Dear Manager.
+
+We would like to inform you about the Refraction Railway Line 2 Issues Hotfix and the Reward Claim issues.
+
+1. Issues Hotfix
+
+We have identified an issue where, in Refraction Railway Line 2, including a Support Unit in your loadout caused some parts of the game to malfunction.
+
+<Issue Details>
+- An issue where E.G.O equipped by the Support Unit disappears
+- An issue where, if a disappeared E.G.O is equipped in the Dashboard during a Refraction Railway Line 2 run, the game would not progress
+
+<Issue Causes>
+These issues occur when the player does not own the E.G.O equipped by the Support Unit
+
+Since this issue can be corrected without submitting an update for review, the fix has been deployed with the Sep. 15th 10:00 (KST) hotfix.
+
+If you’ve started a new run after 10:00 (KST), this issue will have been fixed.
+
+If you are still in the middle of a run and the above issue continues to occur, You can forfeit your current Refraction Railway Line 2 run and start anew without this issue.
+
+1/2
+
+PROJECT MOON
+Notice : Refraction Railway Line 2 Issues Hotfix & Reward Claim Issues
+
+2. Reward Claim Issues
+Around Sep. 15th at 10:00 (KST), the temporary pause on the Refraction Railway Line 2 Rewards Claim was lifted. This update requires approximately 400-500kb of additional download.
+If you have not downloaded this update, it is possible that unlocked rewards may not show in your Lost & Found.
+If that is the case, please restart the game and download the update, And verify in your Lost & Found that your rewards have been unlocked.
+
+Also, if you enter the Refraction Railway Line 2 after downloading this update on your Title Screen but without restarting the game, it is possible that your progress may not show due to data initialization failure.
+This issue is caused by the game not recognizing the updated data; please restart the game to fix this issue.
+
+We will inform you of the list of additional issues to be fixed in the next Scheduled Update Notice.
+
+We apologize for causing inconvenience to your enjoyment of our game.
+
+2/2
+
+PROJECT MOON
+

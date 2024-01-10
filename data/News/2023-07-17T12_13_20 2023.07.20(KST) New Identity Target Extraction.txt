@@ -1,0 +1,51 @@
+
+
+LIMBUS COMPANY
+신규원정 타겟추출 New Identity Target Extraction
+동남해항 5감독 Cinq South Season 5 Director 돈키호테 Don Quixote
+2023. 7. 20 (THU) 12:00 ~ 8. 3 (THU) 09:59 (KST)
+해당 인장의 추출 확률이 올라갑니다
+Higher extraction rates for the featured identities
+Copyright (C) 2023. All rights reserved by Project Moon
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+LIMBUS COMPANY
+Cinq South Section 5 Director
+Don Quixote
+
+ENTITY INFO
+Defensive
+[On Evade] Target loses SP
+
+PASSIVE
+A Noble Duel
+If Speed of all allies is higher than Speed of all enemies, this unit deals more damage based on the Speed difference between it and the slowest enemy.
+
+SUPPORT PASSIVE
+Dueling Request
+If Speed of all allies is higher than Speed of all enemies, the fastest ally deals more damage based on the Speed difference between it and the slowest enemy.
+
+SKILL 1
+Remise
+At X+ Speed, Coin Power +Y
+[Clash Win] Gain Haste next turn
+[On Hit after Clash Win] Inflict Bind next turn
+
+SKILL 2
+Flèche
+[On Use] Gain Haste next turn
+[Clash Win] Deal more damage based on Clash count
+[On Hit] Inflict Bind next turn
+
+SKILL 3
+Salut!
+At X+ Speed, Coin Power +Y
+[Clash Win] Deal more damage based on Clash count
+[On Hit] Declare Duel
+[On Kill] Heal SP on self
+
+Declared Duel
+In a clash between the unit that inflicted Declare Duel and the unit with the status, the declarer has X+ Clash Power, and gains Haste next turn after a successful attack. Effect linked when the unit that declared duel declares it on a different target. Replaced when another unit declares a duel.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+

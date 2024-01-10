@@ -1,0 +1,79 @@
+
+
+LIMBUS COMPANY
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+
+Holiday
+Outis
+
+E.G.O AWAKENING SKILL
+Holiday
+[On Hit] Trigger Tremor Burst
+[After Attack] Apply Damage Up for the Affinity with the highest Resonance count to 4 allies with the least SP
+[After Attack] Heal SP for 4 allies with the least SP
+
+E.G.O CORROSION SKILL
+Holiday
+[Indiscriminate] Targets Randomly
+[Before Attack] Lose HP equal to X% of Max HP
+[On Hit] Inflict SP damage
+[On Hit] Trigger Tremor Burst
+[On Hit] Inflict Fragility for the Affinity with the highest Resonance count
+[Tails Attack End] Gain Damage Up to the Affinity with the highest Resonance count
+
+E.G.O PASSIVE
+Fair Presents
+When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking. Then, inflict X Potency of the selected effect to 1 random enemy.
+
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Copyright (C) 2023 All rights reserved. Project Moon
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+CAUTION
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Holiday
+HEATHCLIFF
+ZAYIN
+
+E.G.O Awakening Skill
+
+Holiday
+[On Hit] Randomly select one of the following effects:
+Burn, Bleed, Tremor, Rupture, or Sinking.
+Then, inflict Potency of the selected effect next turn.
+Repeat the above process (X + (Highest Glut. A-Reason. count)) times.
+[On Kill] Randomly select one of the following effects:
+Poise Count, Charge Count, Haste, Offense Level Up, or
+Defense Level Up.
+Then, apply the selected effect to 2 random allies next turn.
+
+Holiday
+E.G.O CORROSION SKILL
+[Indiscriminate] Targets the unit with the most SP
+If the main target's SP is X or higher, gain Atk Weight
+[Before Attack] Inflict SP damage to target
+[On Hit] Randomly select one of the following effects:
+Burn, Bleed, Tremor, Rupture, or Sinking.
+Then, inflict Potency of the selected effect next turn.
+Repeat the above process (X + (Highest Glut. A-Reason. count)) times.
+
+Unlimited Hatred
+When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:
+- Inflict more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies
+with Skill effects or Coin effects
+- Gain more Poise and Charge Count with Skill effects or Coin effects
+
+E.G.O PASSIVE
+
+Copyright © 2023 All rights Reserved Project Moon
+

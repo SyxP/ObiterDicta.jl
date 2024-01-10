@@ -1,0 +1,48 @@
+
+
+
+Notice: Mirror Dungeon Starter Buff Placement Issue
+
+Hello, this is Project Moon.
+
+We write this notice to inform you of a fix for a certain Mirror Dungeon Starter Buff placement that was missing from our last notice.
+
+After the Dec. 14th Mirror Dungeon Normal Difficulty update, we realized that there was a data input error. That caused misplacements in [Established Trust] and [Perseverance].
+
+This issue has been fixed with the Dec. 21st Scheduled update, but this fix was missing from our last notice.
+
+1/3
+
+PROJECT MOON
+Notice: Mirror Dungeon Starter Buff Placement Issue
+
+<Issue>
+The placements for the Mirror Dungeon #3 Starter Buff [Established Trust] and [Perseverance] were incorrect.
+
+Because of this issue, it may have appeared to Managers who engraved stars on only one of the two Buffs that one of the Buffs with engraved stars was suddenly gone.
+
+<Cause>
+This issue was caused by incorrectly inputted data when updating Mirror Dungeon #3 Normal Difficulty. This issue was fixed as we added the Secondary Buffs when updating Mirror Dungeon #3 Hard Difficulty. However, we did not include this fix in our list of fixes in our update notice.
+
+Please note that the contents of the engraved Buffs and effects are unchanged.
+
+We apologize for causing confusion and disturbance to your enjoyment of our game.
+
+We will more carefully check the changes in our update process to make sure that we have every detail included in our notices.
+
+2/3
+
+PROJECT MOON
+Mirror Dungeon Starter Buff Placement Issue Compensation
+
+x300
+
+- Compensation: Lunacy x300
+- Recipients: All users whose accounts were created before Dec. 28th 2023, 10:00
+- Can be claimed once per account
+- When: After Dec. 22nd 2023, 18:30 (KST)
+
+3/3
+
+PROJECT MOON
+

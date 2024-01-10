@@ -1,0 +1,142 @@
+
+
+
+
+
+
+November 2nd Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on November 2nd, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+※ For your gameplay plans, please note that Season 3 update maintenance will last from Nov. 16th 06:00 ~ 12:00 (KST).
+
+Update Contents
+
+1. [Target Extraction: Heathcliff]
+(Nov. 2nd 12:00 ~ Nov.16th 05:59 (KST))
+The following Identities will have increased odds of extraction.
+- E.G.O [HE] : Ya Śunyatā Tad Rupam Heathcliff
+- 3★ : Lobotomy E.G.O:⋅Sunshower Heathcliff,
+R Corp. 4th Pack Rabbit Heathcliff
+- 2★ : Seven South Section 4 Heathcliff,
+N Corp. Kleinhammer Heathcliff, Shi South Section 5 Heathcliff
+- 1★ : LCB Sinner Heathcliff
+
+1/6
+
+PROJECT MOON
+UI/UX Improvements
+
+1. Stage Info window improved
+
+Intentions: With the last update, Identities & E.G.O details UI was adjusted. These changes have been made to maintain the in-game design consistency.
+
+2. Function to input numbers when using items added
+
+Intentions: This function was added to alleviate the inconveniences when using high quantity of items at once.
+
+2/6
+
+PROJECT MOON
+Refraction Railway Line 2 Exploit Measures
+
+With the November 2nd (KST) Update, the deletion and withdrawal of abnormal play records and relevant rewards will be carried out. 
+Please refer to the notice posted on Steam for details. 
+- [Posted Oct. 23rd] Notice : Combat Error & Subsequent Refraction Railway Line 2 Measures
+
+In the previous notice, it was stated that abnormal records with 1 Cycle Count would also be subject to these measures. However, it was decided that on the first Cycle Count, players were capable of dealing much higher average damage, which meant that lower Total Turns were technically possible. This meant that withdrawing abnormal clear records from records with 1 Cycle Count ran the risk of affecting legitimate records as well. Also, it was unlikely that records with a single Cycle Count were used to set records. Therefore, records with a single Cycle Count will not be affected by this update. From now on, however, please understand that abnormal play records may be subject to restrictive measures regardless of intentions.
+
+► Records subject to restrictive measures
+(1) Records with Total Turns under abnormal clear record standards
+    - Cycle Count 2 : 16 or lower Total Turns
+    - Cycle Count 3 : 28 or lower Total Turns
+    - Cycle Count 4 : 42 or lower Total Turns
+    - Cycle Count 5 : 58 or lower Total Turns
+
+(2) Records with average damage per turn more than or equal to 1000
+According to the damage distribution of the logs we have collected, the highest possible average damage per turn is lower than 1000. However, we wanted to prevent normal records from being affected by the measures, so we have set the above conditions. A secondary withdrawal wave may occur in the future, after additional verification of the logs we have collected.
+We will inform you via a notice before taking such additional measures.
+
+► Restrictive measures
+    - Deletion of abnormal Refraction Railway Line 2 Records
+    - Withdrawal of the rewards obtained by the abnormal
+      Refraction Railway Line 2 Records
+
+※ Regardless of the existence of abnormal Refraction Railway Line 2 Records in an account, rewards obtained via legitimate Refraction Railway Line 2 Records will not be withdrawn. However, the record on the banners will be displayed based on the legitimate Refraction Railway Line 2 Record.
+    - Withdrawal of the Refraction Railway Line 2 Combat Error Compensation (1300 Lunacy)
+
+3/6
+
+PROJECT MOON
+Optimizations
+
+► Added [Render Scaling] option to Settings - Graphics menu
+- Game rendering scale will be adjusted based on [Low], [Medium], and [High] settings. This setting will affect the in-game FPS, device heat, and power drainage.
+- Please note that the [Render Scaling] option will initially be set to [Medium] on Mobile after the update.
+
+Bug Fixes & Improvements
+
+► Fixed an issue where Molar Office Fixer Outis's Support Passive applied to a random ally that met the conditions
+► Fixed an issue in the Refraction Railway Line 2 Station 5 encounter where the 'Charmed' debuff displayed an incorrect text in the first phase
+- Deleted 'Speed fixed to 1.' text
+► Fixed an issue where applying a defensive skill or an E.G.O skill to a skill slot already matched with an enemy Skill did not properly update the Clash orders
+► Fixed an issue where, upon acquiring an Identity or an E.G.O via non-extraction means(such as Yisang Exchange), viewing their details would cause the game to lock due to the lack of a 'go back' button.
+► Fixed an issue where dispensing Identities or E.G.O from the Dispenser and viewing their cinematics caused the images for other items in the Dispenser to appear completely white
+► Fixed an issue where, after acquiring the [Season 2] 3★ Guarantee Deacextraction Ticket, viewing the Extraction window did not display the relevant banners
+► Fixed an issue where the 'go back' button did not disappear on vertically long resolutions, and selecting that button caused the screen to glitch
+► Fixed an issue where E.G.O Gift Acquisition UI and in-combat E.G.O Gift list did not properly show the keyword tool tips
+► Fixed an issue where images did not show properly in the Mailbox under certain conditions
+► Fixed an issue where switching to the Window(main menu) did not display the relevant resources under certain conditions
+► Fixed an issue where, after Uptying an Identity to tier 3, backing out of the confirmation screen without pressing the 'confirm' button caused the Uptie Story to not play
+► Fixed an issue where, from the Identity Details window, pressing 'go back' button multiple times caused the going back animation to play as many times as the button was pressed
+
+4/6
+
+PROJECT MOON
+Future Fixes & Improvements
+
+▶ An additional window to confirm if the player wishes to spend Yisang in exchange for an Identity or E.G.O
+- Before: Selecting an Identity or E.G.O would immediately spend Yisang to acquire them without a confirmation window
+- After: Confirmation window will appear before purchasing an Identity or E.G.O with Yisang
+
+※ Please note that, at the moment, selecting an Identity or E.G.O in the Yisang Exchange window would exchange them immediately and spend 200 Yisang.
+
+Known Issues
+
+▶ Issues regarding the cinematic for acquiring an Identity from extractions
+- An issue where SFX did not play upon acquiring an Identity The code to load certain sound resources was missing. This issue will be corrected via the Nov. 9th Scheduled Update.
+
+- An issue where an incorrect cinematic played upon Identity acquisition This issue is caused by an incorrect cinematic being tied to the extraction cinematic. This issue will be corrected via the Nov. 2nd Scheduled Update. Regreat Faust's extraction animation will be adjusted via this update.
+
+▶ (JP Only) An issue where the texts in Settings - Graphics UI's [Render Scaling] option overlap We have identified an issue where some texts in the [Render Scaling] option UI text overlapped with the checkboxes. This issue will be corrected via the Nov. 9th Scheduled Update.
+
+5/6
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+X300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 Nov. 9th 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+  - The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+6/6
+
+PROJECT MOON
+

@@ -1,0 +1,139 @@
+
+
+
+
+
+December 7th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on December 7th, 2023 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction -
+[New Target Extraction: The Pequod Harpooneer Heathcliff & First Mate Yi Sang] (Dec. 7th 12:00 ~ Dec. 21st 10:00 (KST))
+
+Extraction rate increases for the following identities.
+- 3★ : The Pequod Harpooneer Heathcliff
+- 2★ : The Pequod First Mate Yi Sang
+
+2. New Identities Added
+The following are added to the list of extractable Identities.
+- 3★ : The Pequod Harpooneer Heathcliff
+- 2★ : The Pequod First Mate Yi Sang
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Active Effects UI in Combat Phase Toggle option added
+
+<ON>                                        <OFF>
+
+An option to display or hide Effects text UI in Combat Phase has been added to the game.
+
+Yi Sang - Sunshower E.G.O Level Adjustment Notice
+
+We have determined that, as it is now, Yi Sang's Sunshower E.G.O is much more powerful than other E.G.O of the same HE Levels.
+
+We decided that it would be better to adjust the Yi Sang Sunshower E.G.O's Level from HE to WAW than to reduce its capabilities to fit the other HE Level E.G.O.
+
+Yi Sang - Sunshower E.G.O Level adjustment will come into effect with the December 21st Scheduled Update.
+
+The resource cost needed for raising Yi Sang - Sunshower E.G.O's Threadspinning tiers will remain unchanged until the December 21st Scheduled Update.
+
+Please upgrade Yi Sang - Sunshower E.G.O before the December 21st Scheduled Update in order to use the current amount of resources for the upgrade before the E.G.O Level Adjustment comes into effect.
+
+We apologize for causing confusion to the Managers with this Yi Sang - Sunshower E.G.O Level adjustment.
+
+We will try our best to plan and produce E.G.O with proper capabilities and appropriate Levels to make the game more enjoyable, and to not disappoint the Managers.
+
+[Yi Sang - Sunshower E.G.O Level Adjustment Notice]
+- When: After Dec. 21st, 2023 (KST) Scheduled Update
+- Changes: Yi Sang - Sunshower E.G.O Level adjusted from HE to WAW
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed a mislabeling issue in Threadspinning Tier 4 skill effects for Ishmael E.G.O: 'Blind Obsession' upon [Attack End]
+     - Before : Apply 1 Pierce Damage Up and
+     1 Damage Up to 4 allies with the highest SP
+     - After : Apply 2 Pierce Damage Up and
+     2 Damage Up to 4 allies with the highest SP
+※ The texts have been adjusted to match the actual effects.
+
+▶ Fixed an issue where Ishmael E.G.O 'Blind Obsession' Corrosion Skill applied "Apply 2 Damage Up" only for this turn
+
+▶ Slightly raised the volume of the Canto 5 Final Dungeon Boss fight BGM
+
+▶ Fixed an issue where, if the player skipped the Credits, a fade-out animation would play and hide the characters' Names and Titles in the subsequent cutscenes.
+
+▶ (iOS, Android) Fixed an issue where using Ishmael's base E.G.O after clearing Canto 5 did not play the E.G.O voiceline
+
+▶ Fixed an issue where the 'Pierce Power Up' buff icon did not display
+
+▶ Fixed an issue where entering a certain cutscene under specific circumstances did not display the dialogue texts
+
+▶ Fixed an issue where, in the skill chaining phase, the arrow image resource did not load properly
+
+▶ Fixed an issue in the Story Dungeon F2 of Canto 5, where a certain Abnormality's 'Predation' skill would target the Sinners instead
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue in the Story Dungeon F3 of Canto 5, where a certain Abnormality's summoned unit resource did not disappear upon death
+
+▶ Fixed an issue in the Story Dungeon F3 of Canto 5, where if a certain Abnormality was defeated under specific circumstances, their summoned units did not die and players were unable to complete the combat encounter
+
+▶ Fixed typos in Abnormality Guides for Abnormalities appearing in the Story Dungeon of Canto 5
+
+▶ An issue where inaccurate voicelines played for certain Sinners in certain Choice Results in Story Dungeons
+
+▶ Adjusted settings so that, for the same server requests, "retry" is the only option for specific server requests that require a UI refresh
+
+▶ Added "On Death" VFX and SFX when a Sinner dies while equipped with a non-base Identity
+
+Known Issues
+
+▶ (Android, iOS) An issue where the Sinners' self-introduction cutscene was missing in a certain part of the Main Story Prologue Tutorials
+
+※ This issue has been corrected on the Steam Version, but because Mobile builds require us to go through the reevaluation process, it will be corrected with the Dec. 14th Scheduled Update.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content : Lunacy x300
+- Recipients : All users whose game accounts were created before 10:00 Dec. 14th, 2023 (KST)
+- When : After Dec. 07th (Thu) 12:00 (KST)
+- Can be redeemed once per Account
+- The compensation can be claimed from the in-game mailbox until Dec. 14th (Thu) 10:00 (KST). (Mail valid to claim for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

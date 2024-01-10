@@ -1,0 +1,94 @@
+
+
+LIMBUS COMPANY
+
+Seven South Section 4
+Faust
+
+ENTITY INFO
+
+SKILL 1
+Predictive Analysis
+Coin Power +X for every Y Rupture on target
+[On Hit] Inflict Rupture
+
+SKILL 2
+Dissect Target
+Coin Power +X for every Y Rupture on target
+[Clash Win] +X Rupture Count
+[On Hit] Inflict Rupture
+[On Hit] If target has X+ Rupture, inflict Weakness Analyzed next turn
+
+SKILL 3
+Profiling
+[On Use] Deal +X% damage for every Y Rupture on target
+[Clash Win] +X Rupture Count
+[On Hit] Inflict Rupture
+[After Attack] If target is Staggered or defeated, gain Haste and Slash Power Up next turn
+
+PASSIVE
+Before The Tea Cools...
+When attacking with a damage type the target is Weak or Fatal to, gain 1 Poise for each Rupture on target before the attack.
+
+SUPPORT PASSIVE
+Seven Association Tea Time
+1 ally with the fastest Speed deals more damage based on the target's Rupture when attacking with a damage type the target is Weak or Fatal to.
+If the ally is a Seven Association Fixer, deals further increased damage.
+
+Weakness Analyzed
+A random "Endure" or "Normal" resistance is weakened for one turn.
+
+Let's Wrap It Up
+[On Use] Gain Haste next turn
+
+DEFENSE
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Seven South Section 4
+Heathcliff
+
+SKILL 1
+Intuition
+- If target has X+ Rupture, Coin Power +Y
+  I [On Hit] Inflict Rupture
+  II [Heads Hit] Inflict Rupture
+  III [On Hit] Inflict Rupture
+  IV [Heads Hit] Inflict Rupture
+
+SKILL 2
+The Wrap-up
+- [Clash Win] Inflict +X Rupture Count
+  I [On Hit] Inflict X Rupture Count
+  II [On Hit] Inflict Defense Level Down next turn
+
+SKILL 3
+Forensics
+- If target has X+ Rupture, Coin Power +Y
+  I [On Hit] Inflict Rupture
+  II [Heads Hit] Inflict Rupture
+  III [Heads Hit] Inflict Rupture
+  IV [Heads Hit] Inflict Rupture
+  V [On Kill] Inflict +X Rupture Count against the enemy with the lowest Rupture Count
+
+PASSIVE
+Defensive
+[Guard]
+
+Instinctive Read
+When attacking a target with a damage type the target is Fatal to, inflict +X Rupture.
+If 4 or more surviving units, including this unit, are Seven Association Fixers, inflict +X Rupture.
+
+SUPPORT PASSIVE
+Connect The Dots
+1 ally with the highest Max HP inflicts +X Rupture when attacking a target with a damage type that the target is Fatal to.
+If the ally is a Seven Association Fixer, inflict +X Rupture.
+
+*The Identity's stats at max level and Uptime tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+CAUTION
+DEFENSE
+opyright © 2023 All rights reserved by Project Moon
+

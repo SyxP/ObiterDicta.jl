@@ -1,0 +1,49 @@
+
+
+Hotfix to be Released to
+Roll Back Changes to Sanity Gain/Loss
+
+Hello, this is Project Moon.
+
+We have decided to roll back Sanity gain and loss
+to be nearly the same as how it worked in previous versions.
+
+- Sanity gain on clash win will now act similarly to before.
+  (Amount: Base value 10, further raised
+  by 20% for every clash after the first)
+
+- Sanity loss on clash loss has been removed.
+
+- Other factors such as defeating enemies,
+  allies defeating enemies, or ally deaths will be adjusted to work
+  as they did in previous versions.
+
+We apologize for the faulty planning and premature implementation
+of the changes without sufficient testing causing
+unpleasant experiences to the players.
+
+We would like to apologize for going back
+on our previous notice as well.
+
+To account for the ease of gaining Sanity,
+we will try to approach the matter by encouraging
+consideration for strategic use of E.G.O, rather than implementing
+system rules to arbitrarily downadjust Sanity.
+
+As adjustments to the values can be applied without compiling
+new builds or going through market review processes,
+we will implement the change at 21:00 (KST) today.
+
+PROJECT MOON
+Compensation
+
+X1300
+
+Content: Lunacy x1300
+Date: Some time after 21:00, June 1 (KST)
+Can be redeemed once per account
+
+You can claim the item through the in-game mail system until 2023 Jun 15 09:59 (KST). (Mail Validity Period: 7 days)
+
+PROJECT MOON
+

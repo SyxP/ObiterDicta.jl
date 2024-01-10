@@ -1,0 +1,137 @@
+
+
+
+
+
+November 30th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on November 30th, 2023 (KST).
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. [Target Extraction: Outis]
+(Nov. 30th 12:00 ~ Dec. 14th 10:00 (KST))
+The following E.G.O and Identities will have increased odds of extraction.
+- E.G.O [Teth] Ya Śūnyatā Tad Rūpam
+- 3★ : Seven South Section 6 Director Outis
+- 2★ : G Corp. Head Manager Outis, Blade Lineage Cutthroat Outis
+- 1★ : LCB Sinner Outis
+
+1/5
+
+PROJECT MOON
+Update Contents
+
+2. Gradual Main Story & Battle Pass Updates
+▶ Main Story Canto 5-(Part 3) Unlocked
+- Unlock Conditions : Clear 5-35
+
+▶ Season 3 Limbus Pass - Bon Voyage (Part 3) Unlocked
+Battle Pass rewards from Lv.40 ~ Lv.120 will be unlocked.
+Max Pass Level+ EX Rewards will be unlocked.
+
+In the process of working on Canto 5-(Part 3), we have made a few changes to the project settings and the way the existing resources are loaded. No apparent changes have been made, however, and the resources will appear as usual. Additional downloads will occur in addition to the newly added resources. 
+The download sizes for each platform are as follows:
+
+- iOS: ~2.4GB
+- Android: ~3.2GB
+- STEAM: ~3.2GB
+
+These changes will not make the game take up more size in your storage. Please note that in this process,
+old files will be deleted, and new files will replace them.
+We apologize for the disturbance these changes may cause.
+
+Major Changes
+
+1. Detailed Skill Info UI summary option added
+Before: Every activated buffs and effects will show
+After: Show only 5 of the activated buffs and effects.
+If there are more than 5, only the number of additional activated effects will appear.
+
+- Intent: There was an issue before where, if too many buffs and effects were activated, they would clutter the screen and harm visual clarity. This made it difficult to focus on tide of the combat itself, so we have added an option to mitigate that issue.
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed typos in The Middle Little Sister Don Quixote's Identity Story.
+
+► Ryōshū E.G.O: Red Eyes - Fixed an issue where it had an incorrect resistance value to 'Lust' affinity
+   - Before : 0.75 (Endure)
+   - After : 0.5 (Ineff.)
+※ This E.G.O's affinity resistance was applied as 0.75 instead of 0.5, which is the correct E.G.O affinity resistance value for TETH E.G.Os.
+
+► Meursault E.G.O: Chains of Others - Fixed an issue where certain Threadspinning Tier 4 Coin effects were mislabeled
+   - Before: [Heads Hit] Gain 2 Protection next turn
+   - After: [On Hit] Gain 2 Protection next turn
+※ This E.G.O's Threadspinning Tier 4 Coin effect was labeled incorrectly as [Heads Hit] when its actual effect was [On Hit].
+   The actual effects of this E.G.O is unchanged; this only changes the text to fit the actual effect.
+
+► Fixed an issue where certain BGM would not play during Main Story 5-29 Combat Encounter
+
+► Fixed an issue where texts for a certain enemy's buffs would not appear during Main Story 5-30 Combat Encounter
+
+► Fixed an issue in the Story Dungeons where, if the team is wiped at 0 SP, or if the player uses the in-game menu to return to the Save Point at more than 0 SP, SP did not reset to 0.
+
+► Deleted unused text from Choice Success rate displays
+   - Text : 5% Chance of Success
+※ We have identified that an outdated text from our development period for the Choice events still remained within the game. Because the effect as written on that text is not being applied in the game, that text should have been deleted; but due to a miscommunication in our development process, that particular text was not erased. Thus, we have deleted it with this Update. We apologize for letting this unused text be displayed in the game for so long.
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Adjusted Story Dungeon Identity Choice display orders.
+Now, Sinner portraits with chances will appear only after the Choice description text is displayed.
+
+※ We believed that it appeared awkward to show the chances before knowing what the descriptions were; so we have adjusted the display orders so that the portraits will appear after the descriptions.
+
+▶ Fixed an issue where toggling the "Display detailed info UI in Combat Phase" option off still showed remaining VFX
+
+▶ Fixed a certain enemy's Skill effects for the Skill“-...-“ from Canto V
+- Before : Apply 4 Tremor
+- After : Apply 4 Tremor Count
+
+▶ Updated the loading screen illustration that appears after clearing Main Story 5-35
+
+Known Issues after Nov. 30th Update
+
+▶ An issue where, in the User Info-Company tab, Identity Select UI highlight VFX does not disappear
+
+▶ An issue where the Detailed Info UI during an Encounter sometimes displays misaligned images
+
+4/5
+
+PROJECT MOON
+LIMBUS COMPANY
+
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 10:00 Dec. 7th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

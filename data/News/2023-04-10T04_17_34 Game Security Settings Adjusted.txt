@@ -1,0 +1,59 @@
+
+게임 보안 세팅 조정 완료 안내
+ゲームセキュリティ設定の調整完了に関する案内
+Game Security Settings Adjusted
+
+안녕하세요, 관리자님.
+2023. 04. 07 19:40~20:20(KST) 동안 진행했던 긴급 점검에서
+추가로 수정된 부분이 있어 안내 드립니다.
+
+[수정 내용]
+- 앱 보안 기준치 완화
+- 특정 앱이 설치되어 있을 때 게임 이용이 불가능했던 현상 수정
+- 일부 에뮬레이터가 지원되지 않던 현상 수정
+- 개발자 모드 설정에 따라 게임 이용이 불가능했던 현상 수정
+- 워크프로필 환경에서 게임 이용이 불가능했던 현상 수정
+
+보안 관련 문제로 게임 이용에 불편을 드린 점 사과합니다.
+
+감사합니다.
+
+お疲れ様ですおよびます、管理人様。
+2023. 04. 07 19:40~20:20(JST)の間に実施された緊急メンテナンスで、
+追加で修正された部分がございますのでご案内いたします。
+
+[修正内容]
+- アプリのセキュリティレベル調節
+- 特定のアプリがインストールされている場合に
+  ゲームプレイが出来ない現象を修正
+- 一部エミュレーターがサポートされない現象を修正
+- 開発者モードの設定によってゲームプレイが出来ない現象を修正
+- 仕事用プロファイル環境にてゲームプレイが出来ない現象を修正
+
+セキュリティ関連問題でゲームプレイに不便をかけし、
+申し訳ございません。
+
+よろしくお願いいたします。
+
+Greetings, dear manager.
+A number of adjustments were made during the emergency
+maintenance performed between 2023 Apr 07 19:40 ~ 20:20 (KST)
+to adjust the intensity of security measures as previously announced.
+
+[Adjustments]
+- App security restraints relaxed
+- Fixed an issue where the game could not be played
+  if certain applications are installed on the device
+- Restored support for certain emulators
+- Fixed an issue where certain developer mode settings
+  prevented access from the game
+- Fixed an issue where the game could not be accessed
+  in a work profile environment
+
+We apologize for the inconvenience
+caused by security-related issues.
+
+Thank you.
+
+PROJECT MOON
+

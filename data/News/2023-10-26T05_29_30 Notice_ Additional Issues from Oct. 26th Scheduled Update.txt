@@ -1,0 +1,21 @@
+
+Notice: Additional Issues from Oct. 26th Scheduled Update
+
+Additional issues have been identified in the Oct. 26th Scheduled Update. The issues below will be corrected by 14:30 today.
+
+Additional downloads will occur after the fix is deployed, so please restart the game to download the update.
+
+Fixes
+
+An issue where Lobotomy E.G.O.::Regret Faust's counter Skill did not have a Sin affinity from Uptie 1~3.
+
+- Before: The Counter skill had no Sin affinity from Uptie 1~3.
+- After: The Gloom affinity has been added to the Counter Skill from Uptie 1~3.
+
+We apologize for causing confusion with this Sin Affinity error.
+We will carefully review our Identities and E.G.O so that no same issue would occur again.
+
+We apologize for causing inconvenience to your enjoyment of our game.
+
+PROJECT MOON
+

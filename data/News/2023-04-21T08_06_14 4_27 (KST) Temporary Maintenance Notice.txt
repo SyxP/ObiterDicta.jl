@@ -1,0 +1,48 @@
+
+
+Temporary Maintenance Notice
+
+Greetings, dear manager.
+To resolve the issues listed below,
+the game will temporarily enter maintenance.
+
+[Maintenance Time]
+- 2023/04/21 17:30 ~ 18:30 (KST)
+The time of completion may vary depending on the situation.
+
+[Update Contents]
+- Addressed omissions and typos from the translation
+- Fixed an issue where the image for R.B. Sous-chef Gregor was shown as a white blank when selecting support Identities
+- Fixed an issue where interacting with the UI on the lower side slowed the game down to an abnormal degree
+- Fixed an issue where events that give the E.G.O Gift already owned from the start could appear in Hell's Chicken dungeons
+
+In addition, we would like to provide an additional compensation for the delay in the roadmap.
+Please refer to below for more details
+
+※ As Season 2 has been postponed to 2023/06/01 (KST), the duration of Season 1 has been extended by two weeks, its end date moving from May 18th to June 1st. This extension will apply to the game with the next scheduled update.
+
+We apologize for the inconvenience.
+
+PROJECT MOON
+Maintenance Compensation
+
+x300
+
+- Content: Lunacy x300
+- Date: Around the Apr 21 (KST) temporary maintenance
+- Can be redeemed once per account
+
+You can claim the item through the in-game mail system until 2023 Apr 27 09:59(KST). (Mail Validity Period: 7 days)
+
+Compensation for Roadmap Postponement
+
+x1000
+
+- Content: Lunacy x1000
+- Date: Around the Apr 21 (KST) temporary maintenance
+- Can be redeemed once per account
+
+You can claim the item through the in-game mail system until 2023 Apr 27 09:59(KST). (Mail Validity Period: 7 days)
+
+PROJECT MOON
+

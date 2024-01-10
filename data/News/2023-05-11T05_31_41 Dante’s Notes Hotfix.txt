@@ -1,0 +1,4 @@
+We have pushed a hotfix to make it viewable after clearing the Normal Dungeon (Mild) in Chapter 3.5.
+
+The changes to the relevant UI will be applied with the next scheduled update. (May 18 12:00 KST)
+

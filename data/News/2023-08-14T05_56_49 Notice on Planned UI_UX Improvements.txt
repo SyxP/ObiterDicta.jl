@@ -1,0 +1,25 @@
+
+Notice on Planned UI/UX Improvements
+
+As mentioned below, we are continuously working to improve the UI and UX. We understand that players are currently experiencing many inconveniences regarding the UI and UX on both mobile and PC versions of the game.
+
+Below is a list of planned UI/UX improvements we plan to gradually implement until the Canto 5 update.
+
+We will let you know of upcoming UI/UX changes in the update notices, and we'll transparently share the problems we sought to resolve and what we intended to achieve with the changes.
+
+We will work on the items listed below to the best of our ability. Please note that the list below is not ordered based on what we will work on first.
+
+- Changes to E.G.O selection UI during battle
+- Improvements to clash arrows
+- Simplified passive panel movement
+- Improved visibility for changes in E.G.O resources
+- Changes to skill linkage phase during Focused Encounters
+- Improvements to Identity, E.G.O details popup / Abnormality Encyclopedia / Stage info popup / Enemy info popup
+- Addition of UI elements to check equipped E.G.O and Identity skills on the deployment screen
+- Changes to the way Identities are selected and edited on the deployment screen
+- Addition of abilities to change the name of teams
+- Improvements to the preset function for Mirror Dungeons
+  - Keyboard shortcuts for PC versions
+
+PROJECT MOON
+

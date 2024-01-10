@@ -1,0 +1,79 @@
+
+
+Additional Issues Identified
+After Nov. 30th Scheduled Update
+
+Hello, this is Project Moon.
+
+We have identified the following Issues
+after the 1.29.0 Update after the Nov. 30th (Thu) Scheduled Update
+Below are information regarding fixes that can be applied
+via a hotfix and fixes that will be applied with a future update.
+
+Issues to be fixed today
+
+► [Additional] An issue where story CG from stages
+that haven't been completed yet appear in loading screens
+
+► [Additional] An issue where, in the EN version of the game,
+the "Gathering Skull" Ego Gift did not show its descriptions properly
+
+※ This issue occurred due to a data loading error,
+and the fix for it will be deployed at 18:00 (KST).
+Please note that additional downloads will occur with this fix.
+
+► Canto V Adjusted Dungeon Difficulties
+-Story Dungeon Floor 1: Lowered Boss enemy's Core and Part HP.
+Lowered Part Resistances
+-Story Dungeon Floor 2: Lowered a certain Abnormality's Part HP,
+Defense Level, and Resistances. Additional Stagger threshold added
+-Story Dungeon Floor 3: Lowered a powerful enemy's Core and
+Part HP. Lowered Part Resistances. Lowered certain Skill Powers
+-Story Dungeon Floor 3: Lowered Boss enemy's Core and Part HP.
+Lowered Part Defense Level and Resistances.
+Lowered certain Skill Powers and Offense Level
+
+1/2
+
+PROJECT MOON
+Additional Issues Identified
+After Nov. 30th Scheduled Update
+
+Issues that will be fixed 
+with Dec. 7th Scheduled Update
+
+▶ An issue where 'Pierce Power Up' buff icon does not appear properly
+
+▶ (iOS, Android) An issue where a certain E.G.O voiceline
+does not play under certain conditions
+
+▶ [Additional] An issue where some characters'
+portraits loaded incorrectly in the Main Story
+※ This issue occurred due to a data loading error,
+and the fix for it will be deployed with the next Scheduled Update.
+
+▶ [Additional] An issue where, in certain Abnormality Encounters of
+Canto 5's story dungeon, certain summoned units were
+sometimes unkillable
+※ This issue occurred due to certain Abnormalities' Core deaths
+occurring around the same time as the units were summoned.
+The fix for this issue will be deployed with the next Scheduled Update.
+
+Issues under investigation
+
+▶ An issue where, in the Skill Chaining phase, the arrow part
+of the chain does not properly load the relevant image resources
+(Found on iOS 17)
+
+▶ An issue where, in certain cutscenes,
+the subtitles do not display properly (Found on iOS 17)
+
+▶ An issue where, in certain cutscenes, a part of
+the subtitles UI does not display properly (Found on Android)
+
+We apologize for the inconvenience.
+
+2/2
+
+PROJECT MOON
+

@@ -1,0 +1,23 @@
+
+LIMBUS COMPANY
+Pursuance
+Rodion
+E.G.O INFO
+E.G.O AWAKENING SKILL
+Pursuance
+[On Hit] Inflict X Sloth Fragility next turn
+[After Attack] Heal 2 other allies with the least HP percentage for X% of this unit’s Max HP
+[Heads Attack End] If the target is Staggered or defeated, apply X% of this unit’s Max HP as Shield to allies that unit healed
+E.G.O CORROSION SKILL
+Pursuance
+[Indiscriminate] Targets randomly
+[Before Attack] Atk X%– HP, Atk Weight +Y
+[On Hit] Burst Tremor
+[On Hit] Deal X SP Damage
+[On Hit] If the target is Staggered or defeated, heal X SP on self
+E.G.O PASSIVE
+Sentencing from Above
+Whenever an enemy is Staggered, the ally with the least HP percentage heals X% of their Max HP
+*This image shows the E.G.O’s specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+

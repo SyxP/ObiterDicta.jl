@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+July 27 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on July 27th, 2023 (KST) for system optimizations and content updates.
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction - S.E.A]
+(July 27th 12:00 ~ Aug 10th 09:59 (KST))
+Extraction rate increases for the following Identity and E.G.O:
+- E.G.O [TETH] : Soda Hong Lu
+- 3★ : Boatworks Fixer Ishmael
+
+2. Target Extraction [Ryōshū] (July 27th 12:00 ~ Aug 10th 09:59))
+Extraction rate increases for the following identities & E.G.O:
+- E.G.O [HE] : Red Eyes (Open) for Ryōshū
+- E.G.O [TETH] : Red Eyes for Ryōshū
+- 3★ : Kurokumo Wakashu Ryōshū
+- 2★ : Seven Association Section 6 Ryōshū
+- 1★ : LCB Sinner Ryōshū
+
+3. New Identity & E.G.O Added
+The following is added to the list of extractable Identities & E.G.O:
+- E.G.O [TETH] : Soda Hong Lu
+- 3★ : Boatworks Fixer Ishmael
+
+1/7
+
+PROJECT MOON
+Update Contents
+
+4. New Content: Chapter 4.5 - S.E.A
+
+※ Please refer to Steam News & Events section.
+- [Posted July 24th] New Contents July 27th - Chapter 4.5 S.E.A
+
+Major Changes
+
+1. Notice on Offense & Defense Level, Tier 4 Uptie & Threadspinning Changes and Issues
+※ Please refer to Steam News & Events section for further details regarding Identities' Offense & Defense Levels.
+- [Posted July 24th] Notice on Offense & Defense Level, Tier 4 Uptie & Threadspinning Changes and Issues
+
+2/7
+
+PROJECT MOON
+Major Changes
+
+1. Notice on Offense & Defense Level, Tier 4 Uptie & Threadspinning Changes and Issues
+※ Certain Uptie 4 Skills have been adjusted
+The following skills, the effects of which did not work correctly upon Uptying the identities to Uptie 4, will be changed as follows:
+
+▶ Lobotomy E.G.O.:: Red Sheet Sinclair - Rupturing Talisman
+- 1 Coin effect : [On Hit] Spend 5 Talisman on self; Give 7 Talisman →
+[On Hit] Spend 5 Talisman on self; Give 5 Talisman
+- 2 Coin effect : [On Hit] If target has Talisman, inflict +1 Rupture Count →
+If target has Talisman, inflict +3 Rupture Count
+
+▶ G Corp. Manager Corporal Gregor - Hack
+- Skill Effect : [Clash Win] Damage +40%.
+If target has 5+ Rupture Count, Coin Power +1 →
+[Clash Win] Damage +40%. If target has 5+ Rupture, Coin Power +1
+
+▶ G Corp. Manager Corporal Gregor - Dismember
+- Skill Effect : If target has 5+ Rupture Count, deal +50% damage →
+If target has 5+ Rupture, deal +50% damage
+
+▶ G Corp. Manager Corporal Gregor - Eviscerate
+- Skill Effect : If target has 5+ Rupture Count, Coin Power +1 →
+If target has 5+ Rupture, Coin Power +1
+
+3/7
+
+PROJECT MOON
+Major Changes
+
+1. Notice on Offense & Defense Level, Tier 4 Uptie & Threadspinning Changes and Issues
+※ Bug fixes regarding Uptie 4, Tier 4 Threadspinning
+The following issues in Skills & Passives of Uptie 4 and Tier 4 Threadspinning will be fixed.
+
+▶ Don Quixote - La Sangre De Sancho
+Fixed an issue where upon Threadspinning it to Tier 4, the “Heal by X% of damage dealt” did not activate; fixed an issue where the activation condition for that skill was labeled incorrectly as [Heads Hit] and not [On Hit]
+
+▶ Heathcliff - Bodysack
+Fixed an issue where upon Threadspinning it to Tier 4, the activation condition for “Gain 2 Attack Power Up next turn” was labeled incorrectly as [After Attack] and not [On Kill]
+
+▶ N Corp. Großhammer Meursault - Drive
+Fixed an issue where the effects of Uptie 4 activated not at 50%- HP and instead activated at 50%+ HP
+
+▶ R Corp. 4th Pack Reindeer - Brainwave Focus
+Fixed an issue where the effects of Uptie 4 activated not at the start of the battle but at the start of the next turn
+
+▶ G Corp. Manager Corporal Gregor
+Fixed an issue where “Heal by X% of damage dealt” effects did not activate
+
+▶ Liu Association South Section 6 Meursault
+Friction Point : Fixed an issue where the Support Passive sometimes did not activate
+
+4/7
+
+PROJECT MOON
+Major Changes
+
+2. Completing Mirror Dungeon 2 Hard Difficulty now allows users to collect Mirror Dungeon 2 Normal Difficulty rewards
+
+3. Max Manager Levels Expanded
+- Before: Level 100
+- After: Level 200
+※ Max Manager Level may expand again in the future, and there will be a notification should such a change occur again.
+
+4. Game engine version update
+- Fixed an issue where contents download sizes were incorrectly calculated
+- Identified an issue where unintended additional downloads were occurring; updated game engine to correct the issue
+- There will be a resource update to accomodate the version update, which requires a full resource redownload on Android(7GB), iOS(5GB), Steam(5GB).
+We recommend downloading in a Wi-Fi enabled environment.
+
+5. Sin Affinities colors adjusted
+Explanation: Adjusted to make brightness and contrast difference between Sin Affinities more apparent, as they were formerly of similar colors.
+
+6. Simplified SP orb design on the Sinner portraits on the skills dashboard
+
+7. Changed the default setting for amount of information displayed from "MIN" to "MAX"
+
+5/7
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+- Fixed an issue where a dead Sinner's Support Passive would still activate in combat
+  - E.G.O Gift - Fixed an issue where 'Little and To-be-Naughty Plushie' did not work as intended
+- Fixed an issue where a Tutorial UI element explaining Clash designations was lacking in Stage 0-3
+- Fixed an issue where, upon successfully using Evade skill for a second time, an additional corresponding Sin Affinity E.G.O was collected
+  - (English Build) Fixed an issue where Mirror of Mirrors (Mirror Dungeon 2)'s difficulty denominations were duplicated
+  - (English Build) Fixed an issue where the description for Cinq Association South Section 5 Director Don Quixote's Skill 3 was lacking keyword designation for 'Declared Duel'.
+- Fixed an issue where Fairy Gentleman's Skill - 'Not This Time!' - had skewed targeting priorities
+- Mirror Dungeon - Fixed an issue where players could get stuck in the healing choice screen because all Sinners are at full health
+- Fixed an issue where, when a Sinner targeted as a sub target in an enemy's AoE skill activates their defensive skill, they are able to pull the main targeting aimed at another Sinner
+  - Adjusted E.G.O Corrosion end order
+    - Before: At the start of the next turn after the turn where the Sinner corroded
+    - After: At the end of the turn where the Sinner corroded
+- Fixed an issue where certain Abnormalities' appearances would not change after their parts are broken
+- Fixed an issue where, in Focused Encounters, the enemies' Guard animation would not play.
+- Fixed an issue where certain texts would not display in [When Hit] conditions
+- Fixed an issue where, after Uptying The One Who Grips Faust to Uptie 4 and activating her passive "Whistles" in combat, the easter egg regarding The One Who Shall Grip Sinclair did not play
+- Fixed an issue where, after using a E.G.O Corrosion skill to win a battle, the Sinner's SP would not reset to 0
+
+<Bugs currently being fixed>
+※ The following bugs will be fixed with the August 3rd Scheduled Update.
+- The issue where the effects of Cinq Association South Section 5 Director Don Quixote's 'Declared Duel' (Increased Clash Power) does not activate
+- The issue where attacking a Doomsday Clay Doll with Ishmael E.G.O - Ardor Blossom Star would make it look as though Clashes are continuing after death
+- The issue where Revived K Corp. Class 3 Staff comes back to life with 1 HP
+- The issue where SP regenerates at -45 SP
+
+6/7
+
+PROJECT MOON
+Compensation for Issues with Offense & Defense Levels, Tier 4 Uptie & Threadspinning
+
+x 1300
+
+- Content: Lunacy x1300
+- Date: After July 27th (Thu) Scheduled Update
+- Can be redeemed once per account
+- You can claim the item through the in-game mail system until 2023 Aug. 3rd 09:59(KST). (Mail Validity Period: 7 days)
+
+Maintenance and Update Compensation
+
+x 300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before Aug. 3rd, 2023 09:59(KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+7/7
+
+PROJECT MOON
+

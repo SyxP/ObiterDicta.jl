@@ -1,0 +1,39 @@
+
+LIMBUS COMPANY
+
+Notice of Changes to In-game Purchase Prices
+
+Greetings, Dear Manager.
+
+In accordance with the global price adjustments of the App Store, the prices of in-game purchases will change with the May 4th Scheduled Update as listed in the table below.
+
+Please note that USD prices will remain the same, as updates to prices on the App Store are based on the current U.S. prices.
+
+The contents of the packs remain the same, and the changed prices apply for all platforms (Google Play, App Store, Steam).
+
+Because <Limbus Company> provides its services through the same version for all regions, please understand that prices for in-game purchases may change again in the future due to (USD-based) store policies.
+
+The changed prices will apply at 12:00 on May 4th (KST) after the scheduled update. We will let you know if the prices change again before this adjustment is applied to the live service.
+
+Type             Name                                           Current                                      New
+                                                                          USD      KRW     JPY                    USD      KRW     JPY
+Lunacy       Lunacy (1st Purchase)            $0.99    ₩1,500   ¥1650               $0.99    ₩1,500   ¥1600
+Lunacy       Lunacy Bundle (1st Purchase)  $3.99    ₩6,000   ¥1650               $3.99    ₩7,500   ¥1600
+Lunacy       Lunacy Bouquet (1st Purchase) $11.99   ₩17,000 ¥1,900               $11.99   ₩17,000 ¥1,800
+Lunacy       Lunacy Crate (1st Purchase)       $23.99   ₩37,000 ¥3,600               $23.99   ₩35,000 ¥3,500
+Lunacy       Lunacy Hoard (1st Purchase)      $47.99   ₩75,000 ¥8,200               $47.99   ₩150,000 ¥12,000
+Lunacy       Lunacy Mound (1st Purchase)     $99.99   ₩150,000 ¥16,800            $99.99   ₩150,000 ¥16,000
+Lunacy       Lunacy Bundle                              $0.99    ₩1,000   ¥1650               $0.99    ₩1,500   ¥1600
+Lunacy       Lunacy Bundle                              $3.99    ₩6,000   ¥1650               $3.99    ₩7,500   ¥1600
+Lunacy       Lunacy Crate                                $11.99   ₩19,000 ¥3,000               $11.99   ₩17,000 ¥1,800
+Lunacy       Lunacy Mound                              $23.99   ₩37,000 ¥3,600               $23.99   ₩35,000 ¥3,500
+Lunacy       Lunacy Hoard                              $47.99   ₩75,000 ¥8,200               $47.99   ₩110,000 ¥12,000
+Lunacy       Lunacy Monthly Supply                $79.99   ₩119,000 ¥12,800            $79.99   ₩110,000 ¥12,000
+Lunacy       Monthly Lunacy Batch                     $2.99    ₩4,400   ¥480                 $2.99    ₩4,400   ¥400
+Packs          Monthly Extraction Pack              $9.99    ₩15,000 ¥1,480               $9.99    ₩14,500 ¥1,400
+Packs          Monthly Training Pack I                 $30.99   ₩48,000 ¥4,900               $30.99   ₩44,000 ¥4,500
+Packs          Monthly Training Pack II                $30.99   ₩48,000 ¥4,900               $30.99   ₩44,000 ¥4,500
+Packs          New Manager's Onboarding Pack   $21.99   ₩38,000 ¥3,600               $21.99   ₩38,000 ¥3,000
+Packs          Season 1 Orienteer Supplies          $59.99   ₩93,000 ¥9,800               $59.99   ₩93,000 ¥9,000
+Packs          Weekly Extraction Pack                 $6.99    ₩9,900   ¥1,100               $6
+

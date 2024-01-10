@@ -1,0 +1,111 @@
+
+
+Eng. South Section Director
+
+Sinclair
+
+Remise
+SKILL 1
+If this unit's Speed is higher than the target's
+by X or more, gain Coin Power
+[On Use] Gain Poise Count
+[On Hit] Gain Haste next turn
+
+Engagement
+SKILL 2
+If this unit's Speed is higher than the target's,
+gain +X Coin Power for every Y Speed difference
+[Clash Win] Gain Poise Count
+[On Hit] Gain Poise Count
+
+Counter Attack
+SKILL 3
+If this unit's Speed is higher than the target's,
+gain +X Coin Power for every Y Speed difference
+[Clash Win] Consume X Poise Count.
+Gain Poise equal to Poise Count consumed.
+Against targets with Declared Duel - Sinclair,
+gain Poise equal to [Poise Count consumed X Y] instead.
+[Clash Win] If this unit conducted a Single Combat
+with the target Slot's Attack Skill, inflict Fragile On Hit
+[On Hit] Inflict Declared Duel - Sinclair
+
++X% Damage on Critical Hit
+
+ENTITY INFO
+IDENTITY
+
+Defensive
+
+PASSIVE
+
+Slumbering Bloodlust
+Turn End: Gain +X Max Speed next turn for
+every Y Poise Count
+Combat Start: If Speed of all allies is higher than Speed of
+all enemies, gain Pierce Dmg Up
+
+Too Slow
+SUPPORT PASSIVE
+The fastest ally, On Evade, gains Haste next turn
+
+Single Combat
+Established when the target Slot is targeted by this unit and
+no other unit. Established only when they Clash.
+(Does not apply to reused Skills)
+
+Declared Duel
+In a Clash between the unit that inflicted Declared Duel and
+the unit with the status, the declarer gains Clash Power.
+On Hit, the declarer gains Haste next turn.
+Expires when the unit inflicts Declared Duel on a different target.
+Replaced when another unit inflicts Declared Duel
+on the same target.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2021. All rights reserved. Not for resale.
+LIMBUS COMPANY
+Cinq South Section_4
+Outis
+ENTITY INFO
+SKILL 1
+Marche
+[On Use] Gain Haste next turn
+[On Use] This Skill Slot gains Aggro next turn
+[On Hit] Gain Poise Count
+[On Hit] Gain Poise Count
+SKILL 2
+Punition
+If this unit's Speed is higher than the target's, gain Coin Power
+[On Use] Gain Poise Count
+[On Use] This Skill Slot gains Aggro next turn
+[On Hit] Gain Poise
+[On Hit] Inflict Blind next turn
+SKILL 3
+Balestra Fente
+A+X Poise, gain Final Power
+[Clash Win] Gain Poise equal to the number of Clashes
+[On Hit] Inflict Declared Duel - Outis
+[On Hit] Inflict Haste next turn to 2 slowest allies
+[On Crit] +X% Damage on Critical Hit
+DEFENSE
+Retraite
+If this unit's Speed is higher than the target's, gain +X Coin Power for every Y Speed difference
+[On Evade] Gain Poise
+PASSIVE
+Redirect
+On Evade, gain Haste next turn; lower this unit's Stagger Threshold
+SUPPORT PASSIVE
+Mentor's Counsel
+• If the fastest ally's Speed is higher than the Speed of all enemies, the fastest ally gains Clash Power
+• If the said ally is a Cinq Association Fixer, they deal +X% Pierce Damage
+Declared Duel
+• In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer gains Clash Power.
+• On Hit, the declarer gains Haste next turn.
+• Expires when the unit inflicts Declared Duel on a different target. Replaced when another unit inflicts Declared Duel on the same target.
+"The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+©2023 ProjectMoon. All rights reserved.
+

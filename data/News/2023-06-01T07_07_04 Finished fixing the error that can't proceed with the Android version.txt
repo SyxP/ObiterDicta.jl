@@ -1,0 +1,4 @@
+[Finished fixing the error that can't proceed with the Android version]
+
+If you get a new update from the PlayStore and restart, you can proceed normally.
+

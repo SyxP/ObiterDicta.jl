@@ -1,0 +1,146 @@
+
+
+
+
+June 29th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on June 29th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Refer below for details about the update.
+
+Note
+
+The 2023 June 29th (KST) scheduled update will be performed between 10 AM and 12 PM, and parts of the changes to the Mirror Dungeons will apply after the scheduled update is completed.
+
+As such, Mirror Dungeon weekly bonus counts and expeditions in progress will reset when the update is complete on 12.
+
+You will not be able to claim rewards for expeditions from before 10 AM on June 29th once the reset takes place, so please make sure to claim the rewards before the maintenance.
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+1. New Target Extraction:[Technology Liberation Alliance #3]
+   (Jun 29 12:00 ~ Jul 13 09:59 (KST))
+   Extraction rates increase for the following Identities:
+   - 3★: K Corp. Class 3 Excision Staff Hong Lu
+   - 2★: Lobotomy E.G.O::Red Sheet Sinclair
+
+2. New E.G.O Target Extraction - [Red Eyes · Red Eyes (Open)]
+   (Jun 29 12:00 ~ Jul 13 09:59 (KST))
+   Extraction rates increase for the following E.G.O:
+   - HE: Red Eyes (Open) for Ryoshu
+   - TETH: Red Eyes for Ryoshu
+
+3. Identity Target Extraction: [Sinclair]
+   (Jun 29 12:00 ~ Jul 13 09:59 (KST))
+   Extraction rates increase for the following Identities:
+   - 3★: The One Who Shall Grip Sinclair, Blade Lineage Salsu Sinclair
+   - 2★: Lobotomy E.G.O::Red Sheet Sinclair,
+   Jefe de Los Mariachis Sinclair, Zwei Section 6 Sinclair
+   - 1★: LCB Sinner Sinclair
+
+4. New Content: <Mirror of Mirrors
+   (Mirror Dungeon #2)>
+
+Please refer to the notice linked below for more details on Mirrors of Mirrors (Mirror Dungeon #2).
+
+2/4
+
+PROJECT MOON
+5. Major Changes
+
+▶ Improvements for crashing during combat in mobile versions:
+Adjusted resolution of character images on the combat screen
+and changed ompression method of certain sprites
+   ▶ Adjusted banner image scale to better distinguish
+   Main Story chapters (Ch. 1, 2, 3, 4) from others (Ch. 3.5)
+   (Main Story: 1        Others: 0.9)
+▶ Certain enemies no longer appear in the Mirror Dungeon
+   ▶ Lifting battle pass level display limitations
+   (Before: Displays only up to Level 60 →
+   After: Can display levels that exceed 60)
+
+6. Bug Fixes and Improvements
+
+▶ Fixed the "acquired" sort filter for profile words and
+phrases not working properly
+   - The ones acquired before June 22nd
+will be sorted according to their release dates.
+▶ Fixed an inconsistency with the name of the Abnormality
+appearing in 4-54 (※ Only applies to the Korean version)
+   ▶ Stage 4-54 - Fixed the Haste not applying after passing
+   the check for the Abnormality 'So That No One Will Cry'
+▶ Stage 4-48 - Fixed the battle announcer voiceline playing after a
+certain enemy defeats multiple Full Bloomed allies at once
+▶ Fixed the level displayed on the detailed info screen not
+updating after an Identity levels up
+   ▶ Fixed an issue with the activation condition of
+   the E.G.O Gift 'Phantom Pain'
+   (Before: Activates with Gloom Resonance →
+   After: Activates with Gloom Absolute Resonance)
+▶ Adjusted the activation condition for the status
+effect associated to the E.G.O AEDD for Gregor
+   (Old: Activates when hit by a 'Pride' skill →
+   New: Activates when hit by a 'Gloom' skill)
+
+Notice on Issue with Sin Affinity
+Power Up/Down Status Effects
+
+An issue where certain status effects that increase or decrease
+Power for a Sin Affinity can increase or decrease damage to
+abnormal degrees will be fixed with the June 29th update.
+Currently, 'Wrath/Sloth Power Up/Down' status effects are
+increasing or decreasing the damage by N * 100% rather than
+increasing or decreasing the Power by N.
+The list of affected skills is as follows:
+  - Capote for Meursault    - Sunshower for Yi Sang
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x500
+- Content: Lunacy x500
+- Date: Some time after scheduled maintenance on Jun 29 (Thu) (KST)
+          - Can be redeemed once per account
+          - You can claim the item through the in-game mail system
+            until 2023 Jul 6 09:59 (KST). (Mail Validity Period: 7 days)
+
+Maintenance & Application Update Compensation
+
+x300
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created
+               before 09:59 June 29th, 2023 (KST)
+
+Notes
+- Please update your game client to the newest version
+  on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources
+  may cause the download to fail, so please be careful not to close
+  the application during the download.
+- You will not be able to play <Limbus Company>
+  during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status.
+  If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update.
+  If you're using a mobile device, it is recommended
+  to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your
+  account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account.
+  Please note that the distribution may be
+  slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days.
+  Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

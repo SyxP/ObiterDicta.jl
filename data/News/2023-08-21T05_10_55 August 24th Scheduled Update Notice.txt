@@ -1,0 +1,121 @@
+
+
+
+
+August 24th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on August 24th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or mating in-app purchases and close the application before maintenance beings so that no data is lost.
+
+Refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction - W Corp. L3 Cleanup Agent Ryōshū & W Corp. L2 Cleanup Agent Hong Lu] (Aug. 24th 12:00 ~ Sep. 7th 09:59 (KST)) Extraction rates increase for the following identities:
+-3★: W Corp. L3 Cleanup Agent Ryōshū
+-2★: W Corp. L2 Cleanup Agent Hong Lu
+
+2. New Identities Added
+The following are added to the list of extractable Identities:
+-3★: W Corp. L3 Cleanup Agent Ryōshū
+-2★: W Corp. L2 Cleanup Agent Hong Lu
+
+Optimizations
+
+1. RAM usage improvement
+We have modified sound resources' load and play structures to prevent unnecessary sound resources from consuming RAM usage on devices (About 300MB on Mobile)
+※This requires a sound resource redownload.
+Outdated sound resources will be deleted.
+(Download Size : About 1GB)
+
+1/3
+
+PROJECT MOON
+Major Changes
+
+1. FPS Settings Diversified
+   - Before: Settings - Graphics - Adjust ‘FPS’
+     option to adjust general game FPS
+   - After: Settings - Graphics - Adjust ‘Normal FPS’ and
+     ‘Combat FPS’ to adjust FPS independently
+
+   (1) Normal FPS: Adjusts framerates of all non-combat scenes
+   (2) Combat FPS: Adjusts framerate in combat scenes
+
+Bug Fixes and Improvements
+
+   • Changed the effects of Uptie 3 Zwei Association
+     South Section 6 Sinclair's Skill 3 'Strong Strike'
+     - Before: [On Use] Give 1 Protection to the ally with the least HP
+     - After: [On Use] Give 1 Protection to the ally with 
+       the least HP ‘next turn’
+     ※ The skill’s Uptie 3 activation timing has been changed to
+       ‘next turn’ due to an error after the Uptie 4 update. Therefore,
+       the description has been changed to match the current effects.
+   • Fixed an issue where Uptie 4 Zwei Association South Section 6
+     Sinclair's Skill 3 'Strong Strike' applied 1 Protection on this 
+     turn and not ‘on the next turn’ as it is written
+   • Fixed an issue where Uptie 4 LCCB Assistant Manager 
+     Ishmael's Skill 1 'Shove' applied Coin Power +2 instead of
+     Skill Power +2 as it is written
+   • Fixed an issue where Don Quixote E.G.O - Fluid Sac's Passive
+     ‘Waves of Depression’ was dealing Pride damage instead 
+     of Gloom damage as it is written
+   • Changed the target description for the Gloom damage effect
+     of Don Quixote E.G.O - Fluid Sac passive ‘Waves of Depression’
+     - Before: "Abnormalities take Gloom damage instead"
+     - After: "Targets without SP values take Gloom damage instead"
+   • Fixed an issue where Ishmael E.G.O - Ardor Blossom Star Tier 4
+     Threadspinning Awakening skill's [Heads Attack End] effect would
+     apply even when the coin lands on Tails.
+   • Fixed an issue where the conditions for activating Ishmael
+     E.G.O - Ardor Blossom Star passive ‘Shower of Fire’ 
+     incorrectly included allies as well
+
+2/3
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 Aug. 24th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+3/3
+
+PROJECT MOON
+Greetings, Dear Manager.
+
+We would like to notify you of the additional information omitted from the August 24th Scheduled Update Notice.
+
+Update Content
+
+[Additional Information] 3. Target Extraction: [Ishmael] (Aug. 24th 12:00 ~ Sep. 7th 09:59 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+
+- E.G.O [HE] : Ardor Blossom Star Ishmael
+- 3★: Molar Boatworks Fixer Ishmael,
+Liu South Section 4 Ishmael, R Corp. 4th Pack Reindeer Ishmael
+- 2★: Lobotomy E.G.O::Sloshing - Ishmael,
+LCCB Assistant Manager Ishmael,Shi South Section 5 Ishmael
+- 1★: LCB Sinner Ishmael
+
+We apologize for causing inconvenience by uploading an incorrect notice.
+
+PROJECT MOON
+

@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+
+July 20th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on July 20th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - 
+    [Cinq South Section 5 Director Don Quixote]
+    (July 20th 12:00 ~ Aug 03rd 09:59 (KST))
+Extraction rate increases for the following identity:
+   - 3★: Cinq South Section 5 Director Don Quixote
+
+2. New Identity Added
+The following is added to the list of extractable Identities:
+   - 3★: Cinq South Section 5 Director Don Quixote
+
+3. Identity Uptype 4 & E.G.O Threadspinning Tier 4
+   ※ Please refer to the notice on Steam's Events & Announcements page for further details.
+
+   - [Posted July 17th] Notice on the Upcoming Tier 4 for Identity Uptying and E.G.O Threadspinning
+
+1/8
+
+PROJECT MOON
+Update Contents
+
+4. Added button to change the amount of information displayed on combat screen
+
+A button to change the amount of information displayed on combat screens is added.
+
+※ Notes
+Though this option is currently set to MIN by default, the default option should be MAX.
+MAX will be set as default on the next scheduled update.
+
+5. Aggro System Added
+
+Each Identity columns will now have Aggro values attached to them. In Focused Encounters, Enemies are more likely to attack slots with higher Aggro values.
+
+6. Attack Weight UI added
+
+UI depicting Attack Weight values (Number of targets) for AoE Skills and their targets have been added.
+Thus, "AoE" and "Targets X Slots" texts have been taken off the Skill descriptions.
+
+2/8
+
+PROJECT MOON
+Major Changes
+
+1. Mirror Dungeon 2 Hard Reward collection system changed
+
+※ Please refer to the notice on Steam's
+Events & Announcements page for further details.
+- [Posted July 13th] Notice regarding
+Mirror Dungeon 2 Hard reward collection
+
+2. Modified Clash Win/Loss Odds Display Conditions
+The conditions for displaying different tiers of Clash Win/Loss odds and Choice success rates will be changed as the following.
+
+<Before>
+
+UI Display                        Odds
+Hopeless/Very Low         0~20%
+Struggling/Low                 20~40%
+Neutral/Normal               40~60%
+Favored/High                   60~80%
+Dominating/Very High     80~100%
+
+<After>
+
+UI Display                        Odds
+Hopeless/Very Low         0~10%
+Struggling/Low                 10~40%
+Neutral/Normal               40~60%
+Favored/High                   60~90%
+Dominating/Very High     90~100%
+
+3. System Changes to Offense/Defense Levels
+
+※ Please refer to the notice on Steam's
+Events & Announcements page for further details.
+- [Posted June 23rd] Notice on System
+Changes to Offense/Defense Levels
+
+3/8
+
+PROJECT MOON
+Major Changes
+
+4. Changed mechanism calculating Offense, Defense Level gains and losses
+
+The mechanism calculating Offense, Defense Level gain/loss buffs will be changed as follows:
+
+- Before: Offense/Defense Level gain/loss N → Offense/Defense Level N*10% gain/loss
+- After: Offense/Defense Level gain/loss N → Offense/Defense Level N gain/loss
+
+Values for in-game entities with the said buffs will be changed accordingly.
+
+<Identities>
+Identity Names	Skill/Passive Name	Before (At Uptie 3)	After (At Uptie 3)
+LCB Sinner Faust	Upward Slash	Inflict 2 Offense Level Down next turn	Inflict 3 Offense Level Down next turn
+Seven Association South Section 6 Ryōshū	Upper Slash	Inflict 1 Defense Level Down	Inflict 2 Defense Level Down
+Kurokumo Clan Wakashu	Lenticular Swirl	Inflict 3 Offense Level Down	Inflict 5 Offense Level Down
+Seven Association South Section 6 Director Outis	Exploit the Gap	Inflict 1 Offense Level Down next turn	Inflict 2 Offense Level Down next turn
+W Corp. L2 Cleanup Agent Meursault	Energy Current	Spend 2 Charge Count to inflict 1 Defense Level Down	Spend 2 Charge Count to inflict 2 Defense Level Down
+LCCB Assistant Manager Rodion	Suppress	Inflict 2 Defense Level Down	Inflict 4 Defense Level Down
+Seven Association South Section 6 Director Outis	Field Command	Inflict 1 Defense Level Down next turn	Inflict 2 Defense Level Down next turn
+LCB Sinner Faust	Keen Observation	Inflict 1 Offense Level Down	Inflict 2 Offense Level Down
+
+<E.G.>
+Sinner Names	Skill/Buff Names	Before (At Uptie 3)	After (At Uptie 3)
+Ishmael	Roseate Desire - Awakening	Inflict 4 Offense Level Down	Inflict 10 Offense Level Down
+Ishmael	Roseate Desire - Corrosion	Inflict 4 Offense Level Down	Inflict 10 Offense Level Down
+Hong Lu	Roseate Desire - Awakening	Inflict 2 Defense Level Down	Inflict 5 Defense Level Down
+Hong Lu	Roseate Desire - Corrosion	Inflict 2 Defense Level Down	Inflict 5 Defense Level Down
+Faust	Hex Nail - Curse	Turn End: Gain one of the following, then reduce this effect’s Count by 1. Attack Power Down/Defense Power Down/Offense Level Down/ Defense Level Down.	Turn End: Gain one of the following, then reduce this effect’s Count by 1. Attack Power Down/1 Defense Power Down/2 Offense Level Down/2 Defense Level Down
+
+4/8
+
+PROJECT MOON
+Major Changes
+
+<E.G.O Gifts>
+
+Before | After
+Grimy Iron Stake
+After dealing damage using a single-Coin skill, inflict 1 Bleed and 1 Defense Level Down on the target until the next turn. If the target already has Bleed, inflict 3 Bleed in addition. | After dealing damage using a single-Coin skill, inflict 1 Bleed and 2 Defense Level Down on the target. If the target already has Bleed, inflict 3 Bleed in addition.
+
+Sticky Muck
+After dealing damage by using a Gluttony or Pierce damage skill, inflict 1 Defense Level Down on the target. | After dealing damage by using a Gluttony or Pierce damage skill, inflict 2 Defense Level Down on the target.
+
+Melty Eyeball
+Inflict 3 Defense Level Down on enemies affected by Tremor's burst. | Inflict 5 Defense Level Down on enemies affected by Tremor's burst.
+
+Dreaming Electric Sheep
+After defeating an enemy by using an Envy or Slash damage skill, gain 2 Slash Power Up for 2 turns. When activating Envy Absolute Resonance, apply 1 Offense Level Up and 1 Defense Level Up to all allies at the start of the combat phase. | After defeating an enemy by using an Envy or Slash damage skill, gain 2 Slash Power Up for 2 turns. When activating Envy Absolute Resonance, apply 2 Offense Level Up and 2 Defense Level Up to all allies at the start of the combat phase.
+
+Late-bloomer's Tattoo
+After dealing damage with a Pride or single-Coin skill, gain 1 Offense Level Up and 1 Defense Level Up. | After dealing damage with a Pride or single-Coin skill, gain 2 Offense Level Up and 2 Defense Level Up.
+
+Phantom Pain
+Skills deal +15% damage to single targets. When activating Gloom Absolute Resonance, apply 1 Offense Level Up to all allies at the start of the combat phase. | Skills deal +15% damage to single targets. When activating Gloom Absolute Resonance, apply 2 Offense Level Up to all allies at the start of the combat phase.
+
+<Enemies & Abnormalities>
+Skill/Passive Names | Before | After
+Complete Wrecking Ball Bot
+CAUTION, CAUTION: Unsteady | Inflict 3 Attack Level Down | Inflict 5 Attack Level Down
+
+Crude Sawblade Bot
+Carving Out. | Inflict 3 Defense Level Down next turn | Inflict 5 Defense Level Down next turn
+
+Complete Sawblade Bot
+Carving Out. | Inflict 3 Defense Level Down next turn | Inflict 5 Defense Level Down next turn
+
+Drifting Fox
+Ragged Umbrella | After the head umbrella is broken, gain 3 Offense Level Down every turn. Inflict +2 Sinking. | After the head umbrella is broken, gain 5 Offense Level Down every turn. Inflict +2 Sinking.
+
+Fairy-Long-Legs
+Damaged Shade | When the leaf is broken, the unit gains 2 Defense Level Down and 1 Fragile every turn. | When the leaf is broken, the unit gains 4 Defense Level Down and 1 Fragile every turn.
+
+5/8
+
+PROJECT MOON
+Major Changes
+
+5. Changes to Basic E.G.O and Identities
+Effects of certain Basic E.G.O and Identities will be changed.
+
+Sinner Names     Skill/Passive Names   Before (At Uptie 3)   After (At Uptie 3)
+
+Yi Sang           Crow's Eye View        When hit by an attack, gain 5 Bind   When hit by an attack, gain 3 Bind
+                  - Silence             next turn, and deal +20% damage      next turn, and deal +20% damage
+                                        when attacking with a type or        when attacking with a type or Affinity
+                                        Affinity the target is Weak or Fatal to. the target is Weak or Fatal to.
+                                        (Once per turn.)                      (Once per turn.)
+
+Don Quixote       La Sangre de          At the start of the combat phase,   On hit, if the target had Bleed,
+                  Sancho -             gain Haste and Defense Power        heal 3 HP.
+                  Immoderate           Down next turn by (Lust-A-Reson./2)
+                  Passion              this turn.
+
+Ryōshū            Forest for the        At the start of the combat phase,   Deal and take +5% damage for each
+                  Flames - Art         gain Slash DMG Up and Fragile by    enemy this unit defeated last turn.
+                                       (Wrath-A-Reson./2) this turn.
+
+Hong Lu           Land of Illusion      At the start of the combat phase,   At the start of the combat phase,
+                  - Ripple             heal SP for the ally with the     heal SP for the ally with the least SP
+                                       least SP (by Gloom-A-Reson.),     by the count of your highest-A-Reson.
+                                       excluding those in Panic.          value, excluding those in Panic.
+
+Heathcliff        Bodysack              When another ally defeats an enemy, When another ally defeats an enemy,
+                  - Vying Spirit        gain 2 Attack Power Up, 2 Haste,   gain 1 Attack Power Up and 1
+                                        and 4 Fragile next turn.           Haste at the start of next turn. (Max 3)
+
+Rodion             What is Cast         At the start of the turn, gain 1 Slash   +1 SP Heal Efficiency,  
+                   - Severance          DMG Up. Lose 10 SP whenever           -1 SP Loss Efficiency
+                                        a unit on either side dies.
+
+Sinclair           Branch of             [Heads Hit] Inflict 12 Rupture   [Heads Hit] Inflict 12 Rupture.
+                    Knowledge            [On Hit] Gain 2 Attack Power    [Tails hit] Heal 10 SP
+                    - Unstable           Down next turn
+
+Outis               To Páthos            If the unit did not get hit at all  If not hit once by an attack
+                    Máthos - Tactical    during a turn, gain 1             this turn, gain 1 Damage Up next turn.
+                    Perfection           Damage Up next turn               (Can stack up to 3 turns)
+
+Gregor              Suddenly,             At the start of the turn,        At the start of the turn, if below
+                    One Day -             if below 25% HP, heal 15 HP     25% HP, heal 15 HP and gain 2
+                    Uncontrolled          and gain 2 Protection.           Protection. When this effect activates,
+                    Morph                 A random other ally loses 15 SP. inflict 1 random other ally & 1 random
+                                                                    enemy with +2 SP Loss Efficiency
+
+PROJECT MOON
+6/8
+
+Update Contents
+
+6. Lobotomy E.G.O :: Sunshower - Heathcliff SP Loss condition added
+
+The following condition is added to Lobotomy E.G.O :: Sunshower - Heathcliff's SP Loss conditions.
+- Lose SP upon Clash loss
+(Base value 10. 20% more for each Clash)
+
+Bug Fixes & Improvements
+
+Fixed an issue where a dead Sinner’s Support Passive would still activate during combat.
+
+7/8
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 July 27th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+8/8
+
+PROJECT MOON
+

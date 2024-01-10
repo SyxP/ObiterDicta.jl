@@ -1,0 +1,209 @@
+
+
+
+
+
+
+
+
+Apr 6 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on April 6th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+1/8
+
+PROJECT MOON
+Update Contents
+
+1. New Target Extraction featuring
+[Seven Section 6 Director Outis & Liu Section 5 Hong Lu]
+(4/6 12:00 ~ 4/20 09:59 (KST)
+Extraction rates increase for the following Identities:
+- ☆3: Seven Section 6 Director Outis
+- ☆2: Liu Section 5 Hong Lu
+
+2. New Sinner Target Extraction: Heathcliff
+(Apr 6 12:00 ~ Apr 20 09:59 (KST))
+Extraction rates increase for the following Identities:
+- ☆3: R Corp. 4th Pack Rabbit Heathcliff
+- ☆2: Shi Section 5 Heathcliff, N Corp. Kleinhammer Heathcliff
+- ☆1: LCB Sinner Heathcliff
+
+3. New Identites & E.G.O
+The following Identities and E.G.O will be added
+to the list of items available from Extraction:
+- Identity (☆3) : Seven Section 6 Director Outis
+- Identity (☆2) : Liu Section 5 Hong Lu
+- E.G.O (HE) : Telepole for Faust
+
+2/8
+
+PROJECT MOON
+Update Contents
+
+4. New Feature: Luxcavation Sweep
+- After clearing a stage in Luxcavation, you unlock the ability to skip the battle for it.
+- When you use 'Skip Button', the selected Luxcavation stage is automatically cleared once.
+- Using 'Skip Battle' costs twice the normal entry cost for the stage, but it gives 50% more rewards of a normal clear (Rounded up). The entry cost and rewards reflect the changed values.
+
+<Base Rewards>
+- Experience Luxcavation Stage 3:
+Manager EXP 40, Identity Training Ticket Ill x4, Identity Training Ticket II x4
+
+- Experience Luxcavation Stage 2:
+Manager EXP 40, Identity Training Ticket Ill x3, Identity Training Ticket II x3
+
+- Experience Luxcavation Stage 1:
+Manager EXP 40, Identity Training Ticket II x7 Identity Training Ticket I x6
+
+- Thread Luxcavation Stage 2:
+Manager EXP 40, Thread x6 (w/ bonus) / Thread x3 (w/o bonus)
+
+- Thread Luxcavation Stage 1:
+Manager EXP 40, Thread x4 (w/ bonus) / Thread x2 (w/o bonus)
+
+<Rewards for Skipping Battle>
+- Experience Luxcavation Stage 3:
+Manager EXP 60, Identity Training Ticket Ill x6, Identity Training Ticket II x6
+
+- Experience Luxcavation Stage 2:
+Manager EXP 60, Identity Training Ticket Ill x5, Identity Training Ticket II x5
+
+- Experience Luxcavation Stage 1:
+Manager EXP 60, Identity Training Ticket II x11 Identity Training Ticket I x9
+
+- Thread Luxcavation Stage 2:
+Manager EXP 60, Thread x9 (w/ bonus) / Thread x5 (w/o bonus)
+
+- Thread Luxcavation Stage 1:
+Manager EXP 60, Thread x6 (w/ bonus) / Thread x3 (w/o bonus)
+
+3/12
+
+PROJECT MOON
+Update Contents
+
+5. New Combat Feature - E.G.O Overclock
+- When generating an E.G.O skill, you can manually generate a Corrosion skill by spending 1.5 times as many E.G.O resources and SP.
+
+- With enough E.G.O resources in your possession, the skill becomes a <Stable Overclocked E.G.O skill>. Stable overclocked E.G.O skills have the same effects and damage values as the corrosion skill while being able to distinguish allies from foes.
+
+Overclocking while you don't have enough E.G.O resources in your possession results in an <Unstable Overclocked E.G.O skill>. In this case, the E.G.O resource cost will be subtracted from your possession beyond 0, making it go into the negatives. Unstable overclocked skills carry the risk of targeting indiscriminately as well.
+
+4/8
+
+PROJECT MOON
+Update Contents
+
+6. Major Changes
+
+▶ Identity Passive Activation Requirements Adjusted
+- Activation requirements of certain combat and support passive abilities changed to E.G.O resources in possession
+  • 18 combat passives, 34 support passives
+
+- Resonance requirements eased for the following passives
+  • LCB Sinner Yi Sang - Information Relay
+  • LCB Sinner Heathcliff - Ressentiment
+  • LCB Sinner Hong Lu - Entertainment 
+  • Blade Lineage Salsu Sinclair - Slayer
+  • The One Who Grips Faust - Conscience
+  • Blade Lineage Cutthroat Outis - Levelheaded
+  • Tingtang Boss Hong Lu - Gaiety
+  • R Corp. Reindeer Ishmael - Brainwave Focus
+
+- Certain Resonance-dependent effects changed to static numbers
+  • Blade Lineage Salsu Sinclair - Slayer
+  • Shi Section 5 Heathcliff - Conscience
+  • Seven Section 6 Yi Sang - Keen Observation
+  • Blade Lineage Cutthroat Outis - Levelheaded
+  • Kurokumo Wakashu Ryoshu - Dark Cloud Blade
+  • LCCB Assistant Manager Rodion - Breach Defense
+  • W Corp. Cleanup Agent Meursault - Enduring Spirit
+  • Liu Section 6 Gregor - Ignition
+  • Liu Section 6 Meursault - Great Mountain 
+  • Seven Section 6 Ryoshu - C. l. H.
+  • LCB Sinner Rodion - Split Evil
+
+▶ E.G.O Corrosion Behavior Changes
+- The corrosion skill appears on a random number of slots
+- Panic blocks are added to slots where the corrosion slot did not appear 
+(Panic blocks prompt no action in particular when chained)
+
+▶ Changes to Sin Resistance Modification when using E.G.O Skills
+- Changed the way Affinity resistances are updated when using an E.G.O skill
+  • Current Iteration: When using an E.G.O skill, only the stronger resistance values from the E.G.O will override the unit's current resistances.
+  • After Update: When using an E.G.O skill, the E.G.O's resistance values completely override the current ones whether or not they are more advantageous.
+
+5/8
+
+PROJECT MOON
+Update Contents
+
+7. Bug Fixes and Improvements
+- Fixed an issue where bonus damage-related effects of certain skills dealt Affinity-based damage instead of fixed damage
+  • G Corp. Manager Corporal Gregor - Eviscerate
+  • N Corp. Kleinhammer Heathcliff - Infirm Retribution
+  • Don Quixote - Fluid Sac E.G.O
+- Fixed an issue where certain skill effects that boost base power at N+ Speed activated at N Speed or below instead
+  • Shi Section 5 Director Don Quixote - Overbreathe
+- Seven Section 6 Yi Sang - Fixed an issue where the passive 'Keen Observation' buffed the enemy's power
+- Yi Sang - Fixed an issue where the targets for the E.G.O 'Wishing Cairn's awakening skill was put as random
+- Hong Lu - Fixed the passive ability of the E.G.O 'Land of Illusion' not working properly and adjusted its text
+- Added targeting clauses to E.G.O skills with unique targeting conditions
+- Chapter 3 Story Dungeon Boss: Fixed an issue where the healing reduction for a certain passive ability would be reset when the battle progressed to Phase 2
+- Combat: Fixed an issue where applied values of Sanity-based Coin-flip chance modifiers were lower than intended
+- Combat: Counter skills fixed to activate against any incoming attack rather than the targeted slot only
+- Fixed an issue where the success probabilities of selectable Identities were being displayed as "Unselectable" in checks
+- Added more title call voiceline variants to the login screen
+
+6/8
+
+PROJECT MOON
+Update Contents
+
+7. Bug Fixes and Improvements
+- Fixed an issue where the 'Retry' button did not function when a server error had occurred
+- Fixed an issue where the Abnormality 'Doomsday Calender' was being displayed incorrectly during E.G.O skill animations
+- Fixed an issue where attempting to merge data or log in with an account whose closure grace period had passed would cause the closure to fail to process
+- Added a UI element to display the reason for a failed account merge
+- Fixed an issue where Mirror Dungeon node icons would not be displayed properly after downloading new data that had been prompted during gameplay
+- Damage multiplier now displayed for "Normal" resistances in unit info
+- Added effects in unit info for modifications to the base resistance values
+- Fixed an issue where the game would become unable to progress when performing rapid inputs in choice prompt UI
+- Fixed an issue where effect texts were being incorrectly displayed for certain Abnormality checks
+- Targeting an Abnormality with an attack type or Affinity not yet unlocked in the Encyclopedia now shows the damage modifiers as ??%
+- Fixed the incorrectly written Season 1 end date on the battle pass screen (The end date is correctly displayed on announcements and banners)
+  • Current: May 19 06:00
+  • Changed: May 18 05:59
+- Adjusted a number of potentially confusing phrases for certain choice prompts and E.G.O Gift descriptions
+  • Photopia's effect now properly described as affecting final power
+  • Lowest Star's bonus effect description for attacking with a Pride skill adjusted from "Deal 8 SP damage" to "Deal +3 SP damage"
+7/8
+
+PROJECT MOON
+Maintenance and Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: All users whose game account was created before 09:59 April 13th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+8/8
+
+PROJECT MOON
+

@@ -1,0 +1,139 @@
+
+
+
+
+Walpurgisnacht
+2023.10.26 (KST)
+
+Copyright (C) 2023. All rights reserved by Project Moon
+LIMBUS COMPANY
+Regret
+TETH
+Meursault
+
+E.G.O AWAKENING SKILL
+Regret
+[Before Attack] Remove random removable negative effect applied to self
+[On Hit] Inflict +(X* (Wrath A-Reson. /Y)) Tremor Count.
+[On Hit] Tremor Burst.
+If the target does not have a Stagger Threshold upon Burst Tremor, deal Wrath damage based on the final Stagger Threshold by Burst Tremor.
+
+E.G.O CORROSION SKILL
+Regret
+[Indiscriminate] Targets Randomly
+[Before Attack] If this unit has a negative status effect, Atk Weight +X
+[On Hit] Burst Tremor.
+Raise target's Stagger Threshold by X% of Tremor on target.
+If the target does not have a Stagger Threshold upon Burst Tremor, deal Wrath damage based on the final Stagger Threshold raised.
+Reduce Tremor Count by X.
+[After Attack] Gain X Bind and Y Blunt Power Up next turn.
+
+E.G.O PASSIVE
+Bound Wrath
+Leftmost skill on the Dashboard loses X Base Power and gains Y Coin Power
+
+* At the start of the turn, if at X- Speed, gain Y Blunt Power Up next turn.
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2023 ALL BLUE Studio. All rights reserved.
+LIMBUS COMPANY
+Hook Office Fixer
+Hong Lu
+
+SKILL 1
+Track
+Atk-X Haste, Final Power +Y
+I [On Hit] Inflict X Bleed
+II [Heads Hit] Inflict +X Bleed Count
+
+SKILL 2
+Goin' First
+Atk-X Speed, Coin Power +Y
+I [On Use] Gain X Haste next turn
+I [Heads Hit] Inflict X Bleed
+II [Heads Hit] Inflict X Bleed
+III [On Hit] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference.
+
+SKILL 3
+Rampage
+Atk-X Speed, Coin Power +Y
+Deal more damage based on target's missing HP
+I [Heads Hit] Heal X SP per Y Bleed on target
+II [On Hit] Inflict X Bleed
+III [On Hit] Inflict X Bleed
+
+PASSIVE
+Quickness
+If target has X+ Bleed, gain +Y Coin Power
+[On Evade] Gain X Haste next turn
+
+Hook
+Upon defeating an enemy, gain X Attack Power Up next turn
+
+SUPPORT PASSIVE
+Mass-produced Bionic Gear
+When 1 ally with the fastest Speed defeats an enemy inflicted with Bleed, gain X Attack Power Up next turn
+
+*The Identity's stats at max level and Update tier are displayed here. This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Lobotomy E.G.O-Regret
+
+ENTITY INFO
+(Three orange circular icons)
+
+Faust
+SKILL 1
+Contracting Straight-jacket
+[On Use] Gain +X Tremor Count
+[Clash Lose] Gain +X Tremor Count
+[On Hit] Gain +X Tremor Count
+[On Hit] Inflict X Tremor Count
+
+SKILL 2
+Metallic Ringing
+[Combat Start] Spend X Tremor Count and gain +X Atk Weight for this Skill
+[On Use] Gain +X Tremor Count
+[Heads Hit] Gain +X Tremor Count
+[On Hit] Inflict X Offense Level Down next turn
+[On Hit] Inflict X Tremor
+[On Hit] Inflict X Plus Coin Drop next turn
+
+SKILL 3
+Unleashed Violence
+[Combat Start] Spend X Tremor Count and gain +Y Atk Weight for this Skill
+[Clash Lose] Lose X SP.
+Deal X% more Damage per Y negative effect on target.
+[On Kill] Gain +X Tremor Count.
+
+DEFENSE
+Gathering Spittle
+[On Use] Gain +X Tremor Count
+
+PASSIVE
+Coerced Regret
+In a clash, the target has -X Clash Power for every Y types of negative effects.
+When this unit is alive, enemies affected by Tremor Burst gain X Defense Level Down.
+Mental Corruption: If at less than X SP at Turn End, gain Y Bind and Z Blunt Power Up next turn.
+
+SUPPORT PASSIVE
+Repression Work
+In a clash, the target of the slowest ally has -X Clash Power if they have Y+ types of negative effects
+
+(One orange, one blue, one red diamond icons)
+On [Hit] Burst Tremor, 
+Then deal Wrath Damage by X% of the final Stagger Threshold raised by Burst Tremor.
+On [Hit] Burst Tremor, 
+Then deal Wrath Damage by X% of the final Stagger Threshold raised by Burst Tremor.
+On [Hit] Burst Tremor, 
+Then deal Wrath Damage by X% of the final Stagger Threshold raised by Burst Tremor. Reduce Tremor Count by X.
+
+Walpurgisnacht
+(Three green swirl icons)
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright (C) 2023, All Rights Reserved - Project Moon
+

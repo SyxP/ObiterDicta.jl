@@ -1,0 +1,127 @@
+
+
+
+
+
+June 8th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on June 8th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance beings so that no data is lost. Refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction:
+[Technology Liberation Alliance • Rosespanner Workshop]
+(Jun 8 12:00 ~ Jun 22 09:59 (KST))
+Extraction rates increase for the following Identities:
+- 3★: Lobotomy E.G.O :: Sunshower Heathcliff
+- 2★: Rosespanner Workshop Fixer Gregor
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+2. Season 2 (Part 2) Changes and Additions
+(1) Main Story Chapter 4 (Part 2) Added
+   - Requirements: Clear 4-27
+
+(2) Season 2 Limbus Pass - Reminiscence (Part 2) unlocked
+   Pass rewards for Lv. 21 to Lv. 40 will be unlocked.
+   The Pass level will be tracked normally regardless of the 
+   gradual updates. When the rewards for higher levels are
+   unlocked with subsequent updates, you can immediately
+   claim them up to your current Pass level.
+
+(3) New Team Setup Function -
+    Controlled slot additions to dashboard
+
+    Old: The Sinner to gain a skill slot on the 
+    dashboard is 'randomly' determined each turn
+    New: Skill slots are added according to the order in
+    which Sinners were selected on the deployment screen
+
+(4) Changed the name of Thread Shop
+    Old: Thread Shop
+    New: Shard::Thread Exchange
+
+(5) Downadjusted certain skills and skill slot 
+    quantity for enemies in Chapter 4 (Part 1)
+
+2/4
+
+PROJECT MOON
+Update Contents
+
+3. Bug Fixes and Improvements
+- Fixed an issue where the description for the E.G.O Roseate Desire for Ishmael's passive "Pink Ribbons" did not match its actual function
+- Fixed the Uptie Tier 3 artwork for R Corp. 4th Pack Reindeer Ishmael being displayed incorrectly
+- Fixed Uptie Tier 3 artworks for wrong Identities being displayed on the details screen
+- Fixed tagline words and phrases not being added after obtaining the E.G.O Capote for Ishmael and Meursault
+- Fixed Chapter 4.5 appearing on the driverside as if it's available after clearing Chapter 2 of Main Story
+- Fixed the Coin recycle effect of Tingtaang Boss Hong Lu's skill 2 'Shank' not activating
+- Adjusted the position of HP value numbers for Abnormality parts
+  - Old: The value is placed to the left of the HP bar
+  - New: The value is placed to the right of the HP bar
+- Fixed the friend list not updating right after removing a friend
+- Fixed Rosepanner Workshop Rep Rodion's voice lines not playing in certain situations
+- Fixed Rosepanner Workshop Fixer Meursault's voice lines not playing in certain situations
+- Fixed an issue with the displayed damage values of Rosepanner Workshop Rep Rodion's skill 2 'Vibration Compression' on its second animation
+  (The damage calculation itself had no issues.)
+- Fixed missing sprites after the animation for the E.G.O Capote for Ishmael is played
+- Fixed the Abnormality ‘Brazen Bull - Tearful’ not counting toward 'Suppress Abnormalities' pass missions.
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+
+- Recipients: Every user whose game account was created before 09:59 June 15th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+이번 추가되는 슬립 스택의 순서를 지정하는 시스템의 추가로 아래와 사항이 변경되었습니다.
+게임 플레이 시 참고해주시기 바랍니다.
+
+기존: 물러짐/패닉/에그 체상 사태가 아닌 무작위 아군 1명의 슬립 스택이 추가됨
+변경: 물러짐/패닉/에그 체상 상태여도 순서 추가 우선 순서대로 슬립 스택이 추가됨
+
+수많은 掛かれるスキルスロットの順番を指定する
+システムの追加により、以下の内容が変更になりました。
+ゲームプレイ時にご参考ください。
+
+変更前：疲労/パニック/E.G.の疾患状態でない
+ランダムな味方1名のスキルスロットが追加
+変更後：疲労/パニック/E.G.の疾患状態であっても、
+スロット追加時に優先してスキルスロットが追加
+
+With the addition of the system to control
+the order of skill slot gain, the following change has been made.
+Please note this information for your gameplay.
+
+Old: The slot is added for a random ally
+that isn't staggered/in panic/corroded.
+New: The slot is added in the set order
+even if the ally is currently staggered/in panic/corroded.
+
+PROJECT MOON
+

@@ -1,0 +1,26 @@
+
+Emergency Maintenance Notice
+
+Hello, this is Project Moon.
+
+Currently, there is an issue in the game where Slash, Pierce, and Blunt DMG Up and Down effects are applied tenfold.
+This issue may cause certain Identities and E.G.O to deal abnormal amounts of damage.
+
+Unless this issue is immediately addressed,
+We decided that the records between Managers who were affected by this issue and Managers who were not may differ.
+
+Therefore, we plan to conduct an emergency maintenance, temporarily pause the Refraction Railway, and make a correction to this issue.
+We will inform you of the detailed fixes and the error compensations once we have completed the maintenance.
+
+We sincerely apologize for causing disturbance to your enjoyment of our game.
+
+Emergency Maintenance Period
+
+[Time]
+After 2023.09.15 18:30(KST) (End time undecided)
+
+[Reason]
+Temporary pause to Refraction Railway, deploying fix to Slash, Pierce, and Blunt DMG Up and Down Issue
+
+PROJECT MOON
+

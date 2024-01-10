@@ -1,0 +1,133 @@
+
+
+
+
+
+December 14th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on December 14th, 2023 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. 
+Please refer below for details about the update.
+
+Update Contents
+
+1. New E.G.O Target Extraction - [Pursuance Rodion]
+(Dec. 14th 12:00 ~ 12:28 10:00 (KST))
+Extraction rate increases for the following E.G.O:
+- E.G.O [HE] : Pursuance Rodion
+
+2. [Target Extraction: Meursault]
+(Dec. 14th 12:00 ~ Dec. 28th 10:00 (KST))
+The following E.G.O and Identities will have increased odds of extraction.
+- E.G.O [HE] : Pursuance Meursault
+- 3✭ : R Corp. 4th Pack Rhino Meursault, N Corp. Großhammer Meursault, W Corp. L2 Cleanup Agent Meursault
+- 2✭ : The Middle Little Brother Meursault, Rosespanner Workshop Fixer Meursault, Liu South Section 6 Meursault,
+- 1✭ : LCB Sinner Meursault
+
+3. New E.G.O Added
+The following is added to the list of extractable E.G.O.
+- E.G.O [HE] : Pursuance Rodion
+
+1/5
+
+PROJECT MOON
+New Content
+1. Mirror Dungeon #3 Normal Difficulty
+
+※ Please refer to the Steam Announcements page for more information.
+
+※ Mirror Dungeon #3 Hard will appear after the Dec. 21st (KST) Scheduled Update. Mirror Dungeon #2 will no longer be available after Dec. 14th (KST) Update. Therefore, Mirror Dungeon Hard difficulty cannot be played until the Dec. 21st (KST) Scheduled Update. Claiming the Hard rewards are available only after Dec. 21st (KST) Scheduled Update as well. After the Dec. 14th (KST) Scheduled Update, progress for both Mirror Dungeon #2 Normal and Hard will be reset. Managers who have played Mirror Dungeon #2 Normal or Hard between Dec. 14th 06:00~10:00 must claim their rewards before the Dec. 14th 10:00 Scheduled Update Maintenance begins.
+
+Major Changes
+
+1. Mini Stories visible from the 'Drive' window
+Now, Episode Minis can be viewed from the 'Drive' window.
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where certain enemy art did not display properly, turning them invisible.
+
+▶ Fixed an issue where 'Sever Knot' Skill of Uptie 4 The Pequod Harpooneer Heathcliff was not working as intended
+   - Before : At 6+ highest Envy A-Reson., Coin Power +1
+   - After : At 6+ Envy A-Reson., Coin Power +1
+
+▶ Fixed Skill description typos when viewing changes in The Pequod First Mate Yi Sang's Uptie window
+
+▶ (Korean) Fixed typos in Skill 3 of The Pequod Harpooneer Heathcliff - 'Sever Knot'
+
+▶ Fixed an issue where LCCB Assistant Manager Ryōshū's Uptie highlight text did not work as intended
+
+▶ Fixed an issue where Tingtag Gang Gangleader Hong Lu's Skill 2 - 'Shank' did not activate "Heads: +50% Damage for this coin" and "[Reuse - Heads Hit] +50% Damage for this coin"
+
+▶ Rodion E.G.O - Effervescent Corrosion: Fixed an issue where Threadspinning Tier 1 targeting conditions text was incorrectly labeled
+   - Before : Targets the unit with the least HP
+   - After : Targets Randomly
+
+▶ Fixed an issue where the second Coin on LCB Rodion's Skill 'Slay' did not display damage indicators and was not properly displaying the total amount of damage dealt
+
+▶ Fixed an issue where 9:2 Faust's Corrosion Sprite was not properly animated
+
+▶ Updated [Season 3] Assured Extraction: 3⭐ Identity Illustration
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+(Mobile only) Fixed an issue in the Tutorial (Main Story - Prologue) where certain cutscenes were missing
+※ The missing cutscenes were the Sinners' self-introduction scenes.
+
+Fixed an issue where, in the Identity Archive menu, Identities that have been upgraded to Uptie 3 did not properly display Uptie 3 artworks
+
+Fixed an issue in the combat UI where the boxes for effect texts did not display properly to fit the text.
+
+Fixed an issue where, in the Combat phase, the Coin UI would briefly condense to show only a single Coin
+
+Fixed an issue where, in the Combat phase, activating Skill info UI would show Dummy UI data
+
+Known Issues
+
+An issue where the Uptie 4 effects of Ting tang Gang Gangleader Hong Lu's Skill 3 'Mutilate', "[Reuse - Heads Hit] If target has 10+ Bleed, deal +50% damage" activated on [On Hit] instead
+※ We have identified that a certain effect in Ting tang Gang Gangleader Hong Lu's Skill 3 'Mutilate' activated on incorrect conditions. If this error were to remain unfixed, the +50% damage would activate regardless of whether Ting tang Gang Gangleader Hong Lu's special trait activated - which is reusing coins.
+ This means that this skill was not working as intended, so we would like to fix this issue. We sincerely apologize to any users who have been using Ting tang Gang Gangleader Hong Lu.
+
+(iOS, Android) An issue where, after a specific sequence of UI movements, Main Story UI and Luxcavation UI would overlap each other
+
+Known Issues after Dec. 14th (KST) Scheduled Update
+
+(JP, EN) An issue where the translations for "Select Starting E.G.O Gift" are missing
+
+(JP, EN) An issue where the translations for "Summary/Details" text are missing when viewing the Mirror Dungeon Starter Buffs List
+※ The above issues require a client build, so they will be fixed with the Dec. 21st (KST) Scheduled Update.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 10:00 Dec. 21st 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

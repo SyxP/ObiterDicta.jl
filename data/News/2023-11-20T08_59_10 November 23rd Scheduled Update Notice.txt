@@ -1,0 +1,147 @@
+
+
+
+
+
+November 23rd Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on November 23rd, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [The Middle Little Sister Don Quixote & Little Brother Meursault] (Nov. 23rd 12:00 ~ Dec. 7th 10:00 (KST))
+   Extraction rate increases for the following Identities.
+   - 3★: The Middle Little Sister Don Quixote
+   - 2★: The Middle Little Brother Meursault
+
+2. New Identities Added
+   The following are added to the list of extractable Identities.
+   - 3★: The Middle Little Sister Don Quixote
+   - 2★: The Middle Little Brother Meursault
+
+3. Gradual Main Story & Battle Pass Updates
+   ▶ Main Story Canto 5-(Part 2) Unlocked
+      - Unlock Conditions: Clear 5-19
+
+   ▶ Season 3 Limbus Pass - Bon Voyage (Part 2) Unlocked
+      Battle Pass rewards from Lv.21 ~ Lv.40 will be unlocked.
+
+4. EXP Luxcavation #5 Added
+   - Unlock Conditions: Clear Canto 5-(Part 2)
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Season Pass 3 Reward - Hong Lu
+E.G.O 'Effervescent Corrosion' rating changed
+- Before: TETH
+- After: HE
+
+2. Now, unlocking enemy info displays the enemy's Levels
+※ Their levels will not be displayed unless the enemy info is unlocked.
+
+3. Added an option in the Settings-Gameplay to toggle Detailed Skill Info UI in Combat Phase
+
+4. The game now displays detailed Skill Info UI in the Combat Phase during Focused Encounters
+
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the effects of 'Agitated' status effect from Panic was mislabeled
+(1) Low Morale
+- Before: Turn Start: Gain 2 Damage Up and 2 Fragile
+- After: Turn Start: Gain 1 Damage Up and 2 Fragile
+(2) Panic
+- Before: Turn Start: Gain 5 Damage Up and 5 Fragile
+- After: Turn Start: Gain 2 Damage Up and 5 Fragile
+
+▶ Fixed an issue where the Dispenser displayed "SOLD OUT" even when there were dispensable items in the Standard Fare Dispenser
+
+▶ Fixed an issue where the translations were missing for purchasing past Season Pass E.G.O ([Egoshards] / [Paid Lunacy])
+
+▶ Fixed an issue where glow VFX was applied to claiming Pass Levels after clearing a mirror dungeon
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where an enemy's Skill "Weakness Spotted! Fire!" from Main Story 5-10 was incorrectly labeled
+  - Before : A description was erroneously included in Coin 3
+  - After : The description is now included in Coin 2
+
+▶ Fixed mislabeling issues with the 'Sinking Deluge' status effect from certain enemies in Main Story 5-18 and 5-19
+
+▶ Fixed an issue where Twinhook Pirates First Mate Gregor's extraction animation did not play certain SFX
+
+▶ Fixed an issue where un-highlighted Skills could be turned into Defensive Skills during the Focused Encounter Tutorial mission
+
+▶ Fixed typos in Canto 5-(Part 1)
+
+▶ Abnormality- Fixed text issues in Choice Results for kque-1j-23
+
+▶ Fixed an issue where the 'Left Hand' and the 'Right Hand' had the same icons in Focused Encounters
+
+▶ Fixed an issue where having Identity Training Ticket IV did not allow players to enter the Identity Level Up menu if they did not have any Identity Training Ticket I, II, or III
+
+▶ Changed BGM for EXP Luxcavation #4
+
+▶ Fixed an issue where Skill UI did not move the camera properly while certain enemy unit Skill VFX were playing
+
+▶ Fixed an issue where an allied unit's Skill 3 VFX did not play their respective voices
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where W Corp. L3 Cleanup Agent Yi Sang's Skill 3, Coin 3 did not activate as intended
+   - Before : [On Kill] Gain 3 Charge Barrier → In-game effects gave this unit 5 Charge Barriers
+   - After : [On Kill] Gain 3 Charge Barrier → In-game effects will now give this unit 3 Charge Barriers as written
+
+※ We have fixed an issue where this unit's Uptie 4 Charge Barrier gain effects were applied to Uptie 3 Charge Barrier gain effects instead. We apologize for causing this issue for anyone who has used W Corp. L3 Cleanup Agent Yi Sang.
+
+Known Issues after Nov. 23rd Update
+
+► An issue where, upon entering an Encounter after setting 'Toggle Detailed Skill Info UI in Combat Phase' option, Skill info UI would not fade away
+
+► An Issue where, if the user enters Theater-Main Story after completing Main Story 5-19 but before starting Main Story 5-20, Canto 5 Story UI does not show in the Theater
+※ This issue can be fixed by entering Main Story 5-20.
+
+4/5
+
+PROJECT MOON
+W Corp. L3 Cleanup Agent Yi Sang
+Error Fix Compensation
+
+- Compensation: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Dec. 7th, 2023 (KST)
+- Can be claimed once per Account
+- When: After Nov. 23rd, 2023 12:00 (KST)
+
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Nov. 30th 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+
+5/5
+
+PROJECT MOON
+

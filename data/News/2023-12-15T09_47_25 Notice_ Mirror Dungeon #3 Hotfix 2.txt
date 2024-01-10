@@ -1,0 +1,36 @@
+[Notice: Mirror Dungeon #3 Hotfix 2]
+
+Hello, this is Project Moon.
+
+Hotfix #2 for Mirror Dungeon #3 will be deployed on Dec. 15th 19:00 (KST).
+
+Restart the game to apply this Hotfix. This Hotfix does not require a client update.
+However, please note that additional downloads may occur once you've restarted the game.
+
+[Changes]
+1. Enemy difficulty adjusted
+(1) Floor 4 enemies
+- Before : Lv.49 ~ 53
+- After : All fixed to Lv.47
+
+(2) Floor 3 Bosses
+- Lowered HP and Defense Levels of certain Bosses
+
+(3) Floor 4 Bosses
+- Fixed to Lv.50
+- Lowered HP and Defense Levels. Added Stagger thresholds to certain enemy parts.
+
+2. The Burn-related Passive of 'So That No One Will Cry' will no longer activate in Mirror Dungeon #3.
+
+3. On Mirror Dungeon #3 Normal, the number of enemies and their Slots for Twinhook Pirates First Mate Smee Encounter has been adjusted to be more appropriate for the number of allied participants.
+
+4. On Mirror Dungeon #3 Normal, we have fixed an issue where Doomsday Calendar's Encounter Level was lower than the Level of the floor it is on.
+- Before : 40
+- After : 45
+
+5. On Mirror Dungeon #3 Normal, we have fixed an issue where the Blubbering Toad's Encounter Level was higher than the Level of the floor it is on.
+- Before : 50
+- After : 49
+
+We apologize for causing a disturbance to your enjoyment of our game.
+

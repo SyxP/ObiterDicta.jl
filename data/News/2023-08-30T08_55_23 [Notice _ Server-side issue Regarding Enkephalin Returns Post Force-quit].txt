@@ -1,0 +1,62 @@
+
+
+Notice: Server-side issue Regarding
+Enkephalin Returns Post Force-quit
+
+Greetings, dear Manager.
+
+An issue with returning consumed Enkephalin when the user
+force-quits an encounter has been identified following the
+Aug. 10th Update. We will retrieve the Enkephalin Modules
+that were distributed erroneously, and return the lost
+Enkephalin via the in-game Mailboxes.
+
+All affected Managers have been identified after a
+thorough analysis of in-game logs.
+
+Please note that Managers unaffected by this issue will not receive
+the withdrawal and return notifications in their mailboxes.
+For further information on this matter,
+please refer to the details below.
+
+<Issue Details>
+- Issue : Upon force-quitting an encounter, 1 Enkephalin module
+was returned to the players instead of consumed
+Enkephalin(= required Enkephalin -1) for that encounter
+
+- Cause : An error with the server-side logic of the game caused
+users to receive 1 Enkephalin module instead of the
+resource(Enkephalin) that was spent.
+
+- Solution : The logic causing the
+issue has been corrected (As of August 25th)
+
+1/2
+
+PROJECT MOON
+Notice: Server-side Issue Regarding
+Enkephalin Returns Post Force-quit
+
+<Enkephalin Module Withdrawals & Enkephalin Returns>
+- Withdrawals and Returns: After Sep. 07th Update
+
+- Withdrawals: Enkephalin modules given due to this issue will be withdrawn from the user’s inventory, and the number of modules withdrawn will be notified to the affected users via the Mailbox.
+
+- Returns: Enkephalin that has not been returned due to this issue will be sent to the affected users via the Mailbox (Enkephalin acquired via the Mailbox can exceed 999 capacity)
+
+※ If the amount of Enkephalin modules withdrawn exceeds the amount currently owned, the remaining balance can go negative.
+※ No Enkephalin will be returned for stages that don't require Enkephalin, such as the Tutorial stages.
+
+We sincerely apologize for causing a disturbance to your enjoyment of the game. All Managers will be given the following compensation. Please refer to below for further details.
+
+Compensation for the Server-side Issue Correction
+
+- Compensation: Lunacy x300, Enkephalin module x5
+- Recipients: Every user whose game account was created before 09:59 Sep. 21st, 2023 (KST)
+- Can be redeemed once per account
+- Date: After Aug. 30th (Wed) 18:00 (KST)
+
+2/2
+
+PROJECT MOON
+

@@ -1,0 +1,101 @@
+
+
+
+Planned Adjustments to Luxcavation
+
+Greetings, Dear Manager.
+Below is the list of planned changes
+for Luxcavation that will be applied in a future update.
+
+Updates
+
+1. Entering Luxcavation now costs
+Enkephalin Modules instead of Enkephalin.
+Planned Date: Mar 23 (KST) Scheduled Update
+
+◆ Current Iteration
+- Experience Luxcavation Stage 1: 30 Enkephalin
+- Experience Luxcavation Stage 2: 35 Enkephalin
+- Experience Luxcavation Stage 3: 40 Enkephalin
+- Thread Luxcavation Stage 1: 35 Enkephalin
+- Thread Luxcavation Stage 2: 40 Enkephalin
+
+◆ After Update
+- Experience Luxcavation Stage 1/2/3: Enkephalin Module x2
+- Thread Luxcavation Stage 1/2: Enkephalin Module x2
+
+As the amount of Enkephalin spent is increased, the experience gain
+from Stages 1 and 2 of Experience Luxcavation will be slightly increased.
+(No changes will be made for Thread drops in Thread Luxcavation.)
+
+PROJECT MOON
+Updates
+
+2. Removal of Daily Bonuses
+from Experience Luxcavation and the Standardization of Rewards
+Planned Date: Mar 30 (KST) Scheduled Update
+
+Experience Luxcavation will be tweaked to better serve
+as a constantly available resource
+where Identity Training Tickets can be acquired as needed.
+To this end, the daily bonuses will be removed from Experience Luxcavation,
+and regular clear rewards will be improved accordingly.
+
+♦ Experience Luxcavation Stage 3
+<Current Iteration>
+- With Bonus (First 3 daily clears):
+Identity Training Ticket III x5, Identity Training Ticket II x5
+- Without Bonus (4+ per day):
+Identity Training Ticket III x3, Identity Training Ticket II x3
+
+<After Update>
+Daily Limits Removed
+- Identity Training Ticket III x4, Identity Training Ticket II x4
+
+♦ Experience Luxcavation Stage 2
+<Current Iteration>
+- With Bonus (First 3 daily clears):
+Identity Training Ticket III x3, Identity Training Ticket II x3
+- Without Bonus (4+ per day):
+Identity Training Ticket III x2, Identity Training Ticket II x2
+
+<After Update>
+Daily Limits Removed
+- Identity Training Ticket III x3
+
+♦ Experience Luxcavation Stage 1
+<Current Iteration>
+- With Bonus (First 3 daily clears):
+Identity Training Ticket II x6, Identity Training Ticket I x6
+- Without Bonus (4+ per day):
+Identity Training Ticket II x4, Identity Training Ticket I x4
+
+<After Update>
+Daily Limits Removed
+- Identity Training Ticket II x5, Identity Training Ticket I x5
+
+PROJECT MOON
+Updates
+
+3. A 'Skip Battle' function will be added to Luxcavation.
+Planned Date: Apr 6 (KST) Scheduled Update
+
+- After clearing a stage in Experience Luxcavation,
+  the ability to skip the battle for it will be unlocked.
+- Using 'Skip Battle' will automatically clear
+  the selected Luxcavation stage once.
+- 'Skip Battle' costs twice as much Enkephalin as regular stage entry,
+  but it yields 50% additional rewards.
+  (The entry cost and rewards will reflect the changes above.)
+
+<Example>
+- Using 'Skip Battle' for Experience Luxcavation Stage 3
+  (With mentioned changes applied)
+  - Entry Cost: Enkephalin Module x4
+  - Rewards Earned: Identity Training Ticket III x6,
+    Identity Training Ticket II x6
+
+Thank you.
+
+PROJECT MOON
+

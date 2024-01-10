@@ -1,0 +1,64 @@
+
+
+
+Notice of Emergency Update
+
+[Maintenance Period]
+- 2023. 4. 7(fri) 19:40 ~ 20:20 (KST)
+- Update Compensation: Lunacy x1300
+- The update completion time may vary depending on the maintenance situation.
+
+We have identified an issue where Clashes occur at an unnaturally high frequency, and discovered upon examining the cause that the Sanity of Abnormalities could rise under certain conditions. Normally, enemy units whose Sanity is not displayed, such as Abnormalities, have a fixed chance of 50% to land Heads with their Coins.
+
+An emergency update will be rolled out to resolve this issue as we have deemed that its impact on gameplay, especially on the Refraction Railway, is severe enough. As such, the game will enter maintenance in order to prepare for the emergency update.
+
+We were able to prepare the emergency update quickly as the causes of the issues were identified early. In addition, the screening processes for Google and Apple finished earlier than predicted, allowing us to release the update with haste.
+
+Please note that the time taken for the screening processes for future updates may differ, meaning we may not be able to deliver patches as fast.
+
+If a similar major issue occurs in the future, the Steam version will most likely be the first to be updated as it does not require screening processes. Once again, please understand that we do not have the capability to release simultaneous patches for the mobile versions.
+
+We will try to be more careful so that fewer serious issues like this arise in the future. We greatly apologize for the inconvenience.
+
+1/2
+
+PROJECT MOON
+Major Fixes and Adjustments
+
+- Abnormality Combat: Fixed an issue where Abnormalities could heal SP and subsequently have higher chances of landing Heads with their skills' Coins
+  - Fixed an issue where Abnormality battles in Thread Luxcavation would not unlock the Abnormalities' story entries in the Encyclopedia
+  - (Mobile) Fixed an issue where multiple UI elements were being long-pressed at once
+- Adjusted animation for when Coins are added to Shi Section 5 Ishmael's 'Flashing Strike' (Skill 2)
+- Adjusted animation for when Coins are added to Kurokumo Wakashu Hong Lu's 'Cloud Cutter' (Skill 2)
+  - Fixed an issue with the camera when tracking Shi Section 5 Ishmael's 'Flashing Strike' (Skill 2)
+  - Fixed an issue where combat may stop in certain stages that use a specific map
+- Fixed an issue where going from the Refraction Railway dungeon screen to the Thread Shop caused UIs to malfunction
+- Fixed an issue where entering a battle outside of the Refraction Railway after clearing it caused combat to malfunction
+- Thread Luxcavation: Fixed an issue where the skip function unlock hint UI displayed abnormal text
+  - Combat: Optimized certain UI elements
+- Story Dungeons: Fixed an issue where returning to a checkpoint caused the dungeon map to disappear and prevent progress
+  - Fixed an issue where Main Story 3-22 Kromer's Passive ‘Bliss of Execution’ did not work properly
+  - Removed the nonfunctional Passive ‘Bliss of Execution’ from Refraction Railway Kromer
+  - Fixed an issue where Alleyway Watchdog's Passive ability 'Breaking Pieces’ did not work properly
+- Fixed an issue where the acquisition conditions for the Refraction Railway banners were incorrectly written in the banner list
+
+We apologize for the inconvenience.
+The following compensation will be provided to all players.
+Please refer below for more details.
+
+2/2
+
+PROJECT MOON
+Compensation
+
+x1300
+
+Content: Lunacy x1300
+Date: Around the Apr 7 (KST) emergency maintenance
+-Can be redeemed once per account
+- You can claim the item through the in-game mail system until 2023 Apr 13 09:59 (KST). (Mail Validity Period: 7 days)
+
+We thank you, and wish you luck on the Railway.
+
+PROJECT MOON
+

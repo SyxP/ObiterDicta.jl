@@ -1,0 +1,142 @@
+
+
+
+
+
+Intro to Upcoming Jul 7 Content -
+Mirror of Mirrors Hard Difficulty
+
+Greetings, Manager.
+
+With the July 6th, 2023 (KST) update, the new content of <Mirror of Mirrors Hard Difficulty (Mirror Dungeon 2 Hard)> will be added to the game.
+
+- Period: After Jul 6 12:00 (KST) update
+- Requirements: Clear Mirror of Mirrors (Mirror Dungeon 2) on Normal difficulty
+- Description: Play Mirror Dungeon 2 Hard to earn large amount of Battle Pass XP!
+
+NOTE
+
+Please note that the Weekly Bonus is not reset upon this update. Managers seeking to apply the Weekly Bonus to "Mirror Dungeon Hard Rewards", please take care to not use up their Weekly Bonus between 7/6 6:00~9:59(KST).
+
+1/5
+
+PROJECT MOON
+Rewards List
+
+Battle Pass XP can be gained in great abundance
+in Mirror Dungeon 2 Hard.
+
+- Rewards for completing each Dungeon to the final floor
+(Weekly Bonus not applied)
+
+List        Enkephalin       Battle Pass          Manager EXP
+               Modules Cost           XP Bonus
+__________________________________________________________________________________
+Mirror      3                        10                              60
+Dungeon 1
+      
+Mirror      5                       30                             100
+Dungeon 2
+      
+Mirror      6                      50                             120
+Dungeon 
+2 - Hard
+(Can be claimed
+up to 3 times)
+
+- Rewards for completing each Dungeon to the final floor
+(Weekly Bonus applied)
+
+List        Enkephalin       Lunacy             Battle Pass          Manager EXP
+               Modules Cost                              XP Bonus
+__________________________________________________________________________________
+Mirror      3                        250                   15                             60
+Dungeon 1
+      
+Mirror      5                        250                   45                            100
+Dungeon 2
+
+Mirror      6                        250                   75                             120
+Dungeon 
+2 - Hard
+(Can be claimed
+up to 3 times)
+
+2/5
+
+PROJECT MOON
+Mirror Dungeon 2 Hard Major Points
+
+Mirror Dungeon 2 Hard introduces the following elements to Mirror Dungeon 2:
+
+▶ Starting Stage
+
+The following are applied at the starting stage of a Hard Difficulty run.
+
+Starting E.G.O Gift                Creating your Team
+Mirror 
+Dungeon 2 
+Hard           No E.G.O Gift choice             Team configuration 
+                    at the start                            consumes Cost
+                                                                           (Cost given at the start)
+
+Mirror 
+Dungeon 2 
+Normal         Choose 1 of 3                      Team configuration 
+                     presented                              does not consume Cost
+                     E.G.O Gifts                           (No Cost provided in 
+                                                                   the beginning)
+
+▶ Starting Levels
+
+At the start of the Hard Difficulty, your own Identities' current Levels will be reflected in the Mirror Dungeon.
+
+ - Mirror Dungeon 2 Hard : Levels of your owned Identities will be reflected, up to Level 35
+ - Mirror Dungeon 2 Normal : Levels of your Identities will be fixed to Level 35
+
+※ The Uptie and Threadspinning Tiers reflect what the player currently has, same as on Normal difficulty.
+
+▶ Unpredictable Future
+
+On Hard Difficulty, you cannot view encounters past the immediately upcoming sector.
+
+3/5
+
+PROJECT MOON
+Mirror Dungeon 2 Hard Major Points
+
+► Abnormality Battles Added
+
+Powerful enemies from the Refraction Railway Line 1 appears as bosses on the 5th floor.
+
+► Enemy buffs based on floors
+
+On Hard Difficulty, enemy buffs that would normally apply on the 5th floor of the Mirror Dungeon 2 Normal Difficulty are applied on the 2nd floor.
+
+► Exploration Reward
+
+Hard Difficulty rewards can be collected up to 3 times a week. Rewards in Hard Difficulty: You gain 66% more Battle Pass XP and 25% more Starlight compared to Normal. Applying the Weekly Bonus in Hard Difficulty will net you more lucrative rewards.
+
+4/5
+
+PROJECT MOON
+Mirror Dungeon Bug Fixes and Improvements
+
+With the Mirror Dungeon 2 Hard Update, 
+the following changes will be applied.
+
+▶ July 06 Update
+
+- Fixed an issue with Peccatulum Morosatitis’ Defense Level
+- Fixed the issue on the 2nd floor boss battle where “You Want To Get Beat? Hurtily?” and “Clippity-cloppity? Tap Away!” did not appear
+- Fixed the issue on the 2nd floor boss battle where the checks regarding “You Want To Get Beat? Hurtily?” and Clippity-cloppity? Tap Away!” did not appear
+- Fixed the way in which the Starter Buffs are presented
+- Fixed issues in some stages where incorrect BGM played
+- Fixed the issue where some E.G.O Gift effects were incorrectly labeled
+- Fixed the issue where some E.G.O Gift effects weren’t applied according to the descriptions
+- Fixed issues in Abnormality check texts
+
+5/5
+
+PROJECT MOON
+

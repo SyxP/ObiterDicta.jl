@@ -1,0 +1,100 @@
+
+
+
+
+Apr 27 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from10:00 [AM] through 12:00 [PM] on April 27th, 2023 (KST) for system optimizations and content updates. 
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Refer to below for details about the update.
+
+Update Contents
+
+1. Major Changes
+
+- Descriptions for Skills and Passives that unlock after Uptying or Threadspinning are now visible
+- Fixed an issue where N Corp. Kleinhammer Heathcliff's Combat Passive “Bugger...” did not activate
+- Fixed an issue where Rime Shank for Rodion's Combat Passive “Coldness” inflicted its effects on herself
+- Fixed an issue where the One Who Grips Faust's skill “The Gripping” did not inflict Paralyze
+- Added a function to set Identity artwork as the pre- or post-Uptie versions
+- Fixed an issue where Lifetime Stew for Sinclair's Awakening Skill could cause the ally's defense skill to activate
+- Fixed an issue where the intro tagline for user info was not being saved
+- End date of 'Season 1: Orientation' moved from May 18 2023 to June 01 2023
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+2. Bug Fixes and Improvements
+
+- Fixed an issue where the time remaining would be displayed incorrectly on the Battle Pass UI if the time was less than 1 hour
+    - Fixed an issue where the game would malfunction when canceling selection and pressing the button to proceed at the same time during Sinner recruitment in Mirror Dungeons
+    - Added a button to copy the player's own User ID on the company screen of user info
+- Fixed an issue where the skill slot UI would malfunction when units are Staggered or Dead
+    - Fixed an issue where text outlines were incorrectly displayed for the English and Japanese languages
+- Fixed an issue where the info on an Abnormality's skills was not unlocked after clearing an encounter with it for the first time
+    - Adjusted the placement of text for Resistances in the unit info tab of the Refraction Railway
+- Improved the responsiveness of input cursor for text fields
+    - Adjusted the displayed order of the available chapters on the Driverside's chapter select menu
+        - After clearing a story stage, 
+        the icon is now placed on the next stage
+    - Applied localization to images in tutorial pop-ups
+- Fixed a number display error for Faust's corpse sprite in combat
+    - Fixed an issue where Zweii Section 6 Sinclair's 
+    “Strong Strike” did not show the special animation
+- Mirror Dungeon: Fixed an issue where the effect of "Relief" gained from the Electric Centipede event choice did not function properly
+    - Fixed an issue where the text "Tremor Burst!" appeared for Staggers caused by Coin unrelated effects
+    - Fixed an issue where banners moved slightly downward after each selection in Extraction and Dispenser screens
+    - Fixed an issue where selecting an enemy skill slot caused the "STAGGERED" text effect to disappear from other enemies during Abnormality battles
+- Fixed an issue where R.B. Chef de Cuisine Ryōshū's buff gain after a successful evasion did not activate properly
+
+2/4
+
+PROJECT MOON
+Update Contents
+
+2. Bug Fixes and Improvements
+
+- Mirror Dungeon: Fixed an issue where E.G.O belonging to other Identities could be occasionally equipped
+- Mirror Dungeon: Fixed an issue where the game occasionally could not progress after a battle ended
+- Mirror Dungeon: Fixed an issue where E.G.O Gifts occasionally could not be obtained after an event
+- Added a tutorial for E.G.O Overclock
+- Fixed an issue where the localized titles for the detailed currency drop rates UI were not being displayed
+- Limited camera movement depending on stage progression in the Riverside
+- Fixed an issue where the volume would be fixed at a certain value when a voiceline played during the animation for Lifetime Stew for Sinclair's E.G.O skill
+- Fixed an issue where the chapter for Hell's Chicken stages was being shown as chapter 3 in the battle results screen
+- Fixed an issue where the transition animation from the Riverside UI to the Window UI sometimes malfunctioned
+- Fixed an issue where the text on the title screen would be displayed as 'Unknown' and prevented log-ins
+- Fixed an issue where the node occasionally could not be reentered after losing or forfeiting a combat encounter or pressing "back" in the team setup in Hell's Chicken dungeons
+- Fixed an issue where the text “BATTLEPASS in Use” was being displayed incorrectly for the English and Japanese languages
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 May 4th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+  - The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

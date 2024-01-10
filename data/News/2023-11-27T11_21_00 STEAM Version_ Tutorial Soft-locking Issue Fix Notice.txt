@@ -1,0 +1,28 @@
+
+STEAM Version: Tutorial Soft-locking Issue Fix Notice
+
+Greetings, this is Project Moon.
+
+We have identified a Tutorial soft-locking issue in version 1.28.0, and have corrected the issue.
+This issue occurred only on the STEAM version of the game.
+Please refer to the information below for more details.
+
+Issue
+An issue where, during the Loadout tutorial, UI became inaccessible and soft-locked the game
+An issue where, during the Extraction tutorial, repeatedly pressing the Space or the Enter shortcut key would soft-lock the game
+
+Causes
+The interactable areas were incorrectly delineated while developing the UI animations
+Repeated shortcut key inputs were not made to properly interact with the Tutorial progress
+
+Error Fix
+Adjusted interactable area
+Added a function to prevent repeated shortcut key inputs
+
+Future Measures
+Because there were many special functions and behaviors that went into making the tutorials, adjusting unrelated areas of the game may cause it to act in unintended ways. We will make sure to conduct tests for the Tutorials as well if we go through further UI changes during the development of the game.
+
+We apologize for causing a disturbance to your enjoyment of our game.
+
+PROJECT MOON
+

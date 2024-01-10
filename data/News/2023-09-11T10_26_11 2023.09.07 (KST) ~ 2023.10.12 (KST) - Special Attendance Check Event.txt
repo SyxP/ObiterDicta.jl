@@ -1,0 +1,98 @@
+
+
+LIMBUS COMPANY
+Molar Office Fixer
+
+Outis
+
+SKILL 1
+Wait Up!
+Gain +X Tremor Count if this Skill is Discarded
+[On Use] Gain +X Tremor Count
+At X+ Tremor Count, Final Power +Y
+[On Hit] Lower user's Stagger Threshold by amount equal to Tremor Count on Self
+
+SKILL 2
+Slice
+Gain X Offense Level Up if this Skill is Discarded
+[On Use] Discard 1 Skill of lowest rank in all of this unit's Skill Slots
+[On Hit] Inflict Tremor
+[On Hit] Inflict Tremor
+[On Hit] At X+ Tremor Count, Burst Tremor. Reduce Target's Tremor Count by Y
+
+SKILL 3
+Daring Decision
+[On Use] Discard all of this unit's Skills on the Skill Slot from highest to lowest
+[On Use] Spend X Tremor Count to gain Coin Power +Y
+[On Hit] Inflict Tremor
+If the Skill spent Tremor Count, inflict +X Tremor Count
+[On Hit] Burst Tremor. Reduce Target's Tremor Count by X
+
+ENTITY INFO
+Hangover Cure
+[On Use] Discard 1 Skill of lowest rank in all of this unit's Skill Slots
+
+PASSIVE
+Drinking Boast
+Upon Burst Tremor on an enemy, inflict X% of Raised Stagger Threshold as Sloth damage
+
+SUPPORT PASSIVE
+Carrot & Stick
+1 ally with the highest Tremor Count gains +X more Tremor from Skill effects
+
+Discard
+- During the Chaining Phase, delete selectable Skills that fit the conditions from the Dashboard.
+(Defensive & E.G.O Skills do not count. Does not delete the Skill from the Skill list)
+- Upon Discard, Skills will not activate Skill effects or Coin effects, and will not give E.G.O resources.
+[On Hit] Burst Tremor. Reduce Target's Tremor Count by X
+[On Hit] Burst Tremor. Reduce Target's Tremor Count by X
+
+*The Identity's stats at max level and Uptie tier are displayed here. *This image is for reference only; actual details subject to change.
+
+Copyright ⓒ 2022 Studio L. All Rights Reserved. Published by ProjectMoon.
+LIMBUS COMPANY
+Molar Office Fixer
+Yi Sang
+
+SKILL 1
+Stay Calm
+Gain +X Tremor Count if this Skill is Discarded
+[On Use] Gain +X Tremor Count
+At X+ Tremor Count on self, Coin Power +Y
+[On Hit] Inflict +X Tremor Count
+
+SKILL 2
+Camille
+Gain +X Tremor Count if this Skill is Discarded
+[On Use] Discard 1 Skill of lowest rank in all of this unit's Skill Slots
+[On Hit] Inflict +X Tremor Count
+[On Hit] At X+ Tremor Count, Burst Tremor. Reduce target's Tremor Count by Y
+
+SKILL 3
+Grinding the Molars
+[On Use] Discard 1 Skill of lowest rank in all of this unit's Skill Slots
+[On Use] Spend X Tremor Count on self and gain Coin Power +Y
+[On Hit] Inflict X Tremor
+If the Skill spent Tremor Count, Burst Tremor
+[On Hit] Inflict X Defense Level Down
+[On Hit] If the Skill spent Tremor Count, Burst Tremor
+
+PASSIVE
+In Times Like These...
+After Bursting Tremor on an enemy, inflict X Defense Level Down per Y Stagger Threshold raised
+
+SUPPORT PASSIVE
+Clearing Up the Mess
+When 1 ally with the lowest HP Bursts Tremor on an enemy, inflict X Defense Level Down per Y Stagger Threshold raised
+
+Discard
+During the Chaining Phase, delete selectable Skills that fit the conditions from the Dashboard.
+(Defensive & E.G.O Skills do not count. Does not delete the Skill from the Skill list)
+*Upon Discard, Skills will not activate Skill effects or Coin effects, and will not give E.G.O resources.
+
+ENTITY INFO
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright ©2022 Shift Up Corporation. All Rights Reserved.
+

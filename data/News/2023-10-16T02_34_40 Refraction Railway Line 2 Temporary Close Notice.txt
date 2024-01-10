@@ -1,0 +1,25 @@
+
+Refraction Railway Line 2 Temporary Close Notice
+
+Hello, this is Project Moon.
+
+In order to prevent the Refraction Railway Line 2 error from being used to gain Banners and Rewards in an abnormal manner, we have decided to temporarily close Refraction Railway Line 2 until Oct. 19th (KST) Scheduled Update.
+
+We have identified the cause of the error in question, but fixing it requires a client build.
+
+Because client builds can be deployed only after passing the store reviews, the issue cannot be corrected before the Scheduled Update; this may lead to additional incidents of exploiting this error. To prevent such an incident, we have decided to temporarily close Refraction Railway Line 2 until Oct. 19th (KST) Scheduled Update.
+
+You can continue your run once Refraction Railway Line 2 opens again. Your current progress will be retained.
+
+We will provide you with an additional notice detailing our additional measures regarding this error today. We sincerely apologize for causing a disturbance to your enjoyment of our game.
+
+Refraction Railway Line 2 Temporary Close Schedule
+
+[Period]
+2023.10.16 12:00(KST) ~ 10.19 (KST) Scheduled Update
+
+[Content]
+Prevent the error from being used to gain Banners and Rewards in an abnormal manner
+
+PROJECT MOON
+

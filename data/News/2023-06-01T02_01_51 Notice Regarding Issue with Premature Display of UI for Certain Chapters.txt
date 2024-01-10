@@ -1,0 +1,19 @@
+
+Notice Regarding Issue with Premature Display of UI for Certain Chapters
+
+Hello, this is Project Moon.
+
+We have identified an error where the chapter (Chapter 3.5) that should only be unlocked after clearing every stage in Part 1, Chapter 3 is being shown on the UI even when the condition is not met.
+
+The error occurs after clearing every stage in Part 1, Chapter 2, and lasts until every stage in Part 1, Chapter 3 has been cleared.
+
+The unintentionally unlocked stages cannot be entered until the player has cleared every stage in Chapter 3. You can enter the stages normally after clearing Chapter 3.
+
+Please understand that this is a UI error and has no impact on the game progression.
+
+The issue has been resolved and will be applied with the next update.
+
+We apologize for the inconvenience.
+
+PROJECT MOON
+

@@ -1,0 +1,68 @@
+
+
+
+※ 3/24 15:35(KST) 스팀 버전 업데이트가 완료되었습니다.
+※ 3/24 15:35(JST) Steam版のアップデートが完了しました。
+※ The patch has been released for Steam at 15:35, Mar 24 (KST).
+
+PROJECT MOON
+게임 중단 오류 및 수정 업데이트 일정 안내
+Notice Regarding a Game-stopping Error and Update Plans
+
+안녕하십니까, 관리자님.
+항상 스팀의 사용과 호응으로 팬해를 받아 사랑할 때
+게임의 맥주는 물론가 발생하고 있습니다.
+
+항상 목적을 수주하면 빌드가 오후 중으로 스팀 버전에서 먼저 업데이트 될 예정입니다.
+안드로이드, IOS 버전의 경우, 마구 설정 기간이 없어 일본 핫픽스가 불가능하며,
+3/30 업데이트 시 함께 수정될 예정입니다.
+이 점 양해해주십시오 감사드립니다.
+
+다시 한번 게임 이용에 불편을 드려 죄송합니다.
+
+해당 문제에 대한 보상이 3/30 업데이트 이후 지급될 예정입니다.
+자세한 내용은 아래를 참고해주십시오 감사드립니다.
+
+──────────────────────────────────────────
+
+Greetings, Dear Manager.
+
+We have identified an error where the game freezes when a unit dies from a skill's use effect.
+A build resolving the issue will be pushed for the Steam version before the end of the day. As for the Android and iOS vers ions, the fix will come with the March 30th update as an immediate hotfix is impossible to publish due to the individual platforms' screening procedures.
+We hope you understand and appreciate your patience.
+
+Again, we apologize for the inconvenience.
+
+Compensation for the error will be provided after the March 30th update.
+Please refer below for more details.
+
+PROJECT MOON
+보상 아이템 지급 안내
+補償アイテム支給のご案内
+Information on Compensation Item Supply
+
+x300 x3
+
+보상: 광기 x 300, 추출 티켓 x 3
+일시: 3/30 (KST) 정기 업데이트 이후
+       - 계정당 1회 수령 가능
+       - 2023. 04. 06 09:59(KST)까지
+       게임 내 우편을 통해 전달 보상을 확인하실 수 있습니다.
+       (우편 수령 기간: 7일)
+
+補償: 狂気 x 300, 抽出チケット x 3
+日時: 3/30 (JST) 定期アップデート以降
+       - アカウントにつき1回受領可能
+       - 2023. 04. 06 09:59(JST)まで
+       ゲーム内郵便機能でTXメンテナンス補償を受け取ることができます。
+       (郵便受け取り期間: 7日)
+
+Content: Lunacy x300, Extraction Ticket x3
+Date: Around the Mar 30 (KST) scheduled update
+       - Can be redeemed once per account
+       - You can claim the item through the in-game mail
+         system until 2023 Apr 06 09:59 (KST).
+         (Mail Validity Period: 7 days)
+
+PROJECT MOON
+

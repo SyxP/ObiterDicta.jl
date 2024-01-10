@@ -1,0 +1,167 @@
+
+
+
+
+
+
+October 19th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on October 19th, 2023 (KST) for system optimizations and content updates.
+
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+Update Contents
+
+1. [Target Extraction: Rodion]
+(Oct. 19th 12:00 ~ Nov. 2nd 09:59 (KST))
+The following Identities will have increased odds of extraction.
+
+- 3★: Dieci South Section 4 Rodion,
+Rosespanner Workshop Representative Rodion,
+Kurokumo Clan Wakashu Rodion
+- 2★: Zweii South Section 5 Rodion, N Corp. Mittelhammer Rodion,
+LCCB Assistant Manager Rodion
+- 1★: LCB Sinner Rodion
+
+1/6
+
+PROJECT MOON
+Update Contents
+
+2. Refraction Railway Line 2 additional rewards added
+1 new decorative Banner and
+1 new Ticket Deco will be added to the game.
+
+▷ 1 Decorative Banner
+
+- Acquisition: After meeting the conditions, 
+view the Refraction Railway results screen and it will 
+immediately be added to your account. 
+- Conditions: Can be acquired after completing Line 2 
+at 5 or more Cycles and 150 or less Total Turns
+(The run for the record must have started after Sep. 15th, 2023)
+before the end of Season 2: Reminiscence
+※ If you have already met the conditions,
+it will be automatically added to your banner lists.
+
+▷ 1 Ticket Deco
+
+- Acquisition: After meeting the conditions,
+claim it from the Lost & Found
+- Conditions: Can be acquired after completing Line 2 at 5 or 
+more Cycles and 150 or less Total Turns
+(The run for the record must have started after Sep. 15th, 2023)
+before the end of Season 2: Reminiscence
+
+3. A new Mini Episode & new entries to Dante's Notes
+A new Mini Episode will be added to the game
+after the October 19th (KST) Update.
+New entries will be added to Dante's Notes every day for two weeks.
+
+- Unlock conditions: Clear Main Story 4.5-11
+
+2/6
+
+PROJECT MOON
+UI/UX Improvements
+
+1. E.G.O Resource Changes Visibility Enhanced
+
+Normal Gaining Resources Losing Resources
+Because it was difficult to see the E.G.O Resources reserves changes in an encounter, we have added a visual indicator to improve visibility.
+
+Major Changes
+
+1. Special VFX are added to Refraction Railway Line 2 Banners that must be acquired before the end of Season 2
+- Applied to: 3 Decorative Banners and 1 Ticket Deco
+
+※ From the list of banners and deco, you can see that these have been labeled with the “EFFECT” tags.
+
+2. Changed order of application for conditional effects when 2 or more targets fit the effect conditions
+Affected Effects: Skill/Coin effects, Passives, Buffs, Choices, and Enemy Skill Conditions
+
+- Between Allies: In the order they were selected from the Loadout menu
+- Between Both Allies and Enemies: Selected Randomly
+- Between Enemies: Selected Randomly
+
+3/6
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▷ Fixed an issue where the data regarding most recent loadout order did not update
+
+▷ Fixed an issue where, upon entering stages with a Main Story intro, Support Identities did not participate in the encounter
+
+▷ Fixed an issue where, upon stage entry, certain Support Passives applied to incorrect targets because the condition calculations happened before the speeds of the units were determined
+
+▷ Fixed an issue where Refraction Railway Line 2 Clear Total Turns appeared in overly large font sizes in “Add a Friend” and “Sent Requests” popups
+
+▷ Fixed an issue where making certain inputs in the Focused Encounter Chaining Phase could cause Skills to duplicate
+
+Known Issues
+
+The following issues are currently being investigated.
+
+Once these issues have been resolved, we will inform you with a more detailed explanation of the fixes via update notices in the future.
+
+▷ An issue where, when a Notice or a Dispenser popup would appear when the Banner was showing the red exclamation symbol in the Window’s User Banner section, the symbol would overlay on top of the popups
+
+▷ An issue where clash probabilities are incorrectly displayed in the Focused Encounters
+
+- After activating a Skill that is already matched with an enemy Skill, activate resonance with a different, non-adjacent Skill and attempt to match with a different enemy; the game will recognize that as an Absolute Resonance, and display a value as though it is affected by an increased Offense Level
+
+- This issue is purely visual, and the actual values in combat are applied as intended.
+
+4/6
+
+PROJECT MOON
+Known Issues
+
+▶ An issue where the coin flip percentages for Abnormalities with SP were not recognized
+
+[Affected Enemies]
+
+(1) Enemies from Refraction Railway Line 2 Station 4
+(2) Enemy from Main Story Chapter 4 - 47
+(3) Enemy from Main Story Chapter 4 - 48
+(4) Enemy from Main Story Chapter 4 - 54
+
+※ Abnormality enemies with SP in the upcoming updates will be affected when this issue is fixed.
+
+Because we do not want to change the experience for our players up to this point, and because the enemies have been balanced based on the current coin percentages, changing the enemies' coin values may provide a different experience from what was presented so far.
+
+Therefore, currently existing Focused Encounter enemies with SP will not be affected by this update.
+
+Issues Identified After the Oct. 19th Update
+
+▶ An issue where if, at the point in which the Mini Episode is updated, the player did not meet its unlock conditions, but met the conditions later and unlocked the Mini Episode, then watched the Mini Episode in the Theater, the Mini Episode would still play automatically upon startup.
+
+5/6
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+X300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Oct. 26th 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play Limbus Company during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection. 
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+6/6
+
+PROJECT MOON
+

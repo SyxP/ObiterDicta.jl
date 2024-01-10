@@ -1,0 +1,50 @@
+
+LIMBUS COMPANY
+W Corp. L3 Cleanup Agent
+Yi Sang
+SKILL 1
+Dimensional Shift
+[On Use] Gain +X Charge Count
+At +X Charge Count, Coin Power +Y
+[On Hit] Gain +X Charge Count
+[On Hit] Inflict X Rupture
+
+SKILL 2
+Energy Cycle
+[On Use] Gain +X Charge Count
+At +X Charge Count, Coin Power +Y
+[On Hit] Inflict X Bind next turn
+[On Hit] Inflict X Rupture
+[On Hit] At +X Charge Count,
+Inflict Y Rupture and +Z Rupture Count
+
+SKILL 3
+Dimensional Rift
+[On Use] At X+ Charge Count, consume Y Charge Count
+to gain +Z Coin Power
+[On Use] Consume X Charge Count to gain +Y Coin Power
+[Before Attack] If X Charge Count has been consumed, inflict +Y Rupture Count
+[Heads Hit] Inflict Rupture
+[Heads Hit] Inflict Rupture
+[On Hit] Inflict X Rupture for every Y Charge Count consumed by the Skill
+[On Hit] If the Skill consumed X Charge Count upon use, inflict Y Dimensional Rift
+[On Kill] Gain X Charge Barrier
+
+DEFENSE
+Hollow Dimension
+Base Power +X per Y Charge Count
+[On Evaded] +X Potency when applying Rupture for the first time with a Skill effect next turn
+
+PASSIVE
+Emptied Thought
+· At Turn End, gain X Haste per Y Charge Count on self next turn.
+· If this unit's Skill consumed Charge Count,
+apply X Charge Barrier to 1 ally with the lowest HP percentage.
+
+SUPPORT PASSIVE
+Cleanup Demonstration
+1 Ally with the highest Charge Count deals more damage against targets with Rupture based on Rupture on target.
+
+*The identity's stats at max level and Uptier tie are displayed here.
+*This image is for reference only; actual details subject to change.
+

@@ -1,0 +1,27 @@
+
+Additional Changes & 
+Issues Identified in the Scheduled Update
+
+Hello, this is Project Moon.
+
+We're writing to notify you of additional changes and issues that have been identified in the July 20th Scheduled Update.
+
+▶ July 20th Scheduled Update Additional Changes
+Attack Level Up buffs applied to enemies based on Mirror Dungeon floors have been adjusted from +5 to +3.
+
+- Floors Adjusted
+
+Mirror of Mirrors 3F, 4F, 5F
+Mirror of Mirrors Hard 1F, 2F, 3F 4F, 5F
+
+▶ July 20th Scheduled Update Issues Information
+The following issues have been identified in the current Scheduled Update version.
+They will be fixed with the July 27th Scheduled Update.
+
+- The issue where E.G.O resource gain is duplicated upon using Evade skills with Sin Affinities.
+- The issue where the English version of the game lacked keyword designation for 'Declared Duel' of the skill 'Salut!' for Cinq Association South Section 5 Director Don Quixote.
+
+We apologize for any inconveniences these issues may cause.
+
+PROJECT MOON
+

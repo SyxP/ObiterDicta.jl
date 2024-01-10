@@ -1,0 +1,106 @@
+
+
+
+CAUTION CAUTION CAUTION
+LIMBUS COMPANY
+신규 인종 / E.G.O 획득률 증가
+新規権威/E.G.O 特別抽出
+new Identity/E.G.O target extraction
+
+The Magic
+Hell
+Bus
+
+신기한 원더랜드
+2023.07.27 (THU) 12:00 - 08.10 (THU) 09:59 (KST)
+
+보는 셀러 한정상품
+이스마엘
+플래틱워커즈 트러블슈터
+BOATWORKS FIXER
+Ishmael
+
+CAUTION CAUTION CAUTION
+
+TETH
+
+손님 홍환
+soda hong wu
+
+EXTRACTION RATES INCREASE FOR THE LISTED IDENTITIES AND E.G.O.
+
+Copyright (C)2023. All rights reserved by Project Moon
+Limbus Company
+?? Boatworks Fixer
+Ishmael
+
+SKILL 1
+Ready to Crush
+[On Use] Gain +X Tremor Count
+[On Hit] Gain +X Tremor Count
+[On Hit] Inflict Sinking Count
+
+SKILL 2
+Explosive Blast
+At X+ Tremor Count, Coin Power +Y
+[On Hit] Inflict X Tremor Count; Gain +Y Tremor Count
+[On Hit] Inflict X Sinking; Inflict Y Defense Level Down next turn
+
+SKILL 3
+Risky Judgement
+At X+ Tremor Count, Coin Power +Y
+If target has X+ Sinking, deal +Y% damage
+[On Hit] Inflict +X Sinking Count
+[On Hit] Inflict Sinking; Spend X Tremor Count to inflict Y Fragile next turn
+[On Hit] Inflict Sinking; Spend X Tremor Count to inflict Y Fragile next turn
+
+DEFENSE
+Nimble Steps
+[On Use] Gain X Rupture Protection
+
+PASSIVE
+Crushin' Crabs
+On hit against a target with Tremor, inflict +X Sinking Count
+
+SUPPORT PASSIVE
+Crab Driver
+When an ally with the lowest Max HP hits with Heads Coins, they inflict +X Sinking Count when inflicting Tremor Count on their target with Coin effects.
+
+Rupture Protection
+Take -X damage per Count from Rupture effects for one turn.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2022 All Rights Reserved by Project Moon
+CAUTION
+LIMBUS COMPANY
+
+Soda
+Hong Lu
+TETH
+E.G.O INFO
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+E.G.O AWAKENING SKILL
+Soda
+[Heads Attack End] Heal 2 allies with the lowest HP percentage for X HP
+[Tails Attack End] Heal 2 allies with the lowest SP for X SP
+[Crit Attack End] Heal the ally with the lowest HP percentage for X HP; Heal the ally with the lowest SP for Y SP
+
+E.G.O CORROSION SKILL
+Soda
+[Indiscriminate] Targets the unit with the least HP
+[On Hit] Inflict X Tremor; inflict X Bind next turn
+
+E.G.O PASSIVE
+Seagull Squawking of the Distant Seas
+- When an enemy is defeated, the ally with the least SP heals X SP.
+- Whenever an enemy is defeated, the amount of SP healed increases by Y.
+- The amount is reset at the start of a new wave.
+
+Copyright © 2023 by Project Moon
+All rights reserved for all artwork.
+

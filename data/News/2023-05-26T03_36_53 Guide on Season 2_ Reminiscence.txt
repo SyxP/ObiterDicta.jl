@@ -1,0 +1,502 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+시즌 2 리미니센스에 대한 안내
+GUIDE ON SEASON 2: REMINISCENCE
+
+[01] 시즌 1 자원 파편 이월
+    シーズン1 資源の欠片の繼承
+    Carryover of Egoshards from Season 1
+
+[02] 주요 이야기 및 필수 스토리 업데이트
+    メインストーリーおよび必須の進行アップデート
+    Main Story and Battle Pass to be updated in Parts
+
+[03] 인간 독립 · E.G.O 확대 및 신규 스피닝 추가
+    人類獨立/E.G.O拡張新規スピニング追加
+    Additional Tiers to Uptying & Threadspinning
+
+[04] 인격 레벨 상한 증가
+    人格レベル上限増加
+    Increased Identity Level Cap
+
+[05] 추출 확장 도입
+    抽選方式の変換
+    Guarantee System Introduced to Extractions
+
+[06] 시즌 2의 새로운 자원기
+    シーズン2の抽出機·日経機
+    Extraction & Dispenser in Season 2
+
+[07] 거울 던전 2 예고
+    鏡ダンジョン2 予告
+    Upcoming Mirror Dungeon 2
+
+[08] 거울 던전 2 Hard 예고
+    鏡ダンジョン2 Hard予告
+    Mirror Dungeon 2 Hard Mode
+
+[09] 멤버 티켓 커스텀
+    メンバーチケットカスタム
+    Profile Ticket Customization
+
+[10] UI/UX 개선 · 고품질의 진행 · 최적화 어고
+    UI/UX改善·高品質化·最적化進行
+    UI/UX Adjustments, Quality-of-Life Improvements, and Optimization Progress
+
+해당 목록에 대한 자세한 정보는 아래 웹페이지 링크에서 확인하실 수 있습니다.
+掲示されている情報は下記のウェブサイトリンクからご確認いただけます。
+You can check the details on the listed items from the webpage linked below.
+
+LIMBUS COMPANY
+PROJECT MOON
+Season 2 <Reminiscence> Notice
+
+Greetings, Dear Manager.
+
+Season 2: Reminiscence will commence on
+June 1st, 2023, at 12:00 pm (KST).
+This notice will provide information on Season 2
+<Reminiscence> and its new systems.
+Please understand that what we show here is both conceptual and in-development, and is subject to change before the date.
+To properly prepare for this update,
+scheduled maintenance will take place on
+Jun 1 2023 06:00 [AM] through 12:00 [PM] (KST).
+
+Content
+
+1. Season 1 Egoshard Carryover
+2. Gradual Main Story & Battle Pass Updates
+3. New Tiers for Uptying and Threadspinning
+4. Identity Level Cap Increase
+5. Target Extraction Pity
+6. Season 2 Extractions & Dispenser
+7. Upcoming Mirror Dungeon #2
+8. Mirror Dungeon #2 (Hard) Preview
+9. Profile Ticket Customization
+10. UI/UX Adjustments, Quality of Life, and Optimization
+
+1/14
+
+PROJECT MOON
+1. Season 1 Egoshard Carryover
+
+Guide on Season Changes - Egoshards
+
+- When a new Season begins, half of the previous Season’s Egoshards will be carried over (and rounded up).
+- The carryover rates for unconverted Egoshards from multiple seasons past will be halved for each following Season.
+- The remaining Egoshards are converted into Thread.
+- Egoshard Crates (both random and nominable) will be carried over in the same way.
+
+As described above, half of the currencies listed below will be converted to Season 2’s.
+- Season 1 [Sinner]’s Egoshard
+- Season 1 Egoshard Crate
+- Season 1 Nominable Egoshard Crate
+
+The carryover of currencies to Season 2 will automatically occur the first time you log into the game during Season 2. A popup will show how much Season 1 currency you owned, and how they have been converted. Season 1 currencies still in the mailbox will only be converted after they are claimed. If you receive Season 1 currencies through the mailbox during Season 2, automatically converted upon redemption into Season 2 currency.
+
+2/14
+
+PROJECT MOON
+2. Gradual Main Story & Battle Pass Updates
+
+Chapter 4 of the main story and the Season 2 pass will be updated in three parts.
+
+▶6/1
+- Main Story Ch. 4 (Part 1)
+- Season 2 Pass Rewards (Lv. 1 ~ Lv. 20)
+
+▶6/8
+- Main Story Ch. 4 (Part 2)
+- Season 2 Pass Rewards (Lv. 21 ~ Lv. 40)
+
+▶6/15
+- Main Story Ch. 4 (Part 3)
+- Season 2 Pass Rewards (Lv. 41 ~ Lv. 60 (+Max Pass Level))
+
+The Pass Level will be tracked normally regardless of the gradual updates. When the rewards for higher levels are unlocked with subsequent updates, you can immediately claim them up to your current Pass Level. Max Pass level rewards earned for leveling up the pass beyond Level 60 are also kept track of even while they aren’t unlocked, and you can claim the accumulated rewards of Season 2 Nominable Egoshard Crates immediately once they are. Chapter 4 stage progress rewards and Max Pass level rewards will become available to claim on the June 15th update, when Part 3 of the chapter is added.
+
+3/14
+
+PROJECT MOON
+3. New Tier for Uptying and Threadspinning
+
+Refraction Railway Line 2 is planned to be added in mid-July**; along with it, Identity Uptie Tier 4 and E.G.O Threadspin Tier 4 will be added.
+The new tier will make Identities and E.G.O more powerful.
+Uptying and Threadspinning an Identity or E.G.O to Tier 4 will cost the Sinner's Egoshards as well as Thread.
+
+Uptie·Threadspin Tier   Currencies Required
+
+Tier 1 => Tier 2
+Tier 2 => Tier 3                                      Thread
+                         
+Tier 3 => Tier 4                                      Thread + [Sinner]'s Egoshards
+
+4. Identity Level Cap Increase
+
+With the Season 2 update, the max level of Identities will increase from 30 to 35.
+
+4/14
+
+PROJECT MOON
+5. <Ideality Exchange> for Extractions
+
+With the Season 2 update, the Ideality Exchange system will be added for target extractions. During an extraction banner, you can gain Isang (Ideality) (理想の!사) based on the number of extractions you've performed. After collecting a certain amount of Ideality, you can exchange it for a 3★ Identity or E.G.O represented in the target extraction. Ideality is not shared between target extraction banners; Ideality in each target extraction is considered as its own currency. After the target extraction is over, the remaining Ideality is converted to Thread.
+
+5/14
+
+PROJECT MOON
+6. Season 2 Extractions & Dispenser
+
+Guide on Season Changes - Extractions
+
+- A new Season's Identities and E.G.O will be added to the list of Extractable items.
+- Identities from previous Seasons remain in the pool, so you can still acquire them from Extraction.
+
+Season 1					         Season 2					           Season 3
+Added
+[Regular] IDs: E.G.O				[Regular] IDs: E.G.O				[Regular] IDs: E.G.O
+[Season 1] IDs						[Season 1] IDs						[Season 1] IDs
+[Season 1 Event]					         [Season 2] IDs						[Season 2] IDs
+IDs: E.G.O						         [Season 2 Event]						[Season 2 Event]
+							         IDs: E.G.O							IDs: E.G.O
+Removed
+-							         [Season 1 Event]						[Season 2 Event]
+							         IDs: E.G.O							IDs: E.G.O
+
+※ We supplemented the guide with the information above as the previously provided table had room for confusion.
+
+As shown in the image above, the following Identities and E.G.O will be removed from all Extractable item lists with the beginning of Season 2
+(Excluding [Season 1] Assured Extraction: 3★ Identity).
+
+- Season 1 Event Identities
+- [3★] R.B. Chef de Cuisine Ryōshū
+- Season 1 Event E.G.O
+- [TETH] Lifetime Stew for Sinclair
+
+※ [Season 1] Assured Extraction: 3★ Identity is based on Identities from the season, so you will still be able to acquire [3★] R.B. Chef de Cuisine Ryōshū from it.
+
+6/14
+
+PROJECT MOON
+6. Season 2 Extractions & Dispenser
+
+Guide on Season Changes - Dispenser
+- Identities and E.G.O from the new Season will be available at the Dispenser.
+- In addition, you will be able to exchange for Identities and E.G.O from the Battle Passes of past Seasons.
+- Please note that Extraction IDs belonging to the Season immediately before will be inaccessible until 2 Seasons have passed.
+
+Added Removed
+Season 1 [Regular] IDs: E.G.O [Season 1] IDs
+[Season 1] IDs [Season 1 Event] [Season 1 Event] IDs: E.G.O
+[Season 1 Event] IDs: E.G.O
+
+Season 2 [Regular] IDs: E.G.O [Season 1] IDs
+[Season 2] IDs [Season 1 Event] [Season 2 Event] IDs: E.G.O
+[Season 2 Event] IDs: E.G.O
+
+Season 3 [Regular] IDs: E.G.O [Season 1] IDs
+[Season 3] IDs [Season 2 Event] [Season 3 Event] IDs: E.G.O
+[Season 3 Event] [Season 1 Pass] E.G.O [Season 1 Pass] E.G.O
+[Season 2 Pass] E.G.O [Season 1 Event] IDs: E.G.O
+[Season 1] IDs
+[Season 1 Event] IDs: E.G.O
+
+※ We supplemented the guide with the information above as the previously provided table had room for confusion.
+
+As shown in the image above, the following Identities and E.G.O will be removed from the catalogue with the beginning of Season 2.
+
+▶ Season 1 Extraction IDs + Season 1 Event IDs
+3★ 2★
+The One Who Grips Faust Lobotomy Corp. Remnant Faust
+R.B. Chef de Cuisine Ryōshū N Corp. Mittelhammer Don Quixote
+N Corp. Großhammer Meursault N Corp. Kleinhammer Heathcliff
+Tingtang Gangleader Hong Lu LCCB Assistant Manager Ishmael
+The One Who Shall Grip Sinclair LCCB Assistant Manager Rodion
+G Corp. Manager Corporal Gregor N Corp. Mittelhammer Rodion
+Jefe de Los Mariachis Sinclair
+G Corp. Head Manager Outis
+
+▶ Season 1 Event E.G.O
+- [TETH] Lifetime Stew Sinclair
+
+Also, Season 1 Pass E.G.O will be added to the catalogue.
+
+▶ Season 1 Pass E.G.O
+HE TETH ZAYIN
+Fluid Sac Faust 4th Match Flame Yi Sang Legerdemain Gregor
+Fluid Sac Don Quixote Screwloose Wallop Meursault
+4th Match Flame Ryōshū Roseate Desire Hong Lu
+Telepole Heathcliff Roseate Desire Ishmael
+4th Match Flame Rodion Rime Shank Rodion
+Ebony Stem Outis Impending Day Sinclair
+
+7/14 
+
+PROJECT MOON
+7. Mirror Dungeon #2 Preview
+
+After the Chapter 4 Updates, Mirror Dungeon #2 will be added on June 22nd.
+
+You may enter Mirror Dungeon #2 after meeting the following requirements:
+- Clear Mirror Dungeon #1
+- Clear Main Story Chapter 4
+With the addition of Mirror Dungeon #2, several changes will be made to related systems.
+
+▶ Entry Cost and Reward Reception
+
+Old | New
+Entry Cost | Enkephalin Module required for entry | Enkephalin Module NOT required for entry
+Reward Reception | When an expedition is over, rewards are provided based on the number of floors and nodes reached | When an expedition is over, rewards are shown based on the number of floors and nodes reached; the player may choose whether to use Enkephalin Modules to claim them
+
+※ Please note that daily free entry and the simulation functions for Mirror Dungeons will be removed with the Mirror Dungeon #2 update.
+8/14
+
+PROJECT MOON
+7. Mirror Dungeon #2 Preview
+
+► Weekly Bonus Changes
+Weekly bonuses can be received 3 times per week like before, the rewards for clearing the final floor are as follows:
+
+Old
+With Bonus
+<Mirror Dungeon #1>
+- Lunacy x250
+- Egoshard Crate x8 or Nominable Egoshard Crate x5
+- Battle Pass EXP 20
+
+Without Bonus
+<Mirror Dungeon #1>
+- Battle Pass EXP 7
+
+New
+<Mirror Dungeon #1>
+- Lunacy x250
+- Battle Pass EXP 15
+
+<Mirror Dungeon #2>
+- Lunacy x250
+- Battle Pass EXP 45
+
+<Mirror Dungeon #2 - Hard>
+- Lunacy x250
+- Battle Pass EXP 75
+
+<Mirror Dungeon #1>
+- Battle Pass EXP 10
+
+<Mirror Dungeon #2>
+- Battle Pass EXP 30
+
+<Mirror Dungeon #2 - Hard>
+- Battle Pass EXP 50
+
+※ Egoshard-related items that were previously part of weekly bonus rewards for Mirror Dungeons have been moved to free rewards for the Battle Pass. With this change, the amount of Nominable Egoshard Crates available as free rewards for the Battle Pass has increased by 285 compared to Season 1.
+
+► Comparison with Mirror Dungeon #1
+- Mirror Dungeon #1
+
+Enkephalin
+Modules Cost
+3
+
+Pass EXP
+10
+※ Old
+- With Bonus: 20
+- Without Bonus: 7
+
+Floors
+3
+
+Max Identities
+On First Entry
+3
+
+Nodes
+20
+(5⇒7⇒8)
+
+- Mirror Dungeon #2
+
+Enkephalin
+Modules Cost
+5
+
+Pass EXP
+30
+
+Floors
+5
+
+Max Identities
+On First Entry
+5
+
+Nodes
+30
+(5⇒5⇒
+6⇒6⇒8)
+
+- Mirror Dungeon #2 - Hard
+
+Enkephalin
+Modules Cost
+6
+
+Pass EXP
+50
+
+Floors
+5
+
+Max Identities
+On First Entry
+5
+
+Nodes
+30
+(5⇒5⇒
+6⇒6⇒8)
+
+[Mirror Dungeon #2 - Hard] Notes
+- Reflects Identities' real levels
+- Rewards can be claimed 3 times per week (Independent of weekly bonuses)
+
+9/14
+
+PROJECT MOON
+7. Mirror Dungeon #2 Preview
+
+Also coming with the Mirror Dungeon #2 update are new systems and content related to dungeons, as well as various quality-of-life features.
+We will provide further details in a future announcement.
+
+► Systems
+
+1. New resource Cost introduced to Mirror Dungeons
+- When entering a Mirror Dungeon, you will be given a set amount of Cost to build a team of Identites and E.G.O with.
+- Cost can be obtained through combat encounters and events, allowing you to deploy additional Identites and E.G.O, or partake of shop events.
+
+2. Shop Events added to Mirror Dungeons
+- Shop events may appear in certain nodes of Mirror Dungeons.
+In shop events, you can spend Cost to purchase E.G.O Gifts, heal up, or recruit Sinners.
+
+3. Starter buffs introduced to Mirror Dungeons
+- When activated, starter buffs can help with Mirror Dungeon expedition upon entry.
+- Starter buffs apply individually to each Mirror Dungeon.
+They can be activated using a currency obtained by clearing each Mirror Dungeon. (Mirror Dungeon #1 does not have starter buffs.)
+
+4. Identity levels are fixed at a certain value
+- As such, Identity power-up event choices will be removed.
+- In Mirror Dungeon #1, all Identities are fixed at Lv. 30, and in Mirror Dungeon #2, all Identities are fixed at Lv. 35.
+- Mirror Dungeon #2 (Hard) reflects the Identities' original levels, which can go up to Lv. 35.
+
+► Contents
+- 45 new E.G.O Gifts
+
+- 25 new events
+
+- New Abnormalities and enemies
+
+► Quality-of-life Features
+- Preset function implemented
+- E.G.O Threadspin tier shown during deployment
+- E.G.O Gift effects and event choice results are easier to check
+- Event choices that have been selected before will show their outcomes in advance in subsequent encounters
+- Direction to progress displayed
+- E.G.O resources fully carried over
+
+10/14
+
+PROJECT MOON
+8. Mirror Dungeon #2 (Hard) Preview
+
+Following the Mirror Dungeon #2 update, 
+Mirror Dungeon #2 (Hard) will be added on June 29th.
+You may enter Mirror Dungeon #2 (Hard)
+after meeting the following requirements:
+
+- Clear Mirror Dungeon #2
+
+The hard difficulty Mirror Dungeons have a
+weekly reward limit of 3 times. This limit works independently
+of Mirror Dungeon weekly bonuses. You can apply the weekly bonus
+(3 times per week) when claiming clear rewards for
+Mirror Dungeon #2 (Hard) (3 times per week) to
+optimize the Battle Pass EXP gain in the
+fewest number of expeditions.
+
+Below is a comparison between
+Mirror Dungeon #2 and Mirror Dungeon #2 (Hard).
+
+Mirror Dungeon #2 | Mirror Dungeon #2 - Hard
+Identity Lv. | 35 | Max 35 (Reflects player's Identity levels)
+Modules Required | 5 | 6
+for Claiming Rewards
+Pass EXP on Clear | 45 | 75
+[With Weekly Bonus]
+Pass EXP on Clear | 30 | 50
+[Without Weekly Bonus]
+No. of Times Rewards | No limits | 3 per week
+can be Claimed
+
+11/14
+
+PROJECT MOON
+9. Profile Ticket Customization
+
+With the Season 2 update,
+the ability to customize your profile ticket will be added.
+
+Seven colors are provided by default,
+and you can earn various decorations from
+Battle Passes, events, and more.
+
+12/14
+
+PROJECT MOON
+10. UI/UX Adjustments, Quality of Life, and Optimization
+
+We are in the process of preparing a UI/UX overhaul to improve ease of use and optimization for both mobile and PC platforms.
+
+Our goal is to implement the overhaul around the time of Chapter 5 updates.
+
+We continuously work on optimization as well, and we will do our best to repay the players’ love and patience.
+
+13/14
+
+PROJECT MOON
+✖ Profile Ticket Customization
+
+With the Season 2 update, the ability to customize your profile ticket will be added.
+
+► Season 2 Settler Supplies
+
+- Price: KRW 99,000 ($69.99 / ¥10,000)
+  - Purchase Limit: 1 time only
+(Only available for purchase during Season 2)
+
+► Product Details
+  - Lunacy (Paid) x5040
+  - Decaextraction Ticket x3
+  - Level Boost Ticket III x1
+  - Identity Training Ticket III x30
+    - Thread x80
+  - Season 2 Nominable Egoshard Crate x40
+
+14/14
+
+PROJECT MOON
+

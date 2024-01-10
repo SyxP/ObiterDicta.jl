@@ -1,0 +1,205 @@
+
+
+
+
+
+
+Mar 23 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on March 23rd, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+Update Contents
+
+1. New Mini-event: New-hire’s Attendance Rewards
+[Details]
+1. The total amount of Enkephalin spent on all contents such as stages, dungeons, and Luxcavation will be tallied, and various rewards will be provided after reaching set milestones.
+2. Using an Enkephalin Module will count as 20 Enkephalin used.
+3. Actions that don't actually "spend" Enkephalin, such as assembling an Enkephalin Module, entering the Mirror Dungeon for free with the daily free entry, and simulated dungeon explorations, will not count toward the tally.
+
+[Event Period]
+Mar 23 12:00 ~ Apr 6 09:59 (KST)
+
+There are two sets of rewards that can be earned from the event: Part 1 and Part 2.
+Rewards for Part 2 can be redeemed after Apr 1 00:00 (KST). Both parts use the same Enkephalin tally for milestones.
+If you have spent enough Enkephalin to reach milestones for Part 2 before it's unlocked, you can immediately claim the rewards after it unlocks.
+
+- Part 1 Final Rewards: Special decorative banner #1 + Decaextraction Ticket
+- Part.2 Final Rewards: Special decorative banner #2 + 3★ Guarantee Decaextraction Ticket
+
+1/5
+
+PROJECT MOON
+Update Contents
+
+2. New Target Extraction: N Corp. #2
+(Mar 23 15:00 - Apr 6 09:59, KST)
+Extraction rates increase for the following Identities:
+- 3★: The One Who Grips Faust
+- 2★: N Corp. Kleinhammer Heathcliff
+
+3. New Identities and E.G.O
+The following Identities and E.G.O will be added to the list of items available from Extraction:
+- Identity (3★): The One Who Grips Faust
+- Identity (2★): N Corp. Kleinhammer Heathcliff
+- E.G.O: Alleyway Watchdog for Don Quixote (HE)
+
+4. Changes to Entry Cost for Luxcavation
+
+▶ Current Iteration
+- Experience Luxcavation Stage 1: 30 Enkephalin
+- Experience Luxcavation Stage 2: 35 Enkephalin
+- Experience Luxcavation Stage 3: 40 Enkephalin
+- Thread Luxcavation Stage 1: 35 Enkephalin
+- Thread Luxcavation Stage 2: 40 Enkephalin
+
+▶ After Update
+- Experience Luxcavation Stage 1, 2, 3: Enkephalin Module x2
+- Thread Luxcavation Stage 1, 2: Enkephalin Module x2
+
+5. Rewards Adjusted for EXP Luxcavation Stages 1 & 2
+As the amount of Enkephalin spent is increased, rewards from stages 1 and 2 of Experience Luxcavation will slightly increase. 
+(No changes will be made for Thread drops in Thread Luxcavation.)
+
+▶ Current Iteration
+- Stage 2 (With Bonus Active):
+Identity Training Ticket III x3, Identity Training Ticket II x3
+- Stage 2 (Without Bonus):
+Identity Training Ticket III x2, Identity Training Ticket II x2
+- Stage 1 (With Bonus Active):
+Identity Training Ticket II x6, Identity Training Ticket I x6
+- Stage 1 (Without Bonus):
+Identity Training Ticket II x4, Identity Training Ticket I x4
+
+▶ After Update
+- Stage 2 (With Bonus Active):
+Identity Training Ticket III x3, Identity Training Ticket II x6
+- Stage 2 (Without Bonus):
+Identity Training Ticket III x2, Identity Training Ticket II x4
+- Stage 1 (With Bonus Active):
+Identity Training Ticket II x8, Identity Training Ticket I x8
+- Stage 1 (Without Bonus):
+Identity Training Ticket II x6, Identity Training Ticket I x4
+
+2/5
+
+PROJECT MOON
+Update Contents
+
+6. Major Changes
+
+► System
+
+- The maximum amount of Enkephalin Modules one can possess is now capped at 999.
+It is possible for the number of Enkephalin Modules owned to temporarily surpass 999 when Modules are acquired from mails, pass rewards, event rewards, and other sources.
+
+► Combat System - Resonance-based Boost
+- Resonance now boosts the skill's [Offense/Defense Level] rather than [damage]
+- Absolute Resonance applies the highest level of the boost to all resonating skills in the chain
+
+► Combat System - Defense Skill Changes
+- Using defense skills in regular combat no longer skips the unit's action, and the skill now properly corresponds to the enemy skill
+- Defense skills can now redirect enemy skills in Abnormality battle
+- Guard and Evade skills now activate when the unit is about to be attacked by a skill that would otherwise result in a Clash if they were not defending
+- A "defending level" has been added to Guard and Evade skills of all Identities, similar to offense levels for attack skills
+- Adjusted Power values of defense skills
+- When the defense skill's defending level is higher than the offense level of the attacking skill, the defense skill's Power is boosted. (1 Power per 5 levels of difference)
+- Growth for max health and defense level of Identities changed to use the same formula
+- A unit's defense level reflects the defending level of the defense skill they last used
+
+► Combat System - Predicted Skill Values Display
+- A skill's minimum and maximum damage values are now shown before targeting, when targeting with defense skils, and performing an unopposed attack
+
+► Combat System
+Stagger thresholds of all Identities adjusted to better suit their roles
+
+3/5
+
+PROJECT MOON
+Update Contents
+
+7. Bug Fixes and Improvements
+
+- Fixed an issue where the regular extraction button couldn't be picked during tutorial
+
+- Notices have been rearranged so that the newest one is placed at the top
+
+- The 'History' tab in the mailbox now shows the most recent ones first
+
+    - Fixed an issue where using an Enkephalin Box in the inventory could not max out the count
+
+    - Added subtitle text for the dialogue played at the end of the e for extracting a new Identity or E.G.O
+
+    - Fixed an issue where abnormal data would be displayed in Extraction history
+
+    - Fixed an UI error that occurs when an Identity levels up more than once in the combat result screen
+
+    - Adjusted animations for N Corp. Großhammer Meursault and N Corp. Mittelhammer Rodion
+
+    - Fixed an issue with the status effect [Fanatic] used by N Corp. Identities
+    - Fixed an issue with the passive [Vying Spirit] of Heathcliff's E.G.O [Bodysack]
+
+    - Fixed an issue with the passive [Ennui] of Faust's E.G.O [Representation Emitter]
+
+4/6
+
+PROJECT MOON
+Update Contents
+
+- Fixed an issue where generating a defense skill then canceling it after a turn has passed would remove the saved skill
+
+- Fixed an issue where effects that activate upon ally death or enemy kill would repeatedly activate for each of the Abnormality's parts in Abnormality battles
+
+- When calculating the incoming damage of a skill, it now has an absolute minimum of 5% of the skill's final Power value
+
+- Fixed an issue where E.G.O Corrosion occasionally lasted 2 turns during battle
+
+- Fixed an issue where unit sprites would appear blurry during battle
+- Fixed an issue where UI elements for parts in some Abnormalities would be placed in unintended locations
+
+- Adjusted the timing of effects for certain Abnormalities in battle
+
+- Fixed an issue where the unit info tab could obscure enemy info for stages in story dungeons
+
+- Fixed an issue where the number of Egoshard crates was being displayed as 12 when forfeiting a Mirror Dungeon exploration
+
+- Fixed an issue where the reward popup would appear despite there being no rewards in Mirror Dungeons
+- Fixed an issue with the UI when there are 4 or more options for E.G.O Gift selection in Mirror Dungeons
+
+- A choice that leads to a battle in the White Gossypium event in Mirror Dungeons now gives you Sinner power-up instead of the E.G.O Gift
+
+- Fixed an issue where idle dialogues for the face of the company would play while checking the inventory or the Battle Pass
+
+5/6
+
+PROJECT MOON
+Maintenance and Application
+Update Compensation
+
+<Update Gifts>
+- Content: 300 Lunacy
+- Recipients: All users whose game account was created
+09:59 March 30th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail,
+so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance.
+Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance.
+If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update.
+If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account.
+Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days.
+Please redeem them within this timeframe.
+
+6/6
+
+PROJECT MOON
+

@@ -1,0 +1,46 @@
+
+
+Notice: Mirror Dungeon #3 Difficulty Adjustment Hotfix
+
+Hello, this is Project Moon.
+
+Mirror Dungeon #3 Difficulty will be lowered via a Hotfix.
+We plan to deploy this Hotfix within tomorrow (Before Dec. 15th, 24:00 KST), and we will post an additional notice as soon as it is deployed.
+
+1. Enemy difficulty adjusted
+  (1) Floor 4 enemies
+    - Before: Lv. 49 ~ 53
+    - After: All Lv. 47
+
+  (2) Floor 4 Boss
+    - Fixed to Lv.50
+    - Lowered HP and Defense Levels
+
+2. Changed E.G.O Gift Acquisition chances upon Combat Encounter Completion
+    (1) Risky Encounters
+        - Before: 25%
+        - After: 100%
+
+    (2) Abnormality Encounters
+        - Before: 50%
+        - After: 75%
+
+3. The Burn-related Passive of 'So That No One Will Cry' will no longer activate.
+
+1/2
+
+PROJECT MOON
+Mirror Dungeon #3 Difficulty
+Adjustment Hotfix Compensation
+
+x300 x10
+
+- Compensation: Lunacy x300, Enkephalin Modules x10
+- Recipients: All users whose accounts were created before Dec. 21st, 2023 10:00
+- Can be claimed once per account
+- When: After Dec. 14th, 2023 18:00 (KST)
+
+2/2
+
+PROJECT MOON
+

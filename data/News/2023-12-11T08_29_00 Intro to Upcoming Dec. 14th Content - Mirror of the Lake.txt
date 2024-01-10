@@ -1,0 +1,273 @@
+
+
+
+
+
+
+
+
+
+
+Intro to Upcoming Dec. 14th Content
+- Mirror Dungeon #3
+
+Greetings, Dear Manager.
+
+The New Content The New Content Mirror Dungeon #3,
+『Mirror of the Lake』 will be added
+with the Dec. 14th, 2023 (KST) Update.
+
+- Date: After Dec. 14th (KST) Scheduled Update
+- Requirements: Clear Main Story 2-19
+- Intro: Mirror Dungeon #3 『Mirror of the Lake』
+will be added to the game.
+
+※ Mirror Dungeon #3 Hard will be added
+with the Dec. 21st (KST) Update.
+
+1/10
+
+PROJECT MOON
+NOTES
+
+1. With the Mirror Dungeon #3 update, 
+all Mirror Dungeons will be combined into one.
+Mirror Dungeon #1 and #2, [Mirror of the Beginning] and 
+[Mirror of Mirrors] will no longer be accessible.
+
+2. With a general overhaul of E.G.O Gifts, E.G.O Gift Compendium 
+from Mirror Dungeon #1 and #2 will be reset.
+With new functions such as ‘Enhance’ or ‘Fuse’ added to the game, 
+certain E.G.O Gifts’ effects and acquisition conditions 
+will be overhauled. Certain E.G.O Gifts that were previously always
+available have become inaccessible until after certain Starter 
+Buffs are activated.
+
+3. Starlight earned in Mirror Dungeon #2 will be reset.
+As we have informed you with the previous Mirror Dungeon #2
+Notice, Starlight earned in Mirror Dungeon #2 cannot be used to 
+activate other Mirror Dungeons’ Starter Buffs.
+Please note that Mirror Dungeon #3’s Starter Buffs can be 
+activated only with Starlight obtained from Mirror Dungeon #3.
+
+4. Dec. 14th Scheduled Update Maintenance will
+continue from 10:00 ~ 12:00.
+Major changes to Mirror Dungeon systems 
+will be deployed after the Scheduled Update. Therefore, with 
+the end of Scheduled Maintenance at 12:00, your Mirror Dungeon 
+Weekly Bonus Count and your current 
+Mirror Dungeon run progress will be reset.
+
+Rewards for Mirror Dungeon runs that remain 
+incomplete before Dec. 14th, 10:00 will be inaccessible 
+with the progress reset, so please claim your 
+rewards BEFORE the Scheduled Maintenance begins.
+
+2/10
+
+PROJECT MOON
+Dungeon Entry & Rewards
+
+Entering the dungeon, as it has been previously, does not cost any resources. However, you can spend Enkephalin modules at the end of your exploration to receive rewards.
+
+Unlike Mirror Dungeon #2 Normal, Mirror Dungeon #3 Normal has a maximum of 4 Floors. The rewards for completing the final floor of Mirror Dungeon #3 are the same as the rewards for completing the final floor of Mirror Dungeon #2.
+
+- Weekly Bonus Activated: Lunacy x250, Battle Pass XP x45
+- Weekly Bonus Not Activated: Battle Pass XP x30
+
+In previous Mirror Dungeons, the rewards scaled based on how many nodes were completed. However, in Mirror Dungeon #3, the rewards will be based on how many Floors you have cleared.
+
+※ If you forfeit the Mirror Dungeon run in the middle of a floor, you will receive rewards based on the floor you last completed.
+
+3/10
+
+PROJECT MOON
+Starter Buffs
+
+Active Effects
+STARTER BUFFS - ASTRAL MILESTONES
+A Journey's Start
+(Starting E.G.O Gift)
+Adds a small chance for Tier 3 E.G.O Gifts to appear
+Activated
+
+Enter Normal Dungeon
+
+
+Unlike the Starter Buffs from Mirror Dungeon #2, which were focused on directly influencing the combat, Starter Buffs in Mirror Dungeon #3 will make it easier for you to find E.G.O Gifts for the build you are looking for.
+
+Dec. 14th (KST) Scheduled Update will introduce a total of 12 Starter Buffs.
+Dec. 21st (KST) Scheduled Update will introduce additional Buffs to each of the Main Starter Buffs.
+
+Select Starting E.G.O Gifts upon Entry
+
+Selected E.G.O Gift
+Ashes to Ashes
+(Passive Skill - Special)
+On every 3rd successful normal or abnormality attack by the wearer, deal 3 additional pierce abnormality points.
+
+- Before: Choose from 3 random E.G.O Gifts
+- After: Choose a Buff type category to choose a random E.G.O Gift from
+
+First, select the E.G.O Gift Buff category from the left side of the screen. Then, from a list of E.G.O Gifts to the right, select which E.G.O Gift you would like to begin the run with. Gain additional Starlight by selecting a Buff category you did not use in your last Mirror Dungeon Run.
+
+In Mirror Dungeon #3, we have adjusted the probabilities so that the higher you rise through the Floors, the more likely it becomes for higher Tier E.G.O Gifts to appear. Therefore, the highest possible Tier available from the Starter E.G.O Gift pool is Tier 3. (Once the relevant Starter Buff has been unlocked)
+
+4/10
+
+PROJECT MOON
+Creating your TEAM
+
+After selecting your Starting E.G.O Gift, you can choose the Identities to start off a Mirror Dungeon run with.
+In Mirror Dungeon #3 Normal, your Identity Levels will be fixed to 40.
+※ Like in previous Mirror Dungeons, your actual Identity Uptie and E.G.O Threadspinning Tiers will be reflected in the Mirror Dungeon.
+
+▶ Initial TEAM Deployment
+- Before: (In Normal difficulty) Deploy 7 Identities, and deploy additional Identities as you progress through the Dungeon
+- After: Deploy 12 Identities to begin with, just like in the Story Dungeons
+
+▶ Starting Cost Bonuses
+Gain additional Starting ‘Cost’ by fulfilling the following conditions in your initial TEAM setup.
+- Deploying 1★ or a 2★ Identities
+- Deploying Identities that were not once deployed (as in not even swapped in or out)
+in the immediately preceding Mirror Dungeon run
+
+※ Identities that have been swapped in or out in this run will not receive Starting Cost Bonuses in the next Mirror Dungeon run.
+
+▶ Rest Bonus
+Each Identity now has ‘Rest Bonus’ bars. (Max 5)
+
+Upon completing a Mirror Dungeon run, the deployed Identities’ Rest Bonus bars will be fully consumed, and you will gain additional Starlight based on the amount of Rest Bonus bars consumed.
+
+However, Identities that have been swapped in or out even once during the Mirror Dungeon #3 run will not consume their Rest Bonuses, and will not receive additional Starlight. (Basically, only the Identities that have been a part of the Team from the start to the finish of the Mirror Dungeon run will spend their Rest Bonus bars and earn extra Starlight.)
+
+Every other Identity that has not taken part in the Mirror Dungeon #3 run will gain 1 Rest Bonus bar.
+
+5/10
+
+PROJECT MOON
+Shops
+
+It knows what we want.
+We also know what it wants.
+
+Identity Deployment
+Spend ‘Cost’ to swap out Identities and E.G.O that have been deployed upon entry. Up to 3 Sinners can swap their Identities at once. Previously, different Identity rarities had different Costs. 
+However, in the new Mirror Dungeon #3 Shops, swapping Identities and E.G.O will cost the same regardless of the Identity Rarity or the number of Identities swapped. 
+(Swapping 1 Identity vs. 3 Identities will cost the same)
+
+Sell Gifts
+You can sell the E.G.O Gifts that you currently own.
+However, their sales price will be much lower than the price you would pay to purchase them.
+
+Refresh
+Use the ’Refresh’ function to reroll the E.G.O Gifts & Identity Skill Replacement appearing in the Shops. The more you Refresh, the more expensive Refreshing becomes. “SOLD OUT” Items cannot be Refreshed.
+
+6/10
+
+PROJECT MOON
+Rest Stops
+
+Heal Sinners
+
+In previous Mirror Dungeons, you had to choose between healing your Sinners and Deploying additional Sinners to your Team. However, in Mirror Dungeon #3, you can select both options.
+
+With this change, healing will cost ‘Cost’ as well, just as it does in Shops. The amount healed will be identical to the amount healed in Shops as well.
+
+Deploy Sinners
+
+Spend ‘Cost’ to swap out Identities and E.G.O that have been deployed upon entry.
+
+Up to 3 Sinners can swap their Identities at once.
+
+Previously, different Identity rarities had different Costs. However, in the new Mirror Dungeon #3 Rest Stops, swapping Identities and E.G.O will cost the same regardless of the Identity Rarity or the number of Identities swapped.
+
+(Swapping 1 Identities vs. 3 Identities will cost the same)
+
+7/10
+
+PROJECT MOON
+Rest Stops
+
+► Enhance Gifts
+
+Enhance E.G.O Gift
+Voodoo Doll
+Turn Start: deal 3 fixed Altruity Affinity damage to all
+enemies.
+Inflict a 2 Power Down to enemies with 33% or less HP.
+
+Voodoo Doll+
+Turn Start: deal 4 fixed Altruity Affinity damage to all
+enemies.
+Inflict a 2 Power Down to enemies with 50% or less HP.
+
+Spend 80 Cost to Enhance the E.G.O Gift?
+⨉ Cancel ✓ Confirm
+
+Spend ‘Cost’ to Enhance the E.G.O Gifts currently in your possession.
+You can Enhance an E.G.O Gift up to 2 times.
+(Some E.G.O Gifts cannot be Enhanced.)
+
+► Fuse Gifts
+
+Fuse E.G.O Gift
+Selected E.G.O Gifts (2/3)
+
+Fuse the selected E.G.O Gifts?
+⨉ Cancel ✓ Confirm
+
+You can Fuse E.G.O Gifts currently in your possession.
+Doing so will net you a new E.G.O Gift. E.G.O Gifts’ unique Affinities
+will affect the Affinity and the Buff category of E.G.O Gifts
+you can receive from Fusing E.G.O Gifts.
+(Some E.G.O Gifts cannot be fused.)
+
+If the Fuse Predictions is above a certain probability, the
+Tier and Buff category of the predicted E.G.O Gift will be
+displayed. (The Tiers and Buff category of the Predicted
+E.G.O Gift and the resulting Fused E.G.O may differ.)
+
+Certain E.G.O Gifts can be obtained from specific E.G.O Gift
+Fuse combinations. This function will be added to the game
+after the Dec. 21st (KST) Scheduled Update.
+
+8/10
+
+PROJECT MOON
+Select Enemy Floor Buffs for each Mirror Dungeon Floor
+
+In Mirror Dungeon #2, Floor-based enemy buffs were automatically selected. However, in Mirror Dungeon #3, you can now choose which Floor-based enemy buffs to apply to your enemies.
+
+Upon clearing a Floor, you can select a new E.G.O Gift. There, each E.G.O Gift will have a random enemy buff linked to it.
+Selecting an E.G.O Gift will also apply the linked enemy buff.
+
+Enemy buffs are completely randomly selected, regardless of which E.G.O Gift they are linked to. Refusing E.G.O Gift will select a random enemy buff from the list instead.
+Enemy buffs will compound with each cleared Floor.
+
+탄산 완료
+
+Mirror Dungeon Exploration Completion screen has been overhauled.
+
+While certain Identity & E.G.O details are now omitted, the results screen has been cleaned up for easier viewing. Also, it is now easier to see which elements factored into the amount of Starlight you obtain.
+
+9/10
+
+PROJECT MOON
+New E.G.O Gifts & Choices added
+
+17 New E.G.O Gifts & 13 New Abnormality Choices will be added to the game.
+
+Other Changes
+
+With the Mirror Dungeon #3 Update, the following changes will be applied to the game.
+
+- Mirror Dungeon #3 Normal difficulty will have a total of 4 Floors.
+- Participant Limit will be set to 6 by default. However, certain encounters that occur as a result of certain choices will have separate Participant Limits.
+- With the Deployment Cost Bonus, the amount of Cost obtained throughout a run and E.G.O Gift prices have both been increased.
+- E.G.O Gifts can no longer be obtained from Regular Encounters. The chance of obtaining random E.G.O Gifts from Abnormality Encounters and Risky Encounters has been lowered. However, you can now receive more Cost upon finishing an Encounter. With that change, and the changes to the Starter Buffs, it is now easier to obtain the E.G.O Gifts or builds that you are specifically looking for outside of Combat Encounters.
+
+10/10
+
+PROJECT MOON
+

@@ -1,0 +1,219 @@
+
+
+
+
+
+
+
+
+June 1st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 06:00 [AM] through 12:00 [PM] on June 1st, 2023 (KST) for system optimizations and content updates.
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or mating in-app purchases and close the application before maintenance beings so that no data is lost.
+Refer below for details about the update.
+
+Update Content
+
+1. New Target Extraction: [Rose spanner Workshop Office]
+(Jun 1 12:00 ~ Jun 15 09:59 (KST))
+
+Extraction rates increase for the following Identities:
+- 3★: Rose spanner Workshop Rep Rodion
+- 2★: Rose spanner Workshop Fixer Meursault
+
+2. Sinner Target Extraction: [Meursault]
+(Jun 1 12:00 ~ Jun 15 09:59 (KST))
+
+Extraction rates increase for the following Identities and E.G.O:
+- E.G.O [HE]: Pursuance for Meursault
+- 3★: N Corp. Großhammer Meursault,
+W Corp. L2 Cleanup Agent Meursault
+- 2★: Rose spanner Workshop Fixer Meursault,
+Liu South Section 6 Meursault
+- 1★: LCB Sinner Meursault
+
+1/8
+
+PROJECT MOON
+Update Content
+
+3. Season 2 (Part 1) Changes and Additions
+
+Please refer to the link below for further details on changes and additions coming with Season 2.
+https://store.steampowered.com/news/app/1973530/view/3685678897893653591
+
+(1) Main Story Chapter 4 (Part 1) Added
+- Requirements: Clear 3.5-9
+
+(2) Season 2 Limbus Pass - Reminiscence (Part 1) Open
+Pass rewards for Lv. 1 to Lv. 20 will be unlocked.
+The Pass level will be tracked normally regardless of the gradual updates.
+When the rewards for higher levels are unlocked with subsequent updates, you can immediately claim them up to your current Pass level.
+
+(3) [NEW] Ideality Exchange for Extractions
+With the Season 2 update, the Ideality Exchange system will be added for target extractions.
+During an extraction banner, you can gain Yisang [Ideality] (理想の산) based on the number of extractions you’ve performed.
+After collecting a certain amount of Ideality, you can exchange it for a 3★ Identity or E.G.O represented in the target extraction.
+
+Ideality is not shared between target extraction banners; Ideality in each target extraction is considered as its own currency.
+After the target extraction is over, the remaining Ideality is converted to Thread.
+
+2/8
+
+PROJECT MOON
+Update Content
+
+(4) [NEW] Profile Ticket Customization
+The ability to customize your profile ticket will be added to the user info menu.
+
+(5) [NEW] Added a Sanity tab in the info tab
+A Sanity tab will be added to the info tabs of units with Sanity.
+
+(6) Adjusted Increase and Decrease Rates of Sanity
+Aims: We felt that current rates of changes to Sanity were influenced too dramatically by results of clashes and unit deaths, so the rates of change from these factors have been adjusted to reduce the degree of impact.
+
+<Details>
+[Factors Increasing Sanity]
+- After winning a Clash, increases based on the Clash count
+(Old: Base Value is 10, raised by 25% per Clash count after 1)
+(New: Base Value is 5, raised by 20% per Clash count after 1)
+
+- If the level of the defeated enemy was higher than the unit’s, increase based on the level difference
+(Old: Base Value is 10, raised by 10 per level)
+(New: Base Value is 5, raised by 5 per level)
+
+- If the level of the enemy defeated by an ally was higher than the unit’s, increase based on the level difference
+(Old: Base Value is 5, raised by 5 per level)
+(New: Base Value is 2, raised by 2 per level)
+
+[Factors Decreasing Sanity]
+- After losing a Clash, decreases based on the Clash count
+(Old: Base Value is 10, raised by 25% per Clash count after 1)
+(New: Base Value is 5, raised by 10% per Clash count after 1)
+
+- If the level of the defeated ally was higher than the unit’s, increase based on the level difference
+(Old: Base Value is 10, raised by 10 per level)
+(New: Base Value is 5, raised by 5 per level)
+
+3/8
+
+PROJECT MOON
+Update Content
+
+(7) [CHANGED] Added multi-announcer function
+- Old: Only 1 battle announcer could be set at a time
+- New: Up to 5 battle announcers can be set at once; the dialogue to play will be randomly chosen each time.
+
+(8) [CHANGED] Adjusted Intro Tagline layout
+- Old: Dropdown
+- New: Pop-up list
+
+(9) [CHANGED] Season 1 Event Identities and E.G.O removed from Extractions
+With the beginning of Season 2, the following Identities and E.G.O will be removed from all Extractable item lists (Excluding <Season 1 Assured Extraction: 3★ Identity>).
+
+<Season 1 Event Identities>
+- [3★] R.B. Chef de Cuisine Ryōshū
+<Season 1 Event E.G.O>
+- [TETH] Lifetime Stew for Sinclair
+
+※ <Season 1 Assured Extraction: 3★ Identity> is based on Identities from the season, so you will still be able to acquire [3★] R.B. Chef de Cuisine Ryōshū from it.
+
+(10)[CHANGED] Dispenser tabs
+- Old : Categorized into Identities /
+E.G.O / Thread Shop within season
+- New : Categorized into Thread Shop /
+Season 2 Extractions / Season 1 Pass / Regular
+
+※ New tabs will be added in the future to accomodate for additions of Identities and E.G.O for specific seasons.
+
+4/8
+
+PROJECT MOON
+Update Content
+
+4. Information on End of Season 1
+Please refer to the link below for further details on changes and additions coming with Season 2.
+https://store.steampowered.com/news/app/1973530/view/3685678897893653591
+
+(1) End of Season 1 Limbus Pass - Orientation
+Unclaimed pass rewards from the previous season will be automatically claimed when you first log into the game after the season change update.
+The carryover rates for unconverted Egoshard-related items from multiple seasons past will be halved for each following Season. Egoshard-related items that remain after the carryover are converted into equal amounts of Thread-related items.
+
+(2) Carryover of Seasonal Currencies
+Half of the currencies listed below in your possession will be converted to Season 2’s.
+- Season 1 [Sinner]’s Egoshard
+- Season 1 Egoshard Crate
+- Season 1 Nominable Egoshard Crate
+
+The carryover of currencies to Season 2 will automatically occur the first time you log into the game during Season 2. A popup will show how much Season 1 currency you owned, and how they have been converted.
+
+Season 1 currencies still in the mailbox will only be converted after they are claimed. If you receive Season 1 currencies through the mailbox during Season 2, they will be automatically converted upon redemption into Season 2 currency.
+
+5/8
+
+PROJECT MOON
+Update Content
+
+(3) Unclaimed Rewards for Mirror Dungeons
+As the season changes with this update, unclaimed Mirror Dungeon rewards from before the update will no longer be available. Please make sure to claim any remaining rewards from the Mirror Dungeons before the Jun 1 update.
+
+5. New Packs
+The following product will be available to purchase from the packs shop.
+
+<Season 2 Settler Supplies>
+
+- Price: KRW 99,000 ($69.99 / ¥10,000)
+- Purchase Limit: 1 time only
+(Only available for purchase during Season 2)
+- Product Details
+Lunacy (Paid) x5040
+Decaextraction Ticket x3
+Level Boost Ticket III x1
+Identity Training Ticket III x30
+Thread x80
+Season 2 Nominable Egoshard Crate x40
+
+6/8
+
+PROJECT MOON
+Update Content
+
+6. Bug Fixes and Improvements
+- Fixed an issue where the corrosion skill of the E.G.O Lantern for Gregor did not apply Rupture properly
+- Fixed the Japanese translation for stagger introductions missing in the tutorial
+- Added linebreak exceptions for UI elements that weren't previously included due to data changes
+- Addressed missing data and translation errors from Identity titles added in the previous update
+- Fixed the translations missing from the name for 'Panther' in the tutorial
+- Fixed an issue where the effect of Eclipse of Scarlet Moths did not apply to Clay Dolls in the Doomsday Calendar encounter
+- Fixed information for units generated mid-wave not being unlocked properly
+- Fixed W Corp. L2 Cleanup Agent Faust's support passive 'Radio Comms' applying to the unit with the highest current HP
+
+7/8
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 June 8th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+8/8
+
+PROJECT MOON
+

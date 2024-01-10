@@ -1,0 +1,107 @@
+
+
+
+CAUTION CAUTION CAUTION CAUTION
+LIMBUS COMPANY
+· 신규 인물 탈취 작전 ·
+新規人格搾取作戦
+NEW IDENTITY TARGET EXTRACTION
+
+정민=스퍼너 공방 대표 로클라
+Rosespanner Workshop
+バラのスパナ 工房 代表 ロクリア
+
+해당 인물의 추출 확률이 올라갑니다
+高い人格の抽出確率が上昇します
+HIGHER EXTRACTION RATES FOR THE FEATURED IDENTITIES
+
+정민=스퍼너 공방 해금사 픽서
+Rosespanner Workshop
+バラのスパナ 工房 フィクサー メルソー
+Fixer Meursault
+
+Copyright (C) 2023. All rights reserved by Project Moon
+LIMBUS COMPANY
+Rosepanner Workshop Rep.
+Rodion
+
+SKILL 1
+Rev Up
+[Heads Hit] Inflict Tremor
+[On Hit] Gain Charge Count
+[On Hit] Inflict Tremor Count
+
+SKILL 2
+Vibration Compression
+[On Hit] Inflict Tremor Count
+[On Hit] Inflict Tremor
+• Above a certain amount of Charge Count, reuse this Coin if it lands Heads (Up to 2 times)
+• Inflict more Tremor if reused
+• If the Coin is reused twice, burst Tremor after inflicting it.
+• After bursting Tremor, reduce Tremor Count
+
+SKILL 3
+Let's Rack Up Some Scores
+[On Use] Gain Charge Count
+[On Hit] Inflict Tremor Count
+[Heads Hit] Inflict Tremor
+[On Hit] Burst Tremor.
+After bursting Tremor, reduce Tremor Count
+[On Hit] Burst Tremor. After bursting Tremor, reduce Tremor Count
+[On Hit] If target is Staggered, deal a proportion of damage dealt as bonus damage
+
+DEFENSE
+Preheat
+[Combat Start] Gain Charge Count
+
+PASSIVE
+Here's to Getting Off Early!
+• When bursting Tremor, spend Charge to further increase the Stagger Threshold raise
+• After bursting Tremor, gain Haste and Blunt DMG Up next turn.
+
+SUPPORT PASSIVE
+Resonant Spanner
+When 1 ally with the lowest Speed bursts Tremor, increase the Stagger Threshold raise
+
+*The Identity's stats at max level and Uptide tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright ⓒ 2022 All rights reserved by ProjectMoon.
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+LIMBUS COMPANY
+Rosespinner Workshop Fixer
+Meursault
+ENTITY INFO
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+SKILL 1
+Saddled Tasks
+[Heads Hit] Inflict Tremor
+[On Hit] Inflict Tremor
+SKILL 2
+Forced Break
+[Heads Hit] Inflict Tremor
+[On Hit] Inflict Tremor
+[II On Hit] If target has a certain amount of Tremor or more, inflict Attack Power Down next turn
+SKILL 3
+Finishing Roundup
+[Heads Hit] Gain Charge Count
+[On Hit] Inflict Tremor
+[II Heads Hit] Gain Charge Count
+[On Hit] Inflict Tremor
+[III Heads Hit] Gain Charge Count
+[On Hit] Inflict Tremor
+[IV On Hit] Burst Tremor. When bursting Tremor, reduce Tremor Count, then spend all Charge to further raise Stagger Threshold
+DEFENSE
+Guard
+PASSIVE
+Chronic Fatigue
+In a clash, the opponent loses Clash Power if they have a certain amount of Tremor or more.
+When recovering from Stagger, heal HP
+SUPPORT PASSIVE
+Leave by Suggestion
+1 ally with the highest Speed lowers the Clash Power of opponents with Tremor
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+Copyright © 2022 Corporation. All rights reserved.
+Reg. Trademark of Corporation
+

@@ -1,0 +1,284 @@
+
+
+
+
+
+
+
+
+Intro to New Contents for June 29th - 
+Mirror of Mirrors (Mirror Dungeon #2)
+
+Greetings, dear manager.
+
+The new content of <Mirror of Mirrors> (Mirror Dungeon #2) 
+will be added with the June 29th, 2023 (KST) update.
+
+Date: After the scheduled maintenance on June 29th, 12:00 (KST)
+Requirements: Clear Main Story 4-54 and Mirror of the 
+Beginning (Mirror Dungeon #1)
+Intro: In Mirror Dungeon #2,
+you can earn large sums of Battle Pass XP.
+
+※ Hard mode for Mirror Dungeon #2
+will be unlocked after the July 6th (KST) scheduled update.
+
+The 2023 June 29th (KST) scheduled update will be performed
+between 10 AM and 12 PM, and parts of the changes to the 
+Mirror Dungeons will apply after the scheduled update is completed.
+As such, Mirror Dungeon weekly bonus counts and expeditions in
+progress will reset when the update is complete on 12.
+You will not be able to claim rewards for expeditions from 
+before 10 AM on June 29th once the reset takes place, so please
+make sure to claim the rewards before the maintenance.
+
+1/8
+
+PROJECT MOON
+Entry Cost and Reward Reception
+
+Old | New
+---- | ----
+Entry Cost | Enkephalin Module required for entry | Enkephalin Module NOT required for entry
+Reward Reception | When an expedition is over, rewards are provided based on the number of floors and nodes reached | When an expedition is over, rewards are shown based on the number of floors and nodes reached; the player may choose whether to use Enkephalin Modules to claim them
+
+※ In accordance with these changes, daily free entries and simulations for Mirror Dungeons will be removed once Mirror Dungeon #2 is added.
+
+Changes to Clear Rewards
+
+► Aims
+In Mirror Dungeons, you can earn Pass XP based on the number of floors and nodes reached. Each expedition to Mirror Dungeon #2 is expected to be longer than an expedition to Mirror Dungeon #1.
+We determined that the lengthening of playtime for repetitive contents will come off as burdensome to many players.
+As such, even if you only clear up to Floor 3 of Mirror Dungeon #2, you will still be able to obtain 80% of Pass XP and 100% of Lunacy compared to the rewards for clearing Floor 5.
+
+2/8
+
+PROJECT MOON
+Changes to Clear Rewards
+
+※ Below is a table of rewards for clearing each Mirror Dungeon.
+
+Old
+With Bonus
+<Mirror Dungeon #1>
+- Lunacy x250
+- Egoshard Crate x8 or
+Nominalbe Egoshard
+Crate x5
+- Battle Pass EXP 20
+
+Without Bonus
+<Mirror Dungeon #1>
+- Battle Pass EXP 7
+
+New
+<Mirror Dungeon #1>
+- Lunacy x250
+- Battle Pass EXP 15
+
+<Mirror Dungeon #2>
+- Lunacy x250
+- Battle Pass EXP 45
+
+<Mirror Dungeon #2 - Hard>
+- Lunacy x250
+- Battle Pass EXP 75
+
+<Mirror Dungeon #1>
+- Battle Pass EXP 10
+
+<Mirror Dungeon #2>
+- Battle Pass EXP 30
+
+<Mirror Dungeon #2 - Hard>
+- Battle Pass EXP 50 |
+
+▶ Comparison between Mirror Dungeons -
+Based on final floor clears
+
+List
+Enkephalin
+Modules Cost
+Pass XP
+Manager XP
+Floors
+Nodes
+
+Mirror
+Dungeon #1
+3
+10
+60
+3
+20
+
+Mirror
+Dungeon #2
+5
+30
+100
+5
+30
+
+Mirror
+Dungeon #2
+- Hard
+6
+50
+120
+5
+30
+
+Changes to Weekly Bonus
+
+Weekly bonuses for Mirror Dungeons
+no longer provide Egoshard-related items.
+As noted in the Season 2 announcement,
+the Nominable Egoshard Crates that could’ve been earned
+as weekly bonuses (285 crates) have been
+integrated to Season 2 Battle Pass free rewards.
+The number of weekly bonuses is 3 like before.
+
+Applying the weekly bonus adds the following:
+- Lunacy reward added
+- Pass XP gain increased by 50%
+
+3/8
+
+PROJECT MOON
+Changes to Levels on Entry
+
+Identity levels are fixed at a certain value upon entry.
+- Mirror Dungeon #1: 30
+- Mirror Dungeon #2 Normal: 35
+
+※Uptie and Threadspin Tiers follow the player's progress.
+
+Cost
+
+The new resource of ‘Cost’ is introduced to Mirror Dungeons. Cost can be obtained through combat encounters and events, allowing you to deploy additional Identities and E.G.O, or partake of shop and rest stop events.
+
+On Normal difficulty, the initial team setup doesn't require any Cost. (Starting Cost is 0)
+
+On Hard difficulty, you're given a set amount of Cost to build your initial team with.
+
+Starter Buffs
+
+The starter buffs are newly introduced, starting with Mirror Dungeon #2.
+
+Starter buffs can be activated using 'Starlight', providing various effects to aid your Mirror Dungeon expedition.
+
+Starlight can be earned by playing Mirror Dungeons. Reaching further floors rewards more.
+
+Note that Starlight rewards for clearing Floor 5 are considerably larger than clearing only up to Floor 3.
+
+You cannot use the Starlight from a Mirror Dungeon to activate starter buffs for other Mirror Dungeons.
+
+Starter buffs apply to both the Normal and Hard difficulties, but it does not affect other Mirror Dungeons.
+
+4/8
+
+PROJECT MOON
+Floor-based Enemy Buffs in Mirror Dungeons
+
+Starting with Mirror Dungeon #2, a new system is implemented to make enemies more powerful as you go up the floors. Whenever you proceed to the next floor, enemies will gain a buff that persists throughout the expedition.
+※ The floor-based enemy buffs do not apply in Mirror Dungeon #1.
+
+New Gifts, Events, and Abnormalities
+
+New E.G.O Gifts (45 total), Abnormality events (25 total), and combat encounters against Abnormalities will be added.
+
+Changes to Universal Events
+
+Originally, universal events could heal Sinners, power them up, or provide a chance to recruit. As Identity levels are fixed upon entry, power-up options will be removed. Healing and recruitment options will also be removed and integrated into [Rest Stop] events and [Shop] events.
+
+The newly added events are as follows:
+
+▶[Rest Stop] events
+- Sinners can heal HP.
+- You can spend Cost to additionally deploy or change Identities and E.G.O.
+▶[Shop] events
+- You can spend Cost to heal larger amounts of HP and SP.
+- You can spend Cost to additionally deploy or change Identities and E.G.O. You can spend Cost to purchase listed E.G.O Gifts. You can spend Cost to change one skill from the listed Identity (from your possession). (Possible combinations listed below; changing Skill 1 to Skill 3 requires the highest amount of Cost.)
+
+< Skill 1 → Skill 2 >
+< Skill 2 → Skill 3 >
+< Skill 1 → Skill 3 >
+
+5/8
+
+PROJECT MOON
+Quality of Life Features
+
+The following features will be added to improve the player convenience for Mirror Dungeons.
+
+(1) E.G.O Gifts List
+A button to view the list of E.G.O Gifts you currently own and check their effects will be added.
+
+(2) Preset Configuration
+Using the preset button, you can load up the setup of Identities and E.G.O previously used. Presets are saved individually for each Mirror Dungeon.
+
+(3) Direction Display
+The direction you can move in from the current node will be displayed.
+
+(4) E.G.O Resources fully carried over
+E.G.O resources are fully carried over between combat encounters.
+
+6/8
+
+PROJECT MOON
+Lobotomy Corporation
+
+Quality of Life Features
+
+(5) E.G.O Threadspin Tier displayed during setup
+You can see the Threadspin Tiers of E.G.O during the setup stage.
+
+(6) Buffs from events are easier to check
+A button to check the buff gained from an event will be added.
+
+(7) Useful Types per stage
+Types and affinities effective against the enemies
+will be shown below combat nodes.
+
+※ The feature of “event choices that have been selected before showing their outcomes in advance in subsequent encounters” will be implemented in a future update.
+We will let you know when the feature is added.
+
+7/8
+
+PROJECT MOON
+Other Changes
+
+The following changes will apply to Mirror Dungeon #1 as well when Mirror Dungeon #2 is added.
+- When starting a Mirror Dungeon #1 expedition, you can select up to 5 Identities and E.G.O. (Combat participant limit per floor remains the same)
+
+- As Identity levels are fixed upon entry, enemy levels will be adjusted accordingly.
+Old: Ally levels are between 15 and 30; enemy levels are between 15 and 25, depending on the floor
+New: Ally levels are fixed at 30; enemy levels are between 25 and 34, depending on the floor
+
+- In the process of adding an Identity or E.G.O to the team by spending Cost, you can now replace Identities and E.G.O you already have.
+(Identities and E.G.O you’ve had in the team before don’t require any Cost to deploy again at Shops or Rest Stops.)
+
+- Gift prompts that randomly appear after a combat encounter offer one fixed Gift instead of choosing from 3. (Starting Gift and floor bosses still present three options to choose from)
+
+- Peccatula in Abnormality battles have generally increased stats.
+
+- 'Baba Yaga’ no longer appears in floor boss encounters in Mirror Dungeons.
+
+- The number of enemies that appear in certain floor boss stages have been adjusted.
+
+- Tweaks have been made to the deployment process for Identities and E.G.O.
+
+- In Mirror Dungeon #1, the number of diverging paths has been reduced from 4 to 3.
+
+- Stages in Mirror Dungeon #1 change so that you can earn Cost in them.
+
+- Fixed certain Gifts not working as described.
+
+- Fixed the second effect of Phantom Pain activating with regular Gloom Resonance when its description states Gloom Absolute Resonance is required
+Improved visibility for claiming rewards in Mirror Dungeons.
+
+8/8
+
+PROJECT MOON
+

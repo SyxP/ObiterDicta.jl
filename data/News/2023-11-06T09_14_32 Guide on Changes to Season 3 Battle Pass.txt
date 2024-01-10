@@ -1,0 +1,97 @@
+
+
+
+
+Guide on Changes to Season 3 Battle Pass
+
+SEASON 3
+BON VOYAGE
+
+Greetings, Dear Manager.
+
+With the November 16th (KST) Update, the new Battle Pass [Season 3: Bon Voyage] will be released.
+
+We would like to inform you of clarifications and changes from the last season’s Battle Pass.
+
+1/4
+
+PROJECT MOON
+Guide on Changes to Season 3 Battle Pass
+
+1. Max Reward Level Adjusted
+
+Max Battle Pass Level will be adjusted from 60 to 120.
+
+However, the Battle Pass price, the value or number of resources obtainable via the Pass remains the same save for a few specific rewards.
+
+Purchasing a Pass Level remains unchanged at 300 Paid Lunacy.
+
+※Intent
+
+The Battle Pass' Max Level is being adjusted in order to change the rate at which the fixed rewards can be acquired.
+
+Currently, the Pass XP that can be acquired via in-game content such as Mirror Dungeons was calculated with the time required to dispense Identities or E.G.O from the Dispenser in mind.
+
+However, this direction was decided in the middle of Season 2, which meant that the rate at which a player was able to reach the Max Battle Pass Level, 60, was much faster than we had initially intended.
+
+In order to bridge the gap between our initial intent and the current reward acquisition speed, we intend to expand the Max Battle Pass Level from 60 to 120.
+
+This will expand the amount of time required to acquire all Pass Rewards; we understand that you may have concerns regarding the changes to your experience with the Battle Pass.
+
+To alleviate that concern, we would like to inform you that the perceived amount of Egoshards that can be received from the Pass and the Max Pass Level EX Rewards will remain unchanged. (The number of obtainable Egoshard Crates will remain unchanged)
+
+Now, the Max Pass Level EX Rewards of Pass Level 60~120 will be included in the Pass as a part of the normal Pass Level Rewards. Therefore, free Pass users could receive additional 60 Nominable Egoshard Crates and Limbus Pass users could receive an additional 180 Nominable Egoshard Crates before reaching the Max Level.
+
+2/4
+
+PROJECT MOON
+Guide on Changes to Season 3 Battle Pass
+
+2. Changes regarding Max Pass Level EX Rewards
+
+With Season 3, even if the players purchased the Limbus Pass after progressing the Max Pass Level EX Rewards, they can retroactively receive the accumulated Limbus Pass rewards in addition to the Free rewards they already claimed.
+
+※ Intent
+
+Season 2 Battle Pass was designed to incentivize purchasing Limbus Pass early by making it so that the Paid Max Pass Level EX Rewards applied only from the point of Limbus Pass purchase, and not retroactively.
+
+However, over Season 2, we have noticed that instead of incentivizing early purchase, it only served to inconvenience people who purchased the pass late.
+
+Therefore, we intend to change it so that purchasing the Pass at any point would retroactively make all previous Paid Max Pass Level EX Rewards available as well without losing out on them.
+
+Also, a function to view the accumulated Season 3 Egoshard crates that can be acquired upon Limbus Pass Purchase will be added to the Purchase Confirmation window.
+
+3. 1. Limbus Pass Package Added
+
+A new Package item, [Limbus Pass Package] will be added to the game.
+
+[Limbus Pass Package] can be purchased from the Battle Pass menu with 2700 Paid Lunacy. Upon purchase, you will gain 10 Limbus Pass Levels and receive a special Banner.
+
+Please note before purchase that the [Limbus Pass Package] does NOT contain the [Limbus Pass - Season 3: Bon Voyage].
+
+3/4
+
+PROJECT MOON
+Guide on Changes to Season 3 Battle Pass
+
+4. Pass Rewards Unlock with Updates
+
+Just like in Season 2, Battle Pass Rewards will be unlocked in 3 parts with the Main Story updates.
+
+► Season 3: Bon Voyage (Part 1)
+- Season Pass Rewards for Lv. 1 ~ Lv. 20 Unlocked
+- Updates 2023. 11. 16 (KST)
+
+► Season 3: Bon Voyage (Part 2)
+- Season Pass Rewards for Lv. 21 ~ Lv. 40 Unlocked
+- Updates 2023. 11. 23 (KST)
+
+► Season 3: Bon Voyage (Part 3)
+- Season Pass Rewards for Lv. 41 ~ Lv. 120 Unlocked
+- Max Pass Level EX Rewards Unlocked
+- Updates 2023. 11. 30 (KST)
+
+4/4
+
+PROJECT MOON
+

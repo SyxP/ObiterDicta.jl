@@ -1,0 +1,76 @@
+
+
+
+
+New Content - Refraction Railway
+
+[Details]
+1. 13 difficult combat stages will be open for a limited period of time. You may enter and challenge an active line to enter it at no cost.
+2. Upon entering, you will choose a number of Identities and E.G.O to begin the expedition with. Unlike other combat-based content, the level-ups and tier-ups done to your Identities and E.G.O while an expedition is in-progress will not be immediately reflected on your team's status. The upgrades will only apply after starting a new run from the beginning.
+3. Each stage will give you rewards after clearing it for the first time during the event period.
+4. Clearing every stage while fulfilling given requirements will reward you with a special decorated banner.
+
+[Period]
+Apr 6 12:00 ~ May 4 09:59 (KST)
+
+[Unlock Requirements]
+Clear Main Story 3-22
+
+1/4
+
+PROJECT MOON
+New Content - Refraction Railway
+
+[Claiming Rewards]
+- When you clear a stage, the station will record the number of turns taken to clear it Clear Turns and the cumulative amount of turns taken throughout the current expedition Total Turns.
+- After clearing a stage in the line for the first time during the event period, the rewards will be sent to the Lost & Found.
+To gain access to the Lost & Found, a number of 
+Enkephalin Modules will be required. Afterwards,
+you may freely access it and claim the rewards
+you've earned without any additional cost.
+
+2/4
+
+PROJECT MOON
+New Content - Refraction Railway
+
+[Combat Details]
+- Every battle on the line adopts the Abnormality method of directly matching ally skills against enemy skills.
+- The health and Sanity of the Sinners will carry over between stages. However, after clearing a stage, those who did not participate in the battle will fully recover their health and Sanity when entering the next stage.
+- When a Sinner dies, they will remain unavailable for the rest of the expedition.
+- E.G.O resources will carry over between stages. 
+- When you lose a battle, you will be taken back to the point right before entering the stage.
+- During an expedition, you can choose to start over from any previous stage. When you do, the battle will start with the Sinners' lives and E.G.O resources reverted to that point, and any progress made for the stages after it will be lost.
+- You may not change your team in the middle of an expedition. If you wish to modify your setup, you must start a new expedition.
+
+3/4
+
+PROJECT MOON
+LIMBUS COMPANY
+
+New Content - Refraction Railway
+
+[Record]
+
+- Upon clearing the final stage, the records for the expedition will be saved in the Logs, which can be viewed at any time during the event.
+- The records in the Logs will include the expedition date, total turns taken, Identities and E.G.O used, and damage statistics.
+  - The Logs will only show your own records.
+- Expeditions with fewer total turns will be ranked higher.
+- Expeditions whose total turns go over 999 will not be recorded.
+
+Basic Banner
+Decorated Banner
+Embellished Banner
+
+[Special Decorative Banner]
+
+- Upon clearing the final stage, you can earn the Refraction Railway-themed [LINE 1 MADNESS].
+※ You are only eligible for this reward if the total number of turns taken for the clear does not exceed 999.
+- If a finished expedition's total turns are within a certain amount, you can earn a decorated version of the banner.
+- If you acquire the banner within the first half of the event (Apr 6 12:00 ~ Apr 20 09:59) while fulfilling the total turn threshold, you can earn a further embellished version of the banner.
+- When Refraction Railway Line 1 closes, the best total turn record will be etched on the lower side of the banner.
+
+4/4
+
+PROJECT MOON
+

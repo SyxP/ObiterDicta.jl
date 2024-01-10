@@ -1,0 +1,105 @@
+
+
+LIMBUS COMPANY
+Lobotomy E.G.O.: Magic Bullet
+Outis
+ENTITY INFO
+*The identity's stats at max level and Uptier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+SKILL 1
+Ignition
+Gain Coin Power for every X Burn on target
+I [On Hit] Inflict Dark Flame next turn
+II [On Hit] Inflict Burn equal to Dark Flame on target
+
+SKILL 2
+Detonate Magic Bullet
+Gain Coin Power for every X Burn on target
+I [On Hit] At less than X Magic Bullet, gain Magic Bullet.
+Inflict Dark Flame equal to Magic Bullet next turn.
+II [On Hit] Inflict Burn equal to Dark Flame on target.
+
+SKILL 3
+Magic Bullet Fire
+Deal more damage based on Burn on target
+[Before Attack] Gain Magic Bullet
+- Lose SP proportional to Magic Bullet
+- Atk Weight becomes equal to Magic Bullet
+- At x or less SP, Y% chance to attack indiscriminately
+[After Attack] If at 7 Magic Bullet, reset to 0
+(Counts as spending the last Ammo)
+I [On Hit] Inflict Dark Flame equal to Magic Bullet
+
+DEFENSE
+The Price of a Bullet
+[On Use] Gain Magic Bullet
+[On Use] Gain Final Power proportional to Magic Bullet
+[Skill End] Lose SP equal to Magic Bullet
+
+PASSIVE
+The Marksman's Smoking Pipe
+If the main target's Defense Level is currently lowered by X or more, gain (Burn on main target) Poise Before Attack
+
+SUPPORT PASSIVE
+Request Work
+1 ally with the most SP deals increased damage with E.G.O Skills
+If the E.G.O Skill consumes X+ E.G.O resources, deal additionally increased damage
+
+Dark Flame
+• Target loses Defense Level equal to the value of this effect
+• Turn End: Deal (value x Burn on target) Pride Affinity damage, then expires
+
+Magic Bullet
+• Value changes depending on certain Skill effects.
+• The higher the value, the higher the Base Power and Coin Power of Skill 3
+
+Walpurgisnacht
+
+Copyright ⓒ 2023 Studio LARGO, All rights reserved.
+Lobotomy E.G.O. - Lantern
+Don Quixote
+
+SKILL 1
+I Shall Nibble Thee!
+[On Use] This Skill Slot gains Aggro next turn
+[On Hit] Inflict Rupture Count
+
+SKILL 2
+Flashing Lure
+[On Use] This Skill Slot gains Aggro next turn
+[On Use] If the target has X+ Rupture, gain Coin Power
+
+[On Hit] Inflict Rupture
+[On Hit] Inflict Rupture
+[On Hit] Inflict Rupture
+[On Hit] If the target has X+ Rupture Count, inflict Rupture Count
+
+SKILL 3
+Whirlwind Om-Nom-Nom!
+[On Use] This Skill Slot gains Aggro next turn
+[On Use] If the target has X+ Rupture, gain Coin Power
+
+[On Hit] Inflict Rupture Count
+[On Hit] Heal HP. Heal amount increases when reusing Coin
+[On Hit] Heal additional HP based on Rupture on target
+At X%- HP, reuse Coin
+
+DEFENSE
+Chattering Teeth
+[On Use] If the target has X+ Rupture, gain Final Power
+[Skill End] Heal HP equal to remaining Shield HP
+
+PASSIVE
+Om Nom Nom
+If this unit's Skill Slot has Aggro, gain Clash Power Heal HP every time this unit hits enemies that targeted this unit with an Attack Skill in the Chaining Phase
+
+SUPPORT PASSIVE
+Walpurgisnacht
+The ally with the highest Aggro Skill Slot heals HP every time they hit an enemy that targets this unit
+
+*The identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2020 StudioLORD. All Rights Reserved.
+

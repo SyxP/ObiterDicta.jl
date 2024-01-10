@@ -1,0 +1,40 @@
+
+
+Notice on Ongoing Optimization Process
+
+We understand that performance issues are happening with increasing frequency with each additional content to the game.
+
+This issue is most prevalent on the mobile platform, leading to frequent slowdowns and forced terminations of the application.
+
+We are continuously conducting an optimization process so that we may provide our Managers content without disruption to the enjoyment to the game.
+
+While optimization is an issue that needs to be addressed in the long term, we understand that players are rightfully frustrated by the lack of visible progress. As such, we are going to disclose our detailed objectives and plans regarding optimizing the game.
+
+We plan to complete the following optimization processes before the Canto 5 update, and we will provide completion updates via future patch notes.
+
+1/2
+
+PROJECT MOON
+Notice on Ongoing Optimization Process
+
+▶ RAM Usage
+Limbus Company on mobile devices currently consume about 1.5GB~1.8GB RAM, and we have identified an issue where the game continues to use more RAM the longer it is played, leading to crashes. This issue has been observed to occur more frequently with devices with less than 4GB total RAM.
+
+To ensure that the game's RAM consumption does not rise too far above 1GB at maximum, we will implement measures to prevent accumulation of memory usage and subsequent crashing.
+
+There are a number of factors we suspect to be the causes of this problem, and we are working to address them. We will provide a detailed follow-up with RAM usage comparisons once progress has been made.
+
+▶ Game Size
+We have identified an issue where unused resources are occupying the device’s storage space. We will delete those files from our client to make sure that the game isn’t taking up unnecessary storage space. In addition, we will add the ability to delete voiceover data for selected chapters so that they may be redownloaded when the player wants in the future.
+
+▶ Temporary Freezing Issues
+We have identified an issue where the game appears to momentarily freeze upon entering the “Sinners”, “Extract”, and various other parts of the interface. The cause of these issues was located in the resource load order/structure, and we will continuously work on resolving these instances as well.
+
+We will keep working to provide you with a smoother gameplay experience. We apologize for causing inconvenience to your enjoyment of our game.
+
+Thank you.
+
+2/2
+
+PROJECT MOON
+

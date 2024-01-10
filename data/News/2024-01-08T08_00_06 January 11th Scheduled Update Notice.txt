@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+January 11th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Jan 11th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Event - The 2nd Walpurgis Night
+※ Please refer to the Steam Announcement [Jan. 11th New Content - The 2nd Walpurgis Night] for more information.
+
+2. The 2nd Walpurgis Night Target Extraction (Jan. 11th 2024, 12:00 ~ Jan. 25th, 10:00 (KST))
+Extraction rate increases for the following identities.
+- 3★ : Lobotomy E.G.O.::Magic Bullet Outis
+- 2★ : Lobotomy E.G.O.::Lantern Don Quixote
+
+3. [Target Extraction: Yi Sang]
+(Jan. 11th 2024, 12:00 ~ Jan. 25th 10:00 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+- E.G.O [HE] : Dimension Shredder Yi Sang
+- E.G.O [TETH] : Wishing Cairn Yi Sang
+- 3★ : W Corp. L3 Cleanup Agent Yi Sang, Effloresced E.G.O.::Spicebush Yi Sang, Blade Lineage Salsu Yi Sang
+- 2★ : The Pequod First Mate Yi Sang, Seven South Section 6 Yi Sang
+- 1★ : LCB Sinner Yi Sang
+
+4. Identities, E.G.O, and Announcers added to the list of extractable items
+※ Please refer to the Steam Announcement [Jan. 11th New Content - The 2nd Walpurgis Night] for more information.
+
+1/7
+
+PROJECT MOON
+Update Contents
+
+5. 9 New Packs added
+
+7 new packs have been added to the in-game [Packs] store, and 2 previously existing packs will have their names changed.
+
+<Extractions>
+[New] Weekly Extraction Ticket Pack I
+- Price : ₩9,900 / $6.99 / ¥1,000
+- Contents : Extraction Ticket x10
+
+[New] Monthly Extraction Ticket Pack I
+- Price : ₩28,000 / $18.99 / ¥2,600
+- Contents : Decaextraction Ticket x 3
+
+[New] Monthly Extraction Ticket Pack II
+- Price : ₩46,000 / $32.99 / ¥4,800
+- Contents : Decaextraction Ticket x 5
+
+<EXP>
+[Name Change] Monthly EXP Pack I (← Monthly EXP Pack)
+- Price : ₩28,000 / $18.99 / ¥2,600
+- Contents : Level Boost Ticket IV x2,
+Identity Training Ticket IV x20, Identity Training Ticket III x20
+
+[New] Monthly EXP Pack II
+- Price : ₩46,000 / $32.99 / ¥4,800
+- Contents : Level Boost Ticket IV x4,
+Identity Training Ticket IV x20, Identity Training Ticket III x20
+
+[New] Monthly EXP Pack III
+- Price : ₩90,000 / $61.99 / ¥9,200
+- Contents : Level Boost Ticket IV x8,
+Identity Training Ticket IV x40, Identity Training Ticket III x40
+
+2/7
+
+PROJECT MOON
+Update Contents
+
+<Thread>
+▶ [Name Change] Monthly Thread Pack I (← Monthly Thread Pack)
+- Price : ₩28,000 / $18.99 / ¥2,600
+- Contents : Thread x300
+
+▶ [New] Monthly Thread Pack II
+- Price : ₩46,000 / $32.99 / ¥4,800
+- Contents : Thread x500
+
+▶ [New] Monthly Thread Pack III
+- Price : ₩90,000 / $61.99 / ¥9,200
+- Contents : Thread x1000
+
+With the name change, 'Monthly EXP Pack I' and 'Monthly Thread Pack I' monthly purchase chances will be reset after the Jan. 11th Scheduled Update. Please note this information if you are planning to purchase these Packs.
+
+Major Changes
+
+1. Unique Status Effects
+Unique Status Effects, which are status effects that apply Burn or Bleed via indirect means, will now be each categorized as [Unique Status Effects].
+We have added [Unique Status Effects] conditions for certain E.G.O Gift activation conditions so that relevant Identities can properly synergize with them.
+
+※ This change is not limited to Burn or Bleed. If any new indirect ways of applying other Status Effects are added to the game, they will be categorized as [Unique Status Effects] as well.
+
+▶ Unique Status Effects
+- Nails
+- Dark Flame (Added after the Jan. 11th Scheduled Update)
+
+3/7
+
+PROJECT MOON
+Major Changes
+
+2. Mirror Dungeon: Certain E.G.O Gift activation conditions & effects updated
+
+▶ Hellterfly's Dream activation conditions
+- Before: When inflicting Burn Potency to enemies with Burn
+After: When inflicting Burn Potency or Unique Burn to enemies with Burn or Unique Burn
+
+▶ Wound Clerid activation conditions
+- Before: When hitting an enemy with a Skill that inflicts Bleed Potency
+- After: When hitting an enemy with a Skill that inflicts Bleed Potency or Unique Bleed
+
+▶ Fiery Down activation conditions
+- Before: When hitting an enemy with a Skill that inflicts Burn Potency or a Lust Affinity Skill
+- After: When hitting an enemy with a Lust Affinity Skill or a Skill that inflicts Burn Potency or Unique Burn
+
+▶ Pinpoint Logic Circuit activation conditions
+- Before: When hitting an enemy with an Envy Affinity Skill or a Skill that inflicts Burn Potency
+- After: When hitting an enemy with an envy Affinity Skill or a Skill that inflicts Burn Potency or Unique Burn
+
+▶ Rusted Cutting Knife activation conditions
+- Before: When inflicting Bleed Potency with Skill effects against non-Staggered enemies
+- After: When inflicting Bleed Potency or Unique Bleed with Skill effects against non-Staggered enemies
+
+▶ Soothe the Dead activation conditions & effects
+Before: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Burn Potency. (...) To Skills that inflict Burn Potency: Final Power +1, Coin Power +1, inflicted Burn Potency +1, inflicted Burn Count +1.
+- After: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Burn Potency, Count, or Unique Burn. (...) To Skills that inflict Burn Potency, Count, or Unique Burn: Final Power +1, Coin Power +1, inflicted Burn Potency +1, inflicted Burn Count +1.
+
+4/7
+
+PROJECT MOON
+Major Changes
+
+▶ Bloody Mist activation conditions & effects
+- Before: Encounter Start: This Gift Activates when 5 or more Identities have Attack Skills that apply Bleed Potency. (...)
+Skills that inflict Bleed Potency: Coin Power +2, damage dealt +100%
+- After: Encounter Start: This Gift Activates when 5 or more Identities have Attack Skills that apply Bleed Potency, Count, or Unique Bleed. (...) Skills that inflict Bleed Potency, Count, or Unique Bleed: Coin Power +2, damage dealt +100%
+
+▶ Enrapturing Trance activation conditions
+- Before: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Rupture Potency
+- After: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Rupture Potency or Count
+
+▶ Black Sheet Music activation conditions 
+- Before: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Sinking Potency
+- After: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Sinking Potency or Count
+
+▶ Lucky Pouch activation conditions
+- Before: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain Poise Potency
+- After: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain Poise Potency or Count
+
+※ The following changes are not a part of the Jan. 11th Scheduled Update.
+They will be applied with a future update.
+
+▶ Coupled Oscillation activation conditions
+- Before: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Tremor Potency
+- After: Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply Tremor Potency or Count
+※ Currently, we do not plan to let Identities Tremor Count on self to activate this effect when applying Tremor Count on self.
+
+▶ Lucky Pouch effects
+- Before: Skill 3 of Identities with Skills that gain Poise Potency: Final Power +3, Coin Power +(12/# of Coins), damage dealt +(50/# of Coins)%.
+- After: Skill 3 of Identities with Skills that gain Poise Potency or Count: Final Power +3, Coin Power +(12/# of Coins), damage dealt +(50/# of Coins)%.
+
+5/7
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Standardized Skill text regarding Skill effects that cause SP damage
+- Before : Deal N SP damage / (Same in English) / X loses N SP
+- After : Standardized to “Deal N SP damage”
+※ Affected E.G.O list
+- Faust E.G.O ‘Fluid Sac’, Don Quixote E.G.O ‘Fluid Sac’, Ishmael E.G.O ‘Capote’, and Rodion E.G.O ‘Pursuance’
+- This does not change the actual effects of the E.G.O.
+
+► R Corp. 4th Pack Reindeer Ishmael’s Skill 3 - Mind Whip description clarified
+- Before : At less than X Charge Count, target a random unit for an unopposed attack
+- After : At less than X Charge count at Combat Start, target a random unit for an unopposed attack
+- This does not change the actual effects of the Skill. The text was adjusted only to clarify the activation timing of the Mind Whip Skill.
+
+► Fixed an issue where ‘Rodion E.G.O - Pursuance’ showed the unique E.G.O Background even when it was under Threadspinning Tier 3
+
+► Fixed an issue where the E.G.O Gift Enrapturing Trance did not activate properly upon [When hitting an enemy with a Skill]
+
+► Fixed an issue where, in the ‘Sell E.G.O Gifts’ menu while the Starter Buff ‘Namesake’ was activated, the prices did not update accordingly to the modifiers
+
+► Fixed an issue where exiting after attempting to turn ON/OFF the Starter Buffs in the Mirror Dungeon caused an error
+
+► Fixed an issue where attempting to use ‘Wish of a Star’ under a specific set of conditions caused an error
+
+► Improved the 000 Identity Uptie cutscene from Tier 2 to Tier 3 so that it would display the Spine animation instead of a static image
+
+► Fixed an issue where the ‘Abnormality - Ambling Pearl’ Encounter would leave surviving summoned units under a specific condition
+
+► Improved the Dispenser UI so that items that cannot be dispensed would display the ‘Cannot Purchase’ label
+
+► (EN, JP only) Fixed an issue where the Main Story Canto IV - 54 cutscene displayed an incorrect location in certain scenes
+
+► Fixed an issue where the Boss enemy in Main Story Canto V - 10 would not show the proper animation upon death
+
+► (KR only) Improved certain dialogue texts in the Kurokumo Wakashu Rodion Identity’s Uptie Story
+
+► Window - Updated the Inventory icon
+
+6/7
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Jan 18th, 2024 (KST)
+- When: After Jan 11th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Jan. 18th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+7/7
+
+PROJECT MOON
+

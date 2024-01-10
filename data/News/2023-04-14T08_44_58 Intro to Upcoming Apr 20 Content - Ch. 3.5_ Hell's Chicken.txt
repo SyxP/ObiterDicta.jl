@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+Intro to Upcoming Apr 20 Content - Ch. 3.5: Hell's Chicken
+
+Greetings, Dear Manager.
+
+With the April 20th, 2023 (KST) update, the new content of [Ch. 3.5: Hell's Chicken] will be added to the game.
+
+- Period: Apr 20 12:00 ~ May 4 09:59 (KST)
+- Event Rewards Exchange: Apr 20 12:00 ~ May 11 09:59 (KST)
+   - Requirements: Clear Main Story 3-22
+
+Event Description
+
+- When the event starts,
+   the Ch. 3.5: Hell's Chicken Event Page will open.
+- During the event period, you can earn [Bongy Plushies] by clearing stages and dungeons in the event and main story.
+- You can redeem various rewards from the [Coupon Trade-in] based on the number of [Bongy Plushies] you have.
+
+The story of Hell's Chicken takes place after Chapter 3 of the main story. The [Hell's Chicken Event Page] can be accessed after you have cleared Main Story 3-22.
+
+1/7
+
+PROJECT MOON
+Event Gameplay
+
+The content of Hell's Chicken consists of 8 stages and 2 dungeons.
+From Apr 20 12:00 to May 4 09:59 (KST), you can earn [Bongy Plushies] by clearing stages and dungeons in the event and main story.
+
+▶ Where to Find Bongy Plushies
+
+- Stages and Dungeons in the Main Story of Ch. 1, 2, and 3
+[Bongy Plushies] are rewarded based on the amount of Enkephalin consumed
+
+- Hell's Chicken Stages
+[Bongy Plushies] are rewarded based on the amount of Enkephalin consumed
+EX Clear rewards an additional batch of [Bongy Plushies] (One time only)
+
+- Hell's Chicken Dungeons
+[Bongy Plushies] are rewarded based on the amount of Enkephalin consumed
+EX Clear rewards an additional batch of [Bongy Plushies] (One time only)
+
+※ Mirror Dungeons, Luxcavation, and Refraction Railway do not give [Bongy Plushies].
+
+2/7
+
+PROJECT MOON
+Event Identities & E.G.O
+
+During the event, having the listed identities and E.G.O on your team increases the amount of [Bongy Plushies] earned.
+
+R.B. Sous-chef Gregor 20%
+R.B. Chef de Cuisine Ryōshū 40%
+Lifetime Stew 20%
+Lifetime Stew 40%
+
+Confirm
+
+Having Identities and E.G.O from the event on your team increases the amount of [Bongy Plushies] earned from stages and dungeons.
+
+► Extraction
+- Identity: R.B. Chef de Cuisine Ryōshū
+([Bongy Plushies] earned +40%)
+- E.G.O: Lifetime Stew for Sinclair
+([Bongy Plushies] earned +40%)
+
+► Event Rewards
+- Identity: R.B. Sous-chef Gregor
+([Bongy Plushies] earned +20%)
+- E.G.O: Lifetime Stew for Don Quixote
+([Bongy Plushies] earned +20%)
+
+- Event reward Identities and E.G.O can be acquired from the [Coupon Trade-in].
+- The boosts from event Identities and E.G.O are applied additively. (Decimals rounded up)
+- Event Identities and E.G.O provide their boost simply by being on the team, and do not have to directly participate in battle or be used.
+- [Bongy Plushies’] earning-boosts do not apply to one-time EX Clear rewards.
+
+3/7
+
+PROJECT MOON
+Hell's Chicken Dungeons
+
+The Hell's Chicken Dungeons play similarly to Mirror Dungeons.
+The dungeon comes in two difficulties;
+their major traits are as follows.
+
+Normal (Mild)	Hard (Spicy)
+Entry Cost	Enkephalin Module x1	Enkephalin Module x2
+Identity Levels	Fixed at specific values	Uses Identities' actual levels
+Step 1: 15	Step 1: Max 15
+Step 2: 30	Step 2: Max 30
+Identity Uptie Tiers	Uses Identities' actual tiers	Uses Identities' actual tiers
+E.G.O Threadspin Tiers	Uses E.G.O's actual tiers	Uses E.G.O's actual tiers
+
+※ Example: If a Level 20 Identity enters the Hard dungeon
+- Step 1: Lv. 15 (Max level is set at 15)
+- Step 2: Lv. 20 (Max level is set at 30; however,
+the Identity's actual level is applied)
+
+Several E.G.O Gifts from the Mirror Dungeon will appear
+in the Hell's Chicken dungeon. These E.G.O Gifts will assist
+event Identities and E.G.O to shine in their respective specialties.
+
+4/7
+
+PROJECT MOON
+Hell's Chicken Dungeons
+
+In the Hell's Chicken dungeons, you will begin the expedition with 5 Identities. Identities only have two steps of power level in Hell's Chicken Dungeons.
+
+▶Identity Power-ups
+- Step 1
+Level: Fixed at 15 (Normal), Max 15 (Hard)
+E.G.O Allowed: ZAYIN, TETH, HE
+- Step 2
+Level: Fixed at 30 (Normal), Max 30 (Hard)
+E.G.O Slots Unlocked: WAW, ALEPH
+
+▶New Function: Preset
+For player convenience, a preset function is being added for the Hell's Chicken dungeons.
+- The function is available if you have a previous record of entering the Hell's Chicken dungeon with a team of Identities and E.G.O.
+- By using the preset button, you can quickly load the team setup you used last and make a swift entry.
+- Please note that you cannot replace the Sinners on your team after you select the preset.
+
+※ While support Identities can be used in the event stages, they cannot be used in the Hell's Chicken dungeons. We will try to make the feature available for future events.
+
+5/7
+
+PROJECT MOON
+Hell's Chicken Dungeons
+
+The layouts and paths in the Hell's Chicken dungeons are randomly generated each time you enter. Proceed by moving to one of the adjacent nodes in the next sector, and deal with the encounters and events waiting for you.
+The Hell's Chicken dungeons consist of a single floor, and the final node always features the Hell's Chicken boss.
+
+There are special events and E.G.O Gifts unique to the Hell's Chicken dungeons. Events exclusive to the Hell's Chicken dungeon are marked with a unique icon below the node for easier identification.
+
+6/7
+
+PROJECT MOON
+Event Rewards
+
+* Please rest assured that all meat used at Eunbong's is obtained from K Corp's Singularity.
+
+[Coupon Trade-in] provides various rewards based on the number of [Bongy Plushies] you've earned.
+- [Coupon Trade-in] is open for 3 weeks, from Apr 20 12:00 to May 11 09:59 (KST).
+
+Once the event ends on May 4 09:59 (KST), you will no longer be able to earn [Bongy Plushies].
+
+[Coupon Trade-in] is open until May 11 09:59 (KST), and you will no longer be able to redeem its rewards once the page closes, so please mind the duration.
+
+Even after the event fully ends, you will be able to experience Hell's Chicken's combat encounters and view its story anytime at Riverside - [Deviazione] and Theater - [Detour Tales].
+
+7/7
+
+PROJECT MOON
+

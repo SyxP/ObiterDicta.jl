@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+Season Change Guide
+
+Greetings, Dear Manager.
+
+Season 1: Orientation will end at 05:59 on May 18th, 2023 (KST). As such, we would like to provide a detailed guide on what will change with the arrival of a new Season. You will be able to access the information from this notice via the Dispenser tab at any time in a future update.
+
+1/7
+
+PROJECT MOON
+Season Change Guide
+
+1. Identities and E.G.O.
+Currently (as of the 2023 Apr 06 (KST) scheduled update), Identities and E.G.O are categorized into two seasonal tags: Regular and Season 1.
+
+<Identities>
+The following Identities are categorized as Season 1:
+- Identities related to story content released during the Season (Chapters 1, 2, and 3) - 11 in total
+
+The following Identities are categorized as Regular:
+- Base LCB Sinner Identities - 12 in total
+- Identities not from the main story - 21 in total
+
+2/7
+
+PROJECT MOON
+Season Change Guide
+
+<E.G.O>
+The following E.G.O equipment is categorized as Season 1:
+- All E.G.O included in the Battle Pass for <Season 1 - Orientation> - 13 in total
+
+The following E.G.O equipment is categorized as Regular:
+- Base LCB Sinner E.G.O - 12 in total
+- E.G.O added to Extraction during the Season - 8 in total
+
+※ These numbers are calculated from what is currently available at the time of the 2023 Apr 06 (KST) scheduled update.
+
+3/7
+
+PROJECT MOON
+Season Change Guide
+
+2. Egoshards
+Egoshards can be used for the notated period, matching the Season’s duration. When a new Season begins, half of the previous Season’s Egoshards will be carried over, converted and rounded up for the new Season.
+The carryover rates for unconverted Egoshards from multiple seasons past will be halved for each following Season. The remaining Egoshards are converted into Thread.
+
+Season 2, Reminiscence
+Half of the Egoshards you own will be carried over into the new Season.
+
+Season 1                 Season 2
+5        10       15       20       40       60       80       100     150     200     300     400
+                                          3         8         10       20       30       40       50       75       100     150     200
+
+Season 2, Reminiscence
+The rest will be converted into Thread.
+
+Season 1                 Season 2
+2          4          7        10       20       30       40       50       75       100     150     200
+689
+
+4/7
+
+PROJECT MOON
+Season Change Guide
+
+Similarly, Egoshard Crates can be used for the notated period, matching the Season’s duration. When a new Season begins, half of the Egoshard Crates (both random & nominable) will be carried over, converted and rounded up for the new Season.
+
+The carryover rates for unconverted Egoshard Crates from multiple Seasons past will be halved for each following Season. The remaining Crates are converted into Thread Crates.
+
+Season 2. Reminiscence
+Half of your Egoshard Crates (both random & nominable) will be carried over into the new Season.
+Season 1                          Season 2
+123                                    62
+234                                  117
+
+Season 2. Reminiscence
+The rest will be converted into Thread Crates.
+Season 1                          Season 2
+61                                      117
+5/7
+PROJECT MOON
+Season Change Guide
+
+3. Battle Passes
+The first Season of Limbus Company will conclude at 05:59 on May 18th, 2023 (KST). Likewise, the first Battle Pass, <Season 1 - Orientation>, will end at the same time.
+
+The second Battle Pass will be introduced with the second Season, once again offering various rewards and E.G.O.
+
+4. Extraction
+A new Season’s Identities and E.G.O will be added to the list of Extractable items. Identities from previous Seasons remain in the pool, so you can still acquire them from Extraction.
+
+Season 1                      Season 2                      Season 3
+           Added
+[Regular]                           [Regular]                         [Regular]
+Extraction IDs & E.G.O         Extraction IDs & E.G.O       Extraction IDs & E.G.O
+[Season 1]                         [Season 1]                        [Season 1]
+Extraction IDs & E.G.O         Extraction IDs & E.G.O       Extraction IDs & E.G.O
+[Season 1]                         [Season 2]                        [Season 2]
+Event IDs & E.G.O               Extraction IDs & E.G.O       Extraction IDs & E.G.O
+                                      [Season 2]                        [Season 3]
+                                      Event IDs & E.G.O               Extraction IDs & E.G.O
+                                                                     [Season 3]
+                                                                     Event IDs & E.G.O
+
+           Removed
+                                      [Season 1]                        [Season 2]
+                                      Event IDs & E.G.O               Event IDs & E.G.O
+
+6/7
+
+PROJECT MOON
+Season Change Guide
+
+5. Dispenser
+Similar to Extraction, Identities and E.G.O from the new Season will be available at the Dispenser. In addition, you will be able to exchange for Identities and E.G.O from the Battle Passes of past Seasons. Please note that Extraction IDs belonging to the Season immediately before will be inaccessible.
+
+Season 1       Season 2       Season 3
+
+Added          [Regular]      [Regular]
+               Extraction IDs & E.G.O     Extraction IDs & E.G.O
+               [Season 1]     [Season 1]
+               Extraction IDs & E.G.O     Extraction IDs & E.G.O
+               [Season 1]     [Season 1]
+               Pass IDs & E.G.O
+               [Season 2]
+               Extraction IDs & E.G.O
+    
+Removed        [Season 1]     [Season 2]
+               Extraction IDs & E.G.O     Extraction IDs & E.G.O
+               [Season 1]     [Season 2]
+               Event IDs & E.G.O          Event IDs & E.G.O
+
+7/7
+
+PROJECT MOON
+

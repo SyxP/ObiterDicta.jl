@@ -1,0 +1,66 @@
+
+
+
+June 22nd Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on June 22nd, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer below for details about the update.
+
+1/3
+
+PROJECT MOON
+Update Contents
+______________________
+
+1. Bug Fixes and Improvements
+
+Battle Announcer - Adjusted frequency of voiceline for attacks with type/affinity disadvantage
+Before: Voiceline played for all disadvantageous attacks
+After: Voiceline played for unopposed attacks that are disadvantageous
+Added subtitle for certain line of dialogue during a cutscene after battle in 4-54
+- 4-48 Enemy Info for certain enemies - Fixed
+‘UNKNOWN’ showing for passives
+- Fixed errors with acquisition conditions and acquisition date display for ticket decoration items ‘Rainy Day’ and ‘Dongbaek’
+- Fixed certain enemy status effect icons not being shown in 4-47
+- Fixed the artwork for an Uptie Tier-3 Identity set as its pre-Uptie version forcibly changing to the post-Uptie one when EXP tickets are used on it
+- Fixed erroneous description for Imagined T Corp.
+Class 3 Collector's passive - Golden Time
+※ Changed Text: At the end of the turn, if the HP is between 12% and 24%, instantly heal up to 65% of Max HP, and recover from stagger. (One-time only) ※ Actual functionality had no issue.
+- Fixed status effect icons missing for Imagined T Corp.
+Class 3 Collector
+1) Interlocking Time	2) Borrowed Time
+- Fixed dummy data being displayed for the passives section for certain enemies in the stage info for 4-54
+- Improved Sinner dialogue box display in the checks screen
+Before: The dialogue box of the manually selected Sinner disappears in a short time
+After: The dialogue box of the manually selected Sinner remains until the check is initiated
+(The box temporarily disappears when hovering the cursor over to select other Sinners)
+Fixed an issue where the descriptions for Coins 1 and 2 of Kurokumo Wakashu Hong Lu's skill 'Cloud Cutter' didn’t match their actual effects
+
+2/3
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 June 29th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+3/3
+
+PROJECT MOON
+

@@ -1,0 +1,17 @@
+
+Notice: Identified a Game Crashing Issue in Combat
+
+Hello, this is Project Moon.
+
+We have identified an issue where the game freezes under the following conditions in combat.
+
+- When, in Refraction Railway Line 2, restart the stage with 'retry stage' option while using an E.G.O skill. Then, equip the same E.G.O Skill used immediately before retrying this stage, in the E.G.O Skill equipment menu.
+- Occasionally when equipping a Defense Skill
+- Occasionally when running the Mirror Dungeons
+
+We are currently investigating and fixing the above issue, And will notify you with an additional notice with detailed information on its causes and error fix schedule once it is corrected.
+
+We apologize for causing you inconvenience to your enjoyment of our game.
+
+PROJECT MOON
+

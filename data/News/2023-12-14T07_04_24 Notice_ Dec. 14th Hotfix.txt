@@ -1,0 +1,45 @@
+
+
+Notice: Dec. 14th Hotfix
+
+Hello, this is Project Moon.
+
+The Mirror Dungeon #3 Error Hotfix will be deployed 
+on Dec. 14th, 16:00 (KST)
+
+Hotfix can be deployed without a client update,
+so please restart your game to apply the fixes.
+Please note that additional downloads may occur once
+the Hotfix is deployed.
+
+Corrected Issues
+- Fixed an issue where entering Mirror Dungeon #3
+  Floor 3 Boss room would sometimes soft-lock the game,
+  making it impossible to progress
+- Fixed an issue where the music for a certain Mirror Dungeon #3
+  encounter does not play
+- Fixed an issue where the Mirror Dungeon #3 'Golden Apple'
+  and the 'False Apple' bosses' stats reflected
+  Thread Luxcavation stats
+- Fixed an issue where, upon clearing a certain Canto IV
+  Story Dungeon Encounter, a server error
+  (Error code 75221) would occur
+
+We sincerely apologize for these issues.
+
+1/2
+
+PROJECT MOON
+Mirror Dungeon #3 Error Fix Compensation
+
+x300
+
+Compensation: Lunacy x300
+Recipients: All users whose accounts were created before Dec. 21st, 2023 10:00
+Can be claimed once per account
+When: After Dec. 14th, 2023, 16:30 (KST)
+
+2/2
+
+PROJECT MOON
+

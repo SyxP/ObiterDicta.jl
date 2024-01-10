@@ -1,0 +1,58 @@
+
+
+Oct. 5th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on October 5th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+Update Contents
+
+1. New E.G.O Target Extraction -
+[Lantern Sinclair] (Oct. 5th 12:00 ~ Oct. 19th 09:59 (KST))
+Extraction rate increases for the following E.G.O:
+- E.G.O [HE] - Lantern Sinclair
+
+2. New E.G.O Added
+The following is added to the list of extractable E.G.O:
+- E.G.O [HE] - Lantern Sinclair
+
+3. [Target Extraction: Hong Lu]
+(Oct. 5th 12:00 ~ Oct. 19th 09:59 (KST))
+The following Identities and E.G.O
+will have increased odds of extraction.
+- E.G.O [HE] : Dimension Ripper Hong Lu
+- E.G.O [TETH] : Soda Hong Lu
+- 3★ : K Corp. Class 3 Excision Staff Hong Lu,
+Tingtang Gang Gangleader Hong Lu
+- 2★ : W Corp. L2 Cleanup Agent Hong Lu,
+Liu South Section 5 Hong Lu, Kurokumo Clan Wakashu Hong Lu
+- 1★ : LCB Sinner Hong Lu
+
+1/2
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+- Content: 300 Lunacy 
+- Recipients: Every user whose game account was created before 09:59 Oct. 12th 2023 (KST)
+
+Notes
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+2/2
+
+PROJECT MOON
+

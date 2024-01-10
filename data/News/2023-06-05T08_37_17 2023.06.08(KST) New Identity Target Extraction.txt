@@ -1,0 +1,114 @@
+
+
+
+CAUTION
+LIMBUS COMPANY
+신규 인격 추출 출현
+新規人格抽出出現
+NEW IDENTITY TARGET EXTRACTION
+
+기술해방연합: 장미단
+Technoblogy Liberation Alliance
+Rosespemmer Workshop
+장미의 작업소
+
+로보트미 E.G.O: 연꽃샤워: 힐캡슐
+Lobotomy E.G.O: Sunshower: Healthcull
+
+2023. 6. 8 (THU) 12:00 ~ 6.22 (THU) 09:59 (KST)
+
+해당 인격의 추출 확률이 올라갑니다
+抽出人格的機率會提高上升します
+HIGHER EXTRACTION RATES FOR THE FEATURED IDENTITIES
+
+장미단 FIXER 그레고르
+Rosespemmer Workshop
+FIXER Gregorr
+장미의 작업소
+グレゴール
+
+Copyright (C) 2023. All rights reserved by Project Moon
+LIMBUS COMPANY
+Lobotomy E.G.O: Sunshower - Heathcliff
+
+ENTITY INFO
+DEFENSE
+
+SKILL 1
+Umbrella Thwack
+[On Use] Gain Sinking Count
+[II On Hit] Inflict Sinking
+[Tails Hit] Inflict Sinking Count
+
+SKILL 2
+Puddle Stomp
+When below -15 SP, the skill gains Final Power
+[I Tails Hit] Inflict Rupture
+[III Tails Hit] Inflict Rupture
+[IV Spend Sinking to deal more damage
+Tails Hit] Burst Tremor
+
+SKILL 3
+Spread Out!
+[On Use] Gain Sinking and Sinking Count
+[I Tails Hit] Inflict Paralyze next turn
+[III On Hit] Inflict Rupture
+[Tails Hit] Inflict Fragile next turn
+
+Warning
+[On Use] Gain Sinking
+[I Tails Hit] Gain Paralyze next turn
+[II On Hit] Inflict Sinking
+[On Hit] Inflict Rupture
+
+PASSIVE
+Rain of Tears
+• At the start of the combat phase, spend Sinking Count and lose SP by the current amount of Sinking.
+• Before being hit by an attack, gain Protection equals to this unit's Sinking.
+• When hit, gain Blunt DMG Up next turn.
+
+SUPPORT PASSIVE
+Ragged Umbrella
+1 ally with the least SP loses SP when hit by an attack and gains Blunt DMG Up next turn.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2022 All Rights Reserved by Project Moon
+LIMBUS COMPANY
+Rosspanner Workshop Fixer
+Gregor
+
+SKILL 1
+Rev Up
+[On Use] Gain Charge Count
+[On Hit] Inflict Rupture
+
+SKILL 2
+Grease Chains
+[On Use] Gain Charge Count
+[On Hit] Inflict Tremor Count
+[On Hit] Inflict Rupture Count
+
+SKILL 3
+Let's Grind 'Em
+[On Hit] Burst Tremor, then reduce Tremor; Spend Charge Count to inflict the same amount of Rupture Count
+[On Hit] Inflict Rupture
+[On Hit] If target is staggered, deal more damage
+[On Hit] Inflict Rupture
+[On Hit] If target is staggered, deal more damage
+
+DEFENSE
+Guard
+
+PASSIVE
+Sawblade Fired Up
+Inflict more Rupture to targets with Tremor
+
+SUPPORT PASSIVE
+Sawblade Maintenance
+1 ally with the lowest Speed inflicts more Rupture to targets with Tremor
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+

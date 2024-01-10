@@ -1,0 +1,92 @@
+2023.08.10 (KST) New Target Extraction: Identity
+
+
+
+
+
+
+Zwei South Section_4
+Gregor
+
+SKILL 1
+Standoff
+[On Use] Gain X Defense Level Up.
+[Clash Lose] Gain shield by
+(X * Defense Level Up) on self.
+[Clash Lose] Gain X Defense Level Up next turn.
+[On Hit] Gain X Haste next turn.
+
+SKILL 2
+Flexible Suppression
+[On Use] Gain X Defense Level Up.
+[On Use] Gain +X Aggro to this Skill Slot next turn.
+A+X- Defense Level Up, gain +Y Clash Power.
+[On Hit] Gain X Defense Level Up next turn.
+[On Hit] Gain X Defense Level Up next turn.
+A+X- Defense Level Up, deal +Y% damage.
+
+SKILL 3
+Guardian
+[On Use] Apply X Defense Power Up, Y Defense Level Up to all allies.
+• Coin Power +X per Y Defense Level Up.
+A+X- Defense Level Up, deal +Y% damage.
+[On Hit] Apply X Defense Level Up to all allies next turn.
+
+DEFENSE
+The Best Defense
+[Combat Start] Gain shield by
+(X * Defense Level Up) on self...
+[On Use] Gain +X Aggro to this Skill Slot next turn.
+
+PASSIVE
+Combat Shield
+• If targeted by 2 or more attacks at the start of the combat phase, gain X Defense Level Up.
+• If at X-HP at the start of the combat phase, gain Y Defense Level Up.
+
+SUPPORT PASSIVE
+Your Shield
+If 1 ally with the highest Max HP is targeted by 2 or more attacks, gain X Defense Level Up.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+Zwei South Section 4
+Faust
+SKILL 1
+Patrolling
+[On Use] Gain +X Aggro to this Skill Slot next turn.
+[Clash Lose] Gain Y Defense Level Up next turn.
+[On Hit] Gain +X Defense Level Up next turn.
+
+SKILL 2
+Client Protection
+[On Use] Apply X Defense Level Up to the ally with the lowest HP percentage.
+At X+ Defense Level Up, this skill's Clash Power +Y.
+[On Hit] Gain X Defense Level Up next turn.
+[On Hit] Gain X Defense Level Up next turn.
+[On Hit] Gain X Defense Level Up next turn.
+
+SKILL 3
+Law and Order
+At X+ Defense Level Up, Coin Power +Y.
+[Clash Win] Heal HP
+[On Hit] Apply X Haste and Y Defense Level Up next turn to the ally with the lowest HP percentage.
+If the ally is a Zwei Association Fixer, apply an additional X Haste and Y Defense Level Up.
+
+PASSIVE
+Territory Protection
+At the start of the combat phase, apply X Defense Level Up to the 2 allies adjacent to this unit on the Dashboard.
+If target's HP is below XX%, apply additional Y Defense Level Up.
+
+SUPPORT PASSIVE
+Protection Request Received
+At the start of the combat phase, apply X Defense Level Up to the ally with the lowest HP percentage.
+If target's HP is below XX%, apply additional Y Defense Level Up.
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+DEFENSE
+
+ENTITY INFO
+
+*Copyright (C) 2028 Studio BB All Rights Reserved.
+

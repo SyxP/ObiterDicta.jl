@@ -1,0 +1,130 @@
+
+
+
+
+
+November 9th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on November 9th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+※ For your gameplay plans, please note that Season 3 update maintenance will last from Nov. 16th 06:00 ~ 12:00 (KST).
+
+1/5
+
+PROJECT MOON
+Update Contents
+
+1. New Target Extraction - [New Target Extraction W Corp. L3 Cleanup Agent Yi Sang] (Nov. 09th 12:00 ~ Nov. 23rd 09:59 (KST))
+Extraction rate increases for the following Identity.
+- 3★: W Corp. L3 Cleanup Agent Yi Sang
+
+2. New Identity Added
+The following is added to the list of extractable Identities:
+- 3★: W Corp. L3 Cleanup Agent Yi Sang
+
+※ With the end of [The 1st Walpurgis Night Target Extraction], the following Identities and E.G.O will no longer appear from Extractions.
+- E.G.O [TETH] : Regret Meursault
+- 3★: Lobotomy E.G.O::Regret Faust
+- 2★: Hook Office Fixer Hong Lu
+
+Major Changes
+
+1. Added a confirmation window before
+exchanging Yisang [Ideality] for Identity or E.G.O
+- Before : Selecting an Identity or E.G.O would immediately exchange Yisang [Ideality] without a confirmation screen
+- After : A confirmation window will appear before exchanging Yisang [Ideality] for Identity or E.G.O
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an incorrect Passive text for an enemy from
+Refraction Railway Line 2 Station #6
+- Before : Apply Refracted Sinking - When gaining Sinking,
+this unit gains 1 additional Sinking Potency and Count
+- After : Refracted Bleed and Tremor - Bleed and Tremor Potency
+maxes out at 30. / Bleed Count and Tremor Count maxes out at 5.
+※ Intent : This text change does not affect the function of this
+passive in the game. With such a short time left before Special
+Refraction Railway Line 2 Banners are no longer available,
+we did not want to make further changes to the gameplay
+experience; therefore, we decided to change to text to fit its
+functions. We apologize for causing inconvenience
+to your enjoyment of our game.
+
+► Fixed an issue where selected Identities' Uptie illustration
+changes were not reflected to the Mirror Dungeon Loadout menu
+
+► Fixed an issue where, if 2 or more Manager Levels are gained via
+'Skip Battle', relevant popup windows did not appear
+
+► Fixed an issue where certain SFX did not play upon
+acquiring an Identity from Extractions
+
+► E.G.O Gift - Fixed an issue where the second effect of
+'Artistic Sense' did not activate properly
+
+► Fixed an issue where, in the Mirror Dungeons, deployed
+Identity's E.G.O Threadspinning Tiers displayed Identity
+Uptie Tiers instead of Threadspinning Tiers
+
+► Fixed an issue where, under certain conditions, Clashes
+did not connect and instead reverted to Unopposed attacks
+
+► Fixed an issue where, upon hovering over a Sinner's combat
+sprite, the enemy arrow targeting that unit did not display
+
+► Fixed an issue where the options in Settings - Graphics -
+Texture Quality did not sync between combat scenes and
+non-combat scenes
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Inventory - Fixed an issue where numbers displayed an incorrect color when selecting number of Enkephalin boxes to use
+▶ Fixed an issue where Mirror Dungeon Rest Stops provided 2 or more rests
+▶ (JP Only) Fixed the font size of the text in Change Lobby Art - Filters - Walpurgis Night menu
+▶ (JP Only) Fixed an issue where the texts did not display properly in the Render Scaling menu
+▶ (EN Only) Adjusted Seven Association Section 6 Yi Sang Skill 3 Moulinet's description to be more clear
+Before: [On Hit] +1 to the Count of effect applied by the last Coin
+After: [On Hit] +1 to the value of effect applied by the last Coin
+▶ Fixed an issue where, upon killing an Abnormality, the trigger for activating On Kill effects was activated as many times as the number of parts on the Abnormality
+- Relevant: An issue where, in Focused Encounters, E.G.O Gift '"Grand Welcome" gave an abnormally high amount of resources upon enemy kill
+
+Known Issues after Nov. 9th Update
+
+▶ An issue where E.G.O Gift "Charred Disk" did not activate in Focused Encounters
+※ This issue occurred in the process of fixing an issue mentioned in the <Bug Fixes & Improvements> section: "An issue where, upon killing an Abnormality, the trigger for activating On Kill effects was activated as many times as the number of parts on the Abnormality". This issue will be fixed with the Nov. 16th Update.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 09:59 Nov. 16th 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play Limbus Company during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+
+5/5
+
+PROJECT MOON
+

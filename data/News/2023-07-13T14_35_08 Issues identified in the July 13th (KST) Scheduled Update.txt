@@ -1,0 +1,27 @@
+
+Issues identified in the July 13th (KST) Scheduled Update
+
+We have identified the following issues in the July 13th (KST) Scheduled Update:
+
+► Incorrectly marked Growth Rate values of E.G.O Skills
+We have identified an issue on the July 13th update in which the Growth Rate of all E.G.O Skills are displayed as 0.2.
+(This issue only affects how the Growth Rates are displayed, and their actual values were correctly applied)
+
+This issue is localized entirely in the non-combat E.G.O information UI, and the E.G.O information UI that can be viewed during combat displays the correct Growth Rate values.
+Issue #1 will be addressed with the next scheduled update on July 20th.
+
+► Inability to enter certain encounters in Mirror Dungeon 2 Normal Difficulty
+- Error Cause: This issue was caused by the changes to the Mirror Dungeon encounter data included in this update
+- Error Condition: Starting Mirror Dungeon 2 before maintenance (06:00~10:00(KST)) and resuming after update
+
+The update data will be properly applied only after restarting the current run of the Mirror Dungeon. Managers experiencing Issue #2, please restart the current Mirror Dungeon in order to address this issue.
+
+► Incorrect rendering of [R Corp 4th Pack Rhino Meursault] SD image Hotfix notice
+We have identified an issue in which the 3rd skill of [R Corp 4th Pack Rhino Meursault] does not render properly.
+
+This issue occurred on the iOS platform, and has been addressed today via a hotfix.
+
+We sincerely apologize for the inconveniences caused by these issues.
+
+PROJECT MOON
+

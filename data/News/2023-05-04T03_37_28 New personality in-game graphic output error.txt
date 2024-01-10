@@ -1,0 +1,6 @@
+We have checked a error in which in-game graphics of a new identity are not being printed. 
+
+We will notice it to Hotfix today and let you know. 
+
+We are sorry for the inconvenience.
+

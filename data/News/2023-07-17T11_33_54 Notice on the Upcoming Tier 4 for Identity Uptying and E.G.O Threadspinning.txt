@@ -1,0 +1,138 @@
+
+
+
+
+Notice on the Upcoming Tier 4
+for Identity Uptying and E.G.O Threadspinning
+
+Hello, this is Project Moon.
+
+IV
+
+With the July 20th (KST) scheduled update,
+an Uptie/Threadspin Tier 4 will be added for Identities and E.G.O.
+
+<Identity Uptie Tier 4>
+※ When an Identity is Uptied to Tier 4,
+some or all of the following attributes may change,
+depending on the Identity.
+
+► Skills (Skill 1, Skill 2, & Skill 3)
+   - Base Power
+   - Coin Power
+   - Skill effects
+   - Coin effects
+
+► Combat Passive effects
+► Support Passive effects
+
+1/4
+
+PROJECT MOON
+Notice on the Upcoming Tier 4 for Identity Uptying and E.G.O Threadspinning
+
+<Example>
+
+Status
+175  -  -   39
+
+Resistances
+[0.5]  [1]  [1.2]
+
+W Corp. L2 Cleanup Agent
+
+☆☆☆☆
+
+LV 35
+
+Uptyie Tier
+MAX IV
+
+Skill 1      Skill 2      Skill 3      Defense
+
+Rip ☆ 3
+✕ 35 as weight
+[On Use] Gain 2 ✕ Slash Protection
+Gain +3 ✕-Charge Count
+[On Hit] Gain +3 ✕-Charge Count
+
+Energy Cycle ☆ 2
+✕ 35 as weight
++1 ✕-Charge Count, Coin Power
++1
+[On Heads Hit] Inflict 2 ✕ Rupture
+[On Hit] Inflict 3 ✕ Rupture
+[On Hit] Spend 3 ✕-Charge to
+Inflict 2 ✕ Slash Fragility
+
+Energy Current ☆ 1
+✕ 35 as weight
++1 ✕-Charge Count, Coin Power
++1
+[On Hit] Spend 2 ✕-Charge to
+Inflict 2 ✕ Defense Level Down
+[On Hit] Spend 2 ✕-Charge to
+Inflict 2 ✕ Defense Level Down
+[On Hit] Spend 2 ✕-Charge to
+Inflict 2 ✕ Defense Level Down
+
+Guard
+[Combat Start] Gain +2 ✕-Charge
+Count
+
+Passives
+Enduring Spirit ☆ 3 Downed
+When attacked, gain +1 ✕-Charge Count. (Up to 6 times)
+After losing a clash, gain +1 ✕-Charge Count. (Up 6 times, counted independently of hits taken)
+
+Support
+Taciturn ☆ 4 Downed
+1 ally with the lowest Speed inflicts +1 ✕ Rupture.
+
+2/4
+
+PROJECT MOON
+Lobotomy Corporation
+LIMBUS COMPANY
+
+Notice on the Upcoming Tier 4
+for Identity Uptying and E.G.O Threadspinning
+
+<E.G.O Threadspin Tier 4>
+※ When a piece of E.G.O is Threadspun to Tier 4,
+some or all of the following attributes may change,
+depending on the E.G.O.
+
+- Skills (Awakening, Corrosion)
+  - Base Power
+  - Coin Power
+  - Skill effects
+  - Coin effects
+- Number of targets
+
+<Example>
+
+3/4
+
+PROJECT MOON
+Notice on the Upcoming Tier 4
+for Identity Uptying and E.G.O Threadspinning
+
+<Resources Required>
+
+[Identity Uptie Tier 4]
+- 1☆: Season N [Sinner]’s Egoshards x20 + Thread x50
+- 2☆: Season N [Sinner]’s Egoshards x30 + Thread x100
+- 3☆: Season N [Sinner]’s Egoshards x50 + Thread x150
+
+[E.G.O Threadspin Tier 4]
+- ZAYIN : Season N [Sinner]’s Egoshards x80+ Thread x110
+- TETH : Season N [Sinner]’s Egoshards x90 + Thread x130
+- HE : Season N [Sinner]’s Egoshards x100 + Thread x150
+
+※ LCB Sinner Identities and base E.G.O are automatically Uptied and Threadspun up to Tier 3 based on story progress, but they require the displayed amount of resources to be upgraded to Tier 4.
+
+4/4
+
+PROJECT MOON
+

@@ -1,0 +1,117 @@
+
+
+
+
+
+Refraction Railway Line 2 Reward Errors and Additional Issues
+
+Greetings, dear Manager.
+
+We would like to update you on the earlier issues with claiming your rewards and additional issues that have been identified since.
+
+Refraction Railway Line 2 Reward Error Withdrawal Notice
+
+We have identified an issue where all rewards could be unlocked regardless of whether the player has met the proper unlock conditions or not.
+
+All rewards claimed by users who have encountered that issue have been withdrawn, and the Enkephalin Modules consumed in the process were refunded.
+
+If you have already used the rewards claimed because of this issue, the corresponding currency can go into the negatives after the retrieval.
+
+You can receive your rewards again by using the refunded Enkephalin Modules at the Refraction Railway Line 2's Lost & Found.
+
+1/5
+
+PROJECT MOON
+Refraction Railway Line 2 Reward claim
+activation and possible issues
+
+The temporary pause on claiming the Refraction Railway Line 2 Rewards will be lifted Sep. 15th (FRI) 10:00 AM (KST).
+
+Once the pause is lifted, the rewards you can claim will be unlocked according to the information below.
+
+During this process, if you don’t have a run in progress due to either forfeiting the Refraction Railway Line 2 or a run defeat, there is a chance that your Station clear records and records of claimed rewards may be lost.
+(Your Cycle Count records will not be lost.)
+
+If your Station clear records are lost, they must be completed again. Please refer to [Station Clear Records Loss Conditions] below for conditions that may cause your clear records to be lost.
+
+If you have a Refraction Railway Line 2 Completion record
+(If your run was recorded in the Logs by completing the Terminus)
+- Your rewards will be unlocked based on the Stations you have completed on your best Cycle Count record.
+
+If you are in the middle of a Refraction Railway Line 2 run
+- The rewards you can claim will be unlocked based on the Stations you have completed so far.
+- If there is a past run data(apart from the ones that can be viewed via in-game Logs) that surpasses your current run, the rewards will be unlocked based on the Stations you have completed on that data. However, if you have either forfeited or been defeated in the said data, there is a chance that your Station clear records may be lost.
+
+If you are not in the middle of a Refraction Railway Line 2 run due to run forfeiture or defeat
+- The rewards you can claim will be unlocked based on the Stations you have completed on your best record -1 Cycle Count.
+(Example: If you either forfeited the run or was defeated after reaching 1 Cycle Count and completed up to Station #2, rewards up to 0 Cycle Count and Station #3 will be unlocked)
+- Depending on which Station in which your run was stopped, there is a chance that your Station clear records may be lost.
+
+2/5
+
+PROJECT MOON
+Refraction Railway Line 2 Reward claim activation and possible issues
+
+We sincerely apologize for the potential loss of clear data and the issues with unlocking the rewards.
+
+The loss of Station clear records was caused by an issue that occurs when moving into the Terminus from a different Station, where the run records were not properly logged.
+
+We have made improvements to the Refraction Railway's Rewards unlock verification method so that this issue will not be repeated.
+
+We will take necessary precautions to ensure that such issues do not occur again.
+
+Managers who are in the process of a Refraction Railway run, Please refrain from forfeiture until the temporary pause on rewards claim is lifted (Sep. 15th FRI 10:00 KST) to ensure that no data is lost.
+
+3/5
+
+PROJECT MOON
+Refraction Railway Line 2 Reward claim activation and possible issues
+
+[Station Clear Records Loss Conditions]
+
+Forfeiting or defeat while in Cycle Count 0, Station #2 or #3 / Forfeiting immediately before selecting Cycle Count 0 Buffs
+※ Station #1~3 Clear Records Lost
+
+Forfeiting immediately before selecting Cycle Count 1 Buffs Station #1~3 Clear Records Maintained
+※ Station #4 Clear Record Lost
+
+Forfeiting or defeat while in Cycle Count 2, Station #6 / Forfeiting immediately before selecting Cycle Count 2 Buffs Station #1~4 Clear Records Maintained
+※ Station #5~6 Clear Records Lost
+
+Forfeiting immediately before selecting Cycle Count 3 Buffs Station #1~6 Clear Records Maintained
+※ Station #7 Clear Record Lost
+
+Forfeiting immediately before selecting Cycle Count 4 Buffs Station #1~7 Clear Records Maintained
+※ Station #8 Clear Record Lost
+
+4/5
+
+PROJECT MOON
+Issues Currently Being Investigated
+
+※ Issues in this list will be fixed with the
+Sep. 21st (KST) Scheduled Update.
+
+- An issue where W Corp. L2 Cleanup
+Agent Hong Lu’s Skills did not apply Charge Barriers
+- An issue where Refraction Railway Station #6
+Abnormality’s Risk Level and Observation Logs were missing
+- An issue where defeating Refraction Railway
+Station #6 Abnormality did not raise its Observation Levels
+- An issue where the “Attack Power Down” effect from succeeding in
+Refraction Railway Station #1 Abnormality Choice did not apply
+- An issue where one of the Refraction Railway Station
+#6 Abnormality's Skill would activate 'On Use' and not 'Skill end'
+
+Error Fix Compensation
+
+- Compensation : Lunacy x300
+- Recipients : Every user whose game account
+was created before Sep. 28th, 2023 09:59
+- Can be redeemed once per account
+- Date : After Sep. 14th (THU) 21:00 (KST)
+
+5/5
+
+PROJECT MOON
+

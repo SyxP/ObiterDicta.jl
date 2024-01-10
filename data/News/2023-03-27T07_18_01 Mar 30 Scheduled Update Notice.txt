@@ -1,0 +1,223 @@
+
+
+
+
+
+
+
+Mar 30 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance
+from 10:00 [AM] through 12:00 [PM] on March 30th,
+2023 (KST) for system optimizations and content updates.
+Please make a note of the maintenance schedule;
+we recommend that you refrain from entering combat
+or making in-app purchases and close the application
+before maintenance begins so that no data is lost.
+Refer below for details about the update.
+
+Update Content
+
+1. New E.G.O Release
+The following E.G.O will be added to the list of items available
+from Extraction:
+- Telepole (HE) for Don Quixote
+
+2. New-hire’s Attendance Rewards Part 2
+
+[Event Period]
+You may claim rewards for Part 2 of the mini-event
+from Apr 1st 12:00 [AM] to Apr 6th 09:59 [AM] (KST).
+
+Both parts use the same Enkephalin tally for their milestones.
+If you have spent enough Enkephalin to reach the milestones for Part 2
+before it’s unlocked, you can immediately claim the rewards
+after it is available.
+
+1/7
+
+PROJECT MOON
+Update Content
+
+3. Removing Daily Bonuses
+and Standardizing Rewards for EXP Luxcavation
+
+▶ Current
+- Stage 3 EXP
+With Bonus: Identity Training Ticket III x5, Identity Training Ticket II x5
+Without Bonus: Identity Training Ticket III x3, Identity Training Ticket II x3
+
+- Stage 2 EXP
+With Bonus: Identity Training Ticket III x3, Identity Training Ticket II x6
+Without Bonus: Identity Training Ticket III x2, Identity Training Ticket II x4
+
+- Stage 1 EXP
+With Bonus: Identity Training Ticket II x8, Identity Training Ticket I x8
+Without Bonus: Identity Training Ticket II x6, Identity Training Ticket I x4
+
+▶ After Update
+- Stage 3 EXP
+Identity Training Ticket III x4, Identity Training Ticket II x4
+
+- Stage 2 EXP
+Identity Training Ticket III x3, Identity Training Ticket II x3
+
+- Stage 1 EXP
+Identity Training Ticket II x7, Identity Training Ticket I x6
+
+※ Daily Bonuses will be maintained for Thread Luxcavation.
+
+2/7
+
+PROJECT MOON
+Update Content
+
+4. Major Changes
+▶ Gameplay-related Fixes
+- Fixed a major issue where the game would stop if a character got staggered or died right before a clash due to certain use effects
+- Fixed an issue where the UI on the lower side could still be used during combat
+- Fixed an issue where using Enkephalin would reset the refill counter
+
+▶ Combat - Fixed issues where certain skill effects did not function properly
+- Ryōshū’s [4th Match Flame] - Skill Power
+- The One Who Grips Faust’s [Execution] - +Damage
+- Seven Section 6 Ryōshū’s [Upper Slash] - Skill Power
+- N Corp. Mittelhammer Rodion’s [Ironclad Retribution] - +Damage
+- LCB Sinner Rodion’s [Slay] - Skill Power
+- Kurokumo Henchwoman Rodion’s [Sky-clearing Cut] - Critical Chance
+- LCB Sinner Gregor’s [Chop Up] - +Damage
+- G Corp. Manager Corporal Gregor’s [Eviscerate] - Bonus Damage
+- Guido the Persistent’s [Annihilate Heretics] - +Damage
+
+▶ Combat - Adjusted Kromer’s Passives
+- Fixed [Bliss of Execution] applying its status effects later than intended
+- Updated Kromer’s Passive [You Must Accept the Pain!] 
+to reduce her healing and buffs in proportion to the number of [A Sign]
+
+▶ UI
+- Added a warning UI upon startup for the Korean version
+
+3/7
+
+PROJECT MOON
+Update Content
+
+5. Bug Fixes and Improvements
+
+- Fixed an issue where Stage 0-1 would not EX Clear
+
+- Fixed an issue where the user's Manager EXP would display with incorrect numbers on the battle results screen
+
+- Adjusted the conditions for the story replay button to become available on the stage info tab
+
+- Removed the image underneath the resistance icons on the unit info screen
+
+- Fixed an issue where the screen transition animation to the rewards screen of the New-hire’s Attendance Rewards event did not play properly
+
+- Adjusted the font of the dialogue text displayed when extracting a new Identity or E.G.O
+
+- Fixed an issue where certain Identity artworks displayed erroneously when moving to the (Main Menu) Window UI from user info
+
+- Extraction Details: The pickup targets are now shown above the others in the table for individual rates
+
+- Window (Main Menu): Fixed an issue where the “cancel” button’s icon was incorrectly displayed in the artwork display configuration
+
+- Improved data transmission stability between the game server and the client
+
+- Fixed an issue where transactions older than 24 hours old were being treated as erroneous
+
+- Combat: Fixed an issue where Faust’s sprite while corroded by Hex Nail was displayed at a larger size than intended
+
+- Combat: Fixed an issue where the skill cutscenes for <The One Who Grips> Faust and <N Corp. Kleinhammer> Heathcliff did not play properly
+
+- Combat: Fixed an issue where max health reduction by the status effect [Surgery] did not apply properly to ally units
+
+4/7
+
+PROJECT MOON
+Update Content
+
+- Combat: Fixed an issue where changes in max health removed all Stagger Thresholds
+
+- Adjusted the conditions for the check of The Cyborgs to be prompted to allow it to activate even when You Want To Get Beat? Hurtily? has died
+
+- Mirror Dungeon: Fixed an issue where the Event Effect [Photopia] would increase Power instead of decreasing it
+
+- Mirror Dungeon: Fixed an issue where the popups for getting an E.G.O Gift and leveling up Identities could overlap with each other
+
+- Added an arrow that indicates when 4+ E.G.O Gifts are available for selection in the Mirror Dungeon
+
+- Fixed a UI issue when moving to the Thread shop from the deployment screen for Luxcavation
+
+- Fixed a double call issue with Thread Luxcavation entry
+
+- Fixed an issue where the (Maggoty) False Apple in Thread Luxcavation would fully recover its HP when its Body was destroyed during the 2nd phase
+
+- Fixed the missing skill description for <N Corp. Mittelhammer> Rodion’s Tier 3 Uptie preview UI
+
+- Fixed a UI issue that occurred when moving from the Sinners screen to user info
+
+- Improved responsiveness for skill tabs in the info screens for Identities, E.G.O, and enemy units
+
+- Switched the positions of [Count/Turns] and [Potency] for status effects
+
+- Combat: Fixed an issue where an Identity’s artwork would be displayed for E.G.O Passives
+
+- Combat: Fixed an issue where the clash predictions between a defense skill and Abnormality skill with higher speed were being shown as a one-sided defense
+
+- Adjusted presentation for Coin 1 of <The One Who Grips> Faust's skill [Execution]
+
+- Adjusted the color of the text displayed during a [Gluttony-affinity] corrosion skill
+
+5/7
+
+PROJECT MOON
+Compensation for Game-stopping Error
+
+x300
+
+x3
+
+- Content: Lunacy x300, Extraction Ticket x3
+- Recipients: Every user whose game account was created before 09:59 April 6th, 2023 (KST)
+
+Can be redeemed once per account. Mail Validity Period: 7 days.
+
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: Every user whose game account was created before 09:59 April 6th, 2023 (KST)
+
+Can be redeemed once per account. Mail Validity Period: 7 days.
+
+6/7
+
+PROJECT MOON
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you for playing our game.
+
+7/7
+
+PROJECT MOON
+

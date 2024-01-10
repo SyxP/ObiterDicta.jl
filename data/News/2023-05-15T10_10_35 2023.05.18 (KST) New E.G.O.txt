@@ -1,0 +1,70 @@
+
+
+LIMBUS COMPANY
+Dimension Shredder
+HE
+Yi Sang
+E.G.O INFO
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+E.G.O AWAKENING SKILL
+Dimension Shredder
+[Before Attack] Spend Charge Count to deal more damage
+[On Hit] If Charge Count was spent, inflict Dimensional Rift
+[On Hit] Deal bonus Pride damage based on damage dealt and target's Rupture, and reduce Rupture Count
+
+E.G.O CORROSION SKILL
+Dimension Shredder
+[Indiscriminate] Targets a random unit
+[Before Attack] Spend Charge Count to deal more damage
+[On Hit] If Charge Count was spent, inflict Dimensional Rift
+[On Hit] Inflict Rupture
+[On Hit] Deal bonus Pride damage based on damage dealt and target's Rupture, and reduce Rupture Count
+
+E.G.O PASSIVE
+Rambling Man
+At the start of the turn, if this unit took no damage last turn, gain Charge Count.
+After successfully hitting an enemy with lower Speed, inflict Rupture Count.
+
+Dimensional Rift
+At the end of the turn, gain Rupture Count by this effect's amount.
+Then, remove this effect.
+
+Copyright ⓒ 2021 Studio Lico. All rights reserved.
+CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION CAUTION
+
+LIMBUS COMPANY
+Dimension Shredder
+Hong Lu
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+E.G.O INFO
+
+HE
+
+E.G.O AWAKENING SKILL
+Dimension Shredder
+[Before Attack] Gain Charge Count; Gain Haste next turn
+[On Hit] Inflict Fragile and Dimensional Rift
+
+E.G.O CORROSION SKILL
+Dimension Shredder
+[Indiscriminate] Targets the unit with the most HP
+[Before Attack] Gain Haste next turn.
+Spend Charge Count to inflict more Fragile and Dimensional Rift on hit
+[On Hit] Inflict Fragile and Dimensional Rift
+
+E.G.O PASSIVE
+Entangled Phenomena Restoration
+When hitting an enemy with negative status effects, this unit gains Charge Count.
+When HP falls to 0 for the first time during battle, spend all Charge and heal in proportion to the amount spent.
+
+Dimensional Rift
+At the end of the turn, gain Rupture Count by this effect's amount.
+Then, remove this effect.
+
+Copyright © 2022 All rights reserved by Project Moon
+

@@ -1,0 +1,105 @@
+
+
+
+CAUTION CAUTION CAUTION
+Lobotomy Corporation
+새로운 이그 제조 착수
+New Identity Target Extraction
+확장된 E.G.O.::Spicebush
+Enhanced E.G.O::Spicebush
+확장된 E.G.O.::Sloshing
+Enhanced E.G.O::Sloshing
+E.G.O::Sloshing 
+Lobotomy
+E.G.O::Sloshing -이샤마엘
+E.G.O::Sloshing -Ishmael
+E.G.O::미르의 기쁨
+E.G.O::The Joy of Mir
+E.G.O::은여우
+E.G.O::Silver Fox
+E.G.O::길가메쉬
+E.G.O::Gilgamesh
+E.G.O::Spicebush
+Lobotomy
+E.G.O::Spicebush -아르한
+E.G.O::Spicebush -Arhan
+2023. 6. 15 (THU) 12:00 ~ 6. 29 (THU) 09:59 (KST)
+해당 인격의 추출 확률이 올라갑니다
+HIGHER EXTRACTION RATES FOR THE FEATURED IDENTITIES
+Copyright (C) 2023. All rights reserved by Project Moon
+LIMBUS COMPANY
+Effloresced E.G.O "Spicebush" Yi Sang
+ENTITY INFO
+SKILL 1
+Sprouting Bud
+[On Use] Gain Tremor Count
+[I] On [Hit] Inflict Sinking Count next turn
+[II] On [Hit] Inflict Sinking Count next turn
+[III] On [Hit] Inflict Sinking Count next turn
+DEFENSE
+Scattering Aroma
+[On Evade] Inflict Sinking
+SKILL 2
+Moment's Floral Breeze
+[Combat Start] Spend Tremor Count to turn this into an AoE skill
+[I] On [Hit] Inflict Sinking next turn
+[II] On [Hit] Inflict Sinking next turn
+[III] On [Hit] Inflict Sinking next turn
+PASSIVE
+Full Bloom
+When attacking 2 or more targets at once, deal more damage
+SKILL 3
+Bloodsteeped Scent
+[Clash Lose] Lose SP
+[On Use] Gain Tremor Count
+[I] On [Hit] Inflict Sinking Count
+[II] On [Hit] Inflict Sinking Count
+[III] On [Hit] If target has a certain amount of Sinking or more, cause Sinking Deluge
+[On Hit] If user has a certain amount of Tremor Count, deal additional damage deal as bonus damage
+SUPPORT PASSIVE
+Pungent Spring Breeze
+1 ally with the least SP deals more damage when attacking 2 or more targets at once.
+Sinking Deluge
+Deal SP damage by (Sinking Count * Sinking Potency), then remove Sinking
+If target's SP is -45 or lower, the excess SP damage is dealt as Gloom-affinity HP damage
+(Units with no Sanity take all of it as Gloom HP damage)
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+CAUTION
+Copyright (C) 2022 ALL RIGHTS RESERVED by Project Moon
+Lobotomy E.G.O - Sloshing
+Ishmael
+IDENTITY INFO
+
+SKILL 1
+It's Heavy...
+[Heads Hit] Inflict Tremor
+[On Hit] Inflict Tremor Count
+
+SKILL 2
+It's Churning...!
+[On Hit] Inflict Tremor
+[On Hit] Inflict Tremor
+
+SKILL 3
+Corrosive Splash
+[On Hit] Burst Tremor
+[On Hit] Reduce Tremor Count
+[On Hit] After bursting Tremor, inflict Rupture
+
+PASSIVE
+Filling Fluid
+If this unit fails to deal HP damage using attack skills in a turn, gain a shield next turn.
+
+SUPPORT PASSIVE
+Corrosive Slime
+When 1 ally with the highest Speed bursts Tremor, they inflict Rupture. 
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+DEFENSE
+Guard
+
+Copyright © 2022 Lobotomy Corporation. All rights reserved.
+

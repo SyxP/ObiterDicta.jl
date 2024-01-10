@@ -1,0 +1,21 @@
+[Notice: Mirror Dungeon #3 Hotfix 1]
+
+Hello, this is Project Moon.
+
+Hotfix #1 for Mirror Dungeon #3 was deployed on Dec. 14th 20:20.
+Please note that this Hotfix was deployed in real-time without a separate client update or downloads.
+
+[Fixes]
+Chance for E.G.O Gift upon Clearing Combat Encounter will be changed as follows.
+(1) Risky Encounter
+Before: 25%
+After: 100%
+
+(2) Abnormality Encounter
+Before: 50%
+After: 75%
+
+※ Mirror Dungeon #3 Floor 4 difficulty adjustment fix will be deployed on Dec. 15th (KST).
+
+We apologize for the inconvenience.
+

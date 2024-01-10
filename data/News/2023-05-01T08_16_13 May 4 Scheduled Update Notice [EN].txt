@@ -1,0 +1,270 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAUTION
+LIMBUS COMPANY
+The One Who Shall Grip
+Sinclair
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+ENTITY INFO
+DEFENSE
+Enough...
+[Start Battle] Heal SP
+
+PASSIVE
+Mad Flame
+Heal less SP from winning a clash or defeating
+an enemy.
+
+SUPPORT PASSIVE
+Cornering
+1 ally with the least SP deals additional Blunt damage.
+If said ally is below 0 SP, further boost their Blunt
+damage the lower their SP is.
+
+Fanatic
+Raise Skill Final Power by the effect’s Count
+against units with Nails for the turn.
+
+SKILL 1
+Coerced Judgement
+[On Use] Lose SP
+I [Tails Hit] Gain Fanatic next turn
+[On Hit] Inflict Burn
+
+SKILL 2
+Amoral Enactment
+[On Use] Lose SP
+• If this unit is Fanatic, deal additional damage
+I [Tails Hit] Inflict Burn
+[On Hit] Inflict Burn
+II [Tails Hit] Inflict Burn
+[On Hit] Inflict Burn
+III [Tails Hit] Inflict Burn Count
+[On Hit] Inflict Bleed
+IV [Tails Hit] Inflict Burn
+[On Hit] Inflict Burn
+
+SKILL 3
+Self-destructive Purge
+[On Use] Lose SP
+• If this unit is Fanatic, deal additional damage
+• If target is a <Mechanical Amalgam>,
+deal additional damage
+I [On Hit] Raise Stagger Threshold by damage dealt
+II [On Hit] If target has Bleed, inflict Burn
+III [On Kill] Gain Blunt Power Up next turn
+
+Copyright © 2022 All rights reserved by Project Moon
+LIMBUS COMPANY
+Corp. Mittelhammer
+Don Quixote
+
+ENTITY INFO
+
+SKILL 1
+Rightful Purge
+I. [Heads Hit] Inflict Nails
+II. [On Hit] Inflict Tremor
+III. [On Hit] Inflict Tremor
+
+SKILL 2
+Enactment
+I. [On Hit] Burst Tremor
+II. If target has X+ Nails, deal additional Damage
+
+SKILL 3
+Fanatical Judgement
+I. [On Hit] Inflict Nails
+II. [Heads Hit] Inflict Nails
+III. [On Hit] Inflict Tremor Count
+IV. [Heads Hit] If target has X+ Nails, inflict Attack Power Down and Paralyze next turn
+V. [On Hit] Inflict Tremor Count
+
+PASSIVE
+Thou Shalt Hammer!
+If the target has Nails, inflict Tremor Count.
+If this unit is Fanatic, inflict Nails.
+
+SUPPORT PASSIVE
+Hammer of Zealotry
+1 Fanatic ally with the least SP deals additional damage.
+
+Nails
+At the start of the turn, gain 1 Bleed and increase the Bleed Count by this effect’s Count.
+At the end of the turn, halve the Count. (Rounded down)
+
+Fanatic
+Raise Skill Final Power by the effect’s Count against units with Nails for the turn.
+
+DEFENSE
+Guard
+
+*The Identity’s stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2023 All Rights Reserved by Project Moon
+May 4th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 
+10:00 [AM] through 12:00 [PM] on May 4th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from 
+entering combat or mating in-app purchases and close the application before maintenance beings so that no data is lost.
+Refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction: [Target Extraction: N Corp. #3]
+   (May 4 12:00 ~ May 18 09:59 (KST))
+   Extraction rates increase for the following Identities:
+   - 3☆: The One Who Shall Grip Sinclair
+   - 2☆: N Corp. Mittelhammer Don Quixote
+
+2. Sinner Target Extraction: [Hong Lu]
+   (5/4 12:00 ~ 5/18 09:59 (KST))
+   Extraction rates increase for the following Identities:
+   - 3☆: Tingtaing Gang Leader Hong Lu
+   - 2☆: Kurokumo Wakashu Hong Lu, Liu Section 5 Hong Lu
+   - 1☆: LCB Sinner Hong Lu
+
+3. New Identities
+   The following Identities will be added to the 
+   list of items available from Extraction:
+   - Identity (3☆): The One Who Shall Grip Sinclair
+   - Identity (2☆): N Corp. Mittelhammer Don Quixote
+
+1/6
+
+PROJECT MOON
+Update Contents
+
+4. Content Schedule Adjustment
+The event periods for Refraction Railway Line 1 and Chapter 3.5: Hell's Chicken have been extended by 2 weeks. Please refer below for the changed end dates of the events.
+
+<Refraction Railway Line 1>
+Old: 2023/04/06 12:00 ~ 2023/05/04 09:59 (KST)
+New: 2023/04/06 12:00 ~ 2023/05/18 09:59 (KST)
+※ The acquisition requirement of clearing the line within the first two weeks of the event for the special embellished banner will remain unchanged.
+
+<Hell's Chicken Event>
+Old: 2023/04/20 12:00 ~ 2023/05/04 09:59 (KST)
+New: 2023/04/20 12:00 ~ 2023/05/18 09:59 (KST)
+
+<Hell's Chicken Target Extraction>
+Old: 2023/04/20 12:00 ~ 2023/05/04 09:59 (KST)
+New: 2023/04/20 12:00 ~ 2023/05/18 09:59 (KST)
+
+<Hell's Chicken - Coupons Trade-in>
+Old: 2023/04/20 12:00 ~ 2023/05/11 09:59 (KST)
+New: 2023/04/20 12:00 ~ 2023/05/25 09:59 (KST)
+
+2/6
+
+PROJECT MOON
+Update Contents
+
+5. Pack Pricing Adjusted
+
+In accordance with the global price adjustments of the App Store, the prices of in-game purchases will change with the May 4th Sch eduled Update as listed in the table below.
+
+Type	Name	USD	Current		JPY		New
+				KRW				USD		KRW		JPY
+Lunacy	Lunacy (1st Purchase)	$0.99	₩1,500	¥160	$0.99	₩1,100	¥100
+Lunacy	Lunacy Bundle (1st Purchase)	$3.99	₩6,000	¥650	$3.99	₩5,500	¥600
+Lunacy	Lunacy Bouquet (1st Purchase)	$11.99	₩17,000	¥1,900	$11.99	₩17,000	¥1,800
+Lunacy	Lunacy Crate (1st Purchase)	$23.99	₩37,000	¥3,800	$23.99	₩33,000	¥3,500
+Lunacy	Lunacy Mound (1st Purchase)	$49.99	₩65,000	¥6,800	$49.99	₩55,000	¥6,000
+Lunacy	Lunacy Hoard (1st Purchase)	$79.99	₩119,000	¥12,800	$79.99	₩110,000	¥12,000
+Lunacy	Lunacy	$0.99	₩1,500	¥160	$0.99	₩1,100	¥100
+Lunacy	Lunacy Bundle	$3.99	₩6,000	¥650	$3.99	₩5,500	¥600
+Lunacy	Lunacy Bouquet	$11.99	₩17,000	¥1,900	$11.99	₩17,000	¥1,800
+Lunacy	Lunacy Crate	$23.99	₩37,000	¥3,800	$23.99	₩33,000	¥3,500
+Lunacy	Lunacy Mound	$49.99	₩65,000	¥6,800	$49.99	₩55,000	¥6,000
+Lunacy	Lunacy Hoard	$79.99	₩119,000	¥12,800	$79.99	₩110,000	¥12,000
+Packs	Monthly Lunacy Supply	$6.99	₩9,900	¥1,800	$6.99	₩9,400	¥1,700
+Packs	Monthly Lunacy Batch	$29.99	₩44,000	¥4,600	$29.99	₩44,000	¥4,500
+Packs	Monthly Extraction Pack	$39.99	₩58,000	¥6,000	$39.99	₩44,000	¥4,900
+Packs	Monthly Training Pack I	$30.99	₩45,000	¥4,900	$30.99	₩44,000	¥4,800
+Packs	Monthly Training Pack II	$30.99	₩45,000	¥4,900	$30.99	₩44,000	¥4,800
+Packs	New Manager's Onboarding Pack	$21.99	₩33,000	¥3,600	$21.99	₩33,000	¥3,500
+Packs	Season 1 Orienter Supplies	$59.99	₩88,000	¥9,800	$59.99	₩88,000	¥9,000
+Packs	Weekly Extraction Pack	$6.99	₩9,900	¥1,100	$6.99	₩9,900	¥1,000
+Packs	Weekly Thread Pack	$6.99	₩9,900	¥1,100	$6.99	₩9,900	¥1,000
+Packs	Weekly Enkephalin Pack	$6.99	₩9,900	¥1,100	$6.99	₩9,900	¥1,000
+Battle Pass	Limbus Pass	$10.99	₩17,000	¥1,800
+Update Contents
+
+6. Bug Fixes and Improvements
+
+- Fixed an issue with skill slot additions and buff applications at turn start
+- Fixed an issue where enemy levels in Hell's Chicken dungeons occasionally were set to wrong values
+- Fixed an issue where the Speed value of newly generated Abnormality parts was set to 0
+- Fixed an issue where skill descriptions during Uptying and Threadspinning protruded through the UI area
+- Identity Details: Fixed an issue where pressing 'back' after viewing an Identity story caused the UI to malfunction
+- Identity & E.G.O Details: Adjusted layout for locked skill and passive boxes
+- E.G.O Details: Fixed an issue where the info of locked passives could not be viewed
+- User Info: Fixed an issue where the 'change artwork' button didn't work for R.B. Sous-chef Gregor
+- Driverside: Fixed an issue where an invisible Hell's Chicken banner was selected from Refraction Railway and Luxcavation screens
+- Fixed an issue where the report UI was displayed abnormally when pressing the report button on the server error popup
+- Fixed an issue where the passive ability "Coldness" of the E.G.O Rime Shank for Rodion applied the effect to targets with just 1+ Sinking rather than 5+ Sinking, and "next turn" being omitted from its description
+- Refraction Railway: Fixed an issue where the pre- or post-artwork setting selected by the user was not applied
+
+4/6
+
+PROJECT MOON
+Update Contents
+
+6. Bug Fixes and Improvements
+
+- Combat: Fixed an issue where the battle announcer voicelines were not played for certain situations
+- Combat: Added battle announcer cues for effective or ineffective attacks
+- Combat: Fixed an issue where the power value to be displayed on the UI is set as a negative number during an unopposed attack (No systemic issue)
+- Combat: Fixed an issue where the coin UI does not work properly during an unopposed attack if the power value set on the UI is below
+- Combat: Adjusted camera work for one-on-one clashes
+- User Info: Fixed an issue where the currently set artwork could not be selected in the artwork selection popup
+- User Info: Removed the 'copy' button from friends' profiles
+- Enemy staggered line no longer plays during the execution of R.B. Chef de Cuisine Ryōshū's skill “I Can Cook Anything”
+- Fixed an issue where unlocked info in an Abnormality's Encyclopedia entry was shown as locked when forfeiting battle
+- Improvements for frame settings on PC
+- Investigating an issue where units with full HP can be targeted by skills that heal low-HP allies
+
+5/6
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 May 11th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+6/6
+
+PROJECT MOON
+

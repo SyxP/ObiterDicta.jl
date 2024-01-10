@@ -1,0 +1,61 @@
+
+
+
+Notice: In-combat Crashing Issue Fix
+
+In version 1.24.0, we have identified an issue where the game could freeze during combat encounters. We have identified the cause, and have corrected it.
+
+The fix will be deployed on the STEAM build of the game today (Oct. 19th) at 19:00 (KST), But iOS and Android builds require us to go through the app review before the fix is deployed. We will make an additional notice once each version passes the app reviews.
+
+Please refer below for further details.
+
+1/3
+
+PROJECT MOON
+Notice: In-combat Crashing Issue Fix
+
+▌Cause
+-This issue was caused because when a Skill was equipped, the data from the last battle failed to initialize when ordering the Skill's targets.
+
+-When we were adding a combat system logic to the game, we should have added a function to initialize all relevant data - which we neglected to do so. This has caused an issue with a function that used to work without issue.
+
+▌Error Conditions
+-Restart the stage with the 'retry stage' option during the combat phase. Then, re-enter the same encounter or any other encounter.
+
+-In the encounter, attempt to equip an E.G.O Skill or a Defense Skill
+
+▌Error Symptoms
+The game would freeze, and the player would have no other option than to force close the game
+
+▌Error Correction
+Added a function to initialize all data relevant to the last encounter upon entering a new encounter
+
+▌Future Measures
+We will prioritize stability when adding a new logic to the game in the development stage.
+We will take care to add and enhance validation logic so that no older, issue-free logic is affected negatively.
+
+2/3
+
+PROJECT MOON
+Error Fix Build(1.24.1) Deployment Schedule
+
+-STEAM: 10.19 (Thu) 19:00 (KST)
+iOS, Android: iOS and Android builds require us to go through the app review before the fix is deployed.
+We will make an additional notice once each version passes the app reviews.
+
+After starting the game, check the bottom right end of the title screen. If the version number displayed is 1.24.1, it is the version with the error corrected.
+
+We apologize for causing inconvenience to your enjoyment of our game.
+We will endeavor to ensure that your experience with our game is more stable.
+
+In-combat Crashing Issue Compensation
+
+- Compensation : Lunacy x 300
+- Recipients : All users whose accounts have been created before Oct. 26th, 2023 09:59
+- Can be claimed once per account
+- When : After Oct. 19th, 19:00 (KST)
+
+3/3
+
+PROJECT MOON
+

@@ -1,0 +1,112 @@
+
+
+
+
+
+Intro to Upcoming Dec. 21st Content -
+Mirror of the Lake Hard Difficulty
+
+Greetings, dear Manager.
+
+With the Dec. 21st, 2023 (KST) update, the new content of <Mirror of the Lake Hard Difficulty (Mirror Dungeon #3 Hard)> will be added to the game.
+
+- Period: After Dec. 21st 12:00 (KST) update
+- Requirements: Clear Main Story Canto IV & Clear Mirror Dungeon #3 Normal
+- Description: Play Mirror Dungeon #3 Hard to earn large amount of Battle Pass XP.
+- Recommended : Enter after reaching Identity Level 40, Identity Uptie & E.G.O Threadspinning Tier 3+, and activating all Starter Buffs
+
+NOTE
+
+Please note that the Weekly Bonus is not reset upon this update. Managers seeking to apply the Weekly Bonus to "Mirror Dungeon Hard Rewards", please take care to not use up their Weekly Bonus between Dec. 21st 6:00~10:00 (KST).
+
+1/5
+
+PROJECT MOON
+About Rewards
+
+Battle Pass XP can be gained in great quantities in Mirror Dungeon #3 Hard.
+
+Just as it was before, entering the Mirror Dungeon #3 Hard does not consume any resources.
+
+However, you can spend Enkephalin modules at the end of your exploration to receive rewards. The rewards for completing the final floor of Mirror Dungeon #3 Hard are the same as the rewards for completing the final floor of Mirror Dungeon #2 Hard.
+
+- Weekly Bonus Activated : Lunacy x250, Battle Pass XP 150 + Remaining Weekly Bonuses x 25
+- Weekly Bonus deactivated : Battle Pass XP 30
+
+※ Hard Difficulty Rewards can be claimed once per week. Claiming the Hard Difficulty Rewards consumes all remaining Weekly Bonus chances as well.
+
+※ In previous Mirror Dungeons, the rewards scaled based on how many nodes you completed. However, in Mirror Dungeon #3, the rewards will be based on how many Floors you have cleared.
+
+※ If you forfeit the Mirror Dungeon run in the middle of a floor, you will receive rewards based on the floor you last completed.
+
+2/5
+
+PROJECT MOON
+Mirror Dungeon #3 Hard Major Changes
+
+Mirror Dungeon #3 Hard introduces the following elements to Mirror Dungeon #3:
+
+Levels Upon Entry
+
+At the start of the Hard Difficulty, your own Identities' current Levels will be reflected in the Mirror Dungeon.
+
+- Mirror Dungeon #3 Hard : Levels of your owned Identities will be reflected, up to Level 40 (There are elements in the Mirror Dungeon that can raise your levels past 40, however)
+- Mirror Dungeon #3 Normal : Levels of your Identities will be fixed to Level 40
+
+※ The Uptie and Threadspinning Tiers reflect what the player currently has, same as on Normal difficulty.
+
+Unpredictable Future
+
+On Hard Difficulty, you cannot view encounters past the immediately upcoming sector.
+However, the locations of Shops and Rest Stops will be fixed for each floor.
+
+Floor 5 & Combat Added
+
+The Hard difficulty adds an additional floor from Normal difficulty, making its total Floor count 5.
+In Hard difficulty, previous Story bosses and Refraction Railway bosses will appear as Floor 5 bosses.
+Also, in Hard difficulty, 2-wave Encounters will appear in pre-Boss fight Encounters.
+
+3/5
+
+PROJECT MOON
+Enemy Floor Buffs
+
+In Hard difficulty, Enemy Floor Buffs will be different from the ones found in Normal difficulty.
+Enemy buffs will now be combinations of [Enemy Level Up Buff] + [Enemy Power Up Buff].
+
+The higher Tier the E.G.O Gift is, the more likely it is to be linked to higher level [Enemy Level Up Buffs].
+Enemy Power Up Buffs will be linked randomly to E.G.O Gifts.
+Choosing an Enemy Buff with the highest possible Enemy Level Up value will allow players to obtain a second E.G.O Gift.
+
+Just as it is in Normal difficulty, each E.G.O Gift that appears upon Floor clear will have a random Enemy Buff linked to it.
+Selecting an E.G.O Gift will also apply the linked Enemy Buff.
+Refusing E.G.O Gift will select a random enemy buff from the list instead.
+Enemy buffs will compound with each cleared Floor.
+
+Exploration Reward
+
+Hard difficulty rewards can be collected once per week, and is more bountiful than Normal difficulty rewards.
+If you have remaining Weekly Bonus chances when claiming your Hard difficulty rewards, you can apply the Weekly Bonuses as well to net you more lucrative rewards.
+Once you have claimed your Hard difficulty rewards, the rewards for running the Hard difficulty will be the same as the Normal difficulty rewards.
+
+4/5
+
+PROJECT MOON
+Additional Mirror Dungeon Content
+
+1. Starter Buffs added
+
+3 new Primary Buffs will be added to the game.
+Each Primary Buffs will have Secondary Buffs linked to them. Now, you can activate/deactivate your Buffs. Activating Primary Buffs will deactivate the linked Secondary Buffs as well.
+
+Once you have activated all of your Primary Buffs, ‘Wish of Stars’ option will be unlocked. ‘Wish of Stars’ consumes some of your accumulated Starlight to activate special buffs during that Mirror Dungeon run. Unlike Starter Buffs, ‘Wish of Stars’ Buffs are one-time-use only. Using ‘Wish of Stars’ will consume Starlight with each use. Please take note of the above details if you are planning to accumulate Starlight.
+
+2. New E.G.O Gifts added
+
+Upon unlocking all certain Secondary Buffs, new E.G.O Gifts(14 total) will appear in Mirror Dungeon #3.
+7 of them can be obtained only via Fusing Gifts at the Rest Stops using a specific combination of Gifts.
+
+5/5
+
+PROJECT MOON
+

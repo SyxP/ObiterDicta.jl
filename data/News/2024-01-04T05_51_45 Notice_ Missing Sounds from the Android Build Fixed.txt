@@ -1,0 +1,30 @@
+[Notice: Missing Sounds from the Android Build Fixed]
+
+Hello,
+This is Project Moon.
+
+We have corrected the sound issue that occurred on Android devices after the Jan. 04th, 2024 (KST) Update.
+
+Cause
+- This issue was caused by sound resources loading from the incorrect file path upon entering the title screen
+- Occurred during the sound resource path effectiveness evaluation process in the pre-update procedure
+
+Solution
+- We have reconstructed the file designating the sound resource loading path.
+- Closing and restarting the game will download the reconstructed file, and the sound files will now load from the proper file path.
+- Download size popup will not appear with this hotfix; about 4mb of additional download will occur.
+
+Future measures
+- We will add a step in the pre-update evaluation procedure to verify that the sound file path is set correctly, so that no same issue will occur again.
+
+※ If you are currently playing the game, please close and restart the game to apply this hotfix.
+
+We apologize for the inconvenience.
+
+
+[Missing Sounds from the Android Build Compensation]
+- Compensation : Lunacy x300
+- Recipients : All users whose accounts were created before Jan. 11th, 2024 10:00
+- Can be claimed once per account
+- When : After Jan. 04, 2024 15:00 (KST)
+

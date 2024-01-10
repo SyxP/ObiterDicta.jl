@@ -1,0 +1,79 @@
+
+
+
+
+May 11th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on May 11th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+ATTENDANCE CHECK EVENT
+2023.5.11(THU) 12:00 - 2023.6.1(THU) 09:59 (KST)
+
+1. New Content - Roll Call
+[Event Period]
+May 11 12:00 ~ Jun 1 05:59 (KST)
+
+[Event Description]
+- During the event period, you can receive log-in rewards each day upon entering the game, resetting at 6 AM (KST).
+- Unclaimed rewards are lost the next day, so please make sure to redeem them in time.
+
+2. New Content - Dante’s Notes
+[Description]
+- Dante's Notes will be added to the Theater with the May 11th scheduled update.
+
+[Linked Events]
+- During the Roll Call event period (May 11 12:00 ~ Jun 1 05:59 (KST)), a new entry will be added to Dante’s Notes each day.
+
+2/4
+
+PROJECT MOON
+Update Contents
+
+3. Bug Fixes and improvements
+- Added a button to move to the store page when an application update is needed (Android, iOS)
+- Added words and phrases for the intro taglines unlocked by acquiring The One Who Shall Grip Sinclair and N Corp. Mittelhammer Don Quixote
+- Fixed an issue where effects would linger during the animation for The One Who Shall Grip Sinclair's ‘Self-destructive Purge’
+- Fixed an issue where the random targeting of R Corp. Ishmael's ‘Mind Whip’ did not apply properly
+- Fixed an issue where support passives would activate twice under certain circumstances
+- Fixed an issue where massive reductions to Speed due to Bind or other causes could set the unit's Speed to 0
+- Fixed an issue where the 'back' button would be erroneously displayed on certain UI elements
+- Fixed an issue where particle effects would linger when transitioning between the Window and Driverside tabs
+- Fixed an issue where the effects of Spine artwork would cover the subtitles
+- Fixed an issue where the E.G.O resource requirements-display for support passives would not be updated
+- Fixed an issue where the 'back' button would disappear from E.G.O details tab in Mirror Dungeons
+- Fixed an issue where the UI would malfunction after enlarging artwork in Identity or E.G.O details
+- Fixed an issue where active status effect text would sometimes be omitted during unopposed attacks
+- Fixed an issue where certain battle announcer dialogues were omitted during combat
+
+3/4
+
+PROJECT MOON
+Lobotomy Corporation
+Maintenance & Application Update Compensation
+
+Content: 300 Lunacy
+Recipients: Every user whose game account was created before 09:59 May 18th, 2023 (KST)
+
+Notes
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

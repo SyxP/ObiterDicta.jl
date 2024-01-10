@@ -1,0 +1,349 @@
+
+
+
+
+
+
+
+
+
+
+LIMBUS COMPANY
+SEASON 3
+
+BON VOYAGE
+
+PROJECT MOON
+
+시즌 3 : 블루 아카이브 대항 안내
+シーズン３：青カーカイブに対するご案内
+GUIDE ON SEASON 3: BON VOYAGE
+
+[01] 시즌 2 자이언피안 예약
+シーズン２を再調査&潜航検査
+Season 2 Egoshard Carryover
+
+[02] 점진 아이레벨 및 패스 수층 업데이트
+メインストーリーおよびバトルパスデート
+Gradual Main Story & Battle Pass Updates
+
+[03] 인레벨 상한 상향
+アイレベルキャップ増大
+Identity Level Cap Increase
+
+[04] 채광 콘텐츠 개편
+採掘コンテンツの変更
+Luxcavation Content Changes
+
+[05] 시즌 3의 수층환
+シーズン３の搾取
+Season 3 Extractions
+
+[06] 시즌 3의 자판기
+シーズン３の自動販売
+Season 3 Dispenser
+
+[07] 자판기 · 지나간 시즌 패스 E.G.O 통 안내소 구매
+自販機・過去のシーズンパスE.G.Oあるアナウンサーの購入
+Dispenser - Purchasable E.G.O and Announcers from Past Season Passes
+
+[08] 신규 패키지 추가 및 업데이트 조정
+新規パッケージ追加およびパッケージ調整
+New Packages Added & Package Adjustments
+
+[09] 거울 던전 3 예고
+鏡ダンジョン３予告
+Mirror Dungeon #3 Preview
+
+헤드 업데이트에 대한 상세한 경험는 본 홈페이지에서 확인하실 수 있습니다.
+詳細はHOMEの詳細をご案内いたします。リンクよりご確認いただけます。
+You can check the details on the listed items from the webpage linked below.
+Guide on Season 3: Bon Voyage
+
+Greetings, dear Manager.
+
+Season 3: Bon Voyage will commence on
+November 16th, at 12:00 PM (KST).
+This notice will provide information on
+Season 3 <Bon Voyage> and its new or adjusted systems.
+
+Please note that the contents shown below are subject to change.
+We will notify you again as each update is deployed.
+
+Content
+
+1. Season 2 Egoshard Carryover
+2. Gradual Main Story & Battle Pass Updates
+3. Identity Level Cap Increase
+4. Luxcavation Content Changes
+5. Season 3 Extractions
+6. Season 3 Dispenser
+7. Dispenser - Purchasable E.G.O and
+Announcers from Past Season Passes
+8. New Packages Added & Package Adjustments
+9. Mirror Dungeon #3 Preview
+
+1/9
+
+PROJECT MOON
+1. Season 2 Egoshard Carryover
+
+Guide on Season Changes - Egoshards
+
+- When a new Season begins, half of the previous Season's Egoshards will be carried over (and rounded up).
+- The carryover rates for unconverted Egoshards from multiple seasons past will be halved for each following Season.
+- The remaining Egoshards are converted into Thread.
+- Egoshard Crates (both random and nominable) will be carried over in the same way.
+
+As per the information above, half of the currencies listed below will be converted to Season 3’s.
+- Season 2 [Sinner]’s Egoshards
+- Season 2 Egoshard Crate
+- Season 2 Nominable Egoshard Crate
+
+The carryover of currencies to Season 3 will automatically occur the first time you log into the game during Season 3. A popup will show how much Season 2 Egoshard relevant currency you owned, and how they have been converted.
+
+※ Season 2 Identity Egoshard currencies that are still in the Mailbox or in the Lost & Found will be carried over when are claimed.
+
+Carryover to Season 3 currency will occur as soon as they are claimed, and currencies that were not carried over will be converted to Threads.
+
+2/9
+
+PROJECT MOON
+2. Gradual Main Story & Battle Pass Updates
+
+Chapter 5 of the main story and the
+Season 3 Pass will be updated in 3 parts.
+
+▶ 11/16
+- Main Story Ch. 5 (Part 1)
+- Season Pass Rewards (Lv. 1 ~ Lv. 20)
+
+▶ 11/23
+- Main Story Ch. 5 (Part 2)
+- Season Pass Rewards (Lv. 21 ~ Lv. 40)
+
+▶ 11/30
+- Main Story Ch. 5 (Part 3)
+- Season Pass Rewards (Lv. 41 ~ Lv. 60 (Max Pass Level+))
+
+Accumulated Pass Levels are tracked regardless of the gradual updates. When the subsequent updates unlock the rewards for higher levels, you can immediately claim them up to your tracked Pass Level.
+
+Max Pass Level rewards earned for leveling up the Pass past max Pass level are also kept track of even when they aren’t unlocked, and you can claim the accumulated rewards of Season 3 Nominable Egoshard Crates immediately once they are made available.
+
+Chapter 5 stage progression rewards and Max Pass Level rewards will become available to claim on the November 30th update, when ⟨Part 3⟩ of this chapter is added.
+
+3/9
+
+PROJECT MOON
+3. Identity Level Cap Increase
+
+With the Season 3 update, the max level of Identities will be increased from 35 to 40.
+With this increased Level Cap, a new item will be added to the game.
+
+- Level Boost Ticket IV: Raises an Identity's level up to 40.
+
+4. EXP Luxcavation #4, Thread Luxcavation #3 Added
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+With the Season 3 update, EXP Luxcavation #4 and Thread Luxcavation #3 will be added.
+
+4/9
+
+PROJECT MOON
+5. Season 3 Extractions
+
+Guide on Season Changes - Extractions
+- The new Season's Identities and E.G.O
+  will be added to the list of Extractable items.
+- Identities from previous Seasons remain in the pool and
+  are obtainable via Extractions. (Except Event Identities & E.G.O)
+
+Season 1                          Season 2                           Season 3
+Added
+[Regular] IDs: E.G.O            [Regular] IDs: E.G.O            [Regular] IDs: E.G.O
+[Season 1] IDs                   [Season 1] IDs                    [Season 1] IDs
+[Season 1 Event]                 [Season 2] IDs                     [Season 2] IDs
+IDs: E.G.O                          IDs: E.G.O                          [Season 3] IDs
+                                                                            [Season 2 Event]
+                                                                            IDs: E.G.O
+Removed
+                                      -                                     [Season 2 Event]
+                                                                         IDs: E.G.O
+
+As shown in the image above, the following identities and E.G.O
+will be removed from all Extractable item lists with the 
+start of Season 3 (Excluding [Season 2] -
+Assured Extraction: 3★ Identity Banners)
+
+▶ [Season 2 Event] Identities & E.G.O
+  - [TETH] Soda Hong Lu
+  - [3★] Molar Boatworks Fixer Ishmael, Molar Office Fixer Outis
+  - [2★] Molar Office Fixer Yi Sang
+
+5/9
+
+PROJECT MOON
+6. Season 3 Dispenser
+
+Guide on Season Changes - Dispenser
+- Identities and E.G.O from the new Season will be available at the Dispenser.
+- You will be able to exchange for Identities and E.G.O from the past Seasons' Battle Passes.
+- Please note that Extraction IDs belonging to the Season immediately before the new Season will be inaccessible from the Dispenser.
+
+Season 1
+Added
+[Regular] IDs: E.G.O
+[Season 1] IDs
+[Season 1 Event]
+IDs: E.G.O
+
+Removed
+-
+Season 2
+Added
+[Regular] IDs: E.G.O
+[Season 2] IDs
+[Season 2 Event]
+IDs: E.G.O
+[Season 1 Pass] E.G.O
+
+Removed
+[Season 1] IDs
+[Season 1 Event]
+IDs: E.G.O
+Season 3
+Added
+[Regular] IDs: E.G.O
+[Season 3] IDs
+[Season 3 Event] IDs: E.G.O
+[Season 1 Pass] E.G.O
+[Season 2 Pass] E.G.O
+[Season 1] IDs
+[Season 1 Event] IDs: E.G.O
+
+Removed
+[Season 2] IDs
+[Season 2 Event]
+IDs: E.G.O
+
+As shown in the image above, the following Identities and E.G.O will be removed from the Dispenser catalogue with the start of Season 3.
+
+► [Season 2] Identities
+
+3★
+Effloresced E.G.O:
+Spicebush - Yi Sang
+
+K Corp. Class 3
+Excision Staff Hong Lu
+
+Lobotomy E.G.O.:
+Sunshower Heathcliff
+
+Rosespanner
+Workshop Rep. Rodion
+
+2★
+Rosespanner Workshop
+Fixer Meursault
+
+Lobotomy E.G.O.:
+Sloshing - Ishmael
+
+Lobotomy E.G.O.:
+Red Sheet - Sinclair
+
+Rosespanner
+Workshop Fixer Gregor
+
+► [Season 2 Event] Identities & E.G.O
+- [TETH] Soda Hong Lu
+- [3★] Molar Boatworks Fixer Ishmael, Molar Office Fixer Outis
+- [2★] Molar Office Fixer Yi Sang
+
+6/9
+
+PROJECT MOON
+6. Season 3 Dispenser
+
+Also, the following Identities & E.G.O 
+will be added to the catalogue.
+
+[Season 2 Pass] E.G.O
+HE                          TETH
+Capote Meursault          Capote Ishmael
+AEDD Gregor                AEDD Heathcliff
+Sunshower Yi Sang         Sunshower Outis
+
+[Season 1] Identities
+3★                            2★
+The One Who Grips Faust       Lobotomy Corp. Remnant Faust
+N Corp. Großhammer Meursault  N Corp. Mittelhammer
+                                               Don Quixote
+Tingtang Gang
+Gangleader Hong Lu            N Corp. Kleinhammer Heathcliff
+The One Who Shall Grip Sinclair   LCCB Assistant Manager Ishmael
+G Corp. Manager Corporal Gregor    LCCB Assistant Manager Rodion
+                                            N Corp. Mittelhammer Rodion
+                                            Jefe de Los Mariachis Sinclair
+                                            G Corp. Head Manager Outis
+
+
+[Season 1 Event] Identities & E.G.O
+- 3★ : R.B. Chef de Cuisine Ryōshū
+- E.G.O [TETH] : Lifetime Stew Sinclair
+
+7/9
+
+PROJECT MOON
+7. Dispenser - Purchasable E.G.O and Announcers from Past Season Passes
+
+SHARK THREAD EXCHANGE
+
+STANDARD FARE
+
+Charon
+Gebura
+Shin
+
+Pass Announcer
+Seasons Guide
+
+E.G.O and Battle Announcers from previous Season Passes are now purchasable at the Dispenser with paid Lunacy.
+
+8. New Packages Added & Package Adjustments
+
+This update will add 3 new packages and adjust one of the existing packages.
+
+Previous Monthly Training Packs contained various currencies such as Lunacy or Extraction Tickets, but newly added packages will contain items more focused on powering up your identities and E.G.O.
+
+► New Packages
+- Monthly Experience Pack
+- Weekly Experience Pack
+- Monthly Thread Pack
+
+► Packages to be adjusted
+- Weekly Thread Pack
+
+8/9
+
+PROJECT MOON
+9. Mirror Dungeon #3 Preview
+
+Mirror Dungeon #3 will be added during Season 3.
+
+With the Mirror Dungeon #3 update, all Mirror Dungeons will be combined into one. With that, the Mirror of the Beginning and the Mirror of Mirrors will no longer be accessible. The combined Mirror Dungeon will be classified by difficulties, such as NORMAL or HARD. Season Pass EXP rewards may be partially adjusted in this process. We will inform you further with a notice dedicated to Mirror Dungeon #3 in the future.
+
+▸ Starter Buffs
+
+Mirror Dungeon #3 Starter Buffs will be much more varied compared to Mirror Dungeon #2’s. An option to turn certain Starter Buff effects ON/OFF will be added to the game.
+
+With every new Season, the Mirror Dungeon will be renewed to fit the themes of the new Season. The Starter Buffs will also be renewed, with last Season's Starter Buffs expiring and new Season's Starter Buffs being introduced to be filled out again.
+
+※ Please understand that Starlight accumulated from Mirror Dungeon #2 cannot be used for Mirror Dungeon #3.
+
+9/9
+
+PROJECT MOON
+

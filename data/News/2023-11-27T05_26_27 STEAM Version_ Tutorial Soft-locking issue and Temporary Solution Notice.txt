@@ -1,0 +1,39 @@
+
+
+STEAM Version: Tutorial Soft-locking issue and Temporary Solution Notice
+
+Greetings, this is Project Moon.
+
+We have identified an issue in the STEAM version of the game, where the game would soft-lock in the Tutorial.
+The details are as follows.
+
+Issue
+Players are unable to select Faust's Portrait in the Sinners Loadout menu during the Tutorial, soft-locking the game.
+
+Cause
+This issue was caused by the selectable area being incorrectly designated during the Tutorial UI animation.
+
+Getting past the soft-lock
+1. Force close game
+2. Select the SKIP button to skip the Tutorial before the Tutorial guides the player to entering the Sinners Loadout menu
+
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+
+We will re-build the Steam version and test it to see if the issue has been corrected, and will post an additional notice as soon as the changes are applied.
+
+All Managers will be compensated for this issue, so please refer to the next page for more information.
+
+1/2
+
+PROJECT MOON
+Tutorial Soft-lock Error Compensation
+
+Compensation: Lunacy x1000
+When: After Nov. 27th 15:00 (KST)
+- Can be claimed once per account
+- The compensation can be claimed from the in-game mailbox until Dec. 7th (Thu) 10:00 (KST). (Mail valid to claim for 7 days)
+
+2/2
+
+PROJECT MOON
+

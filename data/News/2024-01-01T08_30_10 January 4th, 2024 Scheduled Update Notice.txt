@@ -1,0 +1,94 @@
+
+
+
+
+January 4th, 2024 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Jan 4th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+Major Changes
+
+1. Mirror Dungeon E.G.O Gift Compendium Improved
+Now, you can view the descriptions for each upgrade Tier for E.G.O Gifts with Enhancement Tiers
+
+1/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where Mirror Dungeon E.G.O Gift 'T-1 Perpetual Motion Machine' effect 'Next Turn Start: Each Identity gains (Total Charge Count consumed by Skill use/4) 'Offense Level' (Maxes out when 40 Charge Counts are consumed)' did not activate for certain Identities.
+- Affected Identities : W Corp. L3 Cleanup Agent Ryoshu, W Corp. L2 Cleanup Agent Hong Lu, R Corp. 4th Pack Reindeer Ishmael
+
+▶ Fixed an issue where Slot Weight did not apply upon activating 'Reuse Skill' effects
+※ With this fix, the incorrect Weight calculation upon using an E.G.O Skill while in possession of the Mirror Dungeon E.G.O Gift 'Rusty Commemorative Coin' has been fixed.
+
+▶ Deleted 'ATK' category when rearranging the order of Identities in menu
+
+▶ Improved 'SPD' category when rearranging the order of Identities in menu
+※ It has been changed so that, between two Identities with identical Max Speed values, the Identity with a faster Min Speed comes first.
+
+▶ Fixed an issue where, in the Mirror Dungeon, the 'arrange' function for Team loadout menu in Shops and Rest Stops Identity/E.G.O list UI did not work
+
+▶ (Mobile Only) Fixed an issue where the Event currency UI icon does not display when claiming Mirror Dungeon rewards
+
+▶ Adjusted BGM triggers based on the tide of battle for Main Story 5.5
+- Before: Relevant BGM plays when the allies are winning
+- After: Main Story 5.5 BGM plays even when the allies are winning
+
+▶ Fixed an issue where a story CG was missing in Stage 3 of Main Story 5.5
+
+▶ Updated E.G.O Tier Tags resource
+
+▶ Fixed an issue where, under specific circumstances, selecting the 'Inferno' in the 'Drive' tab caused UI to malfunction and soft-lock players from progressing
+
+▶ (EN Only) Fixed an issue where certain enemy units' [On Evade] keyword was missing
+
+2/4
+
+PROJECT MOON
+Known Issues
+
+▶ An issue where, under specific circumstances, trying to exit from the Mirror Dungeon -Starter Buffs UI after turn Starter Buffs ON/OFF caused an error
+
+▶ (EN, JP Only) An issue where an incorrect location was displayed in the Main Story of Canto 4-54
+
+▶ An issue where item description UI would appear incorrectly in the Mirror Dungeon Reward claim popup
+
+▶ An issue where, even after activating [Mirror Dungeon Starter Buff - Namesake], the item sales price display did not update accordingly
+※ This does not affect the actual sales prices, this is a visual-only issue
+
+▶ An issue where the 'Rarity' Identity arrangement tag malfunctioned in the loadouts menu in the Mirror Dungeon Shops and Rest Stops
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Jan 11th, 2024 (KST)
+- When: After Jan 4th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Jan. 11th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

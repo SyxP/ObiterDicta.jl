@@ -1,0 +1,73 @@
+
+
+Mirror Dungeon 2 Hard -
+Reward Collection Adjustments
+
+Hello, this is Project Moon.
+
+With the scheduled update on July 20th (KST),
+Mirror Dungeon 2 Hard’s Reward collection frequency will be adjusted.
+
+<Mirror Dungeon 2 Hard - Reward collection adjusted>
+Before | After
+Reward Coll.                  
+per week              3x per week          1x per week
+Currency
+Consumed
+Upon Reward Coll.     Enkephalin
+                                 Module x 6              Module x 18
+Battle Pass                   
+EXP Gained              
+(Max)                           With Bonus : 75            150 +
+                                     Without Bonus : 50      # of remaining
+                                                                                   Bonus x 25
+Notes                                                Collecting Rewards
+                                                         will consume
+                                                         all remaining
+                                                         Weekly Bonuses
+
+<Intent>
+We intend to alleviate the stress and time investment involved
+with playing Mirror Dungeon 2 Hard by reducing the number of
+repeated runs while maintaining the same amount of rewards.
+
+Though the number of times in which the rewards
+can be collected per week has been reduced,
+the number of Enkephaline Modules consumed and
+the amount of Mirror Dungeon 2 Hard rewards remains the same.
+
+Please note that the Weekly Bonus and Hard Difficulty
+rewards will not be reset upon this update.
+
+Collecting a single Hard Difficulty reward between
+6:00 ~9:59 (KST) on July 20th will reduce the number of
+collectable Hard Difficulty rewards to 0.
+
+Please take care to refrain from collecting
+your Weekly Bonus and Hard Difficulty rewards
+during that time period.
+
+1/2
+
+PROJECT MOON
+Mirror Dungeon 2 Hard -
+Reward Collection Adjustments
+
+Mirror Dungeon 2 Hard - Recommended Conditions
+
+The following recommended conditions will be displayed on the popup window that appears upon entering Mirror Dungeon 2 Hard.
+
+Enter Mirror of Mirrors - Hard?
+
+Recommended Conditions
+-Identity Level 35+
+-Identity Uptie 3+
+-E.G.O Threadspinning Tier 3+
+-All Starter Buffs Activated
+
+Cancel Enter
+
+2/2
+
+PROJECT MOON
+

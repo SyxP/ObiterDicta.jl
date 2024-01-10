@@ -1,0 +1,37 @@
+
+
+Notice: Missing Story Error
+
+Hello, this is Project Moon.
+
+We have identified an issue where, in the Story Dungeon at 5-36, the story cutscene 5-55 does not play.
+We have identified the cause of the issue and have corrected it. However, deploying the fix requires a client build - and will be deployed with the next week's Scheduled Update.
+
+Cause
+
+Playing the story does not activate automatically in every rooms of a Dungeon; it is something that must be manually added to each respective rooms that play Story cutscenes.
+A new type of room was added in the Canto V Story Dungeon, which moves the player to the next Floor without triggering any specific event. However, the function that plays a Story cutscene was missing, which meant that we failed to check if that relevant Story cutscene was working as intended.
+
+Solution
+
+We have manually added a function to play a Story cutscene to the new type of room that moves to the next Floor without triggering any specific event.
+
+We sincerely apologize for this mistake and for causing a disturbance to your enjoyment of our game.
+As it is a very important part of our game, we will more carefully proofread and test it in our development process.
+
+1/2
+
+PROJECT MOON
+5-55 Missing Story Error Compensation
+
+x300
+
+- Compensation: Lunacy x300
+- Recipients: All users whose accounts were created before Dec. 21st 2023, 10:00
+- Can be claimed once per account
+- When: Can be claimed after Dec. 14th 2023, 12:00 (KST)
+
+2/2
+
+PROJECT MOON
+

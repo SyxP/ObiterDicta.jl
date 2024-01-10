@@ -1,0 +1,31 @@
+
+CAUTION CAUTION CAUTION
+LIMBUS COMPANY
+Lantern
+Sinclair
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+E.G.O INFO
+E.G.O AWAKENING SKILL
+Lantern
+[Before Attack] At X%-- HP, Atk Weight +Y
+[Heads Hit] Inflict X Rupture
+[On Hit] Heal 2 allies with the lowest HP Percentages by X% of Max HP.
+
+E.G.O CORROSION SKILL
+Lantern
+[Indiscriminate]
+Targets the unit with the most HP
+[Before Attack] At X%-- HP, Atk Weight +Y
+[Tails Hit] Inflict +X Rupture Count
+[On Hit] Inflict X Defense Level Down
+[On Hit] Heal self by X% of damage dealt
+
+E.G.O PASSIVE
+Fairy Lure
+After defeating an enemy that mainly targets this unit at the start of the combat phase,
+heal X% of Max HP + (Gluttony A-Reson.)% of Max HP
+CAUTION CAUTION CAUTION CAUTION
+
+Copyright © 2022. All rights reserved by Project Moon.
+

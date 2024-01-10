@@ -1,0 +1,14 @@
+[b][Delayed in-game application for package price changes on certain platforms][/b]
+
+Greetings, Dear Manager.
+
+After the regular update on May 4 (KST), 「Package price change according to the global price adjustment of the App Store」 will be applied.
+
+We would appreciate it if you could check the previous notice for the changed amount of each package.
+
+In the previous announcement, we informed you that there may be differences in the time and date when the package price adjustment is applied depending on the screening schedule for each platform.
+
+So far, it has been confirmed that the changed price has been applied in Steam, but the changes have not yet been reflected in the Google Play Store and App Store.
+
+Managers using the Google Play Store and App Store will be grateful if you keep these points in mind and refer to them when making in-app purchases as much as possible until package price changes are applied.
+

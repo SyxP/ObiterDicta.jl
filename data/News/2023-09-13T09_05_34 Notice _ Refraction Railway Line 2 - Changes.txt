@@ -1,0 +1,72 @@
+
+
+
+Notice: Refraction Railway Line 2 - Changes
+
+Greetings, Dear Manager.
+
+Refraction Railway Line 2 will launch with the September 14th (KST) Update.
+We would like to inform you of the elaborations and the changes that have been made since our last notice.
+
+※ Please refer to the Steam announcement below.
+[Posted Sep. 4th] New Content - Refraction Railway Line 2
+
+Progression
+
+Line 2 will feature a total of 9 high—difficulty encounters.
+There are 8 Stations on the Line, and only 3 Stations will be open upon initial entry.
+Raising your Cycle Count will sequentially unlock the subsequent Stations (Station #4 ~ #8).
+The Terminus in the middle of the Line will activate once at least a single Cycle has been completed, and a button to enter it will appear.
+
+Records
+
+The higher your Cycle Count, the higher your records.
+If two or more records share the same Cycle Count, the record with the lower Total Turns will count as the higher record.
+If your total Cycle Count surpasses 99 Cycles, it will be displayed as 99+; if your Total Turns surpasses 9999 turns, it will be displayed as 9999+.
+
+1/3
+
+PROJECT MOON
+Special Decorative Banners
+
+After meeting certain conditions, you can receive a Refraction Railway Line 2 Commemorative Banner upon completing the Terminus.
+The harder the conditions, the more elaborate the Banners will be.
+
+※ If your final Cycle Count surpasses 99 Cycles, it will be displayed as 99+; if your final Total Turns surpasses 9999 turns, it will be displayed as 9999+.
+In such a case, it will be displayed as 99-9999 on your banner.
+
+Special Decorations
+
+■ Banners
+Upon completing the Terminus after meeting certain conditions, you can receive your [Refraction Railway Line 2 Banner].
+
+If you received your [Refraction Railway Line 2 Banner] before the end of Season 2: Reminiscence, a unique embellishment will be added to your banner.
+
+■ Reward - Business Card Deco
+If you’ve completed the Terminus after meeting the Cycle Count conditions, you can receive your [Refraction Railway Business Card Deco] from the Lost & Found.
+
+If you’ve met an additional condition to the one above, you can receive your [Refraction Railway Business Card Deco] with a unique embellishment from the Lost & Found.
+
+With a mid-October update, Special VFX will be applied to the Banner and the Business Card Deco with unique embellishments.
+
+2/3
+
+PROJECT MOON
+Issues Currently Being Fixed
+
+We have identified the following issues in the Refraction Railway Line 2.
+
+Though the fixes for these issues have been completed, they were identified only after we submitted the update for review. The fixes to the following issues will be deployed with the September 21st Scheduled Update (KST).
+
+We apologize for the inconvenience caused by these issues on this long-awaited content.
+
+- An issue where, if an enemy is killed due to status effects such as Rupture or Burn, effects that trigger upon death will not trigger
+
+- An issue where SFX of Abnormalities newly introduced in Refraction Railway Line 2 may not play when playing the game on mobile
+
+- An issue in Stage 9 where an effect from the Abnormality choice event does not apply to a specific unit
+
+3/3
+
+PROJECT MOON
+

@@ -1,0 +1,112 @@
+
+
+
+
+Emergency Maintenance Completion
+Notice & Current State of Issues
+
+Greetings, this is Project Moon.
+
+We apologize for causing disturbance to your enjoyment of Refraction Railway Line 2 with this Emergency Maintenance so soon after its launch. The Emergency Maintenance will be completed at 2023.09.15 20:15 (KST).
+
+Emergency Maintenance Completion Notice
+
+[When]
+After 2023.09.15 20:15 (KST)
+
+[Fixes]
+Fixed an issue regarding Slash, Pierce, Blunt DMG Up & Down effects
+
+This notice will elaborate on the details of the Issue and inform you of our future plans of action regarding it. Please refer below for more information.
+
+1/4
+
+PROJECT MOON
+Regarding the DMG Up & Down Effect Issue
+
+We have identified an issue in which the DMG Up & Down effects were being applied incorrectly.
+The details regarding the issue and its causes are as follows:
+
+■ Detailed Information
+-An issue where Slash, Pierce, and Blunt DMG Up & Down effects were making variations in 100% increments per 1 Potency (Ver. 1.21.0)
+
+-Fixed an issue where the effects of “Empty Mark” did not work as intended:
+“At the start of the turn, (4-48 Boss) gains 1 Protection and 1 Attack Power Up.
+→
+“At the start of the turn, gain 2 Bind and take +50% damage from (4-48 Boss)”
+
+■ Cause of the Issue
+There was a mistake when inputting the values in the process of making Refraction Railway Line 2 exclusive Buffs where multiple effects could be consolidated into a single buff
+
+■ Issue Solution
+The erroneously inputted values were corrected and will be applied via a hotfix to the current version(1.21.0) of the game
+
+2/4
+
+PROJECT MOON
+Issue Follow-up and Compensation
+
+We will take further caution when modifying data 
+that could have a direct influence on your enjoyment of our content.
+
+We have conducted an internal review on 
+how to proceed with fairness in this circumstance, 
+as an issue directly influencing Clear Records has occurred.
+
+In this process, we have considered a complete 
+reset of Refraction Railway Line 2 Clear Records as well. 
+However, the fault of this issue lies on our end, 
+and we believe that resetting the 
+Clear Records may be unfair to the Managers 
+depending on their individual circumstances. 
+Also, deleting the entire Clear Records of many Managers 
+who have been passionately playing the game since the release 
+of the content may cause a sense of frustration and disappointment.
+
+Considering the above points, we have decided to add 
+additional rewards to the Refraction Railway Line 2 instead. 
+Though the previous rewards and Clear Records will remain, 
+we will add a new Banner and a new Business Card 
+Deco to the rewards list. 
+
+The new Banner and the new Business Card Deco will be unlocked 
+with the Clear Records made after the emergency 
+maintenance is completed.
+
+We will take additional precautions to make sure 
+that the same issue does not occur again. 
+And if additional issues do occur, we promise to 
+provide you with a swift response and notice.
+
+Again, we sincerely apologize for causing disturbance 
+to your enjoyment of our game with this issue.
+
+3/4
+
+PROJECT MOON
+Refraction Railway Line 2 Additional Rewards
+
+▩ Conditions
+After 2023.09.15 20:15(KST), Start and complete Refraction Railway Line 2 with the following record -
+"5 or more Cycle Counts, and 150 or less Total Turns".
+
+▩ Rewards
+1 New Banner & 1 New Business Card Deco
+
+▩ Distributed
+Mid-October, 2023
+
+※ On 2023.09.18 (KST), We will post a new notice with the information regarding the new Banner and the new Business Card Deco designs.
+
+Error Compensation
+
+-Compensation : Lunacy x 500
+-Recipients : All users whose
+-accounts were created before September 28th, 2023 09:59
+-Can be redeemed once per account
+-Date : After September 15th, 2023 20:15(KST)
+
+4/4
+
+PROJECT MOON
+

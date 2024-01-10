@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+August 10th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [PM] on Aug. 10th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+Update Contents
+
+1. New Target Extraction - [New Target Extraction - Zwei South Section 4 Gregor & Faust] (Aug. 10th 12:00 ~ Aug 24th 09:59 (KST))
+Extraction rate increases for the following identity:
+-3★ : Zwei South Section 4 Gregor
+-2★ : Zwei South Section 4 Faust
+
+2. New Identities Added
+The following are added to the list of extractable Identities:
+-3★ : Zwei South Section 4 Gregor
+-2★ : Zwei South Section 4 Faust
+
+1/4
+
+PROJECT MOON
+Major Changes
+
+1. Faust E.G.O - Representation Emitter Coin effect adjusted
+
+[Before]
+- Threadspinning Tier 1~2
+[After Attack] Heal 8 SP for 3 other allies with the least SP
+- Threadspinning Tier 3
+[After Attack] Heal 10 SP for 3 other allies with the least SP
+- Threadspinning Tier 4
+[After Attack] Heal 12 SP for 3 other allies with the least SP
+
+[After]
+- Threadspinning Tier 1~2
+[After Attack] Heal 8 SP for 4 allies with the least SP
+- Threadspinning Tier 3
+[After Attack] Heal 10 SP for 4 allies with the least SP
+- Threadspinning Tier 4
+[After Attack] Heal 12 SP for 4 allies with the least SP
+
+2/4
+
+PROJECT MOON
+Bug Fixes and Improvements
+
+- Fixed an issue where, under certain conditions, defensive skills added to the Dashboard does not disappear on the next turn
+- Fixed an issue where LCB Sinner Heathcliff’s Skill 2 ‘Smackdown’ did not activate the effects of “[Heads Hit] Inflict 2 Tremor”
+  - Fixed a labeling issue with N Corp. Kleinhammer Heathcliff’s combat passive ‘Bugger...’
+    - Before: If 4 or more surviving units in the team, including this unit, are from N Corp, Final Power +1
+    - After: If 4 or more surviving units in the team, including this unit, are from N Corp, Coin Power +1
+      ※ The text has been adjusted to match the actual in-game effects of the passive.)
+
+- Fixed an issue with LCB Sinner Meursault’s Skill 3 ‘Des Coups’ where his 4th Coin Power applied 1 less modifier than the other coins
+  - (EN Build only) Fixed an issue where Ryōshū E.G.O - Soda’s Corrosion skill description displayed a duplicate of the ‘E.G.O Resource Amp.’ icon
+
+- Fixed a UI issue when viewing Refraction Railway Line 1’s records
+- Fixed an issue where the Passive description for Main Story 4-48 Boss did not unlock properly during combat
+
+- Fixed an issue where UI elements would not align properly upon earning large quantities of Battle Pass EXP
+- Fixed an issue where, even after swapping out certain skills in Mirror Dungeon shops, they would continue to appear in the Sinner’s Skill Slots
+- Fixed an issue where certain Boss Enemies’ conditional damage buffs did not apply
+
+[Affected Boss Skills]
+  - Electric Load
+  - Electric Release
+  - High-voltage Electric Discharge
+  - Thinning
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 Aug. 10th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+  - You will not be able to play <Limbus Company> during maintenance. Please understand.
+  - The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

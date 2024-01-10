@@ -1,0 +1,14 @@
+Hello,
+This is Project Moon.
+
+After the Jan. 04th, 2024 (KST) Update(1.33.1), we identified an issue on the Android build where the in-game sounds are absent from the game.
+We are investigating if this issue can be resolved via a hotfix, and we expect this process to take about 2 hours. 
+
+If this issue cannot be corrected via a hotfix, we will correct the game client and submit an additional Update(1.33.2) for review,
+and will make sure that the users can download the newest version once the game client is updated.
+
+We will post an additional notice once we have identified further details regarding this issue.
+
+We will try our best to resolve this issue as soon as possible.
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+

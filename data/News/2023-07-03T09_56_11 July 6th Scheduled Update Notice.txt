@@ -1,0 +1,101 @@
+
+
+
+
+July 6th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 ~ 12:00 (KST) on July 6th, 2023 for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+1/4
+
+PROJECT MOON
+Update Contents
+
+1. New Target Extraction - [Liu South Section 4 Ishmael]
+(July 6 12:00 ~ 7:20 09:59 (KST))
+Extraction rates increase for the following Identity:
+- 3★: Liu South Section 4 Ishmael
+
+2. New Identities Added
+The following is added to the list of extractable Identities:
+- 3★: Liu South Section 4 Ishmael
+
+3. Notice regarding errors in
+Ryoshu E.G.O - Red Eyes' description
+Currently, Ryoshu E.G.O - Red Eyes' Corrosion skill in Uptie Tier
+3 lacks the following description of its Targets:
+[Indiscriminate] Targets randomly.
+The issue will be fixed in the scheduled update on July 6th.
+We sincerely apologize for inconveniences
+caused by this error in E.G.O text.
+
+2/4
+
+PROJECT MOON
+Update Contents
+
+4. Bug Fixes and Improvements
+
+- Some of the loading screen combat tips have been edited
+- The location of Battle Pass 'Receive All' button has been adjusted
+- Mirror Dungeon - 'E.G.O Gifts Owned' button has been standardized
+  - Before: Mixed use of text-only and boxed icons to select 'E.G.O Gifts Owned'
+  - After: Only the boxed icon will be used
+- Fixed an issue where, under certain circumstances, Corrosion would linger even after E.G.O Corrosion is lifted
+- Abnormality - Fixed an issue where 'Giant Leaf,' a summon of Fairy-Long-Legs, would linger even after it is defeated
+- Fixed an issue where the SD illustration of 'Lobotomy E.G.O.:Red Sheet Sinclair' would appear hazy
+- Mirror of Mirrors - Fixed an issue where, in certain circumstances,
+FX were duplicated after activating the Starter Buffs
+- Mirror of Mirrors - Improved the camera angle after Starter Buffs activation
+- Mirror of Mirrors - Fixed an issue where weaknesses denoted in the combat encounter nodes did not match the actual enemy weaknesses
+- Fixed an issue with activating 'E.G.O Gift - Portable Battery Socket'
+- Fixed an issue where, in certain circumstances, the Mirror Dungeon map could not be navigated
+- Abnormality - Fixed incorrect description of 'Spreading Flame' check of Ardor Blossom Moth
+  - Before: At the start of the battle,
+allies without Wrath Affinity are - inflicted with 5 Burn
+  - After: At the start of the battle, allies without Wrath Affinity are
+inflicted with 5 Wrath-affinity damage
+- Fixed an issue where Predicted Cost would be reflected on the Owned Cost
+- Ryoshu E.G.O. - Fixed the missing description of Red Eyes Corrosion regarding the Target Conditions
+- Ryoshu E.G.O. - Fixed an issue where the Buff FX on enemies was misaligned when using Red Eye (Open)
+- Fixed an issue where more than 8 hit SFX would play simultaneously (For audio stability)
+- Fixed an issue where the camera would behave abnormally during combat stages of Canto III, IV
+- Fixed an issue where Check SFX would linger after exiting to the Main Screen from Dungeon Checks screen
+- Fixed an issue where E.G.O SFX did not end simultaneously with E.G.O Animation
+- Fixed an issue where FX was misaligned with E.G.O Animation
+- Fixed an issue where Sunshower Yi Sang's E.G.O Animation would cause allied Identities' UI to break
+
+3/4
+
+PROJECT MOON
+Mirror Dungeon Hard delay and text error compensation notice
+
+- Content: Lunacy x1000
+Date: After July 6th (KST) scheduled update
+- Can be redeemed once per account
+- You can claim the item through the in-game mail system until July 13th, 09:59 (KST). (Mail Validity Period: 7 days)
+
+Maintenance & Application Update Compensation
+
+- Content: 300 Lunacy
+- Recipients: Every user whose game account was created before 09:59 July 13th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

@@ -103,7 +103,8 @@ function LocalizedData(Name, CurrLang = CurrLanguage)
             return LocalizeDatabase[(Name, CurrLang)]
         end
         @warn "No $CurrLang files exists for $Name"
-        return LocalizedData(Name, English)
+        global LocalizeDatabase[(Name, CurrLang)] = LocalizedData(Name, English)
+        return LocalizeDatabase[(Name, CurrLang)]
     end
 
     try

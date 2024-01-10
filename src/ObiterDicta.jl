@@ -1,6 +1,7 @@
 module ObiterDicta
     using ReplMaker, InteractiveUtils
     using Term, Term.Layout, Term.Prompts
+    using fzf_jll, ripgrep_jll
     using UnicodePlots
     using StringManipulation, Printf
     using Unicode
@@ -106,6 +107,7 @@ module ObiterDicta
     include("Utilities.jl")
     include("CommonInterface.jl")
     include("Filter.jl")
+    include("FuzzySearch.jl")
 
     # Internal Structures
     include("CoinStruct.jl")

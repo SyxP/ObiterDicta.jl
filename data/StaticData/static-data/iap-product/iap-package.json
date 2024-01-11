@@ -86,6 +86,7 @@
       "id": 104,
       "category": "PACKAGE",
       "productId": "exp_package_monthly_1",
+      "isDisabled": true,
       "priceTier": 19,
       "chanceId": 1104,
       "defaultElements": [
@@ -110,6 +111,7 @@
       "id": 105,
       "category": "PACKAGE",
       "productId": "thread_package_monthly_1",
+      "isDisabled": true,
       "priceTier": 19,
       "chanceId": 1105,
       "defaultElements": [
@@ -328,7 +330,8 @@
           "id": 213,
           "num": 20
         }
-      ]
+      ],
+      "additionalStickerId": 135
     },
     {
       "id": 136,
@@ -341,6 +344,167 @@
           "type": "ITEM",
           "id": 201,
           "num": 100
+        }
+      ]
+    },
+
+
+    {
+      "id": 141,
+      "category": "PACKAGE",
+      "productId": "extraction_ticket_package_monthly_1st",
+      "priceTier": 19,
+      "chanceId": 1141,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 102,
+          "num": 3
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "category": "PACKAGE",
+      "productId": "extraction_ticket_package_monthly_2nd",
+      "priceTier": 33,
+      "chanceId": 1142,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 102,
+          "num": 5
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "category": "PACKAGE",
+      "productId": "extraction_ticket_package_weekly_1st",
+      "priceTier": 7,
+      "chanceId": 1143,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 101,
+          "num": 10
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "category": "PACKAGE",
+      "productId": "exp_package_monthly_1st",
+      "priceTier": 19,
+      "chanceId": 1144,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 224,
+          "num": 2
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 20
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 20
+        }
+      ],
+      "additionalStickerId": 144
+    },
+    {
+      "id": 145,
+      "category": "PACKAGE",
+      "productId": "exp_package_monthly_2nd",
+      "priceTier": 33,
+      "chanceId": 1145,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 224,
+          "num": 4
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 20
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 20
+        }
+      ],
+      "additionalStickerId": 145
+    },
+    {
+      "id": 146,
+      "category": "PACKAGE",
+      "productId": "exp_package_monthly_3rd",
+      "priceTier": 53,
+      "chanceId": 1146,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 224,
+          "num": 8
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 40
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 40
+        }
+      ],
+      "additionalStickerId": 146
+    },
+    {
+      "id": 147,
+      "category": "PACKAGE",
+      "productId": "thread_package_monthly_1st",
+      "priceTier": 19,
+      "chanceId": 1147,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 201,
+          "num": 300
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "category": "PACKAGE",
+      "productId": "thread_package_monthly_2nd",
+      "priceTier": 33,
+      "chanceId": 1148,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 201,
+          "num": 500
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "category": "PACKAGE",
+      "productId": "thread_package_monthly_3rd",
+      "priceTier": 53,
+      "chanceId": 1149,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 201,
+          "num": 1000
         }
       ]
     }

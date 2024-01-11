@@ -39,5 +39,6 @@
   "isClosableAPIActivated": true,
   "isAllowToRedefineEgoIndex": true,
   "isAllowToSendUUID": true,
-  "isLoadEgoGiftFromMirrorDungeonFirst": true
+  "isLoadEgoGiftFromMirrorDungeonFirst": true,
+  "packageShopOrder": []
 }

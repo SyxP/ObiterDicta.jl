@@ -22,7 +22,8 @@
           "ability": "LoseStackOnRoundEndByRatio",
           "value": 0.5
         }
-      ]
+      ],
+      "categoryKeywordList": [ "LACERATION" ]
     },
     {
       "id": "AssemblePersonality",
@@ -215,6 +216,33 @@
       "canBeDespelled": true,
       "list": [
       ]
+    },
+    {
+      "id": "FreischutzShotCount",
+      "buffClass": "BuffClassFreischutzShotCount",
+      "buffType": "Neutral",
+      "maxStack": 7,
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+      ]
+    },
+    {
+      "id": "DarkFlame",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 7,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "DefAdderByStack",
+          "value": -1
+        },
+        {
+          "ability": "DarkFlame"
+        }
+      ],
+      "categoryKeywordList": [ "COMBUSTION" ]
     }
   ]
 }

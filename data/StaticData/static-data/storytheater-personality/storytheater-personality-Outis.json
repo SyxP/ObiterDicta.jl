@@ -89,6 +89,21 @@
             ],
             "profileId": "cinq_outis_profile",
             "analysisId": "cinq_outis_analysis"
+          },
+          {
+            "personalityId": 11107,
+            "releaseDay": 20240111,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11107",
+                "lockCondition": "gacksung",
+                "order": 2,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "lego_outis_profile",
+            "analysisId": "lego_outis_analysis"
           }
         ]
     }

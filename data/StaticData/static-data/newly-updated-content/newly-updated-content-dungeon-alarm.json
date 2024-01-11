@@ -1,9 +1,10 @@
 {
   "contentType": "DUNGEON",
   "conentIdList": [
-    "miracle_of_district_20_update"
+    "2nd_walpurgis_night"
   ],
   "previouslyUsedContentIdList": [
-    "MirrorDungeon_3_Normal"
+    "MirrorDungeon_3_Normal",
+    "miracle_of_district_20_update"
   ]
 }

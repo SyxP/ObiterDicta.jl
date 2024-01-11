@@ -2804,6 +2804,610 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1110701,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "DarkFlame",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "DarkFlame",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 3
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit3",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "DarkFlame",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110702,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1110702_1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHeadByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1110702_1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1110702_1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit3",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "1110702_1"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_DarkFlame",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110703,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "range": 12,
+          "arearange": 5,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 15,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStackWithLimit15",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.005
+              }
+            },
+            {
+              "scriptName": "1110703",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "actionIndex": 1,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_FreischutzShotCount",
+                  "buffData": {
+                    "buffKeyword": "DarkFlame",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStackWithLimit30",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.01
+              }
+            },
+            {
+              "scriptName": "1110703",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "actionIndex": 1,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_FreischutzShotCount",
+                  "buffData": {
+                    "buffKeyword": "DarkFlame",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110704,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": -3,
+          "defaultValue": 10,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse(limit:1)",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveMpDmgOnEndSkillSelfViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "attributeType": "INDIGO",
+          "iconID": "1110704_4",
+          "defaultValue": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse(limit:1)",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            },
+            {
+              "scriptName": "GiveMpDmgOnEndSkillSelfViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "FreischutzShotCount",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        }
+      ]
     }
   ]
 }

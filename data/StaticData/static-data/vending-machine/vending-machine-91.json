@@ -4,7 +4,7 @@
 			"id": 91,
 			"bannerInfo": {
 				"bannerSpr": "banner_vendingMachine91",
-				"priority": 0,
+				"priority": 100,
 				"festival": true
 			},
 			"groups": [
@@ -14,6 +14,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 10207,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 11107,
 							"price": 400,
 							"blocked": true
 						},
@@ -22,9 +27,14 @@
 
 						{
 							"type": "PERSONALITY",
-							"id": 10607,
+							"id": 10307,
 							"price": 150,
 							"blocked": true
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 10607,
+							"price": 150
 						},
 
 
@@ -33,8 +43,7 @@
 						{
 							"type": "EGO",
 							"id": 20505,
-							"price": 400,
-							"blocked": true
+							"price": 400
 						}
 					]
 				}

@@ -67,6 +67,12 @@
       "jpy": 4500
     },
     {
+      "priceTier": 33,
+      "usd_cent": 3299,
+      "krw": 46000,
+      "jpy": 4800
+    },
+    {
       "priceTier": 42,
       "usd_cent": 4199,
       "krw": 55000,
@@ -77,6 +83,12 @@
       "usd_cent": 5999,
       "krw": 88000,
       "jpy": 9000
+    },
+    {
+      "priceTier": 53,
+      "usd_cent": 6199,
+      "krw": 90000,
+      "jpy": 9200
     },
     {
       "priceTier": 54,

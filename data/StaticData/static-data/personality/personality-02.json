@@ -599,6 +599,7 @@
       "characterId": 2,
       "panicType": 9999,
       "season": 9101,
+      "walpurgisType" : "LC",
       "defenseSkillIDList": [
         1020704
       ],

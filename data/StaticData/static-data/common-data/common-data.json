@@ -586,6 +586,8 @@
   "enkephalinForAModule":20,
   "exchangeValues":{
     "PERSONALITY":[3,15,50],
-    "EGO":[50, 50, 50, 50, 50]
+    "EGO":[50, 50, 50, 50, 50],
+    "ANNOUNCER": 50,
+    "announcerExchangeItemId":401
   }
 }

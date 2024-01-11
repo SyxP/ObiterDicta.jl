@@ -43,6 +43,28 @@
 					"to": "단테2"
 				}
 			]
+		},
+		{
+			"includeConditions": {
+				"prefix": "E051X"
+			},
+			"changeModel": [
+				{
+					"from": "단테",
+					"to": "단테2"
+				}
+			]
+		},
+		{
+			"includeConditions": {
+				"prefix": "E052X"
+			},
+			"changeModel": [
+				{
+					"from": "단테",
+					"to": "단테2"
+				}
+			]
 		}
 	]
 }

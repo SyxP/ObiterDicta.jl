@@ -14,7 +14,8 @@
           "ability": "LoseTurnOnRoundEnd",
           "value": 1
         }
-      ]
+      ],
+      "categoryKeywordList": [ "SIN", "COMBUSTION" ]
     },
     {
       "id": "Laceration",
@@ -26,7 +27,8 @@
         {
           "ability": "Laceration"
         }
-      ]
+      ],
+      "categoryKeywordList": [ "SIN", "LACERATION" ]
     },
     {
       "id": "Vibration",
@@ -39,7 +41,8 @@
           "ability": "LoseTurnOnRoundEnd",
           "value": 1
         }
-      ]
+      ],
+      "categoryKeywordList": [ "SIN", "VIBRATION" ]
     },
     {
       "id": "Burst",
@@ -51,7 +54,8 @@
         {
           "ability": "Burst"
         }
-      ]
+      ],
+      "categoryKeywordList": [ "SIN", "BURST" ]
     },
     {
       "id": "Sinking",
@@ -63,7 +67,8 @@
         {
           "ability": "Sinking"
         }
-      ]
+      ],
+      "categoryKeywordList": [ "SIN", "SINKING" ]
     }
   ]
 }

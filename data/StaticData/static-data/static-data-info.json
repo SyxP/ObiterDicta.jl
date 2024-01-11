@@ -39,7 +39,8 @@
             "abnormality-part-a1c5p2",
             "abnormality-part-a1c5p3",
             "abnormality-refraction3-part",
-            "abnormality-part-a1c951"
+            "abnormality-part-a1c951",
+            "abnormality-part-event1"
           ]
         },
         {
@@ -54,7 +55,8 @@
             "abnormality-unit-a1c5p2",
             "abnormality-unit-a1c5p3",
             "abnormality-refraction3-unit",
-            "abnormality-unit-a1c951"
+            "abnormality-unit-a1c951",
+            "abnormality-unit-event1"
           ]
         },
         {
@@ -68,6 +70,7 @@
             "fileList": [
                 "ally-skill-buff",
                 "common-buff",
+                "resource-buff",
                 "ego-gift-buff",
                 "mirror-dungeon-floor-buff",
                 "negative-nonvolatile-buff",
@@ -87,7 +90,8 @@
                 "buff-enemy-a1c5p1",
                 "buff-enemy-a1c5p2",
                 "buff-enemy-a1c5p3",
-                "buff-enemy-a1c951"
+              "buff-enemy-a1c951",
+              "special-buff"
             ]
         },
         {
@@ -174,7 +178,8 @@
             "enemy-a1c5p2",
             "enemy-a1c5p3",
             "enemy-mirrordungeon3",
-            "enemy-a1c951"
+            "enemy-a1c951",
+            "enemy-event1"
           ]
         },
         {
@@ -186,29 +191,8 @@
                 "gacha-4",
                 "gacha-5",
                 "gacha-6",
-                "gacha-128",
-                "gacha-129",
-                "gacha-130",
-                "gacha-131",
-                "gacha-132",
-                "gacha-133",
-                "gacha-134",
-                "gacha-135",
-                "gacha-136",
-                "gacha-137",
-                "gacha-138",
-                "gacha-139",
-                "gacha-140",
-                "gacha-141",
-                "gacha-142",
-                "gacha-143",
-                "gacha-144",
-                "gacha-145",
-                "gacha-146",
-                "gacha-147",
-                "gacha-148",
-                "gacha-149",
-                "gacha-150"
+                "gacha-151",
+                "gacha-152"
             ]
         },
         {
@@ -238,7 +222,8 @@
             "passive-enemy-a1c5p1",
             "passive-enemy-a1c5p2",
             "passive-enemy-a1c5p3",
-            "passive-enemy-a1c951"
+            "passive-enemy-a1c951",
+            "passive-enemy-event1"
           ]
         },
         {
@@ -319,7 +304,8 @@
             "ego-skill-a1c5p2",
             "ego-skill-a1c5p3",
             "skill-abnormality-a1c951",
-            "skill-enemy-a1c951"
+            "skill-enemy-a1c951",
+            "skill-abnormality-event1"
           ]
         },
         {
@@ -336,7 +322,8 @@
             "storybattle-a1c5p1",
             "storybattle-a1c5p2",
             "storybattle-a1c5p3",
-            "storybattle-a1c951"
+            "storybattle-a1c951",
+            "storybattle-event1"
           ]
         },
         {
@@ -393,7 +380,8 @@
                 "stagenodereward-a1c5p1",
                 "stagenodereward-a1c5p2",
                 "stagenodereward-a1c5p3",
-                "stagenodereward91-5"
+                "stagenodereward91-5",
+                "stagenodereward91-6"
             ]
         },
         {
@@ -532,7 +520,8 @@
               "storytheater-other-9010",
               "storytheater-other-9011",
               "storytheater-other-9012",
-              "storytheater-other-9105"
+              "storytheater-other-9105",
+              "storytheater-other-9013"
             ]
         },
         {
@@ -553,7 +542,8 @@
             "fileList": [
                 "announcer",
                 "announcer-a1c5p1",
-                "announcer-a1c5p3"
+                "announcer-a1c5p3",
+                "announcer-event1"
             ]
         },
         {
@@ -892,7 +882,8 @@
                 "restrict-participation-1",
                 "restrict-participation-a1c5p1",
                 "restrict-participation-a1c5p2",
-                "restrict-participation-a1c5p3"
+                "restrict-participation-a1c5p3",
+                "restrict-participation-2"
             ]
         },
         {
@@ -935,7 +926,8 @@
         {
             "dataClass": "event",
             "fileList": [
-              "miracleofdistrict20-event"
+              "miracleofdistrict20-event",
+              "dawn-of-green-event"
             ]
         },
         {
@@ -990,6 +982,24 @@
             "dataClass": "unlockcode",
             "fileList": [
                 "unlockcode-subchapter"
+            ]
+        },
+        {
+            "dataClass": "event-mission",
+            "fileList": [
+                "event-newyear-2024"
+            ]
+        },
+        {
+            "dataClass": "mission",
+            "fileList": [
+                "event-newyear-2024-mission"
+            ]
+        },
+        {
+            "dataClass": "mission-condition",
+            "fileList": [
+                "event-newyear-2024-mission-condition"
             ]
         }
     ]

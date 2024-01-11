@@ -1,0 +1,33 @@
+{
+  "list": [
+    {
+      "id": "MRcAiBa",
+      "buffClass": "BuffClassAaCeSeBa",
+      "buffType": "Positive",
+      "maxStack": 5,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "MRcAiBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 5,
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "MRcAiBc",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    }
+  ]
+}

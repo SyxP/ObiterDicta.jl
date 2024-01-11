@@ -269,6 +269,16 @@
       "id":150,
       "max":1,
       "resetTimeType":"DAILY"
+    },
+    {
+      "id":151,
+      "max":1,
+      "resetTimeType":"DAILY"
+    },
+    {
+      "id":152,
+      "max":1,
+      "resetTimeType":"DAILY"
     }
   ]
 }

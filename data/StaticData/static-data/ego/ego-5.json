@@ -321,6 +321,7 @@
       "egoType": "TETH",
       "egoClass": 1,
       "season": 9101,
+      "walpurgisType" : "LC",
       "skillTier": 3,
       "egoKeywordList": [ "WALPURGIS" , "LAIBRARY_OF_RUINA" ],
       "attributeResistList": [

@@ -124,6 +124,54 @@
 
 
     {
+      "id": 1141,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1142,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1143,
+      "max": 1,
+      "resetTimeType": "WEEKLY"
+    },
+    {
+      "id": 1144,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1145,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1146,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1147,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1148,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1149,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    
+
+
+    {
       "id": 1998,
       "max": 1,
       "resetTimeType": "SEASONAL"

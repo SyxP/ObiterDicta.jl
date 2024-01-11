@@ -1,0 +1,17 @@
+{
+  "list": [
+    {
+      "id": "CtrlTeamCaptain",
+      "iconID": "AaCePcBr",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+        {
+          "ability": "CtrlTeamCaptain"
+        }
+      ]
+    }
+  ]
+}

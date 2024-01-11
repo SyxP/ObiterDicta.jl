@@ -13,7 +13,6 @@
           "mapSizeRow": 1,
           "mapSizeColoumn": 2,
           "stageNodeList": [
-
             {
               "nodeId": 10001,
               "stageId": 10001,
@@ -1355,6 +1354,14 @@
           "subchapterId": 9105,
           "type": "SUB",
           "relatedEventId": "MiracleOfDistrict20"
+        },
+        {
+          "chapterId": 91,
+          "subchapterId": 9106,
+          "nodeId": 910601,
+          "type": "STAGE_NODE",
+          "customChapterText": "1",
+          "relatedEventId": "DawnOfGreen"
         }
       ]
     },
@@ -1687,6 +1694,25 @@
           "nextSubchapterid": -1,
           "lastnodeid": 910512,
           "relatedMainEventId": "MiracleOfDistrict20"
+        },
+        {
+          "id": 9106,
+          "unlockCondition": {
+            "unlockCode": 9105
+          },
+          "stageNodeList": [
+            {
+              "nodeId": 910601,
+              "stageId": 10552,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910602,
+              "stageId": 10553,
+              "stageNodeType": "NORMAL"
+            }
+          ],
+          "relatedMainEventId": "DawnOfGreen"
         }
       ]
     }

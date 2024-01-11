@@ -589,6 +589,117 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 11107,
+      "appearance": "11107_Outis_DerFreischutzAppearance",
+      "unitKeywordList": [ "L_CORP" ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 9102,
+      "walpurgisType" : "LC",
+      "defenseSkillIDList": [
+        1110704
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "FreischutzShotCount",
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.28
+      },
+      "defCorrection": -3,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1110701,
+          "number": 3
+        },
+        {
+          "skillId": 1110702,
+          "number": 2
+        },
+        {
+          "skillId": 1110703,
+          "number": 1
+        }
+      ]
     }
   ]
 }

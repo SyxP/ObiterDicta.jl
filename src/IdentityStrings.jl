@@ -91,7 +91,8 @@ InternalIdentityFields = [(:getCharID, "characterId", ""),
                           (:getSinAttributeRaw, "uniqueAttribute", ""),
                           (:getMentalConditionRaw, "mentalConditionInfo", Dict{String, Any}()),
                           (:getSeason, "season", -1),
-                          (:getAdditionalAttachment, "additionalAttachment", "")]
+                          (:getAdditionalAttachment, "additionalAttachment", ""),
+                          (:getWalpurgisType, "walpurgisType", "")]
 
 for (fn, field, default) in InternalIdentityFields 
     @eval $fn(identity :: Personality) =
@@ -262,6 +263,10 @@ function getMainFields(identity :: Personality, level, uptie; verbose)
     if verbose
         AddField("Detailed HP", getHPString(identity))
         AddField("Stagger %", getBreakSectionRawString(identity))
+        if getWalpurgisType(identity) != ""
+            AddField("Walpurgis Type", getWalpurgisType(identity))
+        end
+        
         Entries, LongEntries = getOtherFields(identity)
         append!(Fields, Entries)
         append!(LongFields, LongEntries)

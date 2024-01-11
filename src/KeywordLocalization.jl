@@ -149,7 +149,9 @@ function getSeasonNameFromInt(N)
     elseif N == 3
         Ans = "Season 3: Bon Voyage"
     elseif N == 9101
-        Ans = "Walpurgis Night"
+        Ans = "1st Walpurgis Night"
+    elseif N == 9102
+        Ans = "2nd Walpurgis Night"
     else
         @info "Unknown Season $N"
     end

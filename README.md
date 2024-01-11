@@ -66,6 +66,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 4. Mirror Dungeon 3 - Fusion Mechanics (100%)
 5. Mirror Dungeon 3 - Fusion Calculator (70%)
 6. Mirror Dungeon 3 - Starlight Buffs (0%)
+7. Mirror Dungeon 3 - Floor Buffs (0%)
 
 ### Miscellaneous Story
 
@@ -84,7 +85,8 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 7. Automatic Updating of Bundles (100%)
 8. Historic Gacha Information (0%)
 9. Gacha Simulator (0%)
-10. Limbus News/Announcement Search (0%)
+10. Limbus News/Announcement Search (90%)
+11. Battle Hints (0%)
 
 ### Known Bugs/Specific Requested Features
 

@@ -52,7 +52,7 @@ module ObiterDicta
     function MainParser(input)
         usesClipboard(input) && return ClipboardParser(input)  
         Commands = [SetLangCommand, HelpCommand, EXPCommand,
-                    FiltRegCommand,
+                    FiltRegCommand, FuzzySearchCommand,
                     UpdateBundleCommand, BannerGreetingsCommand,
                     BuffCommand, PassiveCommand, SkillCommand,
                     PersonalityCommand, EGOCommand,
@@ -70,18 +70,23 @@ module ObiterDicta
 
     function getHelp()
         S = raw"""Available Commands:
-                  lang (Set Language)
-                  update (Updates Data Files. Warning: for internal use)
-                  exp (Experience Levels)
-                  buff (Status Effects)
-                  skill (Skills)
-                  greeting (Profile Card Text)
-                  id (Sinner Identities)
-                  id-voice (Identity Voice Lines)
-                  ego (E.G.Os)
-                  ego-gift (E.G.O Gifts)
-                  clash-calc (Clash Calculator)
-                  announcer (Announcer)
+                  lang       - Set Language
+                  update     - Updates Data Files. Warning: for internal use
+                  search     - Fuzzy Search
+
+                  exp        - Experience Levels
+                  buff       - Status Effects
+                  skill      - Skills
+                  id         - Sinner Identities
+                  ego        - E.G.Os
+                  ego-gift   - E.G.O Gifts
+
+                  md3        - Mirror Dungeon 3
+                  
+                  greeting   - Profile Card Text
+                  id-voice   - Identity Voice Lines
+                  announcer  - Announcer Voice Lines
+                  clash-calc - Clash Calculator
     
                   For more information you can use `[command] help`.
                   To save the output of a command to clipboard, use `clipboard [command]`.
@@ -107,7 +112,9 @@ module ObiterDicta
     include("Utilities.jl")
     include("CommonInterface.jl")
     include("Filter.jl")
+
     include("FuzzySearch.jl")
+    include("FuzzySearchCommand.jl")
 
     # Internal Structures
     include("CoinStruct.jl")
@@ -177,7 +184,7 @@ module ObiterDicta
         StartREPL()
     end
 
-    export RegisterFunction # For RegistryFunctions
+    export RegisterFunction # For Custom Filter Functions
 
     # Not meant to be used. Internal hooks
     export qUpdate, UpdateDataFilesFromCatalogS1

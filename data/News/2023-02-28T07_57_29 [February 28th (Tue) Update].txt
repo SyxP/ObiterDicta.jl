@@ -1,0 +1,29 @@
+[February 28th (Tue) Update]
+An update has been released for Limbus Company.
+Please update your game on the respective platform.
+※ The update is first being published to Steam and Android. We will notify you when version 1.0.1 begins distribution on iOS.
+
+1. Date: February 28, 5 PM (KST)
+
+2. Adjustments
+- Fixed an issue with account integration (code generation and entry)
+- Fixed an issue where the "Weekly" tab could not be accessed on the Battle Pass missions menu
+- Other bug fixes and stability improvements 
+
+[February 28th (Tue) Server Update]
+The update will be applied when you restart the game and download the patch.
+
+1. Date: February 28, 5 PM (KST)
+
+2. Adjustments
+- Adjusted the difficulty of the battle in 2-18
+- Fixed an issue where the skill power of LCCB Rodion's 'Bludgeon' used incorrect values
+- Adjusted skill parameters for Mariachi Alegre and Mariachi Vivaz
+
+[Update Gifts]
+Contents: Decaextraction Ticket x1, 1300 Lunacy
+These rewards will be available to claim via the in-game mailbox until March 3 (Fri) at 23:59 (KST).
+
+We apologize for the inconvenience caused by the frequent issues.
+We will strive to resolve the remaining ones as soon as possible.
+

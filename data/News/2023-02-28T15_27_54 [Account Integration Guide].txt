@@ -1,0 +1,101 @@
+
+
+
+
+Account Integration Guide
+
+01
+From the Window tab, 
+go to Settings (the gear icon at the top right) -> 
+Account -> 'Send Merge Code'.
+
+02
+Check the UID and merge code displayed on the screen.
+
+1/4
+
+PROJECT MOON
+Account Integration Guide
+
+03
+Run the game on your other device.
+※ Do note that two accounts on the same platform
+(e.g. Steam & Steam) cannot be integrated with each other.
+
+04
+From that device's Window tab,
+go to Settings -> Account -> 'Merge Code Input'.
+
+※ If you're using a guest account,
+please link it with a Google or Apple account on the Account tab in Settings first.
+After linking that account, close then reopen the settings,
+and the merge code-related functions will be available.
+
+2/4
+
+PROJECT MOON
+05
+Input the UID and merge code from Step 2.
+
+Merge Code Input
+Please enter your UID and the provided code.
+UID
+Account Merger
+Code
+✕ Cancel
+✔ Confirm
+
+06
+Choose the game account to merge the data to.
+
+Merge Code Input
+Please select an account to merge.
+
+Current Account
+LV 1 0 2600
+
+New Account
+LV 2 0 1710
+
+* The unselected account will be deleted, so please proceed with caution.
+
+✕ Cancel
+✔ Confirm
+
+Merge data to the selected account?
+LV 2 0 1710
+
+ID
+__________________________________________________________________
+
+* The unselected account will be deleted.
+
+✕ Cancel
+✔ Confirm
+
+3/4
+
+PROJECT MOON
+Account Integration Guide
+
+07
+
+After successful integration,
+a notice will be displayed like the example below.
+
+Merge Code Input
+
+Account data merged successfully.
+
+Confirm
+
+Attempting to make inputs in the game with a deleted account will cause the game to shut down.
+
+The account does not exist or has been closed.
+
+Close
+
+4/4
+
+PROJECT MOON
+

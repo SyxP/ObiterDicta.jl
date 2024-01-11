@@ -1,0 +1,42 @@
+
+Planned Combat Adjustments
+
+1. Resonance-based Offense & Defense Level Boost
+- Sin Resonance will now boost the Offense/Defense Level as well.
+  (Offense Level boost applies to Attack/Counter skills, 
+   while Defense Level applies to Guard/Evade skills.)
+- Absolute Resonance applies the highest level of the boost 
+  to all resonating skills in the chain.
+
+2. Defense Skill Changes
+- Using defense skills in regular combat will no longer skip the unit's action.
+- Defense skills will be able to redirect enemy skills in Abnormality battles.
+- Guard and Evade skills will activate when the unit is about to be attacked by a skill 
+  that would otherwise result in a Clash
+  if they were not defending, rather than any attack.
+- Counter skills maintain the same activation conditions.
+
+3. Guard and Evade skills are now affected by character growth.
+- Defense skills (outside of Counter) are affected by the Defense Level.
+  - When using a Guard or Evade skill,
+    its Power may increase or decrease based on the difference 
+    between the attacking skill's Offense Level and the defending skill's Defense Level.
+
+4. Changes to Stagger
+- The turn-based action slot additions on the Dashboard will 
+  prioritize non-Staggered units.
+- There will be adjustments to the Stagger Thresholds of certain Identities 
+  based on their intended roles and traits.
+  (e.g. Tankers and Damage Sponges will have fewer thresholds.
+  Offense-oriented characters may see little change to their Stagger Thresholds.)
+
+5. Clashes will further boost the final damage.
+-1% -> 3% damage boost per Clash.
+
+※ The listed adjustments are under development and 
+  are subject to change during our internal testing.
+  We will notify you of the finalized adjustments in a future announcement 
+  around the time of the update.
+
+PROJECT MOON
+

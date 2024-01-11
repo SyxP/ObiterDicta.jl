@@ -1,0 +1,143 @@
+
+
+
+Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 06:00 [AM] through 08:00 [AM] on March 9th, 2023 (KST) for system optimizations and content updates.
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Refer to below for details about the update.
+
+Update Contents
+
+1. New Identity Target Extraction (Mar 9 08:00 ~ Mar 23 05:59)
+- N Corp. Großhammer Meursault
+- N Corp. Mittelhammer Rodion
+
+※ The earlier announcement we made on our official Twitter which said that it would be available from 6 o'clock failed to take the maintenance into consideration. We apologize for the confusion.
+
+2. Major Changes
+
+[Combat System]
+- Skill slots can be added on the Dashboard between waves.
+- Staggered units no longer have 0 speed.
+- When a status effect that occurs next turn is first applied, the added Potency and Count will now be maintained after the effect is applied additional times.
+
+Before Update
+After Update
+
+[Inflict 1 Burn next turn]
+[Inflict 1 Burn next turn]
+
+[Inflict 1 Burn next turn]
+[Inflict 1 Burn next turn]
+[Inflict +1 Burn Count next turn]
+[Inflict +1 Burn Count next turn]
+
+[UI]
+- Fixed an issue where Support Identities (from the Friend System) who were not selected to participate on the deployment screen could still join battle.
+- Added a Keyword Highlight and tooltip display feature for Skills, Passives, and E.G.O Gift descriptions.
+- Pressing and holding a button for adding or subtracting a number on the interface will now continue increasing or decreasing the number while it's held.
+- You can now check the details of another user's support Identity in their Company Menu.
+- Voicelines can now play after a while of idling on the Window (Main Menu).
+- Fixed an incorrect description for New Manager’s Welcome Extraction (3★ Identity assured in 20 Extractions) ➔ (3★ Identity or E.G.O assured in 20 Extractions)
+
+1/3
+
+PROJECT MOON
+Update Contents
+
+3. Bug Fixes and Improvements
+
+- Fixed an issue where the contents of
+  a purchased in-game item were not being provided
+  This issue was fixed with version 1.1.0 on Android and iOS platforms.
+  If you experience the same issue on the version, please close and restart the game.
+  If you experience related issues, please contact [limbussupport@projmoon.com].
+
+- Fixed an issue where mail rewards may be given multiple times or not at all
+  Test mail will be sent out before providing the update gifts.
+  If you experience related issues, please contact [limbussupport@projmoon.com].
+
+- Fixed an issue with multiple clicks or taps in quick succession during Extraction
+- Fixed an issue where certain Battle Pass missions could not be completed
+- Fixed an issue where <R Corp. 4th Pack Rabbit> Heathcliff's Combat Passive
+  [Raring to Graze] gave Charge Potency instead of Charge Count
+- Fixed an issue where the third Coin on <Blade Lineage Salsu>
+  Yi Sang's skill [Flank Thrust] always activated
+  its effect regardless of whether it landed a critical hit
+- Fixed an issue where <Zwei Section 6> Sinclair's skill
+  [Strong Strike] did not properly apply Protection
+- Fixed an issue with target discrimination for the following E.G.O skills: Hex Nail,
+  Pursuance, Ardor Blossom Star, 4th Match Flame (Rodion),
+  Ya Śunyatā Tad Rūpam, Legerdemain
+- Fixed an issue where bursting Tremor did not work properly
+- Fixed an issue where the tooltip for Poise
+  - Fixed an issue with attacking with insufficient
+  Ammo occasionally caused the game to freeze
+- Win rate prediction now takes base power and Coin power modifiers into account
+- Fixed an issue where status effects were not being properly removed 
+- Fixed an issue where status effect parameters were
+  sometimes being added incorrectly
+- Fixed an issue where the Potency or Count of certain status effects
+  could go beyond their set limits
+- When an unbreakable part's HP reaches 0 and it is Staggered,
+  it no longer recovers health and Stagger Threshold
+- Fixed an issue where the same story scene would play twice
+  while progressing to the next floor in main story dungeons
+- Fixed an issue where the game would not progress
+  when using the autoplay mode in certain story scenes
+- Fixed an issue where defense skill info was not being displayed
+  on the Identity info screen
+- Fixed an issue where the scroll bar for the text box in checks did not work
+- Fixed an issue where certain checks took effect on the wrong targets
+- Fixed an issue where the visual effects for <R Corp. 4th Pack Rabbit>
+  Heathcliff's Max Uptie artwork were not being shown properly
+- Improvements for a number of framedrop issues
+  - Fixed an issue with the effects of certain E.G.O Gifts
+- Fixed an issue with the conditional HP recovery Passives of certain Abnormalities
+- Fixed an issue where a certain Abnormality that was forcibly Staggered
+  would be Staggered again after it took enough damage
+  for its HP to fall below a Stagger Threshold
+- Fixed an issue where some text were being displayed in Korean
+  while the language was set to English or Japanese
+- Fixes and improvements for a number of UI display errors
+- Various adjustments to English text
+
+2/3
+
+PROJECT MOON
+Update Gifts
+
+- Maintenance and Application Update Compensation: 300 Lunacy
+  - Recipients: All users whose game account was created
+                        before 06:00 March 9th, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store
+    (Google Play/App Store/Steam).
+  - Forcibly shutting down the game 
+    while it is downloading resources may cause the download to fail,
+    so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance.
+    Please understand.
+  - The maintenance schedule may suddenly change 
+    depending on the status of maintenance.
+    If such a change occurs, we will let you know in a follow-up notice.
+  - A resource download may be prompted after the build update.
+    If you're using a mobile device,
+    it is recommended to proceed with a Wi-Fi connection.
+  - If you're playing with a guest account,
+    we recommend that you link your account
+    with other platforms to prevent possible account loss.
+  - The maintenance compensation will be provided once per account.
+    Please note that the distribution may be slow due to network delays or other causes.
+    - The update gifts are valid to claim for 7 days.
+    Please redeem them within this timeframe.
+
+3/3
+
+PROJECT MOON
+

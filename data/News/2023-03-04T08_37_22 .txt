@@ -1,0 +1,32 @@
+
+
+
+
+Apology and Compensation for 
+Incorrect Description
+in [New Manager’s Welcome Extraction]
+
+Hello.
+
+This is Kim Jihoon, Director at Project Moon.
+
+We have been made aware of the issue where the New Manager’s Welcome Extraction says "a 3★ Identity is assured in 20 Extractions", but the assured item can in fact be either a 3★ Identity or E.G.O.
+
+The extraction was configured as such because we considered the value of E.G.O to be equivalent to or greater than that of a 3★ Identity as both cost 400 Egoshares to redeem, but we failed to correctly inform the player of the details, causing much confusion and inconvenience.
+
+We will quickly adjust the text to show as [3★ Identity/E.G.O assured in 20 Extractions] to prevent further confusion.
+
+We will be more aware of clarity in descriptions so that they won't create confusion in the future. We sincerely apologize for the inconvenience.
+
+Though we understand that it's not sufficient to make up for the discontent, we are planning to provide all players with a [3★ Guarantee Deacextraction Ticket].
+
+Our staff is currently working hard to fix the issue with duplicate mail rewards as well.
+
+Once again, we wish to make admissions and amends for our failings.
+
+The issue with the description will be addressed by the March 9th update. Additionally, we will send out the gift ticket as soon as the issue with the mail system has been resolved.
+
+Thank you.
+
+PROJECT MOON
+

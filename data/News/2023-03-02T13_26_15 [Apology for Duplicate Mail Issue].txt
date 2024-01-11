@@ -1,0 +1,25 @@
+
+Apology for Duplicate Mail Issue
+
+Hello.
+
+This is Kim Jihoon, Director at Project Moon.
+We have been made aware of the situation where certain players received twice as many rewards from the 'Roadmap Reveal Gifts' through the in-game mail system.
+
+Even though we applied an update that we thought would resolve the issue in the logic that caused the duplicate mail problem that had occurred a number of times, we discovered that the issue remained unresolved.
+I realize that the rash decision and statement have caused much disappointment and ire.
+
+I would like to sincerely apologize for our repeated failings.
+
+With our current level of technical prowess, we are unable to discern who experienced this issue to selectively retract the duplicate items or to provide the same amount of items to those who did not experience it.
+
+Right now, our staff is working hard to prevent the issue from ever arising again in other ways.
+
+We will run a test with the mail system using small amounts of currency after applying new distribution logic to ensure that it is working properly.
+
+Going forward, we will try to plan our development with extreme caution so that serious issues such as this never occur again.
+
+Once again, we apologize with our whole hearts for this matter.
+
+PROJECT MOON
+

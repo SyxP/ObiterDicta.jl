@@ -1,0 +1,59 @@
+[Scheduled update on 3/16]
+
+- New Content
+◆ Thread Luxcavation
+◆ Experience Luxcavation
+
+- System Improvements
+◆ Better Mirror Dungeon Rewards
+
+
+
+
+Experience Luxcavation Dungeon
+
+- Can be entered a limited number of times per day,
+and costs Enkephalin to enter.
+
+- Rewards include experience from combat and Identity Training Tickets.
+  - Consists of 3 regular combat stages;
+    the number of attempts left is shared between stages.
+
+- Stages are unlocked after clearing certain Main Story stages.
+
+PROJECT MOON
+Thread Luxcavation Dungeon
+
+- Can be entered a limited number of times per day, and costs Enkephalin to enter.
+- Rewards include Thread.
+- Features different Abnormality battle stages depending on the day of the week; the number of attempts left is shared between stages.
+
+- Stages are unlocked after clearing certain Main Story stages.
+
+PROJECT MOON
+System Changes-Mirror Dungeon Rewards
+
+- To reduce tedium and make expeditions more rewarding, the Mirror Dungeon rewards are receiving the following changes.
+
+- The number of weekly Mirror Dungeon bonuses changed from 5 ⇒ 3 per week
+
+- Mirror Dungeon Clear Maximum Rewards per Expedition (with bonus active):
+
+List            Before        After
+Lunacy         -              150
+Pass EXP       7              20
+Egoshard Crates (Choose 1)
+                  Random
+                  Egoshard Crate x5
+                  Nominable
+                  Egoshard Crate x3
+
+                  Random
+                  Egoshard Crate x8
+                  Nominable
+                  Egoshard Crate x5
+Identity EXP  12000          -
+                  (Now moved to Experience Luxcavation)
+
+PROJECT MOON
+

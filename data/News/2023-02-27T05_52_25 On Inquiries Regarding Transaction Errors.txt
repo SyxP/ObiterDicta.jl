@@ -1,0 +1,10 @@
+If you have encountered a transaction-related error on the Steam version, please send us an email following the procedure below:
+
+1. Go to [Account Details]
+2. Go to [View Purchase History] on the Store & Purchase History tab
+3. Select the erroneous purchase from the history
+4. Check the transaction ID
+5. Send an email to limbussupport@projmoon.com with the transaction ID clearly included and indicated
+
+We apologize for the inconvenience.
+

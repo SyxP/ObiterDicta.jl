@@ -1,0 +1,227 @@
+
+
+
+
+
+
+
+
+Mar 16 Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter maintenance from 10:00 [AM] through 12:00 [AM] on March 16th, 2023 (KST) for system optimizations and content updates. Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Refer to below for details about the update.
+
+NOTE
+
+This week's scheduled maintenance, as stated earlier, will take place from 10 to 12 on March 16th, 2023 (KST),
+
+The daily/weekly resets for missions, Mirror Dungeon bonuses, and daily free entries will take place after 12:00 once the update has finished. Dungeon expeditions made between 6 to 10 [AM] on March 16th (KST) will count as defeated runs, and rewards for previous versions will be given. Counts for Mirror Dungeon daily free entry and weekly reward bonuses, as well as progress and completion for daily and weekly missions made between 6 to 10 [AM] on March 16th (KST) will be reset. Please make sure to redeem your rewards in advance before the maintenance begins.
+
+1/8
+
+PROJECT MOON
+Update Contents
+
+1. New Sinner Target Extraction: Rodion
+(Mar 16 12:00 - Apr 1 09:59, KST)
+Extraction rates increase for the following Identities:
+- ★3: Kurokumo Henchwoman Rodion
+- ★2: LCCB Assistant Manager Rodion, N Corp. Mittelhammer Rodion
+- ★1: LCB Sinner Rodion
+
+2. New Content:
+[Experience Luxcavation] and [Thread Luxcavation]
+
+[Experience Luxcavation]
+- Each stage of Experience Luxcavation is unlocked after clearing a certain stage in the main story.
+The first stage is unlocked after clearing 2-12.
+- Enemies in Experience Luxcavation have specific resistances.
+You can check the type and affinity that will be the most effective before you enter the stage.
+- Rewards from winning the battle include experience from combat and Identity Training Tickets.
+- Stages costs Enkephalin to enter,
+and you can earn bonus rewards up to 3 times per day.
+The number of bonuses left is shared between stages.
+- Later stages have higher difficulties (recommended level),
+but their per-Enkephalin reward gain is also higher.
+
+[Thread Luxcavation]
+- Each stage of Thread Luxcavation is unlocked after clearing a certain stage in the main story.
+The first stage is unlocked after clearing 2-19.
+- Enemies in Thread Luxcavation have specific resistances.
+You can check the type and affinity that will be the most effective before you enter the stage.
+- Rewards from winning the battle include Thread.
+- Stages costs Enkephalin to enter,
+and you can earn bonus rewards up to 3 times per day.
+The number of bonuses left is shared between stages.
+- Later stages have higher difficulties (recommended level),
+but their per-Enkephalin reward gain is also higher.
+
+2/8
+
+PROJECT MOON
+Update Contents
+
+3. Mirror Dungeon(Season 1) Reward Changes
+To reduce tedium and make expeditions more rewarding, the Mirror Dungeon rewards are receiving the following changes.
+- Weekly Mirror Dungeon bonuses changed from 5 → 3 per week
+
+In accordance with the change to the number of weekly bonuses, Mirror Dungeon clear rewards for each expedition (with the bonus active) will receive the following changes:
+- (New) Lunacy: 0 → 250
+- (Changed) Pass EXP: 7 → 20
+- (Changed) Egoshard Crates:
+  Random Egoshard Crate x5 or Nominable Egoshard Crate x3 → Random Egoshard Crate x8 or Nominable Egoshard Crate x5
+- (Removed) Identity EXP: 12000 → 0 (Now moved to Experience Luxcavation)
+
+4. Changes to Pass Missions
+In accordance with the addition of daily content, daily and weekly missions are receiving the following changes. There are no changes to seasonal missions.
+
+[Daily Missions]
+※ Pass EXP from Daily Missions: 1 → 2
+
+[Before Update]				[After Update]
+- Clear any stage 3 times			- Log into the game 
+- Defeat 20 enemies			- Clear EXP Luxcavation 1 time
+- Suppress 1 Abnormality		- Clear Thread Luxcavation 1 time
+- Log into the game			- Clear any stage 2 times
+- Have a [randomly selected]		- Defeat 10 enemies
+  Sinner in battle 1 time
+
+[Weekly Missions]
+※ Pass EXP from Weekly Missions: 2 → 4
+
+[Before Update]					[After Update]
+- Clear any stage 20 times			- Clear EXP Luxcavation 5 times
+- Defeat 120 enemies				- Clear Thread Luxcavation 5 times
+- Suppress 3 Abnormalities			- Clear any stage 10 times
+- Enter the Mirror Dungeon 1 time		- Defeat 100 enemies
+- 5 total daily log-ins				- Enter the Mirror Dungeon 1 time
+
+3/8
+
+PROJECT MOON
+Update Contents
+
+5. Major Changes
+
+▶ System
+- When a new download occurs,
+unused cache data is automatically deleted
+- Fixed an issue where running a client from an unsupported version displayed a message saying that no guest account was found even if the account did exist
+
+▶ Combat
+- Damage boost per Clash adjusted to 3%
+- Staggered allies no longer gain action slots before others
+※ A number of adjustments originally planned for March 16th (defense skill changes, Resonance-based boost, Stagger Threshold changes) have been postponed to the update scheduled for March 23rd due to a multitude of factors to consider while changing the mechanics. We apologize for the extended wait.
+
+▶ UI
+- Added a seasonal display to Identity and E.G.O info
+※ We are aware of the current issue where the seasonal display does not function properly on the artwork configuration menu for the lobby and profile, and the extraction result screen. This will be addressed in a future update.
+※ We plan to organize and redeliver details about seasons in a future article.
+
+4/8
+
+PROJECT MOON
+Update Contents
+
+▶ Description Issues
+- Japanese Version: Fixed certain descriptions
+concerning Stagger Threshold-lowering being displayed as SP recovery
+
+[Affected Descriptions]
+- N Corp. Großhammer Meursault's Skill: [Drive]
+- Jefe de Los Mariachis Sinclair's Passive:
+[Júbilo Hedonista]; Skill [Piñata Party]
+- The 2-18 enemy boss Skills [Piñata Party+] and [¡Excelente!]
+
+※ The following compensation will be provided to all users.
+
+Compensation for Description Issues
+- Content: Extraction Ticket x3
+- Recipients: All users whose game account was created
+before 09:59 March 23rd, 2023 (KST)
+
+The compensation mail is valid to claim for 7 days.
+Please redeem them within this timeframe.
+
+5/8
+
+PROJECT MOON
+Update Contents
+
+6. Bug Fixes and Improvements
+
+- Fixed an issue with the displayed amount of Enkephalin recovered when using Enkephalin boxes
+    - On the PC version, status effect keywords now display upon hovering the mouse cursor over them
+    - The 'refresh' button in the mailbox can now be pressed once every 10 seconds
+
+- The face of the company's (i.e. the selected Sinner's) idle voiceline at the Window now only plays up to 3 times at a time
+- Fixed an issue where the effects for Spine artwork did not show in certain parts of the UI
+    - When the server enters maintenance during gameplay, the game now displays a shutdown popup in addition to the maintenance notice
+    - Resistances are now shown in the character info tab
+- Fixed an issue where the info on certain Abnormalities' skills, passives, and part resistances was not being unlocked in the encyclopedia
+    - Fixed the icon display for uncleared Abnormality encounters in story dungeons
+
+- Valid routes from the current position now displayed in story dungeons
+    - Fixed an issue where certain Abnormality encounters in the Mirror Dungeon played a tutorial
+    - Fixed an issue where certain Abnormality encounters in the Mirror Dungeon played effects from the main story
+
+- Fixed an issue where the descriptions of E.G.O Gifts couldn't be selected
+    - Fixed an issue where keyword tooltips did not work when acquiring an E.G.O Gift
+- Fixed an issue where the tooltips for E.G.O Gifts could not be viewed while exploring Mirror Dungeons
+- Fixed an issue with the activation conditions for certain E.G.O Gifts
+    - Fixed an issue where the map occasionally did not generate when entering a dungeon, causing the game to be unable to progress
+- Fixed an issue where the status effect Paralyze did not work properly
+- Fixed an issue where area-of-effect skills did not show target arrows for sub-targets when selecting skills
+- Coin power in battle is now displayed as the value with modifiers from status effects, passives, and other sources applied
+    - Fixed an issue where Coin power would go below zero during battle
+    - Character dialogue no longer displays in certain Abnormality checks during battle
+    - Certain Abnormality passive abilities no longer activate after the related part has been broken
+
+- Fixed an issue where the game would stop or become unable to progress when using the auto mode during unique story segments mid-battle
+     - Fixed an issue where removed parts were being targeted during Abnormality battles
+
+6/8
+
+PROJECT MOON
+Update Contents
+
+7. Addition to 2023. 03. 14 Notice
+
+We're releasing a supplementary notice for a number of details omitted from the update notice published on March 13th.
+We apologize for the inconvenience.
+
+[3. Mirror Dungeon(Season 1) Reward Changes]
+Final clear rewards for the Mirror Dungeon(Season 1) without the weekly bonus active will receive the following changes:
+- (Changed) Pass EXP: 3 -> 7
+- (Removed) Identity EXP: 6000 -> 0 (Now moved to Experience Luxcavation)
+
+[6. Bug Fixes and Improvements]
+- Fixed an issue where certain trace effects were being displayed incorrectly
+- Fixed an issue where the effects for R Corp. Heathcliff's parry was not being displayed
+
+7/8
+
+PROJECT MOON
+Maintenance and Application
+Update Compensation
+
+<Update Gifts>
+- Content: 300 Lunacy
+- Recipients: All users whose game account was created before 09:59 March 23rd, 2023 (KST)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+8/8
+
+PROJECT MOON
+

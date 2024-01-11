@@ -11,7 +11,7 @@ function EGOHelp()
               !ts_num_     - Sets the threadspin at _num_. Without this, it is set to the maximum possible.
               !a/!all      - Outputs all E.G.Os matching the filters.
               !s/!succint  - Only show the E.G.O panel. You can also !hide-skills, !hide-passives.
-              [_filter_]   - Filter the list of E.G.Os
+              [_filter_]   - Filter the list of E.G.Os.
 
               After (*), `ego _number_` will directly output the corresponding E.G.O.
               To see available filters, use `ego filters help`.
@@ -128,9 +128,7 @@ function EGOParser(input)
     for currFilter in pFilters
         Tmp = ""
         EGOSearchList, Tmp = applyFilter(EGOSearchList, currFilter, Tier)
-        if Tmp != ""
-            println(Tmp)
-        end
+        Tmp != "" && println(Tmp)
     end
 
     PrintAll && return printAllEGO(EGOSearchList, Tier)

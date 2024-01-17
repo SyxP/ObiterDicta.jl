@@ -1,0 +1,137 @@
+
+
+
+January 18th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance 
+from 10:00 [AM] through 12:00 [PM] on Jan 18th, 2024 (KST). 
+Please make note of the maintenance schedule; we recommend that 
+you refrain from entering combat or making in-app purchases and 
+close the application before maintenance begins so that no data is lost. 
+Please refer below for details about the update.
+
+Optimizations
+
+1. [Friends -> Add a Friend] window optimized
+Fixed an issue where having too many Friends in the Friends list 
+caused the framerate to drop.
+
+Bug Fixes & Improvements
+
+▶ Fixed an issue where [Dark Flame]'s 'Turn End: 
+Deal (Value x Burn on target) Pride Affinity damage, 
+then expires' effect did not utilize the proper calculation 
+formula for the intended damage output
+
+▶ Fixed an issue where certain Identities' dialogue 
+subtitles did not match the actual voice 
+- Affected Identities : Lobotomy E.G.O.::Magic Bullet Outis, 
+Lobotomy E.G.O.::Lantern Don Quixote
+
+▶ (EN Only) Clarified the unclear 
+Lobotomy E.G.O.::Magic Bullet Outis Skill 2 description 
+- Before : [On Hit] At less than 4 Magic Bullet, gain 1 Magic Bullet. 
+Inflict Dark Flame equal to Magic Bullet next turn
+- After : [On Hit] At less than 4 Magic Bullet, gain 1 Magic Bullet; 
+then, inflict Dark Flame equal to Magic Bullet next turn
+
+1/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+- (EN Only) Fixed the incorrect Lobotomy E.G.O:::Lantern Don Quixote Skill 2 Coin 3 description
+  - Before: If the target has less than 2 Rupture Count, inflict +3 Rupture Count
+  - After: If the target has 2 or less Rupture Count, inflict +3 Rupture Count
+
+- Fixed a typo in Walpurgis Night 'The Dawn of Green' reward Banner
+  
+- (JP Only) Improved the text in the Walpurgis Night 'The Dawn of Green' main UI logo
+
+- Fixed an issue where, in the Sinner Loadout menu before an Encounter, E.G.O resource gain from Identities not Deployed in the Encounter was calculated as well
+
+- Fixed an issue where, in the 'Enhance E.G.O Gifts' menu of the Mirror Dungeon Rest Stops, re-selecting an already selected E.G.O Gift caused the highlight to disappear
+
+- Fixed an issue where, in rare circumstances, viewing Identity Details of set Support Units in the [Friends → Company → Identity Details] caused the game to softlock
+
+- Fixed an issue where, when viewing the [Friends → Sent Requests] window, unnecessary UI elements were visible on screen as well
+
+- Fixed an issue where, under specific circumstances, clearing the Main Story - Story Dungeons caused the lower tab UI and the relevant BGM to load incorrectly after the results screen
+
+- Fixed an issue where certain Announcer portraits loaded past/outside the Announcer UI box
+
+2/4
+
+PROJECT MOON
+Known Issues
+
+The below issues are currently known,
+and we are investigating solutions to each issue.
+We will notify you via a notice as soon as they are corrected.
+
+▶ An issue where, under certain circumstances,
+relevant status effect UI triggers twice in a row
+- Ex) When applying Sinking to a target that already has Sinking,
+and if the target's Sinking does not completely expire after this hit,
+the Sinking status effect UI is duplicated
+※ This issue does not affect the actual damage output.
+However, duplicate status effect damage UI caused
+the Total damage UI to calculate the duplicate numbers as well,
+making it seem as though certain attacks were causing
+more damage than they actually did.
+
+▶ An issue where, in the [Manager] menu or when selecting
+the main Identity in the Window, categorizing by Identities
+from Walpurgis Night did not include the Identities
+from this Walpurgis Night
+- Affected Identities : Lobotomy E.G.O::Magic Bullet Outis,
+Lobotomy E.G.O::Lantern Don Quixote
+
+▶ An issue where entering then exiting 'The Dawn of Green'
+loadout menu, then entering the Refraction Railway loadout menu
+caused the [Control Team Captain] buff UI to linger
+※ This is a visual-only issue; the [Control Team Captain] buff isn't
+actually applied to the Refraction Railway even if the UI lingers.
+
+3/4
+
+PROJECT MOON
+Error Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Jan 25th, 2024 (KST)
+- When: After Jan 18th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Jan 25th, 2024 (KST)
+- When: After Jan 18th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Jan. 25th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+
+4/4
+
+PROJECT MOON
+

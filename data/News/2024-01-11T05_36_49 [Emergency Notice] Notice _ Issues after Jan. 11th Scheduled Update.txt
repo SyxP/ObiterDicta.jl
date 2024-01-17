@@ -1,0 +1,55 @@
+Hello, this is Project Moon.
+We would like to inform you about the issues that have been identified after the Jan. 11th Scheduled Update, and our subsequent measures regarding them.
+
+[b]1. An issue where the game freezes in certain Focused Encounters[/b]
+
+[Issue Details]
+- (Focused Encounter) When an enemy that is scheduled to attack is killed, the game freezes.
+(Ambling Pearl, Shock Centipede, Doomsday Calendar, King Trash Crab, Skin Prophet, Become Strong? Genuinely?, Pink Shoes, etc etc)
+
+[Cause]
+- In order to optimize, we deleted several unnecessary logs from the game. However, in the process, we mistakenly deleted logs that were still being used by the game as well.
+
+[Solution]
+- Corrected the code so that the deleted logs are not used.
+- Temporary Solution: For combat encounters with summoned units, kill all summoned units first. Defeat the Boss unit when it's the only remaining enemy in the stage.
+
+
+[b]2. An issue where using the skip battle function in the Thread & EXP Luxcavations caused UI to glitch[/b]
+
+[Issue Details]
+- This issue can be reproduced by going straight to the Luxcavations and choosing to skip battle immediately after starting the game. (results screen only displays white images)
+- After this issue occurs, the Main UI of the game, such as Window or Drive will not function properly.
+- Using the skip battle function after completing other encounters normally does not cause this issue, and the Main UI of the game will function normally.
+
+[Cause]
+- This issue occurred because viewing the encounter result screen without a single deployed unit (like in skipped battles) did not properly load the data.
+- This is a side effect of programming in The 2nd Walpurgis Night encounter result screen.
+
+[Solution]
+- We have corrected the code that caused this issue to occur.
+
+The above two issues require a client build to be corrected.
+We will work as fast as we can to correct the issue, prepare the build, and submit it so that you can play our game without these issues.
+
+[b]We will update the game immediately on STEAM,
+
+but iOS and Android require us to submit the build for review first. We will inform you with an additional notice as soon as we pass the review and the new versions are made available to those platforms.[/b]
+
+We are also currently investigating the below issues.
+We will inform you of the solutions and the subsequent measures regarding them as soon as we identify their causes.
+
+[b][Issues currently under investigation][/b]
+- An issue where completing a Luxcavation stage after clearing 'The Dawn of Green' encounter causes the game UI to overlap
+- An issue where Lobotomy E.G.O::Magic Bullet Outis' lines do not match up with her voice lines
+- An issue where the new Identities' Illustrations are unavailable under the 'Walpurgis Night' tag in the Player Ticket UI
+
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+
+[b][Jan. 11th Scheduled Update Error Compensation][/b]
+- Compensation : Lunacy x1300
+- Recipients : All users whose accounts were created before Jan. 25th 2024 10:00
+- Can be claimed once per account
+- When : Before the end of day on Jan. 11th 2024 (KST)
+
+

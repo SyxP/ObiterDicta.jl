@@ -1,0 +1,16 @@
+Hello, this is Project Moon.
+
+2 pressing issues among the issues we have identified after the Jan. 11th Scheduled Update have been fixed, and the fix has been uploaded to the respective stores at 20:30 (KST).
+
+Please download the update from the respective stores. Once the game has been updated, the bottom right side of the Title screen should say 'Version 1.34.1'.
+
+Please note that continuing to play the 1.34.0 version of the game without updating the client will trigger an error. 
+
+[Fixed Issues] 
+- (Focused Encounter) When an enemy that is scheduled to attack is killed, the game freezes.
+- An issue where using the skip battle function in the Thread & EXP Luxcavations caused the UI to glitch
+
+[b]※ Please note that update download may become available at different periods depending on your location & device. If you cannot see the update in your stores, please try again later.[/b]
+
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+

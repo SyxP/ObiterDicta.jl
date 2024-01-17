@@ -1,0 +1,26 @@
+Hello, this is Project Moon.
+
+2 pressing issues among the issues we have identified after the Jan. 11th Scheduled Update have been fixed.
+
+[b]The game will be immediately updated on STEAM, and the game will be playable as normal after Jan. 11th 2024, 17:30 (KST).
+Please update Limbus Company via STEAM before starting the game.
+Once the game has been updated, the bottom right side of the Title screen should say 'Version 1.34.1'.
+
+Because iOS and Android require us to submit the build for review first, we will inform you with an additional notice as soon as we pass the review and the new versions are made available to those platforms.[/b]
+
+
+[b][Fixed Issues][/b]
+- (Focused Encounter) When an enemy that is scheduled to attack is killed, the game freezes.
+- An issue where using the skip battle function in the Thread & EXP Luxcavations caused the UI to glitch
+
+We sincerely apologize for the inconvenience.
+
+
+[b][Jan. 11th Scheduled Update Error Compensation][/b]
+- Compensation : Lunacy x1300
+- Recipients : All users whose accounts were created before Jan. 25th 2024 10:00
+- Can be claimed once per account
+- When : After Jan. 11th 2024, 18:00 (KST)
+
+
+

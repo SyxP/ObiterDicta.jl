@@ -120,6 +120,7 @@ module ObiterDicta
     include("CoinStruct.jl")
     include("RarityUtils.jl")
     include("RegisterFunction.jl")
+    include("Items.jl")
 
     # Utility Modes
     include("ExperienceLevels.jl")

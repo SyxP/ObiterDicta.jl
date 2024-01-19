@@ -1,11 +1,316 @@
 {
   "list": [
     {
+      "subchapterId": 100,
+      "nodeId": 10001,
+      "stageNodeType": "NORMAL",
+      "stageId": 10001,
+      "posx": 817,
+      "posy": 935,
+      "upper": 1
+    },
+    {
+      "subchapterId": 100,
+      "nodeId": 10002,
+      "stageNodeType": "NORMAL",
+      "stageId": 10002,
+      "posx": 1555,
+      "posy": 1358,
+      "upper": 0
+    },
+    {
+      "subchapterId": 100,
+      "nodeId": 10003,
+      "stageNodeType": "NORMAL",
+      "stageId": 10003,
+      "posx": 2306,
+      "posy": 935,
+      "upper": 1
+    },
+    {
+      "subchapterId": 100,
+      "nodeId": 10004,
+      "stageNodeType": "NORMAL",
+      "stageId": 10004,
+      "posx": 3167,
+      "posy": 1358,
+      "upper": 0
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10101,
+      "stageNodeType": "STORY",
+      "stageId": 10100,
+      "posx": 842,
+      "posy": 662,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10102,
+      "stageNodeType": "NORMAL",
+      "stageId": 10101,
+      "posx": 1558,
+      "posy": 475,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10103,
+      "stageNodeType": "NORMAL",
+      "stageId": 10102,
+      "posx": 2540,
+      "posy": 528,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10104,
+      "stageNodeType": "NORMAL",
+      "stageId": 10103,
+      "posx": 3519,
+      "posy": 690,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10105,
+      "stageNodeType": "NORMAL",
+      "stageId": 10104,
+      "posx": 4214,
+      "posy": 745,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10106,
+      "stageNodeType": "NORMAL",
+      "stageId": 10105,
+      "posx": 5073,
+      "posy": 599,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10107,
+      "stageNodeType": "NORMAL",
+      "stageId": 10106,
+      "posx": 5850,
+      "posy": 786,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10108,
+      "stageNodeType": "NORMAL",
+      "stageId": 10107,
+      "posx": 6819,
+      "posy": 786,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10109,
+      "stageNodeType": "NORMAL",
+      "stageId": 10108,
+      "posx": 7640,
+      "posy": 528,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10110,
+      "stageNodeType": "NORMAL",
+      "stageId": 10109,
+      "posx": 8407,
+      "posy": 565,
+      "upper": 1
+    },
+    {
+      "subchapterId": 101,
+      "nodeId": 10111,
+      "stageNodeType": "DUNGEON",
+      "stageId": 10101,
+      "posx": 9242,
+      "posy": 574,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10201,
+      "stageNodeType": "STORY",
+      "stageId": 10201,
+      "posx": 914,
+      "posy": 1390,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10202,
+      "stageNodeType": "NORMAL",
+      "stageId": 10202,
+      "posx": 1440,
+      "posy": 1137,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10203,
+      "stageNodeType": "STORY",
+      "stageId": 10203,
+      "posx": 2149,
+      "posy": 975,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10204,
+      "stageNodeType": "NORMAL",
+      "stageId": 10204,
+      "posx": 2794,
+      "posy": 914,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10205,
+      "stageNodeType": "NORMAL",
+      "stageId": 10205,
+      "posx": 3517,
+      "posy": 983,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10206,
+      "stageNodeType": "NORMAL",
+      "stageId": 10206,
+      "posx": 4278,
+      "posy": 1120,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10207,
+      "stageNodeType": "NORMAL",
+      "stageId": 10207,
+      "posx": 5052,
+      "posy": 979,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10208,
+      "stageNodeType": "NORMAL",
+      "stageId": 10208,
+      "posx": 5855,
+      "posy": 973,
+      "upper": 0
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10209,
+      "stageNodeType": "NORMAL",
+      "stageId": 10209,
+      "posx": 7082,
+      "posy": 859,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10210,
+      "stageNodeType": "NORMAL",
+      "stageId": 10210,
+      "posx": 7111,
+      "posy": 1488,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10211,
+      "stageNodeType": "NORMAL",
+      "stageId": 10211,
+      "posx": 6410,
+      "posy": 1488,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10212,
+      "stageNodeType": "NORMAL",
+      "stageId": 10212,
+      "posx": 5599,
+      "posy": 1490,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10213,
+      "stageNodeType": "NORMAL",
+      "stageId": 10213,
+      "posx": 5576,
+      "posy": 2450,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10214,
+      "stageNodeType": "NORMAL",
+      "stageId": 10214,
+      "posx": 6399,
+      "posy": 2450,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10215,
+      "stageNodeType": "NORMAL",
+      "stageId": 10215,
+      "posx": 7199,
+      "posy": 2450,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10216,
+      "stageNodeType": "STORY",
+      "stageId": 10216,
+      "posx": 7182,
+      "posy": 3461,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10217,
+      "stageNodeType": "STORY",
+      "stageId": 10217,
+      "posx": 6603,
+      "posy": 3461,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10218,
+      "stageNodeType": "NORMAL",
+      "stageId": 10218,
+      "posx": 5968,
+      "posy": 3461,
+      "upper": 1
+    },
+    {
+      "subchapterId": 102,
+      "nodeId": 10219,
+      "stageNodeType": "DUNGEON",
+      "stageId": 10201,
+      "posx": 5253,
+      "posy": 3461,
+      "upper": 1
+    },
+    {
       "subchapterId": 103,
       "nodeId": 10301,
       "stageNodeType": "STORY",
       "stageId": 10301,
-
       "posx": 1348,
       "posy": 2765,
       "upper": 0
@@ -15,7 +320,6 @@
       "nodeId": 10302,
       "stageNodeType": "NORMAL",
       "stageId": 10302,
-
       "posx": 2706,
       "posy": 2392,
       "upper": 1
@@ -25,47 +329,186 @@
       "nodeId": 10303,
       "stageNodeType": "STORY",
       "stageId": 10303,
-
       "posx": 3860,
       "posy": 2392,
       "upper": 1
     },
     {
-      "subchapterId": 9103,
-      "nodeId": 910301,
+      "subchapterId": 103,
+      "nodeId": 10304,
       "stageNodeType": "NORMAL",
-      "stageId": 910301,
-
-      "posx": 1000,
-      "posy": 1007,
+      "stageId": 10304,
+      "posx": 4534,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10305,
+      "stageNodeType": "NORMAL",
+      "stageId": 10305,
+      "posx": 5174,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10306,
+      "stageNodeType": "NORMAL",
+      "stageId": 10306,
+      "posx": 5900,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10307,
+      "stageNodeType": "STORY",
+      "stageId": 10307,
+      "posx": 6552,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10308,
+      "stageNodeType": "STORY",
+      "stageId": 10308,
+      "posx": 7256,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10309,
+      "stageNodeType": "STORY",
+      "stageId": 10309,
+      "posx": 7985,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10310,
+      "stageNodeType": "NORMAL",
+      "stageId": 10310,
+      "posx": 8655,
+      "posy": 2392,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10311,
+      "stageNodeType": "NORMAL",
+      "stageId": 10311,
+      "posx": 9356,
+      "posy": 2227,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10312,
+      "stageNodeType": "NORMAL",
+      "stageId": 10312,
+      "posx": 10043,
+      "posy": 1965,
+      "upper": 1
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10313,
+      "stageNodeType": "NORMAL",
+      "stageId": 10313,
+      "posx": 10527,
+      "posy": 1650,
       "upper": 0
     },
     {
-      "subchapterId": 9103,
-      "nodeId": 910302,
+      "subchapterId": 103,
+      "nodeId": 10314,
       "stageNodeType": "NORMAL",
-      "stageId": 910302,
-
-      "posx": 2700,
-      "posy": 1007,
-      "upper": 1
+      "stageId": 10314,
+      "posx": 11301,
+      "posy": 1650,
+      "upper": 0
     },
     {
-      "subchapterId": 9103,
-      "nodeId": 910303,
+      "subchapterId": 103,
+      "nodeId": 10315,
       "stageNodeType": "NORMAL",
-      "stageId": 910303,
-
-      "posx": 4200,
-      "posy": 1007,
-      "upper": 1
+      "stageId": 10315,
+      "posx": 12059,
+      "posy": 1650,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10316,
+      "stageNodeType": "NORMAL",
+      "stageId": 10316,
+      "posx": 12829,
+      "posy": 1650,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10317,
+      "stageNodeType": "NORMAL",
+      "stageId": 10317,
+      "posx": 13974,
+      "posy": 1234,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10318,
+      "stageNodeType": "NORMAL",
+      "stageId": 10318,
+      "posx": 14564,
+      "posy": 1234,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10319,
+      "stageNodeType": "NORMAL",
+      "stageId": 10319,
+      "posx": 15162,
+      "posy": 1234,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10320,
+      "stageNodeType": "NORMAL",
+      "stageId": 10320,
+      "posx": 15736,
+      "posy": 929,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10321,
+      "stageNodeType": "NORMAL",
+      "stageId": 10321,
+      "posx": 16428,
+      "posy": 742,
+      "upper": 0
+    },
+    {
+      "subchapterId": 103,
+      "nodeId": 10322,
+      "stageNodeType": "DUNGEON",
+      "stageId": 10301,
+      "posx": 17051,
+      "posy": 742,
+      "upper": 0
     },
     {
       "subchapterId": 104,
       "nodeId": 10401,
       "stageNodeType": "STORY",
       "stageId": 10401,
-
       "posx": 683,
       "posy": 1809,
       "upper": 0
@@ -74,8 +517,7 @@
       "subchapterId": 104,
       "nodeId": 10402,
       "stageNodeType": "NORMAL",
-      "stageId": 10002,
-
+      "stageId": 10402,
       "posx": 1490,
       "posy": 1809,
       "upper": 1
@@ -85,9 +527,1115 @@
       "nodeId": 10403,
       "stageNodeType": "NORMAL",
       "stageId": 10403,
-
       "posx": 2293,
       "posy": 1809,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10404,
+      "stageNodeType": "NORMAL",
+      "stageId": 10404,
+      "posx": 3096,
+      "posy": 1809,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10405,
+      "stageNodeType": "NORMAL",
+      "stageId": 10405,
+      "posx": 3899,
+      "posy": 1809,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10406,
+      "stageNodeType": "NORMAL",
+      "stageId": 10406,
+      "posx": 4702,
+      "posy": 1809,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10407,
+      "stageNodeType": "STORY",
+      "stageId": 10407,
+      "posx": 5459,
+      "posy": 1809,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10408,
+      "stageNodeType": "STORY",
+      "stageId": 10408,
+      "posx": 6410,
+      "posy": 2259,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10409,
+      "stageNodeType": "STORY",
+      "stageId": 10409,
+      "posx": 6410,
+      "posy": 2736,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10410,
+      "stageNodeType": "NORMAL",
+      "stageId": 10410,
+      "posx": 7169,
+      "posy": 2736,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10411,
+      "stageNodeType": "NORMAL",
+      "stageId": 10411,
+      "posx": 7555,
+      "posy": 2259,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10412,
+      "stageNodeType": "NORMAL",
+      "stageId": 10412,
+      "posx": 8371,
+      "posy": 2259,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10413,
+      "stageNodeType": "NORMAL",
+      "stageId": 10413,
+      "posx": 9011,
+      "posy": 2259,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10414,
+      "stageNodeType": "NORMAL",
+      "stageId": 10414,
+      "posx": 9959,
+      "posy": 2259,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10415,
+      "stageNodeType": "STORY",
+      "stageId": 10415,
+      "posx": 10881,
+      "posy": 2259,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10416,
+      "stageNodeType": "NORMAL",
+      "stageId": 10416,
+      "posx": 11742,
+      "posy": 2259,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10417,
+      "stageNodeType": "NORMAL",
+      "stageId": 10417,
+      "posx": 13048,
+      "posy": 1166,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10418,
+      "stageNodeType": "NORMAL",
+      "stageId": 10418,
+      "posx": 13828,
+      "posy": 1166,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10419,
+      "stageNodeType": "NORMAL",
+      "stageId": 10419,
+      "posx": 14801,
+      "posy": 1166,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10420,
+      "stageNodeType": "NORMAL",
+      "stageId": 10420,
+      "posx": 15574,
+      "posy": 1166,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10421,
+      "stageNodeType": "NORMAL",
+      "stageId": 10421,
+      "posx": 16053,
+      "posy": 735,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10422,
+      "stageNodeType": "NORMAL",
+      "stageId": 10422,
+      "posx": 16871,
+      "posy": 735,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10423,
+      "stageNodeType": "NORMAL",
+      "stageId": 10423,
+      "posx": 17726,
+      "posy": 735,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10424,
+      "stageNodeType": "NORMAL",
+      "stageId": 10424,
+      "posx": 18670,
+      "posy": 401,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10425,
+      "stageNodeType": "NORMAL",
+      "stageId": 10425,
+      "posx": 19428,
+      "posy": 401,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10426,
+      "stageNodeType": "STORY",
+      "stageId": 10426,
+      "posx": 20153,
+      "posy": 401,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10427,
+      "stageNodeType": "STORY",
+      "stageId": 10427,
+      "posx": 20947,
+      "posy": 401,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10428,
+      "stageNodeType": "STORY",
+      "stageId": 10428,
+      "posx": 23179,
+      "posy": 401,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10429,
+      "stageNodeType": "STORY",
+      "stageId": 10429,
+      "posx": 24415,
+      "posy": 1290,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10430,
+      "stageNodeType": "NORMAL",
+      "stageId": 10430,
+      "posx": 25962,
+      "posy": 1290,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10431,
+      "stageNodeType": "NORMAL",
+      "stageId": 10431,
+      "posx": 26872,
+      "posy": 1270,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10432,
+      "stageNodeType": "NORMAL",
+      "stageId": 10432,
+      "posx": 27862,
+      "posy": 2010,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10433,
+      "stageNodeType": "NORMAL",
+      "stageId": 10433,
+      "posx": 27081,
+      "posy": 2010,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10434,
+      "stageNodeType": "NORMAL",
+      "stageId": 10434,
+      "posx": 26330,
+      "posy": 2010,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10435,
+      "stageNodeType": "NORMAL",
+      "stageId": 10435,
+      "posx": 25549,
+      "posy": 2010,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10436,
+      "stageNodeType": "NORMAL",
+      "stageId": 10436,
+      "posx": 26106,
+      "posy": 2730,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10437,
+      "stageNodeType": "NORMAL",
+      "stageId": 10437,
+      "posx": 26893,
+      "posy": 2730,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10438,
+      "stageNodeType": "NORMAL",
+      "stageId": 10438,
+      "posx": 27681,
+      "posy": 2730,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10439,
+      "stageNodeType": "NORMAL",
+      "stageId": 10439,
+      "posx": 28425,
+      "posy": 2710,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10440,
+      "stageNodeType": "NORMAL",
+      "stageId": 10440,
+      "posx": 29401,
+      "posy": 2710,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10441,
+      "stageNodeType": "NORMAL",
+      "stageId": 10441,
+      "posx": 29415,
+      "posy": 3470,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10442,
+      "stageNodeType": "NORMAL",
+      "stageId": 10442,
+      "posx": 30245,
+      "posy": 3470,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10443,
+      "stageNodeType": "NORMAL",
+      "stageId": 10443,
+      "posx": 30950,
+      "posy": 3470,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10444,
+      "stageNodeType": "NORMAL",
+      "stageId": 10444,
+      "posx": 31778,
+      "posy": 3500,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10445,
+      "stageNodeType": "NORMAL",
+      "stageId": 10445,
+      "posx": 31778,
+      "posy": 4180,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10446,
+      "stageNodeType": "NORMAL",
+      "stageId": 10446,
+      "posx": 29645,
+      "posy": 4180,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10447,
+      "stageNodeType": "NORMAL",
+      "stageId": 10447,
+      "posx": 29645,
+      "posy": 7554,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10448,
+      "stageNodeType": "NORMAL",
+      "stageId": 10448,
+      "posx": 29193,
+      "posy": 7554,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10449,
+      "stageNodeType": "NORMAL",
+      "stageId": 10449,
+      "posx": 31244,
+      "posy": 7554,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10450,
+      "stageNodeType": "NORMAL",
+      "stageId": 10450,
+      "posx": 32477,
+      "posy": 7353,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10451,
+      "stageNodeType": "NORMAL",
+      "stageId": 10451,
+      "posx": 33158,
+      "posy": 7349,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10452,
+      "stageNodeType": "NORMAL",
+      "stageId": 10452,
+      "posx": 33801,
+      "posy": 7079,
+      "upper": 1
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10453,
+      "stageNodeType": "NORMAL",
+      "stageId": 10453,
+      "posx": 34337,
+      "posy": 6721,
+      "upper": 0
+    },
+    {
+      "subchapterId": 104,
+      "nodeId": 10454,
+      "stageNodeType": "DUNGEON",
+      "stageId": 10401,
+      "posx": 35070,
+      "posy": 6927,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10501,
+      "stageNodeType": "STORY",
+      "stageId": 10501,
+      "posx": 2312,
+      "posy": 2148,
+      "upper": 0
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10502,
+      "stageNodeType": "STORY",
+      "stageId": 10502,
+      "posx": 2756,
+      "posy": 2028,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10503,
+      "stageNodeType": "STORY",
+      "stageId": 10503,
+      "posx": 3314,
+      "posy": 1943,
+      "upper": 0
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10504,
+      "stageNodeType": "NORMAL",
+      "stageId": 10504,
+      "posx": 4636,
+      "posy": 1943,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10505,
+      "stageNodeType": "NORMAL",
+      "stageId": 10505,
+      "posx": 5594,
+      "posy": 2343,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10506,
+      "stageNodeType": "NORMAL",
+      "stageId": 10506,
+      "posx": 6117,
+      "posy": 2343,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10507,
+      "stageNodeType": "NORMAL",
+      "stageId": 10507,
+      "posx": 6117,
+      "posy": 1125,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10508,
+      "stageNodeType": "NORMAL",
+      "stageId": 10508,
+      "posx": 7822,
+      "posy": 1324,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10509,
+      "stageNodeType": "NORMAL",
+      "stageId": 10509,
+      "posx": 8592,
+      "posy": 1324,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10510,
+      "stageNodeType": "NORMAL",
+      "stageId": 10510,
+      "posx": 9771,
+      "posy": 1686,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10511,
+      "stageNodeType": "NORMAL",
+      "stageId": 10511,
+      "posx": 9672,
+      "posy": 2344,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10512,
+      "stageNodeType": "NORMAL",
+      "stageId": 10512,
+      "posx": 9675,
+      "posy": 2837,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10513,
+      "stageNodeType": "STORY",
+      "stageId": 10513,
+      "posx": 10245,
+      "posy": 2608,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10514,
+      "stageNodeType": "STORY",
+      "stageId": 10514,
+      "posx": 10768,
+      "posy": 2470,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10515,
+      "stageNodeType": "STORY",
+      "stageId": 10515,
+      "posx": 11275,
+      "posy": 2344,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10516,
+      "stageNodeType": "NORMAL",
+      "stageId": 10516,
+      "posx": 13286,
+      "posy": 1515,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10517,
+      "stageNodeType": "NORMAL",
+      "stageId": 10517,
+      "posx": 14008,
+      "posy": 1280,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10518,
+      "stageNodeType": "NORMAL",
+      "stageId": 10518,
+      "posx": 15446,
+      "posy": 1325,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10519,
+      "stageNodeType": "NORMAL",
+      "stageId": 10519,
+      "posx": 16252,
+      "posy": 1895,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10520,
+      "stageNodeType": "STORY",
+      "stageId": 10520,
+      "posx": 17370,
+      "posy": 2290,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10521,
+      "stageNodeType": "STORY",
+      "stageId": 10521,
+      "posx": 18390,
+      "posy": 2460,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10522,
+      "stageNodeType": "NORMAL",
+      "stageId": 10522,
+      "posx": 18390,
+      "posy": 2000,
+      "upper": 0
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10523,
+      "stageNodeType": "NORMAL",
+      "stageId": 10523,
+      "posx": 18850,
+      "posy": 2000,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10524,
+      "stageNodeType": "STORY",
+      "stageId": 10524,
+      "posx": 19430,
+      "posy": 2250,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10525,
+      "stageNodeType": "NORMAL",
+      "stageId": 10525,
+      "posx": 21240,
+      "posy": 1326,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10526,
+      "stageNodeType": "NORMAL",
+      "stageId": 10526,
+      "posx": 22934,
+      "posy": 1326,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10527,
+      "stageNodeType": "NORMAL",
+      "stageId": 10527,
+      "posx": 22934,
+      "posy": 1800,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10529,
+      "stageNodeType": "NORMAL",
+      "stageId": 10529,
+      "posx": 24163,
+      "posy": 1800,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10530,
+      "stageNodeType": "NORMAL",
+      "stageId": 10530,
+      "posx": 24163,
+      "posy": 1326,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10532,
+      "stageNodeType": "NORMAL",
+      "stageId": 10532,
+      "posx": 25000,
+      "posy": 1326,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10533,
+      "stageNodeType": "STORY",
+      "stageId": 10533,
+      "posx": 26470,
+      "posy": 1596,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10534,
+      "stageNodeType": "STORY",
+      "stageId": 10534,
+      "posx": 28140,
+      "posy": 825,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10535,
+      "stageNodeType": "NORMAL",
+      "stageId": 10535,
+      "posx": 30830,
+      "posy": 1125,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10537,
+      "stageNodeType": "NORMAL",
+      "stageId": 10537,
+      "posx": 32010,
+      "posy": 1125,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10538,
+      "stageNodeType": "STORY",
+      "stageId": 10538,
+      "posx": 34570,
+      "posy": 1840,
+      "upper": 1
+    },
+    {
+      "subchapterId": 105,
+      "nodeId": 10539,
+      "stageNodeType": "DUNGEON",
+      "stageId": 10501,
+      "posx": 35450,
+      "posy": 1840,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910301,
+      "stageNodeType": "NORMAL",
+      "stageId": 910301,
+      "posx": 1000,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910302,
+      "stageNodeType": "NORMAL",
+      "stageId": 910302,
+      "posx": 2700,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910303,
+      "stageNodeType": "NORMAL",
+      "stageId": 910303,
+      "posx": 4200,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910304,
+      "stageNodeType": "NORMAL",
+      "stageId": 910304,
+      "posx": 4800,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910305,
+      "stageNodeType": "NORMAL",
+      "stageId": 910305,
+      "posx": 5500,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910306,
+      "stageNodeType": "NORMAL",
+      "stageId": 910306,
+      "posx": 6500,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910307,
+      "stageNodeType": "NORMAL",
+      "stageId": 910307,
+      "posx": 7300,
+      "posy": 1007,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910308,
+      "stageNodeType": "NORMAL",
+      "stageId": 910308,
+      "posx": 8000,
+      "posy": 700,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910309,
+      "stageNodeType": "DUNGEON",
+      "stageId": 910301,
+      "posx": 8800,
+      "posy": 1000,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9103,
+      "nodeId": 910310,
+      "stageNodeType": "DUNGEON",
+      "stageId": 910302,
+      "posx": 8800,
+      "posy": 500,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910401,
+      "stageNodeType": "STORY",
+      "stageId": 910401,
+      "posx": 1281,
+      "posy": 1460,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910402,
+      "stageNodeType": "NORMAL",
+      "stageId": 910402,
+      "posx": 1992,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910403,
+      "stageNodeType": "NORMAL",
+      "stageId": 910403,
+      "posx": 2677,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910404,
+      "stageNodeType": "STORY",
+      "stageId": 910404,
+      "posx": 3497,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910405,
+      "stageNodeType": "NORMAL",
+      "stageId": 910405,
+      "posx": 4035,
+      "posy": 1340,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910406,
+      "stageNodeType": "STORY",
+      "stageId": 910406,
+      "posx": 4576,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910407,
+      "stageNodeType": "NORMAL",
+      "stageId": 910407,
+      "posx": 5225,
+      "posy": 900,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910408,
+      "stageNodeType": "NORMAL",
+      "stageId": 910408,
+      "posx": 5884,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910409,
+      "stageNodeType": "NORMAL",
+      "stageId": 910409,
+      "posx": 6448,
+      "posy": 1340,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910410,
+      "stageNodeType": "STORY",
+      "stageId": 910410,
+      "posx": 7187,
+      "posy": 975,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9104,
+      "nodeId": 910411,
+      "stageNodeType": "NORMAL",
+      "stageId": 910411,
+      "posx": 8294,
+      "posy": 1060,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910501,
+      "stageNodeType": "STORY",
+      "stageId": 910501,
+      "posx": 625,
+      "posy": 630,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910502,
+      "stageNodeType": "STORY",
+      "stageId": 910502,
+      "posx": 1167,
+      "posy": 630,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910503,
+      "stageNodeType": "NORMAL",
+      "stageId": 910503,
+      "posx": 2890,
+      "posy": 630,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910504,
+      "stageNodeType": "NORMAL",
+      "stageId": 910504,
+      "posx": 4115,
+      "posy": 638,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910505,
+      "stageNodeType": "NORMAL",
+      "stageId": 910505,
+      "posx": 3788,
+      "posy": 1370,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910506,
+      "stageNodeType": "NORMAL",
+      "stageId": 910506,
+      "posx": 4638,
+      "posy": 1370,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910507,
+      "stageNodeType": "NORMAL",
+      "stageId": 910507,
+      "posx": 5510,
+      "posy": 1370,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910508,
+      "stageNodeType": "NORMAL",
+      "stageId": 910508,
+      "posx": 6494,
+      "posy": 1370,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910509,
+      "stageNodeType": "NORMAL",
+      "stageId": 910509,
+      "posx": 8060,
+      "posy": 1370,
+      "upper": 1
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910510,
+      "stageNodeType": "NORMAL",
+      "stageId": 910510,
+      "posx": 9037,
+      "posy": 1200,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910511,
+      "stageNodeType": "NORMAL",
+      "stageId": 910511,
+      "posx": 9866,
+      "posy": 1200,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910512,
+      "stageNodeType": "STORY",
+      "stageId": 910512,
+      "posx": 11090,
+      "posy": 1200,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9105,
+      "nodeId": 910513,
+      "stageNodeType": "NORMAL",
+      "stageId": 910513,
+      "posx": 11825,
+      "posy": 1200,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9106,
+      "nodeId": 910601,
+      "stageNodeType": "NORMAL",
+      "stageId": 10552,
+      "posx": 0,
+      "posy": 0,
+      "upper": 0
+    },
+    {
+      "subchapterId": 9106,
+      "nodeId": 910602,
+      "stageNodeType": "NORMAL",
+      "stageId": 10553,
+      "posx": 0,
+      "posy": 0,
       "upper": 0
     }
   ]

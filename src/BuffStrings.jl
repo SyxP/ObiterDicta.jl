@@ -46,7 +46,7 @@ end
 
 getID(buff :: Buff) = buff.id 
 getName(buff :: Buff) = getLocalizedField(buff, "name", "", "")
-getMaxStacks(buff :: Buff) = getInternalField(buff, "maxStacks", 99, -1)
+getMaxStacks(buff :: Buff) = getInternalField(buff, "maxStack", 99, -1)
 getBuffClass(buff :: Buff) = getInternalField(buff, "buffClass", "No Class", "")
 getBuffType(buff :: Buff) = getInternalField(buff, "buffType", nothing, "")
 getBuffDespelled(buff :: Buff) = getInternalField(buff, "canBeDespelled", nothing, "")

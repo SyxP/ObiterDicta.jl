@@ -105,8 +105,8 @@
                   "buffData": {
                     "buffKeyword": "SlashTakeDamageUp",
                     "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
+                    "stack": 1,
+                    "turn": 0,
                     "activeRound": 1
                   }
                 }
@@ -378,8 +378,8 @@
                   "buffData": {
                     "buffKeyword": "PenetrateTakeDamageUp",
                     "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
+                    "stack": 1,
+                    "turn": 0,
                     "activeRound": 1
                   }
                 }
@@ -651,8 +651,8 @@
                   "buffData": {
                     "buffKeyword": "HitTakeDamageUp",
                     "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
+                    "stack": 1,
+                    "turn": 0,
                     "activeRound": 1
                   }
                 }

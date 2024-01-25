@@ -691,6 +691,115 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 10108,
+      "appearance": "10108_YiSang_DieciAppearance",
+      "unitKeywordList": [ "DIECI" ],
+      "characterId": 1,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1010804
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "KnowledgeExplored",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.82
+      },
+      "defCorrection": 3,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "SHAMROCK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          60,
+          30
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1010801,
+          "number": 3
+        },
+        {
+          "skillId": 1010802,
+          "number": 2
+        },
+        {
+          "skillId": 1010803,
+          "number": 1
+        }
+      ]
     }
   ]
 }

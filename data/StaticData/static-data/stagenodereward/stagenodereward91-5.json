@@ -162,20 +162,6 @@
           "num": 40
         }
       ]
-    },
-    {
-      "nodeid": 910513,
-      "acquireExp": 20,
-      "acquireTotalExpForPersonality": 600,
-      "normalClearRewards": [
-      ],
-      "exClearRewards": [
-        {
-          "type": "ITEM",
-          "id": 2,
-          "num": 40
-        }
-      ]
     }
   ]
 }

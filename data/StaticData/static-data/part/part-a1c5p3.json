@@ -1356,12 +1356,15 @@
           "relatedEventId": "MiracleOfDistrict20"
         },
         {
-          "chapterId": 91,
-          "subchapterId": 9106,
-          "nodeId": 910601,
-          "type": "STAGE_NODE",
-          "customChapterText": "1",
-          "relatedEventId": "DawnOfGreen"
+          "subchapterId": 9013,
+          "type": "STORY_THEATER",
+          "relatedEventId": "DawnOfGreen",
+          "uiConfig": {
+            "customChapterText": "1",
+            "region": "u",
+            "mapAreaId": 9106,
+            "illustId": "stage-node-id_910603"
+          }
         }
       ]
     },
@@ -1680,14 +1683,6 @@
               "posy": 1200,
               "upper": 0,
               "stageNodeType": "STORY"
-            },
-            {
-              "nodeId": 910513,
-              "stageId": 910513,
-              "posx": 11825,
-              "posy": 1200,
-              "upper": 0,
-              "stageNodeType": "NORMAL"
             }
           ],
           "nextMainchapterid": -1,
@@ -1709,6 +1704,11 @@
             {
               "nodeId": 910602,
               "stageId": 10553,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 910603,
+              "stageId": 10554,
               "stageNodeType": "NORMAL"
             }
           ],

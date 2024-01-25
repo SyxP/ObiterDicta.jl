@@ -104,7 +104,22 @@
             ],
             "profileId": "hook_honglu_profile",
             "analysisId": "hook_honglu_analysis"
-            }      
+            },
+            {
+              "personalityId": 10608,
+              "releaseDay": 20240125,
+              "cv_Id": "",
+              "personalityStoryList": [
+              {
+                "storyId": "P10608",
+                "lockCondition": "gacksung",
+                "order": 2,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "dieci_honglu_profile",
+            "analysisId": "dieci_honglu_analysis"
+            }       
         ]
     }
   ]

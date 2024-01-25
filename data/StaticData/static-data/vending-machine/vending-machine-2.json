@@ -4,7 +4,7 @@
 			"id": 2,
 			"bannerInfo": {
 				"bannerSpr": "banner_vendingMachine2",
-				"priority": 2
+				"priority": 12
 			},
 			"groups": [
 				{

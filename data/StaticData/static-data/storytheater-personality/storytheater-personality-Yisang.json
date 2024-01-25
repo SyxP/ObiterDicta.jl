@@ -104,6 +104,21 @@
             ],
             "profileId": "starb_yisang_profile",
             "analysisId": "starb_yisang_analysis"
+          },
+          {
+            "personalityId": 10108,
+            "releaseDay": 20240125,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10108",
+                "lockCondition": "gacksung",
+                "order": 3,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "dieci_yisang_profile",
+            "analysisId": "dieci_yisang_analysis"
           }
         ]
     }

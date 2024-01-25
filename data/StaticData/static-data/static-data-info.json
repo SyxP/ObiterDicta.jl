@@ -191,8 +191,8 @@
                 "gacha-4",
                 "gacha-5",
                 "gacha-6",
-                "gacha-151",
-                "gacha-152"
+                "gacha-153",
+                "gacha-154"
             ]
         },
         {
@@ -882,8 +882,7 @@
                 "restrict-participation-1",
                 "restrict-participation-a1c5p1",
                 "restrict-participation-a1c5p2",
-                "restrict-participation-a1c5p3",
-                "restrict-participation-2"
+                "restrict-participation-a1c5p3"
             ]
         },
         {
@@ -1001,6 +1000,12 @@
             "fileList": [
                 "event-newyear-2024-mission-condition"
             ]
+        },
+        {
+          "dataClass": "season-filter",
+          "fileList": [
+            "season-filter-1"
+          ]
         }
     ]
 }

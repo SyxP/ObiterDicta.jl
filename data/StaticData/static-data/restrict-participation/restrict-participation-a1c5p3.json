@@ -20,6 +20,11 @@
         {
           "id": 10553,
           "fixedAnnouncerIds": [ 10 ]
+        },
+        {
+          "id": 10554,
+          "fixedAnnouncerIds": [ 10 ],
+          "adjustedLevel": 40
         }
       ]
     }

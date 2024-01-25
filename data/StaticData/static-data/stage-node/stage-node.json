@@ -1637,6 +1637,15 @@
       "posx": 0,
       "posy": 0,
       "upper": 0
+    },
+    {
+      "subchapterId": 9106,
+      "nodeId": 910603,
+      "stageNodeType": "NORMAL",
+      "stageId": 10554,
+      "posx": 0,
+      "posy": 0,
+      "upper": 0
     }
   ]
 }

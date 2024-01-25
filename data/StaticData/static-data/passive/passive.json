@@ -2074,6 +2074,54 @@
       ]
     },
     {
+      "id": 1060801,
+      "attributeResonanceCondition": [
+        {
+          "type": "AZURE",
+          "value": 3
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1060821,
+      "attributeStockCondition": [
+        {
+          "type": "AZURE",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
+    },
+    {
+      "id": 1010801,
+      "attributeStockCondition": [
+        {
+          "type": "AMBER",
+          "value": 3
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1010821,
+      "attributeStockCondition": [
+        {
+          "type": "AMBER",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
+    },
+    {
       "id": 90001
     },
     {

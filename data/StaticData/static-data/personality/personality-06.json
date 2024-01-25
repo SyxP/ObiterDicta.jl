@@ -597,7 +597,7 @@
       "characterId": 6,
       "panicType": 9999,
       "season": 9101,
-      "walpurgisType" : "LOR",
+      "walpurgisType": "LOR",
       "defenseSkillIDList": [
         1060704
       ],
@@ -686,6 +686,115 @@
         },
         {
           "skillId": 1060703,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10608,
+      "appearance": "10608_Honglu_Dieci_Appearance",
+      "unitKeywordList": [ "DIECI" ],
+      "characterId": 6,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1060804
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "KnowledgeExplored",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 79,
+        "incrementByLevel": 2.51
+      },
+      "defCorrection": -1,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          30
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1060801,
+          "number": 3
+        },
+        {
+          "skillId": 1060802,
+          "number": 2
+        },
+        {
+          "skillId": 1060803,
           "number": 1
         }
       ]

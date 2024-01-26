@@ -1,4 +1,4 @@
-function getSinString(str)
+function getSinString(str; prefix = "", suffix = "")
     myDict = loadColourToSinDict()
     newStr = ""
     colour = getHexFromColour(str)
@@ -6,8 +6,9 @@ function getSinString(str)
         @warn "Unable to Parse Colour $str."
         return str
     end
+    S = join([prefix, myDict[str], suffix], "")
 
-    return Term.Style.apply_style("{$colour}" * myDict[str] * "{/$colour}")
+    return Term.Style.apply_style("{$colour}" * S * "{/$colour}")
 end
 
 function getHexFromColour(colour)

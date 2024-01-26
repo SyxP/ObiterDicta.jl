@@ -70,27 +70,27 @@ module ObiterDicta
 
     function getHelp()
         S = raw"""Available Commands:
-                  lang       - Set Language
-                  update     - Updates Data Files. Warning: for internal use
-                  search     - Fuzzy Search
+        lang       - Set Language
+        update     - Updates Data Files. Warning: for internal use
+        search     - Fuzzy Search
 
-                  exp        - Experience Levels
-                  buff       - Status Effects
-                  skill      - Skills
-                  id         - Sinner Identities
-                  ego        - E.G.Os
-                  ego-gift   - E.G.O Gifts
+        exp        - Experience Levels
+        buff       - Status Effects
+        skill      - Skills
+        id         - Sinner Identities
+        ego        - E.G.Os
+        ego-gift   - E.G.O Gifts
 
-                  md3        - Mirror Dungeon 3
+        md3        - Mirror Dungeon 3
                   
-                  greeting   - Profile Card Text
-                  id-voice   - Identity Voice Lines
-                  announcer  - Announcer Voice Lines
-                  clash-calc - Clash Calculator
+        greeting   - Profile Card Text
+        id-voice   - Identity Voice Lines
+        announcer  - Announcer Voice Lines
+        clash-calc - Clash Calculator
     
-                  For more information you can use `[command] help`.
-                  To save the output of a command to clipboard, use `clipboard [command]`.
-            """
+        For more information you can use `[command] help`.
+        To save the output of a command to clipboard, use `clipboard [command]`.
+        """
         println(S)
     end
 

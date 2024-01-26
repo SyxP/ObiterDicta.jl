@@ -1,0 +1,95 @@
+
+
+LIMBUS COMPANY
+Dieci South Section 4
+HongLu
+
+SKILL 1
+Expend Knowledge
+[On Use] Discard 1 Skill of the highest rank in all of this unit's Skill Slots
+[On Use] Gain Clash Power proportional to Insight
+[Heads Hit] Inflict Sinking Count
+[On Hit] Reuse Coin X times proportional to Insight
+
+SKILL 2
+Unveil
+[On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots
+[On Use] Gain Coin Power proportional to Insight
+[On Hit] Inflict Sinking
+
+SKILL 3
+Cyclical Knowledge
+[On Use] Gain Coin Power proportional to Insight
+[On Use] Deal more damage based on Sinking on target
+[On Hit] Inflict Sinking Count
+[After Attack] If the target is staggered or defeated, heal SP
+
+ENTITY INFO
+DEFENSE
+Guiding Steps
+[On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots
+
+PASSIVE
+Peering Through a Key
+- When Discarding a Skill, gain 'Damage Up' equal to the Discarded Skill Rank.
+- When other allies Discard a Skill, and if the ally's Discarded Skill Rank is higher than this unit's Insight value, gain Insight.
+
+SUPPORT PASSIVE
+Enlightenment
+After Attack: If the target is staggered or defeated by an attack from 1 ally with the least SP, the ally heals SP.
+
+Insight
+The rank of the last Skill Discarded by the unit with this effect (Base value: 1)
+
+*The identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Dieci South Section_4
+Yi Sang
+
+ENTITY INFO
+
+DEFENSE
+Fixated Study
+[On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots
+[On Use] Gain Aggro to this Skill Slot next turn
+
+PASSIVE
+Sinking Knowledge
+When attacked, inflict Sinking on the attacker.
+When attacked while Shielded, inflict additional Sinking on the attacker.
+
+SUPPORT PASSIVE
+Reviewed Knowledge
+When 1 ally with the highest Speed Discards a Skill, gain (X x Discarded Skill rank)% of the Max HP as Shield
+
+Insight
+The rank of the last Skill Discarded by the unit with this effect (Base value: 1)
+
+SKILL 1
+Expand Knowledge
+Gain (Insight x X% of Max HP) Shield if this Skill is Discarded
+Discard 1 Skill of the highest rank in all of this unit's Skill Slots
+[On Use] If target has X+ Sinking, gain Coin Power
+[On Hit] Lower user's Stagger Threshold by Insight
+[On Hit] Lower user's Stagger Threshold by Insight
+
+SKILL 2
+Seal Shut
+Gain (Insight x X% of Max HP) Shield if this Skill is Discarded
+Discard 1 Skill of the highest rank in all of this unit's Skill Slots
+[On Use] If the target has X+ Sinking, gain Coin Power
+[On Use] Gain Aggro to this Skill Slot next turn
+[On Hit] Inflict Sinking equal to Insight
+[On Hit] Inflict Sinking equal to Insight
+
+SKILL 3
+Grace of Knowledge
+Gain (Insight x X% of Max HP) Shield if this Skill is Discarded
+[On Use] Gain Aggro to this Skill Slot next turn
+[On Use] At X%-HP, gain Coin Power
+[On Hit] Inflict Sinking Count
+
+*The Identity's stats at max level and Uptie are displayed here.
+**This image is for reference only; actual details subject to change.
+

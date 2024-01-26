@@ -1,0 +1,23 @@
+[Notice: Clash VFX Issue Identified]
+
+Hello,
+This is Project Moon.
+
+We have identified an issue where the weapon trail vfx does not appear as intended in clashes.
+Below are more detailed explanations of this issue.
+
+Issue
+- Heads Coinflip vfx plays in clashes regardless of whether the Coins land on Heads or Tails
+
+Cause
+- Before Lobotomy E.G.O::Magic Bullet Outis' release, Clashes used to play only the Tails vfx regardless of whether the Clash Coins landed on Heads or Tails
+- As we were working on Lobotomy E.G.O::Magic Bullet Outis, an unintended change occurred where the Tails-only vfx now showed Heads-only vfx instead
+
+Planned Fix
+- We will adjust the in-game Clash vfx logic to play Heads Coinflip vfx when Clash Coins flip Heads, and Tails Coinflip vfx when Clash Coins flip Tails.
+
+Fix Deployment Period
+- After Feb. 8th 12:00 (KST) Scheduled Maintenance (With the new Client version)
+
+We apologize for causing inconvenience to your enjoyment of our game.
+

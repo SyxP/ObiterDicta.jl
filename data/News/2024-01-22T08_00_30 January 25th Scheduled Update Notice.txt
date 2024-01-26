@@ -1,0 +1,121 @@
+
+
+
+
+January 25th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Jan 25th, 2024 (KST).
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Dieci South Section 4 Hong Lu & Yi Sang]
+(Jan. 25th 12:00 ~ Feb. 8th 10:00 (KST))
+Extraction rate increases for the following identities.
+- 3★: Dieci South Section 4 Hong Lu
+- 2★: Dieci South Section 4 Yi Sang
+
+2. [Target Extraction: Sinclair]
+(Jan. 25th 12:00 ~ Feb. 8th 10:00 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+- E.G.O [HE]: Lantern Sinclair
+- 3★: Cinq South Section 4 Director Sinclair, The One Who Shall Grip Sinclair, Blade Lineage Salsu Sinclair
+- 2★: Lobotomy E.G.O.:: Red Sheet Sinclair, Los Mariachis Jefe Sinclair, Zwei South Section 6 Sinclair
+- 1★: LCB Sinner Sinclair
+
+3. New Identities added
+The following are added to the list of extractable Identities.
+- 3★: Dieci South Section 4 Hong Lu
+- 2★: Dieci South Section 4 Yi Sang
+
+1/4
+
+PROJECT MOON
+Major Changes
+
+1. Chapter 5.5 - [Miracle in District 20] Event Closure
+Chapter 5.5 - [Miracle in District 20] Event will end on Jan. 25th, 10:00 (KST).
+
+Event rewards can be claimed up to Feb. 1st 10:00 (KST), so please make sure to claim your rewards within that time.
+
+Even after the event fully ends, you will be able to experience the Event combat Encounters and view its story anytime at the Driverside and Theater - [Detour Tales].
+
+2. Walpurgis Night - [The Dawn of Green] Event Closure
+Walpurgis Night - [The Dawn of Green] Event will end on Jan. 25th, 10:00 (KST).
+
+Event rewards can be claimed up to Feb. 1st 10:00 (KST), so please make sure to claim your rewards within that time.
+
+Even after the event fully ends, you will be able to experience the Event combat Encounters and view its story anytime at the Driverside and Theater - [Detour Tales].
+
+Please note that, however, that Event combat Encounter will become accessible again only after Feb. 1st Scheduled Update.
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where The Pequod First Mate Yi Sang's Skill 2 'Relentless Stabbing' Coin Reuse effect activated even when the target evaded successfully
+
+▶ Fixed an issue where LCB Sinner Don Quixote's Support Passive 'Support' activation UI did not appear
+
+▶ Fixed an issue where, under certain circumstances, relevant status effect UI was duplicated
+
+▶ Fixed an issue where the players could not progress in the Refraction Railway when all allies were defeated.
+
+▶ Fixed an issue where an enemy Skill 'Shell Tackle!' effect [Inflict {Attack Type} Fragility] did not activate properly
+- Affected enemies
+1) Sharp Trash Crab - Inflict 1 Slash Fragility
+2) Hard Trash Crab - Inflict 1 Blunt Fragility
+3) Pointy Trash Crab - Inflict 1 Pierce Fragility
+
+▶ Fixed an issue where, under specific circumstances, allies & enemy sprites were moved to unintended locations on the map
+
+▶ Fixed an issue where, in the Mirror Dungeon 3 E.G.O Gift Compendium, clicking the already selected E.G.O Gift made the selection highlight disappear
+
+▶ Fixed an issue where, in the [Manager] menu or when selecting the main Identity in the Window, categorizing by Identities from Walpurgis Night did not include the Identities from this Walpurgis Night
+- Affected Identities : Lobotomy E.G.O::Magic Bullet Outis, Lobotomy E.G.O::Lantern Don Quixote
+
+▶ Fixed an issue where entering then exiting 'The Dawn of Green' loadout menu, then entering the Refraction Railway loadout menu caused the [Control Team Captain] buff UI to linger
+
+Known Issues after Jan. 25th Scheduled Update
+
+The below issues are currently known, and we are investigating solutions to each issue.
+We will notify you via a notice as soon as they are corrected.
+
+▶ An issue where, in the Mirror Dungeon Team Loadout menu, Sinners with Event Currency Up E.G.O shows the relevant buff icon
+※ Because Event Currencies cannot be obtained after the Event Closure, this effect/buff will no longer apply.
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Feb. 1st, 2024 (KST)
+- When: After Jan 25th, 2024 (Thu) 12:00 (KST)
+  - Can be claimed once per account
+
+Maintenance Compensation can be claimed until Feb. 1st (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

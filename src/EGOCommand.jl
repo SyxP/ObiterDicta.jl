@@ -354,7 +354,7 @@ function EGOCostFilter(sinType, op = ">", num = "0")
     return Filter{EGO}(Fn, filterStr)
 end
 
-for (defineFn, lookupFn, desc) in [(:EGOSkillBurstTremorFilter, burstTremor, "bursts tremor"),
+for (defineFn, lookupFn, desc) in [(:EGOSkillBurstTremorFilter, burstTremor, "trigger Tremor Burst"),
                                    (:EGOSkillAggroFilter, addAggro, "adds aggro")]
     @eval function ($defineFn)(skillStr)
         skillFn, skillDesc = getSkillFunctions(EGO, skillStr)

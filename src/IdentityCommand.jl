@@ -428,7 +428,7 @@ for (defineFn, lookupFn, desc) in [(:SinnerPassiveResonFilter, hasResonanceCondi
     end
 end
 
-for (defineFn, lookupFn, desc) in [(:SinnerSkillBurstTremorFilter, burstTremor, "bursts tremor"),
+for (defineFn, lookupFn, desc) in [(:SinnerSkillBurstTremorFilter, burstTremor, "trigger Tremor Burst"),
                                    (:SinnerSkillAggroFilter, addAggro, "adds aggro")]
     @eval function ($defineFn)(skillStr)
         skillFn, skillDesc = getSkillFunctions(Personality, skillStr)

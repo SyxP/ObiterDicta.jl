@@ -59,7 +59,7 @@ end
 
 getSinnerName(identity :: Personality) = getLocalizedField(identity, "name", "", "")
 function getSearchTitle(identity :: Personality)
-    getTitle(identity)*getSinnerName(identity)
+    return getTitle(identity)*getSinnerName(identity)
 end
 function getFullTitle(identity :: Personality)
     io = IOBuffer()
@@ -72,7 +72,7 @@ function getFullTitle(identity :: Personality)
     return String(take!(io))
 end
 function getFullTitle(identity :: Personality, level, uptie)
-    getFullTitle(identity) * " @ Uptie $uptie and Level $level"
+    return getFullTitle(identity) * " @ Uptie $uptie and Level $level"
 end
 
 InternalIdentityFields = [(:getCharID, "characterId", ""),
@@ -253,6 +253,7 @@ function getMainFields(identity :: Personality, level, uptie; verbose)
             push!(Fields, FieldStr)
         end
     end
+    
     AddField("Faction", join(getFactionList(identity), ", "))
     AddField("Speed Range", getSpeedRange(identity, uptie))
     AddField("Stagger Thres.", getBreakSectionsString(identity, level))

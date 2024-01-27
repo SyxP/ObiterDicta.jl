@@ -107,7 +107,7 @@ function getEscapedDesc(myEGOGift :: T) where T <: EGOGift
 
     upgradeS = replace(S, r"<style=\"upgradeHighlight\">([^<>]*)</style>" => s"{red}\1{/red}")
     upgradeS = Term.Style.apply_style(upgradeS)
-    return EscapeString(replaceSkillTag(upgradeS))
+    return getEscape(upgradeS)
 end
 
 function getTier(myEGOGift :: T) where T <: EGOGift
@@ -254,7 +254,7 @@ function getOtherFields(myEGOGift :: T) where T <: EGOGift
                         prefix = rpad(prefix, 5)
                     end
                     code = haskey(entry, "abilityID") ? " ($(@dim(string(entry["abilityID"]))))" : ""
-                    escEntry = EscapeString(replaceSkillTag(entry["simpleDesc"]))
+                    escEntry = getEscape(entry["simpleDesc"])
                     S = "$(prefix)Desc $(subidx)$code: $escEntry"
                     Content /= S
                 end

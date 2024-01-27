@@ -85,13 +85,13 @@ getDesc(myEnemy :: T) where T <: EnemyUnit = getLocalizedField(myEnemy, "desc", 
 
 InternalEnemyFields = [
     # id should use getID.
-    (:getKeywordList, "unitKeywordList", String[]),
+    (:getFactionList, "unitKeywordList", String[]),
     (:getNameID, "nameID", nothing),
     (:getAppearance, "appearance", ""),
     (:getSDPortrait, "sdPortrait", ""),
 
     (:getHP, "hp", Dict{String, Any}()),
-    (:getHasMP, "hasMp", false),
+    (:getHasMP, "hasMp", true),
     (:getMP, "mp", Dict{String, Any}()),
     (:getDefenseCorrection, "defCorrection", 0),
     (:getBreakSectionRaw, "breakSection", Int[]),
@@ -191,6 +191,19 @@ function getHPString(enemy :: RegularEnemyUnit)
     return "$(getBaseHP(enemy)) (+ $(getIncrementHP(enemy)))"
 end
 
+for (fnName, field) in [(:getAtkResistance, "atkResistList"),
+                        (:getSinResistance, "attributeResistList")]
+    @eval function ($fnName)(enemy :: RegularEnemyUnit, resistType)
+        resistDict = getResistancesRaw(enemy)
+        !haskey(resistDict, $field) && return nothing
+        for entry in resistDict[$field]
+            if entry["type"] == resistType
+                return entry["value"]
+            end
+        end
+        return 1.0
+    end
+end
 function getResistanceString(enemy :: RegularEnemyUnit; verbose)
     resistStrList = String[]
     resistDict = getResistancesRaw(enemy)
@@ -223,8 +236,9 @@ end
 function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
     Fields = getResistanceString(enemy; verbose)
     LongFields = String[]
-    function AddField(FieldName, FieldValue)
+    function AddField(FieldName, FieldValue; noFormat = false)
         FieldStr = @blue(FieldName)*": $(FieldValue)"
+        noFormat && (FieldStr = FieldName * ": $(FieldValue)")
         if length(FieldStr) > 40
             push!(LongFields, FieldStr)
             push!(Fields, "") # Keep Padding
@@ -232,20 +246,33 @@ function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
             push!(Fields, FieldStr)
         end
     end
-
+    
+    AddField("Faction", join(getFactionList(enemy), ", "))
     AddField("Speed Range", getSpeedRange(enemy))
     AddField("Stagger Thres.", getBreakSectionsString(enemy, level))
     AddField("Def. Level", getDefenseCorrString(enemy, level))
     AddField("HP", getHP(enemy, level))
+    AddField("Has MP", getHasMP(enemy))
 
     if verbose
         AddField("Detailed HP", getHPString(enemy))
         AddField("Stagger %", getBreakSectionRawString(enemy))
+        getHasMP(enemy) && AddField(@red("MP"), getMP(enemy); noFormat = true)
+
+        # Only print Level if it is not = 1
+        if getRawLevel(enemy) != 1
+            AddField("Level", getRawLevel(enemy))
+        end
+
+        (getNameID(enemy) !== nothing) && AddField("Name ID", getNameID(enemy))
+        (getSDPortrait(enemy) !== "") && AddField("SD Portrait", getSDPortrait(enemy))
+
+        AddField("Appearance", getAppearance(enemy))
     end
 
     Content = GridFromList(Fields, 4)
     Content /= join(LongFields, "\n ")
-    # verbose && (Content /= getPanicInfoStr(enemy))
+    verbose && getHasMP(enemy) && (Content /= getPanicInfoStr(enemy))
 
     return Content
 end
@@ -257,7 +284,9 @@ function getSubtitle(enemy)
     if Tmp != ""
         print(io, getSinString(Tmp; prefix = " "))
     end
-    return join([getDesc(enemy), String(take!(io))], " - ")
+    S = String(take!(io))
+    S == "" && return getDesc(enemy)
+    return join([getDesc(enemy), S], " - ")
 end
 
 function getTopPanel(enemy :: RegularEnemyUnit, level; verbose = false)
@@ -273,3 +302,21 @@ function getTopPanel(enemy :: RegularEnemyUnit, level; verbose = false)
         width=100,
         fit=false)
 end
+
+function getSanityFactors(enemy :: RegularEnemyUnit, type)
+    S = getMentalConditionRaw(enemy)
+    tier = getRawLevel(enemy)
+    
+    function readLevel(entry)
+        get(entry, "level", -1)
+    end
+
+    if haskey(S, type)
+        return getLevelList(S[type], readLevel, tier)
+    end
+    return String[]
+end
+getPositiveSanityFactors(enemy :: RegularEnemyUnit) =
+    getSanityFactors(enemy, "add")
+getNegativeSanityFactors(enemy :: RegularEnemyUnit) =
+    getSanityFactors(enemy, "min")

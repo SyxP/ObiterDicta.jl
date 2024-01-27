@@ -48,7 +48,7 @@ end
 
 function EscapeString(str = clipboard())
     nStr = strip(replace(str, "{" => "[[", "}" => "]]"))
-    nStr = replace(nStr, r"</?[a-zA-Z=%0-9]+>" => "")
+    nStr = replace(nStr, r"</?[a-zA-Z=%0-9\" #]+>" => "")
     nStr = replace(nStr, r"  +" => " ")
     return strip(nStr)
 end
@@ -62,7 +62,9 @@ function EscapeAndFlattenField(value)
 end
 
 function getEscape(fn, x)
-    str = fn(x)
+    return getEscape(fn(x))
+end
+function getEscape(str :: String)
     str === nothing && return nothing
     return EscapeString(replaceSkillTag(str))
 end
@@ -96,3 +98,27 @@ function replaceNumHoles(inputStr, holedStr; PercentageFlag = false)
 end
 
 LineBreak(S) =  hLine(93, "{bold white}$S{/bold white}", box = :DOUBLE)
+
+function justifyColumn(Str, ScreenWidth = 85)
+    ArrayText = []
+    Curr = firstindex(Str)
+    if textwidth(Str) > ScreenWidth
+        for c in eachindex(Str)
+            if c == lastindex(Str)
+                push!(ArrayText, Str[Curr:((Str[c] == '\n') ? prevind(Str, c) : c)])
+            elseif Str[c] == '\n'
+                push!(ArrayText, Str[Curr:prevind(Str, c)])
+                Curr = nextind(Str, c)
+                continue
+            end
+
+            textwidth(Str[Curr:c]) < ScreenWidth && continue
+            getLangMode() == "en" && Str[c] != ' ' && continue
+            
+            push!(ArrayText, Str[Curr:prevind(Str, c)])
+            Curr = c
+        end
+    end
+
+    return join(strip.(ArrayText), "\n")
+end

@@ -142,9 +142,10 @@ function getOtherFields(myPassive :: Passive)
     return String(take!(io))
 end
 
-function PassivePanel(myPassive :: Passive; subtitle = "")
+function PassivePanel(myPassive :: Passive; subtitle = "", overwriteSub = false)
     title = getTitle(myPassive)
-    mysub = subtitle * " " * getReqCondition(myPassive)
+    mySub = overwriteSub ? "" : getReqCondition(myPassive)
+    mySub = String(strip(subtitle * " " * mySub))
     
     content = getTopLine(myPassive)
     OtherFields = getOtherFields(myPassive)
@@ -152,14 +153,22 @@ function PassivePanel(myPassive :: Passive; subtitle = "")
         content /= LineBreak("Other Fields")
         content /= TextBox(OtherFields; width = 93, fit = false)
     end
-    
-    return output = Panel(
-    content,
-    title = title, 
-    subtitle = mysub,
-    subtitle_justify = :right,
-    width = 100,
-    fit = false)
+
+    if mySub != ""
+        return output = Panel(
+            content,
+            title = title, 
+            subtitle = mySub,
+            subtitle_justify = :right,
+            width = 100,
+            fit = false)
+    else
+        return output = Panel(
+            content,
+            title = title, 
+            width = 100,
+            fit = false)
+    end
 end
 
 function toString(myPassive :: Passive)

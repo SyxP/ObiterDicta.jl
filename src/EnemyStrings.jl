@@ -125,6 +125,20 @@ for (fn, field, default) in InternalEnemyFields
         getInternalField(myEnemy, $field, $default, $default)
 end
 
+function getOtherFields(enemy :: RegularEnemyUnit)
+    Entries = Tuple{String, String}[]
+    EntriesToSkip = [x[2] for x in InternalEnemyFields]
+    for (key, value) in getInternalVersion(enemy)
+        key == "id" && continue
+        key in EntriesToSkip && continue
+        Tmp = EscapeAndFlattenField(value)
+
+        push!(Entries, (key, Tmp))
+    end
+    
+    return Entries
+end
+
 function getSearchTitle(enemy :: RegularEnemyUnit)
     return getName(enemy)
 end
@@ -239,7 +253,7 @@ function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
     function AddField(FieldName, FieldValue; noFormat = false)
         FieldStr = @blue(FieldName)*": $(FieldValue)"
         noFormat && (FieldStr = FieldName * ": $(FieldValue)")
-        if length(FieldStr) > 40
+        if length(completeStrip(FieldStr)) > 30
             push!(LongFields, FieldStr)
             push!(Fields, "") # Keep Padding
         else
@@ -268,10 +282,16 @@ function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
         (getSDPortrait(enemy) !== "") && AddField("SD Portrait", getSDPortrait(enemy))
 
         AddField("Appearance", getAppearance(enemy))
+
+        OtherFields = getOtherFields(enemy)
+        for (key, value) in OtherFields
+            AddField(key, value; noFormat = true)
+        end
     end
 
     Content = GridFromList(Fields, 4)
-    Content /= join(LongFields, "\n ")
+    Content /= join(LongFields, "\n")
+    Content /= getPatternString(enemy)
     verbose && getHasMP(enemy) && (Content /= getPanicInfoStr(enemy))
 
     return Content
@@ -320,3 +340,69 @@ getPositiveSanityFactors(enemy :: RegularEnemyUnit) =
     getSanityFactors(enemy, "add")
 getNegativeSanityFactors(enemy :: RegularEnemyUnit) =
     getSanityFactors(enemy, "min")
+
+function getPatternString(enemy)
+    io = IOBuffer()
+    if getPatternID(enemy) != "-1"
+        println(io, "$(@blue("Pattern ID")): $(getPatternID(enemy))")
+    end
+
+    print(io, @red("Starting Action Slots: "))
+    print(io, join(string.(getStartActionSlotList(enemy)), ", "))
+    print(io, " "^10)
+    print(io, @red("Max Slots: "))
+    print(io, getMaxActionSlot(enemy))
+    print(io, "\n")
+
+
+    Tree = getPatternList(enemy)
+    if length(Tree) > 0
+        print(io, DisplaySlotListAsTree(Tree, "Slot List"))
+    end
+
+    return String(take!(io))
+end
+
+
+function getCombatSkillPanel(enemy :: RegularEnemyUnit, level; verbose = false)
+    Panels = []
+    tier = getRawLevel(enemy)
+    for (idx, entry) in enumerate(getSkillList(enemy))
+        Ct = @blue(string(entry["number"]))
+        Skill = CombatSkill(entry["skillId"])
+        prefixTitle = "$Ct× Skill $(@blue(string(idx))):"
+        push!(Panels, InternalSkillPanel(Skill, tier, level; verbose = verbose, addedTitle = prefixTitle))
+    end
+
+    return vstack(Panels...)
+end
+
+function getPassiveList(enemy :: RegularEnemyUnit)
+    return Passive.(get(getPassiveListRaw(enemy), "passiveIdList", Int[]))
+end
+
+
+function getPassivePanel(enemy :: RegularEnemyUnit)
+    Panels = []
+    S = getPassiveList(enemy)
+
+    if length(S) == 1
+        push!(Panels, PassivePanel(S[1]))
+    else
+        for (idx, entry) in enumerate(getPassiveList(enemy))
+            prefixTitle = "Passive $(@blue(string(idx))):"
+            push!(Panels, PassivePanel(entry; subtitle = prefixTitle))
+        end
+    end
+
+    return vstack(Panels...)
+end
+
+function getFullPanel(enemy :: RegularEnemyUnit, level; verbose = false,
+                      showSkills = true, showPassives = true)
+    Ans = getTopPanel(enemy, level; verbose)
+    showSkills && (Ans /= getCombatSkillPanel(enemy, level; verbose))
+    showPassives && (Ans /= getPassivePanel(enemy))
+
+    return Ans
+end

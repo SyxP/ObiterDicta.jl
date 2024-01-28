@@ -177,6 +177,11 @@ function getOtherFields(skill :: CombatSkill, tier = getMaxTier(CombatSkill))
     Entries = String[]
     LongEntries = String[]
     EntriesToSkip = [x[2] for x in LocalCombatFields]
+
+    if getInternalLevelList(skill, tier) === nothing
+        return Entries, LongEntries
+    end
+
     for (key, value) in getInternalLevelList(skill, tier)
         key in EntriesToSkip && continue
         

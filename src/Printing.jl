@@ -1,5 +1,4 @@
 function DisplaySkillAsTree(SkillDict, Title = "")
-
     myDict = deepcopy(SkillDict)
     if haskey(myDict, "ability")
         Title *= " (" * @red(myDict["ability"])
@@ -20,6 +19,62 @@ function DisplaySkillAsTree(SkillDict, Title = "")
         delete!(myDict, "scriptName")
     end
 
+    function pn(io, node; kw...)
+        # https://github.com/FedeClaudi/Term.jl/issues/206
+        if node == myDict
+            print(io, Title)
+        elseif node isa AbstractDict
+            print(io, string(typeof(node)))
+        elseif node isa AbstractVector
+            print(io, string(typeof(node)))
+        else
+            print(io, node)
+        end
+    end
+    Term.Tree(myDict; print_node_function = pn)
+end
+
+function ReconstructSlotList(VectorSlotList)
+    if VectorSlotList isa AbstractVector
+        NewDict = Any[]
+        for (idx, entry) in enumerate(VectorSlotList)
+            if entry isa AbstractDict
+                if haskey(entry, "chance") && 
+                   haskey(entry, "skillChildList")
+                    
+                    SkillList = entry["skillChildList"]
+                    StringList = String[]
+                    for skillEntry in SkillList
+                        combatSkill = CombatSkill(skillEntry["skillID"])
+                        combatChance = skillEntry["chance"]
+                        combatSkillName = getName(combatSkill)
+                        (combatSkillName === nothing) && (combatSkillName = "")
+
+                        outputStr = "(" * @blue(combatSkillName) * ", $combatChance)"
+                        push!(StringList, outputStr)
+                    end
+
+                    ChanceNum = entry["chance"]
+                    return "Chance = $ChanceNum; " * join(StringList, ", ")
+                end
+            end        
+            
+            length(keys(entry)) != 1 && return deepcopy(VectorSlotList)
+            entryName = collect(keys(entry))[1]
+            newKey = "$entryName $idx"
+            newEntry = entry[entryName]
+
+            push!(NewDict, ReconstructSlotList(entry[entryName]))
+        end
+        return NewDict
+    end
+        
+    return deepcopy(VectorSlotList)
+end
+
+function DisplaySlotListAsTree(SlotList, Title = "")
+    myDict = ReconstructSlotList(SlotList)
+    
     function pn(io, node; kw...)
         # https://github.com/FedeClaudi/Term.jl/issues/206
         if node == myDict

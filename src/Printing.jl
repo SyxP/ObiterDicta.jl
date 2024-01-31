@@ -46,6 +46,7 @@ function ReconstructSlotList(VectorSlotList)
                     StringList = String[]
                     for skillEntry in SkillList
                         combatSkill = CombatSkill(skillEntry["skillID"])
+                        getID(combatSkill) == -1 && continue
                         combatChance = skillEntry["chance"]
                         combatSkillName = getName(combatSkill)
                         (combatSkillName === nothing) && (combatSkillName = "")

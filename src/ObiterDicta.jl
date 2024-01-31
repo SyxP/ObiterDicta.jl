@@ -152,6 +152,7 @@ module ObiterDicta
     include("MirrorDungeon3.jl")
 
     include("EnemyStrings.jl")
+    include("AbnormalityGuides.jl")
 
     include("ClashCalculator.jl")
 

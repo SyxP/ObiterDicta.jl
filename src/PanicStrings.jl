@@ -77,7 +77,7 @@ function getPanicInfoStr(identity :: Personality, uptie)
     return vstack(Ans, join(Outcomes, "\n"))
 end
 
-function getPanicInfoStr(enemy :: RegularEnemyUnit)
+function getPanicInfoStr(enemy :: T) where T <: EnemyUnit
     PanicID = getPanicType(enemy)
 
     panicThreshold = getPanicValue(enemy)

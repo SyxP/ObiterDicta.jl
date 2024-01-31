@@ -1,6 +1,8 @@
 function getSinString(str; prefix = "", suffix = "")
     myDict = loadColourToSinDict()
     newStr = ""
+
+    str === nothing && return "nothing"
     colour = getHexFromColour(str)
     if !haskey(myDict, str)
         @warn "Unable to Parse Colour $str."
@@ -8,11 +10,20 @@ function getSinString(str; prefix = "", suffix = "")
     end
     S = join([prefix, myDict[str], suffix], "")
 
-    return Term.Style.apply_style("{$colour}" * S * "{/$colour}")
+    if colour !== nothing
+        return Term.Style.apply_style("{$colour}" * S * "{/$colour}")
+    else
+        return S
+    end
 end
 
 function getHexFromColour(colour)
-    # TODO : Change this to use ui/ColorCode.json
+    if colour === nothing
+        return nothing
+    end
+    
+    # This does not use ui/ColorCode.json
+    # This is due to supporting both light and dark themes.
     Mapping = Dict{String, String}(
         "CRIMSON" => "red",
         "SCARLET" => "#FFA500",
@@ -87,7 +98,11 @@ function getEGOGiftKeywordFromAttribute()
         colourValue = "Random"
         if attributeType != ""
             colour = getHexFromColour(attributeType)
-            colourValue = Term.Style.apply_style("{$colour}" * value * "{/$colour}")
+            if colour !== nothing
+                colourValue = Term.Style.apply_style("{$colour}" * value * "{/$colour}")
+            else
+                colourValue = value
+            end
         end
 
         replaceDict[attributeType] = colourValue

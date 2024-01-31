@@ -8,21 +8,28 @@ struct AbnormalityEnemyUnit <: EnemyUnit
     id :: Int
 end
 
+struct AbnormalityPart <: EnemyUnit
+    id :: Int
+end
+
 getMasterFileClasses(::Type{RegularEnemyUnit}) = ["enemy"]
 getMasterFileClasses(::Type{AbnormalityEnemyUnit}) = ["abnormality-unit"]
+getMasterFileClasses(::Type{AbnormalityPart}) = ["abnormality-part"]
 
 EnemyUnitMasterList = RegularEnemyUnit[]
 AbnormalityMasterList = AbnormalityEnemyUnit[]
+AbnormalityPartMasterList = AbnormalityPart[]
 
 for (typeEnemy, masterList) in [(RegularEnemyUnit, EnemyUnitMasterList),
-                                (AbnormalityEnemyUnit, AbnormalityMasterList)]
+                                (AbnormalityEnemyUnit, AbnormalityMasterList),
+                                (AbnormalityPart, AbnormalityPartMasterList)]
     @eval function getMasterList(::Type{$typeEnemy})
         getMasterList($typeEnemy, $masterList)
     end
 end
 
 function enemyUnitTypes()
-    return [RegularEnemyUnit, AbnormalityEnemyUnit]
+    return [RegularEnemyUnit, AbnormalityEnemyUnit, AbnormalityPart]
 end
 function getMasterFileClasses(::Type{EnemyUnit})
     Lst = [getMasterFileClasses(tEnemy) for tEnemy in enemyUnitTypes()]
@@ -92,7 +99,7 @@ InternalEnemyFields = [
 
     (:getHP, "hp", Dict{String, Any}()),
     (:getHasMP, "hasMp", true),
-    (:getMP, "mp", Dict{String, Any}()),
+    (:getMP, "mp", nothing),
     (:getDefenseCorrection, "defCorrection", 0),
     (:getBreakSectionRaw, "breakSection", Int[]),
     (:getRawLevel, "level", -1), ## Note this is over-written by the stage information.
@@ -125,9 +132,94 @@ for (fn, field, default) in InternalEnemyFields
         getInternalField(myEnemy, $field, $default, $default)
 end
 
-function getOtherFields(enemy :: RegularEnemyUnit)
+AbnormalityFieldsToSkip = [
+    "defCorrection",
+    "minSpeedList",
+    "maxSpeedList",
+    "startActionSlotNumList",
+    "initBuffList"
+]
+
+for (fn, field, default) in InternalEnemyFields
+    field ∈ AbnormalityFieldsToSkip && continue
+    @eval $fn(myEnemy :: AbnormalityEnemyUnit) =
+        getInternalField(myEnemy, $field, $default, $default)
+end
+
+InternalAbnormalityFields = [
+    (:getPartListRaw, "abnormalityPartList", Int[]),
+    (:getPhaseListRaw, "phaseIDList", Int[]),
+    (:getAggro, "aggro", nothing),
+
+    (:getShowAtkLevel, "showAtkLevel", true),
+    (:getShowDefLevel, "showDefLevel", true),
+    (:getShowHP, "showHp", true),
+    (:getShowUnitLevel, "showUnitLevel", true),
+
+    (:getStartActionSlot, "startActionSlotNum", nothing), 
+    
+    (:getStoryID, "storyID", nothing),
+    (:getViewID, "viewid", nothing)
+] 
+
+for (fn, field, default) in InternalAbnormalityFields
+    @eval $fn(myEnemy :: AbnormalityEnemyUnit) =
+        getInternalField(myEnemy, $field, $default, $default)
+end
+
+InternalAbnormalityPartFields = [
+    #id should use getID.
+    (:getNameID, "nameID", nothing),    
+    (:getViewID, "viewid", nothing),
+    (:getSDPortrait, "sdPortrait", ""),
+
+    (:getPartType, "partType", ""),
+    (:getHP, "hp", Dict{String, Any}()),
+    (:getDefenseCorrection, "defCorrection", 0),
+    (:getBreakSectionRaw, "breakSection", Int[]),
+    (:getIsDestroyable, "isDestroyable", false),
+
+    (:getSkillList, "attributeList", Dict{String, Any}[]),
+    (:getResistancesRaw, "resistInfo", Dict{String, Any}()),
+
+    (:getMinSpeedList, "minSpeedList", Int[]),
+    (:getMaxSpeedList, "maxSpeedList", Int[]),
+    (:getPassiveListRaw, "passiveSet", Dict{String, Any}()),
+
+    (:getCanChangeSpriteOnDestroyed, "canChangeSpriteOnDestoryed", false),
+    (:getCanUseSkillOnDestroyed, "canUseSkillOnDestroyed", false),
+    (:getCanVanish, "canVanish", false),
+
+    (:getShowAtkLevel, "showAtkLevel", true),
+    (:getShowDefLevel, "showDefLevel", true),
+    (:getShowHP, "showHp", true),
+    (:getShowUnitLevel, "showUnitLevel", true),
+]
+
+for (fn, field, default) in InternalAbnormalityPartFields
+    @eval $fn(myEnemy :: AbnormalityPart) =
+        getInternalField(myEnemy, $field, $default, $default)
+end
+
+function getKeywordUsed(::Type{RegularEnemyUnit})
+    [x[2] for x in InternalEnemyFields]
+end
+function getKeywordUsed(::Type{AbnormalityEnemyUnit})
+    Ans = [x[2] for x in InternalAbnormalityFields]
+    for x in InternalEnemyFields
+        x[2] ∈ AbnormalityFieldsToSkip && continue
+        push!(Ans, x[2])
+    end
+
+    return Ans
+end
+function getKeywordUsed(::Type{AbnormalityPart})
+    [x[2] for x in InternalAbnormalityPartFields]
+end
+
+function getOtherFields(enemy :: T) where T <: EnemyUnit
     Entries = Tuple{String, String}[]
-    EntriesToSkip = [x[2] for x in InternalEnemyFields]
+    EntriesToSkip = getKeywordUsed(T)
     for (key, value) in getInternalVersion(enemy)
         key == "id" && continue
         key in EntriesToSkip && continue
@@ -139,10 +231,11 @@ function getOtherFields(enemy :: RegularEnemyUnit)
     return Entries
 end
 
-function getSearchTitle(enemy :: RegularEnemyUnit)
+function getSearchTitle(enemy :: T) where T <: EnemyUnit
     return getName(enemy)
 end
-function getFullTitle(enemy :: RegularEnemyUnit)
+
+function getFullTitle(enemy :: T) where T <: EnemyUnit
     io = IOBuffer()
     print(io, @blue(getName(enemy)))
     print(io, " (")
@@ -151,24 +244,35 @@ function getFullTitle(enemy :: RegularEnemyUnit)
 
     return String(take!(io))
 end
-function getFullTitle(enemy :: RegularEnemyUnit, level)
+
+function getFullTitle(enemy :: T, level) where T <: EnemyUnit
     return getFullTitle(enemy) * " @ Level $level"
 end
 
-function getSpeedRange(enemy :: RegularEnemyUnit)
-    # MinSpeed and MaxSpeed are always lenght 1
+function getSpeedRange(enemy :: T) where T <: EnemyUnit
+    if T == AbnormalityEnemyUnit
+        # Abnormalities don't have speed range. Try Abnormality Parts
+        return ""
+    end
+    
+    # MinSpeed and MaxSpeed are always length 1
     minSpeed = getMinSpeedList(enemy)[1]
     maxSpeed = getMaxSpeedList(enemy)[1]
     return "$minSpeed - $maxSpeed"
 end
 
-function getDefenseCorrString(enemy :: RegularEnemyUnit, level)
+function getDefenseCorrString(enemy :: T, level) where T <: EnemyUnit
+    if T == AbnormalityEnemyUnit
+        # Abnormalities don't have defense correction. Try Abnormality Parts
+        return ""
+    end
+
     defenseCorr = getDefenseCorrection(enemy)
-    totalDef = defenseCorr + level
+    totalDef = max(0, defenseCorr + level)
     return "$totalDef (" * @dim(NumberStringWithSign(defenseCorr)) * ")"
 end
 
-function getHPField(enemy :: RegularEnemyUnit, field; debug = GlobalDebugMode)
+function getHPField(enemy :: T, field; debug = GlobalDebugMode) where T <: EnemyUnit
     HPData = getHP(enemy)
     try
         return HPData[field]
@@ -177,10 +281,10 @@ function getHPField(enemy :: RegularEnemyUnit, field; debug = GlobalDebugMode)
         return 0
     end
 end
-getBaseHP(enemy :: RegularEnemyUnit) = getHPField(enemy, "defaultStat")
-getIncrementHP(enemy :: RegularEnemyUnit) = getHPField(enemy, "incrementByLevel")
+getBaseHP(enemy :: T) where T <: EnemyUnit = getHPField(enemy, "defaultStat")
+getIncrementHP(enemy :: T) where T <: EnemyUnit = getHPField(enemy, "incrementByLevel")
 
-function getHP(enemy :: RegularEnemyUnit, level)
+function getHP(enemy :: T, level) where T <: EnemyUnit
     baseHP = getBaseHP(enemy)
     increment = getIncrementHP(enemy)
 
@@ -188,26 +292,41 @@ function getHP(enemy :: RegularEnemyUnit, level)
     roundedHP = round(Int, totalHP, RoundNearestTiesUp)
     return roundedHP
 end
-function getBreakSections(enemy :: RegularEnemyUnit, level)
+function getBreakSections(enemy :: T, level) where T
+    if T == AbnormalityEnemyUnit
+        # Generally Abnormality do not have Break Sections. Try Abnormality Parts
+        return []
+    end
+
     Sections = getBreakSectionRaw(enemy)["sectionList"]
     TotalHP = getHP(enemy, level)
     return reverse([round(Int, TotalHP*x/100, RoundNearestTiesUp) for x in Sections])
 end
-function getBreakSectionRawString(enemy :: RegularEnemyUnit)
+function getBreakSectionRawString(enemy :: T) where T <: EnemyUnit
+    if T == AbnormalityEnemyUnit
+        # Generally Abnormality do not have Break Sections. Try Abnormality Parts
+        return ""
+    end
+
     Sections = getBreakSectionRaw(enemy)["sectionList"]
     return join(Sections, ", ")
 end
-function getBreakSectionsString(enemy :: RegularEnemyUnit, level)
+function getBreakSectionsString(enemy :: T, level) where T <: EnemyUnit
+    if T == AbnormalityEnemyUnit
+        # Generally Abnormality do not have Break Sections. Try Abnormality Parts
+        return ""
+    end
+
     Sections = getBreakSections(enemy, level)
     return join(Sections, ", ")
 end
-function getHPString(enemy :: RegularEnemyUnit)
+function getHPString(enemy :: T) where T <: EnemyUnit
     return "$(getBaseHP(enemy)) (+ $(getIncrementHP(enemy)))"
 end
 
 for (fnName, field) in [(:getAtkResistance, "atkResistList"),
                         (:getSinResistance, "attributeResistList")]
-    @eval function ($fnName)(enemy :: RegularEnemyUnit, resistType)
+    @eval function ($fnName)(enemy :: T, resistType) where T <: EnemyUnit
         resistDict = getResistancesRaw(enemy)
         !haskey(resistDict, $field) && return nothing
         for entry in resistDict[$field]
@@ -218,7 +337,7 @@ for (fnName, field) in [(:getAtkResistance, "atkResistList"),
         return 1.0
     end
 end
-function getResistanceString(enemy :: RegularEnemyUnit; verbose)
+function getResistanceString(enemy :: T; verbose) where T <: EnemyUnit
     resistStrList = String[]
     resistDict = getResistancesRaw(enemy)
     if haskey(resistDict, "atkResistList")
@@ -247,7 +366,18 @@ function getResistanceString(enemy :: RegularEnemyUnit; verbose)
     return resistStrList
 end
 
-function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
+function getAbnormalityPartsList(enemy :: AbnormalityEnemyUnit)
+    AbnormalityPart.(getPartListRaw(enemy))
+end
+function getAbnormalityPhasesList(enemy :: AbnormalityEnemyUnit)
+    AbnormalityEnemyUnit.(getPhaseListRaw(enemy))
+end
+
+function showPanicPanel(enemy :: AbnormalityEnemyUnit)
+    getHasMP(enemy) && (getPanicValue(enemy) !== nothing)
+end
+
+function getMainFields(enemy :: RegularEnemyUnit, level = getRawLevel(enemy); verbose)
     Fields = getResistanceString(enemy; verbose)
     LongFields = String[]
     function AddField(FieldName, FieldValue; noFormat = false)
@@ -271,7 +401,11 @@ function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
     if verbose
         AddField("Detailed HP", getHPString(enemy))
         AddField("Stagger %", getBreakSectionRawString(enemy))
-        getHasMP(enemy) && AddField(@red("MP"), getMP(enemy); noFormat = true)
+        getHasMP(enemy) && (getMP(enemy) !== nothing) && AddField(@red("MP"), getMP(enemy); noFormat = true)
+        
+        if length(getSlotWeightConditionList(enemy)) > 0
+            AddField("Slot Weight Condition", join(getSlotWeightConditionList(enemy), ", "))
+        end
 
         # Only print Level if it is not = 1
         if getRawLevel(enemy) != 1
@@ -297,7 +431,127 @@ function getMainFields(enemy :: RegularEnemyUnit, level; verbose)
     return Content
 end
 
-function getSubtitle(enemy)
+function getMainFields(enemy :: AbnormalityEnemyUnit, level = getRawLevel(enemy); verbose)
+    Fields = String[]
+    LongFields = String[]
+    if length(getResistancesRaw(enemy)) != 0
+        Fields = getResistanceString(enemy; verbose)
+    end
+
+    AddField(FieldName, FieldValue; noFormat = false) = begin
+        FieldStr = @blue(FieldName)*": $(FieldValue)"
+        noFormat && (FieldStr = FieldName * ": $(FieldValue)")
+        if length(completeStrip(FieldStr)) > 30
+            push!(LongFields, FieldStr)
+            push!(Fields, "") # Keep Padding
+        else
+            push!(Fields, FieldStr)
+        end
+    end
+
+    AddField("Faction", join(getFactionList(enemy), ", "))
+    AddField("HP", getHP(enemy, level))
+    AddField("Has MP", getHasMP(enemy))
+
+    if verbose
+        AddField("Detailed HP", getHPString(enemy))
+        getHasMP(enemy) && (getMP(enemy) !== nothing) && AddField(@red("MP"), getMP(enemy); noFormat = true)
+        AddField("Level", getRawLevel(enemy))
+
+        if length(getSlotWeightConditionList(enemy)) > 0
+            AddField("Slot Weight Condition", join(getSlotWeightConditionList(enemy), ", "))
+        end
+
+        for (fn, checkValue, fieldName) in [
+            (getSDPortrait, "", "SD Portrait"),
+            (getNameID, nothing, "Name ID"),
+            (getViewID, nothing, "View ID"),
+            (getStoryID, nothing, "Story ID"),
+            (getShowAtkLevel, true, "Show Attack Level"),
+            (getShowDefLevel, true, "Show Defense Level"),
+            (getShowHP, true, "Show HP"),
+            (getShowUnitLevel, true, "Show Unit Level"),
+        ]
+            (fn(enemy) != checkValue) && AddField(fieldName, fn(enemy))
+        end
+       
+        AddField("Appearance", getAppearance(enemy))
+
+        OtherFields = getOtherFields(enemy)
+        for (key, value) in OtherFields
+            AddField(key, value; noFormat = true)
+        end
+    end
+
+    Content = GridFromList(Fields, 4)
+    Content /= join(LongFields, "\n")
+
+    Content /= LineBreak("Parts")
+    for part in getAbnormalityPartsList(enemy)
+        Content /= getContentText(part, level; verbose)
+    end
+
+    Content /= LineBreak("Skill Pattern")
+    Content /= getPatternString(enemy)
+    verbose && showPanicPanel(enemy) && (Content /= getPanicInfoStr(enemy))
+
+    return Content
+end
+
+function getContentText(enemyPart :: AbnormalityPart, level; verbose = false)
+    Fields = getResistanceString(enemyPart; verbose)
+    LongFields = String[]
+
+    function AddField(FieldName, FieldValue; noFormat = false)
+        FieldStr = @blue(FieldName)*": $(FieldValue)"
+        noFormat && (FieldStr = FieldName * ": $(FieldValue)")
+        if length(completeStrip(FieldStr)) > 23
+            push!(LongFields, FieldStr)
+            push!(Fields, "") # Keep Padding
+        else
+            push!(Fields, FieldStr)
+        end
+    end
+
+    AddField("Speed Range", getSpeedRange(enemyPart))
+    AddField("Stagger Thres.", getBreakSectionsString(enemyPart, level))
+    AddField("HP", getHP(enemyPart, level))
+    AddField("Def. Level", getDefenseCorrString(enemyPart, level))
+    AddField("Is Destroyable", getIsDestroyable(enemyPart))
+
+    if verbose
+        AddField("Detailed HP", getHPString(enemyPart))
+        AddField("Stagger %", getBreakSectionRawString(enemyPart))
+
+        for (fn, checkValue, fieldName) in [
+            (getSDPortrait, "", "SD Portrait"),
+            (getNameID, nothing, "Name ID"),
+            (getViewID, nothing, "View ID"),
+            (getShowAtkLevel, true, "Show Attack Level"),
+            (getShowDefLevel, true, "Show Defense Level"),
+            (getShowHP, true, "Show HP"),
+            (getShowUnitLevel, true, "Show Unit Level"),
+            (getCanChangeSpriteOnDestroyed, false, "Change Sprite (on Destroy)"),
+            (getCanUseSkillOnDestroyed, false, "Use Skill (on Destroy)"),
+            (getCanVanish, false, "Can Vanish")
+        ]
+            (fn(enemyPart) != checkValue) && AddField(fieldName, fn(enemyPart))
+        end
+
+        OtherFields = getOtherFields(enemyPart)
+        for (key, value) in OtherFields
+            AddField(key, value; noFormat = true)
+        end
+    end
+
+    Content = "$(@blue(getName(enemyPart))) $(@dim(getPartType(enemyPart) * " " * getStringID(enemyPart)))"
+    Content /= GridFromList(Fields, 4)
+    Content /= join(LongFields, "\n")
+
+    return Content
+end
+
+function getSubtitle(enemy :: T) where T <: EnemyUnit
     io = IOBuffer()
     print(io, getClassType(enemy))
     Tmp = getAttributeType(enemy)
@@ -305,11 +559,18 @@ function getSubtitle(enemy)
         print(io, getSinString(Tmp; prefix = " "))
     end
     S = String(take!(io))
-    S == "" && return getDesc(enemy)
-    return join([getDesc(enemy), S], " - ")
+    
+    AnsArr = [getDesc(enemy)]
+    (S != "") && push!(AnsArr, S)
+    if T == AbnormalityEnemyUnit
+        S = getGuideCodeName(enemy)
+        (S != "") && push!(AnsArr, S)
+    end
+
+    return join(AnsArr, " - ")
 end
 
-function getTopPanel(enemy :: RegularEnemyUnit, level; verbose = false)
+function getTopPanel(enemy :: T, level; verbose = false) where T <: EnemyUnit
     title = getFullTitle(enemy, level)
     subtitle = getSubtitle(enemy)
     content = getMainFields(enemy, level; verbose)
@@ -323,7 +584,7 @@ function getTopPanel(enemy :: RegularEnemyUnit, level; verbose = false)
         fit=false)
 end
 
-function getSanityFactors(enemy :: RegularEnemyUnit, type)
+function getSanityFactors(enemy :: T, type) where T <: EnemyUnit
     S = getMentalConditionRaw(enemy)
     tier = getRawLevel(enemy)
     
@@ -336,24 +597,37 @@ function getSanityFactors(enemy :: RegularEnemyUnit, type)
     end
     return String[]
 end
-getPositiveSanityFactors(enemy :: RegularEnemyUnit) =
+getPositiveSanityFactors(enemy :: T) where T <: EnemyUnit =
     getSanityFactors(enemy, "add")
-getNegativeSanityFactors(enemy :: RegularEnemyUnit) =
+getNegativeSanityFactors(enemy :: T) where T <: EnemyUnit =
     getSanityFactors(enemy, "min")
 
-function getPatternString(enemy)
+function getPatternString(enemy :: T) where T <: EnemyUnit
     io = IOBuffer()
     if getPatternID(enemy) != "-1"
         println(io, "$(@blue("Pattern ID")): $(getPatternID(enemy))")
     end
 
-    print(io, @red("Starting Action Slots: "))
-    print(io, join(string.(getStartActionSlotList(enemy)), ", "))
-    print(io, " "^10)
-    print(io, @red("Max Slots: "))
-    print(io, getMaxActionSlot(enemy))
-    print(io, "\n")
-
+    if T == RegularEnemyUnit
+        print(io, @red("Starting Action Slots: "))
+        print(io, join(string.(getStartActionSlotList(enemy)), ", "))
+        print(io, " "^10)
+        print(io, @red("Max Slots: "))
+        print(io, getMaxActionSlot(enemy))
+        print(io, "\n")
+    elseif T == AbnormalityEnemyUnit 
+        io2 = IOBuffer()
+        if getStartActionSlot(enemy) !== nothing
+            print(io2, @red("Starting Action Slot: "))
+            print(io2, getStartActionSlot(enemy))
+            print(io2, " "^10)
+        end
+        if getMaxActionSlot(enemy) !== nothing
+            print(io2, @red("Max Slots: "))
+            print(io2, getMaxActionSlot(enemy))
+        end
+        println(io, strip(String(take!(io2))))
+    end
 
     Tree = getPatternList(enemy)
     if length(Tree) > 0
@@ -363,46 +637,70 @@ function getPatternString(enemy)
     return String(take!(io))
 end
 
-
-function getCombatSkillPanel(enemy :: RegularEnemyUnit, level; verbose = false)
+function getCombatSkillPanel(enemy :: T, level; verbose = false) where T <: EnemyUnit
     Panels = []
-    tier = getRawLevel(enemy)
+    tier = max(getRawLevel(enemy), 1)
     for (idx, entry) in enumerate(getSkillList(enemy))
         Ct = @blue(string(entry["number"]))
         Skill = CombatSkill(entry["skillId"])
-        prefixTitle = "$Ct× Skill $(@blue(string(idx))):"
+        prefixTitle = "Skill $(@blue(string(idx))):"
+        if entry["number"] != 0
+            prefixTitle = "$Ct× Skill $(@blue(string(idx))):"
+        end
         push!(Panels, InternalSkillPanel(Skill, tier, level; verbose = verbose, addedTitle = prefixTitle))
     end
 
     return vstack(Panels...)
 end
 
-function getPassiveList(enemy :: RegularEnemyUnit)
+function getPassiveList(enemy :: T) where T <: EnemyUnit
     return Passive.(get(getPassiveListRaw(enemy), "passiveIdList", Int[]))
 end
 
-
-function getPassivePanel(enemy :: RegularEnemyUnit)
+function getPassivePanel(enemy :: T) where T <: EnemyUnit
     Panels = []
-    S = getPassiveList(enemy)
+    Parts = EnemyUnit[enemy]
+    if T == AbnormalityEnemyUnit
+        append!(Parts, getAbnormalityPartsList(enemy))
+    end
 
-    if length(S) == 1
-        push!(Panels, PassivePanel(S[1]))
-    else
-        for (idx, entry) in enumerate(getPassiveList(enemy))
-            prefixTitle = "Passive $(@blue(string(idx))):"
-            push!(Panels, PassivePanel(entry; subtitle = prefixTitle))
+    for enemyPart in Parts 
+        S = getPassiveList(enemyPart)
+  
+        if length(S) == 1
+            push!(Panels, PassivePanel(S[1]))
+        else
+            for (idx, entry) in enumerate(getPassiveList(enemyPart))
+                prefixTitle = "Passive $(@blue(string(idx))):"
+                if enemyPart isa AbnormalityPart
+                    prefixTitle = getName(enemyPart) * " $prefixTitle"
+                end
+                push!(Panels, PassivePanel(entry; subtitle = prefixTitle))
+            end
         end
     end
 
     return vstack(Panels...)
 end
 
-function getFullPanel(enemy :: RegularEnemyUnit, level; verbose = false,
-                      showSkills = true, showPassives = true)
+function getPartialPanel(enemy :: T, level = getRawLevel(enemy); verbose = false,
+                      showSkills = true, showPassives = true) where T <: EnemyUnit
     Ans = getTopPanel(enemy, level; verbose)
     showSkills && (Ans /= getCombatSkillPanel(enemy, level; verbose))
     showPassives && (Ans /= getPassivePanel(enemy))
 
     return Ans
+end
+
+function getFullPanel(enemy :: T, level = getRawLevel(enemy); verbose = false,
+                                showSkills = true, showPassives = true) where T <: EnemyUnit 
+
+    if T != AbnormalityEnemyUnit
+        return getPartialPanel(enemy, level; verbose, showSkills, showPassives)
+    end
+
+    Phases = getAbnormalityPhasesList(enemy)
+    Panels = getPartialPanel.(Phases, level; verbose, showSkills, showPassives)
+
+    return vstack(Panels...)
 end

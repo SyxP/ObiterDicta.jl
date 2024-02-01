@@ -98,7 +98,7 @@ InternalEnemyFields = [
     (:getSDPortrait, "sdPortrait", ""),
 
     (:getHP, "hp", Dict{String, Any}()),
-    (:getHasMP, "hasMp", true),
+    (:getHasMP, "hasMp", false),
     (:getMP, "mp", nothing),
     (:getDefenseCorrection, "defCorrection", 0),
     (:getBreakSectionRaw, "breakSection", Int[]),
@@ -700,6 +700,9 @@ function getFullPanel(enemy :: T, level = getRawLevel(enemy); verbose = false,
     end
 
     Phases = getAbnormalityPhasesList(enemy)
+    if length(Phases) == 0
+        Phases = [enemy]
+    end
     Panels = getPartialPanel.(Phases, level; verbose, showSkills, showPassives)
 
     return vstack(Panels...)

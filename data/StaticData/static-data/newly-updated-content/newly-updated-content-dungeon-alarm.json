@@ -1,10 +1,11 @@
 {
   "contentType": "DUNGEON",
   "conentIdList": [
-    "2nd_walpurgis_night"
+    "Refraction_Railway_Line_3"
   ],
   "previouslyUsedContentIdList": [
     "MirrorDungeon_3_Normal",
-    "miracle_of_district_20_update"
+    "miracle_of_district_20_update",
+    "2nd_walpurgis_night"
   ]
 }

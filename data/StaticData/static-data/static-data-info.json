@@ -8,11 +8,13 @@
                 "abnormality-action-choice-event",
                 "abnormality-personality-choice-event",
                 "abnormality-personality-choice-event-mr2",
+                "abnormality-personality-choice-event-Refraction3",
                 "mirror-dungeon-action-choice-event",
                 "mirror-dungeon-personality-choice-event",
                 "story-dungeon-action-choice-event",
                 "story-dungeon-personality-choice-event",
                 "abnormality-action-choice-event_Refraction2",
+                "abnormality-action-choice-event_Refraction3",
                 "battle-coin-choice-event-a1c5p1",
                 "battle-action-choice-event-a1c5p1",
                 "sdungeon-coin-choice-event-a1c5p1",
@@ -34,11 +36,12 @@
             "abnormality-mirror-part",
             "abnormality-refraction-part",
             "abnormality-refraction2-part",
+            "abnormality-refraction3-part",
             "abnormality-part91-4",
             "abnormality-part-a1c5p1",
             "abnormality-part-a1c5p2",
             "abnormality-part-a1c5p3",
-            "abnormality-refraction3-part",
+            "abnormality-mirror3-part",
             "abnormality-part-a1c951",
             "abnormality-part-event1"
           ]
@@ -50,11 +53,12 @@
             "abnormality-mirror-unit",
             "abnormality-refraction-unit",
             "abnormality-refraction2-unit",
+            "abnormality-refraction3-unit",
             "abnormality-unit91-4",
             "abnormality-unit-a1c5p1",
             "abnormality-unit-a1c5p2",
             "abnormality-unit-a1c5p3",
-            "abnormality-refraction3-unit",
+            "abnormality-mirror3-unit",
             "abnormality-unit-a1c951",
             "abnormality-unit-event1"
           ]
@@ -90,8 +94,9 @@
                 "buff-enemy-a1c5p1",
                 "buff-enemy-a1c5p2",
                 "buff-enemy-a1c5p3",
-              "buff-enemy-a1c951",
-              "special-buff"
+                "buff-enemy-a1c951",
+                "buff-enemy-MR3",
+                "special-buff"
             ]
         },
         {
@@ -223,7 +228,8 @@
             "passive-enemy-a1c5p2",
             "passive-enemy-a1c5p3",
             "passive-enemy-a1c951",
-            "passive-enemy-event1"
+            "passive-enemy-event1",
+            "passive-enemy-refraction3"
           ]
         },
         {
@@ -267,6 +273,7 @@
             "abnormality-skill91-4",
             "abnormality-refraction-skill",
             "abnormality-refraction2-skill",
+            "abnormality-refraction3-skill",
             "abnormality-mirror-skill",
             "ego-skill-1",
             "ego-skill-2",
@@ -521,7 +528,8 @@
               "storytheater-other-9011",
               "storytheater-other-9012",
               "storytheater-other-9105",
-              "storytheater-other-9013"
+              "storytheater-other-9013",
+              "storytheater-other-9014"
             ]
         },
         {
@@ -646,6 +654,7 @@
                 "abnormality-part-status-ui-position",
                 "refraction-abnormality-part-status-ui-position",
                 "refraction2-abnormality-part-status-ui-position",
+                "refraction3-abnormality-part-status-ui-position",
                 "mirror-abnormality-part-status-ui-position",
                 "ab-part-status-ui-position-a1c5p1",
                 "ab-part-status-ui-position-a1c5p2",
@@ -757,14 +766,16 @@
             "dataClass": "railway-dungeon",
             "fileList": [
                 "railway-dungeon-01",
-                "railway-dungeon-02"
+                "railway-dungeon-02",
+                "railway-dungeon-03"
             ]
         },
         {
             "dataClass": "battle-railway-dungeon",
             "fileList": [
                 "battle-railway-dungeon-01",
-                "battle-railway-dungeon-02"
+                "battle-railway-dungeon-02",
+                "battle-railway-dungeon-03"
             ]
         },
         {
@@ -925,8 +936,8 @@
         {
             "dataClass": "event",
             "fileList": [
-              "miracleofdistrict20-event",
-              "dawn-of-green-event"
+                "miracleofdistrict20-event",
+                "dawn-of-green-event"
             ]
         },
         {

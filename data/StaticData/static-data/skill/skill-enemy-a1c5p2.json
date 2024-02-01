@@ -5,7 +5,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -18,6 +18,11 @@
           "targetNum": 1,
           "defaultValue": 8,
           "skillLevelCorrection": -3,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -46,7 +51,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -64,7 +69,10 @@
               "scriptName": "GiveMpDmgOnWinDuelTarget5"
             },
             {
-              "scriptName": "HealHpOnWinDuelSelf10"
+              "scriptName": "HealHpOnWinDuelAbnormalityNSelf10"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -94,7 +102,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -110,6 +118,9 @@
           "abilityScriptList": [
             {
               "scriptName": "CruiseMermaidThirdSkillAbility20IfTargetMpLessThan20"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -146,7 +157,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -162,6 +173,9 @@
           "abilityScriptList": [
             {
               "scriptName": "AttackDmgUpByRatio50IfMpLessThanMinus15"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -208,7 +222,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -221,6 +235,11 @@
           "targetNum": 1,
           "defaultValue": 6,
           "skillLevelCorrection": -10,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -265,7 +284,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -288,6 +307,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -328,7 +350,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -344,6 +366,9 @@
           "abilityScriptList": [
             {
               "scriptName": "SkillPowerResultAdder1ByAllyCntExceptSelfHasUnitKeyword_WHITE_PARASITE"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -352,7 +377,7 @@
               "scale": 6,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 },
                 {
                   "scriptName": "9008903"
@@ -364,7 +389,7 @@
               "scale": 6,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 }
               ]
             }
@@ -377,7 +402,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -390,6 +415,11 @@
           "targetNum": 1,
           "defaultValue": 10,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -434,7 +464,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -457,6 +487,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -497,7 +530,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -513,6 +546,9 @@
           "abilityScriptList": [
             {
               "scriptName": "GiveMpDmgOnWinDuelTarget1ByAllyCntExceptSelfHasUnitKeyword_WHITE_PARASITE"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -521,7 +557,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 },
                 {
                   "scriptName": "9008903"
@@ -533,7 +569,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 }
               ]
             }
@@ -546,7 +582,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -562,6 +598,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9009101"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -614,7 +653,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -630,6 +669,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9009101"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -662,7 +704,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -678,6 +720,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9009103"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -695,7 +740,7 @@
               "scale": 5,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealHpOnSucceedAttackSelf20"
+                  "scriptName": "HealHpOnSucceedAttackAbnormalityNSelf20"
                 }
               ]
             }
@@ -708,7 +753,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -721,6 +766,11 @@
           "targetNum": 1,
           "defaultValue": 8,
           "skillLevelCorrection": -13,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -765,7 +815,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -790,6 +840,9 @@
                 "activeRound": 1,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -819,7 +872,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -832,6 +885,11 @@
           "targetNum": 1,
           "defaultValue": 12,
           "skillLevelCorrection": -13,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -889,7 +947,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -917,6 +975,9 @@
             },
             {
               "scriptName": "9009204_2"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -933,7 +994,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -946,6 +1007,11 @@
           "targetNum": 1,
           "defaultValue": 10,
           "skillLevelCorrection": -7,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -973,7 +1039,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -998,6 +1064,9 @@
                 "activeRound": 1,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1038,7 +1107,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1063,6 +1132,9 @@
                 "activeRound": 1,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1120,7 +1192,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1140,6 +1212,9 @@
                 "buffKeyword": "AaCePbBa",
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1180,7 +1255,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1193,6 +1268,11 @@
           "targetNum": 1,
           "defaultValue": 11,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -1248,7 +1328,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1272,6 +1352,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1318,7 +1401,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1345,6 +1428,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1361,7 +1447,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1374,6 +1460,11 @@
           "targetNum": 1,
           "defaultValue": 10,
           "skillLevelCorrection": -11,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -1412,7 +1503,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1425,6 +1516,11 @@
           "targetNum": 1,
           "defaultValue": 12,
           "skillLevelCorrection": -11,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -1491,7 +1587,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1515,6 +1611,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1583,7 +1682,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1611,7 +1710,10 @@
               "scriptName": "9009404_1"
             },
             {
-              "scriptName": "HealHpOnRoundEndByShieldMultipliedBy2"
+              "scriptName": "HealHpOnRoundEndByShieldAbnormalityNSelfMultipliedBy2"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1628,7 +1730,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1641,6 +1743,11 @@
           "targetNum": 1,
           "defaultValue": 5,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1668,7 +1775,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1691,6 +1798,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1729,7 +1839,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1742,6 +1852,11 @@
           "targetNum": 1,
           "defaultValue": 5,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1786,7 +1901,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1810,6 +1925,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1826,7 +1944,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1849,6 +1967,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1885,7 +2006,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1898,6 +2019,11 @@
           "targetNum": 1,
           "defaultValue": 8,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1931,7 +2057,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1944,6 +2070,11 @@
           "targetNum": 1,
           "defaultValue": 5,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1971,7 +2102,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -1994,6 +2125,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2032,7 +2166,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -2045,6 +2179,11 @@
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": -5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -2089,7 +2228,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -2105,6 +2244,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9009704"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2121,7 +2263,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -2144,6 +2286,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2180,7 +2325,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -2193,6 +2338,11 @@
           "targetNum": 1,
           "defaultValue": 8,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -2241,6 +2391,11 @@
           "targetNum": 1,
           "defaultValue": 10,
           "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -2310,6 +2465,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2368,6 +2526,9 @@
           "abilityScriptList": [
             {
               "scriptName": "GiveMpDmgOnWinDuelTarget1ByAllyCntExceptSelfHasUnitKeyword_WHITE_PARASITE"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2376,7 +2537,7 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 },
                 {
                   "scriptName": "9008903"
@@ -2388,7 +2549,7 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 }
               ]
             }

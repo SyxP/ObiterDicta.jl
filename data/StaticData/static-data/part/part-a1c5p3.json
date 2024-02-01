@@ -1356,14 +1356,13 @@
           "relatedEventId": "MiracleOfDistrict20"
         },
         {
-          "subchapterId": 9013,
-          "type": "STORY_THEATER",
+          "chapterId": 91,
+          "subchapterId": 9106,
+          "nodeId": 910603,
+          "type": "STAGE_NODE",
           "relatedEventId": "DawnOfGreen",
           "uiConfig": {
-            "customChapterText": "1",
-            "region": "u",
-            "mapAreaId": 9106,
-            "illustId": "stage-node-id_910603"
+            "customChapterText": "2"
           }
         }
       ]
@@ -1692,6 +1691,7 @@
         },
         {
           "id": 9106,
+          "region": "u",
           "unlockCondition": {
             "unlockCode": 9105
           },

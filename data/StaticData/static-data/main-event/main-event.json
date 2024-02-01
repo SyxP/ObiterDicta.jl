@@ -1,40 +1,11 @@
 {
   "list": [
     {
-      "eventId": "DawnOfGreen",
-      "mainUIPhaseTypeList": [
-        "Lobby",
-        "Stage"
-      ],
-      "bannerSpriteId": "banner_dawnOfGreen"
-    },
-    {
-      "eventId": "DawnOfGreenReward",
-      "mainUIPhaseTypeList": [
-        "Stage"
-      ]
-    },
-    {
-      "eventId": "MiracleOfDistrict20",
-      "mainUIPhaseTypeList": [
-        "Lobby",
-        "Stage"
-      ],
-      "bannerSpriteId": "banner_district20_event"
-    },
-    {
-      "eventId": "MiracleOfDistrict20Reward",
-      "mainUIPhaseTypeList": [
-        "Stage"
-      ]
-    },
-
-    {
       "eventId": "RailwayDungeonBanner",
       "mainUIPhaseTypeList": [
         "Lobby"
       ],
-      "bannerSpriteId": "banner_RailwayLine2"
+      "bannerSpriteId": "banner_RailwayLine3"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "list": [
     {
       "id": 2,
-      "endNodeIdByRotation": [3, 4, 6, 7, 8],
+      "endNodeIdByRotation": [ 3, 4, 6, 7, 8 ],
       "requiredModule": 25,
       "openChapterData": {
         "mainChapterId": 1,
@@ -11,6 +11,12 @@
         "unlockCode": 103
       },
       "challengeType": "ROTATION_COUNT",
+      "isSaveBattleState": true,
+      "isLoadSinFromSave": true,
+      "isGetEnemySaveData": true,
+      "isRotationBuffExist": false,
+      "isNotAbleToAddSlot": true,
+      "isGiveUpNodeWhenAllDead": false,
       "isHealAfterRest": false,
       "isResetAfterLose": true,
       "startDate": "2023-07-24T00:00:00.000Z",
@@ -528,7 +534,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 201,
+          "spriteId": "201",
 
           "nextNodes": [ 2, 9 ],
           "clearRequiredNodesForEnter": [],
@@ -543,7 +549,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 202,
+          "spriteId": "202",
 
           "nextNodes": [ 3, 9 ],
           "clearRequiredNodesForEnter": [ 1 ],
@@ -558,7 +564,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 203,
+          "spriteId": "203",
 
           "nextNodes": [ 4, 9 ],
           "clearRequiredNodesForEnter": [ 2 ],
@@ -574,7 +580,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 204,
+          "spriteId": "204",
           "nextNodes": [ 5, 9 ],
           "clearRequiredNodesForEnter": [ 3 ],
           "UI_nextMoveTargetId": 5
@@ -587,7 +593,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 205,
+          "spriteId": "205",
           "nextNodes": [ 6, 9 ],
           "clearRequiredNodesForEnter": [ 4 ],
           "UI_nextMoveTargetId": 6
@@ -600,7 +606,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 206,
+          "spriteId": "206",
           "nextNodes": [ 7, 9 ],
           "clearRequiredNodesForEnter": [ 5 ],
           "UI_nextMoveTargetId": 7
@@ -615,8 +621,8 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 207,
-          "spriteIdAfterRotation": 210,
+          "spriteId": "207",
+          "spriteIdAfterRotation": "210",
           "nextNodes": [ 8, 9 ],
           "clearRequiredNodesForEnter": [ 6 ],
           "UI_nextMoveTargetId": 8
@@ -629,7 +635,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 208,
+          "spriteId": "208",
           "nextNodes": [ 1, 9 ],
           "clearRequiredNodesForEnter": [ 7 ],
           "isEndOfOneCycle": true,
@@ -643,7 +649,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 211,
+          "spriteId": "211",
           "nextNodes": [],
           "clearRequiredNodesForEnter": [],
           "isBossNode": true

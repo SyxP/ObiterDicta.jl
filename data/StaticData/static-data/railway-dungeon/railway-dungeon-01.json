@@ -10,6 +10,10 @@
         "unlockCode": 103
       },
       "challengeType": "CLEAR_TURN_COUNT",
+      "isSaveBattleState": false,
+      "isLoadSinFromSave": false,
+      "isNotAbleToAddSlot": false,
+      "isGiveUpNodeWhenAllDead": false,
       "isHealAfterRest": true,
       "isResetAfterLose": false,
       "startDate": "2023-04-06T03:00:00.000Z",
@@ -78,7 +82,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 1,
+          "spriteId": "1",
           "nextNodes": [ 1, 2 ],
           "clearRequiredNodesForEnter": []
         },
@@ -95,7 +99,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 2,
+          "spriteId": "2",
           "nextNodes": [ 1, 2, 3 ],
           "clearRequiredNodesForEnter": [ 1 ]
         },
@@ -112,7 +116,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 3,
+          "spriteId": "3",
           "nextNodes": [ 1, 2, 3, 4 ],
           "clearRequiredNodesForEnter": [ 2 ]
         },
@@ -129,7 +133,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 4,
+          "spriteId": "4",
           "nextNodes": [ 1, 2, 3, 4, 5 ],
           "clearRequiredNodesForEnter": [ 3 ]
         },
@@ -146,7 +150,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 5,
+          "spriteId": "5",
           "nextNodes": [ 1, 2, 3, 4, 5, 6 ],
           "clearRequiredNodesForEnter": [ 4 ]
         },
@@ -163,7 +167,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 6,
+          "spriteId": "6",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7 ],
           "clearRequiredNodesForEnter": [ 5 ]
         },
@@ -180,7 +184,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 7,
+          "spriteId": "7",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8 ],
           "clearRequiredNodesForEnter": [ 6 ]
         },
@@ -197,7 +201,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 8,
+          "spriteId": "8",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
           "clearRequiredNodesForEnter": [ 7 ]
         },
@@ -214,7 +218,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 9,
+          "spriteId": "9",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
           "clearRequiredNodesForEnter": [ 8 ]
         },
@@ -231,7 +235,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 10,
+          "spriteId": "10",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
           "clearRequiredNodesForEnter": [ 9 ]
         },
@@ -248,7 +252,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 11,
+          "spriteId": "11",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
           "clearRequiredNodesForEnter": [ 10 ]
         },
@@ -265,7 +269,7 @@
             ]
           },
           "isAbBattleIcon": false,
-          "spriteId": 12,
+          "spriteId": "12",
           "nextNodes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ],
           "clearRequiredNodesForEnter": [ 11 ]
         },
@@ -282,7 +286,7 @@
             ]
           },
           "isAbBattleIcon": true,
-          "spriteId": 13,
+          "spriteId": "13",
           "nextNodes": [],
           "clearRequiredNodesForEnter": [ 12 ],
           "isBossNode": true

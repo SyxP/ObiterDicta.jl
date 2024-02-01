@@ -406,91 +406,91 @@
       ]
     },
     {
-      "id": "CrimsonResistUp",
+      "id": "CrimsonResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "CRIMSON",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "ScarletResistUp",
+      "id": "ScarletResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "SCARLET",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "AmberResistUp",
+      "id": "AmberResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "AMBER",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "ShamrockResistUp",
+      "id": "ShamrockResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "SHAMROCK",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "AzureResistUp",
+      "id": "AzureResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "AZURE",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "IndigoResistUp",
+      "id": "IndigoResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "INDIGO",
           "value": 0.1
         }
       ]
     },
     {
-      "id": "VioletResistUp",
+      "id": "VioletResistDown",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
       "list": [
         {
-          "ability": "AttributeResistMultiplierByStack",
+          "ability": "AttributeResistAdderByStack",
           "attribute": "VIOLET",
           "value": 0.1
         }

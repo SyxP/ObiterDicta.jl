@@ -5,7 +5,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -18,6 +18,11 @@
           "targetNum": 1,
           "defaultValue": 4,
           "skillLevelCorrection": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -45,7 +50,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -73,6 +78,9 @@
                 "activeRound": 0,
                 "value": 0.05
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -136,7 +144,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -160,6 +168,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -252,7 +263,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -277,6 +288,9 @@
                 "turn": 2,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -317,7 +331,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -333,6 +347,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9009805"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -349,7 +366,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -362,6 +379,11 @@
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -406,7 +428,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -434,6 +456,9 @@
                 "activeRound": 0,
                 "value": 0.05
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -514,7 +539,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -538,6 +563,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -630,7 +658,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -655,6 +683,9 @@
                 "turn": 2,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -695,7 +726,7 @@
       "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -719,6 +750,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [

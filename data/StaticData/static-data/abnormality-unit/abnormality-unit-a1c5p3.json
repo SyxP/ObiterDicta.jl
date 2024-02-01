@@ -3,7 +3,7 @@
     {
       "id": 8100,
       "appearance": "8100_ProphetofSkinAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SkinProphet" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -334,7 +334,7 @@
     {
       "id": 8107,
       "appearance": "8107_ProphetofSkinCandleAppearance",
-      "unitKeywordList": [ "NONE_BLOOD" ],
+      "unitKeywordList": [ "CANDLE", "NONE_BLOOD" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -892,7 +892,6 @@
       "passiveSet": {
         "passiveIdList": [
           810101,
-          810102,
           810104
         ]
       },
@@ -2167,6 +2166,7 @@
     },
     {
       "id": 81032,
+      "originID": 8103,
       "appearance": "8103_QueequegAppearance",
       "unitKeywordList": [ "PEQUOD_CREW" ],
       "level": 2,
@@ -2945,6 +2945,7 @@
     },
     {
       "id": 81052,
+      "originID": 8105,
       "appearance": "8105_AhabAppearancece",
       "unitKeywordList": [ "PEQUOD_CREW" ],
       "level": 2,
@@ -4444,6 +4445,7 @@
     },
     {
       "id": 81062,
+      "originID": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
       "unitKeywordList": [ "PEQUOD_CREW" ],
       "level": 2,
@@ -4844,6 +4846,7 @@
     },
     {
       "id": 81063,
+      "originID": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
       "unitKeywordList": [ "PEQUOD_CREW" ],
       "level": 2,

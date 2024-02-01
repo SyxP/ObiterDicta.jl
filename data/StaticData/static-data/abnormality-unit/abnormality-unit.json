@@ -189,6 +189,7 @@
     },
     {
       "id": 80022,
+      "originID": 8002,
       "level": 8,
       "unitKeywordList": [],
       "classType": "HE",
@@ -442,6 +443,7 @@
     },
     {
       "id": 80023,
+      "originID": 8002,
       "level": 8,
       "unitKeywordList": [],
       "classType": "HE",
@@ -485,6 +487,7 @@
     },
     {
       "id": 80024,
+      "originID": 8002,
       "level": 8,
       "unitKeywordList": [],
       "classType": "HE",
@@ -765,6 +768,7 @@
     },
     {
       "id": 8009,
+      "originID": 8008,
       "appearance": "8009_Maggotapple_p2Appearance",
       "unitKeywordList": [],
       "level": 10,
@@ -3290,6 +3294,7 @@
     },
     {
       "id": 8030,
+      "originID": 8030,
       "appearance": "8030_Cromer_2pAppearance",
       "unitKeywordList": [ "G_CORP" ],
       "level": 10,
@@ -6866,6 +6871,7 @@
     },
     {
       "id": 8704,
+      "originID": 8703,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
       "unitKeywordList": [],
@@ -8038,6 +8044,7 @@
     },
     {
       "id": 87122,
+      "originID": 8712,
       "viewid": 80022,
       "level": 1,
       "unitKeywordList": [],
@@ -8292,6 +8299,7 @@
     },
     {
       "id": 87123,
+      "originID": 8712,
       "viewid": 80023,
       "level": 1,
       "unitKeywordList": [],
@@ -8336,6 +8344,7 @@
     },
     {
       "id": 87124,
+      "originID": 8712,
       "viewid": 80024,
       "level": 1,
       "unitKeywordList": [],
@@ -9542,6 +9551,7 @@
     },
     {
       "id": 8724,
+      "originID": 8723,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
       "unitKeywordList": [],
@@ -11103,6 +11113,7 @@
     },
     {
       "id": 87322,
+      "originID": 8732,
       "viewid": 80022,
       "level": 1,
       "unitKeywordList": [],
@@ -11357,6 +11368,7 @@
     },
     {
       "id": 87323,
+      "originID": 8732,
       "viewid": 80023,
       "level": 1,
       "unitKeywordList": [],
@@ -11401,6 +11413,7 @@
     },
     {
       "id": 87324,
+      "originID": 8732,
       "viewid": 8024,
       "level": 1,
       "unitKeywordList": [],
@@ -16641,6 +16654,7 @@
     },
     {
       "id": 80442,
+      "originID": 8044,
       "appearance": "8044_Camellia_AwakenAppearance",
       "unitKeywordList": [],
       "level": 6,
@@ -17341,6 +17355,7 @@
     },
     {
       "id": 80492,
+      "originID": 8049,
       "appearance": "8049_DongLang_2pAppearance",
       "unitKeywordList": [],
       "level": 6,
@@ -17496,6 +17511,7 @@
     },
     {
       "id": 80493,
+      "originID": 8049,
       "appearance": "8049_DongLang_3pAppearance",
       "unitKeywordList": [],
       "level": 6,

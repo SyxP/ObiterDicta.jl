@@ -2662,6 +2662,7 @@
     },
     {
       "id": 8523,
+      "originID": 8521,
       "sdPortrait": 8523,
       "appearance": "8502_KCorp_Grade3_FuryAppearance",
       "unitKeywordList": [],
@@ -4432,6 +4433,7 @@
     },
     {
       "id": 8526,
+      "originID": 8533,
       "viewid": 8030,
       "sdPortrait": 8030,
       "appearance": "8030_Cromer_2pAppearance",

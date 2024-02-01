@@ -4229,9 +4229,7 @@
       },
       "passiveSet": {
         "passiveIdList": [
-          803101,
-          803102,
-          803103
+          810103
         ]
       }
     },
@@ -4316,6 +4314,11 @@
             "type": "BLACK",
             "value": 2
           }
+        ]
+      },
+      "passiveSet": {
+        "passiveIdList": [
+          857303
         ]
       }
     },

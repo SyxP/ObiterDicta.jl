@@ -2019,6 +2019,7 @@
     },
     {
       "id": 8083,
+      "originID": 8082,
       "viewid": 8030,
       "sdPortrait": 8030,
       "appearance": "8030_Cromer_2pAppearance",
@@ -6792,6 +6793,7 @@
     },
     {
       "id": 8095,
+      "originID": 8094,
       "sdPortrait": 8009,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
@@ -7190,7 +7192,7 @@
       "storyID": 8100,
       "nameID": 8100,
       "appearance": "8100_ProphetofSkinAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SkinProphet" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -7525,7 +7527,7 @@
       "storyID": 8107,
       "nameID": 8107,
       "appearance": "8107_ProphetofSkinCandleAppearance",
-      "unitKeywordList": [ "NONE_BLOOD" ],
+      "unitKeywordList": [ "CANDLE", "NONE_BLOOD" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -8095,7 +8097,6 @@
       "passiveSet": {
         "passiveIdList": [
           813701,
-          813702,
           813704
         ]
       },
@@ -9260,6 +9261,7 @@
     },
     {
       "id": 81442,
+      "originID": 8144,
       "viewid": 8049,
       "sdPortrait": 8049,
       "storyID": 8049,
@@ -9419,6 +9421,7 @@
     },
     {
       "id": 81443,
+      "originID": 8144,
       "viewid": 8049,
       "sdPortrait": 8049,
       "storyID": 8049,

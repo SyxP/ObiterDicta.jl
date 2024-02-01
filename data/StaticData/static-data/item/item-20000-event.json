@@ -55,6 +55,11 @@
         "id": 20009,
         "num": 20
       }
+    },
+    {
+      "id": 20011,
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     }
   ]
 }

@@ -169,3 +169,15 @@ function EGOCorrosionPlusCoin(ego, ts)
     return isPlusCoin(CoinLst)
 end
 # RegisterFunction("ego-corr-plus-coin", EGOCorrosionPlusCoin)
+
+function EGONegativeCoin(ego, ts)
+    awakeSkill = getAwakeningSkill(ego)
+    CoinLst = getCoinValues(awakeSkill, ts)
+    isMinusCoin(CoinLst) && return true
+    corrSkill = getCorrosionSkill(ego)
+    corrSkill === nothing && return false
+    CoinLst = getCoinValues(corrSkill, ts)
+    isMinusCoin(CoinLst) && return true
+    return false
+end
+RegisterFunction("ego-neg-coin", EGONegativeCoin)

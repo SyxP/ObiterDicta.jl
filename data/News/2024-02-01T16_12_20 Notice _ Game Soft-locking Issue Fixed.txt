@@ -1,0 +1,18 @@
+Hello, this is Project Moon.
+
+The Issue where the game soft-locks in certain Focused Encounters, which occurred after Feb. 1st Scheduled Update, has been fixed.
+
+[b]Steam will be updated immediately, and the fixed version will be playable after 2024.02.02 1:30 (KST).
+Since iOS and Android platforms require our game to go through a review, we will notify you as soon as we pass the reviews and the fixed versions become available for download.[/b]
+
+[Fixed Issue]
+- An issue where the game soft-locks in certain Focused Encounters (4-54 Final Boss Encounter, Mirror Dungeon/Thread Luxcavation Fairy-Long-Legs Encounter)
+
+We sincerely apologize for this inconvenience.
+
+[Focused Encounter Soft-locking Issue Fix Compensation]
+- Compensation : Lunacy x1000
+- Recipients : All users whose accounts were created before Feb. 15th, 2024 10:00
+- Can be claimed once per account
+- When : Can be claimed after 2024.02.02(KST) 1:30
+

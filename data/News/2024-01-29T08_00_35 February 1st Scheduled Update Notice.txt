@@ -1,0 +1,108 @@
+
+
+
+
+February 1st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Feb 1st, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+New Content
+
+1. New Content - Refraction Railway Line 3
+
+- Unlock Conditions: Clear Main Story 5-36
+※ Please refer to the Steam Announcements Page for more information.
+
+2. Mini Episode Added
+
+- Unlock Conditions: Clear Main Story 5.5(Intervall0 III-1)-12
+
+1/4
+
+PROJECT MOON
+Major Changes
+
+1. Refraction Railway Line 2 Closure
+
+Any rewards you have not claimed from the Line 2 Lost & Found will be lost with the start of Refraction Railway Line 3. (Unclaimed rewards will not be delivered to your inbox either.)
+If you are yet to claim your Line 2 rewards, please claim them before the Feb. 1st Scheduled Update.
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where Bayonet Artierlly Crab's 'Shell Tackle!!!' Skill did not activate 'On Hit, inflict 3 Pierce Fragility next turn', but instead activated 'On Hit, inflict 3 Pierce Fragility this turn'
+
+▶ Fixed an issue where, in Focused Encounters, achieving Resonance or Absolute Resonance with Defensive Skills did not show Resonance details UI
+
+▶ Fixed an issue where certain Voicelines played at a lower volume than the average volume
+
+▶ Fixed an issue where 'Summoned Unit - Flotsam' passive "Harden" did not activate
+
+▶ Adjusted the camera focus timing when enemies are killed at Turn End by effects such as Burn
+
+▶ Fixed an issue where, if all enemies are killed at Turn Start, clearing the Stage caused the Combat UI to linger
+
+▶ Fixed an issue where an unvoiced Announcer's subtitles appeared only for a brief second
+
+▶ E.G.O Gift - Fixed an issue where 'Black Sheet Music' effect 'When hitting an enemy with a Skill, inflict 5 Sinking Potency' did not activate properly
+- Before: Activated only when the unit dealt HP damage On Hit
+- After: Activates On Hit
+
+▶ Adjusted Announcer voicelines in response to certain boss patterns in a certain encounter of Main Story 5-36
+
+▶ Fixed an issue where the focused camera did not act properly at Turn Start & Turn End
+
+▶ Fixed issues in Drive - Inferno - Mini Stories - The 2nd Walpurgis Night numbering
+   (1) Changed 'MINI-1' to 'MINI-2'
+   (2) Added the missing 'District 21' text on the map
+
+▶ Adjusted placement of certain portrait resources
+   (1) Dieci Association South Section 4 Hong Lu
+   (2) Dieci Association South Section 4 Yi Sang
+
+Known Issues
+
+We are currently investigating the issue below.
+We will inform you via a notice as soon as it is corrected.
+
+▶ An issue where, in the 11th Station Encounter of
+Refraction Railway Line 3, choosing to continue after Defeat (by team wipe) does not save the Encounter phase progress
+
+We apologize for the inconvenience.
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content : Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Feb. 8th, 2024 (KST)
+- When: After Feb. 1st, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Feb. 8th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

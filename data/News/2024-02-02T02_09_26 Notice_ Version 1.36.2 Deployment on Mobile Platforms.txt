@@ -1,0 +1,16 @@
+The fix for the Version 1.36.1 issue [game soft-locking in certain Focused Encounters] has been completed, and the review process for the soft-locking issue fix build (1.36.2) has been completed. The fix will be deployed on each respective app store on Feb. 2nd, 2024, at 12:00 (KST).
+
+[Fix Deployment ETA]
+- iOS, Android : 2024.02.02 (Fri) 12:00 (KST)
+- Steam version of the game was updated on 2024.02.02 (Fri) 01:30 (KST)
+
+There will be no maintenance for this update, and you can download the new version of the app via the Google Play Store or the App Store.
+
+Please note that update downloads may become available at different periods depending on your location & device. If you cannot see the update in your stores, please try again later.
+
+The previous version 1.36.1 will remain playable until 2024.02.02 (Fri) 18:00 (KST). Please make sure to update the game before then.
+
+Once the game has been updated, the bottom right side of the Title screen should say 'Version 1.36.2'.
+
+We apologize for the inconvenience.
+

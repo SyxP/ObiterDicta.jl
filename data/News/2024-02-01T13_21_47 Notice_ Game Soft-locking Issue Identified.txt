@@ -1,0 +1,27 @@
+Hello, this is Project Moon.
+
+We have identified an issue after Feb. 1st Scheduled Update where, in certain Focused Encounters, the game would soft-lock.
+The cause of this issue has been identified, and we are currently developing a fix to this issue.
+
+[b]Steam will be updated as soon as it is fixed,
+but iOS and Android platforms require our builds to be reviewed; it will take some time for the review process to be completed.
+[/b]
+We will notify you via an additional notice as soon as we have fixed the issue.
+
+[b]Affected Stages[/b]
+- Final Boss Encounter of 4-54
+- Fairy-Long-Legs Encounter of Mirror Dungeons & Thread Luxcavations
+
+[b]Cause[/b]
+- A pre-existing logic was incorrectly adjusted in the process of developing a method to make the Observation Level progress shared across different instances of encounters (For Refraction Railway Line 3)
+
+[b]Solution[/b]
+- Fix the logic that's causing the soft-lock
+- Deploy the fixed version (1.36.2) on Steam as soon as it is available
+
+[b]Future Measures[/b]
+- We will make sure that new systems won't affect previous game functions by creating new logic instead of adjusting pre-existing logic
+
+
+We sincerely apologize for this inconvenience.
+

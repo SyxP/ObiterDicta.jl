@@ -1,0 +1,28 @@
+Hello, this is Project Moon.
+
+We have identified and corrected an issue where the Refraction Railway 3 Combat Encounter Clear Turns displays '0 Clear Turns'.
+
+[b]The error in the game server logic was fixed on Feb. 2nd at 2:30 (KST), and the fix has been applied without updating the app.[/b]
+
+This issue occurred because the Refraction Railway Clear Records were abnormally saved, and reflected the incorrect value (0) on the in-game UI.
+We still have the logs of your actual Clear Records, so affected accounts' Turn Counts and records displayed on decorative Banners will be changed to reflect the actual Clear Records.
+
+Please refer to the information below for more details.
+
+Issue
+- Refraction Railway Line 3 Combat Encounter Clear Record displays 0 Total Turns
+- Upon clearing the Terminus, the 0 turn Clear Record is displayed on the obtained decorative Banners.
+
+Cause
+- Rarely, upon entering the Rest Stations, the incorrect Combat Encounter IDs were sent to the servers, which meant that '0 Total Turns' record was displayed instead
+
+Solution
+- Validation test logic added
+- Preventative measure added: If a similar issue occurs, the server error code will be displayed
+
+Future Measures
+- The actual Clear Total Turns is still saved in the logs
+- We will verify the logs of each affected account and reflect the actual Clear Total Turns to displays and decorative Banners
+
+We sincerely apologize for the inconvenience.
+

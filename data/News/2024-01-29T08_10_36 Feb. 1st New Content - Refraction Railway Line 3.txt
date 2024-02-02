@@ -1,0 +1,163 @@
+
+
+
+
+
+
+Feb. 1st New Content - Refraction Railway Line 3
+
+Greetings, Dear Manager.
+
+New Content <Refraction Railway Line 3> will be added to the game with the Feb. 1st, 2024 (KST) Scheduled Update.
+
+<Unlock Conditions>
+Clear Main Story 5-36
+
+<Event Description>
+
+- Refraction Railway Line 3 is composed of 13 total Stations, and you will face highly difficult encounters in 10 of those Stations. More rewards can be claimed the further you progress into the Refraction Railway.
+
+- If you have achieved certain conditions before clearing the Terminus, you will be rewarded with a Special Decorative Banner.
+
+- Refraction Railway Line 3 will end with the start of Refraction Railway Line 4.
+
+<About Refraction Railway Line 2 Rewards>
+
+Any rewards you have not claimed from the Line 2 Lost & Found will be lost with the start of Refraction Railway Line 3. (Unclaimed rewards will not be delivered to your inbox either.) If you are yet to claim your Line 2 rewards, please claim them before the Feb. 1st Scheduled Update.
+
+1/6
+
+PROJECT MOON
+Content Details
+
+- <Refraction Railway Line 3> will open after completing Main Story 3-36, and can be accessed via the 'Drive' menu.
+
+- As long as Line 3 is active, it can be accessed anytime without spending any resources. Line 3 will close upon the opening of <Refraction Railway Line 4>.
+
+- You can spend a certain number of Modules(only for the first time) at the Lost & Found to claim your Refraction Railway rewards.
+
+- Upon entering, you will choose your Identities and E.G.O. to begin the expedition with. Unlike in the previous Refraction Railway, however, any changes made to your Identities and E.G.O’s levels, Uptie Tiers, and Threadspinning Tiers after starting the run will be reflected on your active team in the Railway.
+
+- Refraction Railway Line 3 is composed of 13 total Stations, and you will face highly difficult encounters in 10 of those Stations.
+
+- In non-combat Stations, #4, #8, and #12, you can heal or revive your Identities. You can also modify your loadout in those Stations. Identities with 0 or positive SP will maintain their SP, but Identities with negative SP will recover to 0 SP.
+
+- Total Turns taken to clear the Station(Clear Turns) and Total Turns taken since the First Stop to each respective Station will be shown above each Station.
+
+- The E.G.O resources held after clearing a Station can be carried over to the next Station.
+
+- The HP, SP, and availability of your Identities are shown at the bottom of the screen. Select the area to view your loadout.
+
+2/6
+
+PROJECT MOON
+Content Progression
+
+- Upon defeat, you can either return to the state immediately before entering that Station or continue using your surviving Identities. Should you choose to continue, the enemies' current HP will be saved. Their remaining HP percentages will be shown above the Station.
+
+- Upon forfeiting an Encounter, you will be returned to the state immediately before entering this stage.
+
+- If you choose to ‘continue’ using your surviving identities, a ‘Reset’ button will be added to the Stage Info page. Select it to return to the state immediately before entering that Station for the first time.
+
+- During an expedition, you can choose to start over(rewind) from previously cleared Stations. When you do so, the Encounter will start with the Sinners’ statuses and E.G.O resources reverted to the point of your initial entry to that Station, and the completion progress for any Stations you've cleared since that Station will be reset.
+
+Combat Progression
+
+※ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- A maximum of 6 Sinners may enter an encounter. Although you may do so with fewer than 6 Sinners, they will not gain additional Skill Slots.
+
+- All encounters will be Focused Encounters where you, the Manager, will manually match your allies’ Skills against the enemies’ Skills.
+
+- Unlike in Refraction Railway Line 2, the Identities’ Speed, Skills on the Dashboard, used Skills of individual Identities, and remaining Skills will not be saved between each Station in Refraction Railway Line 3.
+
+3/6
+
+PROJECT MOON
+Observation Levels
+
+Refracted Dream-Devouring Silkcurrent
+
+...I would appreciate it if you could please share with us which 'Sinner' you had chosen to write the records after our first encounters with the Abnormalities.
+
+So this is the first time I'm experiencing the sensation of drowning 12 times. Simultaneously... Let's... try not to make this a repeat occurrence. Please...
+
+Obs. Level I
+Conditions Unmet
+
+Obs. Level II
+Conditions Unmet
+
+Obs. Level III
+Conditions Unmet
+
+⚔ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- If you have already unlocked the Abnormalities' Observation Levels through Story Dungeon Encounters, their Observation Levels will be reflected in the Refraction Railway and you can view their information as you would in those Dungeons. However, their Resistance and any information different from their original counterparts will be locked upon your first encounter with them on the Railway.
+
+- The damage bonus based on Observation Levels does not apply in Refraction Railway Line 3.
+
+- In Refraction Railway Line 3, if the Observation Log was updated mid-encounter, the updated Observation Log info will be saved even if you give up mid-encounter.
+
+
+Stage Info
+
+Refracted Whale of the Porous Hand Mermaid
+LV 38
+
+Skill
+Vomit Froth
+33 Abnomi.
+(Heads Hit) inflict 2 Sinking
+(Heads Hit) inflict 2 Sinking
+
+⚔ The above image is for demonstration purposes only and is subject to change before the official release.
+
+- In Refraction Railway Line 3, you can view Stats and Resistances for Abnormalities’ Parts in the Stage Info menu. (If it has been unlocked during the encounter)
+
+4/6
+
+PROJECT MOON
+Claiming Rewards
+
+The above image is for demonstration purposes only
+and is subject to change before the official release.
+
+- After clearing a Station for the first time during the event period, rewards from them will be sent to the "Lost & Found".
+
+   - To access the "Lost & Found" for the first time, a certain number of Enkephalin Modules will be required. Rewards that can be claimed afterward are free of charge.
+
+- You can earn various level-up and extraction currencies here. Special rewards include [Level Boost Ticket IV], [Season 3 - 3★ Guarantee Deceaxtraction Ticket], [Refraction Railway Line 3 Themed Business Card Deco].
+
+Special Decorative Banners
+
+The above image is for demonstration purposes only
+and is subject to change before the official release.
+
+- Here, you can view the acquisition conditions for Refraction Railway Line 3 Banners. The harder the conditions, the more elaborate your Banner will be.
+
+   - Once you obtain a Banner, the Turn Count of your best record will be displayed on it.
+
+- The highest Turn Count that can be displayed on the Banner is 999. The highest possible Turn Count that can be recorded in a Station is 99 Turns, and if your Turn Count goes beyond 100 Turns, it will be recorded as ‘99 Turns’.
+
+5/6
+
+PROJECT MOON
+Records
+
+※ The above image is for demonstration purposes only
+and is subject to change before the official release.
+
+- Your stats will be recorded upon clearing the Terminus, which can be viewed from your Logs during the Refraction Railway's runtime.
+
+- Up to 20 records can be saved. If you have more than 20 records, records with the highest Total Turns will be deleted first.
+
+- The date of completion, Total Turns taken, used Identities, and damage output statistics will be displayed in your Logs (Travel Collection).
+
+- If you have more than 20 records,
+records with the highest Total Turns will be deleted first.
+
+6/6
+
+PROJECT MOON
+

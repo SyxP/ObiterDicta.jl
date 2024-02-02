@@ -23,7 +23,7 @@ function getBuffPotencyPerAction(Action :: Dict{String, Any}, str)
 end
 
 function targetElse(target :: String)
-    if target in ["Target", "EveryUnit", "EveryAlly"]
+    if target in ["Target", "EveryUnit", "EveryAlly", "RandomAlly", "RandomOtherAlly"]
         return true
     end
     for rGx in [r"LowestHpValueAlly"]
@@ -35,7 +35,7 @@ function targetElse(target :: String)
 end
 
 function targetSelf(target :: String)
-    if target in ["Self", "EveryUnit", "EveryAlly"]
+    if target in ["Self", "EveryUnit", "EveryAlly", "RandomAlly"]
         return true
     end
     if match(r"ExceptSelf", target) !== nothing
@@ -72,7 +72,9 @@ end
 
 function actionScriptRandomDebuff(Action :: Dict{String, Any}, str)
     haskey(Action, "scriptName") || return false
-    match(r"^GiveRandomDebuffSin", Action["scriptName"]) !== nothing || return false
+    Scripts = [r"^GiveRandomDebuffSin", 
+               r"^HeathcliffFifthEgoCoinFirstAbility"]
+    any(match(Script, Action["scriptName"]) !== nothing for Script in Scripts) || return false
     str ∈ ["Combustion", "Laceration", "Vibration", "Burst", "Sinking"]
 end
 
@@ -156,6 +158,19 @@ function inflictBuffPotencyInternal(Action :: Dict{String, Any}, str)
     if actionScriptRandomDebuff(Action, str)
         S = match(r"^GiveRandomDebuffSinStack([0-9]+)$", Action["scriptName"])
         S !== nothing && return parse(Int, S.captures[1])
+        S = match(r"^HeathcliffFifthEgoCoinFirstAbility([0-9]+)And([0-9]+)", Action["scriptName"])
+        S !== nothing && return parse(Int, S.captures[1])*(1 + parse(Int, S.captures[2]))
+    end
+
+    if actionScriptMatches(Action, r"HeathcliffFifthEgoCoinSecondAbility")
+        S = match(r"^HeathcliffFifthEgoCoinSecondAbility([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)$", Action["scriptName"])
+        if S !== nothing && str == "Agility"
+            return parse(Int, S.captures[3])*parse(Int, S.captures[6])
+        elseif S !== nothing && str == "AttackUp"
+            return parse(Int, S.captures[4])*parse(Int, S.captures[6])
+        elseif S !== nothing && str == "DefenseUp"
+            return parse(Int, S.captures[5])*parse(Int, S.captures[6])
+        end
     end
 
     return 0
@@ -170,6 +185,15 @@ function inflictBuffCountInternal(Action :: Dict{String, Any}, str)
     # Does not have GetGivingTurnBuff
     if actionScriptMatches(Action, r"1040603") && hasBuffData(Action, str) 
         return getBuffCountPerAction(Action, str)
+    end
+
+    if actionScriptMatches(Action, r"HeathcliffFifthEgoCoinSecondAbility")
+        S = match(r"^HeathcliffFifthEgoCoinSecondAbility([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)And([0-9]+)$", Action["scriptName"])
+        if S !== nothing && str == "Breath"
+            return parse(Int, S.captures[1])*parse(Int, S.captures[6])
+        elseif S !== nothing && str == "Charge"
+            return parse(Int, S.captures[2])*parse(Int, S.captures[6])
+        end
     end
 
     return 0

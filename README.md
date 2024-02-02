@@ -34,7 +34,7 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 4. Identities (100%)
 5. E.G.O (100%)
 6. Passives (100%)
-7. Enemy Information (0%)
+7. Enemy Information (90%)
 8. Uptie/Threadspin Comparator (0%)
 9. Clash Calculator (40%)
 10. Damage Calculator (0%)
@@ -58,6 +58,7 @@ Russian translations are from https://github.com/Crescent-Corporation/LimbusComp
 6. Refraction Railway 1 - Enemies (0%)
 7. Refraction Railway 2 - Enemies (0%)
 8. Refraction Railway 2 - Buffs (0%)
+9. Refraction Railway 3 - Enemies (0%)
 
 For Mirror Dungeon, as the content may be revamp in the near future, may require specific backups to ensure the data is not lost.
 1. Mirror Dungeon 1 and 2 - List of Fights (0%)
@@ -85,7 +86,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 7. Automatic Updating of Bundles (100%)
 8. Historic Gacha Information (0%)
 9. Gacha Simulator (0%)
-10. Limbus News/Announcement Search (90%)
+10. Limbus News/Announcement Search (100%)
 11. Battle Hints (0%)
 
 ### Known Bugs/Specific Requested Features
@@ -95,4 +96,3 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 ### Immediate Upcoming Plans
 
 1. Choice Events printing
-2. Enemy printing

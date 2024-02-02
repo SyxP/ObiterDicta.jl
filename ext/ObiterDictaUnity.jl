@@ -1,6 +1,6 @@
 module ObiterDictaUnity
 
-    using UnityPy, ObiterDicta, Git
+    using UnityPy, ObiterDicta, Git, ObiterDictaSteam
 
     function (ObiterDicta.UpdateDataFilesFromCatalogS1)()
         # This does everything pseudo-automatically magically
@@ -37,6 +37,8 @@ module ObiterDictaUnity
         if !(URL == "" || URL == Latest)
             ObiterDicta.appendNewCatalogS1Version(URL)
         end
+
+        ObiterDictaSteam.getSteamNews()
         
         ObiterDicta.updateAll()
         sleep(2)

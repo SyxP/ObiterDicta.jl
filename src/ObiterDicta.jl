@@ -149,14 +149,15 @@ module ObiterDicta
     include("EGOGiftStrings.jl")
     include("EGOGiftCommand.jl")
 
-    include("MirrorDungeon3.jl")
-
     include("EnemyStrings.jl")
     include("AbnormalityGuides.jl")
 
     include("ClashCalculator.jl")
 
     include("Announcer.jl")
+    
+    include("BattleStrings.jl")
+    include("MirrorDungeon3.jl")
     
     # Dependent on Structs
     include("PanicStrings.jl")

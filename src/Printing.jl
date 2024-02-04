@@ -158,22 +158,20 @@ LineBreak(S) =  hLine(93, "{bold white}$S{/bold white}", box = :DOUBLE)
 function justifyColumn(Str, ScreenWidth = 85)
     ArrayText = []
     Curr = firstindex(Str)
-    if textwidth(Str) > ScreenWidth
-        for c in eachindex(Str)
-            if c == lastindex(Str)
-                push!(ArrayText, Str[Curr:((Str[c] == '\n') ? prevind(Str, c) : c)])
-            elseif Str[c] == '\n'
-                push!(ArrayText, Str[Curr:prevind(Str, c)])
-                Curr = nextind(Str, c)
-                continue
-            end
-
-            textwidth(Str[Curr:c]) < ScreenWidth && continue
-            getLangMode() == "en" && Str[c] != ' ' && continue
-            
+    for c in eachindex(Str)
+        if c == lastindex(Str)
+            push!(ArrayText, Str[Curr:((Str[c] == '\n') ? prevind(Str, c) : c)])
+        elseif Str[c] == '\n'
             push!(ArrayText, Str[Curr:prevind(Str, c)])
-            Curr = c
+            Curr = nextind(Str, c)
+            continue
         end
+
+        textwidth(Str[Curr:c]) < ScreenWidth && continue
+        (textwidth(Str[Curr:c]) > ScreenWidth + 15) && getLangMode() == "en" && Str[c] != ' ' && continue
+            
+        push!(ArrayText, Str[Curr:prevind(Str, c)])
+        Curr = c
     end
 
     return join(strip.(ArrayText), "\n")

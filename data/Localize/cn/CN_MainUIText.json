@@ -1378,7 +1378,7 @@
     },
     {
       "id": "enkephalin_desc",
-      "content": "用于进入关卡。"
+      "content": "可用于进入关卡。"
     },
     {
       "id": "not_exchangeable",
@@ -1538,7 +1538,7 @@
     },
     {
       "id": "new_dungeon_update_alarm",
-      "content": "后门变化检测"
+      "content": "检测到后门变化"
     },
     {
       "id": "buy_announcer",

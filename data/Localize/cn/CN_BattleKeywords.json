@@ -89,7 +89,7 @@
     {
       "id": "Charge",
       "name": "充能",
-      "desc": "部分技能发动附加效果所需的资源。最多叠加至20层。回合结束时层数会降低1层。"
+      "desc": "部分技能发动附加效果所需的资源。最多叠加至20层。回合结束时，本效果的层数减少1层。"
     },
     {
       "id": "DamageOverTime",
@@ -296,17 +296,17 @@
     {
       "id": "SlashResistUp",
       "name": "斩击抗性强化",
-      "desc": "斩击抗性提高(层数*0.1)%。"
+      "desc": "目标的斩击抗性提升（每层0.1%）"
     },
     {
       "id": "PenetrateResistUp",
       "name": "突刺抗性强化",
-      "desc": "突刺抗性提高(层数*0.1)%。"
+      "desc": "目标的突刺抗性提升（每层0.1%）"
     },
     {
       "id": "HitResistUp",
       "name": "打击抗性强化",
-      "desc": "打击抗性提高(层数*0.1)%。"
+      "desc": "目标的打击抗性提升（每层0.1%）"
     },
     {
       "id": "SlashDamageUp",
@@ -326,17 +326,17 @@
     {
       "id": "SlashResistDown",
       "name": "斩击抗性弱化",
-      "desc": ""
+      "desc": "目标的斩击抗性降低（每层0.1%）"
     },
     {
       "id": "PenetrateResistDown",
       "name": "突刺抗性弱化",
-      "desc": ""
+      "desc": "目标的突刺抗性降低（每层0.1%）"
     },
     {
       "id": "HitResistDown",
       "name": "打击抗性弱化",
-      "desc": ""
+      "desc": "目标的打击抗性降低（每层0.1%）"
     },
     {
       "id": "SlashDamageDown",
@@ -356,72 +356,72 @@
     {
       "id": "CrimsonResistDown",
       "name": "暴怒抗性弱化",
-      "desc": ""
+      "desc": "目标的暴怒抗性增加（每层0.1）"
     },
     {
       "id": "ScarletResistDown",
       "name": "色欲抗性弱化",
-      "desc": ""
+      "desc": "目标的色欲抗性增加（每层0.1）"
     },
     {
       "id": "AmberResistDown",
       "name": "怠惰抗性弱化",
-      "desc": "基于本效果层数降低怠惰抗性。(每层0.1%)"
+      "desc": "目标的怠惰抗性增加（每层0.1）"
     },
     {
       "id": "ShamrockResistDown",
       "name": "暴食抗性弱化",
-      "desc": ""
+      "desc": "目标的暴食抗性增加（每层0.1）"
     },
     {
       "id": "AzureResistDown",
       "name": "忧郁抗性弱化",
-      "desc": ""
+      "desc": "目标的忧郁抗性增加（每层0.1）"
     },
     {
       "id": "IndigoResistDown",
       "name": "傲慢抗性弱化",
-      "desc": ""
+      "desc": "目标的傲慢抗性增加（每层0.1）"
     },
     {
       "id": "VioletResistDown",
       "name": "嫉妒抗性弱化",
-      "desc": ""
+      "desc": "目标的嫉妒抗性增加（每层0.1）"
     },
     {
       "id": "CrimsonResistUp",
       "name": "暴怒抗性强化",
-      "desc": "暴怒抗性提高(层数*0.1)%。"
+      "desc": "目标的暴怒抗性减少（每层0.1）"
     },
     {
       "id": "ScarletResistUp",
       "name": "色欲抗性强化",
-      "desc": "色欲抗性提高(层数*0.1)%。"
+      "desc": "目标的色欲抗性减少（每层0.1）"
     },
     {
       "id": "AmberResistUp",
       "name": "怠惰抗性强化",
-      "desc": "怠惰抗性提高(层数*0.1)%。"
+      "desc": "目标的怠惰抗性减少（每层0.1）"
     },
     {
       "id": "ShamrockResistUp",
       "name": "暴食抗性强化",
-      "desc": "暴食抗性提高(层数*0.1)%。"
+      "desc": "目标的暴食抗性减少（每层0.1）"
     },
     {
       "id": "AzureResistUp",
       "name": "忧郁抗性强化",
-      "desc": "忧郁抗性提高(层数*0.1)%。"
+      "desc": "目标的忧郁抗性减少（每层0.1）"
     },
     {
       "id": "IndigoResistUp",
       "name": "傲慢抗性强化",
-      "desc": "傲慢抗性提高(层数*0.1)%。"
+      "desc": "目标的傲慢抗性减少（每层0.1）"
     },
     {
       "id": "VioletResistUp",
       "name": "嫉妒抗性强化",
-      "desc": "嫉妒抗性提高(层数*0.1)%。"
+      "desc": "目标的暴怒嫉妒减少（每层0.1）"
     },
     {
       "id": "CrimsonDamageDown",
@@ -867,7 +867,7 @@
     {
       "id": "Bull_Sadness",
       "name": "尚未释怀的哀伤",
-      "desc": "回合开始时，施加与本效果层数相同的虚弱 \n回合结束时，若层数不低于3层，则会转变为愈加膨胀的哀伤 ",
+      "desc": "回合开始时，施加与本效果层数相同的虚弱 \n回合结束时，若层数不低于3层，则转化为愈加膨胀的哀伤 ",
       "summary": ""
     },
     {
@@ -920,7 +920,7 @@
     {
       "id": "Bull_Fever",
       "name": "狂热",
-      "desc": "每层使造成的伤害+10%。\n回合结束时层数减少1层",
+      "desc": "每层使造成的伤害+10%。\n回合结束时，本效果的层数减少1层",
       "summary": ""
     },
     {
@@ -1111,7 +1111,7 @@
       "id": "AmberResultUp",
       "name": "怠惰强壮",
       "desc": "本回合内，怠惰属性技能的最终威力根据本层数相应增加",
-      "summary": "怠惰技能最终威力+{0}"
+      "summary": "怠惰技能的最终威力+{0}"
     },
     {
       "id": "Blue",
@@ -1264,7 +1264,7 @@
     {
       "id": "PenetrateResultUp",
       "name": "突刺强壮",
-      "desc": "本回合内基于本效果的层数提高突刺技能的威力。"
+      "desc": "本回合内基于本效果的层数提高突刺技能的最终威力。"
     },
     {
       "id": "DuelDeclaration_DonQuixote",
@@ -1310,6 +1310,31 @@
       "id": "CtrlTeamCaptain",
       "name": "控制部队长",
       "desc": "-行动槽+1\n-将该人格的一个1技能替换为3技能\n-当该单位使用技能击杀敌方单位时，使理智值最低的2名友方单位（包含该单位）恢复25点理智值。获得2个对应属性的罪孽碎片，并获得其余属性的罪孽碎片各1个。 "
+    },
+    {
+      "id": "HeatedGasHarpoon",
+      "name": "加热的燃气捕鲸叉",
+      "desc": "1回合内，正面命中时使目标增加1级烧伤 强度"
+    },
+    {
+      "id": "OverHeatedGasHarpoon",
+      "name": "过热的燃气捕鲸叉",
+      "desc": "1回合内，攻击命中时使目标增加1级烧伤 强度"
+    },
+    {
+      "id": "CoverAttack",
+      "name": "援护攻击",
+      "desc": "- 赋予本效果的单位攻击结束后，带有本效果的单位使用1技能对该目标进行一次单方面攻击\n- 援护攻击不会影响该角色的技能池"
+    },
+    {
+      "id": "ReCompulsion",
+      "name": "反转强迫",
+      "desc": "每回合开始时，使自身恢复15点理智值"
+    },
+    {
+      "id": "IndigoResultUp",
+      "name": "傲慢强壮",
+      "desc": "本回合内基于本效果的层数提高傲慢技能的最终威力。"
     }
   ]
 }

@@ -150,6 +150,7 @@ module ObiterDicta
     include("EGOGiftCommand.jl")
 
     include("EnemyStrings.jl")
+    include("EnemyCommand.jl")
     include("AbnormalityGuides.jl")
 
     include("ClashCalculator.jl")

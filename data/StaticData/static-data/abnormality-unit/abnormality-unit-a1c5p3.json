@@ -2538,7 +2538,7 @@
     {
       "id": 8105,
       "appearance": "8105_AhabAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
       "level": 2,
       "attributeType": "WHITE",
       "patternID": "8105",
@@ -2947,7 +2947,7 @@
       "id": 81052,
       "originID": 8105,
       "appearance": "8105_AhabAppearancece",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -4053,7 +4053,7 @@
     {
       "id": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
       "level": 2,
       "patternID": "8106",
       "attributeType": "WHITE",
@@ -4447,7 +4447,7 @@
       "id": 81062,
       "originID": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -4848,7 +4848,7 @@
       "id": 81063,
       "originID": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"

@@ -104,7 +104,22 @@
           ],
           "profileId": "ucorp_ishmael_profile",
           "analysisId": "ucorp_ishmael_analysis"
-      }
+        },
+        {
+          "personalityId": 10808,
+          "releaseDay": 20240208,
+          "cv_Id": "",
+          "personalityStoryList": [
+            {
+              "storyId": "P10808",
+              "lockCondition": "gacksung",
+              "order": 6,
+              "reward": {"type": "ITEM", "id": 2, "num": 40}
+            }
+          ],
+          "profileId": "ahab_ishmael_profile",
+          "analysisId": "ahab_ishmael_analysis"
+        }
         ]
     }
   ]

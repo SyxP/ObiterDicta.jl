@@ -89,6 +89,16 @@
       "list": [
 
       ]
+    },
+    {
+      "id": "CoverAttack",
+      "iconID": "AaCePcBt",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
     }
   ]
 }

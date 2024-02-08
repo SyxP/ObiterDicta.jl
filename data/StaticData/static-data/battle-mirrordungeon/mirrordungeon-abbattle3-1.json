@@ -30089,7 +30089,7 @@
       ],
       "rewardList": [],
       "stageScriptNameAfterClear": "AbnormalityEvent",
-      "eventScriptName": "ElectricCentipede_Mirror",
+      "eventScriptName": "ElectricCentipede",
       "abnormalityEventList": [
         804501
       ],

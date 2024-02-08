@@ -1567,6 +1567,16 @@
               "scale": 5,
               "abilityScriptList": [
                 {
+                  "scriptName": "858504",
+                  "buffData": {
+                    "buffKeyword": "MRcAmBb",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "AttackDmgUp",

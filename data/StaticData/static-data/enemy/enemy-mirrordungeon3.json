@@ -13993,7 +13993,7 @@
             "sdPortrait": 90088,
             "appearance": "90088_Fishman_CruiseAppearance",
             "unitKeywordList": [
-                "MERMAID"
+                "MERMAID", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14139,7 +14139,7 @@
             "sdPortrait": 90089,
             "appearance": "90089_Fishman_Infested_AAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14256,7 +14256,7 @@
             "sdPortrait": 90090,
             "appearance": "90090_Fishman_Infested_BAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14373,7 +14373,7 @@
             "sdPortrait": 90091,
             "appearance": "90091_Fishman_Infested_CAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14490,7 +14490,7 @@
             "sdPortrait": 90093,
             "appearance": "90093_LCCB_Infested_BAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14638,7 +14638,7 @@
             "sdPortrait": 90092,
             "appearance": "90092_LCCB_Infested_AAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14783,7 +14783,7 @@
             "sdPortrait": 90094,
             "appearance": "90094_DoubleHook_Infested_AAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -14931,7 +14931,7 @@
             "sdPortrait": 90095,
             "appearance": "90095_DoubleHook_Infested_BAppearance",
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [
@@ -15581,7 +15581,7 @@
             "nameID": 90100,
             "sdPortrait": 90090,
             "unitKeywordList": [
-                "WHITE_PARASITE"
+                "WHITE_PARASITE", "ON_THE_LAKE "
             ],
             "level": 2,
             "slotWeightConditionList": [

@@ -317,6 +317,31 @@
       ]
     },
     {
+      "id": 20305,
+      "pivotList": [
+        {
+          "cutsceneType": "EGO_AWAKEN",
+          "offsetX": -0.02,
+          "offsetY": -0.01,
+
+          "offsetStartX": 0.29,
+          "offsetStartY": -0.11,
+
+          "closeUp": 0.54
+        },
+        {
+          "cutsceneType": "EGO_EROSION",
+          "offsetX": 0.14,
+          "offsetY": 0.21,
+
+          "offsetStartX": -0.02,
+          "offsetStartY": -0.01,
+
+          "closeUp": 0.54
+        }
+      ]
+    },
+    {
       "id": 20401,
       "pivotList": [
         {

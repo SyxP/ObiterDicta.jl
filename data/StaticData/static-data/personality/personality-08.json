@@ -699,6 +699,108 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 10808,
+      "appearance": "10808_Ishmael_AhabAppearance",
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "characterId": 8,
+      "panicType": 9999,
+      "season": 3,
+      "defenseSkillIDList": [
+        1080804
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 68,
+        "incrementByLevel": 2.3
+      },
+      "defCorrection": -3,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyMp10"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply15"
+              },
+              {
+                "conditionID": "OnDieAllyMp10"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnKillEnemyByOtherAllyExceptSupportiveAction5"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1080801,
+          "number": 3
+        },
+        {
+          "skillId": 1080802,
+          "number": 2
+        },
+        {
+          "skillId": 1080803,
+          "number": 1
+        }
+      ]
     }
   ]
 }

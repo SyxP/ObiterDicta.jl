@@ -27,6 +27,19 @@
           }
         }
       ]
+    },
+    {
+      "id": "ReCompulsion",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "list": [
+        {
+          "ability": "RecoverSelfMpOnRoundStart",
+          "value": 15
+        }
+      ]
     }
   ]
 }

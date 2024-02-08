@@ -12,6 +12,40 @@
           "ability": "CtrlTeamCaptain"
         }
       ]
+    },
+    {
+      "id": "HeatedGasHarpoon",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "OverHeatedGasHarpoon",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "GiveBuffOnSA",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ]
     }
   ]
 }

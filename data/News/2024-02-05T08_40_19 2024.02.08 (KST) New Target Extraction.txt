@@ -1,0 +1,59 @@
+
+LIMBUS COMPANY
+
+The Pequod Captain
+Ishmael
+
+ENTITY INFO
+
+SKILL 1
+To Me!
+[Combat Start] Apply Defense Level Up to 2 allies adjacent to this unit on the Dashboard
+[On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains (+Highest Reson.) Aggro
+△ At-X highest A-Reson., apply Protection to the ally that gained Aggro
+[II] [On Hit] Inflict Bleed
+
+SKILL 2
+Pursue Them to the End!
+[Combat Start] Apply Offense Level Up to 2 allies adjacent to this unit on the Dashboard
+[On Use] Every X Reson. of the highest Reson. adds Y% chance that this unit orders the ally on its immediate right(on the Dashboard) to use Assist Attack this turn.
+△ At-X highest A-Reson., apply 'Damage Up' to the ally
+△ At-Y Pride A-Reson., apply an additional Pride Power Up
+[III] [On Hit] Inflict Bleed
+[III] [On Hit] Inflict Burn
+
+SKILL 3
+Harpoon of Obsession
+Deal more damage based on the target’s missing HP
+Gain Coin Power for every X Bleed on target
+[After Attack] If the target is Staggered or defeated, allies with the least SP heal SP, gain Poise, and gain Poise Count.
+The number of allies affected by this effect is proportional to the Harpoon of Obsession count
+[II] [On Hit] Inflict Bleed
+[IV] [On Hit] Inflict Burn Count
+
+DEFENSE
+Do Not Fear
+[On Use] Heal SP for 2 allies adjacent to this unit on the Dashboard
+
+Captain of the Pequod
+After Attack if the target is defeated after this unit's attack, gain Poise and Poise Count. Then, gain
+□ over-healed allies Harpoon next turn.
+🔶 2 other allies with the least SP heal SP and gain Poise.
+If the allies are from the Pequod, heal additional SP; then, apply Pierce Power Up next turn.
+
+SUPPORT PASSIVE
+Captain's Orders
+After Attack if ally with the highest SP gains Poise and Poise Count when the target is defeated after that unit's attack.
+
+Assist Attack
+□ if unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End.
+□ The Skill used as an Assist Attack does not affect Unit B's upcoming Skills list.
+
+Overheated Gas Harpoon
+For 1 turn, inflict Burn On Hit
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2022 Archbears Inc. All Rights Reserved.
+

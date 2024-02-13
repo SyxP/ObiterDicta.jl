@@ -9,7 +9,7 @@ function getRarityString(num :: Int)
     end
 end
 
-function getRarityFromString(strInput :: String)
+function getRarityFromString(strInput)
     str = uppercase(strInput)
     if str == "1*" || str == "0" || str == "O"
         return 1

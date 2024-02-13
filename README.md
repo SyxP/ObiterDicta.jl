@@ -96,3 +96,4 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 ### Immediate Upcoming Plans
 
 1. Choice Events printing
+2. Implement `skill (s2:Warp [id:Don])` to work.

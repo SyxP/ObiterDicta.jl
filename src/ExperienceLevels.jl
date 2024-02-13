@@ -2,8 +2,12 @@ function EXPHelp()
     S = raw"""Looks up EXP Tables. Available Commands:
               exp manager _level_
               exp enke _level_ / exp enkephalin _level_
+
               exp uptie / exp ut
+              exp ut _rarity_ _start_ _end_
               exp threadspin / exp ts 
+              exp ts _tier_ _start_ _end_
+
               exp id _level_
               exp id plot
               exp refill
@@ -38,8 +42,18 @@ function EXPParser(input)
     S = match(r"^id(entity)? plots?$", input)
     (S !== nothing) && return getEXPPlot()
 
-    match(r"(uptie|ut)$", input) !== nothing && return getEXPUptie()
-    match(r"(threadspin|ts)$", input) !== nothing && return getEXPThreadspin()
+    S = match(r"^(uptie|ut) ([^ ]*) ([0-9]+) ([0-9]+)$", input)
+    if S !== nothing
+        return getEXPUptie(S.captures[2], parse(Int, S.captures[3]), parse(Int, S.captures[4]))
+    end
+    match(r"^(uptie|ut)$", input) !== nothing && return getEXPUptie()
+
+    S = match(r"^(threadspin|ts) ([^ ]*) ([0-9]+) ([0-9]+)$", input)
+    if S !== nothing
+        return getEXPThreadspin(S.captures[2], parse(Int, S.captures[3]), parse(Int, S.captures[4]))
+    end
+    match(r"^(threadspin|ts)$", input) !== nothing && return getEXPThreadspin()
+
     match(r"refill$", input) !== nothing && return getEXPRefill()
 
     @info "Unable to parse $input (try 'exp help')"
@@ -101,6 +115,30 @@ function getEXPUptie()
     return
 end
 
+function getEXPUptie(rarityString, startTier, endTier)
+    UptieDatabase = StaticData("common-data/common-data")["personalityLevelTable"]["gacksungPieceTable"]
+    ThreadCost = EGOShardCost = 0
+
+    tier = getRarityFromString(rarityString)
+    if tier == 0
+        println("Unable to parse rarity: $rarityString.")
+        return
+    end
+    searchKeyTier = "rank" * string(tier)
+    for (i, cost) in enumerate(UptieDatabase[searchKeyTier])
+        (startTier ≤ i ≤ endTier - 1) || continue
+        ThreadCost += cost["thread"]
+        EGOShardCost += cost["piece"]
+    end
+
+    print("To get from UT $(@blue(string(startTier))) => $(@blue(string(endTier))) for rarity $(@yellow(rarityString)), ")
+    print("you need $(@magenta(string(ThreadCost))) thread")
+    EGOShardCost != 0 && print(" and $(@magenta(string(EGOShardCost))) E.G.O shard")
+    print(".")
+
+    return ThreadCost, EGOShardCost
+end
+
 function getEXPThreadspin()
     ThreadspinDatabase = StaticData("common-data/common-data")["egoLevelTable"]["gacksungPieceTable"]
     Tiers = getEGOTiers()
@@ -118,6 +156,25 @@ function getEXPThreadspin()
         end
         println(join(ThreadspinStrings, "$(@dim(";"))\t"))
     end
+end
+
+function getEXPThreadspin(rawRarityString, startTier, endTier)
+    ThreadspinDatabase = StaticData("common-data/common-data")["egoLevelTable"]["gacksungPieceTable"]
+    rarityString = getClosestEGOType(rawRarityString)
+    ThreadCost = EGOShardCost = 0
+
+    for (i, cost) in enumerate(ThreadspinDatabase[rarityString])
+        (startTier ≤ i ≤ endTier - 1) || continue
+        ThreadCost += cost["thread"]
+        EGOShardCost += cost["piece"]
+    end
+
+    print("To get from TS $(@blue(string(startTier))) => $(@blue(string(endTier))) for rarity $(@yellow(rarityString)), ")
+    print("you need $(@magenta(string(ThreadCost))) thread")
+    EGOShardCost != 0 && print(" and $(@magenta(string(EGOShardCost))) E.G.O shards")
+    print(".")
+
+    return ThreadCost, EGOShardCost
 end
 
 getEXPDatabase() = StaticData("common-data/common-data")["personalityLevelTable"]["expTable"]

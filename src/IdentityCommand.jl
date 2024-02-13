@@ -660,7 +660,7 @@ function searchSinglePersonality(query, haystack, tier, level, verbose; showSkil
 end
 
 function searchTopPersonality(query, haystack, topN, tier)
-    println("Using $(@red(query)) as query. The $topN closest Personalitys are:")
+    println("Using $(@red(query)) as query. The $topN closest Personalities are:")
     result = SearchClosestString(query, haystack; top = topN)
     resultPersonality = [x[2] for x in result]
     

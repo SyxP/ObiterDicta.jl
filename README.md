@@ -95,5 +95,6 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Immediate Upcoming Plans
 
-1. Choice Events printing
+1. Print Refraction Railway Enemies
 2. Implement `skill (s2:Warp [id:Don])` to work.
+3. Implement Choice Event printing.

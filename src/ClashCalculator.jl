@@ -236,6 +236,7 @@ function fetchClashSkillExact(input, level)
     S = match(r"^[eE]xact[:=](.*)$", input)
     S === nothing && return
     coinVec = getCoinVecFromString(S.captures[1])
+    coinVec === nothing && return
     return ParseClashSkill(
         coinVec,
         level,

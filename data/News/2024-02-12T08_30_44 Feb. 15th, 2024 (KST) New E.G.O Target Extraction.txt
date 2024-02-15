@@ -1,0 +1,32 @@
+
+LIMBUS COMPANY
+Wishing Coin
+TETH
+Don Quixote
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+E.G.O AWAKENING SKILL
+
+Wishing Coin
+[On Hit] Inflict Bleed Count
+[On Hit] Inflict Tremor
+[Heads Hit] Inflict Paralysis
+
+E.G.O CORROSION SKILL
+
+Wishing Coin
+[Indiscriminate] Targets randomly
+[On Crit] Trigger Tremor Burst
+[On Crit] Inflict Bleed
+[Tails Hit] Trigger Tremor Burst
+[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count
+
+E.G.O PASSIVE
+
+Fallen Stone Pagoda
+Gain Poise and Poise Count when defeating an enemy with Bleed
+
+Copyright © 2023 Project Moon. All rights reserved.
+

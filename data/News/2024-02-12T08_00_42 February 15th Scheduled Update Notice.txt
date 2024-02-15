@@ -1,0 +1,64 @@
+
+
+
+February 15th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Feb 15th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+New Content
+
+1. New E.G.O Target Extraction - [Wishing Cairn Don Quixote] (Feb. 15th 12:00 ~ Feb. 29th 10:00 (KST))
+Extraction rate increases for the following E.G.O:
+- E.G.O [TETH] : Wishing Cairn Don Quixote
+
+2. New E.G.O Added
+The following is added to the list of extractable E.G.O.
+- E.G.O [HE] : Wishing Cairn Don Quixote
+
+1/3
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where The Pequod Captain Ishmael did not count as a crew of The Pequod(for Skill & Passive conditions)
+
+▶ Fixed an issue where The Pequod Captain Ishmael's Skill 3 'Harpoon of Obsession', when activated on self, heals HP on self instead of SP
+
+▶ (EN Only) Improved translation text
+ - Fixed The Pequod Captain Ishmael Uptie Story typos
+ - Improved readability on The Pequod Captain Ishmael's Skills & Passives
+
+2/3
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Feb. 22nd 2024 (KST)
+- When: After Dec. 15th (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Feb. 22nd (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+3/3
+
+PROJECT MOON
+

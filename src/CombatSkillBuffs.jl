@@ -241,7 +241,7 @@ function interactBuffInternal(Action :: Dict{String, Any}, str)
 end
 
 function burstTremorInternal(Action :: Dict{String, Any})
-    Scripts = [r"VibrationExplosion", "1120503_1", "1050503_4", r"^VEOn"]
+    Scripts = [r"VibrationExplosion", "1120503_1", "1050503_4", r"^VEOn", r"^MeursaultFifthEgoCoinSecondAbility"]
     return any(actionScriptMatches(Action, Script) for Script in Scripts)
 end
 

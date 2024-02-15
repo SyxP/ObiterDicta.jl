@@ -1,16 +1,16 @@
 {
   "list": [
     {
-      "id": 155,
+      "id": 157,
       "startDate": "2023-11-16T03:00:00.000Z",
-      "endDate": "2024-02-22T01:00:00.000Z",
+      "endDate": "2024-02-29T01:00:00.000Z",
       "bannerInfo": {
-        "endDate": "2024-02-22T01:00:00.000Z",
-        "bannerType": "TEMPORARY_SUB",
-        "priority": 98,
-        "pickupIdList": [ 21203, 11207, 11206, 11203 ],
-        "illustList": [ "gacha_155_illust" ],
-        "videoList": [ "21203", "11207_1", "11206_1", "11203_1" ]
+        "endDate": "2024-02-29T01:00:00.000Z",
+        "bannerType": "TEMPORARY_MAIN",
+        "priority": 100,
+        "pickupIdList": [ 20305 ],
+        "illustList": [ "gacha_157_illust" ],
+        "videoList": [ "20305"]
       },
       "payments": [
         {
@@ -18,7 +18,7 @@
           "gachaUIState": "Limit",
           "requiredItemId": 1,
           "requiredNum": 13,
-          "requiredChanceId": 155,
+          "requiredChanceId": 157,
           "count": 1
         },
         {
@@ -63,11 +63,11 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 4150
+              "occupancy": 8300
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 4200
+              "occupancy": 8400
             }
           ],
           "elementType": "PERSONALITY",
@@ -82,23 +82,7 @@
             10801,
             10901,
             11001,
-            11101
-          ]
-        },
-        {
-          "groupType": "1_pickup",
-          "occupancyCaseList": [
-            {
-              "occupancyCase": "DEFAULT",
-              "occupancy": 4150
-            },
-            {
-              "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 4200
-            }
-          ],
-          "elementType": "PERSONALITY",
-          "elementIdList": [
+            11101,
             11201
           ]
         },
@@ -107,19 +91,19 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 640
+              "occupancy": 1280
             },
             {
               "occupancyCase": "TENTH",
-              "occupancy": 4790
+              "occupancy": 9580
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 650
+              "occupancy": 1300
             },
             {
               "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 4850
+              "occupancy": 9700
             }
           ],
           "elementType": "PERSONALITY",
@@ -154,32 +138,7 @@
             11006,
             11102,
             11103,
-            11106
-
-          ]
-        },
-        {
-          "groupType": "2_pickup",
-          "occupancyCaseList": [
-            {
-              "occupancyCase": "DEFAULT",
-              "occupancy": 640
-            },
-            {
-              "occupancyCase": "TENTH",
-              "occupancy": 4790
-            },
-            {
-              "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 650
-            },
-            {
-              "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 4850
-            }
-          ],
-          "elementType": "PERSONALITY",
-          "elementIdList": [
+            11106,
             11202,
             11205
           ]
@@ -189,19 +148,19 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 145
+              "occupancy": 290
             },
             {
               "occupancyCase": "TENTH",
-              "occupancy": 145
+              "occupancy": 290
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 150
+              "occupancy": 300
             },
             {
               "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 150
+              "occupancy": 300
             }
           ],
           "elementType": "PERSONALITY",
@@ -234,32 +193,7 @@
             11002,
             11005,
             11008,
-            11104
-
-          ]
-        },
-        {
-          "groupType": "3_pickup",
-          "occupancyCaseList": [
-            {
-              "occupancyCase": "DEFAULT",
-              "occupancy": 145
-            },
-            {
-              "occupancyCase": "TENTH",
-              "occupancy": 145
-            },
-            {
-              "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 150
-            },
-            {
-              "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 150
-            }
-          ],
-          "elementType": "PERSONALITY",
-          "elementIdList": [
+            11104,
             11203,
             11206,
             11207
@@ -285,7 +219,6 @@
             20203,
             20204,
             20303,
-            20305,
             20403,
             20404,
             20503,
@@ -295,8 +228,8 @@
             20905,
             21004,
             21103,
-            21105
-
+            21105,
+            21203
           ]
         },
         {
@@ -314,41 +247,17 @@
           ],
           "elementType": "EGO",
           "elementIdList": [
-            21203
+            20305
           ]
         }
       ],
       "pitySystem": {
-        "endDate": "2024-02-22T01:00:00.000Z",
+        "endDate": "2024-02-29T01:00:00.000Z",
         "catalog": [
           {
             "element": {
-              "type": "PERSONALITY",
-              "id": 11207,
-              "num": 1
-            },
-            "requiredPityPoint": 200
-          },
-          {
-            "element": {
-              "type": "PERSONALITY",
-              "id": 11206,
-              "num": 1
-            },
-            "requiredPityPoint": 200
-          },
-          {
-            "element": {
-              "type": "PERSONALITY",
-              "id": 11203,
-              "num": 1
-            },
-            "requiredPityPoint": 200
-          },
-          {
-            "element": {
               "type": "EGO",
-              "id": 21203,
+              "id": 20305,
               "num": 1
             },
             "requiredPityPoint": 200

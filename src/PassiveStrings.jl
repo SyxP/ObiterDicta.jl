@@ -52,7 +52,7 @@ getStringID(passive :: Passive) = string(getID(passive))
 getName(passive :: Passive) = getLocalizedField(passive, "name", "", "")
 getDesc(passive :: Passive) = getLocalizedField(passive, "desc", nothing, "")
 
-getEscapedDesc(passive :: Passive) = getEscape(getDesc, passive)
+getEscapedDesc(passive :: Passive) = getEscape(getSkillExceptionChange∘getDesc, passive)
 
 function hasResonanceCondition(myPassive :: Passive)
     Tmp = getInternalField(myPassive, "attributeResonanceCondition", nothing, nothing)

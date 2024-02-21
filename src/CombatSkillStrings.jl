@@ -242,7 +242,8 @@ function getDescriptionString(skill :: CombatSkill, tier = getMaxTier(CombatSkil
 end
 
 function SkillDescriptionStringExceptions()
-    return [("<Mechanical Amalgam>" => "[Mechanical Amalgam]")]
+    return [("<Mechanical Amalgam>" => "[Mechanical Amalgam]"),
+            ("<Lake Entity>" => "[Lake Entity]")]
 end
 
 function getSkillExceptionChange(Str)

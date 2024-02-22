@@ -3506,7 +3506,7 @@
             {
               "operatorType": "ADD",
               "scale": 4,
-              "actionindex": 2,
+              "actionIndex": 2,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3524,7 +3524,7 @@
             {
               "operatorType": "ADD",
               "scale": 4,
-              "actionindex": 3,
+              "actionIndex": 3,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3575,7 +3575,7 @@
             {
               "operatorType": "ADD",
               "scale": 4,
-              "actionindex": 2,
+              "actionIndex": 2,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3593,7 +3593,7 @@
             {
               "operatorType": "ADD",
               "scale": 4,
-              "actionindex": 3,
+              "actionIndex": 3,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3680,7 +3680,7 @@
             {
               "operatorType": "ADD",
               "scale": 3,
-              "actionindex": 3,
+              "actionIndex": 3,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3699,7 +3699,7 @@
               "operatorType": "ADD",
               "scale": 3,
               "cutsceneStart": true,
-              "actionindex" :  4,
+              "actionIndex": 4,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3772,7 +3772,7 @@
             {
               "operatorType": "ADD",
               "scale": 3,
-              "actionindex": 3,
+              "actionIndex": 3,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -3791,7 +3791,7 @@
               "operatorType": "ADD",
               "scale": 3,
               "cutsceneStart": true,
-              "actionindex": 4,
+              "actionIndex": 4,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",

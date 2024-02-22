@@ -41,7 +41,7 @@
     },
     {
       "id": 910301,
-      "dungeonType": "HELLS_CHICKEN_DUNGEON",
+      "dungeonType": "STORY_MIRROR_DUNGEON",
       "staminaModule": 1,
       "recommendedLevel": 30,
       "entranceStory": "E305A",
@@ -55,7 +55,7 @@
     },
     {
       "id": 910302,
-      "dungeonType": "HELLS_CHICKEN_DUNGEON",
+      "dungeonType": "STORY_MIRROR_DUNGEON",
       "staminaModule": 2,
       "recommendedLevel": 30,
       "illustname": "chapter3.5_HellsChickenDungeon_Hard",

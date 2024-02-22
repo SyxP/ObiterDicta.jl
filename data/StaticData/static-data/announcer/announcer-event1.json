@@ -98,7 +98,7 @@
         {
           "voicetype": "EnemyBigDamage_Round",
           "path": "announcer_round_givebigdmg",
-          "priority": 16,
+          "priority": 12,
           "index": 1
         },
         {

@@ -2,10 +2,13 @@
   "list":[
     {
       "id": 1203,
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_OPTIONAL",
+
       "season": 3,
-      "spriteStr": "seasonal_optional_package",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_O_BOX",
+        "id": 0
+      },
+      "contentsOpenType": "PACKAGE_OPTIONAL",
       "contents": [
         {
           "type": "ITEM",
@@ -80,6 +83,10 @@
           "maxNum": 3
         }
       ],
+      
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_OPTIONAL",
+      "spriteStr": "seasonal_optional_package",
       "optionalSample": {
         "type": "ITEM",
         "id": 10001,

@@ -2,64 +2,103 @@
   "list": [
     {
       "id": 20001,
-      "category": "EVENT",
+
+      "ignoreExcess": true,
+
       "spriteStr": "umida_event_item_1"
     },
     {
       "id": 20002,
-      "category": "EVENT",
+
+      "ignoreExcess": true,
+
       "spriteStr": "umida_event_item_2"
     },
     {
       "id": 20003,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
     {
       "id": 20004,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
     {
       "id": 20005,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
     {
       "id": 20006,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
     {
       "id": 20007,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
     {
       "id": 20008,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
     },
+
     {
       "id": 20009,
-      "category": "EVENT",
+
+      "ignoreExcess": true,
+
       "spriteStr": "miracle_event_item_1"
     },
     {
       "id": 20010,
-      "category": "EVENT",
-      "spriteStr": "miracle_event_item_2",
+
       "autoTransformable": true,
       "autoTransformTargetElement": {
         "type": "ITEM",
         "id": 20009,
         "num": 20
-      }
+      },
+      "ignoreExcess": true,
+
+      "spriteStr": "miracle_event_item_2"
     },
     {
       "id": 20011,
-      "category": "EVENT",
-      "spriteStr": "lunacy"
+
+      "ignoreExcess": true
+    },
+    {
+      "id": 20012,
+
+      "ignoreExcess": true,
+
+      "spriteStr": "ycgd_event_item_1"
+    },
+    {
+      "id": 20013,
+
+      "autoTransformable": true,
+      "autoTransformTargetElement": {
+        "type": "ITEM",
+        "id": 20012,
+        "num": 20
+      },
+      "ignoreExcess": true,
+
+      "spriteStr": "ycgd_event_item_2"
+    },
+    {
+      "id": 20014,
+
+      "ignoreExcess": true
+    },
+    {
+      "id": 20015,
+
+      "ignoreExcess": true
     }
   ]
 }

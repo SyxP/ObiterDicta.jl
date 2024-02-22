@@ -3747,6 +3747,579 @@
           "iconID": "1120704_4"
         }
       ]
+    },
+    {
+      "id": 1120801,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AMBER",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 1,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 5
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120802,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SCARLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 2,
+          "defaultValue": 3,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration10",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 4
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120803,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "AZURE",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 2,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration10",
+                  "buffData": {
+                    "buffKeyword": "PlusCoinValueDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 10,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Laceration7",
+                  "buffData": {
+                    "buffKeyword": "PlusCoinValueDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120804,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 1,
+          "defaultValue": 8,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "attributeType": "SCARLET",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8
+            }
+          ],
+          "iconID": "1120804_4"
+        }
+      ]
     }
   ]
 }

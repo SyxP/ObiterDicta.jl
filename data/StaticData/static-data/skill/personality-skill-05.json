@@ -14,7 +14,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : -3,
+          "skillLevelCorrection": -3,
           "defaultValue": 2,
           "canTeamKill": false,
           "canDuel": true,
@@ -158,7 +158,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : -3,
+          "skillLevelCorrection": -3,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -268,7 +268,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : -3,
+          "skillLevelCorrection": -3,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -413,7 +413,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 3,
+          "skillLevelCorrection": 3,
           "defaultValue": 8,
           "canTeamKill": false,
           "canDuel": true,
@@ -450,7 +450,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 2,
           "canTeamKill": false,
           "canDuel": true,
@@ -593,7 +593,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 5,
           "canTeamKill": false,
           "canDuel": true,
@@ -761,7 +761,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 5,
           "canTeamKill": false,
           "canDuel": true,
@@ -824,7 +824,7 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
@@ -855,7 +855,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 8,
           "canTeamKill": false,
           "canDuel": true,
@@ -897,7 +897,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -1008,7 +1008,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -1143,7 +1143,7 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
@@ -1268,7 +1268,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 5,
           "canTeamKill": false,
           "canDuel": true,
@@ -1351,7 +1351,7 @@
         {
           "gaksungLevel": 4,
           "defaultValue": 5,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
@@ -1453,7 +1453,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 5,
+          "skillLevelCorrection": 5,
           "defaultValue": 12,
           "canTeamKill": false,
           "canDuel": true,
@@ -1508,7 +1508,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -1591,7 +1591,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 5,
           "canTeamKill": false,
           "canDuel": true,
@@ -1786,7 +1786,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 8,
           "canTeamKill": false,
           "canDuel": true,
@@ -1858,9 +1858,9 @@
                 {
                   "scriptName": "HealSelfOnSuccessAttackByDmgRatio50AddValuePerBuffStack",
                   "buffData": {
-                    "buffOwner" : "Target",
-                    "buffKeyword" : "NailPersonality",
-                    "value" : 0.03
+                    "buffOwner": "Target",
+                    "buffKeyword": "NailPersonality",
+                    "value": 0.03
                   }
                 }
               ]
@@ -1883,7 +1883,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 5,
+          "skillLevelCorrection": 5,
           "defaultValue": 15,
           "canTeamKill": false,
           "canDuel": true,
@@ -1930,7 +1930,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 3,
           "canTeamKill": false,
           "canDuel": true,
@@ -1997,7 +1997,7 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
@@ -2028,7 +2028,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -2129,7 +2129,7 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "SkillPowerResultAdderViaBuffCheck",
               "buffData": {
@@ -2162,7 +2162,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 1,
+          "skillLevelCorrection": 1,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -2269,7 +2269,7 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList":[
+          "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
@@ -2300,7 +2300,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 8,
           "canTeamKill": false,
           "canDuel": true,
@@ -2342,7 +2342,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -2475,7 +2475,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 4,
           "canTeamKill": false,
           "canDuel": true,
@@ -2705,7 +2705,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 6,
           "canTeamKill": false,
           "canDuel": true,
@@ -2931,7 +2931,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 0,
-          "skillLevelCorrection" : 5,
+          "skillLevelCorrection": 5,
           "defaultValue": 12,
           "canTeamKill": false,
           "canDuel": true,
@@ -3350,7 +3350,7 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
-            
+
           ],
           "coinList": [
             {
@@ -3395,6 +3395,907 @@
           "abilityScriptList": [
             {
               "scriptName": "1050703_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050801,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "range": 12,
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "10508012(limit:2)",
+              "buffData": {
+                "buffKeyword": "BladeResultUpTier1",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 3
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "10508012(limit:2)",
+              "buffData": {
+                "buffKeyword": "BladeResultUpTier1",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050802,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "range": 12,
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "SlashResultUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "CriticalDmgUpByRatio30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "10508022(limit:2)",
+              "buffData": {
+                "buffKeyword": "BladeResultUpTier2",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "SlashResultUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "CriticalDmgUpByRatio40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 3
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "10508022(limit:2)",
+              "buffData": {
+                "buffKeyword": "BladeResultUpTier2",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "SlashResultUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "CriticalDmgUpByRatio60"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050803,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 0,
+          "defaultValue": 20,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse3"
+            },
+            {
+              "scriptName": "GetIgnoreNaturalBreakOnUse"
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "UseNewCounterFirst_1050805"
+            },
+            {
+              "scriptName": "DistoryIgnoreNaturalBreak"
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.02
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatio15"
+            },
+            {
+              "scriptName": "atkmulMeur30And15"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse3"
+            },
+            {
+              "scriptName": "GetIgnoreNaturalBreakOnUse"
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "UseNewCounterFirst_1050805"
+            },
+            {
+              "scriptName": "DistoryIgnoreNaturalBreak"
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit75",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.03
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatio30"
+            },
+            {
+              "scriptName": "atkmulMeur50And25"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050804,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 8,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse(limit:1)",
+              "buffData": {
+                "buffKeyword": "SlashResultUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "actionIndex" : 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "iconID": "1050804_4",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse(limit:1)",
+              "buffData": {
+                "buffKeyword": "SlashResultUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "atkmulMeur30And15"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050805,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "COUNTER",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S4",
+          "viewType": "ENCOUNTER",
+          "arearange" :  3,
+          "parryingCloseType": "NEAR",
+          "iconID": "1050805",
+          "abilityScriptList": [
+            {
+              "scriptName": "TagetNumAdderBBViaBuffCheck1",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.02
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatio20"
+            },
+            {
+              "scriptName": "atkmulMeur50And25"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart" :  true,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "TagetNumAdderBBPerViaBuffCheck1WithLimit2",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.02
+              }
+            },
+            {
+              "scriptName": "CriticalDmgUpByRatio30"
+            },
+            {
+              "scriptName": "atkmulMeur50And25"
+            },
+            {
+              "scriptName": "AttackDmgUpByRatio100IfTargetIsOne"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
             }
           ]
         }

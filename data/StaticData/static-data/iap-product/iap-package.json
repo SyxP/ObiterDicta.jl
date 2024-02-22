@@ -17,7 +17,8 @@
           "id": 102,
           "num": 1
         }
-      ]
+      ],
+      "priorityForUI": 89
     },
     {
       "id": 102,
@@ -56,7 +57,8 @@
           "id": 212,
           "num": 30
         }
-      ]
+      ],
+      "priorityForUI": 99
     },
     {
       "id": 103,
@@ -80,7 +82,8 @@
           "id": 201,
           "num": 120
         }
-      ]
+      ],
+      "priorityForUI": 98
     },
     {
       "id": 104,
@@ -139,7 +142,8 @@
           "id": 102,
           "num": 1
         }
-      ]
+      ],
+      "priorityForUI": 999
     },
     {
       "id": 121,
@@ -258,7 +262,8 @@
           "id": 1203,
           "num": 40
         }
-      ]
+      ],
+      "priorityForUI": 998
     },
     {
       "id": 131,
@@ -277,7 +282,8 @@
           "id": 101,
           "num": 5
         }
-      ]
+      ],
+      "priorityForUI": 9
     },
     {
       "id": 133,
@@ -306,7 +312,8 @@
           "id": 301,
           "num": 20
         }
-      ]
+      ],
+      "priorityForUI": 7
     },
     {
       "id": 135,
@@ -331,7 +338,8 @@
           "num": 20
         }
       ],
-      "additionalStickerId": 135
+      "additionalStickerId": 135,
+      "priorityForUI": 6
     },
     {
       "id": 136,
@@ -345,10 +353,9 @@
           "id": 201,
           "num": 100
         }
-      ]
+      ],
+      "priorityForUI": 5
     },
-
-
     {
       "id": 141,
       "category": "PACKAGE",
@@ -361,7 +368,8 @@
           "id": 102,
           "num": 3
         }
-      ]
+      ],
+      "priorityForUI": 88
     },
     {
       "id": 142,
@@ -375,7 +383,8 @@
           "id": 102,
           "num": 5
         }
-      ]
+      ],
+      "priorityForUI": 87
     },
     {
       "id": 143,
@@ -389,7 +398,8 @@
           "id": 101,
           "num": 10
         }
-      ]
+      ],
+      "priorityForUI": 8
     },
     {
       "id": 144,
@@ -414,7 +424,8 @@
           "num": 20
         }
       ],
-      "additionalStickerId": 144
+      "additionalStickerId": 144,
+      "priorityForUI": 79
     },
     {
       "id": 145,
@@ -439,7 +450,8 @@
           "num": 20
         }
       ],
-      "additionalStickerId": 145
+      "additionalStickerId": 145,
+      "priorityForUI": 78
     },
     {
       "id": 146,
@@ -464,7 +476,8 @@
           "num": 40
         }
       ],
-      "additionalStickerId": 146
+      "additionalStickerId": 146,
+      "priorityForUI": 77
     },
     {
       "id": 147,
@@ -478,7 +491,8 @@
           "id": 201,
           "num": 300
         }
-      ]
+      ],
+      "priorityForUI": 69
     },
     {
       "id": 148,
@@ -492,7 +506,8 @@
           "id": 201,
           "num": 500
         }
-      ]
+      ],
+      "priorityForUI": 68
     },
     {
       "id": 149,
@@ -506,7 +521,8 @@
           "id": 201,
           "num": 1000
         }
-      ]
+      ],
+      "priorityForUI": 67
     }
   ]
 }

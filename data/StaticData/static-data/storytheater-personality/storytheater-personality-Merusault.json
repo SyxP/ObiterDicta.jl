@@ -104,7 +104,22 @@
           ],
           "profileId": "middlefinger_meursault_profile",
           "analysisId": "middlefinger_meursault_analysis"
-        }
+        },
+        {
+         "personalityId": 10508,
+         "releaseDay": 20240222,
+         "cv_Id": "",
+         "personalityStoryList": [
+           {
+             "storyId": "P10508",
+             "lockCondition": "gacksung",
+             "order": 7,
+             "reward":{"type":"ITEM","id":2,"num":40}
+           }
+         ],
+         "profileId": "blade_meursault_profile",
+         "analysisId": "blade_meursault_analysis"
+       }
         ]
     }
   ]

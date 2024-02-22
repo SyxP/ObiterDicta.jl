@@ -1,0 +1,29 @@
+{
+	"list": [
+		{
+			"id": 5,
+			"startDate": "2023-11-17T15:00:00.000Z",
+			"startDateForUI": "2023-11-17T15:00:00.000Z",
+			"endDate": "2023-11-24T14:59:59.000Z",
+			"gracePeriod": "2023-11-24T14:59:59.000Z",
+			"eventRewardDatas": [
+				{
+					"rewardId": 1,
+					"rewardCondition": {
+						"type": "ITEM",
+						"id": 20007,
+						"num": 1
+					},
+					"rewardItemList": [
+						{
+							"type": "ITEM",
+							"id": 102,
+							"num": 1
+						}
+					],
+					"limitCount": 1
+				}
+			]
+		}
+	]
+}

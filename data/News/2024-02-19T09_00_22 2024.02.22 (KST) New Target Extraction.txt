@@ -1,0 +1,165 @@
+
+
+
+LIMITED
+Blade Lineage Mentor
+Meursault
+
+IDENTITY INFO
+
+SKILL 1
+Draw of the Sword
+- ATK x Poise, Coin Power Y
+- Combat Start: Apply Swordplay of the Homeland (+Rending) to Highest A-Res(↓) other Blade Lineages allies in ascending order of Speeds (slowest to fastest) if there are X or more allied or inactive Blade Lineages in the Encounter; apply more of the above effect
+[On Use] Gain Poise Count
+[On Hit] Gain Poise
+
+SKILL 2
+Acupuncture
+- ATK x Poise, Coin Power Y
+- Combat Start: Apply Swordplay of the Homeland (+Penetrating) to Highest A-Res(↓) other Blade Lineages allies in ascending order of Speeds (slowest to fastest) if there are X or more allied or inactive Blade Lineages in the Encounter; apply more of the above effect
+[On Use] Gain Poise Count
+[On Slash] Gain Slash Power
+[On Hit] Gain Poise
++X% Damage on Critical Hit
+
+SKILL 3
+Yield thy Flesh
+[On Use] Gain Aggro to this Skill slot next turn
+[On Use] Until this Skill or the "To Claim Their Bones" Skill ends, this unit cannot be Staggered
+[On Slash] Gain Poise
+[On Close] After getting hit, use "To Claim Their Bones" Skill
++X% Dead on one Crit damage
+Deal +X% more damage on HP critical hit based on Poise on self
+Deal +X% more damage per Y% missing HP on self
+
+DEFENSE
+On Use] Gain Slash Power per X‰ hit until removed
+Deal +X% more damage per Y% missing HP on self
+[On Hit] Gain Poise
+
+PASSIVE
+Swordplay of the Homeland / In Memoriam
+- When this unit gains Poise Potency/Count with its own Skill or Coin reflects: give Poise Potency and Count to 2 other Blade Lineage allies with no Poise or with the least Poise.
+- If there are X or more Blade Lineages allies participating in this Encounter, give more Poise Potency and Count
+- Combat Start: Apply Swordplay of the Homeland buff to all other Blade Lineage allies
++ When +X Blade Lineage allies are defeated, receive the above effects on self instead
+- In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; this unit's HP cannot drop below 1 for the turn
+
+SUPPORT PASSIVE
+Swordplay of the Homeland
+1 ally with the most Poise at Combat Start deals more damage on Critical Hit with a Slash type Skill
+Swordplay of the Homeland - Rending
+Skill 1 gains Final Power by the effects Count for this turn
+Swordplay of the Homeland - Penetrating
+Skill 2 gains Final Power by the effects Count for this turn
+Swordplay of the Homeland
+If a unit has X+ Poise upon Skill use:
+Skill 2 & Skill 2 gain Coin Power & F damage inversely proportional to the # of their Coins
+Skill 3 gains damage & Crit damage inversely proportional to the # of its Coins
+
+INCENSE
+To Claim Their Bones
+[Before Attack] Gain ATK when hit based on Poise on self
+[On Use] Until this Skill ends, this unit cannot be Staggered
+[On Use] Deal one critical damage per X‰ missing HP on self
+Deal +X% more damage per Y% critical hit based on Poise on self
+Deal more damage if this Skill targets only a single enemy/Part
+[On W] Inflict Bleed
+[Oh Hit] Inflict Paraly
+*The Identity's stats at max level and Uptie tier are subject to chance.
+**This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+Blade Lineage Salsu
+
+ENTITY INFO
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+Copyright (C) 2022 Project Moon
+
+SKILL 1
+Moonlit Blade Dance
+Atk X+ Poise, Coin Power Y+
+[On Use] Gain Poise Count
+I) [Heads Hit] Gain Poise
+II) [On Crit] Inflict Red Plum Blossom
+
+SKILL 2
+Acupuncture
+Atk X+ Poise, Coin Power Y+
+[On Use] Gain Poise Count
+I) [On Hit] Gain Poise Count
+II) +X% Damage on Critical Hit
+III) [On Hit] Inflict Bind next turn
+IV) [On Crit] Inflict Red Plum Blossom
+
+Red Plum Blossoms Scatter
+Deal more damage based on Red Plum Blossom on target
+Gain Coin Power based on Poise on self
+[Clash Win] Consume half the Poise Count on self, then gain Poise equal to Poise Count consumed
+This Skill does not consume Red Plum Blossom on Crit
+I) [On Crit] Inflict Red Plum Blossom
+II) [On Crit] If the target has X Red Plum Blossoms, inflict Slash Fragility
+III) [On Crit] Inflict Red Plum Blossom
+IV) [On Crit] If the target has X Red Plum Blossoms, inflict Slash Fragility
+
+DEFENSE
+Redirect
+[On Use] Gain Final Power based on Poise on self
+
+PASSIVE
+Sanguine Plum Blossoms
+On Crit, inflict Red Plum Blossom.
+If the target has X Red Plum Blossoms, inflict Defense Level Down instead
+
+SUPPORT PASSIVE
+Lingering Blade Imprint
+When the ally first deployed in the pre-battle team setup
+Critically hits with a Slash type Skill, inflict Defense Level Down
+
+Red Plum Blossom
+• Unique Bleed
+• +X% chance for this unit to be Critically Hit
+• When struck by a Critical Hit, gain Bleed based on the value and take more damage from Critical Hits
+Kurokumo Clan Captain
+
+Gregor
+
+SKILL 1
+Lenticular Rend
+[On Use] if the target has X+ Bleed, gain Clash Power
+[Clash Win] Inflict Bleed
+[On Hit] Inflict Bleed Count
+
+SKILL 2
+Shadow Cloud
+[On Use] If the target has X+ Bleed, gain Clash Power
+[Heads Hit] Inflict Bleed
+[On Hit] Inflict Offense Level Down
+[On Hit] If the target has X+ Bleed, inflict Attack Power Down next turn
+
+SKILL 3
+Shadowcloud Shattercleave
+[On Use] If the target has X+ Bleed, gain Clash Power
+[On Use] If the target has X++ Bleed, gain Coin Power
+[On Hit] Inflict Offense Level Down
+[On Hit] If the target has X+ Bleed, inflict Offense Level Down next turn
+[On Hit] Inflict Offense Level Down
+[On Hit] If the target has X+ Bleed, inflict Offense Level Down next turn
+[Heads Hit] Inflict Bleed
+[On Hit] If the target has X+ Bleed, inflict Plus Coin Drop next turn
+
+DEFENSE
+Guard
+
+PASSIVE
+Dark Cloud Blade
+Clash Win: Inflict Bleed
+
+SUPPORT PASSIVE
+Dark Cloud Style
+When 1 ally with the slowest Speed hits an enemy with X+ Bleed, inflict Offense Level Down next turn
+
+*The Identity's stats at max level and Uptide tier are displayed here.
+*This image is for reference only; actual details subject to change.
+

@@ -1,0 +1,43 @@
+
+Blade Lineage Salsu
+
+Don Quixote
+
+SKILL 1
+Draw of the Sword
+ATx* Poise, Coin Power +Y
+[On Use] Gain Poise Count
+[On Hit] Gain Poise
+
+SKILL 2
+Blade Arc
+ATx* Poise, Coin Power +Y
+[On Use] Gain Poise Count
+[On Hit] Gain Poise
+[On Crit] To 1 ally either with no Poise or with the least Poise, apply Poise.
+If the affected ally is from the Blade Lineage, apply additional Poise
+
+SKILL 3
+Fare Thee Well
+ATx* Poise, Coin Power +Y
+[On Use] Gain Poise
+[Heads Hit] The final Coin deals more damage
+[Heads Hit] The final Coin deals more damage
+[*%] Damage on Critical Hit
+[On Crit] To 2 allies either with no Poise or with the least Poise Count, apply Poise Count.
+If the affected ally is from the Blade Lineage, apply additional Poise Count.
+[After Attack] If the target is defeated, apply Slash DMG Up to self and 1 random other ally next turn
+
+PASSIVE
+Evade
+
+DEFENSE
+
+PASSIVE
+Collective Breathing
+When this unit gains Poise Potency with its own Skill or Coin effects: give Poise Potency to 1 ally with no Poise or with the least Poise Potency
+
+SUPPORT PASSIVE
+Nightly Stroll
+1 ally with the least Poise gains more Poise Potency when gaining Poise Potency with its own Skill or Coin effects.
+

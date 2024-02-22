@@ -1,0 +1,152 @@
+
+
+
+
+
+
+Intro to Upcoming Feb. 22nd Content -
+Ch.5.5: Yield My Flesh to Claim Their Bones
+
+Greetings, Dear Manager.
+
+With the Feb. 22nd, 2024 (KST) Update, new content [Ch. 5.5 - Yield My Flesh to Claim Their Bones] will be added to the game.
+
+- Duration : 2024/2/22 12:00 (KST) ~ Before 3/21 Scheduled Update
+- Event Rewards Exchange :
+2024/2/22 12:00 (KST) ~ Before 3/28 Scheduled Update
+- Requirements : Clear Main Story 5.5-12
+
+※ The Event Duration & Rewards Exchange date labeling in the in-game UI is currently displayed with a specific time; it will be corrected to reflect the schedule written here with the Feb. 29th Scheduled Update. We apologize for the inconvenience.
+
+Event Description
+
+- When the event starts, the [Ch. 5.5: Yield My Flesh to Claim Their Bones] Event Page will open.
+
+- During the event period, you can earn [Bloodied Scabbard] by clearing Mirror Dungeons and the event Stages & Dungeon.
+
+- You can redeem various rewards from the [Reward Exchange] by spending the [Bloodied Scabbard] that you have collected.
+
+1/6
+
+PROJECT MOON
+Event Gameplay
+
+<Bloodied Scabbard>
+► Combat Encounters of ‘Yield My Flesh to Claim Their Bones’
+You can obtain [Bloodied Scabbard] every time you complete a combat Encounter of ‘Yield My Flesh to Claim Their Bones’. Each Encounter has a first-time reward, and with it you can obtain even more [Bloodied Scabbard].
+
+The final Stage of ‘Yield My Flesh to Claim Their Bones’ is a repeatable Dungeon, and is similar in progression to a Mirror Dungeon. That final Stage will have a higher Enkephalin-to-[Bloodied Scabbard] ratio, so it will be much more effective as a means of collecting [Bloodied Scabbard].
+
+※ Yield My Flesh to Claim Their Bones Event Dungeon
+Yield My Flesh to Claim Their Bones Dungeon takes after Mirror Dungeon 3 - Mirror of the Lake.
+The Mirror of the Lake Starter Buffs do not apply within the Yield My Flesh to Claim Their Bones Dungeon, and the following will apply to all runs.
+
+- Starting E.G.O Gifts
+- Gift Appearance Rates: The same as unlocking [A Journey's Start] and all of its secondary Buffs
+- Starting E.G.O Gift for each category: 3
+- Appearing Gifts: Yield My Flesh to Claim Their Bones exclusive E.G.O Gifts + All Mirror Dungeon E.G.O Gifts
+
+- Shops
+- Gift Appearance Rates: The same as unlocking [Seize the Opportunity(Floor 4~5 Rates)] and all of its secondary Buffs
+- Gifts on Display per Visit: 5 Gifts
+
+These are identical to unlocking [A Journey's Start], [Fruits of Labor], [New Discovery], [Seize the Opportunity(Floor 4~5 Rates)], and [Just In Case] Starter Buffs down to the Secondary Buffs. In the Yield My Flesh to Claim Their Bones event Dungeon, the Shop and the Rest Stop will be available immediately before the Boss room, in that order.
+
+2/6
+
+PROJECT MOON
+LIMBUS COMPANY
+
+Event Gameplay
+
+Mirror Dungeons
+
+During the Event Period, 'Yield My Flesh to Claim Their Bones' combat Encounters and Events will appear in the Mirror Dungeon.
+※ You will be able to experience Yield My Flesh to Claim Their Bones event combat Encounters and Events regardless of your Main Story progress.
+
+Upon clearing the Mirror Dungeon, you can earn [Bloodied Sack] proportional to the number of 'Yield My Flesh to Claim Their Bones' Encounters and Events you’ve completed through the run.
+
+On the final floor of a Mirror Dungeon run, you can choose between the previously existing Mirror Dungeon final boss encounters and the Yield My Flesh to Claim Their Bones final boss encounter.
+Selecting the Yield My Flesh to Claim Their Bones final boss encounter will net you even more [Bloodied Scabbard].
+
+Spending the Hard Difficulty Rewards chance for the week will net you much more [Bloodied Scabbard].
+※ If you claim the rewards without using the Hard Difficulty reward chance for the week, your Hard Difficulty Rewards will be the same as the Normal Difficulty Rewards, just like the Pass EXP gain.
+
+During the event period, the Shop and the Rest Stop will be available immediately before the Boss room of the Mirror Dungeon Normal Difficulty as well.
+
+Main Story (Canto 1 ~ Canto 5.5 Miracle in District 20)
+
+If you have not fulfilled the event unlock requirements, you can obtain [Bloodied Scabbard] as a first-time reward from Main Story Combat Encounters.
+Upon first-time-completion of an Encounter, you can obtain [Bloodied Scabbard] proportional to the amount of Enkephalin Spent regardless of whether you’ve met the EX Clear Conditions or not.
+※ You cannot obtain [Bloodied Scabbard] from stages that have already been completed.
+※ You cannot obtain [Bloodied Scabbard] from Luxcavations.
+
+3/6
+
+PROJECT MOON
+Event Currency
+
+During the event, you can earn [Bloodied Scabbard] by clearing event Stages and Dungeons. You can also obtain [Bloodied Scabbard] by clearing Main Story Stages or Dungeons for the first time, or clearing the Mirror Dungeon. 
+
+Rarely, you may obtain [Resentful Scabbard] from clearing Event Stages, Main Story Stages, or Mirror Dungeons, and [Resentful Scabbard] is automatically converted to 20 [Bloodied Scabbard] upon acquisition.
+
+In the [Reward Exchange] window, you can purchase various rewards by spending [Bloodied Scabbard] you have collected.
+
+✓ Confirm
+
+If you have cleared the 'Yield My Flesh to Claim Their Bones' Stages, Mirror Dungeons, and Main Story (Chapter 1 ~ 5.5), you can start finding [Resentful Scabbard].
+
+[Resentful Scabbard] has the highest chance to drop from the final Encounter of the event. The chance for it to drop in other Encounters is the same across all Encounters.
+
+[Resentful Scabbard] is automatically converted to 20 [Bloodied Scabbard] in the Results or the Rewards screen upon acquisition.
+
+4/6
+
+PROJECT MOON
+Event Bonus Identities
+
+During the event period, deploying the following identities on your team will boost the amount of [Bloodied Scabbard] earned.
+You can earn a maximum of 120% boost to the amount of event currency earned.
+
+30% Gain
+- [Some icons and text indicating characters here]
+
+Confirm
+
+Obtain more [Bloodied Scabbard] by completing Event Encounters or Mirror Dungeons while equipped with Event Bonus Identities.
+
+<Event Bonus Identities>
+- 30% Bonus
+- 3★: Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust
+- 2★: Blade Lineage Salsu Don Quixote, Kurokumo Clan Captain Gregor
+
+- 20% Bonus
+- 3★: Blade Lineage Salsu Yi Sang, Blade Lineage Salsu Sinclair, Kurokumo Clan Wakashu Ryōshū, Kurokumo Clan Wakashu Rodion
+- 2★: Blade Lineage Salsu Outis, Kurokumo Clan Wakashu Hong Lu
+
+- The Event Currency Bonus from each Identity is additive.
+(Rounded up) Event Currency Bonus maxes out at 120% Bonus.
+
+- Event Bonus Identities don't actually have to participate in a battle; you can earn the bonus currency simply by having them in your Team loadout.
+
+- Event Currency Bonus applies to first-time clear rewards as well.
+
+5/6
+
+PROJECT MOON
+Event Rewards
+
+- At the [Rewards Exchange], you can spend [Bloodied Scabbard] you’ve collected to purchase various rewards.
+
+- The highest number of [Bloodied Scabbard] that can be obtained is 4,000. Every reward in the Reward Exchange will be obtainable at that point.
+
+- [Bloodied Scabbard] will no longer be obtainable once the Event closes after the Mar. 21st Scheduled Update.
+
+- [Reward Exchange] will be open for 5 weeks, from Feb. 22nd 12:00 (KST) ~ Mar. 28th Scheduled Update.
+
+- Even after the event fully ends, you will be able to experience Yield My Flesh to Claim Their Bones combat Encounters and view its story anytime at Driverside and Theater - [Detour Tales].
+
+6/6
+
+PROJECT MOON
+

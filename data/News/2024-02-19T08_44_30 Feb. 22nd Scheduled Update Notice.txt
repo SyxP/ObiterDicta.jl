@@ -1,0 +1,191 @@
+
+
+
+
+
+Feb. 22nd Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 
+09:30 [AM] through 12:00 [PM] on Feb. 22nd, 2024 (KST). 
+Please make note of the maintenance schedule; we recommend
+that you refrain from entering combat or making in-app 
+purchases and close the application before maintenance 
+begins so that no data is lost.
+Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction [Yield My Flesh to Claim Their Bones]
+(Feb. 22nd 12:00 ~ Mar. 7th 10:00 (KST))
+Extraction rate increases for the following Identities.
+- 3* : Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust
+- 2* : Kurokumo Clan Captain Gregor
+
+2. Target Extraction [Hong Lu]
+(Feb. 22nd 12:00 ~ Mar. 7th 10:00 (KST))
+Extraction rate increases for the following Identities & E.G.O.
+- E.G.O [HE] : Dimension Shredder Hong Lu
+- 3* : Dieci South Section 4 Hong Lu, K Corp. Class 3 Excision 
+Staff Hong Lu, TingTang Gang Gangleader Hong Lu
+- 2* : W Corp. L2 Cleanup Agent Hong Lu, Liu South 
+Section 5 Hong Lu, Kurokumo Clan Wakashu Hong Lu
+- 1* : LCB Sinner Hong Lu
+
+3. New Identities added
+The following are added to the list of extractable Identities.
+- 3* : Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust
+- 2* : Kurokumo Clan Captain Gregor
+
+4. New Content - Chapter 5.5 - [Yield My Flesh to Claim Their Bones]
+※ Please refer to the Steam Announcements
+page for more information.
+
+5. New Event - [1st Anniversary Event]
+※ Please refer to the Steam Announcements
+page for more information.
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Packs Shop Adjustments
+
+- New Shop tab added : [Packs Shop #2] will be added to the game. There, you can purchase the [1st Anniversary Package] purchasable with Paid Lunacy.
+- Packs re-organized : The Packs list has been re-ordered so that Monthly Packs and Weekly Packs are more easily distinguishable.
+※ Packs Shop renewal is currently in the plans; we plan to finish it by Season 4.
+
+2. Adjusted Season End Date in the in-game UI
+
+Season 3 Pass end date will be changed to 'Until Season 4 Update', and the relevant UI elements will be adjusted accordingly.
+
+3. Chapter 3.5 - Hell's Chicken Dungeon Adjusted
+
+The dungeon in Chapter 5.5 - Yield My Flesh to Claim Their Bones has been created based on Season 3's Mirror Dungeon. Therefore, the Chapter 3.5 Dungeon will be adjusted accordingly.
+- Before : Based on the Season 1 Mirror Dungeon System
+- After : Based on the Season 3 Mirror Dungeon System
+
+Mirror of the Lake Starter Buffs do not apply in Hell's Chicken Dungeon. Instead, the following will be applied at the start.
+▷ Starting E.G.O Gifts
+- Gift Appearance Rates : The same as unlocking 'A Journey's Start' and all of its secondary Buffs
+- Starting E.G.O Gift for each category : 3
+- Appearing Gifts : Hell's Chicken exclusive E.G.O Gifts +
+All Mirror Dungeon E.G.O Gifts
+
+▷ Shops
+- Gift Appearance Rates : The same as unlocking 'Seize the Opportunity' (Floor 4~5 Rates) and all of its secondary Buffs
+- Gifts on Display per Visit : 5 Gifts
+
+These are identical to unlocking [A Journey's Start], [Fruits of Labor], [New Discovery], [Seize the Opportunity(Floor 4~5 Rates)], and [Just In Case] Starter Buffs down to the Secondary Buffs.
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶️ Adjusted Blade Lineage Salsu Yi Sang and
+Twinhook Pirates First Mate Gregor's Crit Damage text
+- Before : +N% Damage on Critical Hit
+- After : +N% Damage on Critical Hit (Translation unchanged)
+(※ The actual effects are unchanged.)
+
+▶️ Fixed an issue where, when a Sinner is defeated by the
+Abnormality Dream-Devouring Siltcurrent's 'Blind Obsession' Skill,
+the death Sprite showed the Sinner on Standby
+
+▶️ Fixed an issue where certain conditions did
+not trigger the corresponding Announcer Voice lines
+(1) Turn Start after an allied unit takes a powerful blow
+(2) Turn Start after an enemy takes a powerful blow
+
+▶️ Fixed an issue where certain Focused Encounters, such as
+Thread Luxcavations, did not display the Enemy Resistance info
+
+▶️ Fixed an issue where certain enemies in Refraction Railway Line 3
+had their Resistances unlocked, but the Skill UI Resistance
+summary info on the upper end of the screen UI did
+not display when in the chaining phase
+
+▶️ Fixed an issue in Focused Encounters where, if the player chose
+the Win Rate or the Damage auto Skill select function,
+Skills that spend Ammo did not show the [!No Ammo!]
+notification when out of Ammo
+
+▶️ Fixed an issue where, in certain conditions,
+the text for certain effects did not display
+(1) After Attack for each Coin
+(2) On Evade
+
+▶️ Fixed an issue where certain Identities did not play
+the VFX when successfully destroying an enemy Coin
+(1) Dieci South Section 4 Rodion
+(2) Dieci South Section 4 Hong Lu
+
+▶️ Fixed an issue where The Pequod Captain
+Ishmael's Skill animation did not activate properly
+(1) For Skill 2 and 3: the animation for the
+remaining Coins did not play in an intended manner
+(2) For Skill 3: When losing a clash in the middle of a
+special Clash animation, the Clash animation ended prematurely
+
+▶️ Identity Title Adjusted
+- Blade Lineage Cutthroat Outis -> Blade Lineage Salsu Outis
+
+▶️ Added acquisition animation
+for purchasing Announcers from the Dispenser
+
+▶️ Improved swiping responsiveness
+in the Extraction & Event Banner in the Window
+
+3/5
+
+PROJECT MOON
+Known Issues
+
+► An issue where activating the [On Use] Skill effects did not display the proper UI texts in Combat
+
+► An issue where starting combat in certain Focused Encounters would soft-lock the game
+
+Issues identified after the Feb. 22nd Scheduled Update
+
+► An issue where a VFX does not apply for a certain Identity in the [Yield My Flesh to Claim Their Bones] Stages
+- W Corp. L3 Cleanup Agent Ryōshū
+
+► An issue where inputting the number of exchange items in the event Reward Exchange shows the font color codes
+※ This does not affect Reward Exchange via inputting numbers
+
+► An issue where, if the player switches to a different menu (e.g. Window) while loading into the event Stage, the two menus overlap
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Feb. 29th, 2024 (KST)
+- When: After Feb. 22nd, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Feb. 29th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

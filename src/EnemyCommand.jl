@@ -133,3 +133,33 @@ function printRandom(::Type{EnemyUnit}, verbose)
     printSingle(randEnemy, getRawLevel(randEnemy), verbose)
     return randEnemy
 end
+
+function searchSingleEnemy(query, haystack, level, verbose; showSkills = true, showPassives = true)
+    print("Using $(@red(query)) as query")
+    AddParams = String[]
+
+    length(AddParams) > 0 && print(" with $(join(AddParams, "; "))")
+    println(".")
+
+    result = SearchClosestString(query, haystack)[1][2]
+    printSingle(result, level, verbose; showSkills = showSkills, showPassives = showPassives)
+    return result
+end
+
+function searchTopEnemy(query, haystack, topN, level)
+    println("Using $(@red(query)) as query. The $topN closest enemies are:")
+    result = SearchClosestString(query, haystack; top = topN)
+    resultEnemy = [x[2] for x in result]
+
+    return printFromEnemyList(resultEnemy, level)
+end
+
+function printFromEnemyList(list, level::Int)
+    return printFromEnemyList(list, repeat([level], length(list)))
+end
+
+function printFromEnemyList(list, level::Vector{Int})
+    if length(list) != length(level)
+        @info "Error: Enemy List and Level List needs to be of the same length."
+    end
+end

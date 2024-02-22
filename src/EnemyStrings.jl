@@ -12,6 +12,11 @@ struct AbnormalityPart <: EnemyUnit
     id :: Int
 end
 
+struct LevelledEnemy{T <: EnemyUnit}
+    enemy :: T
+    level :: Int
+end
+
 getMasterFileClasses(::Type{RegularEnemyUnit}) = ["enemy"]
 getMasterFileClasses(::Type{AbnormalityEnemyUnit}) = ["abnormality-unit"]
 getMasterFileClasses(::Type{AbnormalityPart}) = ["abnormality-part"]
@@ -247,6 +252,9 @@ end
 
 function getFullTitle(enemy :: T, level) where T <: EnemyUnit
     return getFullTitle(enemy) * " @ Level $level"
+end
+function getFullTitle(levEnemy :: LevelledEnemy{T}) where T <: EnemyUnit
+    return getFullTitle(levEnemy.enemy, levEnemy.level)
 end
 
 function getSpeedRange(enemy :: T) where T <: EnemyUnit
@@ -706,4 +714,9 @@ function getFullPanel(enemy :: T, level = getRawLevel(enemy); verbose = false,
     Panels = getPartialPanel.(Phases, level; verbose, showSkills, showPassives)
 
     return vstack(Panels...)
+end
+
+function getFullPanel(levEnemy :: LevelledEnemy{T}; verbose = false, 
+                      showSkills = true, showPassives = true) where T <: EnemyUnit
+    return getFullPanel(levEnemy.enemy, levEnemy.level; verbose, showSkills, showPassives)
 end

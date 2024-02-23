@@ -43,7 +43,8 @@
             "abnormality-part-a1c5p3",
             "abnormality-mirror3-part",
             "abnormality-part-a1c951",
-            "abnormality-part-event1"
+            "abnormality-part-event1",
+            "abnormality-part-ycgd"
           ]
         },
         {
@@ -60,7 +61,8 @@
             "abnormality-unit-a1c5p3",
             "abnormality-mirror3-unit",
             "abnormality-unit-a1c951",
-            "abnormality-unit-event1"
+            "abnormality-unit-event1",
+            "abnormality-unit-ycgd"
           ]
         },
         {
@@ -71,33 +73,34 @@
         },
         {
             "dataClass": "buff",
-            "fileList": [
-                "ally-skill-buff",
-                "common-buff",
-                "resource-buff",
-                "ego-gift-buff",
-                "mirror-dungeon-floor-buff",
-                "negative-nonvolatile-buff",
-                "mirror-dungeon-floor-buff",
-                "negative-sin-buff",
-                "negative-volatile-buff",
-                "neutral-nonvolatile-buff",
-                "neutral-volatile-buff",
-                "normal-enemy-buff",
-                "pattern-buff",
-                "positive-nonvolatile-buff",
-                "positive-sin-buff",
-                "positive-volatile-buff",
-                "rail-line-2-buff",
-                "rail-line-2-content-buff",
-                "typo-only-buff",
-                "buff-enemy-a1c5p1",
-                "buff-enemy-a1c5p2",
-                "buff-enemy-a1c5p3",
-                "buff-enemy-a1c951",
-                "buff-enemy-MR3",
-                "special-buff"
-            ]
+          "fileList": [
+            "ally-skill-buff",
+            "common-buff",
+            "resource-buff",
+            "ego-gift-buff",
+            "mirror-dungeon-floor-buff",
+            "negative-nonvolatile-buff",
+            "mirror-dungeon-floor-buff",
+            "negative-sin-buff",
+            "negative-volatile-buff",
+            "neutral-nonvolatile-buff",
+            "neutral-volatile-buff",
+            "normal-enemy-buff",
+            "pattern-buff",
+            "positive-nonvolatile-buff",
+            "positive-sin-buff",
+            "positive-volatile-buff",
+            "rail-line-2-buff",
+            "rail-line-2-content-buff",
+            "typo-only-buff",
+            "buff-enemy-a1c5p1",
+            "buff-enemy-a1c5p2",
+            "buff-enemy-a1c5p3",
+            "buff-enemy-a1c951",
+            "buff-enemy-MR3",
+            "buff-enemy-ycgd",
+            "special-buff"
+          ]
         },
         {
             "dataClass": "panic-buff",
@@ -167,12 +170,14 @@
         },
         {
             "dataClass": "ego-gift-mirrordungeon",
-            "fileList": [
-                "ego-gift-mirrordungeon",
-                "ego-gift-mirrordungeon2",
-                "ego-gift-mirrordungeon3",
-                "hidden-ego-gift-mirrordungeon"
-            ]
+          "fileList": [
+            "ego-gift-mirrordungeon",
+            "ego-gift-mirrordungeon2",
+            "ego-gift-mirrordungeon3",
+            "ego-gift-hellschickendungeon",
+            "hidden-ego-gift-mirrordungeon",
+            "ego-gift-story-ycgd"
+          ]
         },
         {
             "dataClass": "enemy",
@@ -184,7 +189,8 @@
             "enemy-a1c5p3",
             "enemy-mirrordungeon3",
             "enemy-a1c951",
-            "enemy-event1"
+            "enemy-event1",
+            "enemy-ycgd"
           ]
         },
         {
@@ -200,7 +206,9 @@
                 "gacha-154",
                 "gacha-155",
                 "gacha-156",
-                "gacha-157"
+				"gacha-157",
+                "gacha-158",
+				"gacha-159"
             ]
         },
         {
@@ -232,7 +240,8 @@
             "passive-enemy-a1c5p3",
             "passive-enemy-a1c951",
             "passive-enemy-event1",
-            "passive-enemy-refraction3"
+            "passive-enemy-refraction3",
+            "passive-enemy-ycgd"
           ]
         },
         {
@@ -315,7 +324,9 @@
             "ego-skill-a1c5p3",
             "skill-abnormality-a1c951",
             "skill-enemy-a1c951",
-            "skill-abnormality-event1"
+            "skill-abnormality-event1",
+            "skill-enemy-ycgd",
+            "skill-abnormality-ycgd"
           ]
         },
         {
@@ -333,7 +344,8 @@
             "storybattle-a1c5p2",
             "storybattle-a1c5p3",
             "storybattle-a1c951",
-            "storybattle-event1"
+            "storybattle-event1",
+            "storybattle-ycgd"
           ]
         },
         {
@@ -346,7 +358,8 @@
                 "dungeonbattle91-3",
                 "dungeonbattle-a1c5p1",
                 "dungeonbattle-a1c5p2",
-                "dungeonbattle-a1c5p3"
+                "dungeonbattle-a1c5p3",
+                "dungeonbattle-ycgd"
             ]
         },
         {
@@ -359,7 +372,8 @@
             "abbattle91-3",
             "abbattle-a1c5p1",
             "abbattle-a1c5p2",
-            "abbattle-a1c5p3"
+            "abbattle-a1c5p3",
+            "abbattle-ycgd"
           ]
         },
         {
@@ -391,7 +405,8 @@
                 "stagenodereward-a1c5p2",
                 "stagenodereward-a1c5p3",
                 "stagenodereward91-5",
-                "stagenodereward91-6"
+                "stagenodereward91-6",
+                "stagenodereward91-7"
             ]
         },
         {
@@ -404,7 +419,8 @@
             "dataClass": "dungeon",
             "fileList": [
                 "dungeon",
-                "dungeon-a1c5p3"
+                "dungeon-a1c5p3",
+                "dungeon-ycgd"
             ]
         },
         {
@@ -448,6 +464,12 @@
             ]
         },
         {
+            "dataClass": "ig-product",
+            "fileList": [
+                "ingame-package"
+            ]
+        },
+        {
             "dataClass": "ui",
             "fileList": [
                 "ColorCode"
@@ -478,6 +500,13 @@
             "fileList": [
                 "mirrordungeon-encounterinfos-03-normal",
                 "mirrordungeon-encounterinfos-03-hard"
+            ]
+        },
+        {
+            "dataClass": "mirrordungeon-global-encounterinfo",
+            "fileList": [
+                "mirrordungeon-global-encounterinfos-3-0",
+                "mirrordungeon-global-encounterinfos-3-1"
             ]
         },
         {
@@ -532,7 +561,8 @@
               "storytheater-other-9012",
               "storytheater-other-9105",
               "storytheater-other-9013",
-              "storytheater-other-9014"
+              "storytheater-other-9014",
+              "storytheater-other-9107"
             ]
         },
         {
@@ -554,7 +584,8 @@
                 "announcer",
                 "announcer-a1c5p1",
                 "announcer-a1c5p3",
-                "announcer-event1"
+                "announcer-event1",
+                "announcer-ycgd"
             ]
         },
         {
@@ -686,9 +717,9 @@
             ]
         },
         {
-            "dataClass": "mirrordungeon-event-acquirable-egogifts",
+            "dataClass": "acquirable-egogifts-in-event",
             "fileList": [
-                "mirrordungeon-event-acquirable-egogifts-01"
+                "acquirable-egogifts-in-event-01"
             ]
         },
         {
@@ -708,7 +739,8 @@
                 "loadingCG-stage_104",
                 "loadingCG-stage_9104",
                 "loadingCG-stage_105",
-                "loadingCG-stage_9105"
+                "loadingCG-stage_9105",
+                "loadingCG-stage_9107"
             ]
         },
         {
@@ -806,9 +838,17 @@
             ]
         },
         {
-            "dataClass": "hells-chicken-dungeon",
+            "dataClass": "story-mirror-dungeon",
             "fileList": [
-                "hells-chicken-dungeon"
+                "hells-chicken-dungeon",
+                "ycgd-dungeon"
+            ]
+        },
+        {
+            "dataClass": "story-mirror-dungeon-acquire-cost-in-battle",
+            "fileList": [
+                "hells-chicken-dungeon-acquire-cost-in-battle",
+                "ycgd-dungeon-acquire-cost-in-battle"
             ]
         },
         {
@@ -818,37 +858,28 @@
             ]
         },
         {
-            "dataClass": "hells-chicken-dungeon-egogift-droppool",
+            "dataClass": "story-mirror-dungeon-egogift-droppool",
             "fileList": [
-                "hells-chicken-dungeon-egogift-droppool"
+                "hells-chicken-dungeon-egogift-droppool",
+                "ycgd-dungeon-egogift-droppool"
             ]
         },
         {
-            "dataClass": "hells-chicken-dungeon-event-acquirable-egogifts",
-            "fileList": [
-                "hells-chicken-dungeon-event-acquirable-egogifts"
-            ]
-        },
-        {
-            "dataClass": "ego-gift-hellschickendungeon",
-            "fileList": [
-                "ego-gift-hellschickendungeon",
-                "hidden-ego-gift-hellschickendungeon"
-            ]
-        },
-        {
-            "dataClass": "hells-chicken-dungeon-generatenodepool",
+            "dataClass": "story-mirror-dungeon-generatenodepool",
             "fileList": [
                 "hells-chicken-dungeon-generatenodepool-1-1",
                 "hells-chicken-dungeon-generatenodepool-1-2",
                 "hells-chicken-dungeon-generatenodepool-event-1-1",
-                "hells-chicken-dungeon-generatenodepool-event-1-2"
+                "hells-chicken-dungeon-generatenodepool-event-1-2",
+                "ycgd-dungeon-generatenodepool-1-1",
+                "ycgd-dungeon-generatenodepool-event-1-1"
             ]
         },
         {
-            "dataClass": "hells-chicken-dungeon-encounterinfo",
+            "dataClass": "story-mirror-dungeon-encounterinfo",
             "fileList": [
-                "hells-chicken-dungeon-encounterinfos-01"
+                "hells-chicken-dungeon-encounterinfos-01",
+                "ycgd-dungeon-encounterinfos-01"
             ]
         },
         {
@@ -919,18 +950,6 @@
             ]
         },
         {
-            "dataClass": "mirrordungeon-ui-config",
-            "fileList": [
-                "mirrordungeon-ui-config"
-            ]
-        },
-        {
-            "dataClass": "mirrordungeon-special-battle",
-            "fileList": [
-                "mirrordungeon-special-battle"
-            ]
-        },
-        {
             "dataClass": "ui-config",
             "fileList": [
                 "ui-config"
@@ -939,8 +958,9 @@
         {
             "dataClass": "event",
             "fileList": [
-                "miracleofdistrict20-event",
-                "dawn-of-green-event"
+                "ycgd-event",
+                "limbus-1st-gift-240227",
+                "limbus-1st-anniversary-attendance"
             ]
         },
         {

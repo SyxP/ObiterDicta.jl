@@ -46,6 +46,48 @@
           }
         }
       ]
+    },
+    {
+      "id": "BladeResultUpTier1",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "Tier1SkillPowerResultAdderAsStack",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "BladeResultUpTier2",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "Tier2SkillPowerResultAdderAsStack",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "SwordPlayOfTheHomeland",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "SwordPlayOfTheBlade"
+        }
+      ]
+    },
+    {
+      "id": "SwordPlayOfTheMemorial",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "list": [
+        {
+          "ability": "SwordPlayOfTheBlade"
+        }
+      ]
     }
   ]
 }

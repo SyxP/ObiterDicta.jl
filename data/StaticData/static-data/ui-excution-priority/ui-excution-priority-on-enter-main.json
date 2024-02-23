@@ -2,19 +2,23 @@
   "list": [
     {
       "id": "NewDungeonUpdated",
-      "priority": 4
+      "priority": 5
     },
     {
       "id": "BattlePassOpened",
-      "priority": 1
-    },
-    {
-      "id": "DailyLoginEvent",
       "priority": 3
     },
     {
       "id": "SeasonOpenedOrClosed",
       "priority": 2
+    },
+    {
+      "id": "Limbus1stAnniv0227",
+      "priority": 1
+    },
+    {
+      "id": "Limbus1stAnnivAttendance",
+      "priority": 4
     }
   ]
 }

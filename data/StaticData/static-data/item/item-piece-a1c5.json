@@ -2,123 +2,147 @@
   "list": [
     {
       "id": 10103,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_1",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 1
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_1"
     },
     {
       "id": 10203,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_2",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 2
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_2"
     },
     {
       "id": 10303,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_3",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 3
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_3"
     },
     {
       "id": 10403,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_4",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 4
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_4"
     },
     {
       "id": 10503,
-      "category": "PIECE",
+      
       "season": 3,
-      "spriteStr": "piece_5",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 5
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_5"
     },
     {
       "id": 10603,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_6",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 6
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_6"
     },
     {
       "id": 10703,
-      "category": "PIECE",
+      
       "season": 3,
-      "spriteStr": "piece_7",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 7
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_7"
     },
     {
       "id": 10803,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_8",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 8
-      }
+      },
+
+      "category": "PIECE",
+      "spriteStr": "piece_8"
     },
     {
       "id": 10903,
-      "category": "PIECE",
+      
       "season": 3,
-      "spriteStr": "piece_9",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 9
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_9"
     },
     {
       "id": 11003,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_10",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 10
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_10"
     },
     {
       "id": 11103,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_11",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 11
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_11"
     },
     {
       "id": 11203,
-      "category": "PIECE",
+
       "season": 3,
-      "spriteStr": "piece_12",
-      "target": {
-        "type": "CHARACTER",
+      "seasonalTargetElement": {
+        "type": "SEASONAL_PIECE",
         "id": 12
-      }
+      },
+      
+      "category": "PIECE",
+      "spriteStr": "piece_12"
     }
   ]
 }

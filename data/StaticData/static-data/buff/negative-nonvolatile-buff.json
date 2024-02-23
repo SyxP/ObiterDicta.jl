@@ -37,6 +37,35 @@
           "value": 1
         }
       ]
+    },
+    {
+      "id": "RedApricotBlossom",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 10,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "TakeCriticalChanceAdder",
+          "value": 0.1
+        },
+        {
+          "ability": "TakeCriticalAtkDamageMultiplierByStack",
+          "value": 0.03
+        },
+        {
+          "ability": "RedApricotBlossom",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0
+          }
+        }
+      ],
+      "categoryKeywordList": [ "LACERATION" ]
     }
   ]
 }

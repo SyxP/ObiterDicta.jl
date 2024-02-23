@@ -1,0 +1,29 @@
+{
+  "list":[
+    {
+      "id": 201,
+      "requiredItemId": 1,
+      "requiredItemNum": 2500,
+      "chanceId": 1201,
+      "defaultElements": [
+        {
+          "type": "ANNOUNCER",
+          "id": 12,
+          "num": 1
+        },
+        {
+          "type": "ITEM",
+          "id": 103,
+          "num": 1
+        },
+        {
+          "type": "ITEM",
+          "id": 231,
+          "num": 1
+        }
+      ],
+      "endDate": "2024-03-21T01:00:00.000Z",
+      "priorityForUI": 1
+    }
+  ]
+}

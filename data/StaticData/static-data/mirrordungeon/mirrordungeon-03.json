@@ -26,9 +26,9 @@
       "randompickmaxcost": 0,
       "randompickrewardmultiplyer": 1.2,
       "requireEnkephalinModule": 5,
-      "globalEventPercentage": 0,
-      "acquireCharacterEventPercentage": 0,
-      "levelUpCharacterEventPercentage": 0,
+      "globalBattlePercentage": 0.5,
+      "globalEventPercentage": 0.5,
+      "globalBossPercentage": 0.5,
       "specialBattleAppearedFloor": 2,
       "openCondition": {
         "chapterCleared": {
@@ -808,6 +808,7 @@
         {
           "count": 3,
           "roomCount": 3,
+          "bossRoomCount": 2,
           "sectorCount": 7,
           "hardBattlePercentage": 0.12,
           "abnormalityBattlePercentage": 0.18,

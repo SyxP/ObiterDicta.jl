@@ -162,6 +162,17 @@
       },
       "value1Max": 999,
       "effectId": 4
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29,
+      "effectId": 5
+    },
+    {
+      "id": 30,
+      "effectId": 6
     }
   ]
 }

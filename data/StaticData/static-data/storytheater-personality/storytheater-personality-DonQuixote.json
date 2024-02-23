@@ -104,6 +104,21 @@
             ],
             "profileId": "lego_donquixote_profile",
             "analysisId": "lego_donquixote_analysis"
+          },
+          {
+            "personalityId": 10308,
+            "releaseDay": 20240222,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10308",
+                "lockCondition": "gacksung",
+                "order": 10,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "blade_donquixote_profile",
+            "analysisId": "blade_donquixote_analysis"
           }
         ]
     }

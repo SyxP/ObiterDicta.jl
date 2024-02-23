@@ -104,6 +104,21 @@
             ],
               "profileId": "lego_faust_profile",
               "analysisId": "lego_faust_analysis"
+            },
+            {
+              "personalityId": 10208,
+              "releaseDay": 20240222,
+              "cv_Id": "",
+              "personalityStoryList": [
+              {
+                "storyId": "P10208",
+                "lockCondition": "gacksung",
+                "order": 8,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+              "profileId": "blade_faust_profile",
+              "analysisId": "blade_faust_analysis"
             }
         ]
     }

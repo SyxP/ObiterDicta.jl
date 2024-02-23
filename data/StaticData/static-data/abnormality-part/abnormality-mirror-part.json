@@ -4084,6 +4084,7 @@
     },
     {
       "id": 813701,
+      "viewid": 810101,
       "sdPortrait": 810101,
       "nameID": 810101,
       "slotWeightConditionList": [
@@ -4174,6 +4175,7 @@
     },
     {
       "id": 813702,
+      "viewid": 810102,
       "sdPortrait": 810102,
       "nameID": 810102,
       "slotWeightConditionList": [

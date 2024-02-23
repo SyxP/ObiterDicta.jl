@@ -168,7 +168,12 @@
       "max": 1,
       "resetTimeType": "MONTHLY"
     },
-    
+    {
+      "id": 1201,
+      "max": 1,
+      "resetTimeType": "PERMANENT"
+    },
+
 
 
     {

@@ -1,4 +1,5 @@
 # This file's goal is to get the new bundle information each week, from the `catalog_S1` file.
+getBackupFileLocation() = joinpath(DataDir, "Backup")
 
 function parseCatalog(file = "$DataDir/catalog_S1.json") 
     # Read file
@@ -169,12 +170,19 @@ end
 
 function DeleteDataFiles()
     for SubDir in ["StaticData/", "Localize/en", "Localize/jp", "Localize/kr"]
-        targetDir = joinpath(DataDir, SubDir)
-        rm(targetDir; recursive = true, force = true)
+        oldDir = joinpath(DataDir, SubDir)
+        newDir = joinpath(getBackupFileLocation(), SubDir)
+        mkpath(newDir)
+        mv(oldDir, newDir; force = true)
     end
     rm(joinpath(DataDir, "Localize", "RemoteLocalizeFileList.json"); force = true)
     rm(joinpath(git_download_cache, "Unbundled Data"); force = true, recursive = true)
     return
-    
+end
+
+function DeleteBackupDataFile(path)
+    currDir = joinpath(getBackupFileLocation(), path)
+    rm(currDir; force = true)
+    return
 end
 

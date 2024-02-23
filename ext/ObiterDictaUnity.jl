@@ -11,7 +11,7 @@ module ObiterDictaUnity
         ObiterDicta.DeleteDataFiles()
 
         bundleLocation = joinpath(ObiterDicta.git_download_cache, "Bundles")
-        unzipLocation = joinpath(ObiterDicta.git_download_cache, "Unbundled Data") 
+        unzipLocation = joinpath(ObiterDicta.git_download_cache, "Unbundled Data")
         for file in ObiterDicta.getDataURLs()
             filepath = ObiterDicta.getFilePathFromBundleURL(file, bundleLocation)
             @info filepath 
@@ -26,10 +26,12 @@ module ObiterDictaUnity
                 target = joinpath(ObiterDicta.DataDir, fileName)
                 ObiterDicta.CheckProposedLocation(target)
                 mv(absPath, joinpath(ObiterDicta.DataDir, fileName))
+                ObiterDicta.DeleteBackupDataFile(fileName)
             end
         end
-    
+        
         ObiterDicta.cleanUpBundleFolder(unzipLocation)
+        ObiterDicta.cleanUpBundleFolder(ObiterDicta.DataDir)
     end
 
     function (ObiterDicta.qUpdate)(URL = "")

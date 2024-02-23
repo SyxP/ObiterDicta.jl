@@ -256,23 +256,6 @@
       ]
     },
     {
-      "id": 10208,
-      "pivotList": [
-        {
-          "cutsceneType": "GACKSUNG_BEFORE",
-          "offsetX": -0.12,
-          "offsetY": 0.26,
-          "closeUp": 0.59
-        },
-        {
-          "cutsceneType": "GACKSUNG_AFTER",
-          "offsetX": -0.05,
-          "offsetY": 0.12,
-          "closeUp": 0.74
-        }
-      ]
-    },
-    {
       "id": 10301,
       "pivotList": [
         {
@@ -388,23 +371,6 @@
           "offsetX": 0.04,
           "offsetY": 0.18,
           "closeUp": 0.65
-        }
-      ]
-    },
-    {
-      "id": 10308,
-      "pivotList": [
-        {
-          "cutsceneType": "GACKSUNG_BEFORE",
-          "offsetX": 0.1,
-          "offsetY": 0.15,
-          "closeUp": 0.82
-        },
-        {
-          "cutsceneType": "GACKSUNG_AFTER",
-          "offsetX": -0.03,
-          "offsetY": 0.15,
-          "closeUp": 0.82
         }
       ]
     },
@@ -626,23 +592,6 @@
           "offsetX": -0.08,
           "offsetY": 0.19,
           "closeUp": 1.05
-        }
-      ]
-    },
-    {
-      "id": 10508,
-      "pivotList": [
-        {
-          "cutsceneType": "GACKSUNG_BEFORE",
-          "offsetX": -0.14,
-          "offsetY": 0.27,
-          "closeUp": 0.48
-        },
-        {
-          "cutsceneType": "GACKSUNG_AFTER",
-          "offsetX": -0.22,
-          "offsetY": 0.22,
-          "closeUp": 0.48
         }
       ]
     },
@@ -1527,23 +1476,6 @@
           "offsetX": 0.1,
           "offsetY": 0.21,
           "closeUp": 0.88
-        }
-      ]
-    },
-    {
-      "id": 11208,
-      "pivotList": [
-        {
-          "cutsceneType": "GACKSUNG_BEFORE",
-          "offsetX": -0.06,
-          "offsetY": -0.01,
-          "closeUp": 1.01
-        },
-        {
-          "cutsceneType": "GACKSUNG_AFTER",
-          "offsetX": -0.2,
-          "offsetY": 0.27,
-          "closeUp": 0.71
         }
       ]
     }

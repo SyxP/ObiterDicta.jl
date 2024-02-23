@@ -2,8 +2,9 @@
   "list": [
     {
       "id": 401,
-
-      "contentsOpenType":"PACKAGE_BOXED",
+      "category": "CONSUMABLE",
+      "itemUseType":"PACKAGE_BOXED",
+      "spriteStr":"twine_package",
       "contents": [
         {
           "type": "ITEM",
@@ -11,11 +12,7 @@
           "minNum": 1,
           "maxNum": 3
         }
-      ],
-
-      "category": "CONSUMABLE",
-      "itemUseType":"PACKAGE_BOXED",
-      "spriteStr":"twine_package"
+      ]
     }
   ]
 }

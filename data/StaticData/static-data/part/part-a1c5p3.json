@@ -1300,7 +1300,8 @@
         {
           "chapterId": 91,
           "subchapterId": 9103,
-          "type": "SUB"
+          "type": "SUB",
+          "relatedEventId": "HellsChicken"
         },
         {
           "subchapterId": 9010,
@@ -1351,7 +1352,8 @@
         {
           "chapterId": 91,
           "subchapterId": 9105,
-          "type": "SUB"
+          "type": "SUB",
+          "relatedEventId": "MiracleOfDistrict20"
         },
         {
           "chapterId": 91,
@@ -1362,12 +1364,6 @@
           "uiConfig": {
             "customChapterText": "2"
           }
-        },
-        {
-          "chapterId": 91,
-          "subchapterId": 9107,
-          "type": "SUB",
-          "relatedMainEventId": "YCGD"
         }
       ]
     },
@@ -1717,121 +1713,6 @@
             }
           ],
           "relatedMainEventId": "DawnOfGreen"
-        },
-
-        {
-          "id": 9107,
-          "illustSprName": "9107",
-          "region": "t",
-          "sprName": "chapter5.5_ycgd",
-          "subChapterNumber": "5.5",
-          "mapSizeRow": 2,
-          "mapSizeColoumn": 4,
-          "unlockCondition": {
-            "unlockCode": 9105
-          },
-          "stageNodeList": [
-            {
-              "nodeId": 910701,
-              "stageId": 910701,
-              "posx": 481,
-              "posy": 850,
-              "upper": 1,
-              "stageNodeType": "STORY"
-            },
-            {
-              "nodeId": 910702,
-              "stageId": 910702,
-              "posx": 2043,
-              "posy": 743,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910703,
-              "stageId": 910703,
-              "posx": 3163,
-              "posy": 630,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910704,
-              "stageId": 910704,
-              "posx": 3804,
-              "posy": 638,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910705,
-              "stageId": 910705,
-              "posx": 4372,
-              "posy": 558,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910706,
-              "stageId": 910706,
-              "posx": 5291,
-              "posy": 558,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910707,
-              "stageId": 910707,
-              "posx": 6841,
-              "posy": 611,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910708,
-              "stageId": 910708,
-              "posx": 7461,
-              "posy": 1113,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910709,
-              "stageId": 910709,
-              "posx": 6090,
-              "posy": 1982,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910710,
-              "stageId": 910710,
-              "posx": 5896,
-              "posy": 2912,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910711,
-              "stageId": 910711,
-              "posx": 6595,
-              "posy": 2912,
-              "upper": 1,
-              "stageNodeType": "NORMAL"
-            },
-            {
-              "nodeId": 910712,
-              "stageId": 910701,
-              "posx": 7478,
-              "posy": 2912,
-              "upper": 1,
-              "stageNodeType": "DUNGEON"
-            }
-          ],
-          "nextMainchapterid": -1,
-          "nextSubchapterid": -1,
-          "lastnodeid": 910712,
-          "relatedMainEventId": "YCGD"
         }
       ]
     }

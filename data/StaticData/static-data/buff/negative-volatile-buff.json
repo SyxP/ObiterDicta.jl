@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": "SlashResistDown",
+      "id": "SlashResistUp",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
@@ -200,12 +200,12 @@
         {
           "ability": "AtkResistAdderByStack",
           "atk": "SLASH",
-          "value": 0.1
+          "value": 1
         }
       ]
     },
     {
-      "id": "PenetrateResistDown",
+      "id": "PenetrateResistUp",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
@@ -213,12 +213,12 @@
         {
           "ability": "AtkResistAdderByStack",
           "atk": "PENETRATE",
-          "value": 0.1
+          "value": 1
         }
       ]
     },
     {
-      "id": "HitResistDown",
+      "id": "HitResistUp",
       "buffClass": "VolatileBuff",
       "buffType": "Negative",
       "canBeDespelled": true,
@@ -226,7 +226,7 @@
         {
           "ability": "AtkResistAdderByStack",
           "atk": "HIT",
-          "value": 0.1
+          "value": 1
         }
       ]
     },

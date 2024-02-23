@@ -619,7 +619,7 @@
       "characterId": 3,
       "panicType": 9999,
       "season": 9102,
-      "walpurgisType": "LC",
+      "walpurgisType" : "LC",
       "defenseSkillIDList": [
         1030704
       ],
@@ -707,106 +707,6 @@
         },
         {
           "skillId": 1030703,
-          "number": 1
-        }
-      ]
-    },
-    {
-      "id": 10308,
-      "appearance": "10308_Donquixote_SwordGroupAppearance",
-      "unitKeywordList": [ "BLADE_LINEAGE" ],
-      "characterId": 3,
-      "panicType": 9999,
-      "season": 3,
-      "additionalAttachment": "EVENT",
-      "defenseSkillIDList": [
-        1030804
-      ],
-      "panicSkillOnErosion": 1000104,
-      "slotWeightConditionList": [
-        "Default1"
-      ],
-      "rank": 2,
-      "hp": {
-        "defaultStat": 73,
-        "incrementByLevel": 2.4
-      },
-      "defCorrection": -2,
-      "minSpeedList": [
-        4,
-        4,
-        4,
-        4
-      ],
-      "maxSpeedList": [
-        6,
-        7,
-        8,
-        8
-      ],
-      "uniqueAttribute": "AMBER",
-      "mentalConditionInfo": {
-        "add": [
-          {
-            "level": 1,
-            "conditionIDList": [
-              {
-                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
-              },
-              {
-                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
-              },
-              {
-                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
-              }
-            ]
-          }
-        ],
-        "min": [
-          {
-            "level": 1,
-            "conditionIDList": [
-              {
-                "conditionID": "OnDieAllyAsLevelRatio10"
-              }
-            ]
-          }
-        ]
-      },
-      "breakSection": {
-        "sectionList": [
-          70,
-          40,
-          20
-        ]
-      },
-      "resistInfo": {
-        "atkResistList": [
-          {
-            "type": "SLASH",
-            "value": 0.5
-          },
-          {
-            "type": "PENETRATE",
-            "value": 1
-          },
-          {
-            "type": "HIT",
-            "value": 2
-          }
-        ]
-      },
-      "attributeList": [
-        {
-          "skillId": 1030801,
-          "number": 3
-        },
-        {
-          "skillId": 1030802,
-          "number": 2
-        },
-        {
-          "skillId": 1030803,
           "number": 1
         }
       ]

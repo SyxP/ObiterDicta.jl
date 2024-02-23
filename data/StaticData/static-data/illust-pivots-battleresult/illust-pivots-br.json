@@ -197,20 +197,6 @@
             "rotateZ": 0.0
         },
         {
-            "id": "10208_gacksung",
-            "offsetX": -77.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "10208_normal",
-            "offsetX": -23.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
             "id": "10301_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -297,20 +283,6 @@
         {
             "id": "10307_normal",
             "offsetX": 62.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "10308_gacksung",
-            "offsetX": -170.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "10308_normal",
-            "offsetX": -410.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -479,20 +451,6 @@
         {
             "id": "10507_normal",
             "offsetX": -21.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "10508_gacksung",
-            "offsetX": 321.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "10508_normal",
-            "offsetX": 197.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -1173,20 +1131,6 @@
             "id": "11207_normal",
             "offsetX": -464.0,
             "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "11208_gacksung",
-            "offsetX": 344.0,
-            "offsetY": 0.0,
-            "scaleFactor": 1.0,
-            "rotateZ": 0.0
-        },
-        {
-            "id": "11208_normal",
-            "offsetX": -139.0,
-            "offsetY": 4.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
         }

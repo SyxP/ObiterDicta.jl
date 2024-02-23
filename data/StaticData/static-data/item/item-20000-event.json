@@ -2,103 +2,64 @@
   "list": [
     {
       "id": 20001,
-
-      "ignoreExcess": true,
-
+      "category": "EVENT",
       "spriteStr": "umida_event_item_1"
     },
     {
       "id": 20002,
-
-      "ignoreExcess": true,
-
+      "category": "EVENT",
       "spriteStr": "umida_event_item_2"
     },
     {
       "id": 20003,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
     {
       "id": 20004,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
     {
       "id": 20005,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
     {
       "id": 20006,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
     {
       "id": 20007,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
     {
       "id": 20008,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     },
-
     {
       "id": 20009,
-
-      "ignoreExcess": true,
-
+      "category": "EVENT",
       "spriteStr": "miracle_event_item_1"
     },
     {
       "id": 20010,
-
+      "category": "EVENT",
+      "spriteStr": "miracle_event_item_2",
       "autoTransformable": true,
       "autoTransformTargetElement": {
         "type": "ITEM",
         "id": 20009,
         "num": 20
-      },
-      "ignoreExcess": true,
-
-      "spriteStr": "miracle_event_item_2"
+      }
     },
     {
       "id": 20011,
-
-      "ignoreExcess": true
-    },
-    {
-      "id": 20012,
-
-      "ignoreExcess": true,
-
-      "spriteStr": "ycgd_event_item_1"
-    },
-    {
-      "id": 20013,
-
-      "autoTransformable": true,
-      "autoTransformTargetElement": {
-        "type": "ITEM",
-        "id": 20012,
-        "num": 20
-      },
-      "ignoreExcess": true,
-
-      "spriteStr": "ycgd_event_item_2"
-    },
-    {
-      "id": 20014,
-
-      "ignoreExcess": true
-    },
-    {
-      "id": 20015,
-
-      "ignoreExcess": true
+      "category": "EVENT",
+      "spriteStr": "lunacy"
     }
   ]
 }

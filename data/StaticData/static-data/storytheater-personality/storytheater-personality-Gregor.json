@@ -104,21 +104,6 @@
             ],
             "profileId": "hook_gregor_profile",
             "analysisId": "hook_gregor_analysis"
-          },
-          {
-            "personalityId": 11208,
-            "releaseDay": 20240222,
-            "cv_Id": "",
-            "personalityStoryList": [
-              {
-                "storyId": "P11208",
-                "lockCondition": "gacksung",
-                "order": 9,
-                "reward":{"type":"ITEM","id":2,"num":40}
-              }
-            ],
-            "profileId": "kurokumo_gregor_profile",
-            "analysisId": "kurokumo_gregor_analysis"
           }
         ]
     }

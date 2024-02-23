@@ -1450,35 +1450,6 @@
       ]
     },
     {
-      "id": 1050802,
-      "requireIDList": [
-      ]
-    },
-    {
-      "id": 1050801,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1050821,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel3"
-      ]
-    },
-    {
       "id": 1090601,
       "attributeStockCondition": [
         {
@@ -1568,30 +1539,6 @@
         {
           "type": "SHAMROCK",
           "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel3"
-      ]
-    },
-    {
-      "id": 1030801,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1030821,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
         }
       ],
       "requireIDList": [
@@ -2196,54 +2143,6 @@
       "attributeStockCondition": [
         {
           "type": "AMBER",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel3"
-      ]
-    },
-    {
-      "id": 1020801,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1020821,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel3"
-      ]
-    },
-    {
-      "id": 1120801,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1120821,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
           "value": 4
         }
       ],

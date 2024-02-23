@@ -1,0 +1,13 @@
+{
+	"list": [
+		{
+			"id": 7,
+			"startDate": "2023-12-04T03:00:00.000Z",
+			"startDateForUI": "2024-01-11T03:00:00.000Z",
+			"endDate": "2024-01-25T01:00:00.000Z",
+			"endDateForUI": "2024-01-25T01:00:00.000Z",
+			"gracePeriod": "2024-02-01T01:00:00.000Z",
+			"eventBonusParticipateOrder": [ 1 ]
+		}
+	]
+}

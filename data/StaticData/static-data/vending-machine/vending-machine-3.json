@@ -47,37 +47,15 @@
 							"type": "PERSONALITY",
 							"id": 10507,
 							"price": 150
-						}
+						},
 
 
-					]
-				},
-				{
-					"groupType": "EVENT",
-					"contents": [
+
+						
 						{
 							"type": "EGO",
 							"id": 21105,
 							"price": 400
-						},
-
-
-						{
-							"type": "PERSONALITY",
-							"id": 10208,
-							"price": 400
-						},
-						{
-							"type": "PERSONALITY",
-							"id": 10508,
-							"price": 400
-						},
-
-
-						{
-							"type": "PERSONALITY",
-							"id": 11208,
-							"price": 150
 						}
 					]
 				},

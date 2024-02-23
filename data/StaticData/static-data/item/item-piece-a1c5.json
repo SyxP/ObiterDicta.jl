@@ -2,147 +2,123 @@
   "list": [
     {
       "id": 10103,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 1
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_1"
+      "season": 3,
+      "spriteStr": "piece_1",
+      "target": {
+        "type": "CHARACTER",
+        "id": 1
+      }
     },
     {
       "id": 10203,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 2
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_2"
+      "season": 3,
+      "spriteStr": "piece_2",
+      "target": {
+        "type": "CHARACTER",
+        "id": 2
+      }
     },
     {
       "id": 10303,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 3
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_3"
+      "season": 3,
+      "spriteStr": "piece_3",
+      "target": {
+        "type": "CHARACTER",
+        "id": 3
+      }
     },
     {
       "id": 10403,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 4
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_4"
+      "season": 3,
+      "spriteStr": "piece_4",
+      "target": {
+        "type": "CHARACTER",
+        "id": 4
+      }
     },
     {
       "id": 10503,
-      
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 5
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_5"
+      "season": 3,
+      "spriteStr": "piece_5",
+      "target": {
+        "type": "CHARACTER",
+        "id": 5
+      }
     },
     {
       "id": 10603,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 6
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_6"
+      "season": 3,
+      "spriteStr": "piece_6",
+      "target": {
+        "type": "CHARACTER",
+        "id": 6
+      }
     },
     {
       "id": 10703,
-      
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 7
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_7"
+      "season": 3,
+      "spriteStr": "piece_7",
+      "target": {
+        "type": "CHARACTER",
+        "id": 7
+      }
     },
     {
       "id": 10803,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 8
-      },
-
       "category": "PIECE",
-      "spriteStr": "piece_8"
+      "season": 3,
+      "spriteStr": "piece_8",
+      "target": {
+        "type": "CHARACTER",
+        "id": 8
+      }
     },
     {
       "id": 10903,
-      
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 9
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_9"
+      "season": 3,
+      "spriteStr": "piece_9",
+      "target": {
+        "type": "CHARACTER",
+        "id": 9
+      }
     },
     {
       "id": 11003,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 10
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_10"
+      "season": 3,
+      "spriteStr": "piece_10",
+      "target": {
+        "type": "CHARACTER",
+        "id": 10
+      }
     },
     {
       "id": 11103,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 11
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_11"
+      "season": 3,
+      "spriteStr": "piece_11",
+      "target": {
+        "type": "CHARACTER",
+        "id": 11
+      }
     },
     {
       "id": 11203,
-
-      "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_PIECE",
-        "id": 12
-      },
-      
       "category": "PIECE",
-      "spriteStr": "piece_12"
+      "season": 3,
+      "spriteStr": "piece_12",
+      "target": {
+        "type": "CHARACTER",
+        "id": 12
+      }
     }
   ]
 }

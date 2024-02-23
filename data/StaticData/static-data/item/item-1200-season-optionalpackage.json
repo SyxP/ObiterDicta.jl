@@ -2,14 +2,10 @@
   "list":[
     {
       "id": 1201,
-
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_OPTIONAL",
       "season": 1,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_O_BOX",
-        "id": 0
-      },
-      "contentsOpenType": "PACKAGE_OPTIONAL",
-      
+      "spriteStr": "seasonal_optional_package",
       "contents": [
         {
           "type": "ITEM",
@@ -84,10 +80,6 @@
           "maxNum": 3
         }
       ],
-
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_OPTIONAL",
-      "spriteStr": "seasonal_optional_package",
       "optionalSample": {
         "type": "ITEM",
         "id": 10001,
@@ -99,13 +91,10 @@
 
     {
       "id": 1202,
-
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_OPTIONAL",
       "season": 2,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_O_BOX",
-        "id": 0
-      },
-      "contentsOpenType": "PACKAGE_OPTIONAL",
+      "spriteStr": "seasonal_optional_package",
       "contents": [
         {
           "type": "ITEM",
@@ -180,10 +169,6 @@
           "maxNum": 3
         }
       ],
-
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_OPTIONAL",
-      "spriteStr": "seasonal_optional_package",
       "optionalSample": {
         "type": "ITEM",
         "id": 10002,

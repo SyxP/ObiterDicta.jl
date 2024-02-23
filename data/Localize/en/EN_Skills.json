@@ -552,7 +552,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+70% Damage on Critical Hit"
+                  "desc": "Deal +70% damage on Critical Hit"
                 }
               ]
             }

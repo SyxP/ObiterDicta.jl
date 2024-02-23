@@ -2,13 +2,10 @@
   "list": [
     {
       "id": 1101,
-
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_RANDOM",
       "season": 1,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_R_BOX",
-        "id": 0
-      },
-      "contentsOpenType" : "PACKAGE_RANDOM",
+      "spriteStr": "seasonal_random_package",
       "contents": [
         {
           "type": "ITEM",
@@ -94,23 +91,16 @@
           "maxNum": 3,
           "prob": 1
         }
-      ],
-      
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_RANDOM",
-      "spriteStr": "seasonal_random_package"
+      ]
     },
 
 
     {
       "id": 1102,
-
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_RANDOM",
       "season": 2,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_R_BOX",
-        "id": 0
-      },
-      "contentsOpenType" : "PACKAGE_RANDOM",
+      "spriteStr": "seasonal_random_package",
       "contents": [
         {
           "type": "ITEM",
@@ -196,11 +186,7 @@
           "maxNum": 3,
           "prob": 1
         }
-      ],
-      
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_RANDOM",
-      "spriteStr": "seasonal_random_package"
+      ]
     }
   ]
 }

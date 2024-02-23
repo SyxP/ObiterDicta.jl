@@ -1,0 +1,51 @@
+{
+  "list": [
+    {
+      "id": 910301,
+      "requireEnkephalinModule":1,
+      "isHardMode": false,
+      "gradeList": [ 4, 5 ],
+      "levelList": [ 15, 30],
+      "floors": [
+        {
+          "count": 0,
+          "roomCount": 3,
+          "sectorCount": 7,
+          "hardBattlePercentage": 0.05,
+          "abnormalityBattlePercentage": 0.10,
+          "eventNodePercentage": 0.25
+        }
+      ],
+      "startSelectCount": 5,
+      "globalEventPercentage": 0.5,
+      "acquireCharacterEventPercentage": 0.0,
+      "levelUpCharacterEventPercentage": 0.0,
+      "specialBattleAppearedFloor": 1,
+      "enemyLevel": [ 1, 15, 18, 20, 22, 24, 26, 28, 30 ]
+    },
+    {
+      "id": 910302,
+      "requireEnkephalinModule": 2,
+      "isHardMode": true,
+      "gradeList": [ 4, 5 ],
+      "levelList": [ 15, 30 ],
+      "floors": [
+        {
+          "count": 0,
+          "roomCount": 3,
+          "sectorCount": 7,
+          "hardBattlePercentage": 0.05,
+          "abnormalityBattlePercentage": 0.10,
+          "eventNodePercentage": 0.25
+
+        }
+      ],
+      "startSelectCount": 5,
+      "globalEventPercentage": 0.5,
+      "acquireCharacterEventPercentage": 0.0,
+      "levelUpCharacterEventPercentage": 0.0,
+      "specialBattleAppearedFloor": 1,
+      "enemyLevel": [ 1, 15, 18, 20, 22, 24, 26, 28, 30 ]
+    }
+  ]
+}

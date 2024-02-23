@@ -10,7 +10,7 @@
       "passSeasonInfo": {
         "startDate": "2023-11-15T21:00:00.000Z",
         "startDateForUI": "2023-11-16T03:00:00.000Z",
-        "endDate": "2024-03-27T21:00:00.000Z",
+        "endDate": "2024-03-13T20:59:59.000Z",
         "banner": "banner_battlepass3",
         "acquirableEgoIds": [
 
@@ -2626,7 +2626,8 @@
         ]
       },
       "uiConfigs": {
-        "bannerId": "banner_battlepass_season3"
+        "bannerId": "banner_battlepass_season3",
+        "isExcludeLangOption": true
       }
     }
   ]

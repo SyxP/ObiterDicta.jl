@@ -2,13 +2,10 @@
   "list": [
     {
       "id": 1103,
-      
+      "category": "CONSUMABLE",
+      "itemUseType": "PACKAGE_RANDOM",
       "season": 3,
-      "seasonalTargetElement": {
-        "type": "SEASONAL_R_BOX",
-        "id": 0
-      },
-      "contentsOpenType" : "PACKAGE_RANDOM",
+      "spriteStr": "seasonal_random_package",
       "contents": [
         {
           "type": "ITEM",
@@ -94,11 +91,7 @@
           "maxNum": 3,
           "prob": 1
         }
-      ],
-      
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_RANDOM",
-      "spriteStr": "seasonal_random_package"
+      ]
     }
   ]
 }

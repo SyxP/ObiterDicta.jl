@@ -218,41 +218,41 @@
       ]
     },
     {
-      "id": "SlashResistUp",
+      "id": "SlashResistDown",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
           "ability": "AtkResistAdderByStack",
           "atk": "SLASH",
-          "value": -0.1
+          "value": -1
         }
       ]
     },
     {
-      "id": "PenetrateResistUp",
+      "id": "PenetrateResistDown",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
           "ability": "AtkResistAdderByStack",
           "atk": "PENETRATE",
-          "value": -0.1
+          "value": -1
         }
       ]
     },
     {
-      "id": "HitResistUp",
+      "id": "HitResistDown",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
           "ability": "AtkResistAdderByStack",
           "atk": "HIT",
-          "value": -0.1
+          "value": -1
         }
       ]
     },

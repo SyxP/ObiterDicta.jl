@@ -50,12 +50,6 @@
             8
           ]
         },
-        "adderInfo": [
-          {
-            "correctionCase": "SpecificPersonality_10808",
-            "adder": 20
-          }
-        ],
         "judgement": {
           "inclusiveValue": 20,
           "exclusiveValue": 20,

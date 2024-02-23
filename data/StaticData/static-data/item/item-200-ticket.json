@@ -2,140 +2,92 @@
   "list": [
     {
       "id": 201,
-
       "category": "NORMAL",
-      "spriteStr": "twine"
+      "spriteStr": "twine",
+      "target": {
+        "type": "GACKSUNGPIECE",
+        "num": 1
+      }
     },
-
     {
       "id": 211,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_EXP",
-          "itemUseFuncValue":50
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "exp_ticket_1"
+      "spriteStr": "exp_ticket_1",
+      "target": {
+        "type": "PERSONALITYEXP",
+        "id": 0,
+        "num": 50
+      }
     },
-
     {
       "id": 212,
-      
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_EXP",
-          "itemUseFuncValue":200
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "exp_ticket_2"
+      "spriteStr": "exp_ticket_2",
+      "target": {
+        "type": "PERSONALITYEXP",
+        "id": 0,
+        "num": 200
+      }
     },
-
     {
       "id": 213,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_EXP",
-          "itemUseFuncValue":1000
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "exp_ticket_3"
+      "spriteStr": "exp_ticket_3",
+      "target": {
+        "type": "PERSONALITYEXP",
+        "id": 0,
+        "num": 1000
+      }
     },
-
     {
       "id": 214,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_EXP",
-          "itemUseFuncValue":3000
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "exp_ticket_4"
+      "spriteStr": "exp_ticket_4",
+      "target": {
+        "type": "PERSONALITYEXP",
+        "id": 0,
+        "num": 3000
+      }
     },
-
     {
       "id": 221,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_LEVEL_TO",
-          "itemUseFuncValue":10
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "level_ticket_1"
+      "spriteStr": "level_ticket_1",
+      "target": {
+        "type": "PERSONALITYLEVEL",
+        "id": 0,
+        "num": 10
+      }
     },
-
     {
       "id": 222,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_LEVEL_TO",
-          "itemUseFuncValue":20
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "level_ticket_2"
+      "spriteStr": "level_ticket_2",
+      "target": {
+        "type": "PERSONALITYLEVEL",
+        "id": 0,
+        "num": 20
+      }
     },
-
     {
       "id": 223,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_LEVEL_TO",
-          "itemUseFuncValue":30
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "level_ticket_3"
+      "spriteStr": "level_ticket_3",
+      "target": {
+        "type": "PERSONALITYLEVEL",
+        "id": 0,
+        "num": 30
+      }
     },
-
     {
       "id": 224,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_LEVEL_TO",
-          "itemUseFuncValue":40
-        }
-      ],
-
       "category": "NORMAL",
-      "spriteStr": "level_ticket_4"
-    },
-
-    {
-      "id": 231,
-
-      "itemUseFuncs":[
-        {
-          "itemUseFuncType":"PERSONALITY_LEVEL_TO",
-          "itemUseFuncValue":40
-        },
-        {
-          "itemUseFuncType":"PERSONALITY_GACKSUNG_TO",
-          "itemUseFuncValue":4
-        }
-      ],
-
-      "category": "CONSUMABLE",
-      "spriteStr": "jumping_ticket_1",
-      "itemUseType":"LEAPUP_TICKET"
+      "spriteStr": "level_ticket_4",
+      "target": {
+        "type": "PERSONALITYLEVEL",
+        "id": 0,
+        "num": 40
+      }
     }
   ]
 }

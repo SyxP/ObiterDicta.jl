@@ -79,7 +79,8 @@ InternalIdentityFields = [(:getCharID, "characterId", ""),
                           (:getRarity, "rank", -1),
                           (:getHP, "hp", Dict{String, Any}()),
                           (:getBreakSectionRaw, "breakSection", Dict{String, Any}()),
-                          (:getFactionList, "unitKeywordList", String[]),
+                          (:getFactionList, "associationList", String[]),
+                          (:getKeywordList, "unitKeywordList", String[]),
                           (:getPanicType, "panicType", -1),
                           (:getPanicSkillRaw, "panicSkillOnErosion", -1),
                           (:getDefenseSkillRaw, "defenseSkillIDList", -1),
@@ -255,6 +256,10 @@ function getMainFields(identity :: Personality, level, uptie; verbose)
     end
     
     AddField("Faction", join(getFactionList(identity), ", "))
+    if length(getKeywordList(identity)) > 0
+        AddField("Keyword$(length(getKeywordList(identity)) > 1 ? "s" : "")" , 
+                 join(getKeywordList(identity), ", "))
+    end
     AddField("Speed Range", getSpeedRange(identity, uptie))
     AddField("Stagger Thres.", getBreakSectionsString(identity, level))
     AddField("Def. Level", getDefenseCorrString(identity, level))

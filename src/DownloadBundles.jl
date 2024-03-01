@@ -169,7 +169,7 @@ function DownloadNameBundleFromCatalog(query, catalogFile = "$DataDir/catalog_S1
 end
 
 function MergeDirectories(oldDir, newDir)
-    for (root, dirs, file) in walkdir(oldDir)
+    for (root, dirs, files) in walkdir(oldDir)
         for file in files
             oldPath = joinpath(root, file)
             newPath = joinpath(newDir, relpath(oldPath, oldDir))

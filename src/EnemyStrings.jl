@@ -97,7 +97,7 @@ getDesc(myEnemy :: T) where T <: EnemyUnit = getLocalizedField(myEnemy, "desc", 
 
 InternalEnemyFields = [
     # id should use getID.
-    (:getFactionList, "unitKeywordList", String[]),
+    (:getFactionList, "associationList", String[]),
     (:getNameID, "nameID", nothing),
     (:getAppearance, "appearance", ""),
     (:getSDPortrait, "sdPortrait", ""),

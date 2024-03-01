@@ -3,7 +3,10 @@
     {
       "id": 10501,
       "appearance": "10501_Meursault_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,
@@ -101,7 +104,7 @@
     {
       "id": 10502,
       "appearance": "10502_Meursault_LiuAppearance",
-      "unitKeywordList": [ "LIU" ],
+      "associationList": [ "LIU" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,
@@ -200,7 +203,7 @@
     {
       "id": 10503,
       "appearance": "10503_Meursault_WCorpAppearance",
-      "unitKeywordList": [ "W_CORP" ],
+      "associationList": [ "W_CORP" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,
@@ -298,7 +301,7 @@
     {
       "id": 10504,
       "appearance": "10504_Meursault_NCorpGuidoAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 1,
@@ -395,7 +398,7 @@
     {
       "id": 10505,
       "appearance": "10505_Meursault_HammerFixerAppearance",
-      "unitKeywordList": [ "ROSE" ],
+      "associationList": [ "ROSE" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 2,
@@ -493,7 +496,7 @@
     {
       "id": 10506,
       "appearance": "10506_Meursault_RCorpAppearance",
-      "unitKeywordList": [ "R_CORP" ],
+      "associationList": [ "R_CORP" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,
@@ -590,7 +593,7 @@
     {
       "id": 10507,
       "appearance": "10507_Meursault_MiddleFingerAppearance",
-      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "associationList": [ "MIDDLE_FINGER" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 3,
@@ -688,7 +691,7 @@
     {
       "id": 10508,
       "appearance": "10508_Meursault_KimSatGatAppearance",
-      "unitKeywordList": [ "BLADE_LINEAGE" ],
+      "associationList": [ "BLADE_LINEAGE" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 3,

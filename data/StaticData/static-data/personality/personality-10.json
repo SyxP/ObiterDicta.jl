@@ -3,7 +3,10 @@
     {
       "id": 11001,
       "appearance": "11001_Sinclair_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 0,
@@ -102,7 +105,7 @@
     {
       "id": 11002,
       "appearance": "11002_Sinclair_SwordGroupAppearance",
-      "unitKeywordList": [ "BLADE_LINEAGE" ],
+      "associationList": [ "BLADE_LINEAGE" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 0,
@@ -200,7 +203,7 @@
     {
       "id": 11003,
       "appearance": "11003_Sinclair_ZweiAppearance",
-      "unitKeywordList": [ "ZWEI" ],
+      "associationList": [ "ZWEI" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 0,
@@ -298,7 +301,7 @@
     {
       "id": 11004,
       "appearance": "11004_Sinclair_MexicanAppearance",
-      "unitKeywordList": [ "MARIACHI" ],
+      "associationList": [ "MARIACHI" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 1,
@@ -395,7 +398,7 @@
     {
       "id": 11005,
       "appearance": "11005_Sinclair_NCorpAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 1,
@@ -493,7 +496,7 @@
     {
       "id": 11006,
       "appearance": "11006_Sinclair_TalismanAppearance",
-      "unitKeywordList": [ "ATL" ],
+      "associationList": [ "ATL" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 2,
@@ -591,7 +594,7 @@
     {
       "id": 11007,
       "appearance": "11007_Sinclair_WorkshopWorkerAppearance",
-      "unitKeywordList": [ "MOLAR" ],
+      "associationList": [ "MOLAR" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 2,
@@ -691,7 +694,7 @@
     {
       "id": 11008,
       "appearance": "11008_Sinclair_CinqAppearance",
-      "unitKeywordList": [ "CINQ" ],
+      "associationList": [ "CINQ" ],
       "characterId": 10,
       "panicType": 9999,
       "season": 0,

@@ -1058,7 +1058,7 @@
       "id": 90096,
       "appearance": "90096_MiddleFinger_Mob_AAppearance",
       "patternID": "90096",
-      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "associationList": [ "MIDDLE_FINGER" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1305,7 +1305,7 @@
       "id": 90097,
       "appearance": "90097_MiddleFinger_Mob_BAppearance",
       "patternID": "90097",
-      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "associationList": [ "MIDDLE_FINGER" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"

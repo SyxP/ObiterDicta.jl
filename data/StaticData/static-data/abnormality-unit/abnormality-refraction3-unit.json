@@ -2207,7 +2207,7 @@
       "sdPortrait": 8104,
       "viewid": 8104,
       "appearance": "8104_StarbuckAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8104",
       "slotWeightConditionList": [
         "Default1"
@@ -2613,7 +2613,7 @@
       "sdPortrait": 8103,
       "viewid": 8112,
       "appearance": "8103_QueequegAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "8112",
       "slotWeightConditionList": [
@@ -2919,7 +2919,8 @@
       "viewid": 8105,
       "storyID": 8105,
       "appearance": "8105_AhabAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "attributeType": "WHITE",
       "patternID": "8105",
       "phaseIDList": [
@@ -3274,7 +3275,8 @@
       "viewid": 8105,
       "storyID": 8105,
       "appearance": "8105_AhabAppearancece",
-      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "abnormalityPartList": [
         857901
       ],
@@ -3618,7 +3620,8 @@
       "sdPortrait": 8106,
       "viewid": 8106,
       "appearance": "8582_Ahab_Awaken_MirrorAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8106_mirror",
       "attributeType": "WHITE",
       "phaseIDList": [
@@ -3956,7 +3959,8 @@
       "sdPortrait": 8106,
       "viewid": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "abnormalityPartList": [
         858201
       ],
@@ -4301,7 +4305,8 @@
       "sdPortrait": 8106,
       "viewid": 8106,
       "appearance": "8106_Ahab_AwakenAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW", "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "abnormalityPartList": [
         858201
       ],
@@ -4728,7 +4733,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90084,
       "appearance": "90084_DoubleHook_Mob_AAppearance",
-      "unitKeywordList": [ "DUAL_HOOK_PIRATE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859001
       ],
@@ -4800,7 +4805,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90085,
       "appearance": "90085_DoubleHook_Mob_BAppearance",
-      "unitKeywordList": [ "DUAL_HOOK_PIRATE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859101
       ],
@@ -4872,7 +4877,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90086,
       "appearance": "90086_DoubleHook_Elite_AAppearance",
-      "unitKeywordList": [ "DUAL_HOOK_PIRATE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859201
       ],
@@ -4949,7 +4954,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90087,
       "appearance": "90087_DoubleHook_Elite_BAppearance",
-      "unitKeywordList": [ "DUAL_HOOK_PIRATE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859301
       ],
@@ -5026,7 +5031,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 91012,
       "appearance": "91012_DoubleHook_SmeeAppearance",
-      "unitKeywordList": [ "DUAL_HOOK_PIRATE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859401
       ],
@@ -5752,7 +5757,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90098,
       "appearance": "90098_PequodAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8588AllUnlocked",
       "abnormalityPartList": [
         858801
@@ -5831,7 +5836,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90099,
       "appearance": "90099_PequodAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8589AllUnlocked",
       "abnormalityPartList": [
         858901

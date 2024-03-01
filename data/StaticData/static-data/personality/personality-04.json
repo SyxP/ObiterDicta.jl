@@ -3,7 +3,10 @@
     {
       "id": 10401,
       "appearance": "10401_Ryoshu_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 0,
@@ -102,7 +105,7 @@
     {
       "id": 10402,
       "appearance": "10402_Ryoshu_SevenAssoAppearance",
-      "unitKeywordList": [ "SEVEN" ],
+      "associationList": [ "SEVEN" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 0,
@@ -201,7 +204,7 @@
     {
       "id": 10403,
       "appearance": "10403_Ryoshu_BlackCloudAppearance",
-      "unitKeywordList": [ "BLACK_CLOUD" ],
+      "associationList": [ "BLACK_CLOUD" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 0,
@@ -300,7 +303,7 @@
     {
       "id": 10404,
       "appearance": "10404_Ryoshu_PierreAppearance",
-      "unitKeywordList": [ "BACKSTREET_COOK" ],
+      "associationList": [ "BACKSTREET_COOK" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 1,
@@ -400,7 +403,7 @@
     {
       "id": 10405,
       "appearance": "10405_Ryoshu_WCorpAppearance",
-      "unitKeywordList": [ "W_CORP" ],
+      "associationList": [ "W_CORP" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 0,
@@ -499,7 +502,7 @@
     {
       "id": 10406,
       "appearance": "10406_Ryoshu_LCCBAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 3,

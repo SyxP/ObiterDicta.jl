@@ -29887,7 +29887,8 @@
       ],
       "rewardList": [],
       "attackType": "PENETRATE",
-      "attributeType": "AZURE"
+      "attributeType": "AZURE",
+      "stageScriptNameAfterClear": "Abnormality"
     },
     {
       "id": 2054207,

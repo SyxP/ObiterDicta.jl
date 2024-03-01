@@ -5,7 +5,7 @@
             "nameID": 90011,
             "sdPortrait": 90011,
             "appearance": "90011_GCorp_Normal_BaldAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 3,
@@ -141,7 +141,7 @@
             "nameID": 90012,
             "sdPortrait": 90012,
             "appearance": "90012_GCorp_Normal_BobAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 3,
@@ -281,7 +281,7 @@
             "nameID": 90013,
             "sdPortrait": 90013,
             "appearance": "90013_GCorp_Normal_ShortcutAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 3,
@@ -421,7 +421,7 @@
             "nameID": 90001,
             "sdPortrait": 90001,
             "appearance": "90001_GCorp_Enhanced_BaldAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 4,
@@ -561,7 +561,7 @@
             "nameID": 90002,
             "sdPortrait": 90002,
             "appearance": "90002_GCorp_Enhanced_ShortcutAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 4,
@@ -701,7 +701,7 @@
             "nameID": 90003,
             "sdPortrait": 90003,
             "appearance": "90003_GCorp_Enhanced_BobAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 4,
@@ -841,7 +841,7 @@
             "nameID": 90014,
             "sdPortrait": 90014,
             "appearance": "90014_GCorp_Infested_BaldAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 5,
@@ -981,7 +981,7 @@
             "nameID": 90015,
             "sdPortrait": 90015,
             "appearance": "90015_GCorp_Infested_BobAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 5,
@@ -1121,7 +1121,7 @@
             "nameID": 90016,
             "sdPortrait": 90016,
             "appearance": "90016_GCorp_Infested_ShortcutAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 5,
@@ -1261,7 +1261,7 @@
             "nameID": 91001,
             "sdPortrait": 91001,
             "appearance": "91001_GCorp_Enhanced_BossAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 6,
@@ -1406,7 +1406,7 @@
             "nameID": 91002,
             "sdPortrait": 91002,
             "appearance": "91002_GCorp_Infested_BossAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "G_CORP"
             ],
             "level": 7,
@@ -1555,7 +1555,7 @@
             "nameID": 90019,
             "sdPortrait": 90017,
             "appearance": "90017_ConconAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "KONG_KONG"
             ],
             "patternID": "90017",
@@ -1695,7 +1695,7 @@
             "nameID": 90017,
             "sdPortrait": 90018,
             "appearance": "90018_ConconAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "KONG_KONG"
             ],
             "patternID": "90018",
@@ -1835,7 +1835,7 @@
             "nameID": 90018,
             "sdPortrait": 90019,
             "appearance": "90019_ConconAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "KONG_KONG"
             ],
             "patternID": "90019",
@@ -1975,7 +1975,7 @@
             "nameID": 91003,
             "sdPortrait": 91003,
             "appearance": "91003_ConconAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "KONG_KONG"
             ],
             "patternID": "91003",
@@ -2130,7 +2130,7 @@
             "nameID": 90020,
             "sdPortrait": 90020,
             "appearance": "90020_VipAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "CASINO_SECURITY"
             ],
             "level": 4,
@@ -2270,7 +2270,7 @@
             "nameID": 90021,
             "sdPortrait": 90021,
             "appearance": "90021_VipAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "CASINO_SECURITY"
             ],
             "level": 4,
@@ -2410,7 +2410,7 @@
             "nameID": 90022,
             "sdPortrait": 90022,
             "appearance": "90022_VipAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "CASINO_SECURITY"
             ],
             "level": 4,
@@ -2546,7 +2546,7 @@
             "nameID": 90023,
             "sdPortrait": 90023,
             "appearance": "90023_VipAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "CASINO_SECURITY"
             ],
             "level": 4,
@@ -2686,7 +2686,7 @@
             "nameID": 90024,
             "sdPortrait": 90024,
             "appearance": "90024_MexicanAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "MARIACHI"
             ],
             "patternID": "90024",
@@ -2827,7 +2827,7 @@
             "nameID": 90025,
             "sdPortrait": 90025,
             "appearance": "90025_MexicanAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "MARIACHI"
             ],
             "patternID": "90025",
@@ -2968,7 +2968,7 @@
             "nameID": 91004,
             "sdPortrait": 91004,
             "appearance": "91004_EyedAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "MARIACHI"
             ],
             "patternID": "91004",
@@ -3123,7 +3123,7 @@
             "nameID": 90026,
             "sdPortrait": 90026,
             "appearance": "90026_CnBigGuyAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TIEQIU"
             ],
             "level": 5,
@@ -3262,7 +3262,7 @@
             "nameID": 90027,
             "sdPortrait": 90027,
             "appearance": "90027_CnBigGuyAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TIEQIU"
             ],
             "level": 5,
@@ -4091,7 +4091,7 @@
             "nameID": 90028,
             "sdPortrait": 90028,
             "appearance": "90028_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -4236,7 +4236,7 @@
             "nameID": 90029,
             "sdPortrait": 90028,
             "appearance": "90028_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -4381,7 +4381,7 @@
             "nameID": 90030,
             "sdPortrait": 90029,
             "appearance": "90029_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -4522,7 +4522,7 @@
             "nameID": 90031,
             "sdPortrait": 90029,
             "appearance": "90029_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -4663,7 +4663,7 @@
             "nameID": 90032,
             "sdPortrait": 90032,
             "appearance": "90032_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 4,
@@ -4805,7 +4805,7 @@
             "nameID": 90033,
             "sdPortrait": 90032,
             "appearance": "90032_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 4,
@@ -4947,7 +4947,7 @@
             "nameID": 90034,
             "sdPortrait": 90032,
             "appearance": "90032_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 4,
@@ -5089,7 +5089,7 @@
             "nameID": 90035,
             "sdPortrait": 90035,
             "appearance": "90035_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 5,
@@ -5235,7 +5235,7 @@
             "nameID": 90036,
             "sdPortrait": 90035,
             "appearance": "90035_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 5,
@@ -5382,7 +5382,7 @@
             "nameID": 90037,
             "sdPortrait": 90035,
             "appearance": "90035_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 5,
@@ -5529,7 +5529,7 @@
             "nameID": 90038,
             "sdPortrait": 90038,
             "appearance": "90038_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 6,
@@ -5676,7 +5676,7 @@
             "nameID": 90039,
             "sdPortrait": 90038,
             "appearance": "90038_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 6,
@@ -5823,7 +5823,7 @@
             "nameID": 90040,
             "sdPortrait": 90038,
             "appearance": "90038_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 6,
@@ -5970,7 +5970,7 @@
             "nameID": 91005,
             "sdPortrait": 91005,
             "appearance": "91005_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "level": 5,
@@ -6123,7 +6123,7 @@
             "nameID": 91006,
             "sdPortrait": 91006,
             "appearance": "91006_NCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "N_CORP"
             ],
             "patternID": "91006",
@@ -6871,9 +6871,9 @@
             "sdPortrait": 90047,
             "appearance": "90047_KCorpAppearance",
             "unitKeywordList": [
-                "ATL",
                 "MACHINE"
             ],
+            "associationList": [ "ATL" ],
             "level": 2,
             "slotWeightConditionList": [
                 "Default1"
@@ -6984,9 +6984,9 @@
             "sdPortrait": 90048,
             "appearance": "90048_KCorpAppearance",
             "unitKeywordList": [
-                "ATL",
                 "MACHINE"
             ],
+            "associationList": [ "ATL" ],
             "level": 2,
             "slotWeightConditionList": [
                 "Default1"
@@ -7097,9 +7097,9 @@
             "sdPortrait": 90049,
             "appearance": "90049_KCorpAppearance",
             "unitKeywordList": [
-                "ATL",
                 "MACHINE"
             ],
+            "associationList": [ "ATL" ],
             "level": 2,
             "slotWeightConditionList": [
                 "Default1"
@@ -7219,9 +7219,9 @@
             "sdPortrait": 90050,
             "appearance": "90050_KCorpAppearance",
             "unitKeywordList": [
-                "ATL",
                 "MACHINE"
             ],
+            "associationList": [ "ATL" ],
             "level": 2,
             "slotWeightConditionList": [
                 "Default1"
@@ -7341,9 +7341,9 @@
             "sdPortrait": 91007,
             "appearance": "91007_KCorpAppearance",
             "unitKeywordList": [
-                "ATL",
                 "MACHINE"
             ],
+            "associationList": [ "ATL" ],
             "level": 2,
             "slotWeightConditionList": [
                 "Default2"
@@ -7707,7 +7707,7 @@
             "nameID": 90051,
             "sdPortrait": 90051,
             "appearance": "90051_TroubleshooterAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TROUBLE_SHOOTER"
             ],
             "level": 2,
@@ -7982,7 +7982,7 @@
             "nameID": 90052,
             "sdPortrait": 90052,
             "appearance": "90052_TroubleshooterAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TROUBLE_SHOOTER"
             ],
             "level": 2,
@@ -8257,7 +8257,7 @@
             "nameID": 90053,
             "sdPortrait": 90053,
             "appearance": "90053_TroubleshooterAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TROUBLE_SHOOTER"
             ],
             "level": 2,
@@ -8532,7 +8532,7 @@
             "nameID": 91008,
             "sdPortrait": 91008,
             "appearance": "91008_TroubleshooterAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "TROUBLE_SHOOTER"
             ],
             "level": 2,
@@ -9040,7 +9040,7 @@
             "nameID": 90073,
             "sdPortrait": 90028,
             "appearance": "90028_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -9186,7 +9186,7 @@
             "nameID": 90074,
             "sdPortrait": 90028,
             "appearance": "90028_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -9332,7 +9332,7 @@
             "nameID": 90075,
             "sdPortrait": 90029,
             "appearance": "90029_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -9474,7 +9474,7 @@
             "nameID": 90076,
             "sdPortrait": 90029,
             "appearance": "90029_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -9616,7 +9616,7 @@
             "nameID": 90054,
             "sdPortrait": 90054,
             "appearance": "90054_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -9762,7 +9762,7 @@
             "nameID": 90055,
             "sdPortrait": 90055,
             "appearance": "90055_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -12151,7 +12151,7 @@
             "nameID": 90066,
             "sdPortrait": 90054,
             "appearance": "90054_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -12299,7 +12299,7 @@
             "nameID": 90067,
             "sdPortrait": 90055,
             "appearance": "90055_KCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -12447,7 +12447,7 @@
             "nameID": 90068,
             "sdPortrait": 90068,
             "appearance": "8501_KCorp_Grade3Appearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -12590,7 +12590,7 @@
             "nameID": 90069,
             "sdPortrait": 90069,
             "appearance": "8502_KCorp_Grade3_FuryAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "K_CORP"
             ],
             "level": 3,
@@ -12733,7 +12733,7 @@
             "nameID": 90070,
             "sdPortrait": 90070,
             "appearance": "90070_TCorpAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "T_CORP"
             ],
             "level": 3,
@@ -13011,7 +13011,7 @@
             "nameID": 90084,
             "sdPortrait": 90084,
             "appearance": "90084_DoubleHook_Mob_AAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "DUAL_HOOK_PIRATE"
             ],
             "level": 2,
@@ -13158,7 +13158,7 @@
             "nameID": 90085,
             "sdPortrait": 90085,
             "appearance": "90085_DoubleHook_Mob_BAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "DUAL_HOOK_PIRATE"
             ],
             "level": 2,
@@ -13305,7 +13305,7 @@
             "nameID": 90086,
             "sdPortrait": 90086,
             "appearance": "90086_DoubleHook_Elite_AAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "DUAL_HOOK_PIRATE"
             ],
             "level": 2,
@@ -13457,7 +13457,7 @@
             "nameID": 90087,
             "sdPortrait": 90087,
             "appearance": "90087_DoubleHook_Elite_BAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "DUAL_HOOK_PIRATE"
             ],
             "level": 2,
@@ -13611,7 +13611,7 @@
             "nameID": 91012,
             "sdPortrait": 91012,
             "appearance": "91012_DoubleHook_SmeeAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "DUAL_HOOK_PIRATE"
             ],
             "level": 2,
@@ -15079,7 +15079,7 @@
             "sdPortrait": 90096,
             "appearance": "90096_MiddleFinger_Mob_AAppearance",
             "patternID": "90096",
-            "unitKeywordList": [
+            "associationList": [
                 "MIDDLE_FINGER"
             ],
             "level": 2,
@@ -15330,7 +15330,7 @@
             "sdPortrait": 90097,
             "appearance": "90097_MiddleFinger_Mob_BAppearance",
             "patternID": "90097",
-            "unitKeywordList": [
+            "associationList": [
                 "MIDDLE_FINGER"
             ],
             "level": 2,
@@ -15696,7 +15696,7 @@
             "nameID": 90098,
             "sdPortrait": 90098,
             "appearance": "90098_PequodAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "PEQUOD_CREW"
             ],
             "level": 2,
@@ -15850,7 +15850,7 @@
             "nameID": 90099,
             "sdPortrait": 90099,
             "appearance": "90099_PequodAppearance",
-            "unitKeywordList": [
+            "associationList": [
                 "PEQUOD_CREW"
             ],
             "level": 2,
@@ -16926,7 +16926,7 @@
             "nameID": 91013,
             "sdPortrait": 91013,
             "appearance": "91013_Kurokumo_MiddleBossAppearance",
-            "unitKeywordList": [ "BLACK_CLOUD" ],
+            "associationList": [ "BLACK_CLOUD" ],
             "level": 3,
             "slotWeightConditionList": [
               "Default1"
@@ -17359,7 +17359,7 @@
             "nameID": 90110,
             "sdPortrait": 90110,
             "appearance": "90110_KuroKumo_Mob_1Appearance",
-            "unitKeywordList": [ "BLACK_CLOUD" ],
+            "associationList": [ "BLACK_CLOUD" ],
             "level": 3,
             "slotWeightConditionList": [
               "Default1"
@@ -17503,7 +17503,7 @@
             "nameID": 90111,
             "sdPortrait": 90111,
             "appearance": "90111_KuroKumo_Mob_2Appearance",
-            "unitKeywordList": [ "BLACK_CLOUD" ],
+            "associationList": [ "BLACK_CLOUD" ],
             "level": 3,
             "slotWeightConditionList": [
               "Default1"
@@ -17646,7 +17646,7 @@
             "nameID": 90112,
             "sdPortrait": 90112,
             "appearance": "90112_KuroKumo_Mob_3Appearance",
-            "unitKeywordList": [ "BLACK_CLOUD" ],
+            "associationList": [ "BLACK_CLOUD" ],
             "level": 3,
             "slotWeightConditionList": [
               "Default1"
@@ -17789,7 +17789,7 @@
             "nameID": 90113,
             "sdPortrait": 90113,
             "appearance": "90113_KuroKumo_Mob_4Appearance",
-            "unitKeywordList": [ "BLACK_CLOUD" ],
+            "associationList": [ "BLACK_CLOUD" ],
             "level": 3,
             "slotWeightConditionList": [
               "Default1"

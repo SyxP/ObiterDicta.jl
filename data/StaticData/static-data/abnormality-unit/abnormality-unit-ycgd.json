@@ -3,7 +3,7 @@
     {
       "id": 8153,
       "appearance": "8153_KimSatGat_ErodeAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "BLADE_LINEAGE"
       ],
       "classType": "ZAYIN",
@@ -410,7 +410,7 @@
     {
       "id": 8154,
       "appearance": "8153_KimSatGat_ErodeAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "BLADE_LINEAGE"
       ],
       "classType": "ZAYIN",

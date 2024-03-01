@@ -1916,7 +1916,7 @@
     {
       "id": 8024,
       "appearance": "8024_Nothing_ThereAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "patternID": "8024",
       "classType": "TETH",
@@ -2051,7 +2051,7 @@
     {
       "id": 8025,
       "appearance": "8025_Wolf_EnhancedAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "patternID": "8025",
       "classType": "TETH",
@@ -2243,7 +2243,7 @@
     {
       "id": 8026,
       "appearance": "8026_Nothing_There_BossAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2377,7 +2377,7 @@
     {
       "id": 8027,
       "appearance": "8027_Wolf_ErosionAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -2482,7 +2482,7 @@
     {
       "id": 8028,
       "appearance": "8028_SnakeAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2888,7 +2888,7 @@
     {
       "id": 8029,
       "appearance": "8029_CromerAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -3296,7 +3296,7 @@
       "id": 8030,
       "originID": 8030,
       "appearance": "8030_Cromer_2pAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SCARLET",
@@ -5790,7 +5790,7 @@
     {
       "id": 8033,
       "appearance": "8033_Snake_weakAppearance",
-      "unitKeywordList": [ "G_CORP" ],
+      "associationList": [ "G_CORP" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",

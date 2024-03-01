@@ -3,7 +3,10 @@
     {
       "id": 10901,
       "appearance": "10901_Rodion_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,
@@ -102,7 +105,7 @@
     {
       "id": 10902,
       "appearance": "10902_Rodion_BlackCloudAppearance",
-      "unitKeywordList": [ "BLACK_CLOUD" ],
+      "associationList": [ "BLACK_CLOUD" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,
@@ -201,7 +204,7 @@
     {
       "id": 10903,
       "appearance": "10903_Rodion_EpiAppearance",
-      "unitKeywordList": [ "LIMBUS_COMPANY" ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 1,
@@ -300,7 +303,7 @@
     {
       "id": 10904,
       "appearance": "10904_Rodion_NCorpAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 1,
@@ -399,7 +402,7 @@
     {
       "id": 10905,
       "appearance": "10905_Rodion_EliteFixerAppearance",
-      "unitKeywordList": [ "ROSE" ],
+      "associationList": [ "ROSE" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 2,
@@ -498,7 +501,7 @@
     {
       "id": 10906,
       "appearance": "10906_Rodion_ZweiAppearance",
-      "unitKeywordList": [ "ZWEI" ],
+      "associationList": [ "ZWEI" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,
@@ -596,7 +599,7 @@
     {
       "id": 10907,
       "appearance": "10907_Rodion_DieciAppearance",
-      "unitKeywordList": [ "DIECI" ],
+      "associationList": [ "DIECI" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,

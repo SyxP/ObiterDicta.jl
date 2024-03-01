@@ -3,7 +3,10 @@
     {
       "id": 10701,
       "appearance": "10701_Heathclif_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -102,7 +105,7 @@
     {
       "id": 10702,
       "appearance": "10702_Heathclif_4Appearance",
-      "unitKeywordList": [ "SHI" ],
+      "associationList": [ "SHI" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -200,7 +203,7 @@
     {
       "id": 10703,
       "appearance": "10703_Heathclif_RCorpAppearance",
-      "unitKeywordList": [ "R_CORP" ],
+      "associationList": [ "R_CORP" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -319,7 +322,7 @@
     {
       "id": 10704,
       "appearance": "10704_Heathclif_NCorpAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 1,
@@ -418,7 +421,7 @@
     {
       "id": 10705,
       "appearance": "10705_Heathclif_WolfoxAppearance",
-      "unitKeywordList": [ "ATL" ],
+      "associationList": [ "ATL" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 2,
@@ -519,7 +522,7 @@
     {
       "id": 10706,
       "appearance": "10706_Heathclif_SevenAppearance",
-      "unitKeywordList": [ "SEVEN" ],
+      "associationList": [ "SEVEN" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -618,7 +621,7 @@
     {
       "id": 10707,
       "appearance": "10707_Heathclif_QueequegAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 3,

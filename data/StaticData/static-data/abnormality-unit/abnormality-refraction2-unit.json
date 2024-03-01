@@ -2977,7 +2977,7 @@
       "viewid": 90070,
       "sdPortrait": 90070,
       "appearance": "90070_TCorpAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "T_CORP"
       ],
       "level": 30,
@@ -3183,7 +3183,7 @@
       "viewid": 90070,
       "sdPortrait": 90070,
       "appearance": "90070_TCorpAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "T_CORP"
       ],
       "level": 30,
@@ -3389,7 +3389,7 @@
       "viewid": 90070,
       "sdPortrait": 90070,
       "appearance": "90070_TCorpAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "T_CORP"
       ],
       "level": 30,
@@ -3595,7 +3595,7 @@
       "viewid": 90070,
       "sdPortrait": 90070,
       "appearance": "90070_TCorpAppearance",
-      "unitKeywordList": [
+      "associationList": [
         "T_CORP"
       ],
       "level": 30,

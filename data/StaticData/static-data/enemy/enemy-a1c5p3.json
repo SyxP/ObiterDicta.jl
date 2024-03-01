@@ -3,7 +3,7 @@
     {
       "id": 90098,
       "appearance": "90098_PequodAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "90098",
       "slotWeightConditionList": [
@@ -153,7 +153,7 @@
     {
       "id": 90099,
       "appearance": "90099_PequodAppearance",
-      "unitKeywordList": [ "PEQUOD_CREW" ],
+      "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "90099",
       "slotWeightConditionList": [

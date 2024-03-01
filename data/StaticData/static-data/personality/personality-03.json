@@ -3,7 +3,10 @@
     {
       "id": 10301,
       "appearance": "10301_Donquixote_BaseAppearance",
-      "unitKeywordList": [ "BASE_APPEARANCE", "LIMBUS_COMPANY" ],
+      "unitKeywordList": [
+                "BASE_APPEARANCE"
+            ],
+            "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 0,
@@ -102,7 +105,7 @@
     {
       "id": 10302,
       "appearance": "10302_Donquixote_WAppearance",
-      "unitKeywordList": [ "W_CORP" ],
+      "associationList": [ "W_CORP" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 0,
@@ -201,7 +204,7 @@
     {
       "id": 10303,
       "appearance": "10303_Donquixote_ShiAssoAppearance",
-      "unitKeywordList": [ "SHI" ],
+      "associationList": [ "SHI" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 0,
@@ -299,7 +302,7 @@
     {
       "id": 10304,
       "appearance": "10304_Donquixote_NCorpAppearance",
-      "unitKeywordList": [ "N_CORP" ],
+      "associationList": [ "N_CORP" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 1,
@@ -407,7 +410,7 @@
     {
       "id": 10305,
       "appearance": "10305_Donquixote_CinqAppearance",
-      "unitKeywordList": [ "CINQ" ],
+      "associationList": [ "CINQ" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 0,
@@ -516,7 +519,7 @@
     {
       "id": 10306,
       "appearance": "10306_Donquixote_MiddleFingerAppearance",
-      "unitKeywordList": [ "MIDDLE_FINGER" ],
+      "associationList": [ "MIDDLE_FINGER" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 3,
@@ -615,7 +618,7 @@
     {
       "id": 10307,
       "appearance": "10307_Donquixote_MeatLanternAppearance",
-      "unitKeywordList": [ "L_CORP" ],
+      "associationList": [ "L_CORP" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 9102,
@@ -714,7 +717,7 @@
     {
       "id": 10308,
       "appearance": "10308_Donquixote_SwordGroupAppearance",
-      "unitKeywordList": [ "BLADE_LINEAGE" ],
+      "associationList": [ "BLADE_LINEAGE" ],
       "characterId": 3,
       "panicType": 9999,
       "season": 3,

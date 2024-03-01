@@ -168,12 +168,26 @@ function DownloadNameBundleFromCatalog(query, catalogFile = "$DataDir/catalog_S1
     return result
 end
 
+function MergeDirectories(oldDir, newDir)
+    for (root, dirs, file) in walkdir(oldDir)
+        for file in files
+            oldPath = joinpath(root, file)
+            newPath = joinpath(newDir, relpath(oldPath, oldDir))
+            mkpath(dirname(newPath))
+            mv(oldPath, newPath; force = true)
+        end
+    end
+
+    return
+end
+
+
 function DeleteDataFiles()
     for SubDir in ["StaticData/", "Localize/en", "Localize/jp", "Localize/kr"]
         oldDir = joinpath(DataDir, SubDir)
         newDir = joinpath(getBackupFileLocation(), SubDir)
         mkpath(newDir)
-        mv(oldDir, newDir; force = true)
+        MergeDirectories(oldDir, newDir)
     end
     rm(joinpath(DataDir, "Localize", "RemoteLocalizeFileList.json"); force = true)
     rm(joinpath(git_download_cache, "Unbundled Data"); force = true, recursive = true)

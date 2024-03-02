@@ -96,5 +96,7 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 ### Immediate Upcoming Plans
 
 1. Print Refraction Railway Enemies
-2. Implement `skill (s2:Warp [id:Don])` to work.
-3. Implement Choice Event printing.
+2. Implement Chart for Resonance Buff
+3. Implement `skill (s2:Warp [id:Don])` to work.
+4. Make Unique Bleed (e.g.) searchable
+5. Implement Choice Event printing.

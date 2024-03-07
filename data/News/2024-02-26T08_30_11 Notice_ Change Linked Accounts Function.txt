@@ -1,0 +1,40 @@
+
+
+Notice: Change Linked Accounts Function
+
+Hello, this is Project Moon.
+
+We would like to inform you of a new function we plan to add to the game: 'change linked accounts'.
+
+Once this function is added, you can change the accounts linked to your in-game UID.
+
+※ However, this function is usable only once every 6 months. Also, you must remain linked to at least 1 of the following accounts: Steam, Google, or Apple.
+
+Please note that, should you request via email to change or unlink a linked account during the period in which linked account change is unavailable, we may require more detailed verification information before proceeding with the account switch/unlinking.
+
+Until now, we have not allowed linked Steam, Google, or Apple account switching or unlinking in order to prevent unmitigated game account sharing or sales. It was allowed only in rare cases of hacked accounts.
+
+However, since we have been processing these account switching or unlinking requests via email requests and under conditions in which the verification for the hacked account wasn't clear, we would like to add the 'change linked account' function to improve the convenience of switching the linked accounts.
+
+Please refer to the information below for more details.
+
+1/2
+
+PROJECT MOON
+Update ETA
+
+- After Mar. 21st (Thu) 12:00 (KST) Scheduled Maintenance
+
+How To Use
+
+- Usage Conditions: Your account must be linked to 2 or more of the following accounts: Steam, Google, or Apple.
+- Usage Limitations: This function can be used only once every 6 months, and at least 1 account must remain linked.
+
+An additional notice will be posted when this function is officially released, and we will provide a more detailed explanation with images in that notice.
+
+Thank You.
+
+2/2
+
+PROJECT MOON
+

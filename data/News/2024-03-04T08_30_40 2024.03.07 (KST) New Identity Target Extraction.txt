@@ -1,0 +1,93 @@
+
+
+LIMBUS COMPANY
+Liu Assoc. South Section 4 Director
+Rodion
+
+ENTITY INFO
+"The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+SKILL 1
+Flaming Fists
+Gain Coin Power for every X Burn on target
+I) [On Hit] Inflict Burn
+II) [On Hit] Inflict Burn
+
+SKILL 2
+Fiery Knifehand-Combust
+Gain Coin Power for every X Burn on target
+I) [On Hit] Inflict Burn Count
+II) [On Hit] Inflict Burn Count
+III) [Heads Hit] Inflict Burn Count
+[On Hit] If the target has X+ Burn Count, apply Burn to 2 targets with no Burn or with the least Burn Count
+
+SKILL 3
+Pinpoint Blitz
+If the target has X+ Burn, gain Coin Power
+If the target has X+ Burn and Burn Count, deal more damage
+I) [On Hit] Inflict Burn
+II) [On Hit] Inflict Burn
+III) [On Hit] Inflict Burn
+IV) [On Hit] Inflict Wrath Affinity damage equal to Burn Potency on target. Reduce Target’s Burn Count.
+
+PASSIVE
+Burning Passion
+Deal more damage for every X Burn Potency on target
+Combat Start: If all enemies have X+ Burn Potency, apply Wrath DMG Up to (highest Wrath A-Reson,) allies in Deployment order
+If the ally is a Liu Association Fixer, apply Attack Power Up
+
+SUPPORT PASSIVE
+Passionate Cheer
+1 ally with the least SP deals more Pierce damage for every X Burn Potency on target On Hit
+
+Counter
+I) [On Hit] Inflict Burn
+Liu Assoc. South Section 4
+Ryoshu
+
+ENTITY INFO
+*The identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+SKILL 1
+All-out War
+If the target has X+ Burn, Clash Power +1
+If the target has X++ Burn, Coin Power +1
+[I] [On Hit] Inflict Burn
+[II] [Heads Hit] Inflict Burn
+[On Hit] Inflict Burn
+
+SKILL 2
+Knifehand Flamestrike
+If the target has X+ Burn, Clash Power +1
+If the target has X++ Burn, Coin Power +1
+[I] [On Hit] Inflict Burn
+[II] [On Hit] If the target has X+ Burn,
+deal more damage
+
+SKILL 3
+Flame Cleave
+If the target has X+ Burn, Clash Power +1
+If the target has X++ Burn, Coin Power +1
+[I] [On Hit] Inflict Burn
+[II] [On Hit] Inflict Burn
+[III] [On Hit] Inflict Burn
+[IV] [On Hit] If the target has X+ Burn, deal more damage
+
+DEFENSE
+Guard
+
+PASSIVE
+Flame Spread
+When this unit defeats an enemy with Burn,
+apply Burn to 2 random enemies with no Burn or
+with the least Burn Potency
+
+SUPPORT PASSIVE
+Spread Flame
+When 1 ally with the lowest Speed defeats an enemy
+with Burn, inflict Burn on 2 random enemies
+
+Copyright © 2021-2022 Hypergryph Co., Ltd. All rights reserved.
+

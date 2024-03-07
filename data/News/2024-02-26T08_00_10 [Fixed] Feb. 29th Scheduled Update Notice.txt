@@ -1,0 +1,140 @@
+
+
+
+
+[Fixed] Feb. 29th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Feb. 29th, 2024 (KST).
+
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+✖ We have added a missing bug fix item for the following E.G.O Gift: Lucky Pouch
+
+1/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where the game soft-locks
+when the enemy is defeated under specific circumstances
+
+► Fixed an issue where the game lagged
+when opening and closing pop-up windows
+
+► Improved activation conditions for
+E.G.O Gifts Coupled Oscillation and Lucky Pouch
+    (1) Coupled Oscillation
+    - Before: Encounter Start: This Gift activates when 5 or more
+      Identities have Attack Skills that apply Tremor Potency.
+    - After: Encounter Start: This Gift activates when 5 or more Identities
+      have Attack Skills that apply Tremor Potency or Count.
+      ※ (This does not activate when the Identity
+      gains Tremor Count on Self)
+
+    (2) Lucky Pouch
+    - Before: Encounter Start: This Gift activates when 5 or more
+      Identities have Attack Skills that gain Poise Potency or Count.
+    - After: Encounter Start: This Gift activates when 5 or more Identities
+      have Attack Skills that gain or apply Poise Potency or Count.
+
+► [Added] E.G.O Gift Lucky Pouch Activation Effect Improved
+- Before: Skill 3 of Identities with Skills that gain Poise Potency:
+  Final Power +3, Coin Power +(12/# of Coins),
+  damage dealt +(50/# of Coins)%.
+- After: Skill 3 of Identities with Skills that gain Poise Potency
+  or Count: Final Power +3, Coin Power +(12/# of Coins),
+  damage dealt +(50/# of Coins)%.
+
+► [Added] E.G.O Gift Lucky Pouch Error Fixed
+Fixed an issue where the effect 'Combat Start: If a random ally
+with Poise Critical Hits on an enemy with a Skill,
+all allies gain 7 Poise Potency and +7 Poise Count
+at the next Turn Start' did not activate properly
+    - Before: Activated only on Identities
+      with Poise that gain Poise Potency
+    - After: Activates on all Identities with Poise
+
+► Fixed an issue where the Rest Stop wasn't added in front of the
+Mirror Dungeon Normal Difficulty final boss room
+of the last floor (As it was stated to be in the
+Yield My Flesh to Claim Their Bones Event Guide)
+
+► Fixed typos in the Yield My Flesh to Claim Their Bones event
+
+► Fixed an issue where the event was labeled
+'Miracle in District 20' on the last page of the Yield My Flesh to
+Claim Their Bones event tutorial page
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the font color code appeared in the Yield My Flesh to Claim Their Bones reward exchange menu
+
+▶ Fixed an issue where a certain Yield My Flesh to Claim Their Bones event VFX did not apply to a certain Identity - W Corp. L3 Cleanup Agent Ryōshū
+
+▶ (EN Only) Fixed an issue where Yield My Flesh to Claim Their Bones Ticket Deco item names were longer than the text box layout
+
+▶ Fixed an issue where entering Hell's Chicken or Yield My Flesh to Claim Their Bones event dungeon triggered [Pass Missions - Enter the Mirror Dungeon 1 time(s)]
+
+▶ Fixed an issue where Ryōshū E.G.O - 4th Match Flame did not show the Sinner E.G.O Sprite
+
+▶ Fixed an issue where certain VFX resources did not load during a story cutscene in Stage 5-36
+
+▶ Fixed an issue where, in the combat results screen, the Illustration Animation did not appear properly
+
+▶ Fixed an issue where friends' levels updated only up to Lv.127 in the list of Friends
+
+▶ Changed 'Confirm' button to 'Purchase' button in the Paid Items Shop
+
+▶ Fixed the Coin number label in Canto 3 Final Boss Skill - 'Cackle'
+
+▶ Fixed an issue where, when viewing detailed information on each Identity, the right end of the Illustration Animation did not appear properly
+
+▶ Fixed an issue where enemy placement in Chapter 4.5 did not appear properly
+
+▶ Improved Yield My Flesh to Claim Their Bones Stages UI in the Mirror Dungeon to show the amount of obtainable event currency for each stage
+
+Known Issues
+
+▶ An issue where the Identity Takeoff Ticket popup window does not close properly
+
+▶ An issue where chains in the Identity or E.G.O Uptie/Threadspin Tier upgrade cutscenes does not break on intended timings
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 
+  10:00 Mar. 7th, 2024 (KST)
+  - When: After Feb. 29th, 2024 (Thu) 12:00 (KST)
+  - Can be claimed once per account
+
+Maintenance Compensation can be claimed until Mar. 7th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

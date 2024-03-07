@@ -1,0 +1,111 @@
+
+
+
+
+March 7th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Mar. 7th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Liu South Section 4 Director Rodion & Section 4 Ryōshū]
+(Mar. 7th 12:00 ~ Mar. 21st 10:00 (KST))
+Extraction rate increases for the following identities.
+- 3★ : Liu South Section 4 Director Rodion
+- 2★ : Liu South Section 4 Ryōshū
+
+2. [Target Extraction: Ishmael]
+(Mar. 7th 12:00 ~ Mar. 21st 10:00 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+- E.G.O [HE] : Ardor Blossom Star Ishmael
+- 3★ : The Pequod Captain Ishmael, Liu South Section 4 Ishmael,
+  R Corp. 4th Pack Reindeer Ishmael
+- 2★ : Lobotomy E.G.O.::Sloshing Ishmael, LCCB Assistant Manager Ishmael, Shi South Section 5 Ishmael
+- 1★ : LCB Sinner Ishmael
+
+3. New Identities Added
+The following are added to the list of extractable Identities.
+- 3★ : Liu South Section 4 Director Rodion
+- 2★ : Liu South Section 4 Ryōshū
+
+1/4
+
+PROJECT MOON
+Major Changes
+
+1. Refraction Railway Line 3 clear record recovery for erroneously marked records (marked as 0 turns)
+
+The data error [Issue where the Refraction Railway clear record is displayed as 0 Turns], as informed with the Feb. 2nd Notice, will be corrected.
+
+- Changed Content: Affected Managers' records displayed on their respective Banners & logs will now reflect the correct value. We will withdraw the relevant reward from Managers who have unlocked the sub-100 turns reward due to this error.
+
+We will notify affected Managers (who will have their records changed or will have their sub-100 turns reward withdrawn) separately via the in-game inbox.
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where after Uptying LCCAA Assistant Manager Ryōshū to Tier 4, her Defensive Skill icon's inner part does not reflect the correct Sin Affinity color
+
+► Improved functionality of the modal window behavior
+- An issue where the pop-up window does not close properly after using the Identity Takeoff Ticket
+- An issue where selecting the area outside the modal window does not close the window
+
+► Added an "Event Open" marker to the Drive -> relevant Event Banner while the event is active
+
+► Fixed an issue where re-entering a Combat Encounter caused the target's Observation Level to display incorrectly
+
+► Fixed an issue where Uptying/Threadspinning Cutscenes don't play the chain-breaking animation properly
+
+► (iOS) Fixed an issue where certain vfx for 'E.G.O Bg - Yield My Flesh to Claim Their Bones - Special Ticket' does not display properly
+
+► (iOS) Fixed an issue where, in Focused Encounters, the chaining arrow does not display properly
+
+► (iOS) Fixed an issue where the cutscene texts are missing after certain story Encounters
+
+► Fixed an issue where an acquired Announcer does not immediately appear on the relevant loadout menus
+
+► Fixed an issue where R Corp. 4th Pack Rhino Meursault's Skill 3 caused enemies to fly up to an abnormal coordinate
+
+► (EN Only) Fixed typos in Canto IV Main Story dungeon stage descriptions
+
+► (EN Only) Fixed typos for certain character names in Canto V credits
+
+Known Issues
+
+► An issue where certain Buff keywords/highlights don't appear properly in Uptying/Threadspinning Popup UI
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Mar. 14th, 2024 (KST)
+- When: After Mar. 7th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Mar. 14th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

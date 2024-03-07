@@ -1,0 +1,57 @@
+[Errors identified after the Feb. 22nd Scheduled Update]
+
+Greetings, Dear Manager.
+
+We would like to inform you of the additional issues that have been identified after the Feb. 22nd Scheduled Update.
+
+
+<Additional Issues>
+
+▶ An issue where, in Canto 4 or 5, completing only the stages of Part 1 & Part 2(of each Canto) blocked certain Stages from being playable.
+[Issue Trigger Conditions]
+- Entering a Canto 4 Part 2 Stage after having cleared only up to Canto 4 Part 1
+- Entering a Canto 4 Part 3 Stage after having cleared only up to Canto 4 Part 2
+- Entering a Canto 5 Part 2 Stage after having cleared only up to Canto 4 Part 1
+- Entering a Canto 5 Part 3 Stage after having cleared only up to Canto 4 Part 2
+
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland/In Memoriam(Buff) Error
+- An issue where 'When at 5+ Poise, upon Skill use, Skill 1 and Skill 2 gain Coin Power +(3/# of Coins, minimum 1) and deal +(30/# of Coins)% damage on Critical Hit doesn't activate
+- An issue where 'When at 7+ Poise, upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and deals +(50/# of Coins)% damage on Critical Hit' activated as 'When at 7+ Poise, upon Skill use, Skill 3 deals +(30*# of Coins)% more damage and deals +(50*# of Coins)% damage on Critical Hit' instead
+
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland(Passive) Error
+- An issue where Blade Lineage Mentor Meursault's 'In Memoriam(Swordplay of the Homeland, activated when Blade Lineage allies are defeated)' buff's increased Skill 3 damage and Critical damage effect did not apply to the skill "To Claim Their Bones'
+
+▶ An issue where using the 'Yield My Flesh' Skill did not prevent Blade Lineage Mentor Meursault from getting Staggered due to Tremor Burst effects
+
+▶ Yield My Flesh to Claim Their Bones event tutorial mislabeling issue
+- An issue where the last page of the Event Tutorial labels the event as 'Miracle in District 20'
+
+▶ An issue where entering Hell's Chicken & Yield My Flesh To Claim Their Bones Event Dungeons cleared the "Enter the Mirror Dungeon 1 time(s)" Weekly Pass challenge
+
+▶ An issue where, in certain Android devices, Combat Encounter graphics do not render properly
+
+▶ An issue where, when using certain E.G.O Skills, the character sprites would disappear periodically
+
+The following issues have been resolved; we will proceed with a Client Build, go through an emergency review, and apply the fix as soon as possible.
+
+Because mobile platforms (iOS, Android) require an app review before the update is posted, we will notify you with an additional notice as soon as we pass the review and make the fix available for download.
+Please note that Steam version of the game will be updated at the same time as the iOS and Android versions are updated.
+We will inform you of the specifics of the issue causes when the game client is updated after passing the reviews.
+
+▶ An issue where, in Canto 4 or 5, completing only the stages of Part 1 & Part 2(of each Canto) blocked certain Stages from being playable.
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland/In Memoriam(Buff) Error
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland(Passive) Error
+▶ An issue where, in certain Android devices, Combat Encounter graphics do not render properly
+
+
+The remaining issues will be corrected with a future update; we will inform you via a Scheduled Update Notice as soon as they are resolved.
+
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+
+
+[Feb. 22nd Scheduled Update Error Compensation]
+- Compensation : Lunacy x1300
+- Recipients : All users whose accounts were created before Mar. 7th 2024, 10:00
+- Can be claimed once per account
+- When : After Feb. 22nd 2024(KST), 17:00
+

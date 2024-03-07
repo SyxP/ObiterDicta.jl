@@ -1,0 +1,20 @@
+[Notice: Feb. 22nd Scheduled Update Error Fix]
+
+Hello, this is Project Moon.
+
+4 pressing issues among the issues we have identified after the Feb. 22nd Scheduled Update have been fixed, and the fix has been uploaded to the respective stores at 10:30 (KST).
+
+Please download the update from the respective stores. Once the game has been updated, the bottom right side of the Title screen should say 'Version 1.38.1'.
+
+Please Note that Version 1.38.0 will no longer be accessible after 18:00 (KST).
+
+※ Please note that update download may become available at different periods depending on your location & device. If you cannot see the update in your stores, please try again later.
+
+[Fixed Issues] 
+▶ An issue where, in Canto 4 or 5, completing only the stages of Part 1 & Part 2(of each Canto) blocked certain Stages from being playable.
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland/In Memoriam(Buff) Error
+▶ Blade Lineage Mentor Meursault - Swordplay of the Homeland(Passive) Error
+▶ An issue where, in certain Android devices, Combat Encounter graphics do not render properly
+
+We sincerely apologize for causing a disturbance to your enjoyment of our game.
+

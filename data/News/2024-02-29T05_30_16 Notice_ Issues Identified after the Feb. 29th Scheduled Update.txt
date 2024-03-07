@@ -1,0 +1,48 @@
+[Notice: Issues Identified after the Feb. 29th Scheduled Update]
+
+Hello, this is Project Moon.
+
+We would like to inform you of the issues that have been identified after the Feb. 29th Scheduled Update.
+
+1. An issue where acquiring an Announcer does not make them immediately available in the Loadout menu
+
+This issue occurred due to the Main UI not updating immediately after acquiring the Annoucner.
+This can be amended by moving to a different screen(Cutscenes or Encounters) from the Main UI, or by restarting the game. Once you have done so, the Announcer you have acquired will become accessible.
+
+Issue
+- An issue where acquiring an Announcer via a Pack or the Dispenser purchase did not make the Announcer equipable in the Loadout menu
+
+Cause
+- Announcer Purchase & Acquisition has been processed, but the in-game loadout UI did not update immediately
+- The above issue was caused by an error that occurred while we were optimizing the loadout menu logic.
+
+Solution
+- This can be amended by moving to a different screen(Cutscenes or Encounters) from the Main UI, or by restarting the game. 
+(Once the player views the loading screen at least once after acquiring the Announcer)
+- This UI update issue will be corrected with the next Scheduled Update (Mar. 7th, 12:00 (KST))
+
+
+
+2. An issue where the Popup UI close function does not function properly
+
+Issue
+- An issue where the in-game Popup UI does not close when clicking(or touching) outside the Popup window
+
+Cause 
+- This issue was caused due to an error that occurred while optimizing the Popup UI for more convenience
+- Lack of sufficient testing for the above function
+
+Solution
+- We have corrected the logic so that the Popup UI closes properly
+- This issue will be corrected with the next Scheduled Update (Mar. 7th, 12:00 (KST))
+
+
+We sincerely apologize for the inconvenience.
+
+[Feb. 29th Scheduled Update Error Compensation]
+Compensation: Lunacy x300
+Recipients: All users whose accounts were created before Mar. 14th 2024, 10:00
+Can be claimed once per account
+When: After Feb. 29th, 2024 (KST) 16:00
+
+

@@ -208,7 +208,9 @@
                 "gacha-156",
 				"gacha-157",
                 "gacha-158",
-				"gacha-159"
+				"gacha-159",
+                "gacha-160",
+				"gacha-161"
             ]
         },
         {
@@ -616,9 +618,21 @@
             ]
         },
         {
-            "dataClass": "userbanner",
+            "dataClass": "userbannerconfiguration",
             "fileList": [
-                "userbanner"
+                "userbannerconfiguration"
+            ]
+        },
+        {
+          "dataClass": "userbanner",
+          "fileList": [
+            "userbanner"
+          ]
+        },
+        {
+            "dataClass": "userticketconfiguration",
+            "fileList": [
+                "userticketconfiguration"
             ]
         },
         {
@@ -947,12 +961,6 @@
             "fileList": [
                 "mirrordungeon-acquire-cost-in-battle-3-0",
                 "mirrordungeon-acquire-cost-in-battle-3-1"
-            ]
-        },
-        {
-            "dataClass": "ui-config",
-            "fileList": [
-                "ui-config"
             ]
         },
         {

@@ -3,7 +3,7 @@
     {
       "id": 90088,
       "appearance": "90088_Fishman_CruiseAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -145,7 +145,7 @@
     {
       "id": 90089,
       "appearance": "90089_Fishman_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -258,7 +258,7 @@
     {
       "id": 90090,
       "appearance": "90090_Fishman_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -371,7 +371,7 @@
     {
       "id": 90091,
       "appearance": "90091_Fishman_Infested_CAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -484,7 +484,7 @@
     {
       "id": 90092,
       "appearance": "90093_LCCB_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -628,7 +628,7 @@
     {
       "id": 90093,
       "appearance": "90092_LCCB_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -769,7 +769,7 @@
     {
       "id": 90094,
       "appearance": "90094_DoubleHook_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -913,7 +913,7 @@
     {
       "id": 90095,
       "appearance": "90095_DoubleHook_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1552,7 +1552,7 @@
       "id": 90100,
       "appearance": "90100_Fishman_Infested_BAppearance",
       "sdPortrait": 90090,
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1665,7 +1665,7 @@
       "id": 97501,
       "sdPortrait": 90093,
       "appearance": "90092_LCCB_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1807,7 +1807,7 @@
       "id": 97502,
       "sdPortrait": 90092,
       "appearance": "90093_LCCB_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1952,7 +1952,7 @@
       "id": 97503,
       "sdPortrait": 90094,
       "appearance": "90094_DoubleHook_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2097,7 +2097,7 @@
       "id": 97504,
       "sdPortrait": 90095,
       "appearance": "90095_DoubleHook_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2242,7 +2242,7 @@
       "id": 97505,
       "sdPortrait": 90089,
       "appearance": "90089_Fishman_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2356,7 +2356,7 @@
       "id": 97506,
       "sdPortrait": 90090,
       "appearance": "90090_Fishman_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2470,7 +2470,7 @@
       "id": 97507,
       "sdPortrait": 90091,
       "appearance": "90091_Fishman_Infested_CAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"

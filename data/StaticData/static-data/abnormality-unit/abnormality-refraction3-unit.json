@@ -4637,7 +4637,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90083,
       "appearance": "90083_FishCreatureAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         858601
       ],
@@ -4683,7 +4683,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 91011,
       "appearance": "91011_FishCreature_EliteAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         858701
       ],
@@ -5334,7 +5334,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90092,
       "appearance": "90093_LCCB_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         859501
       ],
@@ -5409,7 +5409,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90093,
       "appearance": "90092_LCCB_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         859601
       ],
@@ -5480,7 +5480,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90094,
       "appearance": "90094_DoubleHook_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         859701
       ],
@@ -5554,7 +5554,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90095,
       "appearance": "90095_DoubleHook_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         859801
       ],
@@ -5628,7 +5628,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90089,
       "appearance": "90089_Fishman_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         859901
       ],
@@ -5671,7 +5671,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90090,
       "appearance": "90090_Fishman_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         860001
       ],
@@ -5714,7 +5714,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90091,
       "appearance": "90091_Fishman_Infested_CAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         860101
       ],
@@ -5916,7 +5916,7 @@
       "appearance": "90100_Fishman_Infested_BAppearance",
       "isOriginNormalEnemy": true,
       "sdPortrait": 90090,
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         860201
       ],
@@ -5959,7 +5959,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90088,
       "appearance": "90088_Fishman_CruiseAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "abnormalityPartList": [
         860301
       ],

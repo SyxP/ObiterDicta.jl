@@ -4,9 +4,9 @@
       "id": 10901,
       "appearance": "10901_Rodion_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
-            ],
-            "associationList": [ "LIMBUS_COMPANY" ],
+        "BASE_APPEARANCE"
+      ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 9,
       "panicType": 9999,
       "season": 0,
@@ -700,6 +700,105 @@
         },
         {
           "skillId": 1090703,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10908,
+      "appearance": "10908_Rodion_LiuAppearance",
+      "associationList": [ "LIU" ],
+      "characterId": 9,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1090804
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 79,
+        "incrementByLevel": 2.74
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1090801,
+          "number": 3
+        },
+        {
+          "skillId": 1090802,
+          "number": 2
+        },
+        {
+          "skillId": 1090803,
           "number": 1
         }
       ]

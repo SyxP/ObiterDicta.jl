@@ -3,7 +3,7 @@
     {
       "id": 90083,
       "appearance": "90083_FishCreatureAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -119,7 +119,7 @@
     {
       "id": 91011,
       "appearance": "91011_FishCreature_EliteAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE " ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"

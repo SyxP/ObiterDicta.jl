@@ -1271,8 +1271,8 @@
             }
 
           ],
-          "nextMainchapterid": -1,
-          "nextSubchapterid": -1,
+          "nextMainchapterid": 91,
+          "nextSubchapterid": 9105,
           "lastnodeid": 10539
         }
       ],
@@ -1367,7 +1367,7 @@
           "chapterId": 91,
           "subchapterId": 9107,
           "type": "SUB",
-          "relatedMainEventId": "YCGD"
+          "relatedEventId": "YCGD"
         }
       ]
     },
@@ -1688,8 +1688,8 @@
               "stageNodeType": "STORY"
             }
           ],
-          "nextMainchapterid": -1,
-          "nextSubchapterid": -1,
+          "nextMainchapterid": 91,
+          "nextSubchapterid": 9107,
           "lastnodeid": 910512,
           "relatedMainEventId": "MiracleOfDistrict20"
         },

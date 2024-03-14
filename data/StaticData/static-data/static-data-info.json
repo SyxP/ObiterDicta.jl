@@ -210,7 +210,8 @@
                 "gacha-158",
 				"gacha-159",
                 "gacha-160",
-				"gacha-161"
+				"gacha-161",
+				"gacha-162"
             ]
         },
         {
@@ -564,7 +565,8 @@
               "storytheater-other-9105",
               "storytheater-other-9013",
               "storytheater-other-9014",
-              "storytheater-other-9107"
+              "storytheater-other-9107",
+              "storytheater-other-9015"
             ]
         },
         {
@@ -577,7 +579,8 @@
             "dataClass": "storytheater-dantenote-detail",
             "fileList": [
                 "storytheater-dantenote-detail-1",
-                "storytheater-dantenote-detail-2"
+                "storytheater-dantenote-detail-2",
+                "storytheater-dantenote-detail-3"
             ]
         },
         {

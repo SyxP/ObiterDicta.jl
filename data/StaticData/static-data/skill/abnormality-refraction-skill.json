@@ -1049,7 +1049,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveAdditionalBuffStackTimesTurnDmgOnSuccessAttackHead",
+                  "scriptName": "GiveAdditionalBuffStackDmgOnSuccessAttackHead",
                   "buffData": {
                     "buffKeyword": "Burst",
                     "target": "Target",

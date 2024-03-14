@@ -1364,10 +1364,30 @@
           }
         },
         {
+          "subchapterId": 9014,
+          "storyIdInTheaterData": 1,
+          "type": "MINI_STORY",
+          "uiConfig": {
+            "customChapterText": "3",
+            "timeLine": "984-10"
+          }
+        },
+        {
           "chapterId": 91,
           "subchapterId": 9107,
           "type": "SUB",
           "relatedEventId": "YCGD"
+        }
+        ,
+        {
+          "subchapterId": 9015,
+          "storyIdInTheaterData": 1,
+          "type": "MINI_STORY",
+          "uiConfig": {
+            "illustId": "story-id_E053X",
+            "timeLine": "984-11",
+            "customChapterText": "4"
+          }
         }
       ]
     },

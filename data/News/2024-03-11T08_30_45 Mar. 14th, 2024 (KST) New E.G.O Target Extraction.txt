@@ -1,0 +1,36 @@
+
+LIMBUS COMPANY
+Garden of Thorns
+Gregor
+E.G.O AWAKENING SKILL
+Garden of Thorns
+[Before Attack] Gain #(of highest Reson. - X) Atk Weight (Max N)
+[On Use] Apply 'Corresponding Sin Affinity' Damage Up and
+(Corresponding Sin Affinity) Power Up to (X + #(of highest Reson.)) allies
+▲ At X+ Corresponding Reson., apply additional '(Corresponding Sin Affinity) Damage Up'
+▲ At X++ Corresponding Reson., apply additional '(Corresponding Sin Affinity) Power Up'
+▲ At X+++ Corresponding Reson., apply the above effects next turn as well
+
+[After Attack] Heal X allies with the lowest HP percentages for Y% of their max HP
+• Heal (highest # of Reson., -X) more allies (Max N)
+
+E.G.O CORROSION SKILL
+Garden of Thorns
+[Indiscriminate] Targets Randomly
+[Before Attack] Gain (highest # of Reson. - X) Atk Weight (Max N)
+[On Hit] Inflict Damage Down. Inflict Bind next turn
+[On Hit] Inflict Fragility and Power Down for the Sin Affinity with the highest Resonance count
+▲ At X+ Corresponding Reson., inflict additional '(Corresponding Sin Affinity) Fragility'
+▲ At X++ Corresponding Reson., inflict additional '(Corresponding Sin Affinity) Power Down'
+▲ At X+++ Corresponding A-Reson., apply the above effects next turn as well
+
+E.G.O PASSIVE
+Crown of Thorns
+Turn Start: Inflict Rupture Potency on a random enemy
+When activating Absolute Resonance, inflict Rupture Potency on all enemies at Combat Start
+
+*This image shows the E.G.O's specifications at its maximum Threadspin Tier.
+*This image is for reference only; actual details subject to change.
+
+(Please note that some parts of the text are obscured or incomplete, and are represented with #, (, ) or -. The text has been transcribed as closely as possible to what is visible in the image.)
+

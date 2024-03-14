@@ -1,0 +1,114 @@
+
+
+
+
+
+March 14th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Mar. 14th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+New Content
+
+1. New E.G.O Target Extraction - [New E.G.O Target Extraction: Garden of Thorns Gregor] (Mar. 14th 12:00 ~ Mar. 28th 06:00 (KST))
+Extraction rate increases for the following E.G.O
+- WAW : Garden of Thorns Gregor
+※ Please note that Garden of Thorns Gregor is categorized as a Season 3 E.G.O.
+
+2. New E.G.O Added
+The following E.G.O is added to the list of extractable E.G.O.
+- WAW : Garden of Thorns Gregor
+
+3. New Mini Episode / Dante's Notes added
+With the Mar. 14th (KST) Scheduled Update, a new Mini Episode will be added to the game. With that, additional records will be added to Dante's Notes.
+※ Unlock Condition : Clear Main Story 5.5-24
+(The final stage of Yield My Flesh to Claim Their Bones)
+
+1/5
+
+PROJECT MOON
+Major Changes
+
+1. Added a function to view Identity and E.G.O stats and skill text by Uptie & Threadspinning Tiers in the preview UI in Extraction or Dispenser menus
+
+2. Added the Refraction Railway Line 3 Mini Episode to the Driverside menu
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where the Coin 2 effect of K Corp. Class 3 Staff Skill 'Forbid Entry' does not activate properly
+※ Currently, the effect "Deal bonus damage by target’s Rupture Potency times its Count" activates as "Deal bonus damage by target's Rupture Potency".
+We have adjusted the Coin effect text to match its actual effects.
+
+► Fixed an issue where, in Focused Encounters, Clash result predictions displayed & calculated with expected damage instead of Clash Power
+
+► Fixed an issue where certain VFX did not display properly
+
+► Fixed an issue where the transparency vfx on certain Identities' Skills did not display properly
+
+► Fixed an issue where, in the Uptie & Threadspinning popup windows, the keyword tooltips would appear behind the popup windows in rare occasions
+
+► Fixed an issue where, if the player views the Identity stats through the Identity acquisition UI, then views the Identity stats in the Sinners window, the Illustration would appear misplaced
+
+► Conduction optimizations on certain graphic rendering aspects that caused performance issues
+
+► Fixed an issue where the in-combat Announcer UI appeared incorrectly under certain conditions
+
+3/5
+
+PROJECT MOON
+Known Issues
+
+▶ Blade Lineage Mentor Meursault - an issue where the 'Yield My Flesh' Skill does not prevent this unit from being staggered by Tremor Burst or Raise Stagger Threshold effects
+✖ This issue will be corrected with the Mar. 21st (KST) Scheduled Update. We sincerely apologize for the delayed fix to this issue.
+
+▶ An issue where a Team Loadout title named in certain circumstances lingers when editing Team Loadout in the Sinners Window
+
+▶ An issue where, if an additional popup window appears on top of the Inbox popup window, touching outside the popup window doesn't close the popup window
+   ▶ (Android) A resource rendering issue in the Golden Bough retrieval cutscene
+
+▶ An issue where, upon activating Blade Lineage Mentor Meursault's Passive, he could ignore the Karma debuff's insta-death once
+
+Known Issues after Mar. 14th (KST) Scheduled Update
+
+▶ An issue where switching the view between Uptie and Threadspinning tiers in the Extraction or Dispenser Identity and E.G.O stat preview UI causes the previous screen to flash briefly
+
+The above issue will be corrected with a future Scheduled Update. We will inform you as soon as they are fixed in each corresponding Scheduled Update Notices.
+
+We sincerely apologize for the inconvenience.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Mar. 21st, 2024 (KST)
+- When: After Mar. 14th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Mar. 21st (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

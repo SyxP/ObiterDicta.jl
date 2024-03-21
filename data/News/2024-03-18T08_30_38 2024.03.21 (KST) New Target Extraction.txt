@@ -1,0 +1,45 @@
+
+Duōi South Section 3
+Heathcliff
+
+SKILL 1
+Execution Advised
+Gain Coin Power for every X Tremor on target
+I) [On Hit] Inflict Tremor Count
+
+SKILL 2
+Final Warning
+Gain Coin Power for every X Tremor on target
+I) [On Hit] Inflict Tremor
+II) [On Hit] Inflict Tremor
+
+SKILL 3
+Execution Sentencing
+Gain Coin Power for every X Tremor on target
+I) [On Hit] Inflict Tremor
+II) [On Hit] Inflict Tremor
+III) [On Hit] If the sum of the target's Tremor Potency + Count is X or higher, inflict Amplitude Conversion on target, converting Tremor to Tremor - Decay
+
+PASSIVE
+Do Not Obstruct
+When attacked while this unit has Shield, inflict Tremor Count on the attacker
+
+Grave Attendance
+Deal more damage for every X Tremor Potency on target
+When converting Tremor into Tremor - Decay with this unit's Skill effects, trigger Tremor Burst on target
+
+SUPPORT PASSIVE
+Verity Obligation Fulfilment
+To I ally with the fastest Speed: gain Clash Power to Skills that apply Tremor Potency or Count
+
+Amplitude Conversion
+Converts Tremor or already converted Tremor on target to a different type of Tremor. Potency and Count values do not change over the conversion.
+
+Tremor - Decay
+When attacked by skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency. At the end of the turn, reduce the Count. Lose Defense Level for every X Tremor Potency
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+**This image is for reference only; actual details subject to change.
+
+Copyright © 2024 - All rights reserved by author
+

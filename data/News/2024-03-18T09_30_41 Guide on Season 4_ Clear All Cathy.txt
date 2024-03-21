@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+LIMBUS COMPANY
+SEASON 4
+
+SEASON 4 : CLEAR ALL CATHY
+シーズン４：クリア・オール・キャシー[領域]を完全制圧
+GUIDE ON SEASON 4: CLEAR ALL CATHY
+
+[01] 시즌 3 차양과 유물의 일부
+→シーズン３まほうの貴重品の破片は
+Season 3 Egoshard Carryover
+
+[02] 주요 아이디어 및 패스 소식과의 데이터
+メインストーリーおよびバトルの最新アップデート
+Gradual Main Story & Battle Pass Updates
+
+[03] 배틀 패스 보정과 안내
+バトルパス変更点のご案内
+Battle Pass Changes
+
+[04] 신규 안내인 캐릭 추가
+新規アナウンサー追加
+New Announcer Added
+
+[05] 인격 레벨 상한 증가
+人格レベルキャップ増加
+Identity Level Cap Increase
+
+[06] 경험치 판교추가
+経験値採掘の追加
+New Luxcavation Added
+
+[07] 시즌 4의 추출
+シーズン４の採出
+Season 4 Extractions
+
+[08] 시즌 4의 서머리
+シーズン４の新規販売
+Season 4 Dispenser
+
+[09] UI/UX 리뉴얼 및 개편
+UI/UXリニューアル及びリニューアリング
+UI/UX Renewal & Overhauls
+
+[10] 거울 던전 4 예고
+鏡のダンジョン４の予告
+Mirror Dungeon #4 Preview
+
+PROJECT MOON
+
+You can check the details on the listed items from the webpage linked below.
+Guide on Season 4: Clear All Cathy
+
+Greetings, dear Manager.
+
+Season 4: Clear All Cathy will commence on
+March 28th, 2024, at 12:00 PM (KST).
+This notice will provide information on
+<Season 4: Clear All Cathy> and its new or adjusted systems.
+
+Please note that the contents shown below are subject to change.
+We will notify you again as each update is deployed.
+
+Content
+
+1. Season 3 Egoshard Carryover
+2. Gradual Main Story & Battle Pass Updates
+3. Battle Pass Changes
+4. New Announcer Added
+5. Identity Level Cap Increase
+6. New Luxcavation Added
+7. Season 4 Extractions
+8. Season 4 Dispenser
+9. UI/UX Renewal & Overhauls
+10. Mirror Dungeon #4 Preview
+
+1/10
+
+PROJECT MOON
+1. Season 3 Egoshard Carryover
+
+Guide on Season Changes - Egoshards
+
+- When a new Season begins, half of the previous Season’s Egoshards will be carried over (and rounded up).
+- The carryover rates for unconverted Egoshards from multiple seasons past will be halved for each following Season.
+- The remaining Egoshards are converted into Thread.
+  - Egoshard Crates (both random and nominable) will be carried over in the same way.
+
+As per the information above, half of the currencies listed below will be converted to Season 4’s.
+  - Season 3 [Sinner]'s Egoshards
+  - Season 3 Egoshard Crate
+  - Season 3 Nominable Egoshard Crate
+
+A New Season Sautners In
+
+Season 4: Clear All Eathy
+Half of the Egoshards you own will be carried over into the new Season.
+
+Season 3                           Season 4
+5              3                   5              3
+10             5                   10             5
+15             8                   15             8
+20             10                  20             10
+30             15                  30             15
+40             20                  40             20
+50             25                  50             25
+60             30                  60             30
+75             38                  75             38
+80             40                  80             40
+100            50                  100            50
+150            75                  150            75
+200            100                 200            100
+300            150                 300            150
+400            200                 400            200
+
+Confirm
+V
+
+The carryover of currencies to Season 4 will automatically occur the first time you log into the game during Season 4. A popup will show how much Season 3 Egoshard relevant currency you owned, and how they have been converted.
+
+※ Season 3 Identity Egoshard currencies that are still in the Mailbox or in the Lost & Found will be carried over when are claimed.
+
+Carryover to Season 4 currency will occur as soon as they are claimed, and currencies that were not carried over will be converted to Threads.
+
+2/10
+
+PROJECT MOON
+2. Gradual Main Story & Battle Pass Updates
+
+Chapter 6 of the main story and the
+Season 4 Pass will be updated in 3 parts.
+
+> 3/28
+- Main Story Ch. 6 (Part 1)
+- Season 4 Pass Rewards (Lv. 1 ~ Lv. 20)
+
+> 4/4
+- Main Story Ch. 6 (Part 2)
+- Season 4 Pass Rewards (Lv. 21 ~ Lv. 40)
+
+> 4/11
+- Main Story Ch. 6 (Part 3)
+- Season 4 Pass Rewards (Lv. 41 ~ Lv. 120 (Max Pass Level))
+- Season 4 Pass Max Pass Level+ Rewards
+
+Accumulated Pass Levels are tracked regardless of the
+gradual updates. When the subsequent updates unlock the
+rewards for higher levels, you can immediately claim
+them up to your tracked Pass Level.
+
+Max Pass Level rewards earned for leveling up the Pass past max
+Pass level are also kept track of even when they aren’t unlocked,
+and you can claim the accumulated rewards of Season 4 Nominable
+Egoshard Crates immediately once they are made available.
+
+Chapter 6 stage progression rewards and Max Pass Level rewards
+will become available to claim on the April 11th update,
+when (Part 3) of this chapter is added.
+
+3/10
+
+PROJECT MOON
+3. Battle Pass Changes
+
+Battle Pass purchase method and price will be changed as follows.
+- Before : Can be purchased with 15,000 KRW
+  (Or 10.99 USD / 1,500 JPY)
+- After : Can be purchased with 1,300 Paid Lunacy
+
+Battle Pass Package price will remain unchanged.
+- Price : 2,700 Paid Lunacy
+
+If you have already purchased the Battle Pass, 
+the Battle Pass Package price will be adjusted as follows.
+- Price : 2,700 Paid Lunacy → 1,700 Paid Lunacy
+
+If you are looking to purchase both the Battle Pass and the 
+Battle Pass Package, please note that purchasing the Battle Pass 
+Package first for both the Pass and Package contents
+is more cost-effective than purchasing them separately.
+
+4. New Announcer Added
+
+A new Announcer will be added to a 
+new tab on the Dispenser: [Standard Fare - Announcers]
+
+※ 'Yuri Announcer', currently in the Dispenser’s
+[Season 3 - Announcer] tab, will be moved to the
+[Standard Fare - Announcers] tab.
+
+4/10
+
+PROJECT MOON
+5. Identity Level Cap Increase
+
+If you have cleared the Main Story Chapter 5, the max level of Identities will be increased from 40 to 45 with the Season 4 Update.
+
+Please note that the Identity Levels for managers who haven’t yet cleared Chapter 5 will be capped at Level 40 until Chapter 5 is cleared, even after Season 4 is updated.
+Clear Chapter 5 to expand the Level cap to 45.
+
+6. EXP Luxcavation #6 Added
+
+Clearing a certain stage in Chapter 6 (Part 3\) will unlock EXP Luxcavation #6.
+
+5/10
+
+PROJECT MOON
+7. Season 4 Extractions
+
+Guide on Season Changes - Extractions
+- The new Season’s Identities and E.G.O will be added to the list of Extractable items.
+- Identities & E.G.O from previous Seasons remain in the pool and are obtainable via Extractions.
+- However, Identities and Events and E.G.O cannot be obtained.
+
+Season 2                        Season 3                        Season 4
+Remains                 [Standard Fare]             [Standard Fare]             [Standard Fare]
+Extractable             [Season 1]                       [Season 1~2]                   [Season 1~3]
+                                Event IDs &                              Event IDs &                              Event IDs & 
+                                E.G.O from the                           E.G.O from the                           E.G.O from the
+                                immediately                             immediately                             immediately 
+                                preceding                                   preceding                                    preceding 
+                                Season                                        Season                                        Season
+                                removed                                    removed                                    removed
+                                [Season 1 Event]                   [Season 2 Event]                 [Season 3 Event]
+                                IDs & E.G.O                              IDs & E.G.O                              IDs & E.G.O
+                                added during                           added during                           added during
+                                the ongoing                             the ongoing                             the ongoing 
+                                Season                                       Season                                       Season
+                                [Season 2]                                  [Season 3]                                  [Season 4]
+                                [Season 2 Event]                         [Season 3 Event]                          [Season 4 Event]
+                                All                                            All                                            All
+                                Extractables                              Extractables                              Extractables
+                                [Standard]                                  [Standard]                                   [Standard]
+                                [Season 1]                                  [Season 1~2]                               [Season 1~3]
+                                [Season 2]                                  [Season 3]                                   [Season 4]
+                                [Season 2 Event]                         [Season 3 Event]                          [Season 4 Event]
+
+As shown in the image above, the following identities and E.G.O will be removed from all Extractable item lists with the start of Season 4 (Excluding [Season 3] - Assured Extraction: 3★ Identity Banners)
+
+▶ [Season 3 Event] Identities · E.G.O
+HE
+Holiday Outis
+
+3★                                         2★
+Blade Lineage Mentor Meursault          Kurokumo Clan Captain Gregor
+Blade Lineage Salsu Faust 
+※ [Season 3] Assured Extraction: 3★ Identity] banner is based on the list of Identities from Season 3, so you will still be able to acquire Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust, and Kurokumo Clan Captain Gregor from it.
+
+6/10
+
+PROJECT MOON
+8. Season 4 Dispenser
+
+Guide on Season Changes - Dispenser
+- Identities and E.G.O from the new Season will be available at the Dispenser.
+- You will be able to exchange for Identities and E.G.O from the past Seasons’ Battle Passes.
+- Please note that Extraction Identities & E.G.O belonging to the Season immediately before the new Season will be inaccessible from the Dispenser.
+
+Dispensable List
+Remains Dispensable
+[Standard Fare]
+[Season 2]            [Season 3]          [Season 4]
+[Season 2 Event]      [Season 3 Event]    [Season 4 Event]
+
+New Season IDs & E.G.O Added
+[Season 2]            [Season 3]          [Season 4]
+
+Previous Season Pass E.G.O Added
+[Season 1 Pass] -     [Season 1+2 Pass] - [Season 1+3 Pass] - 
+E.G.O                 E.G.O               E.G.O
+
+Previous Season IDs & E.G.O Removed
+[Season 1]            [Season 2]          [Season 3]
+[Season 1 Event]      [Season 2 Event]    [Season 3 Event]
+
+IDs & E.G.O from 2+ Seasons Past Added
+[Standard Fare]
+[Season 2]            [Season 3]
+[Season 1 Pass]       [Season 1]                  [Season 1+2]      
+E.G.O                 [Season 1 Event]            [Season 1+2 Event]  
+                                          [Season 3 Pass] - 
+                                          E.G.O
+
+As shown in the image above, the following Identities and E.G.O will be removed from the Dispenser catalog with the start of Season 4.
+
+[Season 3] Identities & E.G.O
+WAW
+Garden of Thorns Gregor
+
+3★
+The Middle Little Sister Don Quixote
+The Pequod Harpooneer Heathcliff
+The Pequod Captain Ishmael
+Twinhook Pirates First Mate Gregor
+
+2★
+The Pequod First Mate Yi Sang
+LCCB Assistant Manager Ryōshū
+The Middle Little Brother Meursault
+
+[Season 3 Event] Identities & E.G.O
+HE
+Holiday Outis
+
+3★
+Blade Lineage Mentor Meursault
+Blade Lineage Salsu Faust
+
+2★
+Kurokumo Clan Captain Gregor
+
+7/10
+
+PROJECT MOON
+8. Season 4 Dispenser
+
+Also, the following Identities & E.G.O will be added to the catalog.
+
+[Season 3 Pass] E.G.O
+
+WAW                                   HE                                      TETH
+Blind                                     Effervescent                         Effervescent
+Obsession Ishmael          Corrosion Hong Lu                  Corrosion Rodion
+9:2 Sinclair
+
+[Season 2] Identities
+
+3☆                                      2☆
+Effloresced E.G.O::        Rosespanner 
+Spicebush - Yi Sang         Workshop Fixer Meursault
+K Corp. Class 3              Lobotomy E.G.O::
+Excision Staff Hong Lu    Sloshing - Ishmael
+Lobotomy E.G.O::             Lobotomy E.G.O::
+Sunshower Heathcliff        Red Sheet - Sinclair
+Rosespanner                   Rosespanner
+Workshop Rep. Rodion     Workshop Fixer Gregor
+
+[Season 2 Event] Identities & E.G.O
+
+TETH                                   ZAYIN
+Soda Hong Lu                      Soda Ryōshū
+
+3☆                                      2☆
+Molar Boatworks Fixer Ishmael
+Molar Office Fixer Outis                Molar Boatworks Fixer Sinclair
+                                                    Molar Office Fixer Yi Sang
+
+8/10
+
+PROJECT MOON
+9. UI/UX Renewal & Overhauls
+
+(1) Packs Shop Renewal
+
+The Packs Shop design will be fully overhauled.
+
+(2) Battle Pass UI Rework
+
+The in-game UI will be adjusted accordingly to the Battle Pass purchase changes (Purchasable by cash → Purchasable by Paid Lunacy)
+
+Season 4 Battle Pass end date will be adjusted to ’Until Season 5 Update’. However, a [Guarantee that the Battle Pass will last at least 90 days from the start of the Season] has been added to the description.
+
+(3) Extraction Cutscene Re-visit function added
+Long-press the Identity Illustration in the Window UI to re-watch the Extraction cutscene.
+
+(4) Navigation shortcut to character growth materials added
+Navigation shortcuts have been added to the tooltips for each character growth materials (Training Tickets, Threads, etc.)
+
+(5) Stage Info Popup window renewed
+Effective Damage Types & Affinities are added to Combat Stage Info Popup Windows. The following elements will be re-arranged: Stage Titles, Recommended Level, EX Objectives, and Enemy Info. Stage Summaries will be deleted.
+
+(6) Banners & Ticket Deco UI/UX Overhauled
+Similar Banners & Ticket Deco will now be consolidated into categories. Multiple of the same Banners will now be equippable.
+
+9/10
+
+PROJECT MOON
+10. Mirror Dungeon #4 Preview
+
+Mirror Dungeon #4 will be added during Season 4.
+
+With the Mirror Dungeon #4 Update, the preexisting Mirror Dungeon #3 [Mirror of the Lake] will be closed.
+※ Please note that Starlight accumulated from Mirror Dungeon #3 will be reset for Mirror Dungeon #4.
+
+The core system of Mirror Dungeon #4 is that the managers will be able to build their own Mirror Dungeons via floor-based theme selections. We will inform you further with a notice dedicated to Mirror Dungeon #4 in the future.
+
+※ The above image is taken from a version still in mid-development and is bound to change with the official release.
+
+10/10
+
+PROJECT MOON
+

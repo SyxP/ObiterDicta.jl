@@ -1,0 +1,150 @@
+
+
+
+
+
+
+March 21st Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Mar. 21st, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost. Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Oufi Association South Section 3 Heathcliff] (Mar. 21st 12:00 ~ Apr. 4th 10:00 (KST))
+Extraction rate increases for the following identity.
+- 3★ : Oufi Association South Section 3 Heathcliff
+
+2. Target Extraction [Target Extraction: Don Quixote] (Mar. 21st 12:00 ~ Apr. 4th 10:00 (KST))
+The following Identities and E.G.O
+will have increased odds of extraction.
+- E.G.O [HE] : Telepole Don Quixote
+- E.G.O [TETH] : Wishing Cairn Don Quixote
+- 3★ : The Middle Little Sister Don Quixote, Cinq South Section 5 Director Don Quixote, W Corp. L3 Cleanup Agent Don Quixote
+- 2★ : N Corp. Mittelhammer Don Quixote, Shi South Section 5 Director Don Quixote
+- 1★ : LCB Sinner Don Quixote
+
+3. New Identity Added
+The following Identity is added to the list of extractable Identities.
+- 3★ : Oufi Association South Section 3 Heathcliff
+
+1/6
+
+PROJECT MOON
+Major Changes
+
+1. Chapter 5.5 - [Yield My Flesh to Claim Their Bones] Event Closure
+   Chapter 5.5 [Yield My Flesh to Claim Their Bones] will end on Mar. 21st at 10:00 (KST).
+   Event currency cannot be obtained after the Mar. 21st Scheduled Update.
+   Please note that Event Reward Exchange is open until Mar. 28th, 10:00 (KST), so please make sure to claim your rewards before then.
+   Even after the event fully ends, you will be able to experience the Event combat Encounters and view its story anytime at the 
+   Driverside and Theater - [Detour Tales].
+
+2. Mirror Dungeon Normal Difficulty Changes
+   We have adjusted Mirror Dungeon Normal Difficulty so that even after the [Yield My Flesh to Claim Their Bones] event closes,
+   the Shop and Rest Stop nodes will continue to appear immediately before the final boss of the final floor.
+
+3. Damage number visibility improved
+   Now, each damage number will be accompanied by an icon indicating which Part the damage was dealt on.
+
+4. Function to immediately move to the Inbox popup window from the Lunacy & Packs purchase confirmation window added
+   A function to immediately open the Inbox upon purchasing Lunacy or Packs has been added.
+
+2/6
+
+PROJECT MOON
+Major Changes
+
+5. Account Unlinking Function Added
+We have added a function to unlink accounts so that changes may be made to the linked accounts. Please refer to the below Steam Announcement for more information.
+- [Posted Feb. 26th] Notice: Change Linked Accounts Function
+
+<How to Unlink Accounts>
+(1) [Settings] - [Accounts] - [Unlink Account] option will be activated when 2 or more of the following accounts are linked: Steam, Apple, or Google.
+
+(2) Select the account you wish to unlink.
+
+(3) Confirm that it is the account you wish to unlink, then input the text visible on the screen.
+
+3/6
+
+PROJECT MOON
+Major Changes
+
+(4) You will be returned to the Title Screen once account unlinking is complete.
+
+Account Unlinked
+[Date and time will be entered here]
+Account unlinking complete. Returning to the title screen.
+[Confirm]
+
+(5) You will not be able to use the unlinking function for 180 days after the day you use the unlinking function.
+Please note that the wait period between each unlinking is shared across all platforms.
+
+(ex.) For an account linked to Steam, Apple, and Google, unlinking a Google account on Steam will prevent one from unlinking a Steam account on Apple for 180 days, and vice versa.
+
+Select Account to Unlink
+Current Account
+Steam: [...]
+Linked Accounts
+Google: [...]
+Can be unlinked after 2022.04.19.11:21 (KST).
+[Cancel] [Confirm]
+
+4/6
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the Blade Lineage Mentor Meursault's 'Yield My Flesh' Skill did not prevent him from getting staggered by Tremor Burst or raised Stagger thresholds
+
+▶ Fixed an issue where Blade Lineage Mentor Meursault's Passive 'Swordplay of the Homeland' allowed him to survive the insta-death 'Karma' debuff from 'My Form Empties' Abnormality boss
+
+▶ Fixed an issue in Focused Encounters where certain inputs would reduce the enemy's Attack Weight
+
+▶ Fixed an issue where Kurokumo Clan Captain Jun's 'Rules of the Backstreets' Skill caused allies to heal HP instead of SP On Kill
+
+▶ Fixed an issue where, after viewing a popup window from the Inbox popup window, clicking outside the window did not close the said popup window
+
+▶ Fixed an issue where touching certain unoccupied areas in the Extraction or Dispenser UI caused it to not scroll properly
+
+▶ Fixed an issue where 'Physical Training', a Starter Buff for the [Mirror of the Lake], worked as 'Damage Taken +30%' instead of 'Damage Taken -3%' as it is written
+
+▶ Fixed an issue where a Team Loadout title named in certain circumstances lingers when editing Team Loadout in the Sinners Window
+
+▶ Fixed an issue where Liu South Section 4 Director Rodion's Uptie 3 -> Uptie 4 changes UI showed the Defense Skill in the list
+
+▶ Fixed an issue where, in the Story Dungeon clear results screen, level-ups for Identities that gained levels did not appear properly
+
+5/6
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 06:00 Mar. 28th, 2024 (KST)
+- When: After Mar. 21st, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Mar. 28th (Thu) 2024, 06:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+6/6
+
+PROJECT MOON
+

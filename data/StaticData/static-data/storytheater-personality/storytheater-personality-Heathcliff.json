@@ -104,6 +104,21 @@
               ],
             "profileId": "qui_heathcliff_profile",
             "analysisId": "qui_heathcliff_analysis"
+            },
+            {
+              "personalityId": 10708,
+              "releaseDay": 20240321,
+              "cv_Id": "",
+              "personalityStoryList": [
+                {
+                  "storyId": "P10708",
+                  "lockCondition": "gacksung",
+                  "order": 1,
+                  "reward":{"type":"ITEM","id":2,"num":40}
+                }
+              ],
+            "profileId": "oufi_heathcliff_profile",
+            "analysisId": "oufi_heathcliff_analysis"
             }
         ]
     }

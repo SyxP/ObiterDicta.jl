@@ -2300,6 +2300,30 @@
       ]
     },
     {
+      "id": 1070801,
+      "attributeStockCondition": [
+        {
+          "type": "INDIGO",
+          "value": 4
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 1070821,
+      "attributeStockCondition": [
+        {
+          "type": "INDIGO",
+          "value": 6
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ]
+    },
+    {
       "id": 90001
     },
     {

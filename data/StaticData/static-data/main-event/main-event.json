@@ -1,21 +1,6 @@
 {
   "list": [
     {
-      "eventId": "Limbus1stAnniv0227",
-      "mainUIPhaseTypeList": [
-        "Lobby"
-      ],
-      "isBannerVisible": false
-    },
-    {
-      "eventId": "Limbus1stAnnivAttendance",
-      "mainUIPhaseTypeList": [
-        "Lobby"
-      ],
-      "bannerSpriteId": "banner_Limbus1stAnniversaryAttendance",
-      "isBannerVisible": true
-    },
-    {
       "eventId": "YCGD",
       "mainUIPhaseTypeList": [
         "Lobby",

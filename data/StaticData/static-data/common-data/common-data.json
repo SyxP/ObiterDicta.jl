@@ -578,17 +578,33 @@
   },
   "enkephalinPriceTable": {
     "priceTable": [
-      26,52,78,104,130,156,182,208,234,260
+      26,
+      52,
+      78,
+      104,
+      130,
+      156,
+      182,
+      208,
+      234,
+      260
     ],
     "paymentCurrencies": [ 2, 1 ],
     "dailyPurchaseChanceId": 9999
   },
-  "enkephalinForAModule":20,
+  "enkephalinForAModule": 20,
   "exchangeValues": {
     "PERSONALITY": [ 3, 15, 50 ],
     "EGO": [ 50, 50, 50, 50, 50 ],
     "ANNOUNCER": 50,
     "announcerExchangeItemId": 401
   },
-  "friendSupportPersonalityMaxCount" : 12
+  "friendSupportPersonalityMaxCount": 12,
+  "unlinkDuration": 180,
+  "maxlevelbystoryprogress": [
+    {
+      "unlockcode": 100,
+      "maxlevel": 40
+    }
+  ]
 }

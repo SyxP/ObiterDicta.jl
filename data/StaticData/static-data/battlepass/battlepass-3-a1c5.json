@@ -2626,7 +2626,8 @@
         ]
       },
       "uiConfigs": {
-        "bannerId": "banner_battlepass_season3"
+        "bannerId": "banner_battlepass_season3",
+        "isExcludeLangOption" : true
       }
     }
   ]

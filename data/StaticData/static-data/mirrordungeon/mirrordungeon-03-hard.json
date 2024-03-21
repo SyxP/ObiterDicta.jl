@@ -8,12 +8,6 @@
       "startBuffCoefficient": 1.25,
       "startBuffAcquireChipMultiplyer": 1,
       "startMaxPersonalityNumber": 12,
-      "isShopExistForFloor": [
-        false,
-        true,
-        true,
-        true
-      ],
       "eventPoolOfEgoGifTierInFloor": [
         { "list": [ 1, 1 ] },
         { "list": [ 1, 1, 1 ] },
@@ -1097,7 +1091,6 @@
         {
           "count": 4,
           "roomCount": 3,
-          "bossRoomCount": 2,
           "sectorCount": 9,
           "hardBattlePercentage": 0.12,
           "abnormalityBattlePercentage": 0.18,

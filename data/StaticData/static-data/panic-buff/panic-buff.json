@@ -1,8 +1,8 @@
 {
   "list": [
     {
-      "panicID": 1003,
-      "lowMorale": {
+      "id": "OVERWHELM",
+      "buffA": {
         "id": "Overwhelm_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -22,7 +22,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Overwhelm_Panic",
         "stack": 1,
         "turn": 0,
@@ -37,8 +37,8 @@
       }
     },
     {
-      "panicID": 1004,
-      "lowMorale": {
+      "id": "DAUNTED",
+      "buffA": {
         "id": "Daunted_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -58,7 +58,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Daunted_Panic",
         "stack": 1,
         "turn": 0,
@@ -80,8 +80,8 @@
       }
     },
     {
-      "panicID": 1005,
-      "lowMorale": {
+      "id": "ANGER",
+      "buffA": {
         "id": "Anger_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -111,7 +111,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Anger_Panic",
         "stack": 1,
         "turn": 0,
@@ -143,8 +143,8 @@
       }
     },
     {
-      "panicID": 1006,
-      "lowMorale": {
+      "id": "RUN",
+      "buffA": {
         "id": "Run_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -157,7 +157,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Run_Panic",
         "stack": 1,
         "turn": 0,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "panicID": 1008,
-      "lowMorale": {
+      "id": "CRAZY",
+      "buffA": {
         "id": "Crazy_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -186,7 +186,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Crazy_Panic",
         "stack": 1,
         "turn": 0,
@@ -201,8 +201,8 @@
       }
     },
     {
-      "panicID": 1009,
-      "lowMorale": {
+      "id": "SUICIDE",
+      "buffA": {
         "id": "Suicide_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -215,7 +215,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Suicide_Panic",
         "stack": 3,
         "turn": 0,
@@ -230,8 +230,8 @@
       }
     },
     {
-      "panicID": 1010,
-      "lowMorale": {
+      "id": "PROWL",
+      "buffA": {
         "id": "Prowl_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -244,7 +244,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Prowl_Panic",
         "stack": 3,
         "turn": 0,
@@ -259,8 +259,8 @@
       }
     },
     {
-      "panicID": 1011,
-      "lowMorale": {
+      "id": "FRAGILE_MIND",
+      "buffA": {
         "id": "Fragile_Mind_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -293,7 +293,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Fragile_Mind_Panic",
         "stack": 1,
         "turn": 0,
@@ -308,8 +308,8 @@
       }
     },
     {
-      "panicID": 1012,
-      "lowMorale": {
+      "id": "BLUE",
+      "buffA": {
         "id": "Blue_LowMorale",
         "iconId": "Anger_LowMorale",
         "stack": 1,
@@ -323,7 +323,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "Blue_Panic",
         "iconId": "Anger_Panic",
         "stack": 1,
@@ -339,8 +339,8 @@
       }
     },
     {
-      "panicID": 1013,
-      "lowMorale": {
+      "id": "IMPURITY",
+      "buffA": {
         "id": "AaCePbBc",
         "stack": 1,
         "turn": 0,
@@ -364,7 +364,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "AaCePbBd",
         "stack": 1,
         "turn": 0,
@@ -390,8 +390,8 @@
       }
     },
     {
-      "panicID": 1014,
-      "lowMorale": {
+      "id": "REVENGE",
+      "buffA": {
         "id": "AaCePbBe",
         "stack": 1,
         "turn": 0,
@@ -432,7 +432,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "AaCePbBf",
         "stack": 1,
         "turn": 0,
@@ -475,8 +475,8 @@
       }
     },
     {
-      "panicID": 1015,
-      "lowMorale": {
+      "id": "WHITE_PANIC",
+      "buffA": {
         "id": "AaCePcBe",
         "stack": 1,
         "turn": 0,
@@ -491,7 +491,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "AaCePcBf",
         "stack": 1,
         "turn": 0,
@@ -517,8 +517,8 @@
       }
     },
     {
-      "panicID": 1016,
-      "lowMorale": {
+      "id": "RANCOR",
+      "buffA": {
         "id": "AaCePbBg",
         "stack": 1,
         "turn": 0,
@@ -548,7 +548,7 @@
           }
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "AaCePbBh",
         "stack": 1,
         "turn": 0,
@@ -580,8 +580,8 @@
       }
     },
     {
-      "panicID": 9998,
-      "lowMorale": {
+      "id": "NONE_MP",
+      "buffA": {
         "id": "NoneMp_LowMorale",
         "stack": 1,
         "turn": 0,
@@ -591,7 +591,7 @@
         "list": [
         ]
       },
-      "panic": {
+      "buffB": {
         "id": "NoneMp_Panic",
         "stack": 1,
         "turn": 0,

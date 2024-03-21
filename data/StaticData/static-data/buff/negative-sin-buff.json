@@ -69,6 +69,25 @@
         }
       ],
       "categoryKeywordList": [ "SIN", "SINKING" ]
+    },
+    {
+      "id": "Vibration_Collapse",
+      "subIdList": [ "Vibration" ],
+      "buffClass": "SinBuff",
+      "attributeType": "AMBER",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "LoseTurnOnRoundEnd",
+          "value": 1
+        },
+        {
+          "ability": "DefAdderByStackCeilToInt",
+          "value": -0.25
+        }
+      ],
+      "categoryKeywordList": [ "SIN", "VIBRATION" ]
     }
   ]
 }

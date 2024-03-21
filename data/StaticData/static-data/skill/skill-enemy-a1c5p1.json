@@ -1693,11 +1693,9 @@
                 "activeRound": 0
               }
             },
-            [
-              {
-                "scriptName": "EmptyBody"
-              }
-            ]
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {

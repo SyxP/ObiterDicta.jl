@@ -19,6 +19,14 @@
     {
       "id": "Limbus1stAnnivAttendance",
       "priority": 4
+    },
+    {
+      "id": "PersonalityLevelLimitRelease",
+      "priority": 6
+    },
+    {
+      "id": "Membership_Remain_7days_Alarm",
+      "priority": 99
     }
   ]
 }

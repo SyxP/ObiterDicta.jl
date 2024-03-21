@@ -33,7 +33,6 @@
           "isConditionExist": false
         }
       },
-      "isShopExistForFloor": [ true ],
       "restingEvent": {
         "heal": [
           {

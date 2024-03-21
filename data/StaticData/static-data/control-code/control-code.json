@@ -40,5 +40,7 @@
   "isAllowToRedefineEgoIndex": true,
   "isAllowToSendUUID": true,
   "isLoadEgoGiftFromMirrorDungeonFirst": true,
-  "packageShopOrder": []
+  "packageShopOrder": [],
+  "isActiveUnlinkAccount": true,
+  "isHideOpenMailPopup" :  true
 }

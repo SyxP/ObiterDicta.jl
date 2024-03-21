@@ -708,6 +708,20 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10708_gacksung",
+            "offsetX": -233.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10708_normal",
+            "offsetX": 159.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10801_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,

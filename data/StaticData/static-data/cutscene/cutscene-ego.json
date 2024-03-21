@@ -1332,21 +1332,22 @@
       "pivotList": [
         {
           "cutsceneType": "EGO_AWAKEN",
-          "offsetX": 0,
-          "offsetY": 0.09,
+          "offsetX": 0.05,
+          "offsetY": 0.08,
 
-          "offsetStartX": 0.21,
+          "offsetStartX": -0.19,
+          "offsetStartY": -0.14,
 
           "closeUp": 0.66
         },
         {
           "cutsceneType": "EGO_EROSION",
-          "offsetX": -0.25,
-          "offsetY": -0.11,
+          "offsetX": 0.04,
+          "offsetY": 0.25,
 
-          "offsetStartY": 0.17,
+          "offsetStartY": -0.17,
 
-          "closeUp": 0.66
+          "closeUp": 0.53
 
         }
       ]

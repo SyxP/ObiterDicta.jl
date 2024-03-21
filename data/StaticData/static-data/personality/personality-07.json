@@ -4,9 +4,9 @@
       "id": 10701,
       "appearance": "10701_Heathclif_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
-            ],
-            "associationList": [ "LIMBUS_COMPANY" ],
+        "BASE_APPEARANCE"
+      ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -711,6 +711,103 @@
         },
         {
           "skillId": 1070703,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10708,
+      "appearance": "10708_Heathcliff_OufiAppearance",
+      "associationList": [ "OUFI" ],
+      "characterId": 7,
+      "panicType": 9999,
+      "defenseSkillIDList": [
+        1070804
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 79,
+        "incrementByLevel": 2.73
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1070801,
+          "number": 3
+        },
+        {
+          "skillId": 1070802,
+          "number": 2
+        },
+        {
+          "skillId": 1070803,
           "number": 1
         }
       ]

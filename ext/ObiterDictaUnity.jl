@@ -39,6 +39,8 @@ module ObiterDictaUnity
         if !(URL == "" || URL == Latest)
             ObiterDicta.appendNewCatalogS1Version(URL)
         end
+
+        ObiterDicta.downloadLatestCatalogS1()
         
         ObiterDicta.updateAll()
         sleep(2)

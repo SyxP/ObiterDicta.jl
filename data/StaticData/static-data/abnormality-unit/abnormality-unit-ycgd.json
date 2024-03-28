@@ -73,7 +73,8 @@
       ],
       "passiveSet": {
         "passiveIdList": [
-          815301
+          815301,
+          9999998
         ]
       },
       "patternList": [
@@ -496,7 +497,8 @@
         "passiveIdList": [
           815301,
           815402,
-          815403
+          815403,
+          9999998
         ]
       },
       "patternList": [

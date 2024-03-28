@@ -99,20 +99,18 @@
             "buff-enemy-a1c951",
             "buff-enemy-MR3",
             "buff-enemy-ycgd",
+            "buff-enemy-a1c6p1",
             "special-buff"
           ]
         },
         {
             "dataClass": "panic-buff",
             "fileList": [
-                "panic-buff"
-            ]
-        },
-        {
-            "dataClass": "mirror-dungeon-floor-buff",
-            "fileList": [
-                "mirror-dungeon-floor-buff"
-            ]
+              "panic-buff",
+              "panic-buff-a1c6p1",
+              "panic-overwrite-buff"
+
+          ]
         },
         {
             "dataClass": "rail-Line2-buff",
@@ -124,7 +122,7 @@
         {
             "dataClass": "part",
             "fileList": [
-                "part-a1c5p3"
+                "part-a1c6p1"
             ]
         },
         {
@@ -190,7 +188,8 @@
             "enemy-mirrordungeon3",
             "enemy-a1c951",
             "enemy-event1",
-            "enemy-ycgd"
+            "enemy-ycgd",
+            "enemy-a1c6p1"
           ]
         },
         {
@@ -202,6 +201,7 @@
                 "gacha-4",
                 "gacha-5",
                 "gacha-6",
+                "gacha-7",
                 "gacha-153",
                 "gacha-154",
                 "gacha-155",
@@ -213,7 +213,8 @@
 				"gacha-161",
 				"gacha-162",
 				"gacha-163",
-				"gacha-164"
+				"gacha-164",
+				"gacha-165"
             ]
         },
         {
@@ -230,7 +231,11 @@
                 "item-1200-season-optionalpackage-a1c5",
                 "item-piece",
                 "item-piece-a1c5",
-                "item-20000-event"
+                "item-20000-event",
+                "item-piece-a1c6",
+                "item-1100-season-randompackage-a1c6",
+                "item-1200-season-optionalpackage-a1c6",
+                "item-100-gacha-a1c6"
             ]
         },
         {
@@ -244,6 +249,7 @@
             "passive-enemy-a1c5p2",
             "passive-enemy-a1c5p3",
             "passive-enemy-a1c951",
+            "passive-enemy-a1c6p1",
             "passive-enemy-event1",
             "passive-enemy-refraction3",
             "passive-enemy-ycgd"
@@ -331,7 +337,8 @@
             "skill-enemy-a1c951",
             "skill-abnormality-event1",
             "skill-enemy-ycgd",
-            "skill-abnormality-ycgd"
+            "skill-abnormality-ycgd",
+            "skill-enemy-a1c6p1"
           ]
         },
         {
@@ -350,7 +357,8 @@
             "storybattle-a1c5p3",
             "storybattle-a1c951",
             "storybattle-event1",
-            "storybattle-ycgd"
+            "storybattle-ycgd",
+            "storybattle-a1c6p1"
           ]
         },
         {
@@ -411,13 +419,15 @@
                 "stagenodereward-a1c5p3",
                 "stagenodereward91-5",
                 "stagenodereward91-6",
-                "stagenodereward91-7"
+                "stagenodereward91-7",
+                "stagenodereward-a1c6p1"
             ]
         },
         {
             "dataClass": "story",
             "fileList": [
-                "story"
+                "story",
+                "story-a1c6p1"
             ]
         },
         {
@@ -441,7 +451,8 @@
                 "vending-machine-1",
                 "vending-machine-2",
                 "vending-machine-3",
-                "vending-machine-91"
+                "vending-machine-91",
+                "vending-machine-4-a1c6"
             ]
         },
         {
@@ -472,6 +483,18 @@
             "dataClass": "ig-product",
             "fileList": [
                 "ingame-package"
+            ]
+        },
+        {
+          "dataClass": "paidshop-ui",
+          "fileList": [
+            "paidshop-ui"
+          ]
+        },
+        {
+            "dataClass": "return-policy-table",
+            "fileList": [
+              "return-policy-table"
             ]
         },
         {
@@ -519,7 +542,8 @@
             "fileList": [
                 "battlepass",
                 "battlepass-2",
-                "battlepass-3-a1c5"
+                "battlepass-3-a1c5",
+                "battlepass-4-a1c6p1"
             ]
         },
         {
@@ -530,7 +554,8 @@
                 "storytheater-main-102",
                 "storytheater-main-103",
                 "storytheater-main-104",
-                "storytheater-main-a1c5p3"
+                "storytheater-main-a1c5p3",
+                "storytheater-main-a1c6p3"
             ]
         },
         {
@@ -592,7 +617,8 @@
                 "announcer-a1c5p1",
                 "announcer-a1c5p3",
                 "announcer-event1",
-                "announcer-ycgd"
+                "announcer-ycgd",
+                "announcer-a1c6p1"
             ]
         },
         {
@@ -631,7 +657,8 @@
         {
           "dataClass": "userbanner",
           "fileList": [
-            "userbanner"
+            "userbanner",
+            "userbanner-a1c6p1"
           ]
         },
         {
@@ -643,19 +670,22 @@
         {
             "dataClass": "userticket-l",
             "fileList": [
-                "userticket-l"
+                "userticket-l",
+                "userticket-l-a1c6p1"
             ]
         },
         {
             "dataClass": "userticket-r",
             "fileList": [
-                "userticket-r"
+                "userticket-r",
+                "userticket-r-a1c6p1"
             ]
         },
         {
             "dataClass": "userticket-egobg",
             "fileList": [
-                "userticket-ego-bg"
+                "userticket-ego-bg",
+                "userticket-ego-bg-a1c6p1"
             ]
         },
         {
@@ -719,7 +749,8 @@
             "fileList": [
                 "season-1",
                 "season-2",
-                "season-3"
+                "season-3",
+                "season-4-a1c6"
             ]
         },
         {
@@ -732,7 +763,8 @@
             "dataClass": "stage-progress-reward",
             "fileList": [
                 "stage-progress-reward",
-                "stage-progress-reward-a1c5p3"
+                "stage-progress-reward-a1c5p3",
+                "stage-progress-reward-a1c6p1"
             ]
         },
         {
@@ -905,7 +937,8 @@
             "dataClass": "subchapter-detail",
             "fileList": [
                 "subchapter-detail",
-                "subchapter-detail-a1c5p3"
+                "subchapter-detail-a1c5p3",
+                "subchapter-detail-a1c6p1"
             ]
         },
         {
@@ -930,7 +963,8 @@
             "dataClass": "main-stage-map-setting",
             "fileList": [
                 "main-stage-map-setting",
-                "main-stage-map-setting-a1c5p1"
+                "main-stage-map-setting-a1c5p1",
+                "main-stage-map-setting-a1c6p1"
             ]
         },
         {
@@ -997,7 +1031,8 @@
         {
             "dataClass": "ego-empty",
             "fileList": [
-                "ego-empty"
+                "ego-empty",
+                "ego-empty-a1c6p1"
             ]
         },
         {

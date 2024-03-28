@@ -119,7 +119,22 @@
          ],
          "profileId": "blade_meursault_profile",
          "analysisId": "blade_meursault_analysis"
-       }
+        },
+        {
+         "personalityId": 10509,
+         "releaseDay": 20240328,
+         "cv_Id": "",
+         "personalityStoryList": [
+           {
+             "storyId": "P10509",
+             "lockCondition": "gacksung",
+             "order": 2,
+             "reward":{"type":"ITEM","id":2,"num":40}
+           }
+         ],
+         "profileId": "deadrabbit_meursault_profile",
+         "analysisId": "deadrabbit_meursault_analysis"
+        }
         ]
     }
   ]

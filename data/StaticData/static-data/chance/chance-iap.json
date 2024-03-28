@@ -93,8 +93,16 @@
       "max": 1,
       "resetTimeType": "SEASONAL"
     },
-
-
+    {
+      "id": 1124,
+      "max": 1,
+      "resetTimeType": "SEASONAL"
+    },
+    {
+      "id": 1125,
+      "max": 1,
+      "resetTimeType": "SEASONAL"
+    },
 
     {
       "id": 1131,

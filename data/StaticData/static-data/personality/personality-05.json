@@ -4,9 +4,9 @@
       "id": 10501,
       "appearance": "10501_Meursault_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
-            ],
-            "associationList": [ "LIMBUS_COMPANY" ],
+        "BASE_APPEARANCE"
+      ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 5,
       "panicType": 9999,
       "season": 0,
@@ -787,6 +787,107 @@
         },
         {
           "skillId": 1050803,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10509,
+      "appearance": "10509_Meursault_DeadrabbitsAppearance",
+      "associationList": [ "DEAD_RABBITS" ],
+      "characterId": 5,
+      "panicType": 9999,
+      "season": 4,
+      "defenseSkillIDList": [
+        1050904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.6
+      },
+      "defCorrection": 2,
+      "minSpeedList": [
+        3,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              },
+              {
+                "conditionID": "OnDieBladeLineageAlly10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1050901,
+          "number": 3
+        },
+        {
+          "skillId": 1050902,
+          "number": 2
+        },
+        {
+          "skillId": 1050903,
           "number": 1
         }
       ]

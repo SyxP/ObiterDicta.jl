@@ -621,6 +621,18 @@
       "condition": "GetPersonality",
       "conditionRefId": 10708,
       "sortingOrder": 1
+    },
+    {
+      "id": 119,
+      "condition": "GetPersonality",
+      "conditionRefId": 11108,
+      "sortingOrder": 1
+    },
+    {
+      "id": 120,
+      "condition": "GetPersonality",
+      "conditionRefId": 10509,
+      "sortingOrder": 1
     }
   ]
 }

@@ -191,6 +191,13 @@
       "needsPersonalityIdList": [
         10708
       ]
+    },
+    {
+      "mirrorWorldId": 23,
+      "needsPersonalityIdList": [
+        11108,
+        10509
+      ]
     }
   ]
 }

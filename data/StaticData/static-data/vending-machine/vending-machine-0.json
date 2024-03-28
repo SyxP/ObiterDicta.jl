@@ -306,6 +306,25 @@
 							"price": 400
 						}
 					]
+				},
+
+
+
+
+				{
+					"groupType": "ANNOUNCER",
+					"contents": [
+						{
+							"type": "ANNOUNCER",
+							"id": 9,
+							"paidLunacyPrice": 1300
+						},
+						{
+							"type": "ANNOUNCER",
+							"id": 15,
+							"paidLunacyPrice": 1300
+						}
+					]
 				}
 			]
 		}

@@ -1,28 +1,19 @@
 {
   "list": [
     {
-      "eventId": "YCGD",
-      "mainUIPhaseTypeList": [
-        "Lobby",
-        "Stage"
-      ],
-      "bannerSpriteId": "banner_YCGD_event",
-      "isBannerVisible": true
-    },
-    {
-      "eventId": "YCGDReward",
-      "mainUIPhaseTypeList": [
-        "Stage"
-      ],
-      "isBannerVisible": true
-    },
-    {
       "eventId": "RailwayDungeonBanner",
       "mainUIPhaseTypeList": [
         "Lobby"
       ],
       "bannerSpriteId": "banner_RailwayLine3",
       "isBannerVisible": true
+    },
+    {
+      "eventId": "RemainMembership",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "isBannerVisible": false
     }
   ]
 }

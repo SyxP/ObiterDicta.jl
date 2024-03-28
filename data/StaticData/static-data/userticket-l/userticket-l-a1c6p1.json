@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "id": 26,
+      "isSecret": true
+    },
+    {
+      "id": 27,
+      "isSecret": true
+    },
+    {
+      "id": 28,
+      "isSecret": true
+    }
+  ]
+}

@@ -99,6 +99,15 @@
       "list": [
 
       ]
+    },
+    {
+      "id": "EchoOfMansion",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
     }
   ]
 }

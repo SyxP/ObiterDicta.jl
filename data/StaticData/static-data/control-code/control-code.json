@@ -42,5 +42,5 @@
   "isLoadEgoGiftFromMirrorDungeonFirst": true,
   "packageShopOrder": [],
   "isActiveUnlinkAccount": true,
-  "isHideOpenMailPopup" :  true
+  "isHideOpenMailPopup" : false
 }

@@ -1,0 +1,72 @@
+{
+  "list": [
+    {
+      "id": "EchoOfMansion",
+      "isPanicBuff": false,
+      "buffA": {
+        "id": "EchoOfMansion_Main",
+        "iconId": "EchoOfMansion",
+        "subIdList": [ "EchoOfMansion" ],
+        "buffClass": "ChangePanicTypeBuff",
+        "buffType": "Negative",
+        "canBeDespelled": true,
+        "list": [
+          {
+            "ability": "EchoOfMansionCommon",
+            "value": 0.5,
+            "buffData": {
+              "buffKeyword": "Sinking",
+              "target": "",
+              "stack": 0,
+              "turn": 1,
+              "activeRound": 0
+            }
+          },
+          {
+            "ability": "EchoOfMansionPanic",
+            "value": 2,
+            "buffData": {
+              "buffKeyword": "EchoOfMansion",
+              "target": "",
+              "stack": 2,
+              "turn": 0,
+              "activeRound": 1
+            }
+          },
+          {
+            "ability": "OverwritePanicType_ACCLAMATION"
+          }
+        ]
+      },
+      "buffB": {
+        "id": "EchoOfMansion_Sub",
+        "iconId": "EchoOfMansion",
+        "subIdList": [ "EchoOfMansion" ],
+        "buffClass": "NonvolatileBuff",
+        "buffType": "Negative",
+        "canBeDespelled": true,
+        "list": [
+          {
+            "ability": "EchoOfMansionCommon",
+            "value": 0.5,
+            "buffData": {
+              "buffKeyword": "Sinking",
+              "target": "",
+              "stack": 0,
+              "turn": 1,
+              "activeRound": 0
+            }
+          },
+          {
+            "ability": "CoinProbAdder",
+            "value": -0.1
+          },
+          {
+            "ability": "LoseStackOnRoundEnd",
+            "value": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -16,6 +16,11 @@
 			"seasonContents": [ 3 ]
 		},
 		{
+			"seasonId": 4,
+			"localizeKey": "season_filter_4",
+			"seasonContents": [ 4 ]
+		},
+		{
 			"seasonId": 9101,
 			"localizeKey": "season_9101_walpurgisnacht",
 			"seasonContents": [ 9101, 9102 ]

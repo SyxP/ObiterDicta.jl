@@ -133,115 +133,121 @@
       ]
     },
     {
-      "id":11,
-      "category":"LUNACY",
-      "productId":"lunacy_package_1",
-      "priceTier":1,
-      "defaultElements":[
+      "id": 11,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_1",
+      "priceTier": 1,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":70
+          "type": "ITEM",
+          "id": 1,
+          "num": 70
         }
       ]
     },
     {
-      "id":12,
-      "category":"LUNACY",
-      "productId":"lunacy_package_2",
-      "priceTier":4,
-      "defaultElements":[
+      "id": 12,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_2",
+      "priceTier": 4,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":294
+          "type": "ITEM",
+          "id": 1,
+          "num": 294
         }
       ],
-      "bonusElements":[
+      "bonusElements": [
         {
-          "type":"ITEM",
-          "id":2,
-          "num":31
+          "type": "ITEM",
+          "id": 2,
+          "num": 31
         }
       ]
     },
     {
-      "id":13,
-      "category":"LUNACY",
-      "productId":"lunacy_package_3",
-      "priceTier":12,
-      "defaultElements":[
+      "id": 13,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_3",
+      "priceTier": 12,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":1014
+          "type": "ITEM",
+          "id": 1,
+          "num": 1014
         }
       ],
-      "bonusElements":[
+      "bonusElements": [
         {
-          "type":"ITEM",
-          "id":2,
-          "num":156
+          "type": "ITEM",
+          "id": 2,
+          "num": 156
         }
       ]
     },
     {
-      "id":14,
-      "category":"LUNACY",
-      "productId":"lunacy_package_4",
-      "priceTier":24,
-      "defaultElements":[
+      "id": 14,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_4",
+      "priceTier": 24,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":2147
+          "type": "ITEM",
+          "id": 1,
+          "num": 2147
         }
       ],
-      "bonusElements":[
+      "bonusElements": [
         {
-          "type":"ITEM",
-          "id":2,
-          "num":323
+          "type": "ITEM",
+          "id": 2,
+          "num": 323
         }
       ]
     },
     {
-      "id":15,
-      "category":"LUNACY",
-      "productId":"lunacy_package_5",
-      "priceTier":42,
-      "defaultElements":[
+      "id": 15,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_5",
+      "priceTier": 42,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":4103
+          "type": "ITEM",
+          "id": 1,
+          "num": 4103
         }
       ],
-      "bonusElements":[
+      "bonusElements": [
         {
-          "type":"ITEM",
-          "id":2,
-          "num":642
+          "type": "ITEM",
+          "id": 2,
+          "num": 642
         }
       ]
     },
     {
-      "id":16,
-      "category":"LUNACY",
-      "productId":"lunacy_package_6",
-      "priceTier":56,
-      "defaultElements":[
+      "id": 16,
+      "category": "LUNACY",
+      "returnpolicytype": "LUNACY_A",
+      "productId": "lunacy_package_6",
+      "priceTier": 56,
+      "defaultElements": [
         {
-          "type":"ITEM",
-          "id":1,
-          "num":8336
+          "type": "ITEM",
+          "id": 1,
+          "num": 8336
         }
       ],
-      "bonusElements":[
+      "bonusElements": [
         {
-          "type":"ITEM",
-          "id":2,
-          "num":1349
+          "type": "ITEM",
+          "id": 2,
+          "num": 1349
         }
       ]
     }

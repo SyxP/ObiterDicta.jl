@@ -37,8 +37,6 @@
 						},
 
 
-
-
 						{
 							"type": "PERSONALITY",
 							"id": 10203,
@@ -81,6 +79,39 @@
 						}
 					]
 				},
+				{
+					"groupType": "EVENT",
+					"contents": [
+						{
+							"type": "EGO",
+							"id": 20304,
+							"price": 400
+						},
+						{
+							"type": "EGO",
+							"id": 21003,
+							"price": 400
+						},
+
+
+						{
+							"type": "PERSONALITY",
+							"id": 10404,
+							"price": 400
+						},
+
+
+						{
+							"type": "PERSONALITY",
+							"id": 11204,
+							"price": 150
+						}
+					]
+				},
+
+
+
+
 				{
 					"groupType": "PASS",
 					"contents": [
@@ -164,31 +195,10 @@
 						}
 					]
 				},
-				{
-					"groupType": "EVENT",
-					"contents": [
-						{
-							"type": "EGO",
-							"id": 20304,
-							"price": 400
-						},
-						{
-							"type": "EGO",
-							"id": 21003,
-							"price": 400
-						},
-						{
-							"type": "PERSONALITY",
-							"id": 10404,
-							"price": 400
-						},
-						{
-							"type": "PERSONALITY",
-							"id": 11204,
-							"price": 150
-						}
-					]
-				},
+
+
+				
+
 				{
 					"groupType": "ANNOUNCER",
 					"contents": [

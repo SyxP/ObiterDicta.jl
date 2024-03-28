@@ -1,12 +1,13 @@
 {
   "list":[
     {
-      "id":21,
-      "category":"MEMBERSHIP",
-      "productId":"lunacy_monthly_1",
-      "priceTier":7,
+      "id": 21,
+      "category": "MEMBERSHIP",
+      "returnpolicytype": "LUNACY_B",
+      "productId": "lunacy_monthly_1",
+      "priceTier": 7,
       "membershipDailyChanceId": 1021,
-      "defaultElements":[
+      "defaultElements": [
         {
           "type": "ITEM",
           "id": 1,
@@ -22,12 +23,13 @@
       ]
     },
     {
-      "id":22,
-      "category":"MEMBERSHIP",
-      "productId":"lunacy_monthly_2",
-      "priceTier":3,
+      "id": 22,
+      "category": "MEMBERSHIP",
+      "returnpolicytype": "LUNACY_B",
+      "productId": "lunacy_monthly_2",
+      "priceTier": 3,
       "membershipDailyChanceId": 1022,
-      "defaultElements":[
+      "defaultElements": [
         {
           "type": "ITEM",
           "id": 1,

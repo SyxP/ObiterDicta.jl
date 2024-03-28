@@ -1,7 +1,7 @@
 LocalizeDatabase = Dict{Tuple{String, LangMode}, Dict{String, Any}}()
 StaticDatabase   = Dict{String, Dict{String, Any}}()
 DataDir          = pkgdir(@__MODULE__, "data")
-BackupDir        = pkgdir(@__MODULE__, "old-data")
+BackupDir        = pkgdir(@__MODULE__, "data", "Backup")
 
 function fetchDataFilepath(path)
     if isfile(joinpath(DataDir, path))

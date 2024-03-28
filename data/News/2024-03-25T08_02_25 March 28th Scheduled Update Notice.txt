@@ -1,0 +1,292 @@
+
+
+
+
+
+
+
+
+
+March 28th Scheduled Update Notice
+
+Greetings, dear Manager.
+
+The server will enter scheduled maintenance from 06:00 [AM] through 12:00 [PM] on Mar. 28th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+※ For your gameplay plans, please note that Season 4 update maintenance will last from Mar. 28th 06:00 ~ 12:00 (KST).
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Wuthering Heights Chief Butler Outis & Dead Rabbits Boss Meursault]
+(Mar. 28th 12:00 ~ Apr. 11 10:00 (KST))
+The following Identities will have increased odds of extraction
+- 3★: Wuthering Heights Chief Butler Outis
+- 2★: Dead Rabbits Boss Meursault
+
+2. New Identity Added
+The following Identities are added to the list of extractable Identities.
+- 3★: Wuthering Heights Chief Butler Outis
+- 2★: Dead Rabbits Boss Meursault
+
+1/9
+
+PROJECT MOON
+About the New Season
+
+※ Please refer to the Steam Announcements 
+page for more information regarding Season 4
+- [Posted Mar. 18th] Guide on Season 4: Clear All Cathy
+
+1. Season 3 Egoshard Carryover
+Half of Season 3's Egoshards and Egoshard-related currencies will be carried over to Season 4. The rest will be automatically 
+converted to Thread-related currencies
+
+2. Gradual Main Story & Battle Pass Updates
+Main Story Canto 6-(Part 1) and Season 4 Limbus Pass-
+Clear All Cathy (Part 1) Unlocked.
+
+3. Battle Pass Changes Notice
+Limbus Pass can no longer be purchased directly with cash.
+Limbus Pass will now be purchasable by Paid Lunacy only.
+For that, "Season 4 Commencement Lunacy Pack" will be 
+added to the Packs Shop.
+
+▶ Season 4 Commencement Lunacy Pack
+- Price : ₩15,000 / $10.99 / ¥1,500
+(※ Same as the current cash price of Limbus Pass)
+- Contents : Paid Lunacy x1300
+
+2/9
+
+PROJECT MOON
+About the New Season
+
+4. New Announcer Added
+A new Announcer will be added to the Dispenser
+[Standard Fare - Announcer] Tab.
+※Yuri Announcer, currently available in the [Season 3 - Announcer]
+tab will be moved from Season 3 to Standard Fare.
+
+5. Identity Level Cap Increase
+After clearing Chapter 5, the max level of Identities
+will be increased from 40 to 45.
+
+Please note that the Identity Levels for managers who haven’t yet
+cleared Chapter 5 will be capped at Level 40 until
+Chapter 5 is cleared, even after Season 4 is updated.
+Clear Chapter 5 to expand the Level cap to 45.
+
+※Please note that surplus EXP will be lost when using
+EXP-gaining items/currency before Level Cap is unlocked.
+
+6. EXP Luxcavation Added
+Clearing a certain stage in Chapter 6 (Part 3) will unlock EXP
+Luxcavation #6. EXP Luxcavation #6 will be added after the Apr. 11th
+Chapter 6 (Part 3) Update.
+
+7. Season 4 Extractions
+The following will no longer be extractable
+from Season 4 Extractions.
+
+▸[Season 3 Event]
+- E.G.O [HE]: Holiday Outis
+- 3★: Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust 
+- 2★: Kurokumo Clan Captain Gregor
+3/9
+
+PROJECT MOON
+About the New Season
+
+8. Season 4 Dispenser
+
+The following can no longer be dispensed from the Season 4 Dispenser.
+
+▶ [Season 3]
+- E.G.O [WAW] : Garden of Thorns Gregor
+- 3★ : The Middle Little Sister Don Quixote,
+The Pequod Harpooneer Heathcliff,
+The Pequod Captain Ishmael, Twinhook Pirates First Mate Gregor
+- 2★ : The Pequod First Mate Yi Sang, LCCB Assistant Manager Ryōshū,
+The Middle Little Brother Meursault
+
+▶ [Season 3 Event]
+- E.G.O [HE] : Holiday Outis
+- 3★ : Blade Lineage Mentor Meursault, Blade Lineage Salsu Faust
+- 2★ : Kurokumo Clan Captain Gregor
+
+The following will be added to the Season 4 Dispenser.
+
+▶ [Season 3 Pass] E.G.O
+- E.G.O [WAW] : Blind Obsession Ishmael
+- E.G.O [HE] : Effervescent Corrosion Hong Lu, 9:2 Sinclair
+- E.G.O [TETH] : Effervescent Corrosion Rodion, 9:2 Faust,
+Blind Obsession Ryōshū
+
+▶ [Season 2]
+- 3★ : Effloresced E.G.O.::Spicebush - Yi Sang, K Corp. Class 3
+Excision Staff Hong Lu, Lobotomy E.G.O.::Sunshower Heathcliff,
+Rosespanner Workshop Rep. Rodion
+- 2★ : Rosespanner Workshop Fixer Meursault,
+Lobotomy E.G.O.::Sloshing -Ishmael, Lobotomy E.G.O.::
+Red Sheet - Sinclair, Rosespanner Workshop Fixer Gregor
+
+▶ [Season 2 Event]
+- E.G.O [TETH] : Soda Hong Lu
+- E.G.O [ZAYIN] : Soda Ryōshū
+- 3★ : Molar Boatworks Fixer Ishmael, Molar Office Fixer Outis
+- 2★ : Molar Boatworks Fixer Sinclair, Molar Office Fixer Yi Sang
+
+4/9
+
+PROJECT MOON
+About the New Season
+
+9. UI/UX Renewal & Overhaul
+(1) Packs Shop Overhaul
+The Packs Shop design will be fully overhauled.
+
+(2) Battle Pass UI Rework
+The in-game UI will be adjusted accordingly to the
+Battle Pass purchase changes
+(Purchasable by cash → Purchasable by Paid Lunacy)
+Season 4 Battle Pass end date will be adjusted to
+‘Until Season 5 Update’. However, a [Guarantee that the Battle Pass
+will last at least 90 days from the start of the Season]
+has been added to the description.
+
+(3) Extraction cutscene re-visit function added
+Long-press the Identity Illustration in the
+Window UI to re-watch the Extraction cutscene
+
+(4) Navigation shortcut to character growth materials added
+Navigation shortcuts have been added to the tooltips for each
+character growth materials (Training Tickets, Threads, etc.).
+✳ This function will be added to the game with the 
+Apr. 18th (KST) Scheduled Update.
+
+(5) Stage Info popup window renewal
+Effective Damage Types & Affinities are added to Combat Stage Info
+Popup Windows. (Effective damage types & affinities will be unlocked
+on normal stages, but they will appear locked on certain
+stages such as Story Dungeons or Boss Stages.)
+The following elements will be re-arranged:
+Stage Titles, Recommended Level, EX Objectives, and Enemy Info.
+Stage Summaries will be deleted.
+
+(6) Banners & Ticket Deco UI/UX overhaul
+Similar Banners & Ticket Deco will now
+be consolidated into categories.
+Multiple of the same Banners will now be equippable.
+
+10. Mirror Dungeon #4 Preview
+✳ We will inform you of the Mirror Dungeon #4 update schedule
+with the Mirror Dungeon #4 Notice in the future.
+
+5/9
+
+PROJECT MOON
+Major Changes
+
+1. Loading Screen Illustration Image Load Improved
+Now, illustrations from the last viewed Main Story or Identity
+Uptie Story will be visible during the loading screen.
+
+2.Main Story Normal Encounter Stage Info
+Reveal Condition Changed
+Now, effective damage types & affinities will always be
+unlocked on Main Story Normal Encounter Stages.
+
+3. Team Loadout Change Function in
+Story Dungeon Save Points Added
+Now, you can change your Team Loadout in
+Story Dungeon Save Points.
+
+4. Low Morale, Panic UI Improved
+Low Morale and Panic UI display method has been improved.
+
+6/9
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Added a function to immediately move to the Inbox popup window from the Lunacy & Packs purchase confirmation window
+※ We have confirmed that this function was missing from the last Scheduled Update. We apologize for the inconvenience.
+
+▶ Fixed an issue where the enemy passive 'Exposed Pearl' text was incorrectly labeled
+- Before: when Staggered, Pearl loses all Affinity Resistances by 1.0
+- After: when Staggered, Pearl loses all Affinity Resistances by 0.5
+
+▶ Fixed an issue where the enemy passive 'The Indomitable Harpooneer' effect worked in reverse
+- Before: the higher this unit's HP is, the more damage this unit's Skills deal
+- After: the lower this unit's HP gets, the more damage this unit's Skills deal
+
+▶ Fixed an issue where the enemy passive 'Clouded Mind' text was incorrectly labeled
+- Before: When Staggered, reset SP to 0.
+- After: When Staggered and when at less than 0 SP at Turn End, reset SP to 0.
+
+▶ Fixed an issue where the enemy passive 'Muddled Orders' text was incorrectly labeled
+- Before: When this unit is Staggered, all other allies' SP reset to 0
+- After: When this unit is Staggered, and when all other allies are at less than 0 SP at Turn End, reset their SP to 0.
+
+▶ Added a description to the enemy passive 'Coldhearted Decision'
+- Added description: Also, Queequeg no longer gets Staggered even when her Assist Defense Shield value reaches 0.
+
+▶ Added a description to the enemy Skill 'To Me!'
+- Added description: Order is canceled when this unit is Staggered.
+
+▶ Fixed an issue where the enemy Skill 'Undying Soul' was incorrectly labeled
+- Before: [Failed Evade] Lose 1 Pip's Ego
+- After: [Failed Evade] Lose 2 Pip's Ego
+
+▶ Fixed an issue where the enemy Debuff 'Larva' did not work properly
+
+7/9
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where, if the Identity's level is higher than the level adjusted by the E.G.O Gift in Story Dungeons, the Identity's level would be lowered to match the level written in the E.G.O Gift
+
+▶ Fixed an issue where certain Story cutscenes were duplicated in Story Dungeons
+
+▶ (JP Only) Fixed an issue where Twinhook Pirates First Mate Gregor's Passive does not display certain Ammo icons
+
+▶ (JP Only) Fixed an issue where Blade Lineage Mentor Meursault's Buffs 'Swordplay of the Homeland - Rending & Penetrating' had incorrect descriptions Before: Skill X loses Final Power by the effect's Count for this turn. After: Skill X gains Final Power by the effect's Count for this turn.
+
+※ Errors found in the Refraction Railway Line 3 have been adjusted so that the text matches the actual effects, as changing the actual effects could significantly influence the experience and the enemies' defensive capabilities. However, the 'The Indomitable Harpooneer' Passive error has been corrected, however, as it made the early encounter experience much too difficult. We sincerely apologize for the above issues in the Refraction Railway Line 3.
+8/9
+
+PROJECT MOON
+Error Compensation
+
+- Content: Lunacy x500
+- Recipients: All users whose accounts were created before Apr. 4th 2024, 10:00 (KST)
+- When: After Mar. 28th 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance & Application Update Compensation
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Apr. 4th, 2024 (KST)
+- When: After Mar. 28th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Apr. 4th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+9/9
+
+PROJECT MOON
+

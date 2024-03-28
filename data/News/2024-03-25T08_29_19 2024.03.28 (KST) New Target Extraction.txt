@@ -1,0 +1,89 @@
+
+
+LIMBUS COMPANY
+Wuthering Heights Chief Butler Outis
+SKILL 1
+Knocking
+[On Use] If the target has X+ Sinking, gain Coin Power
+I) [On Hit] Inflict Sinking
+SKILL 2
+Dusting
+[On Use] If the target has X+ Sinking, gain Coin Power
+[Clash Win] Inflict Sinking Count
+I) [On Hit] Inflict Sinking
+II) [On Hit] Inflict Sinking
+SKILL 3
+As Mistress Commands
+[On Use] If the target has X+ Sinking, gain Coin Power
+[Clash Win] Inflict Sinking Count
+IV) [On Hit] Inflict Echoes of the Manor next Turn
+[On Hit] If the target has Echoes of the Manor, inflict Gloom Affinity damage equal to Sinking Potency on target
+ENTITY INFO
+DEFENSE
+Insolent Fool
+[On Evade] Inflict Sinking
+PASSIVE
+The Mistress' Voice
+• When clashing against targets with less than 0 SP, gain Clash Power and deal more damage
+• Deal more damage against targets with Echoes of the Manor
+• When winning a Clash without losing a single Coin, heal SP. If this unit is already at max SP, gain Offense Level Up next turn
+SUPPORT PASSIVE
+Butler Training
+1 ally with the most SP gains Clash Power when clashing against targets with less than X SP.
+Echoes of the Manor
+• X% chance to gain +Y Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects
+• Units with SP: Change Panic Types to Echoes of the Manor. When this unit Panics, inflict Echoes of the Manor to 2 random other allies of this unit
+• Units without SP: -Z% chance to flip Heads
+• Reduced at Turn End
+• This effect is not cumulative; inflicting it will replace the current value with the inflated value
+• Apply the "Units without SP" conditional to certain enemies that have SP but can't change their Panic Types.
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+LIMBUS COMPANY
+
+Dead Rabbits Boss
+Meursault
+
+SKILL 1
+Bat Strike
+[On Hit] Inflict Rupture
+If the target has X+ Rupture, gain Coin Power
+
+DEFENSE
+Counter
+[On Hit] Inflict Rupture
+
+SKILL 2
+Smackdown
+[On Use] If the target has X+ Rupture, gain Coin Power
+[Clash Win] Inflict Rupture Count
+[On Hit] Inflict Rupture
+[On Hit] If the target has X+ Rupture, inflict Offense Level Down
+
+PASSIVE
+Buy Time
+Gain Clash Power against targets with Rupture
+Gain Clash Power against targets with X+ Rupture Count
+
+SKILL 3
+Relentless
+[On Use] If the target has X+ Rupture, gain Clash Power
+[On Use] If the target has X+ Rupture, gain Coin Power
+[Clash Win] Inflict Offense Level Down
+[On Hit] Inflict Rupture
+[On Hit] If the target has X+ Rupture, inflict Offense Level Down next turn
+
+SUPPORT PASSIVE
+My Responsibility
+When 1 ally with the fastest Speed hits an enemy with X+ Rupture, inflict Offense Level Down
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+CAUTION
+
+Copyright © 2022 SHIFT UP Corp. All rights reserved.
+
+CAUTION
+

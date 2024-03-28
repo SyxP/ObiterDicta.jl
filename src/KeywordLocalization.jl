@@ -164,6 +164,8 @@ function getSeasonNameFromInt(N)
         Ans = "Season 2: Reminiscence"
     elseif N == 3
         Ans = "Season 3: Bon Voyage"
+    elseif N == 4
+        Ans = "Season 4: Clear All Cathy"
     elseif N == 9101
         Ans = "1st Walpurgis Night"
     elseif N == 9102

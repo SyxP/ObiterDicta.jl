@@ -46,11 +46,13 @@ end
 getID(myAnnouncer :: Announcer) = myAnnouncer.id
 getStringID(myAnnouncer :: Announcer) = string(myAnnouncer.id)
 function getTitle(myAnnouncer :: Announcer)
-    TitleDict = LocalizedData("Announcer")["dataList"]
-    for entry in TitleDict
-        entry["id"] == getID(myAnnouncer) && return @blue(entry["name"])
+    Files = getLocalizeDataInfo()["announcer"] 
+    for file in Files
+        TitleDict = LocalizedData(file)["dataList"]
+        for entry in TitleDict
+            entry["id"] == getID(myAnnouncer) && return @blue(entry["name"])
+        end
     end
-
     return ""
 end
 

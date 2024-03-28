@@ -174,8 +174,8 @@
           "priority": 1,
           "index": 1,
           "waiting": 180,
-          "randomize" : 50,
-        },
+          "randomize" : 50
+        }
       ]
     }
   ]

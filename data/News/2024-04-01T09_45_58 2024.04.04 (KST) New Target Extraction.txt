@@ -1,0 +1,99 @@
+
+
+LIMBUS COMPANY
+
+Edgar Family Heir
+Gregor
+
+SKILL 1
+Sabre Slash
+[On Use] If the target has X+ Sinking, gain Coin Power
+[On Use] Gain Clash Power for every
+X Sinking Count on target
+[On Hit] Inflict Sinking
+
+SKILL 2
+Remise
+[On Use] If the target has X- Sinking, gain Coin Power
+[On Use] Gain Clash Power for every X Sinking Count
+on target
+[Clash Win] Inflict Sinking Count
+[On Hit] If the target has X+ Sinking,
+gain Haste next turn
+[On Hit] Inflict Sinking Count
+
+SKILL 3
+Nightmare Hunt
+[On Use] Gain Clash Power for every X Sinking Count on target
+[After Attack] If the target is Staggered, inflict Sinking Count
+[After Attack] If the target is defeated, inflict Sinking Count to 2 random enemies
+[On Hit] Inflict Sinking
+[On Hit] Inflict Sinking
+[On Hit] Inflict Sinking
+[On Hit] Absorb X Sinking from the target and gain Plus Coin Boost and Damage Up next turn.
+50% chance to activate the above effect without absorbing Sinking.
+
+DEFENSE
+Do You Wish to Weep?
+[On Use] Gain Coin Power for every X Sinking
+on target
+
+PASSIVE
+Endless Nightmares
+• Combat Start: Gain Damage Up and Fragile for every
+X SP difference on self between this turn and last turn
+• Deal more damage for every X Sinking Potency on target
+
+SUPPORT PASSIVE
+Suffering
+Combat Start: 1 ally with the least SP loses SP and
+gains Gloom DMG Up
+
+*The Identity's stats at max level and Uptie tier are displayed here.
+*This image is for reference only; actual details subject to change.
+
+Copyright © 2021 All Rights Reserved. Project Moon.
+Wuthering Heights Butler
+Faust
+
+ENTITY INFO
+
+IDENTITY INFO
+- The identity’s stats at max level and Uptide tier are displayed here.
+- This image is for reference only; actual details subject to change.
+
+SKILL 1
+Confiscation
+[On Use] If the target has X+ Sinking, gain Coin Power
+[On Hit] Inflict Sinking
+
+SKILL 2
+Interloper Reception
+[On Use] If the target has X+ Sinking, gain Clash Power
+[On Use] If the target has X+ Sinking Count, gain Coin Power
+[On Hit] Inflict Sinking Count
+
+SKILL 3
+Reception Arts: Heartseal
+[On Use] If the target has X+ Sinking Count, gain Coin Power
+[On Hit] Inflict Sinking Count
+[On Hit] Inflict Echoes of the Manor next turn
+[On Hit] If the target has Echoes of the Manor, inflict Sinking Count
+
+DEFENSE
+Hunting Plans
+[On Use] If the target has X+ Sinking, gain Coin Power
+
+PASSIVE
+Butler Style Response
+• Clash Win: inflict X Sinking on target
+• If the target has Echoes of the Manor, inflict additional Sinking
+
+SUPPORT PASSIVE
+Anticipatory Training
+When 1 ally with the least SP hits an enemy with X+ Sinking, the ally heals SP on self On Hit.
+
+LIMBUS COMPANY
+
+Copyright © 2021 All rights reserved by ProjectMoon
+

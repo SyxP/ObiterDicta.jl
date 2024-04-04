@@ -1,0 +1,36 @@
+
+Notice: Issues Identified after
+Mar. 28th Scheduled Update
+
+Hello, this is Project Moon.
+
+We would like to inform you about the two issues
+that have occurred after the Mar. 28th Scheduled Update.
+
+<Issues>
+
+1. An issue where Dead Rabbits Boss Meursault's SP Loss Conditions
+lists an SP loss condition from 'Blade Lineage Mentor Meursault'
+
+2. An issue where clearing 6-16 does not yield
+Account EXP or Identity EXP
+
+We plan to conduct a hotfix today around 16:30 to fix the
+above issues. The hotfix will be deployed upon restarting the game,
+and it does not require a client update. Please note that,
+however, additional in-game downloads will occur.
+
+We sincerely apologize for the inconvenience.
+
+Mar. 28th Scheduled Update Error Compensation
+
+x300
+
+- Compensation: Lunacy x300
+- Recipients: All users whose accounts were created before
+April 4th 2024, 10:00 (KST)
+- Can be claimed once per account
+- When: After Mar. 28th 2024 (KST) 18:00
+
+PROJECT MOON
+

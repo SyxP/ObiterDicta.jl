@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+April 4th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Apr. 4th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Edgar Family Heir Gregor & Wuthering Heights Butler Faust] (Apr. 4th 12:00 ~ Apr. 18th 10:00 (KST))
+The following Identities will have increased odds of extraction.
+      - 3★ : Edgar Family Heir Gregor
+      - 2★ : Wuthering Heights Butler Faust
+
+2. Target Extraction [Target Extraction: Rodion] (Apr. 4th 12:00 ~ Apr. 18th 10:00 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+      - E.G.O [HE] : Pursuance Rodion
+      - 3★ : Liu South Section 4 Director Rodion,
+Dieci South Section 4 Rodion, Rosepanner Workshop Rep. Rodion,
+Kurokumo Clan Wakashu Rodion
+      - 2★ : Zwei South Section 5 Rodion, N Corp. Mittelhammer Rodion,
+LCCB Assistant Manager Rodion
+      - 1★ : LCB Sinner Rodion
+
+3. New Identities Added
+The following Identities are added to the list of extractable Identities.
+      - 3★ : Edgar Family Heir Gregor
+      - 2★ : Wuthering Heights Butler Faust
+
+4. Gradual Main Story & Battle Pass Updates
+Main Story Canto 6-(Part 2) and Season 4 Limbus Pass-Clear All Cathy (Part 2) Unlocked
+
+1/7
+
+PROJECT MOON
+Notice: New Banner for
+Season 4 Limbus Pass Package
+
+We have decided that the Season 4 Limbus Pack's 'Season 4 Limbus Package Special Banner' does not have enough features to differentiate it from the banner obtainable via the Battle Pass. Therefore, we plan to include a new Banner in the Package.
+
+The new banner will be added to the game after the April 11th (KST) Scheduled Update, and will be sent to the inbox of all Managers who have already purchased the Season 4 Limbus Pass Package.
+
+In the same Scheduled Update, the same new Banner will be added to the Season 4 Limbus Pass Package. Managers purchasing the Season 4 Limbus Pass Package after the Scheduled Update can receive the preexisting 'Season 4 Limbus Pass Package Special Banner' and the newly added banner.
+
+We will take care to make the design of these banners stand out more, to make them more worth it. Thank You.
+
+Notice: New Banner for
+Season 4 Limbus Pass Package
+
+▶ When: After the April 11th, 2024 (KST) Scheduled Update
+▶ How to obtain the new banner
+    - If you have purchased the package before the April. 11th Scheduled Update:
+      You will receive the new banner via the in-game Inbox.
+    - If you purchase the package after the April. 11th Scheduled Update:
+      The new banner will be included in the Season 4 Limbus Pass Package, alongside the preexisting banner.
+
+2/7
+
+PROJECT MOON
+Major Changes
+
+1. Background CG images from the main story have been added to the list of loading screen images
+Now, various background CG images from the main story will appear on the loading screen as well.
+
+2. Monthly Subscription Pack expiry notice added
+Now, when there are 7 or fewer days remaining in the subscription packs(such as Monthly Lunacy Supply or Monthly Lunacy Batch), a notification will appear on the top right corner of the screen upon entry to the Window UI.
+
+3. In-combat buff tooltip UI visibility improved
+Buff tooltips that appear when long-pressing (※ hovering with the mouse on PC) the buff icons under combat sprites have been enlarged.
+
+4. In-combat Skill or buff popup UI scroll sensitivity improved
+The responsiveness for scrolling through the in-combat Skill or buff popup UI has been improved.
+
+5. Improved color filter functionality for Main Story - Canto 6 (Part 1) for combat Encounters in the manor interiors
+The color filter intensity for certain combat Encounters in Canto 6 (Part 1) has been adjusted.
+
+3/7
+
+PROJECT MOON
+Notice: An issue where the 'On Use' effect of an equipped Skill activates even when the unit is Staggered
+
+We have identified and issue where, when a Clashing character gets Staggered before the Skill is used, the 'On Use' effect still triggers even when the Skill itself isn't used. This issue has been occurring for both allies and enemies, and it only activates under specific conditions in which the opposing character conducts an unopposed attack against a Staggered character.
+
+Please refer to the information below for more details.
+
+We sincerely apologize for the inconvenience caused by this combat logic issue.
+
+▶︎ Issue
+- An issue where, under specific circumstances, the 'On Use' effects of an immobilized unit would activate
+
+▶︎ Cause
+- This issue was caused because certain combat logics from earlier in the game development were included without getting updated accordingly
+
+▶︎ Solution
+- Correct the combat logics in question
+
+▶︎ Error Details
+- Affected Units: Unit that is set up to Clash against the opposing unit in the Chaining Phase (Skill A VS. Opponent's Skil B set to Clash)
+  - Condition: The unit gets Staggered before using the Skill
+  - When: When the Unit takes an Unopposed Attack by the opponent's Skill B
+  - Effect: The Unit's Skill A's [On Use] effect activates, even when Unit A is supposed to be immobilized due to Stagger. Other On Use effects owned by the Unit, such as E.G.O Gifts or Passives, activate as well.
+
+▶︎ Effects affected by the error
+※ Every effect that uses the [On Use] Condition from Skills, Passives, and E.G.O Gifts have been affected by this issue. We have compiled the most frequently used effects below.
+
+- [On Use] Gain (buff) on self (Poise/Charge/Tremor Potency or Count, Haste, Charge Barrier, Magic Bullet, and more)
+- [On Use] Inflict/Apply (effect) on target (Burn/Bleed/Rupture/Sinking Potency or Count, Charge Barrier, Assist Attack, Damage Up, Power Up, Offense/Defense Level Up, and more)
+- [On Use] Gain Aggro to Skill Slot next turn/Apply Aggro to Skill Slot next turn
+- [On Use] Discard certain Skill(s) or effects triggered from the Discard
+  - [On Use] Heal HP or SP
+  - [On Use] Inflict damage to self or the target
+
+4/7
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the conditional damage gain of Wuthering Heights Chief Butler Outis' Combat Passive did not activate in Focused Encounters
+
+▶ Fixed an issue where Wuthering Heights Chief Butler Outis' SP gain/loss conditions activated even with opposite conditions
+
+▶ Fixed an issue where the Uptie Tier 4 RoseSpanner Workshop Fixer Meursault gains Power on incorrect conditions
+   - Before: Activated based on Tremor Potency
+   - After: Activates based on Tremor Count, as it is written in the Skill descriptions
+
+▶ Fixed an issue where the Faust E.G.O 9:2 Threadspinning Uptie 4 activated on incorrect Atk Weight gain conditions
+   - Before: Gained Atk. Weight when at 3+ highest Lust A-Reson.
+   - After: Gains Atk. Weight when at 4+ highest Lust A-Reson., as it is written in the Skill description
+
+▶ Fixed an issue where Hong Lu's E.G.O 'Land Of Illusion' Passive 'Ripple' activated on incorrect conditions
+   - Before: Activated when there is an A-Reson., even if it does not include this unit's Skills
+   - After: Activates only when there is an A-Reson. that involves Hong Lu's Skills or is composed entirely of this unit's Skills, as it is written in the Skill description
+
+▶ Fixed an issue where Heathcliff E.G.O Telepole Passive 'Roar' activated on incorrect conditions
+   - Before: Activates when an ally is defeated as well
+   - After: Activates after an enemy is defeated, as it is written in the Passive description
+
+▶ Fixed an issue where Gregor E.G.O Ledgermain Passive 'Maggots' activated on incorrect conditions
+   - Before: Activated based on Affinity Reson. count
+   - After: Activates based on Gluttony A-Reson., as it is written in the Passive description
+
+▶ Fixed an issue where LCB Sinner Yi Sang's Support Passive activated on incorrect conditions
+   - Before: Did not activate based on SP loss due to E.G.O Skill use of 1 ally with the least SP
+   - After: Now *also* activates based on SP loss due to E.G.O Skill use of 1 ally with the least SP, as it is written in the Skill description
+
+▶ Fixed an issue where LCCB Assistant Manager Rodion's 'Suppress' Skill's Coin Power gain conditions worked incorrectly
+   - Before: Gained Coin Power if this unit took no damage from attacks this turn
+   - After: Gain Coin Power if the target took no damage from attacks this turn, as it is written in the Skill description
+
+5/7
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where Wuthering Heights Chief Butler Outis' Identity Uptie Story displayed Outis and Faust's titles as 'Sinner #X'
+
+► Fixed an issue where the Clash Power gain effect for Veteran Edgar Family Butler's Skill 'Housekeeping' did not activate properly
+
+► Fixed an issue where 'Edgar Family Butler' enemies did not return to the correct Sprite coordinates after using certain Skills
+
+► Fixed an issue where, in certain Encounters, certain enemies' damage thresholds did not activate properly
+
+► Fixed typos and translation mistakes in Canto 6 Main Story
+
+► Fixed an issue where the story autoplay function didn't work for certain parts of Stage 6-12
+
+► (EN Only) Fixed an issue where the Wuthering Heights Chief Butler was labeled with an incorrect title in the Main Story
+
+► (EN Only) Fixed a typo in Wuthering Heights Chief Butler Outis' Passive name, 'The Mistress's Voice...!'
+
+► Fixed an issue where incorrect texts were displayed in certain choices found in Canto 4 Story Dungeon Events
+
+► Fixed an issue where enemies' resistance information did not unlock properly in the Refraction Railway Normal Encounters' Stage Info windows
+
+► Adjusted sprite sizes for 'Peccatula Irae?' and 'Peccatula Morositatis?'
+
+Known Issues
+
+► An issue where R.B. Chef de Cuisine Ryōshū's Skill 3 - I Can Cook Anything's Coin Effect that boosts the amount of damage dealt worked in reverse due to Offense-Defense Level difference formula error
+
+We sincerely apologize for the disappointment we caused with these various issues identified in the Combat Logic, Identity, and E.G.O. We will take better care to take into consideration the content quality and stability as we develop the game. Again, we would like to sincerely apologize for the various functionality and Identity/E.G.O performance issues that occurred with the game.
+
+6/7
+
+PROJECT MOON
+Combat Logic, Identity, and E.G.O Error Compensation
+
+x500
+
+- Compensation : Lunacy x500
+- Recipients : All users whose game accounts were created before 10:00 Apr. 18th, 2024 (KST)
+- Can be claimed once per account
+- When : After Apr. 4th 2024, 12:00 (KST)
+
+Maintenance & Application Update Compensation
+
+x300
+
+- Content : Lunacy x300
+- Recipients : All users whose game accounts were created before 10:00 Apr. 11th, 2024 (KST)
+- When : After Apr. 4th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Apr. 11th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on its status. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank You.
+
+7/7
+
+PROJECT MOON
+

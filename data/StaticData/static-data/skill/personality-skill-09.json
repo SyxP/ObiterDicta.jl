@@ -1174,7 +1174,7 @@
           "canChangeTarget": true,
           "abilityScriptList": [
             {
-              "scriptName": "CoinScaleAdderIfNotDamagedThisTurn2"
+              "scriptName": "CoinScaleAdderIfMainTargetNotDamagedThisTurn2"
             }
           ],
           "skillMotion": "S3",
@@ -1233,7 +1233,7 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "CoinScaleAdderIfNotDamagedThisTurn3"
+              "scriptName": "CoinScaleAdderIfMainTargetNotDamagedThisTurn3"
             }
           ]
         }

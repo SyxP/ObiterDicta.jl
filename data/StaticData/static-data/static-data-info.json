@@ -26,7 +26,8 @@
                 "battle-coin-choice-event-a1c5p3",
                 "battle-action-choice-event-a1c5p3",
                 "sdungeon-coin-choice-event-a1c5p3",
-                "sdungeon-action-choice-event-a1c5p3"
+                "sdungeon-action-choice-event-a1c5p3",
+                "battle-coin-choice-event-a1c6p2"
             ]
         },
         {
@@ -44,7 +45,8 @@
             "abnormality-mirror3-part",
             "abnormality-part-a1c951",
             "abnormality-part-event1",
-            "abnormality-part-ycgd"
+            "abnormality-part-ycgd",
+            "abnormality-part-a1c6p2"
           ]
         },
         {
@@ -62,7 +64,8 @@
             "abnormality-mirror3-unit",
             "abnormality-unit-a1c951",
             "abnormality-unit-event1",
-            "abnormality-unit-ycgd"
+            "abnormality-unit-ycgd",
+            "abnormality-unit-a1c6p2"
           ]
         },
         {
@@ -100,6 +103,7 @@
             "buff-enemy-MR3",
             "buff-enemy-ycgd",
             "buff-enemy-a1c6p1",
+            "buff-enemy-a1c6p2",
             "special-buff"
           ]
         },
@@ -108,8 +112,8 @@
             "fileList": [
               "panic-buff",
               "panic-buff-a1c6p1",
+              "panic-buff-a1c6p2",
               "panic-overwrite-buff"
-
           ]
         },
         {
@@ -122,7 +126,7 @@
         {
             "dataClass": "part",
             "fileList": [
-                "part-a1c6p1"
+                "part-a1c6p2"
             ]
         },
         {
@@ -153,7 +157,8 @@
                 "ego-11",
                 "ego-12",
                 "ego-a1c5p2",
-                "ego-a1c5p3"
+                "ego-a1c5p3",
+                "ego-a1c6p2"
             ]
         },
         {
@@ -189,7 +194,8 @@
             "enemy-a1c951",
             "enemy-event1",
             "enemy-ycgd",
-            "enemy-a1c6p1"
+            "enemy-a1c6p1",
+            "enemy-a1c6p2"
           ]
         },
         {
@@ -214,7 +220,9 @@
 				"gacha-162",
 				"gacha-163",
 				"gacha-164",
-				"gacha-165"
+				"gacha-165",
+				"gacha-166",
+				"gacha-167"
             ]
         },
         {
@@ -250,6 +258,7 @@
             "passive-enemy-a1c5p3",
             "passive-enemy-a1c951",
             "passive-enemy-a1c6p1",
+            "passive-enemy-a1c6p2",
             "passive-enemy-event1",
             "passive-enemy-refraction3",
             "passive-enemy-ycgd"
@@ -338,7 +347,9 @@
             "skill-abnormality-event1",
             "skill-enemy-ycgd",
             "skill-abnormality-ycgd",
-            "skill-enemy-a1c6p1"
+            "skill-enemy-a1c6p1",
+            "skill-enemy-a1c6p2",
+            "skill-abnormality-a1c6p2"
           ]
         },
         {
@@ -358,7 +369,8 @@
             "storybattle-a1c951",
             "storybattle-event1",
             "storybattle-ycgd",
-            "storybattle-a1c6p1"
+            "storybattle-a1c6p1",
+            "storybattle-a1c6p2"
           ]
         },
         {
@@ -420,7 +432,8 @@
                 "stagenodereward91-5",
                 "stagenodereward91-6",
                 "stagenodereward91-7",
-                "stagenodereward-a1c6p1"
+                "stagenodereward-a1c6p1",
+                "stagenodereward-a1c6p2"
             ]
         },
         {
@@ -543,7 +556,7 @@
                 "battlepass",
                 "battlepass-2",
                 "battlepass-3-a1c5",
-                "battlepass-4-a1c6p1"
+                "battlepass-4-a1c6p2"
             ]
         },
         {
@@ -764,7 +777,7 @@
             "fileList": [
                 "stage-progress-reward",
                 "stage-progress-reward-a1c5p3",
-                "stage-progress-reward-a1c6p1"
+                "stage-progress-reward-a1c6p2"
             ]
         },
         {
@@ -938,7 +951,7 @@
             "fileList": [
                 "subchapter-detail",
                 "subchapter-detail-a1c5p3",
-                "subchapter-detail-a1c6p1"
+                "subchapter-detail-a1c6p2"
             ]
         },
         {
@@ -976,12 +989,13 @@
         },
         {
             "dataClass": "restrict-participation",
-            "fileList": [
-                "restrict-participation-1",
-                "restrict-participation-a1c5p1",
-                "restrict-participation-a1c5p2",
-                "restrict-participation-a1c5p3"
-            ]
+          "fileList": [
+            "restrict-participation-1",
+            "restrict-participation-a1c5p1",
+            "restrict-participation-a1c5p2",
+            "restrict-participation-a1c5p3",
+            "restrict-participation-a1c6p2"
+          ]
         },
         {
             "dataClass": "restrict-participation-dungeon",
@@ -1087,6 +1101,12 @@
           "dataClass": "season-filter",
           "fileList": [
             "season-filter-1"
+          ]
+        },
+        {
+          "dataClass": "scenario-asset",
+          "fileList": [
+            "ScenarioModelCodeAddressable"
           ]
         }
     ]

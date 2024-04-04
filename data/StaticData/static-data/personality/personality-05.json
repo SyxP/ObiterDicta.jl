@@ -823,7 +823,7 @@
         7,
         7
       ],
-      "uniqueAttribute": "INDIGO",
+      "uniqueAttribute": "SHAMROCK",
       "mentalConditionInfo": {
         "add": [
           {
@@ -847,9 +847,6 @@
             "conditionIDList": [
               {
                 "conditionID": "OnDieAllyAsLevelRatio10"
-              },
-              {
-                "conditionID": "OnDieBladeLineageAlly10"
               }
             ]
           }

@@ -6,7 +6,7 @@
     "openMainChapterId": 1,
     "openSubChapterId": 103
   },
-  "expDungeonIds": [ 1, 2, 3, 4, 5 ],
+  "expDungeonIds": [ 1, 2, 3, 4, 5, 6 ],
   "threadDungeonIds": [ 1, 2, 3, 4, 5, 6, 7 ],
   "expDungeonBonusChanceId": 10003,
   "threadDungeonBonusChanceId": 10004,

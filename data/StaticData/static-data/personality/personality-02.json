@@ -4,9 +4,9 @@
       "id": 10201,
       "appearance": "10201_Faust_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
-            ],
-            "associationList": [ "LIMBUS_COMPANY" ],
+        "BASE_APPEARANCE"
+      ],
+      "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 2,
       "panicType": 9999,
       "season": 0,
@@ -790,6 +790,106 @@
         },
         {
           "skillId": 1020803,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10209,
+      "appearance": "10209_Faust_ButlerAppearance",
+      "associationList": [ "WUTHERING_HEIGHTS" ],
+      "unitKeywordList": [ "BUTLER" ],
+      "characterId": 2,
+      "panicType": 9999,
+      "season": 4,
+      "defenseSkillIDList": [
+        1020904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.7
+      },
+      "defCorrection": -1,
+      "minSpeedList": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1020901,
+          "number": 3
+        },
+        {
+          "skillId": 1020902,
+          "number": 2
+        },
+        {
+          "skillId": 1020903,
           "number": 1
         }
       ]

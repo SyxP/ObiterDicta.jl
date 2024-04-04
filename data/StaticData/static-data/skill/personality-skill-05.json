@@ -2004,8 +2004,8 @@
                 "buffKeyword": "Vibration",
                 "target": "",
                 "buffOwner": "Target",
-                "stack": 5,
-                "turn": 0,
+                "stack": 0,
+                "turn": 5,
                 "activeRound": 0,
                 "value": 2
               }
@@ -2136,8 +2136,8 @@
                 "buffKeyword": "Vibration",
                 "target": "",
                 "buffOwner": "Target",
-                "stack": 7,
-                "turn": 0,
+                "stack": 0,
+                "turn": 7,
                 "activeRound": 0,
                 "value": 1
               }
@@ -2276,8 +2276,8 @@
                 "buffKeyword": "Vibration",
                 "target": "",
                 "buffOwner": "Target",
-                "stack": 10,
-                "turn": 0,
+                "stack": 0,
+                "turn": 10,
                 "activeRound": 0,
                 "value": 1
               }

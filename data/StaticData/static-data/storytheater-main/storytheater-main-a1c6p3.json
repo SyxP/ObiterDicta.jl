@@ -18,15 +18,15 @@
         },
         {
           "id": 3,
-          "storyId": "S603A",
+          "storyId": "S603B",
           "nodeId": 10603,
           "stageDetail": "Before"
         },
         {
           "id": 4,
-          "storyId": "S603B",
+          "storyId": "S603A",
           "nodeId": 10603,
-          "stageDetail": "Before"
+          "stageDetail": "After"
         },
         {
           "id": 5,
@@ -146,6 +146,84 @@
           "id": 24,
           "storyId": "S621A",
           "nodeId": 10621,
+          "stageDetail": "After"
+        },
+        {
+          "id": 25,
+          "storyId": "S622B",
+          "nodeId": 10622,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 26,
+          "storyId": "S623A",
+          "nodeId": 10623,
+          "stageDetail": "After"
+        },
+        {
+          "id": 27,
+          "storyId": "S624B",
+          "nodeId": 10624,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 28,
+          "storyId": "S625B",
+          "nodeId": 10625,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 29,
+          "storyId": "S628B",
+          "nodeId": 10628,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 30,
+          "storyId": "S629A",
+          "nodeId": 10629,
+          "stageDetail": "After"
+        },
+        {
+          "id": 31,
+          "storyId": "S630B",
+          "nodeId": 10630,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 32,
+          "storyId": "S631A",
+          "nodeId": 10631,
+          "stageDetail": "After"
+        },
+        {
+          "id": 33,
+          "storyId": "S632B",
+          "nodeId": 10632,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 34,
+          "storyId": "S632A",
+          "nodeId": 10632,
+          "stageDetail": "After"
+        },
+        {
+          "id": 35,
+          "storyId": "S633B",
+          "nodeId": 10633,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 36,
+          "storyId": "S634B",
+          "nodeId": 10634,
+          "stageDetail": "Before"
+        },
+        {
+          "id": 37,
+          "storyId": "S634A",
+          "nodeId": 10634,
           "stageDetail": "After"
         }
       ]

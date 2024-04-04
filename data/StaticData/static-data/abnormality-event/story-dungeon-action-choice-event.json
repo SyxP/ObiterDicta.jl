@@ -1905,7 +1905,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectTarget": "LowestHpAlly",
+                      "resultEffectTarget": "LowestHpRatioAlly_1",
                       "resultEffect": "RecoverHpOnlyUntilMax",
                       "nextBattleID": -1
                     }

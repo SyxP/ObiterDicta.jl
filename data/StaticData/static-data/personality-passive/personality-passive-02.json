@@ -193,6 +193,37 @@
           ]
         }
       ]
+    },
+    {
+      "personalityID": 10209,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1020901
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1020911
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1020921
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1020931
+          ]
+        }
+      ]
     }
   ]
 }

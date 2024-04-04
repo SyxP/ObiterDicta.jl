@@ -523,6 +523,7 @@
         "stack": 1,
         "turn": 0,
         "buffClass": "VolatileBuff",
+        "iconId": "Anger_LowMorale",
         "buffType": "Neutral",
         "canBeDespelled": false,
         "list": [
@@ -552,6 +553,7 @@
         "id": "AaCePbBh",
         "stack": 1,
         "turn": 0,
+        "iconId": "Anger_Panic",
         "buffClass": "VolatileBuff",
         "buffType": "Neutral",
         "canBeDespelled": false,

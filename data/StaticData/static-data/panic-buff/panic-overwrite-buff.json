@@ -42,7 +42,7 @@
         "id": "EchoOfMansion_Sub",
         "iconId": "EchoOfMansion",
         "subIdList": [ "EchoOfMansion" ],
-        "buffClass": "NonvolatileBuff",
+        "buffClass": "ChangePanicTypeBuff",
         "buffType": "Negative",
         "canBeDespelled": true,
         "list": [
@@ -60,10 +60,6 @@
           {
             "ability": "CoinProbAdder",
             "value": -0.1
-          },
-          {
-            "ability": "LoseStackOnRoundEnd",
-            "value": 1
           }
         ]
       }

@@ -1,0 +1,47 @@
+
+
+Issues Identified After April 4th Scheduled Update
+
+Hello, this is Project Moon.
+
+We would like to inform you about the issues that have been identified after the April 4th Scheduled Update.
+
+<Issues>
+1. An issue where the description for Edgar Family Heir Gregor's 'Endless Nightmares' Passive is incorrectly labeled
+- Before : 'Turn Start': gain X Damage Up and X Fragile for every 5 SP difference between Turn Start and last Turn Start. (max 5) Deal +X% more damage for every Sinking Potency on target (max X%)
+- After : 'Combat Start': gain X Damage Up and X Fragile for every 5 SP difference between 'Combat Start' and the last Turn Start. (max 5) Deal +X% more damage for every Sinking Potency on target (max X%)
+
+2. (EN Only) An issue where the 'next turn' conditional is missing from the translation of Edgar Family Heir Gregor's Skill 4 'Nightmare Hunt' Coin 4
+- Before : [On Hit] Absorb 10 Sinking from the target and gain 1 Plus Coin Boost and X Damage Up. 50% chance to gain the above effects without absorbing Sinking
+- After : [On Hit] Absorb 10 Sinking from the target and gain 1 Plus Coin Boost and X Damage Up 'next turn'. 50% chance to gain the above effects without absorbing Sinking
+
+3. An issue where The Middle Little Sister's Defense Skill 'A Just Vengeance' description displays the [Vengeance] tag when it should not
+
+4. An issue where a boss enemy in Stage 6-32 has the incorrect attack priority written in its descriptions
+- Before : Prioritizes targets with the least SP
+- After : Prioritizes a certain character
+
+We plan to deploy a hotfix for these issues around 18:30(KST) today.
+
+The hotfix does not require a separate update; restarting the game will deploy the fixes. However, do note that the hotfix will require additional in-game downloads.
+
+We will inform you via an additional notice once the hotfix is complete.
+
+We sincerely apologize for the inconvenience.
+
+1/2
+
+PROJECT MOON
+Apr. 4th Scheduled Update Error Compensation
+
+x300
+
+- Compensation: Lunacy x300
+- Recipients: All users whose accounts were created before Apr. 11th 2024 10:00
+- Can be claimed once per account
+- When: After Apr. 4th 2024 (KST) 18:30
+
+2/2
+
+PROJECT MOON
+

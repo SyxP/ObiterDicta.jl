@@ -1,0 +1,100 @@
+
+
+
+
+April 11th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Apr. 11th, 2024 (KST). Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+Please refer below for details about the update.
+
+New Content
+
+1. Gradual Main Story & Battle Pass Updates
+Main Story Canto 6-(Part 3) and Season 4 Limbus Pass-Clear All Cathy (Part 3) Unlocked
+
+2. EXP Luxcavation #6 Unlocked
+- Unlock Conditions : Clear Stage 6-34
+
+3. New Season 4 Limbus Pass Package Banner added
+► How to obtain the new banner
+- If you purchased the package before the April. 11th Scheduled Update: You will receive the new banner via the in-game Inbox.
+- If you purchase the package after the April. 11th Scheduled Update: The new banner will beincluded in the Season 4 Limbus Pass Package, alongside the preexisting banner.
+
+1/4
+
+PROJECT MOON
+LIMBUS COMPANY
+
+Major Changes
+
+1. Risk Levels and Classifications
+- Affected Subjects: Distortions and Peccatula
+
+Bug Fixes & Improvements
+
+▶ Fixed an issue where certain red dots (new item markers) in Ticket Deco did not disappear upon viewing
+
+▶ (EN Only) Improved the description for 'Echoes of the Manor' Buff
+- Before: This effect is not cumulative; inflicting it will replace the current value with the inflicted value.
+- After: This effect is not cumulative; inflicting it will replace the current value with the inflicted value if the inflicted value is greater.
+
+▶ (EN Only) Fixed an issue where a certain choice results in Stage 6-34 displayed words with incorrect syntax
+
+▶ (EN Only) Sloth Peccatulum name changed
+The translation for the Sloth Peccatulum has been changed to be consistent with the Limbus Company logo and the intent of the original language.
+- Before: Peccatulum Acediae
+- After: Peccatulum Pigritiae
+
+▶ Fixed an issue where the boss enemy in Stage 6-31 played incorrect SFX when hitting with its Skill 3 Coin 3
+
+▶ Fixed an issue where R.B. Chef Ryōshū's Skill 3 - "I Can Cook Anything" additional damage worked in reverse due to Offense-Defense Level difference formula error
+
+▶ Fixed an issue where, in certain circumstances, Skills could be infinitely reused against the Faelantern Boss enemy 
+
+▶ Fixed an issue where a certain character had incorrect portrait background colors
+
+▶ (JP Only) Fixed a typo in [Season 4] Ishmael Egoshards
+
+2/4
+
+PROJECT MOON
+Known Issues
+
+▶ An issue where, in a certain Stage of Chapter 6 (Part 3), the lack of memory causes the game to crash
+
+Currently, playing through a certain Stage of Chapter 6 (Part 3) with a device of the minimum RAM requirement (3 GB or less RAM) could cause the game to crash. We recommend playing on a device with 4 GB or more RAM for now.
+We are currently undergoing the optimization process to reduce RAM usage in Combat Encounters; we will notify you via a notice in the future once it is complete.
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 Apr. 18th, 2024 (KST)
+- When: After Apr. 11th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Apr. 18th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

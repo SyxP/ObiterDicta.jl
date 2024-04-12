@@ -1,0 +1,34 @@
+
+Issues Identified after the Apr. 11th
+Scheduled Update & Difficulty Adjustments
+
+Hello, this is Project Moon.
+
+We would like to inform you of the issues that have been identified after the Apr. 11th Scheduled Update and the possibility of difficulty adjustment in Canto 6 <Part 3>
+
+<Known Issues>
+
+An issue where there are missing descriptions for Outis & Heathcliff E.G.O - Binds Corrosion Skills '[Indiscriminate] Targets Randomly' description is missing from these E.G.Os. They will be added.
+
+(EN Only) An Issue where a Keyword in Don Quixote E.G.O - Electric Screaming does not appear
+Before: [Before Attack] Spend up to 20 'Unknown' to deal +5% more damage for every spent Charge Count (max 100%)
+After: [Before Attack] Spend up to 20 'Charge Count' to deal +5% more damage for every spent Charge Count (max 100%)
+
+(EN Only) An Issue where there are translation mistakes for Stage 6-45 (Passives & Choice)
+
+An issue where choosing to hide the UI in the story cutscenes does not hide the text boxes
+
+An issue where Ishmael's Standing Sprite appears blurry
+
+(AOS) An issue where, in Stage 6-48, certain choice image resources aren't loading properly
+
+#1, #2, and #3 will be addressed via a Hotfix after 18:00 (KST) today. The hotfix does not require a separate update; restarting the game will deploy the fixes. However, do note that the hotfix will require additional in-game downloads. We will inform you via a notice as soon as #4, #5, and #6 are corrected.
+
+<Regarding Difficulty Adjustments>
+
+We are currently monitoring the managers' opinions and experiences with Chapter 6 <Part 3>'s difficulty levels. Also, we plan to continue reviewing and testing Chapter 6 <Part 3>'s difficulty levels within our team as well. We will provide you with further information regarding difficulty adjustments (if it will happen, and if so, by how much) before the end of the day tomorrow.
+
+We sincerely apologize for the inconvenience.
+
+PROJECT MOON
+

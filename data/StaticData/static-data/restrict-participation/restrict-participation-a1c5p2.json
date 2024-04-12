@@ -46,6 +46,26 @@
         {
           "id": 10634,
           "mustParticipateIds": [ 7 ]
+        },
+        {
+          "id": 10635,
+          "abstainIds": [ 7 ]
+        },
+        {
+          "id": 10641,
+          "mustParticipateIds": [ 7 ]
+        },
+        {
+          "id": 10644,
+          "mustParticipateIds": [ 7 ]
+        },
+        {
+          "id": 10645,
+          "mustParticipateIds": [ 7 ]
+        },
+        {
+          "id": 10648,
+          "mustParticipateIds": [ 7 ]
         }
       ]
     }

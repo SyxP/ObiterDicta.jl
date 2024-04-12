@@ -108,6 +108,15 @@
       "list": [
 
       ]
+    },
+    {
+      "id": "Switch_Vibration",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
     }
   ]
 }

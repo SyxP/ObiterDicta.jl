@@ -14,7 +14,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 10,
-          "skillLevelCorrection" : 3,
+          "skillLevelCorrection": 3,
           "defaultValue": 15,
           "canTeamKill": false,
           "canDuel": true,
@@ -130,7 +130,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 5,
           "mpUsage": 20,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 19,
           "canTeamKill": false,
           "canDuel": true,
@@ -234,7 +234,7 @@
           "skillTargetType": "RANDOM",
           "targetNum": 5,
           "mpUsage": 20,
-          "skillLevelCorrection" : 0,
+          "skillLevelCorrection": 0,
           "defaultValue": 26,
           "canTeamKill": true,
           "canDuel": true,
@@ -338,7 +338,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 15,
-          "skillLevelCorrection" : -2,
+          "skillLevelCorrection": -2,
           "defaultValue": 15,
           "canTeamKill": false,
           "canDuel": true,
@@ -430,7 +430,7 @@
           "skillTargetType": "RANDOM",
           "targetNum": 1,
           "mpUsage": 15,
-          "skillLevelCorrection" : -2,
+          "skillLevelCorrection": -2,
           "defaultValue": 21,
           "canTeamKill": true,
           "canDuel": true,
@@ -560,7 +560,7 @@
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 20,
-          "skillLevelCorrection" : 2,
+          "skillLevelCorrection": 2,
           "defaultValue": 19,
           "canTeamKill": false,
           "canDuel": true,
@@ -742,7 +742,7 @@
           "skillTargetType": "RANDOM",
           "targetNum": 1,
           "mpUsage": 20,
-          "skillLevelCorrection" : 2,
+          "skillLevelCorrection": 2,
           "defaultValue": 22,
           "canTeamKill": true,
           "canDuel": true,
@@ -1189,6 +1189,309 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110611,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 5,
+          "mpUsage": 10,
+          "skillLevelCorrection": 0,
+          "defaultValue": 20,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            },
+            {
+              "scriptName": "OutisTiedKingMpDmgOnRE10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            },
+            {
+              "scriptName": "OutisTiedKingBSDmgMulUp50"
+            },
+            {
+              "scriptName": "OutisTiedKingMpDmgOnRE9"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            },
+            {
+              "scriptName": "OutisTiedKingBSDmgMulUp100"
+            },
+            {
+              "scriptName": "OutisTiedKingMpDmgOnRE8"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 6,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110621,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 5,
+          "mpUsage": 30,
+          "range": 999,
+          "skillLevelCorrection": 0,
+          "defaultValue": 32,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 14,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            },
+            {
+              "scriptName": "OutisTiedKingBSDmgMulUp50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 14,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "OutisTiedKingAtkWeightAdderWithMax2"
+            },
+            {
+              "scriptName": "OutisTiedKingBSDmgMulUp100"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 14,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 6,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "SwitchVibrationOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "VibrationCrack",
+                    "target": "",
+                    "buffOwner": "Target"
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
                 }
               ]
             }

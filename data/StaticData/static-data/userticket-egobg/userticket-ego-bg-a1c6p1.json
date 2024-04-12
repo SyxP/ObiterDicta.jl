@@ -1,16 +1,13 @@
 {
   "list": [
     {
-      "id": 26,
-      "isSecret": true
+      "id": 26
     },
     {
-      "id": 27,
-      "isSecret": true
+      "id": 27
     },
     {
-      "id": 28,
-      "isSecret": true
+      "id": 28
     }
   ]
 }

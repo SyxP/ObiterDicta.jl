@@ -243,6 +243,30 @@
         }
       ],
       "categoryKeywordList": [ "COMBUSTION" ]
+    },
+    {
+      "id": "ForwardToTheKing",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "ForwardToTheKing_2",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ForwardToTheBoundKing",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "ForwardToTheKing_2",
+          "value": 1
+        }
+      ]
     }
   ]
 }

@@ -97,6 +97,12 @@
       ]
     },
     {
+      "id": 2030611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
       "id": 2040111,
       "requireIDList": [
         "CheckAwakenLevel2"
@@ -163,6 +169,12 @@
       ]
     },
     {
+      "id": 2050611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
       "id": 2060111,
       "requireIDList": [
         "CheckAwakenLevel2"
@@ -218,6 +230,12 @@
     },
     {
       "id": 2070511,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2070611,
       "requireIDList": [
         "CheckAwakenLevel2"
       ]
@@ -338,6 +356,12 @@
     },
     {
       "id": 2110511,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2110611,
       "requireIDList": [
         "CheckAwakenLevel2"
       ]

@@ -1,0 +1,74 @@
+{
+  "chapterId": 9107,
+  "list": [
+    {
+      "id": 910701,
+      "clearCGList": [
+        "BG/Bus_t_backstreet_L"
+
+      ]
+    },
+    {
+      "id": 910702,
+      "clearCGList": [
+        "CG/E505_2_1"
+      ]
+    },
+    {
+      "id": 910703,
+      "clearCGList": [
+        "BG/story_T_back street_fiter"
+      ]
+    },
+    {
+      "id": 910704,
+      "clearCGList": [
+        "CG/E505_3_1",
+        "BG/story_T_back street_fiter",
+        "BG/Bus_t_backstreet_L"
+      ]
+    },
+    {
+      "id": 910706,
+      "clearCGList": [
+        "BG/story_yongjin_front_filter"
+      ]
+    },
+    {
+      "id": 910707,
+      "clearCGList": [
+        "BG/story_yongjin_1f_filter"
+      ]
+    },
+    {
+      "id": 910708,
+      "clearCGList": [
+        "BG/story_yongjin_2f"
+      ]
+    },
+    {
+      "id": 910709,
+      "clearCGList": [
+        "CG/E505_2_2",
+        "BG/story_yongjin_2f"
+      ]
+    },
+    {
+      "id": 910710,
+      "clearCGList": [
+        "BG/story_yongjin_office",
+        "CG/E505_2_4_1",
+        "CG/E505_2_4_2"
+      ]
+    },
+    {
+      "id": 910712,
+      "clearCGList": [
+        "BG/story_satgatkim",
+        "CG/E505_2_3"
+        
+      ]
+    }
+  
+  ]
+}

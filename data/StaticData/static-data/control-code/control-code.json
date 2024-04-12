@@ -62,5 +62,6 @@
   ],
   "isActiveUnlinkAccount": true,
   "isHideOpenMailPopup": false,
-  "isBlockBlackScreenCleaner" : false
+  "isBlockBlackScreenCleaner": false,
+  "isWhUseGc": false
 }

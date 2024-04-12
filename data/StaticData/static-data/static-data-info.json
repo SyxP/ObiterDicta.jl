@@ -4,30 +4,38 @@
     "dataList": [
         {
             "dataClass": "abnormality-event",
+          "fileList": [
+            "abnormality-action-choice-event",
+            "abnormality-personality-choice-event",
+            "abnormality-personality-choice-event-mr2",
+            "abnormality-personality-choice-event-Refraction3",
+            "mirror-dungeon-action-choice-event",
+            "mirror-dungeon-personality-choice-event",
+            "story-dungeon-action-choice-event",
+            "story-dungeon-personality-choice-event",
+            "abnormality-action-choice-event_Refraction2",
+            "abnormality-action-choice-event_Refraction3",
+            "battle-coin-choice-event-a1c5p1",
+            "battle-action-choice-event-a1c5p1",
+            "sdungeon-coin-choice-event-a1c5p1",
+            "sdungeon-action-choice-event-a1c5p1",
+            "battle-coin-choice-event-a1c5p2",
+            "battle-action-choice-event-a1c5p2",
+            "sdungeon-coin-choice-event-a1c5p2",
+            "sdungeon-action-choice-event-a1c5p2",
+            "battle-coin-choice-event-a1c5p3",
+            "battle-action-choice-event-a1c5p3",
+            "battle-action-choice-event-a1c6p3",
+            "sdungeon-coin-choice-event-a1c5p3",
+            "sdungeon-action-choice-event-a1c5p3",
+            "battle-coin-choice-event-a1c6p2",
+            "battle-coin-choice-event-a1c6p3"
+          ]
+        },
+        {
+            "dataClass": "assistant",
             "fileList": [
-                "abnormality-action-choice-event",
-                "abnormality-personality-choice-event",
-                "abnormality-personality-choice-event-mr2",
-                "abnormality-personality-choice-event-Refraction3",
-                "mirror-dungeon-action-choice-event",
-                "mirror-dungeon-personality-choice-event",
-                "story-dungeon-action-choice-event",
-                "story-dungeon-personality-choice-event",
-                "abnormality-action-choice-event_Refraction2",
-                "abnormality-action-choice-event_Refraction3",
-                "battle-coin-choice-event-a1c5p1",
-                "battle-action-choice-event-a1c5p1",
-                "sdungeon-coin-choice-event-a1c5p1",
-                "sdungeon-action-choice-event-a1c5p1",
-                "battle-coin-choice-event-a1c5p2",
-                "battle-action-choice-event-a1c5p2",
-                "sdungeon-coin-choice-event-a1c5p2",
-                "sdungeon-action-choice-event-a1c5p2",
-                "battle-coin-choice-event-a1c5p3",
-                "battle-action-choice-event-a1c5p3",
-                "sdungeon-coin-choice-event-a1c5p3",
-                "sdungeon-action-choice-event-a1c5p3",
-                "battle-coin-choice-event-a1c6p2"
+                "assistant"
             ]
         },
         {
@@ -46,7 +54,8 @@
             "abnormality-part-a1c951",
             "abnormality-part-event1",
             "abnormality-part-ycgd",
-            "abnormality-part-a1c6p2"
+            "abnormality-part-a1c6p2",
+            "abnormality-part-a1c6p3"
           ]
         },
         {
@@ -65,7 +74,8 @@
             "abnormality-unit-a1c951",
             "abnormality-unit-event1",
             "abnormality-unit-ycgd",
-            "abnormality-unit-a1c6p2"
+            "abnormality-unit-a1c6p2",
+            "abnormality-unit-a1c6p3"
           ]
         },
         {
@@ -104,16 +114,18 @@
             "buff-enemy-ycgd",
             "buff-enemy-a1c6p1",
             "buff-enemy-a1c6p2",
+            "buff-enemy-a1c6p3",
             "special-buff"
           ]
         },
         {
             "dataClass": "panic-buff",
-            "fileList": [
-              "panic-buff",
-              "panic-buff-a1c6p1",
-              "panic-buff-a1c6p2",
-              "panic-overwrite-buff"
+          "fileList": [
+            "panic-buff",
+            "panic-buff-a1c6p1",
+            "panic-buff-a1c6p2",
+            "panic-buff-a1c6p3",
+            "panic-overwrite-buff"
           ]
         },
         {
@@ -126,7 +138,7 @@
         {
             "dataClass": "part",
             "fileList": [
-                "part-a1c6p2"
+                "part-a1c6p3"
             ]
         },
         {
@@ -157,8 +169,7 @@
                 "ego-11",
                 "ego-12",
                 "ego-a1c5p2",
-                "ego-a1c5p3",
-                "ego-a1c6p2"
+                "ego-a1c5p3"
             ]
         },
         {
@@ -195,7 +206,8 @@
             "enemy-event1",
             "enemy-ycgd",
             "enemy-a1c6p1",
-            "enemy-a1c6p2"
+            "enemy-a1c6p2",
+            "enemy-a1c6p3"
           ]
         },
         {
@@ -250,6 +262,7 @@
             "dataClass": "passive",
           "fileList": [
             "passive",
+            "passive-assistant",
             "passive-mr2",
             "passive_check4",
             "passive-ego",
@@ -259,6 +272,7 @@
             "passive-enemy-a1c951",
             "passive-enemy-a1c6p1",
             "passive-enemy-a1c6p2",
+            "passive-enemy-a1c6p3",
             "passive-enemy-event1",
             "passive-enemy-refraction3",
             "passive-enemy-ycgd"
@@ -302,6 +316,7 @@
             "dataClass": "skill",
           "fileList": [
             "abnormality-skill",
+            "assistant-skill",
             "abnormality-skill91-4",
             "abnormality-refraction-skill",
             "abnormality-refraction2-skill",
@@ -349,7 +364,10 @@
             "skill-abnormality-ycgd",
             "skill-enemy-a1c6p1",
             "skill-enemy-a1c6p2",
-            "skill-abnormality-a1c6p2"
+            "skill-enemy-a1c6p3",
+            "skill-abnormality-a1c6p2",
+            "skill-abnormality-a1c6p3",
+            "ego-skill-a1c6p3"
           ]
         },
         {
@@ -370,7 +388,8 @@
             "storybattle-event1",
             "storybattle-ycgd",
             "storybattle-a1c6p1",
-            "storybattle-a1c6p2"
+            "storybattle-a1c6p2",
+            "storybattle-a1c6p3"
           ]
         },
         {
@@ -433,14 +452,16 @@
                 "stagenodereward91-6",
                 "stagenodereward91-7",
                 "stagenodereward-a1c6p1",
-                "stagenodereward-a1c6p2"
+                "stagenodereward-a1c6p2",
+                "stagenodereward-a1c6p3"
             ]
         },
         {
             "dataClass": "story",
             "fileList": [
                 "story",
-                "story-a1c6p1"
+                "story-a1c6p1",
+                "story-a1c6p3"
             ]
         },
         {
@@ -556,7 +577,7 @@
                 "battlepass",
                 "battlepass-2",
                 "battlepass-3-a1c5",
-                "battlepass-4-a1c6p2"
+                "battlepass-4-a1c6p3"
             ]
         },
         {
@@ -777,7 +798,7 @@
             "fileList": [
                 "stage-progress-reward",
                 "stage-progress-reward-a1c5p3",
-                "stage-progress-reward-a1c6p2"
+                "stage-progress-reward-a1c6p3"
             ]
         },
         {
@@ -793,39 +814,14 @@
             ]
         },
         {
-            "dataClass": "loadingCG-stage",
-            "fileList": [
-                "loadingCG-stage_100",
-                "loadingCG-stage_101",
-                "loadingCG-stage_102",
-                "loadingCG-stage_103",
-                "loadingCG-stage_9103",
-                "loadingCG-stage_104",
-                "loadingCG-stage_9104",
-                "loadingCG-stage_105",
-                "loadingCG-stage_9105",
-                "loadingCG-stage_9107"
-            ]
-        },
-        {
-            "dataClass": "loadingCG-dungeon",
-            "fileList": [
-                "loadingCG-dungeon_101",
-                "loadingCG-dungeon_102",
-                "loadingCG-dungeon_103",
-                "loadingCG-dungeon_104",
-                "loadingCG-dungeon_9103",
-                "loadingCG-dungeon_105"
-            ]
-        },
-        {
             "dataClass": "credits-ui",
             "fileList": [
                 "credits_101",
                 "credits_102",
                 "credits_103",
                 "credits_104",
-                "credits_105"
+                "credits_105",
+                "credits_106"
             ]
         },
         {
@@ -851,14 +847,16 @@
             "dataClass": "exp-dungeon",
             "fileList": [
                 "exp-dungeon-01",
-                "exp-dungeon-02-a1c5p1"
+                "exp-dungeon-02-a1c5p1",
+                "exp-dungeon-03-a1c6p3"
             ]
         },
         {
             "dataClass": "battle-exp-dungeon",
             "fileList": [
                 "battle-exp-dungeon-01",
-                "battle-exp-dungeon-02"
+                "battle-exp-dungeon-02",
+                "battle-exp-dungeon-03-a1c6p3"
             ]
         },
         {
@@ -951,7 +949,7 @@
             "fileList": [
                 "subchapter-detail",
                 "subchapter-detail-a1c5p3",
-                "subchapter-detail-a1c6p2"
+                "subchapter-detail-a1c6p3"
             ]
         },
         {
@@ -977,7 +975,8 @@
             "fileList": [
                 "main-stage-map-setting",
                 "main-stage-map-setting-a1c5p1",
-                "main-stage-map-setting-a1c6p1"
+                "main-stage-map-setting-a1c6p1",
+                "main-stage-map-setting-a1c6p3"
             ]
         },
         {
@@ -1076,7 +1075,8 @@
         {
             "dataClass": "unlockcode",
             "fileList": [
-                "unlockcode-subchapter"
+                "unlockcode-subchapter",
+                "unlockcode-a1c6p3"
             ]
         },
         {
@@ -1107,6 +1107,24 @@
           "dataClass": "scenario-asset",
           "fileList": [
             "ScenarioModelCodeAddressable"
+          ]
+        },
+        {
+          "dataClass": "dante-ability",
+          "fileList": [
+              "dante-ability-a1c6p3"
+          ]
+        },
+        {
+          "dataClass": "levelnumber-adjust",
+          "fileList": [
+            "levelnumber-adjust"
+          ]
+        },
+        {
+          "dataClass": "loading-cg-exception",
+          "fileList": [
+            "loading-cg-exception"
           ]
         }
     ]

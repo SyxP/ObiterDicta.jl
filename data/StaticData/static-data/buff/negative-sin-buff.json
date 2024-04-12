@@ -88,6 +88,21 @@
         }
       ],
       "categoryKeywordList": [ "SIN", "VIBRATION" ]
+    },
+    {
+      "id": "VibrationCrack",
+      "subIdList": [ "Vibration" ],
+      "buffClass": "SinBuff",
+      "attributeType": "AMBER",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "Crack",
+          "value": 1
+        }
+      ],
+      "categoryKeywordList": [ "SIN", "VIBRATION" ]
     }
   ]
 }

@@ -1,0 +1,120 @@
+{
+  "chapterId": 105,
+  "list": [
+    {
+      "id": 10502,
+      "clearCGList": [
+        "BG/story_stomach_1"
+      ]
+    },
+    {
+      "id": 10505,
+      "clearCGList": [
+        "BG/story_stomach_2",
+        "CG/S529_1"
+      ]
+    },
+    {
+      "id": 10507,
+      "clearCGList": [
+        "BG/story_pequodtown resize copy",
+        "CG/S529_1"
+      ]
+    },
+    {
+      "id": 10510,
+      "clearCGList": [
+        "BG/story_ahaboffice",
+        "CG/S529_1"
+      ]
+    },
+    {
+      "id": 10511,
+      "clearCGList": [
+        "BG/story_ahaboffice",
+        "CG/S527_2"
+      ]
+    },
+    {
+      "id": 10512,
+      "clearCGList": [
+        "BG/story_pequodtown resize copy",
+        "CG/S527_2"
+      ]
+    },
+    {
+      "id": 10515,
+      "clearCGList": [
+        "BG/story_heart_1",
+        "BG/story_pequod_v1",
+        "CG/S526"
+      ]
+    },
+    {
+      "id": 10520,
+      "clearCGList": [
+        "BG/story_heart_1",
+        "BG/story_ishmael_room",
+        "BG/story_pequod",
+        "CG/S528",
+        "CG/S530_1",
+        "CG/S530_2"
+      ]
+    },
+    {
+      "id": 10523,
+      "clearCGList": [
+        "BG/story_heart_2_v1",
+        "BG/story_pequod_v2",
+        "CG/S531_1",
+        "CG/S532_3"
+      ]
+    },
+    {
+      "id": 10526,
+      "clearCGList": [
+        "BG/story_pequod_v1",
+        "BG/story_heart_2_v1" ,
+        "CG/S531_1",
+        "CG/S532_3"
+
+      ]
+    },
+    {
+      "id": 10533,
+      "clearCGList": [
+        "BG/story_heart_3",
+        "CG/S536"
+   
+      ]
+    },
+    {
+      "id": 10534,
+      "clearCGList": [
+        "BG/story_heart_3_v1",
+        "CG/S536"
+     
+      ]
+    },
+    {
+      "id": 10536,
+      "clearCGList": [
+        "BG/story_depths_heart"
+
+      
+ 
+      ]
+    },
+    {
+      "id": 10538,
+      "clearCGList": [
+        "BG/story_depths_heart",
+        "BG/story_depths_heart_gaslight_off",
+        "BG/story_boat_sunset",
+        "CG/S543_2"
+ 
+      ]
+    }
+
+  ]
+}

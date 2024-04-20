@@ -91,7 +91,8 @@ For Mirror Dungeon, as the content may be revamp in the near future, may require
 
 ### Known Bugs/Specific Requested Features
 
-1. Let Damage Type be localized
+1. Announcer List is incomplete.
+2. Let Damage Type be localized.
 
 ### Immediate Upcoming Plans
 

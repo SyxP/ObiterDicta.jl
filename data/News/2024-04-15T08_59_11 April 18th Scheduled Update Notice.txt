@@ -1,0 +1,195 @@
+
+
+
+
+
+April 18th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Apr. 18th, 2024 (KST).
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+New Content
+
+1. New Target Extraction - [New Target Extraction: Edgar Family Chief Butler Ryōshū & Butler Ishmael]
+(Apr. 18th 12:00 ~ May 2nd 10:00 (KST))
+Extraction rate increases for the following Identities
+- 3★: Edgar Family Chief Butler Ryōshū
+- 2★: Edgar Family Butler Ishmael
+
+2. Target Extraction - [Target Extraction: Heathcliff]
+(Apr. 18th 12:00 ~ May 2nd 10:00 (KST))
+The following Identities and E.G.O will have increased odds of extraction.
+- E.G.O [HE] : Ya Śūnyatā Tad Rūpam Heathcliff
+- 3★: Oufi South Section 3 Heathcliff, The Pequod Harpooneer Heathcliff, Lobotomy E.G.O.::Sunshower Heathcliff, R Corp. 4th Pack Rabbit Heathcliff
+- 2★: Seven South Section 4 Heathcliff, N Corp. Kleinhammer Heathcliff, Shi South Section 5 Heathcliff
+- 1★: LCB Sinner Heathcliff
+
+3. New Identities Added
+The following Identities are added to the list of extractable Identities.
+- 3★: Edgar Family Chief Butler Ryōshū
+- 2★: Edgar Family Butler Ishmael
+
+4. (Android, STEAM) Coupon Code Input UI Added
+※ Please note that this function is currently not active; you cannot input codes to receive rewards yet.
+We will notify you again when it becomes active.
+
+1/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue where Don Quixote E.G.O
+- Electric Screaming - Corrosion Skill did not work properly
+- Before : [Before Attack] At less than 20 Charge Count, spend 1.5% (this is supposed to be 1%) of this unit's Max HP per missing Charge Count to raise Charge Count to 20
+- After : [Before Attack] At less than 20 Charge Count, spend 1% of this unit's Max HP per missing Charge Count to raise Charge Count to 20
+
+► An issue where Outis E.G.O - Binds Coin effect 'Tremor - Fracture' does not work as intended
+- Before : The Count does not decrease after Turn End
+- After : The Count decreases by 1 after Turn End
+
+► Fixed an issue where Heathcliff E.G.O - Binds effects 'Before the King' and 'Before the King in Binds' did not work as intended
+※ Please refer to the [Heathcliff Binds E.G.O Error Notice] posted April 12th for more details.
+
+► Fixed an issue where raising the 'Breaking Heart' debuff to 3 value using the 'Lightning of Suffering' did not activate the Stagger effect
+
+► Adjusted Stage 6-48 Boss Pattern
+- Before : Boss Speed fixed to 7 during a certain Pattern
+- After : Boss Speed is no longer fixed
+
+► Fixed an issue where N Corp. Kleinhammer Heathcliff was missing a certain voiceline
+
+2/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ (EN Only) Fixed typos & translation mistakes
+    (1) Parts of Chapter 6 <Part 3> Main Story texts
+
+(2) Outis E.G.O - To Pathos Mathos Threadspinning Tier 4 Coin effect
+- Before : [On Kill] Give 1 Attack Power Up to a random ally next turn
+- After : [On Kill] Give 1 Damage Up to a random ally next turn
+
+(3) Missing Skill description on Stage 6-45 enemy
+- Where : Currently, the description appears as '!'
+- Missing Desc : [On Use] If this unit’s Speed
+is faster than the target’s, Clash Power +2
+
+(4) Outis E.G.O - Binds - Awakening Skill description corrected
+- Before : [After Attack] For the next 3 turns, lose 8 SP at every Turn End
+- After : [After Attack] For 3 turns, lose 8 SP at Turn End
+
+(5) Missing Skill description on Stage 6-48 enemy
+- Before : [On Use] Apply 3 Attack Power Up and 3
+Damage Up to all allies, including this unit
+- After : [On Use] Apply 3 Attack Power Up and 3
+Damage Up to all allies, including this unit next turn
+
+▶ (EN Only) Fixed an issue where a certain
+scene does not play as intended in 6-48
+
+▶ Fixed an issue where certain texts don't appear at intended timings
+
+▶ (JP Only) Fixed translation mistakes in parts of Chapter 6 <Part 3> Main Story scenes
+
+▶ Fixed an issue where Don Quixote E.G.O -
+Electric Screaming Awakening did not end at an intended timing
+
+▶ Fixed an issue where a certain VFX for Wuthering Heights
+Chief Butler Outis Skill - As Mistress Commands appeared at
+an incorrect location
+
+▶ Fixed an issue where Dieci South Section 4
+Hong Lu's Sprite VFX did not disappear
+
+▶ Announcer dialogue window improved: Now, when the text is too
+long for the dialogue box, the box size will be adjusted accordingly
+
+▶ (Steam) Fixed an issue where, under certain conditions,
+the selection cursor did not appear in Focused Encounters when
+attempting to chain Clashes
+
+3/5
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶ Fixed an issue where the defensive 
+Skill icons lingered over the Sinners' portraits
+
+▶ Fixed an issue where moving from 'Edit Support Units' UI in the 
+Manager Info-Company tab to 'Inventory' or 
+'Shard::Thread Exchange' caused the screen to work incorrectly
+
+▶ Fixed an issue where the dialogue box lingered 
+even after choosing to hide the UI in Story mode
+
+▶ Fixed an issue where, in the Refraction Railway, choosing to 
+continue after the first party wipe caused the combat to softlock
+
+▶ Fixed an issue where, in certain Story scenes, 
+the Autoplay function stops working
+
+▶ Fixed an issue where Sinner Ishmael's 
+standing illustration appeared blurry
+
+▶ Fixed an issue where the Main Identity Illustration 
+switching popup window was inconsistently arranged
+
+▶ Fixed an issue where Stage 6-46 Story 
+scene showed incorrect Location
+
+▶ An issue where, in Stage 6-44, 
+post-Stage clear cutscene displays incorrect Sin colors 
+- Before: Gloom
+- After: Pride
+
+Known Issues
+
+▶ An issue where only the text for the Stage 6-45 EX Clear conditions, 
+which was adjusted with the April 12th, 2024 Hotfix, was changed 
+and the actual EX Clear conditions did not change
+- Cause: The condition data was corrected, 
+but the Hotfix contents were not actually applied to the server.
+
+The above issue will be corrected as soon as they are applied 
+to the server after 18:00 (KST) Today. No additional 
+downloads or updates will occur.
+
+We sincerely apologize for the inconvenience.
+
+4/5
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content : Lunacy x300
+- Recipients : All users whose game accounts were created before 10:00 Apr. 25th, 2024 (KST)
+- When : After Apr. 18th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until Apr. 25th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+5/5
+
+PROJECT MOON
+

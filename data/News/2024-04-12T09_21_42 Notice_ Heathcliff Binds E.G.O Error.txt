@@ -1,0 +1,85 @@
+
+
+
+
+Notice: Heathcliff Binds E.G.O Error
+
+Hello, this is Project Moon.
+
+We would like to inform you that errors with Heathcliff's Binds E.G.O have been identified, specifically regarding buffs 'Before the King' and 'Before the King in Binds'. Currently, the intent, the actual effects, and the in-game description of the said effects are misaligned, so we intend to correct them. First, we would like to sincerely apologize to all managers who own the Heathcliff Binds E.G.O.
+
+Below are the details of the error, how it came about, and our planned measures to address it.
+
+'Before the King in Binds' Error Example
+
+When dealing 80 damage using a Pierce Pride Skill with a Coin value of 20 against Unit A with Pierce & Pride Fatal(x2) Resistances:
+
+- Intended effect: Inflict 20 damage only when there is a different enemy Unit B with lower HP → Actually dealt damage will fluctuate depending on Unit B's own Resistance values
+- Actual effect: Inflict 20 damage to Unit A even when Unit A is the only enemy Unit on the field → Actually dealt damage, after taking into account Unit A's Resistances, is dealt as additional damage
+- In-game description: Inflict 80 damage (the same damage initially dealt against Unit A after the Resistance values are calculated) even when Unit A is the only enemy Unit on the field → Actually dealt damage, after taking into account Unit A's Resistances, is dealt as 320 additional damage
+
+The initial intent of 'Before the King' and 'Before the King in Binds' effects was 'Increased Atk Weight'. However, there were too many technical exceptions to make if we were to make it an 'Increased Atk Weight' buff, which meant that Heathcliff's every Identity and E.G.O would have to be reviewed and these effects taken into account when testing and planning them. Therefore, we decided to change the effects so that when attacking with a Skill of 1 Atk Weight, it would inflict additional damage of the corresponding damage to a different, non-targeted enemy. Also, if it were to inflict additional damage equal to the damage dealt by the Skill itself, it ran the risk of inflating the final damage dealt due to going through multiple Resistance values. This meant that the damage could drop or rise exponentially, so we intended to have these buffs inflict additional damage equal to the Coin value, not the damage dealt.
+
+However, we inputted incorrect description texts in the process of applying these changes, which were then incorrectly communicated to our developers and testers. This led to disparities between the intended effects, actual effects, and the in-game texts for 'Before the King' and 'Before the King in Binds'.
+
+1/4
+
+PROJECT MOON
+Notice: Heathcliff Binds E.G.O Error
+
+Adjusting the actual effects to match the incorrect in-game texts runs the risk of dealing too much additional damage to a single target; this could negatively effect balancing in the future, and would be too strong of a variable to consider. So we have decided to, regrettably, correct the in-game descriptions and effects.
+Again, we sincerely apologize to all Managers who own theHeathcliff Binds E.G.O.
+
+To prevent similar issues from occurring in the future, we will make sure to form a proper pipeline for delivering the original intent to the developers and the testers, and form a process to verify the planning/production intent during the development & testing phase. We will make sure to proofread with greater attention to detail so that no additional errors for in-game texts will occur.
+
+After the April 18th Scheduled Update, the effects of ‘Before the King’ and ‘Before the King in Binds’ will be changed as follows.
+After the update, your Threadspinning Tier for the Heathcliff Binds E.G.O will be reset, and the currencies you spent to upgrade it will be refunded via the in-game Inbox.
+
+2/4
+
+PROJECT MOON
+Notice: Heathcliff Binds E.G.O Error
+
+▶ ’Before the King’ and ‘Before the King in Binds’ In-game effect/text Correction & E.G.O Threadspinning Reset Notice
+- When: After April 18th (KST) Scheduled Update
+- Before: When this unit's attack with 1 Atk Weight hits, inflict 50/100% of the damage dealt as (Affinity of the Attack Skill used to hit) damage against 2 enemies with the least HP that can be attacked.
+- After: When this unit’s attack with 1 Atk Weight hits, inflict 50/100% of the Final Coin value as (Affinity of the Attack Skill used to hit) damage against 2 other enemies with the least HP that can be attacked.
+- Heathcliff Binds E.G.O Threadspinning Tier will be reset to Tier 1.
+- Currencies spent to upgrade it will be refunded via the in-game inbox.
+
+Because the Binds E.G.O, in its current form, may affect the Refraction Railway clear records, entry to Refraction Railway Line 3 will be restricted until the Apr. 18th Scheduled Update.
+Clear rewards, however, will not be withdrawn as this is an issue caused due to our own mistakes. However, because Clear Records are an important part of the challenge, they will be adjusted as follows.
+All Refraction Railway Line 3 Turn Count records made between April 11th 12:00 (KST) ~ April 12th 19:00 (KST) will be reverted to the previously set Turn Count records before April 11th 12:00 (KST).
+If you have completed the Refraction Railway Line 3 for the first time in that period, because there will be no previous Turn Count records in that case, Refraction Railway Line 3 Banner will be withdrawn as well.
+
+3/4
+
+PROJECT MOON
+Refraction Railway Line 3 Temporary Closure & Reverted Clear Records
+
+► Reverted Clear Records
+- When: With the April 18th (KST) Scheduled Maintenance
+  - Who: All users who cleared Refraction Railway Line 3 after the April 11th 12:00 (KST)
+- If your Refraction Railway Banner has been updated with new turns, they will be reverted to their previous records before April 11th 12:00 (KST)
+- If this is your first Refraction Railway Clear, because there are no previous clear records, your User Banner will be withdrawn.
+  - No other rewards will be withdrawn.
+
+► Refraction Railway Line 3 Temporary Closure
+  - When: After April 12th 19:00 (KST)
+  - Reopening: After April 18th (KST) Scheduled Update
+
+- Please note that any Refraction Railway Line 3 progress remaining after the Line 3 Temporary Closure will be reset after the reopening with the April 18th Scheduled Update.
+
+Heathcliff Binds E.G.O Effect Error Compensation
+
+x500
+
+Compensation: Lunacy x500
+Recipients: All users whose accounts were created before April 18th 2024 10:00
+Can be claimed once per account
+When: After April 12th 2024, 19:00 (KST)
+
+4/4
+
+PROJECT MOON
+

@@ -1,0 +1,93 @@
+
+
+Edgar Family Chief Butler - Ryoshu
+
+SKILL 1
+Receiving Arts 1: The Hunt
+- If this unit's Speed is faster than the target's, gain Clash Power for every X Speed difference [On Use] Gain Poise Count
+
+I. [On Hit] Gain Poise Count
+II. [On Hit] Inflict B.M.
+
+SKILL 2
+Receiving Arts 7: Capture
+- If this unit's Speed is faster than the main target's, gain Clash Power for every X Speed difference [Combat Start] Consume X Poise Count on self to gain Atk Weight for this Skill
+
+I. [On Hit] Gain Poise
+II. [On Crit] Inflict B.M.
+III. [On Hit] Inflict B.M.
+
+SKILL 3
+Receiving Arts 2: Snipe
+- Gain Clash Power if the target has B.M. If this unit's Speed is faster than the main target's, gain Coin Power for every X Speed difference [On Use] Gain Poise Count
+
+I. [On Hit] Gain Poise
+II. [On Hit] Inflict Bind next turn
+III. [On Hit] Increase the target's Stagger Threshold by X% of the damage dealt
+IV. [On Crit] Inflict B.M.
+
+V. [On Hit] If the target is Staggered, deal +X% more damage on Critical Hit
+
+VI. [On Kill] Reuse Skill once on a random target with B.M.
+
+PASSIVE
+Mediocre
+- [On Evade] Heal SP
+- [On Evade] Gain Poise Count
+
+Clearing Household Chores
+- On Hit against targets with B.M., gain Poise Count; gain Haste next turn
+- On Crit against targets with B.M., eliminate B.M. on target; if this unit's Speed is faster than the target's, deal +X% more damage on Critical Hit for every X Speed difference
+
+SUPPORT PASSIVE
+Cleaning Command
+- When the ally that was deployed last wins a Clash, gain Poise Count; gain Haste next turn
+
+B.M.
+- Enhances certain Chief Butler Ryōshu Skills against targets with this effect
+Edgar Family Butler
+Ishmael
+
+SKILL 1
+Sweeping Redecoration
+If this unit's Speed is faster than the target's, gain Coin Power
+[On Use] Gain Poise Count
+[On Hit] Gain Poise
+II [On Hit] Inflict Sinking
+[On Crit] Gain Haste next turn
+
+SKILL 2
+Housekeeping
+If this unit's Speed is faster than the target's, gain Coin Power
+[On Use] Gain Poise Count
+[Clash Win] Gain Poise
+I [On Hit] Gain Haste next turn
+[On Crit] Inflict Bind next turn
+II [On Hit] Inflict Defense Level Down
+III [On Hit] Inflict Sinking
+
+SKILL 3
+Restraining Technique
+If this unit's Speed is faster than the target's, gain Coin Power
+[On Use] Gain Poise
+I [On Hit] Inflict Sinking Count
+II [On Hit] Inflict Sinking
+III [On Hit] Inflict Sinking
+[On Hit] Inflict Bind next turn
+[On Crit] Inflict Blacklash next turn
+
+DEFENSE
+Evade
+[On Evade] Heal SP
+
+PASSIVE
+Deep Cleaning
+If this unit Critically Hits against targets with slower Speed than this unit's, inflict additional negative effects
+
+SUPPORT PASSIVE
+Loyal Supporter
+When 1 ally with the fastest Speed attacks a target with Sinking, deal more damage for every X Sinking on target
+
+*The Identity's stats at max level and Upite tier are displayed here.
+*This image is for reference only; actual details subject to change.
+

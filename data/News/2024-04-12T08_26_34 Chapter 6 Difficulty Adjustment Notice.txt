@@ -1,0 +1,27 @@
+
+Chapter 6 <Part 3> Difficulty Adjustment Notice
+
+Hello, this is Project Moon.
+
+With the 17:30 (KST) Hotfix, certain Chapter 6 <Part 3> combat Encounters' difficulties will be adjusted. 
+The hotfix does not require a separate update; restarting the game will deploy the fixes. However, do note that the hotfix will require additional in-game downloads.
+
+Please refer to the information below for more details.
+
+■ Adjustments
+- Attack Type & Sin Resistance for certain enemies appearing in Chapter 6 <Part 3> have been weakened.
+- 6-35 Encounter - Certain enemy Skills have been weakened.
+- 6-45 Encounter - Boss HP, Speed, and certain Skills have been weakened.
+- 6-45 Encounter - Boss HP has been lowered.
+- 6-45 Encounter - EX Clear condition has been adjusted to 15 turns.
+- 6-48 Encounter - Boss HP, Speed, and Skills have been weakened.
+
+We will make note of this experience to better plan our future combat Encounters, so that the difficulty will be more appropriate.
+
+Also, we are constantly monitoring every issue that has been identified after the April 11th Scheduled Update. 
+We will inform you via future notices as soon as they are corrected.
+
+We sincerely apologize for the inconvenience.
+
+PROJECT MOON
+

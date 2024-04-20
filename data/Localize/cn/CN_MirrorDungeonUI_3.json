@@ -62,7 +62,7 @@
     },
     {
       "id": "mirror_dungeon3_current_explore",
-      "content": "探索现状"
+      "content": "探索状态"
     },
     {
       "id": "mirror_dungeon3_entrance_button_formation",
@@ -130,7 +130,7 @@
     },
     {
       "id": "mirror_dungeon_progress_text_before",
-      "content": "入场前"
+      "content": "未入场"
     },
     {
       "id": "mirror_dungeon_progress_text_3_normal",

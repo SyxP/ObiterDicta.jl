@@ -594,7 +594,7 @@
     },
     {
       "id": "Ahab_NotTarget_Onece",
-      "content": "我真正的目标是……"
+      "content": "我真正该瞄准的是……"
     },
     {
       "id": "Ahab_NotTarget_Twice",
@@ -651,6 +651,18 @@
     {
       "id": "applying_buff_format",
       "content": "{0}激活"
+    },
+    {
+      "id": "level_number_UNDEF",
+      "content": "未定"
+    },
+    {
+      "id": "level_number_HYPHEN",
+      "content": "-"
+    },
+    {
+      "id": "received_the_golden_bough_undecided",
+      "content": "？"
     }
   ]
 }

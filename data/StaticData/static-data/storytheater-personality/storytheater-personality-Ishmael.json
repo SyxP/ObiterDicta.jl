@@ -119,6 +119,21 @@
           ],
           "profileId": "ahab_ishmael_profile",
           "analysisId": "ahab_ishmael_analysis"
+        },
+        {
+          "personalityId": 10809,
+          "releaseDay": 20240418,
+          "cv_Id": "",
+          "personalityStoryList": [
+            {
+              "storyId": "P10809",
+              "lockCondition": "gacksung",
+              "order": 6,
+              "reward": {"type": "ITEM", "id": 2, "num": 40}
+            }
+          ],
+          "profileId": "butler_ishmael_profile",
+          "analysisId": "butler_ishmael_analysis"
         }
         ]
     }

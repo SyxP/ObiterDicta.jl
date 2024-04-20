@@ -3244,7 +3244,7 @@
               "scriptName": "AddTauntOnUse5"
             },
             {
-              "scriptName": "CoinScaleAdderViaBuffCheck",
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
                 "buffKeyword": "Burst",
                 "target": "Target",

@@ -104,7 +104,22 @@
             ],
             "profileId": "liu_ryoshu_profile",
             "analysisId": "liu_ryoshu_analysis"
-          }        
+          },
+          {
+            "personalityId": 10408,
+            "releaseDay": 20240418,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P10408",
+                "lockCondition": "gacksung",
+                "order": 5,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "butler_ryoshu_profile",
+            "analysisId": "butler_ryoshu_analysis"
+          }
         ]
     }
   ]

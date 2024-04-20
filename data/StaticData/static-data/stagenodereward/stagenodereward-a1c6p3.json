@@ -149,7 +149,8 @@
                     "id": 2,
                     "num": 40
                 }
-            ]
+            ],
+            "exclearConditionTurnCount": 15
         },
         {
             "nodeid": 10646,

@@ -98,6 +98,10 @@
       "canBeDespelled": true,
       "list": [
         {
+          "ability": "LoseTurnOnRoundEnd",
+          "value": 1
+        },
+        {
           "ability": "Crack",
           "value": 1
         }

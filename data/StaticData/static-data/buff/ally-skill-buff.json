@@ -267,6 +267,19 @@
           "value": 1
         }
       ]
+    },
+    {
+      "id": "MarkOfButler",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "maxStack": 3,
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "LoseStackOnRoundEnd",
+          "value": 1
+        }
+      ]
     }
   ]
 }

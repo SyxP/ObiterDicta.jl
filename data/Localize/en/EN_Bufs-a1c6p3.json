@@ -10,7 +10,7 @@
     {
       "id": "AaCfPcBf",
       "name": "Fettered Woe",
-      "desc": "Under a certain condition, and at 3+ Value, all Parts become Staggered next turn.\nExpires after applying 3 Fragile to the Chain Part",
+      "desc": "Under a certain condition, and at 3+ Value at Turn End, all Parts become Staggered next turn.\nExpires after applying 3 Fragile to the Chain Part",
       "summary": "",
       "undefined": "-"
     },

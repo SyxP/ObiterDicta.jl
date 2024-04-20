@@ -2809,6 +2809,13 @@
       "nameTagColor": "#221f34",
       "nameFontColor": "#d6001e"
       
+    },
+    {
+      "name": "마왕히스클리프4",
+      "fileName": "Empty",
+      "nameTagColor": "#4B088A",
+      "nameFontColor": "#d0a94b",
+      "portraitSpritePath": "StoryLog_None_Extra"
     }
   ]
 }

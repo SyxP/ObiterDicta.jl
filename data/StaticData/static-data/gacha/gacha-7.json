@@ -60,7 +60,8 @@
           "elementType": "PERSONALITY",
           "elementIdList": [
             10209,
-            10509
+            10509,
+            10809
           ]
         },
         {
@@ -77,6 +78,7 @@
           ],
           "elementType": "PERSONALITY",
           "elementIdList": [
+            10408,
             11108,
             11209
           ]

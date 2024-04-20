@@ -706,6 +706,106 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 10408,
+      "appearance": "10408_Ryoshu_NellyAppearance",
+      "associationList": [ "LINTON" ],
+      "unitKeywordList": [ "BUTLER" ],
+      "characterId": 4,
+      "panicType": 9999,
+      "season": 4,
+      "defenseSkillIDList": [
+        1040804
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 70,
+        "incrementByLevel": 2.4
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1040801,
+          "number": 3
+        },
+        {
+          "skillId": 1040802,
+          "number": 2
+        },
+        {
+          "skillId": 1040803,
+          "number": 1
+        }
+      ]
     }
   ]
 }

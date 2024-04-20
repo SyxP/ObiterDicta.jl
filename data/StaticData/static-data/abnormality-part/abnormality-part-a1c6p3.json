@@ -124,15 +124,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.8
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -146,11 +146,11 @@
           },
           {
             "type": "AMBER",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "SHAMROCK",
-            "value": 0.5
+            "value": 1
           },
           {
             "type": "AZURE",
@@ -216,15 +216,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -311,15 +311,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -404,15 +404,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -499,15 +499,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -567,8 +567,8 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 866,
-        "incrementByLevel": 29.86
+        "defaultStat": 700,
+        "incrementByLevel": 28
       },
       "defCorrection": 0,
       "minSpeedList": [
@@ -656,7 +656,7 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "defCorrection": 0,
@@ -664,7 +664,7 @@
         2
       ],
       "maxSpeedList": [
-        5
+        4
       ],
       "canUseSkillOnDestroyed": "false",
       "isDestroyable": "false",
@@ -685,15 +685,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.8
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -707,11 +707,11 @@
           },
           {
             "type": "AMBER",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "SHAMROCK",
-            "value": 0.5
+            "value": 1
           },
           {
             "type": "AZURE",
@@ -925,7 +925,7 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "defCorrection": 0,
@@ -933,7 +933,7 @@
         2
       ],
       "maxSpeedList": [
-        5
+        4
       ],
       "canUseSkillOnDestroyed": "false",
       "isDestroyable": "false",
@@ -944,7 +944,7 @@
       "partType": "BODY",
       "breakSection": {
         "sectionList": [
-          75,
+          78,
           45,
           0
         ]
@@ -953,15 +953,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.8
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -975,11 +975,11 @@
           },
           {
             "type": "AMBER",
-            "value": 0.8
+            "value": 1
           },
           {
             "type": "SHAMROCK",
-            "value": 0.5
+            "value": 1
           },
           {
             "type": "AZURE",
@@ -1023,7 +1023,7 @@
         2
       ],
       "maxSpeedList": [
-        5
+        4
       ],
       "canUseSkillOnDestroyed": "false",
       "isDestroyable": "false",
@@ -1040,15 +1040,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "PENETRATE",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 0.8
           }
         ],
         "attributeResistList": [
@@ -1127,15 +1127,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "PENETRATE",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 0.8
           }
         ],
         "attributeResistList": [
@@ -1214,15 +1214,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "PENETRATE",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 0.8
           }
         ],
         "attributeResistList": [
@@ -1302,15 +1302,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "PENETRATE",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 0.8
           }
         ],
         "attributeResistList": [
@@ -1390,15 +1390,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "PENETRATE",
-            "value": 0.5
+            "value": 0.8
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 0.8
           }
         ],
         "attributeResistList": [
@@ -1480,15 +1480,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -1576,15 +1576,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -1671,15 +1671,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [
@@ -1765,15 +1765,15 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 0.9
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 0.9
+            "value": 1
           }
         ],
         "attributeResistList": [

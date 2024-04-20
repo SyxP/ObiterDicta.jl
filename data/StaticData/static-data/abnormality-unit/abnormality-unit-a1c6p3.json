@@ -1950,8 +1950,8 @@
       "classType": "TETH",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 866,
-        "incrementByLevel": 29.86
+        "defaultStat": 700,
+        "incrementByLevel": 28
       },
       "patternID": "8171",
       "phaseIDList": [],
@@ -3350,7 +3350,7 @@
       "classType": "TETH",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "startActionSlotNum": 3,
@@ -3973,7 +3973,7 @@
       "classType": "TETH",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "startActionSlotNum": 3,
@@ -4291,7 +4291,7 @@
       "classType": "TETH",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "startActionSlotNum": 3,
@@ -4681,7 +4681,7 @@
       "classType": "TETH",
       "attributeType": "AZURE",
       "hp": {
-        "defaultStat": 991,
+        "defaultStat": 901,
         "incrementByLevel": 34.17
       },
       "startActionSlotNum": 3,

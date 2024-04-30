@@ -1,0 +1,96 @@
+
+
+
+April 25th Scheduled Update Notice
+
+Greetings, Dear Manager.
+
+The server will enter scheduled maintenance from 10:00 [AM] through 12:00 [PM] on Apr. 25th, 2024 (KST).
+Please make note of the maintenance schedule; we recommend that you refrain from entering combat or making in-app purchases and close the application before maintenance begins so that no data is lost.
+
+Please refer below for details about the update.
+
+New Content
+
+
+1. (Android, STEAM) Coupon Code Input function Added
+You can now input available Coupon Codes to receive corresponding rewards.
+
+※ Coupon Code Input function is unsupported on iOS due to the platform's policies.
+We are currently developing a separate website in which you can enter codes and receive their corresponding rewards.
+We will notify you via an additional notice as soon as it is prepared.
+
+1/3
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+▶︎ (EN, JP Only) Fixed grammatical issues
+in certain Identities' Uptie Stories
+- Edgar Family Chief Butler Ryōshū
+- Edgar Family Butler Ishmael
+
+▶︎ Fixed an issue where Ryōshū E.G.O - Blind Obsession had
+an incorrect activation timing labeled in the description
+(1) Awakening Skill
+- Before : [Turn End] Gain X Poise for every unit defeated by this Skill
+- After : [After Attack] Gain X Poise for every unit defeated by this Skill
+
+(2) Corrosion Skill
+- Before : [Turn End] Gain +X Charge Count
+for every unit defeated by this Skill
+- After : [After Attack] Gain +X Charge Count
+for every unit defeated by this Skill
+
+▶︎ Fixed an issue where the Envy DMG Up targeting algorithm did not
+work properly Meursault E.G.O - Electric Screaming's Awakening Skill
+- Before : 1 other ally with the least Charge Count was not taken into
+consideration when calculating which ally
+to be imbued with Envy DMG Up buff
+- After : 1 other ally with the least Charge Count is now taken
+into consideration when calculating which ally to be
+imbued with Envy DMG Up buff
+
+▶︎ Fixed an issue where the Skill Reuse effect for Edgar Family
+Chief Butler Ryōshū Uptie 4 Skill 'Receiving Arts 2: S.Y.N.C.'
+could activate on enemies without B.M. as well
+
+▶︎ Fixed an issue where the Abnormality - kqe-1j-23
+Skill descriptions lacked certain keywords
+(1) Processing Transfer Reg
+- Relevant Texts : Unclashable, Target Fixed
+
+(2) Pleased to Meet You, Dear Neighbor
+- Relevant Text : Unclashable
+
+2/3
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 May 2nd, 2024 (KST)
+- When: After Apr. 25th, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until May 2nd (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+3/3
+
+PROJECT MOON
+

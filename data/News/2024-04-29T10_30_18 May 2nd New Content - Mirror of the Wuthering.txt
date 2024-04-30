@@ -1,0 +1,474 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 2nd New Content - Mirror of the Wuthering
+
+Greetings, Dear Manager.
+
+The New Content Mirror Dungeon #4 [Mirror of the Wuthering]
+will be added with the May 2nd, 2024 (KST) Update.
+
+▶ Date: After May 2nd (KST) Scheduled Update
+
+▶ Requirements
+- Simulation Difficulty (Formerly ‘Normal’): Clear Main Story 2-19
+- Ritornello Difficulty (Formerly ‘Hard’): Clear Main Story 5-36
+and Mirror of the Wuthering Simulation Difficulty
+
+▶ Recommended ID & E.G.O Levels
+- Ritornello (Hard): ID Level 45; ID Uptie & E.G.O
+Threadspinning Tier 3+; All Starter Buffs activated
+
+※ Playing through the Mirror Dungeon without properly leveled
+Identities & E.G.O may prove to be difficult due to high enemy levels.
+Also, as the Starter Buffs are now reset, your access to certain
+E.G.O Gift types, Enhancements, Cost, and various other stat
+modifiers will no longer be available at the start.
+This means that attempting the Ritornello difficulty without the
+Starter Buffs may feel harder than it used to be when
+compared to the previous Mirror Dungeon.
+We recommend that you meet the recommended ID & E.G.O
+levels and activate the Starter Buffs as much as possible
+before attempting the Ritornello difficulty.
+
+1/14
+
+PROJECT MOON
+NOTES
+
+1. With the introduction of Mirror Dungeon #4 [Mirror of the Wuthering], Mirror Dungeon #3 [Mirror of the Lake] will be closed.
+- Starter Buffs engraved in Mirror Dungeon #3 will be reset.
+- Starlight earned in Mirror Dungeon #3 will be reset.
+- E.G.O Gift Compendium recorded from Mirror Dungeon #3 will not be reset.
+
+2. The unlock condition for Ritornello difficulty has been changed.
+- Before : Clear Main Story Chapter 4
+- After : Clear Main Story Chapter 5
+
+3. Simulation & Ritornello difficulties will be updated simultaneously.
+
+4. Please note that certain Mirror Dungeon #4 enemies & E.G.O Gift balancing may be adjusted in future updates.
+
+5. May 2nd, 2024 (KST) Scheduled Update Maintenance will last from 10:00 ~ 12:00.
+Major changes to Mirror Dungeon systems will be deployed after the Scheduled Update. 
+Therefore, with the end of Scheduled Maintenance at 12:00, your Mirror Dungeon Weekly Bonus Count and your current Mirror Dungeon run progress will be reset.
+
+Rewards for Mirror Dungeon runs that remain incomplete before May 2nd, 10:00 will become inaccessible with the progress reset, so please claim your rewards BEFORE the Scheduled Maintenance begins.
+
+2/14
+
+PROJECT MOON
+Dungeon Entry & Rewards
+
+Entering the dungeon, as it has been previously, does not cost any resources. However, you can spend Enkephalin modules at the end of your exploration to receive rewards.
+
+▶ Major Changes
+
+1. All Weekly Bonuses including the Hard Difficulty Reward, regardless of Simulation(Normal) or Ritornello(Hard), will now be consolidated to ‘3 times per week’.
+Therefore, the rewards for the Ritornello difficulty & reward claim method will be changed accordingly.
+- Before: Using the Hard Difficulty Bonus consumed all of the remaining Normal Difficulty Weekly Bonuses to earn a large amount of rewards at once
+- After: Select how many of 3 Weekly Bonuses to consume at once
+
+After clearing the Ritornello Difficulty, if you have remaining Weekly Bonuses, you can choose how many of the Weekly Bonuses to consume at once.
+Consuming all 3 Weekly Bonuses at once: will net you the same amount of rewards as a Mirror Dungeon #3 run (after using all Weekly Bonuses & Hard Difficulty Reward) used to.
+Consuming 1 Weekly Bonus at a time in 3 separate runs will net you more rewards than a Mirror Dungeon #3 run (after using all Weekly Bonuses & Hard Difficulty Reward) used to.
+- Ritornello Difficulty Pass EXP Reward (after clearing all floors)
+
+Weekly Bonuses Consumption Total Runs Pass EXP Earned
+All 3 Weekly Bonuses at once 1 Run 225 (75 x 3, Same as MD3)
+2 Weekly Bonuses at once, then 1 in the next run 2 Run 230 (75 x 2 + 80)
+1 Weekly Bonus, then 2 Weekly Bonuses at once in the next run 2 Run 235 (75 + 80 x 2)
+1 Weekly Bonus at a time in 3 separate runs 3 Run 250 (75 + 80 + 95)
+
+※ The Simulation(Normal)
+   rewards & rewards claim remain unchanged.
+※ Enkephalin Module cost, Free Lunacy rewards,
+   and Account EXP rewards are unchanged.
+※ If you forfeit the Mirror Dungeon run in the middle of a floor,
+   you will receive rewards based on the floor you last completed,
+   just as was the case in Mirror Dungeon #3.
+
+2. Simulation Difficulty now has 5 floors instead of 4 floors.
+
+3/14
+
+PROJECT MOON
+Starter Buffs
+
+Just as it was in Mirror Dungeon #3, Starter Buffs in Mirror Dungeon #4 are focused on making it easier for you to find E.G.O Gifts for the build you are looking for. Starter Buff activation order has been somewhat adjusted compared to Mirror Dungeon #3, but Mirror Dungeon #3 takes about as many Starlight to activate all Starter Buffs as it did in Mirror Dungeon #3.
+
+With these changes in the [Starting E.G.O Gifts], we have added a new Starter Buff. Upon activating [Eye of the Storm], which is the first Starter Buff that can be activated, you will receive a certain amount of Starlight. We strongly recommend that you use this Starlight to activate the Starter Buffs that unlock your most-used Keyword categories first.
+
+▶ Notes
+1. Just as it was in Mirror Dungeon #3, activating all major Starter Buffs unlocks 'Wish of Stars’
+'Wish of Stars’ allows you to spend your Starlight to activate special buffs for that particular Mirror Dungeon run.
+
+Please note that 'Wish of Stars’ is, unlike the other Starter Buffs, a one-time-use Buff— you will consume Starlight with each use.
+Please take note of this information if you are looking to save up on Starlight.
+
+4/14
+
+PROJECT MOON
+Starting E.G.O Gifts
+
+► Major Changes
+
+1. Starting E.G.O Gifts are now 3 fixed E.G.O Gifts for each Category
+※ Intent: At first, we had a system in which a random E.G.O Gift within a certain category of Keywords would appear as Starting E.G.O Gifts. Our initial intent was to enhance the joy of randomly finding E.G.O Gifts for your current loadout from the get-go. However, we have reviewed several Mirror Dungeon #3 run videos in which players entered the Dungeon only after repeatedly resetting it until certain ideal combinations of E.G.O Gifts for Gift Fusion appeared. We have also noticed that this process seemed to cause a certain degree of frustration, especially when the ideal combination of E.G.O Gifts did not appear even after repeated resets.
+
+Therefore, we plan to fix the E.G.O Gifts appearing in each Category, so that players would not be compelled to reset the Mirror Dungeon over and over again.
+Also, we plan to standardize the value of Starting E.G.O Gifts appearing in each Keyword Category to be within a similar ballpark, so players would have 3 similarly powerful but different E.G.O Gifts to choose from for the early part of the Mirror Dungeon run.
+We apologize to Managers who may be disappointed that powerful Tier 4 E.G.O Gifts can no longer be obtained early in the Mirror Dungeon run.
+
+5/14
+
+PROJECT MOON
+Starting E.G.O Gifts
+
+2. Now that the Starting E.G.O Gifts are no longer random, the ‘Refresh’ option in the Starting E.G.O Gifts will no longer be available.
+
+3. Only the ‘Random’ category will be available when entering the Mirror Dungeon for the first time.
+
+Upon activating ‘Eye of the Storm’, which is the first Starter Buff that can be activated, you will receive a certain amount of Starlight. We recommend unlocking your most-used Keyword category first before entering the Mirror Dungeon.
+
+The following is a list of available Keyword categories.
+
+Preexisting Categories
+Burn, Bleed, Tremor, Rupture, Sinking, Poise, Charge 
+
+New Categories
+Slash, Pierce, Blunt
+
+Notes
+Selecting a different E.G.O Gift Category from the immediately preceding run will net you extra Starlight, as it did in the previous Mirror Dungeon.
+
+6/14
+
+PROJECT MOON
+Creating your TEAM
+
+After selecting your Starting E.G.O Gift, you can choose the Identities to start the Mirror Dungeon run with.
+In the Simulation difficulty, your Identity Levels will be fixed at 45. In the Ritornello difficulty, your actual Identity Levels will be reflected. However, the max level cannot exceed 45(unless with certain bonuses available during the Mirror Dungeon run.)
+
+Your current Uptie & E.G.O Threadspinning Tiers will be reflected in the Mirror Dungeon, just as it was in the previous Mirror Dungeon.
+
+▶ Notes
+1. The conditions for & the amount of starting Cost earned are unchanged.
+(1) Deploying 1★ or 2★ Identities will net you extra starting Cost.
+(2) Deploying Identities that were not deployed once (as in, not even swapped in or out) in the immediately preceding Mirror Dungeon run will net you extra starting Cost. However, Identities swapped in or out in this run will not receive Starting Cost Bonuses in the next Mirror Dungeon run.
+
+2. The conditions for & the amount of extra Starlight from Rest Bonuses are unchanged.
+(1) Completing a Mirror Dungeon run without swapping Identities in or out for the entire run will consume the ‘Rest Bonus’ on each Identity and net you extra Starlight.
+(2) Every other Identity that did not participate in the Mirror Dungeon run gains 1 bar of Rest Bonus upon completion.
+(Any identity that has taken part in the Mirror Dungeon run, even if it was from getting swapped in or out, will not gain a Rest Bonus bar.)
+
+3. With the Mirror Dungeon #4 Update, Rest Bonuses for all Identities will be reset.
+
+7/14
+
+PROJECT MOON
+Floor Themes
+
+You will be able to select a 'Floor Theme' every time you enter a new floor. 
+Select and swipe downward on a Theme Pack you wish to encounter on this floor.
+
+▶ Notes
+
+1. Each Theme Pack determines the pool of enemies, E.G.O Gifts, and Mirror Dungeon Events appearing in that floor. Therefore, it is recommended that you select Theme Packs with enemies that are weak to your current loadout, or Theme Packs with E.G.O Gifts that you need for your current loadout.
+
+Once a Theme Pack has been selected and cleared, it will not appear again in the same Mirror Dungeon run. However, certain Abnormalities are a part of multiple Floor Theme Packs, and may appear more than once.
+
+2. The following is the information available from viewing each Floor Theme Pack.
+(1) Select the button at the top right corner of each Floor Theme Pack to view featured Bosses and E.G.O Gifts. In the list of Floor Theme Packs, certain E.G.O Gifts in each Floor Theme Pack will have increased drop rates. Please note that you can view which E.G.O Gifts have increased rates by selecting the button on the top right corner of each Floor Theme Pack.
+
+(2) Any effective Affinities or Attack Types, if there are any, will be displayed on the bottom left corner of each Floor Theme Pack.
+
+(3) Selecting Floor Theme Packs that you haven’t selected in the previous Mirror Dungeon run will give you bonus Starlight, which is visible on the bottom right corner of each Floor Theme Pack.
+
+(4) The selection of E.G.O Gifts that will be available to choose from upon defeating the Floor Theme Boss is displayed below each Floor Theme Pack.
+
+8/14
+
+PROJECT MOON
+Floor Themes
+
+▶ Notes
+
+3. The following are the categories of each Floor Theme Pack.
+     (1) Main Story Theme Packs
+        - From these Theme Packs, you can obtain certain E.G.O Gifts
+          that were available in each of the Story Dungeons.
+          (their effects have been adjusted to be more
+          appropriate for Mirror Dungeons)
+        - There are also brand-new E.G.O Gifts that are unique to each
+          Main Story Theme Pack.
+          (however, they are available only in certain Packs.)
+
+     (2) Event Theme Packs
+        - From these Theme Packs, you can obtain certain E.G.O Gifts that
+          were available in the Event Dungeons of Hell's Chicken and Yield My
+          Flesh to Claim Their Bones. (some of their effects have been adjusted
+          to be more appropriate for Mirror Dungeons)
+        - You can obtain special E.G.O Gifts themed around
+          S.E.A. and Miracle in District 20 Events.
+
+     (3) Keyword Theme Packs
+        (Burn, Bleed, Tremor, Rupture, Sinking, Poise, Charge)
+
+     (4) Keyword Theme Packs (Slash, Pierce, Blunt)
+        - There are two types of Theme Packs:
+             "Theme Packs with enemies using those Keywords"
+         VS. "Theme Packs with enemies weak against those Keywords".
+
+     (5) Affinity Theme Packs
+        (Wrath, Lust, Sloth, Gluttony, Gloom, Pride, Envy)
+        - There are two types of Theme Packs:
+             "Theme Packs with enemies using Skills
+              with those Affinities" VS.
+              "Theme Packs with enemies weak against those Affinities".
+
+4. Available Theme Packs on each floor of the Mirror Dungeon 
+    depend on the difficulty mode. Also, the number of stages on each
+    floor depends on which Theme Pack you have selected.
+    Please note that not every Theme Pack is available in all difficulties.
+
+5. Selecting Floor Themes that you haven’t selected in the previous
+    Mirror Dungeon run will net you extra Starlight.
+
+6. New Floor Theme Packs, either from Events or future updates,
+    may be introduced to the Mirror Dungeon as the Season progresses.
+
+9/14
+
+PROJECT MOON
+Mirror Dungeon Events & Stages
+
+Major Changes
+
+1. New choices have been added to certain Mirror Dungeon Events. With these new choices, you may obtain newly-added E.G.O Gifts, or battle the source Abnormalities to earn even more rewards. You do not need to unlock Starter Buffs to obtain E.G.O Gifts obtained from Mirror Dungeon Events, even for Starter Buff-locked E.G.O Gifts.
+
+2. Mirror Dungeon Event Check values have been adjusted. Adjustments have been made to Mirror Dungeon Events with overly low or high check values.
+
+3. Mirror Dungeon Event choice results forecast We have added descriptions to each choice to show which choice leads to which outcome.
+(1) The forecast will show Affinity advantages for choices that lead to checks.
+(2) The forecast will show which Keyword is attached to the resulting E.G.O Gift.
+
+4. Enemy Variety adjusted In the previous Mirror Dungeon, Focused Encounters had two types: Peccatula Encounters and Risky Encounters (in which elite enemies appeared). However, in Mirror Dungeon #4, we have added various Abnormalities to Focused Encounters and Risky Encounters to introduce a greater variety of enemies in the Dungeon.
+
+5. Legend Re-ordered & Renamed The order of descriptions in the Legend(the magnifying glass over a book icon on the top right corner of the Mirror Dungeon map screen) will be adjusted. ‘Risky Encounter’ has been renamed to ‘Elite Encounters’.
+
+10/14
+
+PROJECT MOON
+E.G.O Gifts
+
+A total of 92 new E.G.O Gifts will be added to the Mirror Dungeon.
+We have made adjustments to a few preexisting
+E.G.O Gifts with high Tiers but low effectiveness.
+Please note that the E.G.O Gifts may be adjusted with future updates.
+
+Select Enemy Floor Buffs for
+each Mirror Dungeon Floor
+
+Gathering Skulls
+
+After defeating an enemy by
+using a Page's Offensive Pierce
+damage skill, raise the unit's
+Pierce Power by 2 for the next
+2 turns.
+
+Emerald Elytra
+
+Fast Turn Start of a Wave: 1
+time(s) your Guards & Protection
+Power and by 2. Raise Count.
+
+Arrested Hymn
+
+Combat Start: If enemies (or
+allies) have paralysis
+or are asleep, all gain 1
+Haste stack in turn.
+
+Mounting Trials
+
+Defense Skill Up
+
+Take Less Damage
+Max HP Up
+
+Defense Skill Final Power
++1
+
+Damage Taken -4%
+
+Max HP +5%
+
+Refuse Gift
+
+Select E.G.O Gift
+
+Major Changes
+
+1. 'Mounting Trials' in the Simulation difficulty have been
+adjusted to be closer to those available in Ritornello.
+However, please note that the values are much
+more forgiving than those presented in Ritornello.
+
+2. Enemy level gain has been added to the Mounting Trials.
+However, please note that enemy Level gains are much
+more forgiving than those present in Ritornello.
+
+Notes
+
+1. Enemy buffs are compounding,
+as it was in the previous Mirror Dungeon.
+
+2. Proceeding without selecting an Enemy buff will randomly
+select one of the presented enemy Buffs,
+as it was in the previous Mirror Dungeon.
+
+3. In Ritornello difficulty, selecting the highest Enemy Level Up
+Buff will give you an additional selection of E.G.O Gifts,
+as it was in the previous Mirror Dungeon.
+This is not the case in Simulation difficulty, however.
+
+11/14
+
+PROJECT MOON
+Shops
+
+00:00:41
+It knows what we want.
+We also know what it wants.
+
+Major Changes
+
+1. An option to Refresh using Starlight has been added.
+Now, you can use Starlight owned at the start of the Dungeon,
+and any Starlight obtained in the Dungeon run to Refresh the store.
+Starlight Refresh cost does not increase with each use,
+and is unaffected by Starter Buff effects.
+Please note that, once you are out of Starlight,
+you cannot use Starlight to Refresh.
+
+2. Loadout Adjustment Cost changed
+The Cost required to adjust your
+loadout has been lowered from 200 Cost to 100 Cost.
+
+12/14
+
+PROJECT MOON
+Rest Stops
+
+Major Changes
+
+1. The E.G.O Gift Fusion has been adjusted as Follows:
+   - Before: Affinity + Affinity ⇒ high chance of E.G.O Gifts
+     appearing with relevant Keywords (ex) WRATH + WRATH ⇒ Burn
+   - After: Keyword + Keyword ⇒ High chance of E.G.O Gifts
+     with the corresponding Keywords (ex) Burn + Burn ⇒ Burn
+
+Because we did not have enough E.G.O Gifts available in the previous Mirror Dungeon, we were concerned that there wouldn’t be enough lower-Tier E.G.O Gifts with the same Keywords for Keyword-based Fusions. However, as Mirror Dungeon #4 adds several new E.G.O Gifts, we decided to move on from less intuitive Affinity-based Fusions to more obvious Keyword-based Fusions.
+Also, we have raised the chances of obtaining a relevant Keyword upon Fusing the same Keywords.
+
+2. Fusion Guide has been added.
+We have added a Fusion Guide to make it easier to see which Fusions will lead to which outcomes.
+
+3. Loadout Adjustment Cost Changed
+The Cost required to adjust your loadout has been lowered from 200 Cost to 100 Cost.
+ 
+13/14
+
+PROJECT MOON
+Encounter Reward Cards
+
+Select Encounter Reward Card
+Selectable 0/1
+
+Gain a random 2 Tier E.G.O Gift
+Gain additional 3-4 Starlight upon defeating the Mirror Dungeon
+Gain 1~2 70-Cost 50% chance to gift a random E.G.O Gain on Tier 3 or lower
+Gain 3~4 40-Cost
+
+X Cancel
+V Confirm
+
+Each Encounter has a certain chance to provide you with a selection of ‘Encounter Reward Cards’. Higher difficulty Mirror Dungeons and higher difficulty Encounters will yield higher value rewards.
+
+Exploration Complete
+
+Exploration Complete
+Dungeon Progress
+
+Mirror of the Wuthering-Simulation
+
+Last Reached
+
+Floor 5
+Cleared Floors
+20
+Floor
+5
+14/1
+Cleared Nodes
+20
+Total Progress
+100%
+Difficulty: Easy (x1.0)
+Encounters
++26
+Battle Pass XP
+Floor 5/1/1
+Rest Bonus
++0
+Pass XP Reward
+x30
+Starlight
+Starting E.G.O Gift Choice
+0
+Starlight
++5
+Starlight Cost:
+12H
+
+Claim Rewards
+Major Changes
+
+1. Newly added systems, such as Floor Themes and Encounter Reward Cards, have been added to the Exploration Complete Screen. Starlight gain equation will be adjusted accordingly.
+
+Categories affecting the Starlight gain equation
+
+Difficulty Multiplier Applied
+- Cleared Floors
+- Cleared Nodes (Halved)
+- # of Encounters (Halved)
+- # of E.G.O Gifts Obtained
+
+Difficulty Multiplier Not Applied
+- Starting E.G.O Gifts Selected
+- Encounter Reward Cards (New)
+- Rest Bonus
+- Floor Theme Selections (New) 
+- Consumed Starlight (Displays Starlight consumed by ‘Wish of Stars’)
+
+Responsiveness Improved
+
+Responsiveness for various VFX and SFX have been improved.
+
+14/14
+
+PROJECT MOON
+

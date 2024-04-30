@@ -1,0 +1,136 @@
+
+
+
+
+May 2nd Scheduled Update Notice
+
+Greetings Dear Manager.
+
+The server will enter scheduled maintenance 
+from 10:00 [AM] through 12:00 [PM] on May 2nd, 2024 (KST).
+Please make note of the maintenance schedule; we recommend that 
+you refrain from entering combat or making in-app purchases and 
+close the application before maintenance begins 
+so that no data is lost.
+Please refer below for details about the update.
+
+※ Note
+Major changes to Mirror Dungeon systems 
+will be deployed after the Scheduled Update.
+Therefore, with the end of Scheduled Maintenance at 12:00, 
+your Mirror Dungeon Weekly Bonus Count and your current 
+Mirror Dungeon run progress will be reset.
+Rewards for Mirror Dungeon runs that remain incomplete 
+before May 2nd, 10:00 will become inaccessible 
+with the progress reset, so please claim your rewards 
+BEFORE the Scheduled Maintenance begins.
+
+New Content
+
+1. The 3rd Walpurgis Night Target Extraction
+(May 2nd 2024, 12:00 ~ May 16th 2024, 10:00 (KST))
+Extraction rate increases for the following identities, 
+E.G.Os, and Announcers.
+- Announcers : Yesod Announcer, Molar Office Announcer
+- E.G.O [WAW] : Sanguine Desire Rodion
+- E.G.O [HE] : Wingbeat Ishmael
+- 3★ : Dawn Office Fixer Sinclair
+
+2. Target Extraction [Ryōshū]
+(May 2nd 2024, 12:00 ~ May 16th 2024, 10:00 (KST))
+The following Identities and E.G.O 
+will have increased odds of extraction.
+- E.G.O [HE] : Red Eyes (Open) Ryōshū
+- E.G.O [TETH] : Red Eyes Ryōshū
+- 3★ : Edgar Family Chief Butler Ryōshū, 
+W Corp. L3 Cleanup Agent Ryōshū, Kurokumo Clan Wakashu Ryōshū
+- 2★ : Liu South Section 4 Ryōshū, 
+LCCB Assistant Manager Ryōshū, Seven South Section 6 Ryōshū
+- 1★ : LCB Sinner Ryōshū
+
+1/4
+
+PROJECT MOON
+New Content
+
+3. New Identities & E.G.O Added
+The following Identities & E.G.O have been added
+to the list of Identities & E.G.O.
+- E.G.O [WAW] : Sanguine Desire Rodion
+- E.G.O [HE] : Wingbeat Ishmael
+- 3★: Dawn Office Fixer Sinclair
+
+4. May 2nd New Content - The 3rd Walpurgis Night Event
+※ Please refer to the Steam Announcement [May 2nd New Content -
+The 3rd Walpurgis Night] for more information.
+
+5. May 2nd New Content - Mirror of the Wuthering
+※ Please refer to the Steam Announcement [May 2nd
+New Content - Mirror of the Wuthering] for more information.
+
+Major Changes
+
+1. (KR Only) Manager Info Ticket Introductions
+Automated Postposition Function Added
+
+2/4
+
+PROJECT MOON
+Bug Fixes & Improvements
+
+► Fixed an issue in Heathcliff E.G.O - Binds Corrosion Skill where its effect does not activate for the minimum amount of allies when not meeting the Sin Reson. condition.
+
+► Fixed an issue where one of the effects of Edgar Family Chief Butler Ryōshū's Tier 4 Support Passive did not activate
+Fixed Effect: When the ally that was deployed last wins a Clash, gain +1 Poise Count (3 times per turn)
+
+► Fixed an issue where Stage 6-48 would become softlocked under a certain condition
+
+► Fixed an issue in Stage 6-48 where, an effect that applies a certain buff after an Unopposed Attack, activated even after using a Defense Skill
+
+► Fixed an issue where the E.G.O Gift - ‘Broken Compass’ applied additional Bind against enemies under certain circumstances
+
+► Fixed an issue where certain effects of the E.G.O Gift 'T-1 Perpetual Motion Machine' did not activate for certain Identities' Skills
+Effect: Next Turn Start: Each Identity gains (Total Charge Count consumed by Skill use/4) 'Offense Level'
+Affected Identities
+(1) Uptie 3 R Corp. 4th Pack Reindeer Ishmael's Skill 3 - Mind Whip
+(2) Rosespanner Workshop Fixer Meursault's Skill 3 - Finishing Runup
+
+► Improved SFX for the first move of Blade Lineage Salsu Faust's Skill 3
+
+► (EN Only) Fixed Story cutscene typos
+
+► Fixed an issue where selecting certain enemies would result in low-resolution Sprite illustrations
+
+► Improved behavior of effect activation popups that appear over Skill UI & character sprites
+
+3/4
+
+PROJECT MOON
+Maintenance & Application Update Compensation
+
+x300
+
+- Content: Lunacy x300
+- Recipients: All users whose game accounts were created before 10:00 May 9th, 2024 (KST)
+- When: After May 2nd, 2024 (Thu) 12:00 (KST)
+- Can be claimed once per account
+
+Maintenance Compensation can be claimed until May. 9th (Thu) 2024, 10:00 (KST) via the in-game Mailbox. (Mail available for 7 days)
+
+Notes
+
+- Please update your game client to the newest version on the respective store (Google Play/App Store/Steam).
+- Forcibly shutting down the game while it is downloading resources may cause the download to fail, so please be careful not to close the application during the download.
+- You will not be able to play <Limbus Company> during maintenance. Please understand.
+- The maintenance schedule may suddenly change depending on the status of maintenance. If such a change occurs, we will let you know in a follow-up notice.
+- A resource download may be prompted after the build update. If you're using a mobile device, it is recommended to proceed with a Wi-Fi connection.
+- If you're playing with a guest account, we recommend that you link your account with other platforms to prevent possible account loss.
+- The maintenance compensation will be provided once per account. Please note that the distribution may be slow due to network delays or other causes.
+- The update gifts are valid to claim for 7 days. Please redeem them within this timeframe.
+
+Thank you.
+
+4/4
+
+PROJECT MOON
+

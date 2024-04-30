@@ -1,0 +1,139 @@
+
+
+
+LIMBUS COMPANY
+Walpurgisnacht
+Ishmael
+E.G.O AWAKENING SKILL
+Wingbeat
+- If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead
+    [On Hit] Heal X% of max HP on self
+    [Heads] High Lose SP
+    [Heads] High Reuse this Coin
+    [On Hit] Heal self by X% of damage dealt
+    [On Hit] Inflict Gluttony Fragility
+    [On Hit] Inflict Bleed
+
+Wingbeat
+E.G.O CORROSION SKILL
+- [Indiscriminate] Targets the unit with the least Core HP
+  [Before Attack] Gain (X% of highest Reson.-X) Atk Weight
+  [Before Attack] Deal X% HP damage to at most 5 random other allies
+  Heal HP on self equal to the damage dealt (including damage dealt to Shield)HP to allies.
+  Damage dealt by this efect can kill allies.
+  If this unit dealt damage to an ally, gain Attack Power Up this turn, and gain Haste next turn.
+  [After Attack] If this Skill's healing exceeds this unit's max HP, gain Offense Level Up based on excess HP next turn.
+    [Tails] Hit] Heal self by X% of damage dealt
+    [Tails] Hit] Inflict Bleed
+    [On Kill] Gain Attack Power Up next turn
+
+E.G.O PASSIVE
+Gluttony
+- If the main target took HP damage this turn and isn't at max HP at Skill Use:
+  On Hit,
+  * When this unit is at max HP, deal X% more damage.
+  * When this unit isn't at max HP, heal Y HP.
+
+"This image shows the E.G.O's specifications at its maximum Threadspin Tier."
+"This image is for reference only; actual details subject to change."
+
+copyright (C) 2022 All Rights Reserved.
+Lobotomy Corporation
+Sanguine Desire WAW
+Rodion
+E.G.O INFO
+E.G.O AWAKENING SKILL
+Sanguine Desire 
+Gain Coin Power for every X bleed on target
+[Combat Start] The main target for this Skill does not lose Bleed Count for this turn
+[After Attack] For 3 turns, lose SP at Turn End
+
+[On Hit] Inflict Lust Affinity damage equal to [Bleed Potency on target X x]
+At Y+ Lust Reson, inflict Lust Affinity damage equal to [Bleed Potency on target X x+] instead
+At Y+ Lust A-Reson, inflict Lust Affinity damage equal to [Bleed Potency on target X x++] instead
+[On Kill] If this Skill or its Coin effects dealt damage that exceeds the target's remaining HP, deal the excess damage as fixed damage between all enemies.
+
+E.G.O CORROSION SKILL
+Sanguine Desire
+[Indiscriminate] Targets randomly
+[Before Attack] Gain (# of highest Reson. - 2) Atk Weight
+[On Hit] Inflict X (+ Lust Reson) Bleed
+[On Hit] Inflict Bleed Count
+
+E.G.O PASSIVE
+Obsession
+This unit's leftmost Skill on the Dashboard inflicts double the Bleed Potency.
+Dawn Office Fixer
+Sinclair
+
+ENTITY INFO
+"This image is for reference only, actual details subject to change."
+
+SKILL 1
+Fierce Charge
+[On Use] When in a Volatile EGO state, consume SP
+[On Hit] Inflict Burn Count
+Heads [H] When in a Volatile EGO state, Raise Coin
+
+SKILL 2
+Sunset Blade
+If the target has X+ Burn, gain Clash Power
+[Before Attack] When in a Volatile EGO state, consume SP
+[On Use] When in a Volatile EGO state, slightly gain Ax Weight
+A+X SP, gain more Ax Weight
+[After Attack] When in a Volatile EGO state, consume SP
+
+SKILL 3
+Stigmatize
+When in a Volatile EGO state, burn a target
+Coin Power for every SP
+[Clash Win] Heal SP
+[Clash Lose] Lose SP
+
+SKILL 4
+Blazing Strike
+Gain Coin Power for every X (sum of Burn Potency on
+all enemies)
+[Clash Win] Heal SP
+[Clash Lose] Lose SP
+Deal more damage based on Reason given.
+A+X highest Wrath A and Wrath, deal more damage for every Wrath Reason.
+[After Attack] Lose SP
+
+PASSIVE
+Rue
+When in a Volatile EGO state, gain Base Power
+for every X Burn on target
+[On Use] When in a Volatile EGO state, lose SP
+
+Stigma Workshop Weaponry  / Passion
+* This unit inflicts more Burn Potency and Count with its Skills
+* When in a Volatile EGO state, and at 0 SP, gain SP gain
+* At 4.5 SP, gain even more Coin Power
+
+Lustiable Shell of Ego
+* In Ultimate: At 4.5 SP, consume SP to enter the Volatile EGO/Maw Pinion state.
+* If 2+ allies are defeated in a single turn, and this unit's SP is at +4.5
+* At Turn end, reset SP to 0, then enter the Volatile EGO/Wrath Pinion state.
+* If this unit gets Staggered due to damage or Stagger Threshold
+* When entering the Volatile EGO state, recover from Stagger.
+* If this unit's opponent is the same that defeated its ally, receive
+* this unit does not enter the Volatile EGO state.
+* Gain Volatile Passion while in the Volatile EGO state.
+* Turn Start. At 0 or less SP, exit the Volatile EGO/Wrath Pinion state.
+
+SUPPORT PASSIVE
+Flaming Brand
+When the #1 If struck by Depleted Heads Hits,
+inflict Burn Count
+
+Volatile Passion
+* On Hit, inflict Burn
+* If the unit has the highest Burn gain, Flare Power
+* When it, inflicts Burn, add a Defense Skill chained at
+* Turn Start, Inflict Burn against the attacker for the turn
+* Combat Lose or SP based on Turns spent in the Volatile EGO state.
+
+Walpurgisnacht
+ISO
+

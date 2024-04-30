@@ -693,8 +693,7 @@
         {
           "dataClass": "userbanner",
           "fileList": [
-            "userbanner",
-            "userbanner-a1c6p1"
+            "userbanner"
           ]
         },
         {
@@ -706,22 +705,19 @@
         {
             "dataClass": "userticket-l",
             "fileList": [
-                "userticket-l",
-                "userticket-l-a1c6p1"
+                "userticket-l"
             ]
         },
         {
             "dataClass": "userticket-r",
             "fileList": [
-                "userticket-r",
-                "userticket-r-a1c6p1"
+                "userticket-r"
             ]
         },
         {
             "dataClass": "userticket-egobg",
             "fileList": [
-                "userticket-ego-bg",
-                "userticket-ego-bg-a1c6p1"
+                "userticket-ego-bg"
             ]
         },
         {

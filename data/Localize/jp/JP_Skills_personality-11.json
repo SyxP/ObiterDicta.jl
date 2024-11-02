@@ -816,6 +816,737 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1110901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "点を打つ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Laceration]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "点を打つ",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "点を打つ",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1\n<style=\"highlight\">対象の[Laceration]が10以上なら、コイン威力 +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "血描画",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20%の確率でコインを1回再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "血描画",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20%の確率でコインを1回再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加\n自分のコイン効果でコイン再使用時、増加させる[Laceration]回数 +1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "血描画",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 40%の確率でコインを再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%(スキルごとに最大2回再使用可能)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加\n自分のコイン効果でコイン再使用時、増加させる[Laceration]回数 +1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "作品精査",
+          "desc": "対象の保有するマイナス効果1つにつきダメージ量 +10%(最大30%)\n[WhenUse] 操作パネルにて自分の両横にいる味方へ次のターンにて[Agility]1を付与",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つを3付与"
+                },
+                {
+                  "desc": "[EndSkill] 対象が混乱するか死亡したなら、自分を除く精神力が最も高い味方1名へ次のターンにて[PenetrateDamageUp]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "作品精査",
+          "desc": "対象の[Laceration]が6以上なら、コイン威力 +1\n対象の保有するマイナス効果1つにつきダメージ量 +12.5%(最大50%)\n[WhenUse] 操作パネルにて自分の両横にいる味方へ次のターンにて[Agility]1を付与",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つを3付与"
+                },
+                {
+                  "desc": "[EndSkill] 対象が混乱するか死亡したなら、自分を除く精神力が最も高い味方1名へ次のターンにて[PenetrateDamageUp]1を付与 <style=\"highlight\">対象が薬指所属組織員なら[PenetrateResultUp]1を追加で付与</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ガード",
+          "desc": "[WhenUse] 対象の[Laceration]が10以上なら、コイン威力 +3",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ガード",
+          "desc": "[WhenUse] 対象の[Laceration]が10以上なら、コイン威力 +7",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "波動",
+          "desc": "[WhenUse] 自分の[Charge]回数が4以上なら、マッチ威力 +1\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "波動",
+          "desc": "[WhenUse] 自分の[Charge]回数が4以上なら、基本威力 +1\n[WhenUse] 自分の[Charge]回数が6以上なら、マッチ威力 +1\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "波動",
+          "desc": "[WhenUse] 自分の[Charge]回数が4以上なら、基本威力 +1\n[WhenUse] 自分の[Charge]回数5につき、マッチ威力 +1(最大2)\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "充電跳躍",
+          "desc": "[WhenUse] 自分の[Charge]回数を6消耗し、基本威力 +1\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "充電跳躍",
+          "desc": "[WhenUse] 自分の[Charge]回数を6消耗し、基本威力 +1\n- [Charge]回数を消耗したなら、自分と[Charge]回数保有量が最も少ない味方2名へ[ChargeForceField]を([Charge] + 1)を付与(最大7, 1ターンにつき最大1回発動)\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] このスキルを使用時に[Charge]回数を消耗したなら、次のターンに[Binding]2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "充電跳躍",
+          "desc": "[WhenUse] 自分の[Charge]回数を6消耗し、コイン威力 +1\n- [Charge]回数を消耗したなら、自分と[Charge]回数保有量が最も少ない味方2名へ[ChargeForceField]を([Charge] +<style=\"highlight\">2</style>)を付与(最大<style=\"highlight\">8</style>, 1ターンにつき最大<style=\"highlight\">2</style>回発動)\n[WhenUse] 自分の[Charge]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[Charge]回数が2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに[Binding]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このスキルを使用時に[Charge]回数を消耗したなら、次のターンに[Binding]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "次元切断",
+          "desc": "[StartBattle] 自分と[Charge]を保有した味方(最大共鳴数)名に[ChargeLoad]を[Charge]だけ付与\n(最大付与対象数: 自分を除く5名)\n[WhenUse] [Charge]が2以上かつ、[Charge]回数が7以上15未満なら、保有した[Charge]回数を全て消耗してコイン威力 +1\n[WhenUse] [Charge]回数を15消耗してコイン威力 +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] このスキル使用時、[Charge]回数を15消耗したなら[Burst]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] (5 - [Charge])だけ、自分の[Charge]回数が増加(最低0)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "次元切断",
+          "desc": "[StartBattle] 自分と[Charge]を保有した味方(最大共鳴数)名に[ChargeLoad]を[Charge]だけ付与\n(最大付与対象数: 自分を除く5名)\n[WhenUse] [Charge]が2以上かつ、[Charge]回数が7以上15未満なら、保有した[Charge]回数を全て消耗してコイン威力 +2\n[WhenUse] [Charge]回数を15消耗してコイン威力 +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] このスキル使用時、[Charge]回数を15消耗したなら[Burst]3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] (5 - [Charge])だけ、自分の[Charge]回数が増加(最低0)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "プラズマ展開",
+          "desc": "[WhenUse] 自分の[Charge]回数2につき、基本威力 +1(最大5)\n[WhenUse] 自分の[Charge]回数が2増加(1ターンにつき最大2回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "プラズマ展開",
+          "desc": "[WhenUse] 自分の[Charge]<style=\"highlight\">回数1につき</style>、基本威力 +1(最大<style=\"highlight\">10</style>)\n[WhenUse] 自分の[Charge]回数が2増加(1ターンにつき最大<style=\"highlight\">3</style>回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "裁縫",
+          "desc": "このスキルが的中時、与ダメージ量の10%だけ体力が回復(最大10回復)\n[WhenUse] [BloodDinner]を最大40消耗し、[BloodDinner]8につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、自分の[Laceration]回数が2増加 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "裁縫",
+          "desc": "このスキルが的中時、与ダメージ量の10%だけ体力が回復(最大10回復)\n[WhenUse] [BloodDinner]を最大40消耗し、[BloodDinner]8につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、自分の[Laceration]回数が2増加 \n<style=\"highlight\">[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]回数が1増加</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]回数が1増加</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "裁縫",
+          "desc": "このスキルが的中時、与ダメージ量の10%だけ体力が回復(最大10回復)\n[WhenUse] [BloodDinner]を最大40消耗し、[BloodDinner]8につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、自分の[Laceration]回数が2増加 \n[WhenUse] 対象の[Laceration]が<style=\"highlight\">6につき</style>、コイン威力 +1<style=\"highlight\">(最大2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "カットオフ",
+          "desc": "このスキルが的中時、与ダメージ量の10%だけ体力が回復(最大20回復)\n[WhenUse] [BloodDinner]を最大60消耗し、[BloodDinner]6につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、[Laceration]5を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[BloodScissorPersonalityFirst]が10以上なら、対象へ次のターンにて[LineCuttingPersonality]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "カットオフ",
+          "desc": "このスキルが的中時、与ダメージ量の20%だけ体力が回復(最大20回復)\n[WhenUse] [BloodDinner]を最大60消耗し、[BloodDinner]6につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、[Laceration]5を得る \n<style=\"highlight\">[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 自分の[BloodScissorPersonalityFirst]が10以上なら、対象へ次のターンにて[LineCuttingPersonality]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "カットオフ",
+          "desc": "このスキルが的中時、与ダメージ量の20%だけ体力が回復(最大20回復)\n[WhenUse] [BloodDinner]を最大60消耗し、[BloodDinner]6につき[BloodScissorPersonalityFirst]1を得る\n- [BloodDinner]を消耗できなければ、[Laceration]5を得る \n[WhenUse] 対象の[Laceration]が6以上なら、コイン威力 +1<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 対象に[LineCuttingPersonality]があれば、[Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対象へ次のターンにて[LineCuttingPersonality]1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "新しいドレスをこしらえてやろう！",
+          "desc": "このスキルが的中時、与ダメージ量30%だけ体力を回復(最大20回復)\n[BeforeAttack] [BloodScissorPersonalityFirst]が10以上なら、攻撃加重値 +1\n[WhenUse] 対象の[Laceration]が5以上なら、コイン威力 +1\n[WhenUse] 対象の[Laceration]6につき、マッチ威力 +1(最大2)\n[EndSkill] 増加した攻撃加重値1につき[BloodScissorPersonalityFirst]を15消耗\n[EndSkill] 対象が死亡した場合、[BloodDinner]が10増加。このスキルで消耗した[BloodScissorPersonalityFirst]を半分取り戻す(1ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodScissorPersonalityFirst]が10以上なら、ダメージ量 +([BloodScissorPersonalityFirst] × 2)%(最大38%)\n- [BloodScissorPersonalityFirst]が20以上なら、代わりにダメージ量 +([BloodScissorPersonalityFirst] × 3)% (最大90%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "新しいドレスをこしらえてやろう！",
+          "desc": "このスキルが的中時、与ダメージ量30%だけ体力を回復(最大20回復)\n[BeforeAttack] [BloodScissorPersonalityFirst]が10以上なら、攻撃加重値 +1\n<style=\"highlight\">- [BloodScissorPersonalityFirst]が20以上なら、代わりに加重値 +2</style>\n[WhenUse] 対象の[Laceration]が5以上なら、コイン威力 +1\n[WhenUse] 対象の[Laceration]6につき、マッチ威力 +1(最大2)\n[EndSkill] 増加した攻撃加重値1につき[BloodScissorPersonalityFirst]を<style=\"highlight\">10</style>消耗\n[EndSkill] 対象が死亡した場合、[BloodDinner]が<style=\"highlight\">20</style>増加。このスキルで消耗した[BloodScissorPersonalityFirst]を半分取り戻す(1ターンにつき1回)\n<style=\"highlight\">- 対象が[LineCuttingPersonality]なら, [BloodDinner]が20追加で増加。[BloodScissorPersonalityFirst]を5得る(1ターンにつき1回)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]<style=\"highlight\">2</style>を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]<style=\"highlight\">2</style>を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]<style=\"highlight\">2</style>を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [BloodScissorPersonalityFirst]が10以上なら、ダメージ量 +([BloodScissorPersonalityFirst] × <style=\"highlight\">3</style>)%(最大<style=\"highlight\">57</style>%)\n- [BloodScissorPersonalityFirst]が20以上なら、代わりにダメージ量 +([BloodScissorPersonalityFirst] × <style=\"highlight\">4</style>)% (最大120%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "礼儀がなってないな！",
+          "desc": "[WhenUse] [BloodScissorPersonalityFirst]が10以上なら、基本威力 +1\n[WhenUse] 自分の[Laceration]が5以上なら、コイン威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "礼儀がなってないな！",
+          "desc": "[WhenUse] [BloodScissorPersonalityFirst]が10以上なら、基本威力 +1<style=\"highlight\">\n- [BloodScissorPersonalityFirst]が20以上なら、代わりに基本威力 +2</style>\n[WhenUse] 自分の[Laceration]<style=\"highlight\">5につき</style>、コイン威力 +1(最大3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

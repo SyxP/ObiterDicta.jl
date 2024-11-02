@@ -66,6 +66,31 @@
         {
           "id": 10648,
           "mustParticipateIds": [ 7 ]
+        },
+        {
+          "id": 910906,
+          "mustParticipateIds": [ 4, 6, 9 ],
+          "abstainIds": [ 1, 2, 3, 5, 7, 8, 10, 11, 12 ]
+        },
+        {
+          "id": 910907,
+          "mustParticipateIds": [ 4, 6, 9 ],
+          "abstainIds": [ 1, 2, 3, 5, 7, 8, 10, 11, 12 ]
+        },
+        {
+          "id": 910908,
+          "mustParticipateIds": [ 4, 6, 9 ],
+          "abstainIds": [ 1, 2, 3, 5, 7, 8, 10, 11, 12 ]
+        },
+        {
+          "id": 910909,
+          "mustParticipateIds": [ 4, 6, 9 ],
+          "abstainIds": [ 1, 2, 3, 5, 7, 8, 10, 11, 12 ]
+        },
+        {
+          "id": 910910,
+          "mustParticipateIds": [ 4, 6, 9 ],
+          "abstainIds": [ 1, 2, 3, 5, 7, 8, 10, 11, 12 ]
         }
       ]
     }

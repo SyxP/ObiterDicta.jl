@@ -706,6 +706,153 @@
       "name": "이스마엘",
       "nameWithTitle": "이스마엘",
       "desc": "이스마엘의 아홉번째 인격"
+    },
+    {
+      "id": 11009,
+      "title": "새벽 사무소\n해결사",
+      "name": "싱클레어",
+      "nameWithTitle": "싱클레어",
+      "desc": "싱클레어의 아홉번째 인격"
+    },
+    {
+      "id": 10109,
+      "title": "약지 점묘파\n스튜던트",
+      "name": "이상",
+      "nameWithTitle": "이상",
+      "desc": "이상의 아홉번째 인격"
+    },
+    {
+      "id": 11109,
+      "title": "약지 점묘파\n스튜던트",
+      "name": "오티스",
+      "nameWithTitle": "오티스",
+      "desc": "오티스의 아홉번째 인격"
+    },
+    {
+      "id": 10609,
+      "title": "20구\n유로지비",
+      "name": "홍루",
+      "nameWithTitle": "홍루",
+      "desc": "홍루의 아홉번째 인격"
+    },
+    {
+      "id": 10409,
+      "title": "20구\n유로지비",
+      "name": "료슈",
+      "nameWithTitle": "료슈",
+      "desc": "료슈의 아홉번째 인격"
+    },
+    {
+      "id": 10309,
+      "title": "T사 3등급\n징수직 직원",
+      "name": "돈키호테",
+      "nameWithTitle": "돈키호테",
+      "desc": "돈키호테의 아홉번째 인격"
+    },
+    {
+      "id": 10909,
+      "title": "T사 2등급\n징수직 직원",
+      "name": "로쟈",
+      "nameWithTitle": "로쟈",
+      "desc": "로쟈의 아홉번째 인격"
+    },
+    {
+      "id": 10510,
+      "title": "남부 디에치 협회\n4과 부장",
+      "name": "뫼르소",
+      "nameWithTitle": "뫼르소",
+      "desc": "뫼르소의 열번째 인격"
+    },
+    {
+      "id": 11110,
+      "title": "W사 3등급\n정리 요원 팀장",
+      "name": "오티스",
+      "nameWithTitle": "오티스",
+      "desc": "오티스의 열번째 인격"
+    },
+    {
+      "id": 10210,
+      "title": "멀티크랙 사무소\n대표",
+      "name": "파우스트",
+      "nameWithTitle": "파우스트",
+      "desc": "파우스트의 열번째 인격"
+    },
+    {
+      "id": 10709,
+      "title": "멀티크랙 사무소\n해결사",
+      "name": "히스클리프",
+      "nameWithTitle": "히스클리프",
+      "desc": "히스클리프의 아홉번째 인격"
+    },
+    {
+      "id": 10710,
+      "title": "와일드헌트",
+      "name": "히스클리프",
+      "nameWithTitle": "히스클리프",
+      "desc": "히스클리프의 열번째 인격"
+    },
+    {
+      "id": 10110,
+      "title": "로보토미 E.G.O::\n엄숙한 애도",
+      "name": "이상",
+      "nameWithTitle": "이상",
+      "desc": "이상의 열번째 인격"
+    },
+    {
+      "id": 10410,
+      "title": "로보토미 E.G.O::\n적안・참회",
+      "name": "료슈",
+      "nameWithTitle": "료슈",
+      "desc": "료슈의 열번째 인격"
+    },
+    {
+      "id": 10910,
+      "title": "북부 제뱌찌 협회\n3과",
+      "name": "로쟈",
+      "nameWithTitle": "로쟈",
+      "desc": "로쟈의 열번째 인격"
+    },
+    {
+      "id": 10810,
+      "title": "서부 츠바이 협회\n3과",
+      "name": "이스마엘",
+      "nameWithTitle": "이스마엘",
+      "desc": "이스마엘의 열번째 인격"
+    },
+    {
+      "id": 10511,
+      "title": "서부 섕크 협회\n3과",
+      "name": "뫼르소",
+      "nameWithTitle": "뫼르소",
+      "desc": "뫼르소의 열한번째 인격"
+    },
+    {
+      "id": 11010,
+      "title": "서부 츠바이 협회\n3과",
+      "name": "싱클레어",
+      "nameWithTitle": "싱클레어",
+      "desc": "싱클레어의 열번째 인격"
+    },
+    {
+      "id": 11111,
+      "title": "라만차랜드\n이발사",
+      "name": "오티스",
+      "nameWithTitle": "오티스",
+      "desc": "오티스의 열한번째 인격"
+    },
+    {
+      "id": 10610,
+      "title": "송곳니 사냥 사무소\n해결사",
+      "name": "홍루",
+      "nameWithTitle": "홍루",
+      "desc": "홍루의 열번째 인격"
+    },
+    {
+      "id": 11210,
+      "title": "라만차랜드\n신부",
+      "name": "그레고르",
+      "nameWithTitle": "그레고르",
+      "desc": "그레고르의 열번째 인격"
     }
   ]
 }

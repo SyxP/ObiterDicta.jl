@@ -4,6 +4,7 @@
       "id": 8501,
       "sdPortrait": 90014,
       "appearance": "90014_GCorp_Infested_BaldAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "G_CORP" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -38,6 +39,7 @@
       "id": 8502,
       "sdPortrait": 90015,
       "appearance": "90015_GCorp_Infested_BobAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "G_CORP" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -72,6 +74,7 @@
       "id": 8503,
       "sdPortrait": 90016,
       "appearance": "90016_GCorp_Infested_ShortcutAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "G_CORP" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -106,7 +109,7 @@
       "id": 8504,
       "sdPortrait": 91001,
       "appearance": "91001_GCorp_Enhanced_BossAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "AMBER",
@@ -148,6 +151,7 @@
       "id": 8505,
       "sdPortrait": 90024,
       "appearance": "90024_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -185,6 +189,7 @@
       "id": 8506,
       "sdPortrait": 90025,
       "appearance": "90025_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -218,6 +223,7 @@
       "id": 8507,
       "sdPortrait": 90026,
       "appearance": "90026_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -255,6 +261,7 @@
       "id": 8508,
       "sdPortrait": 90027,
       "appearance": "90027_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -292,6 +299,7 @@
       "id": 8509,
       "sdPortrait": 91004,
       "appearance": "91004_EyedAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -342,7 +350,7 @@
       "id": 8510,
       "viewid": 8510,
       "appearance": "8503_CryToadAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "AZURE",
@@ -377,14 +385,6 @@
         },
         {
           "skillId": 851005,
-          "number": 2
-        },
-        {
-          "skillId": 851006,
-          "number": 2
-        },
-        {
-          "skillId": 851007,
           "number": 2
         },
         {
@@ -708,45 +708,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -764,45 +725,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -813,46 +735,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
+                      "skillID": -1,
                       "chance": 1
                     }
                   ],
@@ -906,45 +789,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -962,45 +806,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -1012,45 +817,6 @@
                   "skillChildList": [
                     {
                       "skillID": 851002,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
                       "chance": 1
                     }
                   ],
@@ -1156,7 +922,8 @@
       "id": 8511,
       "sdPortrait": 90032,
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1193,7 +960,8 @@
       "id": 8512,
       "sdPortrait": 90032,
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1230,7 +998,8 @@
       "id": 8513,
       "sdPortrait": 90035,
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1271,7 +1040,8 @@
       "id": 8514,
       "sdPortrait": 90035,
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1312,7 +1082,8 @@
       "id": 8515,
       "sdPortrait": 90038,
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1353,7 +1124,8 @@
       "id": 8516,
       "sdPortrait": 90038,
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1394,7 +1166,8 @@
       "id": 8517,
       "sdPortrait": 91006,
       "appearance": "91006_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -1444,7 +1217,7 @@
       "viewid": 8032,
       "sdPortrait": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -2060,7 +1833,7 @@
       "id": 8519,
       "viewid": 8519,
       "appearance": "8504_kqe1j23Appearance",
-      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM" ],
+      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM", "LARGE" ],
       "level": 30,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -2415,7 +2188,7 @@
     {
       "id": 8520,
       "appearance": "8520_kqe1j23HandAppearance",
-      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM" ],
+      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM", "LARGE" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -2445,7 +2218,8 @@
       "id": 8521,
       "sdPortrait": 8521,
       "appearance": "8501_KCorp_Grade3Appearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -2488,7 +2262,8 @@
       "viewid": 8026,
       "sdPortrait": 8024,
       "appearance": "8026_Nothing_There_BossAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2665,7 +2440,7 @@
       "originID": 8521,
       "sdPortrait": 8523,
       "appearance": "8502_KCorp_Grade3_FuryAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -2706,7 +2481,7 @@
       "viewid": 8031,
       "sdPortrait": 8031,
       "appearance": "8031_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -4029,7 +3804,8 @@
       "viewid": 8028,
       "sdPortrait": 8028,
       "appearance": "8028_SnakeAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -4437,7 +4213,8 @@
       "viewid": 8030,
       "sdPortrait": 8030,
       "appearance": "8030_Cromer_2pAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "LARGE" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SCARLET",
@@ -4900,7 +4677,7 @@
     {
       "id": 8527,
       "appearance": "8505_RedBuddhaAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 30,
       "classType": "WAW",
       "attributeType": "SCARLET",
@@ -5190,7 +4967,8 @@
       "id": 8528,
       "sdPortrait": 91006,
       "appearance": "91006_NCorpAppearance",
-      "associationList": [ "TIEQIU" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -5232,6 +5010,7 @@
       "id": 8529,
       "sdPortrait": 91004,
       "appearance": "91004_EyedAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "level": 30,
       "classType": "ZAYIN",
@@ -5270,7 +5049,8 @@
       "id": 8530,
       "sdPortrait": 91002,
       "appearance": "91002_GCorp_Infested_BossAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -5308,7 +5088,8 @@
       "id": 8531,
       "sdPortrait": 90028,
       "appearance": "90028_KCorpAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -5350,7 +5131,8 @@
       "id": 8532,
       "sdPortrait": 90029,
       "appearance": "90029_KCorpAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": ["SMALL"],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -5384,7 +5166,8 @@
       "viewid": 8029,
       "sdPortrait": 8029,
       "appearance": "8029_CromerAppearance",
-      "associationList": [ "N_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC"  ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -5788,7 +5571,8 @@
       "id": 8534,
       "sdPortrait": 8521,
       "appearance": "8501_KCorp_Grade3Appearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -5827,7 +5611,8 @@
       "viewid": 8024,
       "sdPortrait": 8024,
       "appearance": "8024_Nothing_ThereAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 10,
       "patternID": "8024",
       "classType": "TETH",
@@ -5924,7 +5709,8 @@
       "viewid": 8025,
       "sdPortrait": 8025,
       "appearance": "8025_Wolf_EnhancedAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC"  ],
       "level": 10,
       "patternID": "8025",
       "classType": "TETH",
@@ -6027,7 +5813,7 @@
       "viewid": 8031,
       "sdPortrait": 8031,
       "appearance": "8537_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": ["LARGE"],
       "level": 30,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -7350,7 +7136,7 @@
       "viewid": 8032,
       "sdPortrait": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",

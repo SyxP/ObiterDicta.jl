@@ -185,7 +185,7 @@ module ObiterDicta
     git_download_cache = ""
     function __init__()
         global git_download_cache = @get_scratch!("downloaded_files")
-        StartREPL()
+        # StartREPL() REPL.jl regression
     end
 
     export RegisterFunction # For Custom Filter Functions

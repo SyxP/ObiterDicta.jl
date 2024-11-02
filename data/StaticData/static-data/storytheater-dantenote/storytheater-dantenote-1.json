@@ -8,6 +8,15 @@
       "middleCategoryList": [
         {
           "middleCategory": {
+            "id": 112,
+            "name": "CityDirection",
+            "danteNoteDetailId": [
+              116
+            ]
+          }
+        }  ,
+        {
+          "middleCategory": {
             "id": 101,
             "name": "Limbuscompany",
             "danteNoteDetailId": [
@@ -89,6 +98,13 @@
                     108,
                     110
                   ]
+                },
+                {
+                  "id": 1010208,
+                  "name": "Line4",
+                  "danteNoteDetailId": [
+                    120
+                  ]
                 }
               ]
             },
@@ -120,7 +136,8 @@
                 "name": "Goldenbranch",
                 "danteNoteDetailId": [
                   20,
-                  42
+                  42,
+                  117
                   
                 ]
               }
@@ -140,6 +157,15 @@
                 "name": "LCD",
                 "danteNoteDetailId": [
                   102                  
+                ]
+              }
+            },
+            {
+              "smallCategory": {
+                "id": 10108,
+                "name": "PDA",
+                "danteNoteDetailId": [
+                  121                  
                 ]
               }
             }
@@ -222,7 +248,8 @@
                 "danteNoteDetailId": [
                   45,
                   52,
-                  55
+                  55,
+                  119
                 ]
               }
             },
@@ -231,7 +258,8 @@
                 "id": 10207,
                 "name": "NestT",
                 "danteNoteDetailId": [
-                  79
+                  79,
+                  118
                 ]
               }
             },
@@ -251,6 +279,15 @@
                 "danteNoteDetailId": [
                   100,
                   103
+                ]
+              }
+            },
+            {
+              "smallCategory": {
+                "id": 10210,
+                "name": "NestP",
+                "danteNoteDetailId": [
+                  125
                 ]
               }
             }
@@ -316,7 +353,15 @@
                 "id": 1030106,
                 "name": "DebatyAsso",
                 "danteNoteDetailId": [
-                  84
+                  84,
+                  127
+                ]
+              },
+              {
+                "id": 1030107,
+                "name": "ZweiAsso",
+                "danteNoteDetailId": [
+                  126
                 ]
               }
             ]
@@ -338,6 +383,15 @@
               "name": "Armory",
               "danteNoteDetailId": [
                 86
+              ]
+            }
+          },
+          {
+            "smallCategory": {
+              "id": 10304,
+              "name": "ButlerAssoc",
+              "danteNoteDetailId": [
+                115
               ]
             }
           }
@@ -368,6 +422,15 @@
                 "name": "Kurokumo",
                 "danteNoteDetailId": [
                   19
+                ]
+              }
+            },
+            {
+              "smallCategory": {
+                "id": 10404,
+                "name": "Yurodivy",
+                "danteNoteDetailId": [
+                  128
                 ]
               }
             }
@@ -500,7 +563,26 @@
                 "name": "Monolith",
                 "danteNoteDetailId": [
                   105,
-                  107
+                  107,
+                  123
+                ]
+              }
+            },
+            {
+              "smallCategory": {
+                "id": 10513,
+                "name": "DimensionTrunk",
+                "danteNoteDetailId": [
+                  130
+                ]
+              }
+            },
+            {
+              "smallCategory": {
+                "id": 10514,
+                "name": "MirrorWorld",
+                "danteNoteDetailId": [
+                  122
                 ]
               }
             }
@@ -590,7 +672,8 @@
             "name": "Distortion",
             "danteNoteDetailId": [
               96,
-              98
+              98,
+              124
             ]
           },
           "smallCategoryList": [
@@ -600,7 +683,8 @@
                 "name": "Peccatula",
                 "danteNoteDetailId": [
                   97,
-                  99
+                  99,
+                  129
                 ]
               }
             },
@@ -615,7 +699,8 @@
               }
             }
           ]
-        }            
+        }
+          
       ]
     }
   ]

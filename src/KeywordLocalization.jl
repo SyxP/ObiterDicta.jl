@@ -170,6 +170,8 @@ function getSeasonNameFromInt(N)
         Ans = "1st Walpurgis Night"
     elseif N == 9102
         Ans = "2nd Walpurgis Night"
+    elseif N == 5
+        Ans = "Season 5"
     else
         @info "Unknown Season $N"
     end

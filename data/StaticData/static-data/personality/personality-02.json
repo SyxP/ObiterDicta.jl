@@ -4,7 +4,7 @@
       "id": 10201,
       "appearance": "10201_Faust_BaseAppearance",
       "unitKeywordList": [
-        "BASE_APPEARANCE"
+        "BASE_APPEARANCE", "SMALL"
       ],
       "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 2,
@@ -106,6 +106,7 @@
       "id": 10202,
       "appearance": "10202_Faust_WAppearance",
       "associationList": [ "W_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "characterId": 2,
       "panicType": 9999,
       "season": 0,
@@ -203,6 +204,7 @@
     {
       "id": 10203,
       "appearance": "10203_Faust_YuriAppearance",
+      "unitKeywordList": [ "FIXER", "LOBOTOMY_BRANCH", "SMALL" ],
       "associationList": [ "L_CORP" ],
       "characterId": 2,
       "panicType": 9999,
@@ -302,7 +304,8 @@
     {
       "id": 10204,
       "appearance": "10204_Faust_CromerAppearance",
-      "associationList": [ "N_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "characterId": 2,
       "panicType": 9999,
       "season": 1,
@@ -401,6 +404,7 @@
     {
       "id": 10205,
       "appearance": "10205_Faust_ZweiAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "ZWEI" ],
       "characterId": 2,
       "panicType": 9999,
@@ -499,6 +503,7 @@
     {
       "id": 10206,
       "appearance": "10206_Faust_SevenAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "SEVEN" ],
       "characterId": 2,
       "panicType": 9999,
@@ -598,6 +603,7 @@
     {
       "id": 10207,
       "appearance": "10207_Faust_ForsakenMurderer_LOBAppearance",
+      "unitKeywordList": [ "LOBOTOMY_HEAD", "SMALL" ],
       "associationList": [ "L_CORP" ],
       "characterId": 2,
       "panicType": 9999,
@@ -697,6 +703,7 @@
     {
       "id": 10208,
       "appearance": "10208_Faust_SwordGroupAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLADE_LINEAGE" ],
       "characterId": 2,
       "panicType": 9999,
@@ -798,7 +805,7 @@
       "id": 10209,
       "appearance": "10209_Faust_ButlerAppearance",
       "associationList": [ "WUTHERING_HEIGHTS" ],
-      "unitKeywordList": [ "BUTLER" ],
+      "unitKeywordList": [  "FIXER", "BUTLER", "SMALL" ],
       "characterId": 2,
       "panicType": 9999,
       "season": 4,
@@ -890,6 +897,108 @@
         },
         {
           "skillId": 1020903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10210,
+      "appearance": "10210_Faust_CyborgFixerAppearance",
+      "unitKeywordList": [ "FIXER", "MACHINE_BOUND_ORGANISM", "SMALL" ],
+      "associationList": [ "MULTI_CRACK" ],
+      "characterId": 2,
+      "panicType": 9999,
+      "season": 4,
+      "unitScriptID": "MultiCrack_Ally",
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        1021004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.28
+      },
+      "defCorrection": -1,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1021001,
+          "number": 3
+        },
+        {
+          "skillId": 1021002,
+          "number": 2
+        },
+        {
+          "skillId": 1021003,
           "number": 1
         }
       ]

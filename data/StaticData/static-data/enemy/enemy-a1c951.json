@@ -3,7 +3,7 @@
     {
       "id": 90101,
       "appearance": "90101_Gnome_GreenAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "slotWeightConditionList": [
         "Default1"
       ],
@@ -141,7 +141,7 @@
     {
       "id": 90102,
       "appearance": "90102_Gnome_RedAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "slotWeightConditionList": [
         "Default1"
       ],
@@ -279,7 +279,7 @@
     {
       "id": 90103,
       "appearance": "90103_Gnome_BlackAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "slotWeightConditionList": [
         "Default1"
       ],
@@ -417,7 +417,7 @@
     {
       "id": 90104,
       "appearance": "90104_Gnome_EliteAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "slotWeightConditionList": [
         "Default1"
       ],
@@ -560,7 +560,7 @@
       "id": 90105,
       "sdPortrait": 90104,
       "appearance": "90104_Gnome_EliteAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "slotWeightConditionList": [
         "Default1"
       ],

@@ -832,6 +832,560 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1010901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "上塗り",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "上塗り",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "上塗り",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "血点描画",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20%の確率でコインを1回再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "血点描画",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20%の確率でコインを1回再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を3付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "血点描画",
+          "desc": "対象の[Laceration]3につきマッチ威力 +1(最大2)\n対象の[Laceration]回数3につきコイン威力 +1(最大2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 40%の確率でコインを再使用。対象の保有するマイナス効果1つにつき再使用確率 +20%(スキルごとに最大2回再使用可能)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を3付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "滴血の彩色",
+          "desc": "対象の[Laceration]が6以上なら、マッチ威力 +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加。対象の保有するマイナス効果が4つ以上なら追加で2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を3付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]を1付与。対象の保有するマイナス効果が4つ以上なら追加で2付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの威力を2付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "対象の保有するマイナス効果1つにつき与ダメージ量 +15%(最大75%)"
+                },
+                {
+                  "desc": "[EndSkill] 対象が混乱するか死亡したなら、マイナス効果の保有数が最も少ない敵1名へ[Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "滴血の彩色",
+          "desc": "対象の[Laceration]3につきマッチ威力 +1(最大2)\n対象の[Laceration]回数3につきコイン威力 +1(最大2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が1増加。対象の保有するマイナス効果が3つ以上なら追加で2増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を3付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]を1付与。対象の保有するマイナス効果が3つ以上なら追加で2付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの威力を2付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "対象の保有するマイナス効果1つにつき与ダメージ量 +25%(最大125%)"
+                },
+                {
+                  "desc": "[EndSkill] 対象が混乱するか死亡したなら、マイナス効果の保有数が最も少ない敵2名へ[Combustion], [Laceration], [Vibration], [Burst], [Sinking]のうちランダムに1つの回数を2付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "筆を払う",
+          "desc": "対象の[Laceration]が6以上なら、基本威力 +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "筆を払う",
+          "desc": "対象の[Laceration]1につき基本威力 +1(最大10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "往にし者へ祝辞を",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "往にし者へ祝辞を",
+          "desc": "対象の[Sinking]と全ての [SinkingWhite]の合計が6以上なら、コイン威力 +1\n[WinDuel] [Sinking]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "往にし者へ祝辞を",
+          "desc": "<style=\"highlight\">保有した[BulletLament]が10以上なら、マッチ威力 +1</style>\n対象の[Sinking]と全ての[SinkingWhite]の合計が6以上なら、コイン威力 +1\n[WinDuel] [Sinking]回数が2増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "残りし者へ厳粛な哀悼を",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を5消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "残りし者へ厳粛な哀悼を",
+          "desc": "対象の[Sinking]と全ての[SinkingWhite]の合計が6以上なら、コイン威力 +1\n[WinDuel] [Sinking]回数が1増加\n[EndSkill] 最大共鳴数だけ[BulletLament]を得る(最大6)\n- 該当共鳴が完全共鳴なら、(最大共鳴数 × 2)だけ得る(最大12)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を5消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "残りし者へ厳粛な哀悼を",
+          "desc": "保有した[BulletLament]が10以上なら、マッチ威力 +1\n対象の[Sinking]と全ての[SinkingWhite]の<style=\"highlight\">合計6につき、コイン威力 +1(最大2)</style>\n[WinDuel] [Sinking]回数が1増加\n[EndSkill] 最大共鳴数だけ[BulletLament]を得る(最大6)\n- 該当共鳴が完全共鳴なら、(最大共鳴数 × 2)だけ得る(最大12)\n- 該当共鳴が完全共鳴4以上なら、代わりに[ReloadLament]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を5消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "葬儀はイサンより、以上。",
+          "desc": "保有した[BulletLament]10につき、基本威力 +1(最大2)\n[WinDuel] [Sinking]回数が3増加\n[EndSkill] [ReloadLament]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を6消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "保有した[BulletLament]を全て消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このスキルで消耗した[BulletLament]1につきダメージ量 +2%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対象の全ての[SinkingWhite]だけ憂鬱ダメージ\n- 生きた蝶と死んだ蝶の合計で計算"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "葬儀はイサンより、以上。",
+          "desc": "保有した[BulletLament]<style=\"highlight\">5</style>につき、基本威力 +1<style=\"highlight\">(最大4)</style>\n対象の[Sinking]と全ての[SinkingWhite]の合計6につき、コイン威力 +1(最大2)\n[WinDuel] [Sinking]回数が3増加\n[EndSkill] [ReloadLament]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を1消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[BulletLament]を6消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "保有した[BulletLament]を全て消耗"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗した[BulletLament]だけ[SinkingWhite]を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このスキルで消耗した[BulletLament]1につきダメージ量 +4%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 対象の全ての[SinkingWhite]だけ憂鬱ダメージ\n- 生きた蝶と死んだ蝶の合計で計算"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "棺より蝶が翔び来む",
+          "desc": "[StartBattle] [ReloadLament] (1ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "棺より蝶が翔び来む",
+          "desc": "[StartBattle] [ReloadLament] (1ターンにつき1回)\n[StartBattle] 体力最大値の(指定対象の全ての[SinkingWhite])%だけバリアを得る。(1ターンにつき最大20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

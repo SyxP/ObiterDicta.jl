@@ -361,11 +361,11 @@
       "content": "戻る"
     },
     {
-      "id": "areaatk_attackareaatk_attack",
+      "id": "areaatk_attack",
       "content": "広域スキル"
     },
     {
-      "id": "enter_battleenter_battle",
+      "id": "enter_battle",
       "content": "戦闘開始"
     },
     {
@@ -578,11 +578,11 @@
     },
     {
       "id": "ab_part_destroyable",
-      "content": "部位破壊可能"
+      "content": "破壊可能"
     },
     {
       "id": "ab_part_destroyable_and_can_vanish",
-      "content": "部位破壊・<color=#ffffff>摘出</color>可能"
+      "content": "破壊・摘出可能"
     },
     {
       "id": "ab_guidebook_view",
@@ -663,6 +663,118 @@
     {
       "id": "received_the_golden_bough_undecided",
       "content": "?"
+    },
+    {
+      "id": "vibration_fusion",
+      "content": "振動絡縺！"
+    },
+    {
+      "id": "BatonPassUIText",
+      "content": "待機解除"
+    },
+    {
+      "id": "perfect",
+      "content": "完全"
+    },
+    {
+      "id": "ab_part_destroyed",
+      "content": "破壊完了"
+    },
+    {
+      "id": "ab_part_vanished",
+      "content": "破壊・摘出完了"
+    },
+    {
+      "id": "ab_part_cannot_destroy_and_vanish",
+      "content": "破壊・摘出不可"
+    },
+    {
+      "id": "current_hp",
+      "content": "現体力"
+    },
+    {
+      "id": "break_section_format",
+      "content": "混乱区間[{0}]"
+    },
+    {
+      "id": "no_break_section",
+      "content": "混乱区間なし"
+    },
+    {
+      "id": "correction_based_on_unit_keyword",
+      "content": "{0}人格補正値{1}(, )"
+    },
+    {
+      "id": "battle_operation_counter",
+      "content": "強化反撃"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
+      "content": "黎明"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
+      "content": "白昼"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
+      "content": "夕暮"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
+      "content": "深夜"
+    },
+    {
+      "id": "LobotomyOrdealTypo_QliphothLevel",
+      "content": "クリフォト暴走 - {0}段階"
+    },
+    {
+      "id": "SinkingWhite_stack",
+      "content": "生きた蝶"
+    },
+    {
+      "id": "SinkingWhite_turn",
+      "content": "死んだ蝶"
+    },
+    {
+      "id": "BulletLament_stack",
+      "content": "生きた蝶(弾丸)"
+    },
+    {
+      "id": "BulletLament_turn",
+      "content": "死んだ蝶(弾丸)"
+    },
+    {
+      "id": "Retreat_Textalram",
+      "content": "!退却!"
+    },
+    {
+      "id": "Retreat_TextPassive",
+      "content": "退却中"
+    },
+    {
+      "id": "battle_operation_defense",
+      "content": "強化防御"
+    },
+    {
+      "id": "battle_operation_defense_TextTypo",
+      "content": "威力軽減！"
+    },
+    {
+      "id": "battle_StageBuffUI_Stackdesc",
+      "content": "(現在の数値: {0})"
+    },
+    {
+      "id": "EGOSelectUI_not_allow",
+      "content": "現在装着できないE.G.Oです"
+    },
+    {
+      "id": "laceration_surge",
+      "content": "出血殺到!"
+    },
+    {
+      "id": "QTE_Notice",
+      "content": "共に駆け抜けてゆくんだ！"
     }
   ]
 }

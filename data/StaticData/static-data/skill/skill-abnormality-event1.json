@@ -198,7 +198,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -717,7 +717,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "CRIMSON",
           "atkType": "PENETRATE",
@@ -1068,7 +1068,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "CRIMSON",
           "atkType": "PENETRATE",

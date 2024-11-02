@@ -579,11 +579,11 @@
     },
     {
       "id": "ab_part_destroyable",
-      "content": "부위 파괴 가능"
+      "content": "파괴 가능"
     },
     {
       "id": "ab_part_destroyable_and_can_vanish",
-      "content": "부위 파괴 및 <color=#ffffff>적출</color> 가능"
+      "content": "파괴 및 적출 가능"
     },
     {
       "id": "ab_guidebook_view",
@@ -664,6 +664,119 @@
     {
       "id": "received_the_golden_bough_undecided",
       "content": "?"
+    },
+    {
+      "id": "vibration_fusion",
+      "content": "진폭 얽힘!"
+    },
+    {
+      "id": "BatonPassUIText",
+      "content": "대기해제"
+    },
+    {
+      "id": "perfect",
+      "content": "완전"
+    },
+    {
+      "id": "ab_part_destroyed",
+      "content": "파괴 완료"
+    },
+    {
+      "id": "ab_part_vanished",
+      "content": "파괴 및 적출 완료"
+    },
+    {
+      "id": "ab_part_cannot_destroy_and_vanish",
+      "content": "파괴 및 적출 불가"
+    },
+    {
+      "id": "current_hp",
+      "content": "현재 체력"
+    },
+    {
+      "id": "break_section_format",
+      "content": "흐트러짐 [{0}]"
+    },
+    {
+      "id": "no_break_section",
+      "content": "흐트러짐 없음"
+    },
+    {
+      "id": "correction_based_on_unit_keyword",
+      "content": "{0} 인격 보정 값 {1}(, )"
+    },
+    {
+      "id": "battle_operation_counter",
+      "content": "강화 반격"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
+      "content": "여명"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
+      "content": "정오"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
+      "content": "어스름"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
+      "content": "자정"
+    },
+    {
+      "id": "LobotomyOrdealTypo_QliphothLevel",
+      "content": "클리포트 폭주 - {0}단계"
+    },
+    {
+      "id": "SinkingWhite_stack",
+      "content": "산나비"
+    },
+    {
+      "id": "SinkingWhite_turn",
+      "content": "죽은나비"
+    },
+    {
+      "id": "BulletLament_stack",
+      "content": "산나비(탄환)"
+    },
+    {
+      "id": "BulletLament_turn",
+      "content": "죽은나비(탄환)"
+    },
+    {
+      "id": "Retreat_Textalram",
+      "content": "!퇴각!"      
+    },
+    {
+      "id": "Retreat_TextPassive",
+      "content": "퇴각 중"
+    },
+    {
+      "id": "battle_operation_defense",
+      "content": "강화 방어"
+    },
+    {
+      "id": "battle_operation_defense_TextTypo",
+      "content": "위력 경감!"
+    },
+    {
+      "id": "battle_StageBuffUI_Stackdesc",
+      "content": "(현재 수치: {0})"
+    },
+    {
+      
+      "id": "EGOSelectUI_not_allow",
+      "content": "현재 장착이 불가능한 에고입니다."
+    },
+    {
+      "id": "laceration_surge",
+      "content": "출혈쇄도!"
+    },
+    {
+      "id": "QTE_Notice",
+      "content": "같이 달려나가는 거야!"
     }
   ]
 }

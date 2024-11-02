@@ -63,6 +63,37 @@
           }
         ]
       }
+    },
+    {
+      "id": "WanderingFootsteps",
+      "isPanicBuff": false,
+      "buffA": {
+        "id": "WanderingFootsteps_Main",
+        "iconId": "WanderingFootsteps",
+        "subIdList": [ "WanderingFootsteps" ],
+        "buffClass": "ChangePanicTypeBuff",
+        "buffType": "Negative",
+        "canBeDespelled": true,
+        "list": [
+          {
+            "ability": "OverwritePanicType_WANDERINGFOOTSTEPS"
+          }
+        ]
+      },
+      "buffB": {
+        "id": "WanderingFootsteps_Sub",
+        "iconId": "WanderingFootsteps",
+        "subIdList": [ "WanderingFootsteps" ],
+        "buffClass": "ChangePanicTypeBuff",
+        "buffType": "Negative",
+        "canBeDespelled": true,
+        "list": [
+          {
+            "ability": "CoinProbAdder",
+            "value": -0.1
+          }
+        ]
+      }
     }
   ]
 }

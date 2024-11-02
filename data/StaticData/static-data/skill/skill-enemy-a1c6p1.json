@@ -164,7 +164,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -401,7 +401,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaOnUseBuffCheck",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
               "buffData": {
                 "buffKeyword": "Burst",
                 "target": "",
@@ -494,7 +494,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit3",
               "buffData": {
                 "buffKeyword": "Burst",
                 "target": "",
@@ -574,7 +574,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -667,7 +667,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaOnUseBuffCheck",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
               "buffData": {
                 "buffKeyword": "Burst",
                 "target": "",
@@ -760,7 +760,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByTurnWithLimit3",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByTurnWithLimit3",
               "buffData": {
                 "buffKeyword": "Burst",
                 "target": "",
@@ -840,7 +840,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1110,7 +1110,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "AZURE",
           "atkType": "HIT",
@@ -1394,7 +1394,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "AZURE",
           "atkType": "HIT",
@@ -1460,6 +1460,9 @@
           "defaultValue": 4,
           "skillLevelCorrection": 5,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -1517,6 +1520,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnUseSelfIfFasterThanMT3"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1610,6 +1616,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1700,6 +1709,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnSucceedEvadeSelf3"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1730,6 +1742,9 @@
           "defaultValue": 3,
           "skillLevelCorrection": 5,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -1787,6 +1802,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnUseSelfIfFasterThanMT3"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1880,6 +1898,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1968,6 +1989,9 @@
           "defaultValue": 4,
           "skillLevelCorrection": 2,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -2025,6 +2049,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnUseSelfIfFasterThanMT5"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2118,6 +2145,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2241,6 +2271,9 @@
           "abilityScriptList": [
             {
               "scriptName": "ParryingPowerResultAdder3IfFasterThanMainTargetMinDiff1"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2300,6 +2333,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnSucceedEvadeSelf5"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2330,6 +2366,9 @@
           "defaultValue": 4,
           "skillLevelCorrection": 2,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -2412,6 +2451,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2493,6 +2535,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2602,6 +2647,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnSucceedEvadeSelf3"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2642,6 +2690,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2749,6 +2800,9 @@
           "defaultValue": 2,
           "skillLevelCorrection": 4,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -2831,6 +2885,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -2904,6 +2961,9 @@
           "abilityScriptList": [
             {
               "scriptName": "ReuseOnEndSkillToRandomTargetIfFasterMinDiff3Upto1"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3024,6 +3084,9 @@
             },
             {
               "scriptName": "HealMpOnWinDuelSelf10"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3097,6 +3160,9 @@
           "abilityScriptList": [
             {
               "scriptName": "HealMpOnSucceedEvadeSelf5"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3127,6 +3193,9 @@
           "defaultValue": 2,
           "skillLevelCorrection": 4,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -3217,6 +3286,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3278,7 +3350,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit2",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
                 "buffKeyword": "Sinking",
                 "target": "",
@@ -3288,6 +3360,9 @@
                 "activeRound": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3397,7 +3472,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -3444,6 +3519,9 @@
           "defaultValue": 2,
           "skillLevelCorrection": 4,
           "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
           ],
           "coinList": [
             {
@@ -3534,6 +3612,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3595,7 +3676,7 @@
           "skillLevelCorrection": 4,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit2",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
                 "buffKeyword": "Sinking",
                 "target": "",
@@ -3605,6 +3686,9 @@
                 "activeRound": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3714,7 +3798,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -3771,6 +3855,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3874,6 +3961,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -3946,7 +4036,7 @@
           "skillLevelCorrection": 5,
           "abilityScriptList": [
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit3",
               "buffData": {
                 "buffKeyword": "Sinking",
                 "target": "",
@@ -3959,6 +4049,9 @@
             },
             {
               "scriptName": "HealMpOnWinDuelEveryAlly5"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -4093,6 +4186,9 @@
             },
             {
               "scriptName": "HealMpOnBattleStartEveryAlly15"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -4203,7 +4299,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",

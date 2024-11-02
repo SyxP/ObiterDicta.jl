@@ -7,7 +7,7 @@
       "storyID": 8100,
       "originID": 8100,
       "appearance": "8100_ProphetofSkinAppearance",
-      "unitKeywordList": [ "SkinProphet" ],
+      "unitKeywordList": [ "SkinProphet", "REGULAR" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -343,7 +343,7 @@
       "sdPortrait": 8107,
       "viewid": 8107,
       "appearance": "8107_ProphetofSkinCandleAppearance",
-      "unitKeywordList": [ "CANDLE", "NONE_BLOOD" ],
+      "unitKeywordList": [ "CANDLE", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -418,7 +418,8 @@
       "storyID": 8101,
       "appearance": "8101_WalkingPearlAppearance",
       "unitKeywordList": [
-        "WALKING_PEARL"
+        "WALKING_PEARL", 
+        "LARGE"
       ],
       "classType": "WAW",
       "attributeType": "SHAMROCK",
@@ -851,7 +852,7 @@
       "storyID": 8109,
       "originID": 8109,
       "appearance": "8109_WalkingPearlAppearance",
-      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD" ],
+      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
       "phaseIDList": [
@@ -881,7 +882,7 @@
       "viewid": 8102,
       "storyID": 8102,
       "appearance": "8102_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "KILLER_WHALE" ],
+      "unitKeywordList": [ "KILLER_WHALE", "LARGE"  ],
       "classType": "WAW",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -1360,7 +1361,7 @@
       "sdPortrait": 8108,
       "viewid": 8108,
       "appearance": "8108_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD" ],
+      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -1387,9 +1388,9 @@
     {
       "id": 8577,
       "appearance": "8577_FireMothAppearance",
-      "unitKeywordList": [ "ARDOR_BLOSSOM_MOTH" ],
+      "unitKeywordList": [ "ARDOR_BLOSSOM_MOTH", "LARGE" ],
       "classType": "HE",
-      "attributeType": "Combustion",
+      "attributeType": "CRIMSON",
       "hp": {
         "defaultStat": 678,
         "incrementByLevel": 30.39
@@ -1651,7 +1652,7 @@
     {
       "id": 8578,
       "appearance": "8578_BloodSoakedCottonAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "hp": {
@@ -3624,7 +3625,7 @@
       "sdPortrait": 8106,
       "viewid": 8106,
       "appearance": "8582_Ahab_Awaken_MirrorAppearance",
-      "unitKeywordList": [ "PEQUOD_CAPTAIN" ],
+      "unitKeywordList": [ "PEQUOD_CAPTAIN", "SMALL"  ],
       "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8106_mirror",
       "attributeType": "WHITE",
@@ -4644,7 +4645,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90083,
       "appearance": "90083_FishCreatureAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         858601
       ],
@@ -4690,7 +4691,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 91011,
       "appearance": "91011_FishCreature_EliteAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE", "REGULAR" ],
       "abnormalityPartList": [
         858701
       ],
@@ -4740,6 +4741,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90084,
       "appearance": "90084_DoubleHook_Mob_AAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859001
@@ -4812,6 +4814,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90085,
       "appearance": "90085_DoubleHook_Mob_BAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859101
@@ -4884,6 +4887,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90086,
       "appearance": "90086_DoubleHook_Elite_AAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859201
@@ -4961,6 +4965,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90087,
       "appearance": "90087_DoubleHook_Elite_BAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859301
@@ -5038,6 +5043,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 91012,
       "appearance": "91012_DoubleHook_SmeeAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "abnormalityPartList": [
         859401
@@ -5052,7 +5058,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 3
+              "stack": 3
             }
           ]
         }
@@ -5341,7 +5347,8 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90092,
       "appearance": "90093_LCCB_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "associationList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         859501
       ],
@@ -5416,7 +5423,8 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90093,
       "appearance": "90092_LCCB_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "associationList": [ "LIMBUS_COMPANY" ],
+      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         859601
       ],
@@ -5487,7 +5495,8 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90094,
       "appearance": "90094_DoubleHook_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
+      "unitKeywordList": [ "CLAN", "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         859701
       ],
@@ -5561,7 +5570,8 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90095,
       "appearance": "90095_DoubleHook_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "associationList": [ "DUAL_HOOK_PIRATE" ],
+      "unitKeywordList": [ "CLAN", "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         859801
       ],
@@ -5635,7 +5645,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90089,
       "appearance": "90089_Fishman_Infested_AAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         859901
       ],
@@ -5678,7 +5688,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90090,
       "appearance": "90090_Fishman_Infested_BAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         860001
       ],
@@ -5721,7 +5731,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90091,
       "appearance": "90091_Fishman_Infested_CAppearance",
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "WHITE_PARASITE", "ON_THE_LAKE", "SMALL" ],
       "abnormalityPartList": [
         860101
       ],
@@ -5764,6 +5774,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90098,
       "appearance": "90098_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8588AllUnlocked",
       "abnormalityPartList": [
@@ -5843,6 +5854,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90099,
       "appearance": "90099_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "patternID": "8589AllUnlocked",
       "abnormalityPartList": [
@@ -5923,7 +5935,7 @@
       "appearance": "90100_Fishman_Infested_BAppearance",
       "isOriginNormalEnemy": true,
       "sdPortrait": 90090,
-      "unitKeywordList": [ "WHITE_PARASITE", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "WHITE_PARASITE", "ON_THE_LAKE", "REGULAR" ],
       "abnormalityPartList": [
         860201
       ],
@@ -5966,7 +5978,7 @@
       "isOriginNormalEnemy": true,
       "sdPortrait": 90088,
       "appearance": "90088_Fishman_CruiseAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE", "REGULAR" ],
       "abnormalityPartList": [
         860301
       ],
@@ -6037,7 +6049,7 @@
     {
       "id": 8585,
       "appearance": "8585_ContemptSpiralAppearance",
-      "unitKeywordList": [ "SPIRAL_OF_CONTEMPT" ],
+      "unitKeywordList": [ "SPIRAL_OF_CONTEMPT", "REGULAR" ],
       "patternID": "8585",
       "classType": "WAW",
       "abnormalityPartList": [
@@ -6840,7 +6852,7 @@
     {
       "id": 8604,
       "appearance": "8604_ContemptSpiralHandAppearance",
-      "unitKeywordList": [ "GRASP" ],
+      "unitKeywordList": [ "GRASP", "REGULAR" ],
       "patternID": "8604",
       "abnormalityPartList": [
         860401

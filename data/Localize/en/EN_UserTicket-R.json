@@ -93,17 +93,17 @@
     {
       "id": 18,
       "name": "Merry Christmas",
-      "desc": "Obtained from the Miracle in District 20 Event"
+      "desc": "Obtained from the Miracle in District 20 event"
     },
     {
       "id": 19,
       "name": "Merry Christmas - Special Ticket",
-      "desc": "Obtained from the Miracle in District 20 Event"
+      "desc": "Obtained from the Miracle in District 20 event"
     },
     {
       "id": 20,
       "name": "L Corp. Control Team",
-      "desc": "Obtained from the 2nd Walpurgis Night Event"
+      "desc": "Obtained from the 2nd Walpurgis Night event"
     },
     {
       "id": 21,
@@ -149,6 +149,46 @@
       "id": 29,
       "name": "Library of Ruina",
       "desc": "Obtained from entering Library of Ruina special bonus coupon code"
+    },
+    {
+      "id": 30,
+      "name": "Dawn Office",
+      "desc": "Obtained from the 3rd Walpurgis Night event"
+    },
+    {
+      "id": 31,
+      "name": "Timekilling Time",
+      "desc": "Obtained from the Timekilling Time event"
+    },
+    {
+      "id": 32,
+      "name": "Timekilling Time - Special Ticket",
+      "desc": "Obtained from the Timekilling Time event"
+    },
+    {
+      "id": 33,
+      "name": "Line 4",
+      "desc": "Obtained by clearing Section #4 of Refraction Railway Line 4"
+    },
+    {
+      "id": 34,
+      "name": "Line 4 : Masquerade",
+      "desc": "Obtained by clearing Section #4 of Line 4 with 100 Turns or fewer Total Turns before Season 4: Clear All Cathy ends"
+    },
+    {
+      "id": 35,
+      "name": "Murder on the WARP Express",
+      "desc": "Obtained from the Murder on the WARP Express event"
+    },
+    {
+      "id": 36,
+      "name": "Murder on the WARP Express - Special Ticket",
+      "desc": "Obtained from the Murder on the WARP Express event"
+    },
+    {
+      "id": 37,
+      "name": "L Corp. Training Team",
+      "desc": "Obtained from the 4th Walpurgis Night event"
     }
   ]
 }

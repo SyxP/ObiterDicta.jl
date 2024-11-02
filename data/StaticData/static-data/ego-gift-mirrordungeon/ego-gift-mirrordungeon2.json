@@ -37,7 +37,8 @@
         90421
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_TIER3"
       ],
       "keyword": "Laceration",
       "lockType": false,
@@ -345,7 +346,7 @@
       ],
       "tag": [
         "TIER_3",
-        "EXTRA_COMBUSTION"
+        "EXTRA_TIER3"
       ],
       "keyword": "Combustion",
       "lockType": false,
@@ -415,7 +416,8 @@
         90561
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_TIER3"
       ],
       "keyword": "Breath",
       "lockType": false,
@@ -451,7 +453,7 @@
       ],
       "tag": [
         "TIER_3",
-        "EXTRA_SINKING"
+        "EXTRA_TIER3"
       ],
       "keyword": "Sinking",
       "lockType": false,
@@ -560,11 +562,11 @@
       "id": 9064,
       "attributeType": "AZURE",
       "tag": [
-        "TIER_2"
+        "TIER_1"
       ],
       "keyword": "Burst",
       "lockType": false,
-      "price": 209
+      "price": 158
     },
     {
       "id": 9065,
@@ -814,23 +816,24 @@
       "id": 9075,
       "attributeType": "VIOLET",
       "subEgoGiftAbilityIDList": [
-        90751
+        90751,
+        90752
       ],
       "upgradeDataList": [
         {
           "upgradeLevel": 0,
           "localizeID": 9075,
-          "abilityIDList": [ 9075, 90751 ]
+          "abilityIDList": [ 9075, 90751, 90752 ]
         },
         {
           "upgradeLevel": 1,
           "localizeID": 19075,
-          "abilityIDList": [ 9075, 190751 ]
+          "abilityIDList": [ 9075, 190751, 190752 ]
         },
         {
           "upgradeLevel": 2,
           "localizeID": 29075,
-          "abilityIDList": [ 9075, 290751 ]
+          "abilityIDList": [ 9075, 290751, 290752 ]
         }
       ],
       "tag": [

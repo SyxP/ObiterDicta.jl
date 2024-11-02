@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "RailLine2Buff",
+      "buffClass": "VariableBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
       "id": "RailBuffForLine2_A_ALLY",
       "buffClass": "VariableBuff",
       "buffType": "Neutral",

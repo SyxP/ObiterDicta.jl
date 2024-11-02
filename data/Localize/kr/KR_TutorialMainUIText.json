@@ -89,7 +89,7 @@
       "content": "터치 시, 선택한 E.G.O 자원을 수급하는 인격과 사용하는 E.G.O 목록을 확인할 수 있습니다."
     },
 
-    
+
 
     {
       "id": "tutorial_mainui_02_identityandegolist",
@@ -264,7 +264,7 @@
     },
 
 
-    
+
     {
       "id": "tutorial_mainui_04_egoinfo",
       "content": "E.G.O 정보"
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "tutorial_manual_1_season_information_07_desc_01",
-      "content": "새로운 시즌이 시작되면 추출 목록에 새로운 시즌의 인격과 E.G.O가 추가로 등장합니다.\n시즌이 변경된다 하더라도 이전 시즌의 인격들은 추출 목록에서 유지되므로 추출을 통해 획득할 수 있습니다."
+      "content": "새로운 시즌이 시작되면 추출 목록에 새로운 시즌의 인격과 E.G.O가 추가로 등장합니다.\n시즌이 변경된다 하더라도 이전 시즌의 인격들은 추출 목록에서 유지되므로 추출을 통해 획득할 수 있습니다.\n※ 특정 수감자 추출에서는 이전 시즌의 이벤트 인격 · E.G.O가 등장할 수 있습니다. (직전 시즌 제외)"
     },
     {
       "id": "tutorial_manual_1_season_information_08_title_01",
@@ -1937,7 +1937,7 @@
       "id": "tutorial_mirrordungeon03_page_02_desc_03",
       "content": "어려움 난이도를 클리어할 경우, 남은 일반 난이도 추가 보상 기회를 함께 소모하여 대량의 보상의 효율을 극대화할 수 있습니다."
     },
-    {	
+    {
       "id": "tutorial_mirrordungeon03_page_03_title_01",
       "content": "수감자"
     },
@@ -1945,7 +1945,7 @@
       "id": "tutorial_mirrordungeon03_page_03_desc_01",
       "content": "수감자 편성 현황을 확인할 수 있습니다."
     },
-    {	
+    {
       "id": "tutorial_mirrordungeon03_page_03_title_02",
       "content": "시작 버프"
     },
@@ -1953,7 +1953,7 @@
       "id": "tutorial_mirrordungeon03_page_03_desc_02",
       "content": "거울 던전 클리어 시 획득하는 별빛을 사용하여 거울 던전 진행에 도움이 되는 다양한 버프를 획득할 수 있습니다."
     },
-    {	
+    {
       "id": "tutorial_mirrordungeon03_page_03_title_03",
       "content": "E.G.O 기프트 기록집"
     },
@@ -1961,7 +1961,7 @@
       "id": "tutorial_mirrordungeon03_page_03_desc_03",
       "content": "거울 던전에 등장하는 E.G.O 기프트를 확인할 수 있습니다. 거울 던전을 진행하며 E.G.O 기프트를 획득하면 기록집에 해당 E.G.O 기프트의 기록이 추가됩니다."
     },
-    {	
+    {
       "id": "tutorial_mirrordungeon03_page_04_title_01",
       "content": "시작 버프"
     },
@@ -1973,7 +1973,7 @@
       "id": "tutorial_mirrordungeon03_page_04_desc_02",
       "content": "시작 버프는 던전의 난이도 상관없이 적용됩니다."
     },
-    {	
+    {
       "id": "tutorial_mirrordungeon03_page_04_title_02",
       "content": "별빛"
     },
@@ -2065,7 +2065,7 @@
       "id": "tutorial_mirrordungeon03_page_09_desc_02",
       "content": "현재 방에서 연결된 방을 선택해 진행하며, 각 방에선 다양한 종류의 전투와 이벤트가 무작위로 등장합니다."
     },
-{
+    {
       "id": "tutorial_mirrordungeon03_page_09_title_02",
       "content": "코스트"
     },
@@ -2085,7 +2085,7 @@
       "id": "tutorial_mirrordungeon03_page_10_title_02",
       "content": "스테이지 유효 속성"
     },
-{
+    {
       "id": "tutorial_mirrordungeon03_page10_desc_02",
       "content": "거울 던전의 전투 방 하단에는 해당 스테이지에서 유효한 속성이 표기됩니다."
     },
@@ -2133,7 +2133,7 @@
       "id": "tutorial_mirrordungeon03_page_13_desc_02",
       "content": "층을 클리어할 때마다 적 버프는 누적됩니다."
     },
-	{
+    {
       "id": "tutorial_mirrordungeon03_page_14_title_01",
       "content": "거울 던전 보상"
     },
@@ -2541,6 +2541,411 @@
     {
       "id": "tutorial_mainui_26_ycgd_09_desc_01",
       "content": "이벤트가 종료된 이후에도 운전석 - [외전]과 상영관 - [그 밖의 이야기]를 통해 육참골단 전투를 다시 즐기거나 스토리를 감상할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_01_title",
+      "content": "시간살인시간"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_01_title_01",
+      "content": "이벤트 개방"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_01_desc_01",
+      "content": "[시간살인시간 이벤트 창]은 주요 이야기의 6-48을 클리어한 경우 개방됩니다. 유리창이나 운전석에 있는 이벤트 배너를 통해 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_02_title_01",
+      "content": "이벤트 기간"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_02_desc_01",
+      "content": "시간살인시간 이벤트 기간이 표시됩니다.\n이벤트 기간 동안 시간살인시간 스테이지, 거울 던전을 클리어하거나 주요 이야기 스테이지를 이벤트 시작 후 처음으로 클리어할 경우, [회중시계]를 획득할 수 있습니다.\n\n※ 단, 채광과 거울굴절철도에서는 [회중시계]를 획득할 수 없습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_03_title_01",
+      "content": "이벤트 전투"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_03_desc_01",
+      "content": "시간살인시간 이벤트는 스토리 스테이지를 포함하여 총 14개의 스테이지와 1개의 던전으로 구성됩니다.\n\n이벤트 전투에서는 클리어 보상과 별개로 초회 보상을 통해 매우 많은 [회중시계]를 획득할 수 있습니다. (1회 한정)"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_04_title_01",
+      "content": "이벤트 특화 대상"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_04_desc_01",
+      "content": "이벤트 기간 동안 이벤트 특화 대상 인격, E.G.O를 편성하여 스테이지와 거울 던전을 클리어하면 [회중시계]의 획득량이 크게 상승합니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_05_title_01",
+      "content": "아이템 교환"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_05_desc_01",
+      "content": "획득한 [회중시계]를 소모하여 [보상 교환]에서 다양한 보상을 얻을 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_06_desc_01",
+      "content": "[보상 교환] 페이지에서 이벤트 배포 인격과 각종 재화를 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_06_desc_02",
+      "content": "[보상 교환] 페이지에서 보상을 수령할 수 있는 기간이 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_07_title_01",
+      "content": "이벤트 스테이지"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_07_desc_01",
+      "content": "시간살인시간 이벤트 제일 마지막에는 거울 던전이 등장하며, 입장 시 엔케팔린 모듈을 소모합니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_08_title_01",
+      "content": "회중시계 묶음"
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_08_desc_01",
+      "content": "전투에서 승리할 경우, 낮은 확률로 [회중시계 묶음]을 획득할 수 있습니다.\n\n획득한 [회중시계 묶음]은 [회중시계] 20개로 자동 변환됩니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt_09_desc_01",
+      "content": "이벤트가 종료된 이후에도 운전석 - [외전]과 상영관 - [그 밖의 이야기]를 통해 시간살인시간 전투를 다시 즐기거나 스토리를 감상할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_28_tkt",
+      "content": "시간살인시간"
+    },
+
+
+    {
+      "id": "tutorial_mainui_railway4_title_01",
+      "content": "거울굴절철도 4호선"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_01_title_01",
+      "content": "입장 방법"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_01_desc_01",
+      "content": "활성화된 노선을 선택하여 입장합니다.\n\n거울굴절철도 입장 시에는 재화를 소모하지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_02_desc_01",
+      "content": "거울굴절철도는 매우 어려운 난이도의 콘텐츠입니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_02_desc_02",
+      "content": "이번 4호선의 경우, 입장 시 권장 사양은 인격 동기화 4단계와 레벨 45, E.G.O 환상 해석 4단계입니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_02_desc_03",
+      "content": "되도록이면 육성 조건을 맞춘 이후에 입장하는 것을 추천드립니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_03_title_01",
+      "content": "편성"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_03_desc_01",
+      "content": "보유한 인격과 E.G.O를 편성하여 입장합니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_03_desc_02",
+      "content": "인격의 레벨을 올리거나 동기화 단계 상승, E.G.O 환상 해석 단계 상승 시, 진행 중인 거울굴절철도에도 변경된 내용이 반영됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_04_title_01",
+      "content": "4호선 역과 구간"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_04_desc_01",
+      "content": "4호선에는 총 13개의 역이 있으며, 여러 개의 역은 각 구간 별로 묶여 각각의 스테이지로 구성됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_04_desc_02",
+      "content": "4호선은 네 개의 구간으로 구성된 전투 스테이지와 각 구간별 사이에 휴게역이 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_05_desc_01",
+      "content": "구간을 선택하여 입장합니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_05_desc_02",
+      "content": "해당 구간 클리어 시, 클리어 턴이 기록됩니다.\n\n이와 함께 제 1 구간으로부터 현재 구간까지의 각 구간별 클리어 턴이 모두 합해진 누적 턴이 기록됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_05_desc_03",
+      "content": "해당 구간을 클리어하였을 때 분실물보관소를 통해 얻을 수 있게 되는 보상이 하단에 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_06_title_01",
+      "content": "전투 편성 - 편성 순서 효과"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_06_desc_01",
+      "content": "4호선에서는 편성 순서에 따라 특별한 버프를 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_06_desc_02",
+      "content": "일부 대기 인원에게는 시작 정신력 버프가 추가로 적용됩니다. 빼기 코인을 사용하는 인격의 경우에는 시작 정신력 버프가 음수값으로 적용됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_07_title_01",
+      "content": "전투 편성 - 연속 전투"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_07_desc_01",
+      "content": "4호선은 연속 전투 방식으로 진행됩니다.\n\n연속 전투에서는 출격 인원이 사망하였을 때, 대기 인원이 설정한 순서에 따라 그 자리를 채우게 됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_07_desc_02",
+      "content": "6명의 출격 인원과 6명의 대기 인원을 전부 설정하여야 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_08_title_01",
+      "content": "전투"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_08_desc_01",
+      "content": "모든 전투는 아군의 스킬을 직접 적 스킬과 대응하는 집중 전투 방식으로 진행됩니다.\n거울굴절철도 4호선 진입시 빛의 묘목 능력을 진행 중 1회 사용할 수 있습니다.\n사용 시 해당 컨텐츠 밖에서의 사용 횟수에 영향을 주지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_09_title_01",
+      "content": "전투 - 편성 순서 효과"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_09_desc_01",
+      "content": "편성 순서에 따라 적용된 버프를 전투 중에도 확인할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_09_desc_02",
+      "content": "4호선에서는 아군 인격이 사망하면, 사망한 인격이 보유한 기본 공격 스킬과 동일한 속성의 E.G.O 자원을 각 스킬의 등급만큼 얻게 됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_10_title_01",
+      "content": "전투 - 연속 전투"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_10_desc_01",
+      "content": "출격 인원이 사망하였을 때, 대기 인원이 설정한 순서에 따라 그 자리를 채우게 됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_10_desc_02",
+      "content": "대기 인원이 출격 인원으로 전환되면, 적용 중인 서포트 패시브가 전투 패시브로 변경됩니다.\n\n출격 인원이 사망한 경우, 적용 중인 전투 패시브가 서포트 패시브로 변경됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_11_title_01",
+      "content": "전투 - 굳은 의지"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_11_desc_01",
+      "content": "4호선에서는 인격이 사망 시 정신력이 감소하지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_11_desc_02",
+      "content": "4호선에 등장하는 일부 적들에게는 편성 순서가 적용됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_12_title_01",
+      "content": "도감"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_12_desc_01",
+      "content": "스토리 던전 또는 거울 던전 전투를 통해 관찰 단계가 활성화된 환상체를 조우할 경우, 그 내용이 환상체 도감에 반영되어 확인할 수 있게 됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_12_desc_02",
+      "content": "단, 관찰 단계에 따른 피해량 증가 효과는 적용되지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_12_desc_03",
+      "content": "4호선에서는 전투 중 재도전하거나 포기하여도 전투 중 갱신된 도감 내용이 그대로 저장됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_13_desc_01",
+      "content": "전투 이후 남은 E.G.O 자원은 다음 구간에서 사용할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_13_desc_02",
+      "content": "편성한 인격의 체력, 정신력, 사망 상태가 화면 하단에 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_14_title_01",
+      "content": "휴게역"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_14_desc_01",
+      "content": "각 구간 사이에 있는 휴게역에서는 체력이 최대가 되고 정신력이 0으로 초기화됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_14_desc_02",
+      "content": "휴게역에서는 편성을 자유롭게 변경할 수 있습니다.\n\n전투 진행에 어려움을 느끼신다면 휴게역에서 다른 편성으로 교체하는 방법을 권장드립니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_15_desc_01",
+      "content": "아군이 모두 전멸하였다면 입장 화면으로 돌아가 편성 순서를 다시 설정하거나 현재 전투를 즉시 재도전할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_16_title_01",
+      "content": "기록 경신"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_16_desc_01",
+      "content": "스테이지 진행 중 이전에 클리어한 특정 스테이지부터 다시 시작할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_16_desc_02",
+      "content": "특정 스테이지부터 다시 시작할 경우 해당 스테이지 입장 시점의 인격 상태와 E.G.O 자원 보유량이 반영된 상태로 전투를 시작하며, 그 이후 스테이지의 클리어 기록이 초기화되어 사라집니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_17_title_01",
+      "content": "배너 획득 조건"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_17_desc_01",
+      "content": "거울굴절철도 4호선 배너 획득 조건을 확인할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_17_desc_02",
+      "content": "배너를 획득하면 제일 좋은 기록의 누적 턴 수가 배너에 표기됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_18_title_01",
+      "content": "분실물 보관소"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_18_desc_01",
+      "content": "스테이지를 처음으로 클리어할 경우, 해당 보상이 분실물 보관소에 등록되어 활성화됩니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_18_desc_02",
+      "content": "분실물 보관소에서 보상을 수령하기 위해서는 최초 1회에 한하여 일정량의 엔케팔린 모듈을 지불해야 합니다.\n\n이후에 얻게 되는 보상은 별도의 추가 엔케팔린 모듈 소모 없이 언제든지 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_19_title_01",
+      "content": "누적 기록"
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_19_desc_01",
+      "content": "최종 스테이지를 클리어할 경우 거울굴절철도 플레이 기록이 저장되며, 그 기록들을 최대 20개까지 확인할 수 있습니다. "
+    },
+    {
+      "id": "tutorial_mainui_railway4_page_19_desc_02",
+      "content": "기록이 20개를 넘어갈 경우에는 누적 턴 수가 많은 기록이 삭제됩니다."
+    },
+
+
+    {
+      "id": "tutorial_mainui_29_mowe_01_title",
+      "content": "워프특급 살인사건"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_01_title_01",
+      "content": "워프특급 살인사건 개방"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_01_desc_01",
+      "content": "[워프특급 살인사건 이벤트 페이지]는 주요 이야기의 0-4를 클리어한 경우 개방됩니다. 유리창이나 운전석에 있는 이벤트 배너를 통해 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_02_title_01",
+      "content": "이벤트 기간"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_02_desc_01",
+      "content": "워프특급 살인사건 이벤트 기간이 표시됩니다. 이벤트 기간 동안 워프특급 살인사건 스테이지, 거울 던전을 클리어하거나 주요 이야기 스테이지를 이벤트 시작 후 처음으로 클리어할 경우, [일반 승객 복구팩]을 획득할 수 있습니다. ※ 단, 채광과 거울굴절철도에서는 [일반 승객 복구팩]을 획득할 수 없습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_03_title_01",
+      "content": "이벤트 전투"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_03_desc_01",
+      "content": "워프특급 살인사건 스테이지는 스토리 스테이지를 포함하여 총 15개의 스테이지로 구성됩니다. 워프특급 살인사건 전투에서는 클리어 보상과 별개로 초회 보상으로 [일반 승객 복구팩]을 획득할 수 있습니다. (1회 한정)"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_03_desc_02",
+      "content": "워프특급 살인사건 스테이지에서는 주요 이야기의 스테이지보다 훨씬 많은 [일반 승객 복구팩]을 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_04_title_01",
+      "content": "이벤트 특화 대상"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_04_desc_01",
+      "content": "워프특급 살인사건 기간 동안 이벤트 인격, E.G.O 편성하여 스테이지를 클리어하면 [일반 승객 복구팩]의 획득량이 상승합니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_05_title_01",
+      "content": "보상 교환"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_05_desc_01",
+      "content": "획득한 [일반 승객 복구팩]을 소모하여 [보상 교환]에서 다양한 보상을 얻을 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_06_desc_01",
+      "content": "[보상 교환] 페이지에서 보상을 수령할 수 있는 기간이 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_06_desc_02",
+      "content": "[보상 교환] 페이지에서 각종 재화와 이벤트 배포 인격을 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_07_title_01",
+      "content": "연속 전투 스테이지"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_07_desc_01",
+      "content": "워프특급 살인사건의 일부 전투는 연속 전투 방식으로 진행됩니다. 연속 전투에서는 아군이 죽더라도 정신력이 소모되지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_08_title_01",
+      "content": "해결사 승객 복구팩"
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_08_desc_01",
+      "content": "전투에서 승리할 경우, 낮은 확률로 [해결사 승객 복구팩]을 획득할 수 있습니다. 획득한 해결사 승객 복구팩은 일반 승객 복구팩 20개로 자동 변환됩니다."
+    },
+    {
+      "id": "tutorial_mainui_29_mowe_09_desc_01",
+      "content": "이벤트가 종료된 이후에도 운전석과 상영관 - [그 밖의 이야기]를 통해 워프특급 살인사건 전투를 다시 즐기거나 스토리를 감상할 수 있습니다."
+    },
+
+    {
+      "id": "tutorial_mainui_01_selection_page_11_title_01",
+      "content": "연속 전투"
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_11_desc_01",
+      "content": "연속 전투에서는 전투 참가 인원 이외에도 '대기 인원'을 선택할 수 있습니다.\n\n전투 중 전투 참가 인원이 사망하면, 대기 인원이 그 자리를 대신하여 전투에 참가합니다.\n\n연속 전투는 편성에서 선택한 모든 인원(전투 참가 인원, 대기 인원)이 사망할 때까지 전투에서 패배해지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_12_title_01",
+      "content": "대기 인원 편성"
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_12_desc_01",
+      "content": "전투 참가 인원이 사망하였을 때, 대기 인원은 편성 순서에 따라 등장합니다.\n\n일부 연속 전투에서는 대기 인원이 전투에 참가할 때 부가적인 효과를 얻을 수 있습니다.\n\n이를 활용하여 전략적으로 편성 순서를 정하세요."
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_13_title_01",
+      "content": "대기 해제"
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_13_desc_01",
+      "content": "연속 전투에서는 아군이 사망하더라도 기본 정신력 증감 조건으로 인해 정신력이 감소하지 않습니다.\n\n전투 중 일부 인원이 사망했다면, 현재 편성 순서가 가장 빠른 대기 인원이 그 자리를 대신하여 전투에 참가합니다.\n\n사망한 인격의 전투 패시브는 서포트 패시브로 전환됩니다.\n\n대기 해제된 인격의 서포트 패시브는 전투 패시브로 전환됩니다."
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_14_title_01",
+      "content": "적 현황 표기 UI"
+    },
+    {
+      "id": "tutorial_mainui_01_selection_page_14_desc_01",
+      "content": "연속 전투에서는 기존의 WAVE UI에서 전투에 등장하는 적의 수와 처치한 적의 수가 표시됩니다.\n\n다만, 전투 중 특정 조건에 의해 생성되는 적은 해당 UI에 표시되지 않습니다."
     }
   ]
 }

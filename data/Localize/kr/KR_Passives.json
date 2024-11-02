@@ -852,12 +852,12 @@
     {
       "id": 1120701,
       "name": "총알은 비싸다고",
-      "desc": "- <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">출혈</color></link></u>이 부여된 대상에게 앞면 적중시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 얻음. (최대 4)\n- <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>이 없는 경우, 대신 크리티컬 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, 피해량의 (5 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)% 만큼 추가 피해를 줌."
+      "desc": "- <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">출혈</color></link></u>이 부여된 대상에게 앞면 적중시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 얻음. (최대 4)\n- [Bullet]이 없는 경우, 대신 크리티컬 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, 피해량의 (5 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)% 만큼 추가 피해를 줌."
     },
     {
       "id": 1120702,
       "name": "총알은 비싸다고",
-      "desc": "<style=\"highlight\">- 상시 적용 : 탄환 7개 보유</style>\n- <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">출혈</color></link></u>이 부여된 대상에게 앞면 적중시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 얻음. (최대 4)\n<style=\"highlight\">- 탄환 소모하는 코인 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, 피해량의 (25 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)% 만큼 추가 피해를 줌.</style>\n- <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>이 없는 경우, 대신 크리티컬 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, (5 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)%만큼 추가 피해를 줌"
+      "desc": "<style=\"highlight\">- 상시 적용 : 탄환 7개 보유</style>\n- <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">출혈</color></link></u>이 부여된 대상에게 앞면 적중시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 얻음. (최대 4)\n<style=\"highlight\">- 탄환 소모하는 코인 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, 피해량의 (25 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)% 만큼 추가 피해를 줌.</style>\n- [Bullet]이 없는 경우, 대신 크리티컬 적중 시 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>을 전부 소모하여, (5 x 소모한 <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">부당 수익</color></link></u>)%만큼 추가 피해를 줌"
     },
     {
       "id": 1120721,
@@ -882,12 +882,12 @@
     {
       "id": 1040621,
       "name": "돛대",
-      "desc": "<sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 가장 적게 보유한 아군 1명이 스킬에서 마지막 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 소모하면, 공격 종료 시 해당 스킬로 피해를 입힌 대상에게 스킬 피해량의 50%만큼 추가 피해를 줌."
+      "desc": "[Bullet]을 가장 적게 보유한 아군 1명이 코인에서 마지막 [Bullet]을 소모하면, 코인의 공격 종료 시, 각 대상에게 해당 코인의 공격으로 입힌 피해량의 50%만큼 추가 피해를 줌. (소수점 반올림)"
     },
     {
       "id": 1040631,
       "name": "돛대",
-      "desc": "<style=\"highlight\">- <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 가장 적게 보유한 아군 1명이 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 소모하는 스킬을 사용할 때, 호흡 3 부여. (턴 당 1회. 탄환이 없는 대상에게는 적용되지 않음)</style>\n- <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 가장 적게 보유한 아군 1명이 스킬에서 마지막 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">탄환</color></link></u>을 소모하면, 공격 종료 시 해당 스킬로 피해를 입힌 대상에게 스킬 피해량의 50%만큼 추가 피해를 줌."
+      "desc": "<style=\"highlight\">- [Bullet]을 가장 적게 보유한 아군 1명이 [Bullet]을 소모하는 스킬을 사용할 때, 호흡 3 부여. (턴 당 1회. 탄환이 없는 대상에게는 적용되지 않음)</style>\n[Bullet]을 가장 적게 보유한 아군 1명이 코인에서 마지막 [Bullet]을 소모하면, 코인의 공격 종료 시, 각 대상에게 해당 코인의 공격으로 입힌 피해량의 50%만큼 추가 피해를 줌. (소수점 반올림)"
     },
     {
       "id": 1030601,
@@ -1192,31 +1192,31 @@
       "id": 1040721,
       "name": "전화",
       "desc": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 1명에게 [Combustion] 3 부여 (턴 당 1회)\n- 집중 전투에서는 부위에 부여",
-      "summary": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 1명에게 [Combustion] 3 부여"     
+      "summary": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 1명에게 [Combustion] 3 부여"
     },
     {
       "id": 1040731,
       "name": "전화",
       "desc": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 2명에게 [Combustion] 3 부여 (턴 당 1회)\n- 집중 전투에서는 부위에 부여",
-      "summary": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 2명에게 [Combustion] 3 부여"     
+      "summary": "속도가 가장 느린 아군 1명이 [Combustion]이 부여된 적 처치 시 무작위 적 2명에게 [Combustion] 3 부여"
     },
     {
       "id": 1070801,
       "name": "엄중한 입회",
       "desc": "대상의 [Vibration] 위력 6 당 피해량 +5% (최대 15%)",
-      "summary": ""     
+      "summary": ""
     },
     {
       "id": 1070811,
       "name": "엄중한 입회",
-      "desc": "대상의 [Vibration] 위력 6 당 피해량 +10% (최대 30%)\n자신의 스킬 효과로 [Vibration_Collapse] 변환 시 대상에게 [VibrationExplosion] 발동",
-      "summary": ""     
+      "desc": "대상의 [Vibration] 위력 6 당 피해량 +10% (최대 30%)\n자신의 스킬 효과로 [VibrationCollapse] 변환 시 대상에게 [VibrationExplosion] 발동",
+      "summary": ""
     },
     {
       "id": 1070821,
       "name": "의무 이행 확인",
       "desc": "속도가 가장 빠른 아군 1명의 [Vibration] 위력, 횟수를 부여하는 스킬의 합 위력 +1",
-      "summary": ""     
+      "summary": ""
     },
     {
       "id": 1050901,
@@ -1397,6 +1397,404 @@
       "id": 1080931,
       "name": "충실한 보조",
       "desc": "속도가 가장 빠른 아군 1명이 [Sinking]이 있는 대상 공격 시 대상의 [Sinking] 1당 피해량 1% (최대 20%)",
+      "summary": ""
+    },
+    {
+      "id": 1100901,
+      "name": "스티그마 공방 무기 / 격정",
+      "desc": "자신이 스킬로 부여하는 [Combustion] 위력 +1 (턴 당 최대 6회 발동)\n자신이 불안정 E.G.O 상태이고, 정신력이 0 이상이면, (자신의 정신력/20)만큼 코인 위력이 증가함. 자신의 정신력이 45면, 대신 코인 위력 +3",
+      "summary": "스킬로 부여하는 [Combustion] 위력 +1\n정신력에 비례하여 코인 위력이 증가 "
+    },
+    {
+      "id": 1100911,
+      "name": "스티그마 공방 무기 / 격정",
+      "desc": "자신이 스킬로 부여하는 [Combustion] 위력<style=\"highlight\">과 횟수 +1</style> (턴 당 최대 6회 발동)\n자신이 불안정 E.G.O 상태이고, 정신력이 0 이상이면, (자신의 정신력/20)만큼 코인 위력이 증가함. 자신의 정신력이 45면, 대신 코인 위력 +3",
+      "summary": "스킬로 부여하는 [Combustion] 위력, 횟수 +1\n정신력에 비례하여 코인 위력이 증가"
+    },
+    {
+      "id": 1100902,
+      "name": "불안정한 자아의 껍질",
+      "desc": "턴 시작 시 정신력이 40 이상이면, 정신력을 20 소모하여 불안정 E.G.O::밀랍날개 상태가 됨. (이후 턴 시작 시 효과가 추가로 발동되지 않음)\n또는 한 턴에 아군이 2명 이상 사망했을 때, 턴 종료 시 정신력이 -45가 아니면, 정신력을 20으로 변경한 후 불안정 E.G.O::밀랍날개 상태가 됨. (두 조건이 동시에 발생한 경우, 정신력 결과 값은 높은 쪽으로 결정됨.)\n\n불안정 E.G.O 상태가 될 때, 피해나 흐트러짐 손상으로 흐트러짐 상태가 된 경우, 흐트러짐 상태를 해제함. 해제할 수 없는 흐트러짐 상태인 경우, 불안정 E.G.O 상태가 될 수 없음.\n\n불안정 E.G.O 상태동안 [UnstableFeeling]을 얻음.\n\n턴 시작 시 정신력이 0 이하면, 불안정 E.G.O 상태가 해제됨.",
+      "summary": " "
+    },
+    {
+      "id": 1100921,
+      "name": "이글거리는 검",
+      "desc": "편성 순서 1번인 아군이 앞면 적중 시 [Combustion] 횟수 1 부여 (턴 당 최대 4회 발동)",
+      "summary": "앞면 적중 시 [Combustion] 횟수 1 부여"
+    },
+
+    {
+      "id": 1010901,
+      "name": "과제평가",
+      "desc": "적중시 대상에게 [Laceration]이 6 이상 있으면 정신력 2 회복.\n대상이 보유한 부정적인 효과 1개당 정신력 1 추가 회복.(최대 3)\n이 효과로 정신력 회복 시 자신의 정신력이 최대면, 다음 턴에 [AttackUp] 1 얻음.\n(턴 당 패시브 최대 발동 횟수 : 4회)",
+      "summary": "적중시 조건에 따라 정신력 회복. 정신력이 최대면, 다음 턴에 [AttackUp] 1 얻음"
+    },
+    {
+      "id": 1010911,
+      "name": "과제평가",
+      "desc": "적중시 대상에게 [Laceration]이 <style=\"highlight\">4</style> 이상 있으면 정신력 2 회복.\n대상이 보유한 부정적인 효과 1개당 정신력 1 추가 회복.(최대 3)\n이 효과로 정신력 회복 시 자신의 정신력이 최대면, 다음 턴에 [AttackUp] <style=\"highlight\">2</style> 얻음.\n(턴 당 패시브 최대 발동 횟수 : 4회)",
+      "summary": "적중시 조건에 따라 정신력 회복. 정신력이 최대면, 다음 턴에 [AttackUp] 2 얻음"
+    },
+    {
+      "id": 1010921,
+      "name": "미학견습",
+      "desc": "정신력이 가장 낮은 아군이 공격 적중 시 대상이 보유한 부정적인 효과 1개당 정신력 2 회복.(최대 6)\n(턴 당 패시브 최대 발동 횟수 : 2회)",
+      "summary": "적중시 대상이 보유한 부정적인 효과 수에 비례하여 정신력 회복"
+    },
+    {
+      "id": 1010931,
+      "name": "미학견습",
+      "desc": "정신력이 가장 낮은 아군이 공격 적중 시 대상이 보유한 부정적인 효과 1개당 정신력 2 회복.(최대 6)\n<style=\"highlight\">대상에게 [Laceration]이 있으면 추가 3 회복.</style>\n(턴 당 패시브 최대 발동 횟수 : 2회)",
+      "summary": "적중시 대상이 보유한 부정적인 효과 수에 비례하여 정신력 회복"
+    },
+    {
+      "id": 1110901,
+      "name": "여러 점",
+      "desc": "전투 시작 시 부정적인 효과를 가장 적게 보유한 적 1명에게 [Combustion], [Laceration], [Vibration], [Burst], [Sinking] 중 무작위 1개 효과 2 부여\n(집중 전투인 경우, 부위로 판정)",
+      "summary": "전투 시작 시 적 1명에게 무작위 상태이상 2 부여"
+    },
+    {
+      "id": 1110911,
+      "name": "여러 점",
+      "desc": "전투 시작 시 부정적인 효과를 가장 적게 보유한 적 <style=\"highlight\">2</style>명에게 [Combustion], [Laceration], [Vibration], [Burst], [Sinking] 중 무작위 1개 효과 2 부여\n(집중 전투인 경우, 부위로 판정)",
+      "summary": "전투 시작 시 적 2명에게 무작위 상태이상 2 부여"
+    },
+    {
+      "id": 1110921,
+      "name": "밑그림",
+      "desc": "정신력이 가장 낮은 아군 1명이 [Laceration]이 부여된 적 처치 시 정신력 4 회복.\n대상이 보유한 부정적인 효과 1개당 추가 1 회복.(최대 4. 턴 당 최대 1회 발동)",
+      "summary": "[Laceration]이 있는 적 처치 시 정신력 회복"
+    },
+    {
+      "id": 1110931,
+      "name": "밑그림",
+      "desc": "정신력이 가장 낮은 아군 1명이 [Laceration]이 부여된 적 처치 시 정신력 4 회복.\n대상이 보유한 부정적인 효과 1개당 추가 1 회복.(최대 4. 턴 당 최대 3회 발동)",
+      "summary": "[Laceration]이 있는 적 처치 시 정신력 회복"
+    },
+    {
+      "id": 1010902,
+      "name": "혈점묘파",
+      "desc": "이 인격은 [Laceration]을 부여하는 인격으로만 취급됨. 랜덤으로 [Combustion], [Laceration], [Vibration], [Burst], [Sinking]을 부여하는 스킬이 이 효과로 인해서 해당 키워드를 부여하는 스킬로 취급되지 않음."
+    },
+    {
+      "id": 1110902,
+      "name": "혈점묘파",
+      "desc": "이 인격은 [Laceration]을 부여하는 인격으로만 취급됨. 랜덤으로 [Combustion], [Laceration], [Vibration], [Burst], [Sinking]을 부여하는 스킬이 이 효과로 인해서 해당 키워드를 부여하는 스킬로 취급되지 않음."
+    },
+    {
+      "id": 1040901,
+      "name": "제.지",
+      "desc": "자신을 제외한 아군의 공격으로 흐트러짐 상태가 된 적을 스킬 1로 공격함. (턴 당 1회)\n여러 적이 흐트러졌을 경우 체력이 가장 낮은 적(환상체일 때, 본체 우선 이후 부위)을 공격함.\n이 효과로 스킬 1을 사용할 때 코인 효과로 자신이 얻는 [Vibration] 횟수가 1 증가하고, 해당 스킬의 마지막 코인 적중시 [VibrationExplosion]"
+    },
+    {
+      "id": 1040921,
+      "name": "조.감",
+      "desc": "편성 순서가 1번인 아군이 스킬, 코인 효과로 얻는 [Vibration] 횟수의 값 +1 (턴 당 2회)"
+    },
+    {
+      "id": 1060901,
+      "name": "진동유착 변형 전투 지팡이 (미허가 발명품)",
+      "desc": "턴 종료 시 이번 턴에 자신이 [VibrationExplosion]을 시킨 횟수만큼 다음 턴에 [AttackDmgUp]를 얻음 (최대 3)"
+    },
+    {
+      "id": 1060921,
+      "name": "내가 범인이라면...?",
+      "desc": "편성 순서 1번인 아군의 스킬, 코인 효과로 [VibrationExplosion] 시 25% 확률로 [VibrationExplosion]이 1회 추가로 발동 (턴 당 1회)"
+    },
+    {
+      "id": 1030901,
+      "name": "황금 시간 - 받아내기",
+      "desc": "턴 종료 시 체력이 10% ~ 20% 사이로 남았을 때, 전체 체력의 80%만큼 즉시 회복. 흐트러짐 상태 해제 (전투 당 1회)\n\n[TimeRentalTwoPersonality]가 해제될 경우, 다음 턴에 보유 중인 스킬 슬롯 중 하나의 [Aggro] 8 증가"
+    },
+    {
+      "id": 1030921,
+      "name": "T사식 물리왜곡장",
+      "desc": "속도가 가장 느린 아군 1명이 [Vibration]이 부여된 적에게 피해를 받을 때, 받는 피해량 -10%"
+    },
+    {
+      "id": 1090901,
+      "name": "황금 시간 - 맞서기",
+      "desc": "턴 종료 시 체력이 16% ~ 20% 사이로 남았을 때, 전체 체력의 60%만큼 즉시 회복. 흐트러짐 상태 해제 (전투 당 1회)\n\n[TimeSuspend]를 보유한 대상과 합을 진행할 때 합 위력 +2\n[TimeSuspend]를 보유한 적에게 피해를 받을 때, 받는 피해량 -10%"
+    },
+    {
+      "id": 1090921,
+      "name": "T사식 격투술",
+      "desc": "속도가 가장 빠른 아군 1명이 [Vibration]을 5 이상 보유한 적과 합 진행 시 합 위력 +1"
+    },
+    {
+      "id": 1051001,
+      "name": "자율 학습 지시",
+      "desc": "자신을 제외한 아군이 스킬을 버릴 때마다 대상과 자신에게 [KnowledgeTraining] 1을 부여 (스킬 당 1회, 턴 당 3회)\n턴 종료 시, 자신을 제외하고 스킬을 버린 아군의 수만큼 다음 턴에 관통 피해량 증가, 타격 피해량 증가 얻음 (최대 3)"
+    },
+    {
+      "id": 1051021,
+      "name": "성실한 배움",
+      "desc": "최대 체력이 가장 높은 아군 1명이 스킬을 버릴 때, 해당 인격 최대 체력의 (5 x 버린 스킬의 등급)% 만큼 보호막을 얻음 (턴 당 1회)\n[KnowledgeExplored]이 있는 경우, 보호막 수치가 1.5배로 적용됨"
+    },
+    {
+      "id": 1111001,
+      "name": "과충전 / 정리 지시",
+      "desc": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다 [Charge]을 1 얻음\n턴 종료 시, 자신을 포함한 W사 직원 ([Charge])명에게 편성 순서가 가장 뒤인 순으로 다음 턴에 [ParryingResultUp] 1 부여 (최대 부여 대상 수: 5명)"
+    },
+    {
+      "id": 1111021,
+      "name": "굴절",
+      "desc": "턴 시작 시 [Charge] 횟수가 가장 많은 아군 1명의 [Charge] 횟수를 7 이상 소모한 스킬 피해량 +10% (턴 당 1회)"
+    },
+    {
+      "id": 1021001,
+      "name": "전류 해체",
+      "desc": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다, [Charge] 1 얻음\n[Charge]이 2 이상이면, 피해량이 ([Charge] x 3)%만큼 증가 (최대 15%)\n\n적을 처치하면 자신과 [Charge] 횟수가 가장 적은 아군 1명이 [Charge]만큼 [Charge] 횟수 증가 (최대 3, [Charge]을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)",
+      "summary": "[Charge] 횟수 10 소모할 때마다 [Charge] 얻음\n[Charge] 2 이상이면, 피해량 증가\n적 처치 시, 자신과 아군 1명 [Charge] 횟수 증가"
+    },
+    {
+      "id": 1021011,
+      "name": "전류 해체",
+      "desc": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다, [Charge] 1 얻음\n[Charge]이 2 이상이면, 피해량이 ([Charge] x 3)%만큼 증가 (최대 15%)\n<style=\"highlight\">- 대상의 체력이 50% 미만이면 ([Charge] x 5)%만큼 추가로 증가 (최대 25%)</style>\n\n적을 처치하면 자신과 [Charge] 횟수가 가장 적은 아군 <style=\"highlight\">2</style>명이 <style=\"highlight\">(2 + [Charge])</style>만큼 [Charge] 횟수 증가 (최대 <style=\"highlight\">5</style>, [Charge]을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)",
+      "summary": "[Charge] 횟수 10 소모할 때마다 [Charge] 얻음\n[Charge] 2 이상이면, 피해량이 증가\n적 처치 시, 자신과 아군 2명 [Charge] 횟수 증가"
+    },
+    {
+      "id": 1021021,
+      "name": "해체 보조 전류",
+      "desc": "[Charge] 횟수가 가장 낮은 아군 1명이 적 처치 시 [Charge] 횟수 2 증가 (턴 당 1회, [Charge]을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)"
+    },
+    {
+      "id": 1021031,
+      "name": "해체 보조 전류",
+      "desc": "[Charge] 횟수가 가장 낮은 아군 1명이 적 처치 시 [Charge] 횟수 3 증가 (턴 당 1회, [Charge]을 소모하거나 스스로 획득하는 스킬을 보유한 아군에게 우선으로 적용됨)"
+    },
+    {
+      "id": 1070901,
+      "name": "모델 L37 충전",
+      "desc": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다, [Charge] 1 얻음\n\n턴 종료 시 [Charge]이 2 이상이면, 다음 턴에 [Agility] 1 얻음",
+      "summary": "[Charge] 횟수 10 소모할 때마다 [Charge] 얻음"
+    },
+    {
+      "id": 1070911,
+      "name": "모델 L37 충전",
+      "desc": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다, [Charge] 1 얻음\n턴 종료 시 [Charge]이 2 이상이면, 다음 턴에 [Agility] 1 얻음\n<style=\"highlight\">턴 종료 시 [Charge]이 3 이상이면, 다음 턴에 [Agility] 1, [ParryingResultUp] 1 추가로 얻음</style>",
+      "summary": "[Charge] 횟수 10 소모할 때마다 [Charge] 얻음"
+    },
+    {
+      "id": 1070921,
+      "name": "충전 모듈 추가",
+      "desc": "편성 순서가 1번인 아군의 [Charge] 횟수 최대치 +5\n(조건 충족 시, 다음 턴 시작 전까지 효과 적용)"
+    },
+    {
+      "id": 1071002,
+      "name": "듀라한",
+      "desc": "- 턴 시작 시 [NightPathfinding]이 있을 때, [NightPathfinding]에 탑승함\n- [NightPathfinding]에 탑승할 때마다 정신력 5 소모\n- 전투 중 사망한 아군이 3명 이상이면, 다음 턴에 [NightPathfinding]을 얻음. (전투당 1번)\n- [NightPathfinding]에 탑승할 때, 피해나 흐트러짐 손상으로 흐트러짐 상태가 된 경우, 흐트러짐 상태를 해제함. 해제할 수 없는 흐트러짐 상태인 경우, [NightPathfinding]에 탑승할 수 없음.\n- 대상 처치 시 관 1 얻음"
+    },
+    {
+      "id": 1071001,
+      "name": "마왕의 부름",
+      "desc": "- 대상의 [Sinking] 1당 피해량 +1% (최대 15%)",
+      "summary": "대상의 [Sinking]당 피해량이 증가"
+    },
+    {
+      "id": 1071011,
+      "name": "마왕의 부름",
+      "desc": "- 대상의 [Sinking] 1당 피해량 +1% (최대 15%)\n\n<style=\"highlight\">- 전투 중 아군 1명이 사망에 이르는 피해를 받았을 때, 관 2를 소모하여 [WildHunt]를 부여 (턴 당 1회)\n\n- 다음 턴에 [WildHunt]를 부여한 인격에게 [AttackDmgUp] 2 부여\n- 워더링하이츠, 에드가 가문 소속이면, 다음 턴에 [Enhancement] 1 추가 부여</style>",
+      "summary": "대상의 [Sinking]당 피해량이 증가"
+    },
+    {
+      "id": 1071021,
+      "name": "울고 또 울어라",
+      "desc": "정신력이 가장 높은 아군 1명이 정신력이 0 미만인 대상에게 입히는 피해량 +5%\n대상의 정신력이 0보다 낮을수록 입히는 피해량이 증가 (정신력 1당 +0.5%, 최대 20%)\n대상에게 정신력이 없는 경우, 대신 공격 스킬의 스킬, 코인 효과로 부여하는 [Sinking] 위력, 횟수 부여량 +1 (턴 당 최대 2회)",
+      "summary": "정신력이 0 미만인 대상에게 입히는 피해량이 증가"
+    },
+    {
+      "id": 1071012,
+      "name": "마왕의 부름",
+      "desc": "- 대상의 [Sinking] 1당 피해량 +1% (최대 15%)\n\n- 전투 중 아군 1명이 사망에 이르는 피해를 받았을 때, 관 2를 소모하여 [WildHunt]를 부여 (턴 당 <style=\"highlight\">2</style>회)\n\n- 다음 턴에 [WildHunt]를 부여한 인격에게 [AttackDmgUp] 2 부여\n- 워더링하이츠, 에드가 가문 소속이면, 다음 턴에 [Enhancement] 1 추가 부여",
+      "summary": "대상의 [Sinking]당 피해량이 증가"
+    },
+    {
+      "id": 1041001,
+      "name": "거미대가리 / 해골바가지",
+      "desc": "[RedEyeFirst]을 얻는 코인을 사용하여 적에게 적중 시\n- 피해량이 ([RedEyeFirst]/2)%만큼 증가\n- 대상에게 [Laceration]이 있으면, [RedEyeFirst] 1 얻음 (턴 당 최대 3)\n\n[PenanceFirst]를 얻는 코인을 사용하여 적에게 적중 시\n- 피해량이 ([PenanceFirst]/2)%만큼 증가\n- 자신의 정신력이 20 이상이면 [PenanceFirst] 1 얻음 (턴 당 최대 3)",
+      "summary": "적안 얻는 코인의 피해량이 증가. 대상에게 출혈이 있으면, 적안 1 얻음\n참회 얻는 코인의 피해량이 증가. 자신의 정신력이 20 이상이면 참회 1 얻음"
+    },
+    {
+      "id": 1041011,
+      "name": "거미대가리 / 해골바가지",
+      "desc": "[RedEyeFirst]을 얻는 코인을 사용하여 적에게 적중 시\n- 피해량이 ([RedEyeFirst]/2)%만큼 증가\n<style=\"highlight\">- 대상의 속도가 자신보다 3 이상 낮으면, 피해량이 ([RedEyeFirst]/2)%만큼 추가로 증가</style>\n- 대상에게 [Laceration]이 있으면, [RedEyeFirst] 1 얻음 (턴 당 최대 3)\n\n[PenanceFirst]를 얻는 코인을 사용하여 적에게 적중 시\n- 피해량이 ([PenanceFirst]/2)%만큼 증가\n<style=\"highlight\">- 대상의 정신력이 자신보다 낮으면, 피해량이 ([PenanceFirst]/2)%만큼 추가로 증가 (정신력이 없는 대상일 경우, 0으로 계산)</style>\n- 자신의 정신력이 20 이상이면 [PenanceFirst] 1 얻음 (턴 당 최대 3)\n\n<style=\"highlight\">적에게 피격 시, [PenanceFirst] 1 얻음 (최대 3)</style>",
+      "summary": "적안 얻는 코인의 피해량이 증가. 대상에게 출혈이 있으면, 적안 1 얻음\n참회 얻는 코인의 피해량이 증가. 자신의 정신력이 20 이상이면 참회 1 얻음\n적에게 피격 시, 참회 1 얻음 (최대 3)"
+    },
+    {
+      "id": 1041002,
+      "name": "E.G.O 동화",
+      "desc": "[Charge] 횟수를 획득할 때, 대신 [RedEyeFirst] 또는 [PenanceFirst]를 얻음\n- [RedEyeFirst]과 [PenanceFirst]는 [Charge] 위력의 영향을 받지 않음",
+      "summary": "충전 횟수를 획득할 때, 대신 적안 또는 참회를 얻음"
+    },
+    {
+      "id": 1041021,
+      "name": "먹고 자라",
+      "desc": "전투 시작 시\n- 체력 비율이 제일 낮은 아군 1명이 체력 3 회복\n- 정신력이 제일 낮은 아군 1명이 정신력 3 회복",
+      "summary": "체력 비율 제일 낮은 아군 체력 회복, 정신력 제일 낮은 아군 정신력 회복"
+    },
+    {
+      "id": 1011001,
+      "name": "쏘아라.쏘으리로다.",
+      "desc": "[BulletLament]를 얻으면, 다음 턴에 [Agility] 2 얻음 (턴 당 1회)",
+      "summary": "탄환을 얻으면, 다음 턴에 신속을 얻음"
+    },
+    {
+      "id": 1011002,
+      "name": "죽어가는나비를본다.",
+      "desc": "전투 시작 시 [BulletLament]를 각각 10씩 보유함.\n\n [BulletLament]를 소모할 때, 해당 효과의 산나비(위력)와 죽은나비(횟수)를 무작위로 소모.\n\n[SinkingWhite]를 부여할 때, 해당 코인에서 소모한 [BulletLament]에 따라 부여.\n- 산나비를 소모했으면, 소모한 값만큼 산나비를 부여.\n- 죽은나비를 소모했으면, 소모한 값만큼 죽은나비를 부여.\n\n스킬 사용 중 [BulletLament]가 부족하면, 다음 코인을 모두 취소하고 [ReloadLament]\n\n[ReloadLament]을 하거나 [BulletLament]를 얻을 때, 현재 정신력에 따라 얻는 나비가 정해짐.\n- 정신력이 0 이상이면, 30% 확률로 산나비를, 70% 확률로 죽은나비를 얻음.\n- 정신력이 0 미만이면, 70% 확률로 산나비를, 30% 확률로 죽은나비를 얻음.\n- 확률은 각 탄환마다 개별적으로 적용됨.",
+      "summary": "스킬 사용 중 탄환이 부족하면 재장전"
+    },
+    {
+      "id": 1011011,
+      "name": "쏘아라.쏘으리로다.",
+      "desc": "공격 종료시 자신의 스킬에 의해 대상이 사망했으면, [ReloadLament]\n[BulletLament]를 얻으면, 다음 턴에 [Agility] 2 얻음 (턴 당 1회)",
+      "summary": "탄환을 얻으면, 다음 턴에 신속을 얻음. 대상 처치시, 재장전"
+    },
+    {
+      "id": 1011021,
+      "name": "구원의 손",
+      "desc": "아군의 스킬 적중 시 대상의 [Sinking]을 2 소모하여 [SinkingWhite] 1 부여 (턴 당 3회)",
+      "summary": "대상의 침잠을 나비로 전환"
+    },
+    {
+      "id": 1091001,
+      "name": "신속 배달",
+      "desc": "턴 시작 시 속도가 6 이상이거나 [Agility]을 보유하였다면, 자신의 최대 체력의 ([DevyatDimensionalSack]/2)%만큼 보호막을 얻음 (최대 15%)\n\n퇴각 시, 다음 턴에 아군 둘에게 [ParryingResultUp] 1 부여 (대기 해제된 인격에게 우선으로 부여되며, 그 다음으로는 편성 순서가 빠른 순으로 적용)",
+      "summary": "최대 체력의 ([DevyatDimensionalSack]/2)%만큼 보호막 얻음\n퇴각 시, 무작위 아군 둘에게 [ParryingResultUp] 1 부여"
+    },
+    {
+      "id": 1091011,
+      "name": "신속 배달",
+      "desc": "턴 시작 시 속도가 6 이상이거나 [Agility]을 보유하였다면, 자신의 최대 체력의 <style=\"highlight\">([DevyatDimensionalSack])%</style>만큼 보호막을 얻음 (최대 <style=\"highlight\">20%</style>)\n\n퇴각 시, 다음 턴에 아군 둘에게 [ParryingResultUp] 1 부여 (대기 해제된 인격에게 우선으로 부여되며, 그 다음으로는 편성 순서가 빠른 순으로 적용)\n<style=\"highlight\">- 자신이 보유한 [DevyatDimensionalSack] 15당 유지 턴 수 1 증가 (최대 2턴 증가)</style>",
+      "summary": "최대 체력의 ([DevyatDimensionalSack])%만큼 보호막 얻음\n퇴각 시, 무작위 아군 둘에게 [ParryingResultUp] 1 부여"
+    },
+    {
+      "id": 1091002,
+      "name": "한 번만 봐주면 진짜 제대로 배달 끝낼게!",
+      "desc": "<연속 전투 전용> '[Retreat]'가 발동하여 퇴각한 다음 다시 전투에 참여할 때, [DevyatDimensionalSack]가 절반으로 감소 (전투당 1회, 올림하여 처리)",
+      "summary": "[DevyatDimensionalSack] 절반으로 감소"
+    },
+    {
+      "id": 1091021,
+      "name": "우수 배달부",
+      "desc": "속도가 가장 빠른 아군 1명의 [Burst] 위력, 횟수를 부여하는 스킬의 합 위력 +1",
+      "summary": "[Burst] 위력, 횟수를 부여하는 스킬의 합 위력 +1"
+    },
+    {
+      "id": 1081001,
+      "name": "충격상쇄 그레이트소드",
+      "desc": "전투 시작 시, 자신의 [Vibration] 횟수만큼 [DefenseUp]를 얻음 (최대 5)"
+    },
+    {
+      "id": 1081011,
+      "name": "충격상쇄 그레이트소드",
+      "desc": "전투 시작 시, 자신의 [Vibration] 횟수만큼 [DefenseUp]를 얻음 (최대 5)\n-[DefensiveStance]가 있으면 위 효과로 얻는 [DefenseUp]가 2배가 됨."
+    },
+    {
+      "id": 1081021,
+      "name": "긴급수호",
+      "desc": "전투 시작 시 체력이 감소하여 이전 턴 시작과 체력 비율이 가장 차이가 많이 나는 인격에게 [DefenseUp] 2 부여"
+    },
+    {
+      "id": 1101001,
+      "name": "보호 임무 시작",
+      "desc": "전투 시작 시, 자신의 진동 횟수만큼 [DefenseUp] 얻음 (최대 5)"
+    },
+    {
+      "id": 1101021,
+      "name": "의뢰 대상 보호",
+      "desc": "턴 종료 시 체력 비율이 가장 낮은 아군 1명에게 다음 턴에 [Agility] 1, [DefenseUp] 3 부여"
+    },
+    {
+      "id": 1051101,
+      "name": "결투 생방송",
+      "desc": "턴 종료시 자신의 [Breath] 위력 3 마다, 다음 턴에 [Agility] 1 얻음 (최대 2)\n기본 스킬로 공격 적중 시,  다음 턴에 [ConcentratedAttackMeursault] 부여. (스킬당 1회 부여)",
+      "summary": "턴 종료시 자신의 호흡 횟수에 비례해 다음 턴에 신속 얻음. 기본 공격 적중시 다음 턴에 [ConcentratedAttackMeursault] 부여"
+    },
+    {
+      "id": 1051111,
+      "name": "결투 생방송",
+      "desc": "턴 종료시 자신의 [Breath] 위력 3 마다, 다음 턴에 [Agility] 1 얻음 (최대 2)\n기본 스킬로 공격 적중 시, 다음 턴에 [ConcentratedAttackMeursault] 부여. (스킬당 1회 부여)\n<style=\"highlight\">[ConcentratedAttackMeursault]가 부여된 슬롯을 공격하여 대상을 처치하거나 부위를 파괴했으면, 정신력 7 회복</style>",
+      "summary": "턴 종료시 자신의 호흡 횟수에 비례해 다음 턴에 신속 얻음. 기본 공격 적중시 다음 턴에 [ConcentratedAttackMeursault] 부여. 대상을 처치하면 정신력을 회복함"
+    },
+    {
+      "id": 1051121,
+      "name": "한 발 더 빠르게",
+      "desc": "속도가 가장 빠른 아군 1명이 합 승리시 다음 턴에 신속 1을 얻음(턴 당 최대 2회)",
+      "summary": "속도가 가장 빠른 아군이 합 승리시 다음 턴에 신속 얻음"
+    },
+    {
+      "id": 1061001,
+      "name": "유쾌한 사냥법",
+      "desc": "대상이 <혈귀>, <피주머니>면 피해량 +10%\n스킬 사용시 자신에게 [Laceration]이 있으면, 공격 적중 시 [Burst] 3 부여 (턴 당 1회)",
+      "summary": ""
+    },
+    {
+      "id": 1061011,
+      "name": "유쾌한 사냥법",
+      "desc": "대상이 <혈귀>, <피주머니>거나, 대상의 [Burst]이 10 이상이면 피해량 +10%\n스킬 사용시 자신에게 [Laceration]이 있으면, 공격 적중 시 [Burst] 3 부여 (턴 당 2회)",
+      "summary": ""
+    },
+    {
+      "id": 1061021,
+      "name": "혈귀 공략 교본 - 지혈",
+      "desc": "전투 시작 시, [Laceration]과 [Laceration] 횟수의 합이 가장 높은 아군 1명의 [Laceration] 횟수 2 감소\n속도가 가장 빠른 아군 1명이 [Burst]이 있는 적에게 공격 적중시, [DefenseDown] 1 부여 (턴 당 최대 2회)",
+      "summary": ""
+    },
+    {
+      "id": 1111101,
+      "name": "그 옷이 아니야!!!",
+      "desc": "적중시 자신의 [BloodDinner_Accumulation] 10당, 피해량 +1% (최대 20%)",
+      "summary": "누적 소모 혈찬에 비례하여 피해량 증가"
+    },
+    {
+      "id": 1111111,
+      "name": "그 옷이 아니야!!!",
+      "desc": "[LineCuttingPersonality]과 합을 할 때, 합 위력 +1.\n적중시 자신의 [BloodDinner_Accumulation] 10당, 피해량 +1.5% (최대 30%)\n적중시 대상의 [Laceration]당 피해량 +0.5% (최대 10%)",
+      "summary": "재봉 대상과 합을 할 때, 합 위력 +1"
+    },
+    {
+      "id": 1111102,
+      "name": "혈찬",
+      "desc": "이 캐릭터가 전투에 등장해있거나, 등장할 리스트에 포함되어 있으면, 1턴부터 모든 캐릭터가 받은 [Laceration] 피해만큼 [BloodDinner]이 증가함.\n이 캐릭터가 전투에 등장할 때 전장에 흩뿌려진 잠재된 피가 더욱 드러난다.",
+      "summary": ""
+    },
+    {
+      "id": 1111121,
+      "name": "돈키호테류 경혈 8식 가위",
+      "desc": "속도가 가장 빠른 아군 1명이 공격 종료 시 적이 사망했다면, 체력 10 회복 (턴 당 최대 2회)\n속도가 가장 빠른 아군 1명이 공격 종료 시 적이 사망했다면, 다음 턴동안 스킬, 코인 효과로 [Laceration] 위력 부여 시 [Laceration] 횟수 1 증가 (턴 당 최대 3회)",
+      "summary": "공격 종료 시 적이 사망했다면, 체력 회복"
+    },
+    {
+      "id": 1121001,
+      "name": "자멸적 헌신",
+      "desc": "턴 종료시, 가장 정신력이 낮은 아군의 정신력을 (10 - 자신의 [WornHeartGreg])/2 만큼 회복시킴 (자신 또는 패닉, E.G.O 침식 상태인 아군 제외. 소수점 버림)\n이번 전투에서 체력이 0이 되는 피해를 받았을 때, 해당 피해를 받지 않고, 해당 턴 동안 체력이 1로 유지됨. (전투 당 1회)",
+      "summary": ""
+    },
+    {
+      "id": 1121002,
+      "name": "혈찬",
+      "desc": "이 캐릭터가 전투에 등장해있거나, 등장할 리스트에 포함되어 있으면, 1턴부터 모든 캐릭터가 받은 [Laceration] 피해만큼 [BloodDinner]이 증가함. 이 캐릭터가 전투에 등장할 때 전장에 흩뿌려진 잠재된 피가 더욱 드러난다.",
+      "summary": ""
+    },
+    {
+      "id": 1121011,
+      "name": "자멸적 헌신",
+      "desc": "턴 종료시, 가장 정신력이 낮은 아군의 정신력을 (10 - 자신의 [WornHeartGreg]) 만큼 회복시킴 (자신 또는 패닉, E.G.O 침식 상태인 아군 제외)\n이번 전투에서 체력이 0이 되는 피해를 받았을 때, 해당 피해를 받지 않고, 해당 턴 동안 체력이 1로 유지됨. (전투 당 1회)",
+      "summary": ""
+    },
+    {
+      "id": 1121021,
+      "name": "돈키호테류 경혈 6식 채찍",
+      "desc": "현재 체력 비율이 가장 낮은 아군이 공격 적중 시 체력 3 회복 (턴 당 3회)",
+      "summary": ""
+    },
+    {
+      "id": 1121031,
+      "name": "돈키호테류 경혈 6식 채찍",
+      "desc": "현재 체력 비율이 가장 낮은 아군이 공격 적중 시 체력 3 회복 (턴 당 3회)\n- 피격 대상이 [Laceration]을 보유하고 있으면, 추가로 3 회복",
       "summary": ""
     }
   ]

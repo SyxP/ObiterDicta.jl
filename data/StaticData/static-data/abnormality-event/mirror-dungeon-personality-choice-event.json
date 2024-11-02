@@ -9,6 +9,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -79,11 +80,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 7,
-          "exclusiveValue": 14,
+          "inclusiveValue": 8,
+          "exclusiveValue": 16,
           "judgementDataList": [
             {
               "attributeType": "CRIMSON"
@@ -127,19 +129,7 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010301
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
-                      "itemReward": {
-                        "type": "EGO_GIFT",
-                        "rewardId": 9003,
-                        "num": 1,
-                        "prob": 1.0
-                      }
+                      "resultEffect": "Nothing"
                     }
                   }
                 ]
@@ -158,11 +148,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 5,
-          "exclusiveValue": 10,
+          "inclusiveValue": 7,
+          "exclusiveValue": 14,
           "judgementDataList": [
             {
               "attributeType": "CRIMSON"
@@ -183,7 +174,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing"
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "RecoverMpOnly_15"
                     }
                   }
                 ]
@@ -220,11 +212,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 8,
-          "exclusiveValue": 16,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "CRIMSON"
@@ -268,19 +261,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010201
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
-                      "itemReward": {
-                        "type": "EGO_GIFT",
-                        "rewardId": 9005,
-                        "num": 1,
-                        "prob": 1.0
-                      }
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_10"
                     }
                   }
                 ]
@@ -299,11 +281,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 8,
+          "exclusiveValue": 16,
           "judgementDataList": [
             {
               "attributeType": "CRIMSON"
@@ -324,7 +307,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing"
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "RecoverHpMpSameAmount_10"
                     }
                   }
                 ]
@@ -363,11 +347,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 5,
-          "exclusiveValue": 10,
+          "inclusiveValue": 7,
+          "exclusiveValue": 14,
           "judgementDataList": [
             {
               "attributeType": "SCARLET"
@@ -388,19 +373,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010302
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
-                      "itemReward": {
-                        "type": "EGO_GIFT",
-                        "rewardId": 9006,
-                        "num": 1,
-                        "prob": 1.0
-                      }
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseHpOnly_10"
                     }
                   }
                 ]
@@ -437,6 +411,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -485,7 +460,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing"
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseHpMpSameAmount_10"
                     }
                   }
                 ]
@@ -504,11 +480,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 8,
+          "exclusiveValue": 16,
           "judgementDataList": [
             {
               "attributeType": "SCARLET"
@@ -555,7 +532,7 @@
                       "resultEffect": "MirrorDungeonAcquireCost",
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "num": 40,
                         "prob": 1.0
                       }
                     }
@@ -576,11 +553,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 8,
+          "exclusiveValue": 16,
           "judgementDataList": [
             {
               "attributeType": "SCARLET"
@@ -651,11 +629,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 7,
-          "exclusiveValue": 14,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "AMBER"
@@ -724,11 +703,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 11,
+          "exclusiveValue": 22,
           "judgementDataList": [
             {
               "attributeType": "AMBER"
@@ -759,7 +739,12 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing"
+                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 30,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -778,11 +763,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -805,7 +791,7 @@
                     "resultForm": {
                       "resultEffectCondition1": "SUCCESS",
                       "resultEffectTarget": "ChosenPersonality",
-                      "resultEffect": "LoseMpOnly_10",
+                      "resultEffect": "LoseMpOnly_5",
                       "resultDescId": "Choice_90101701"
                     }
                   },
@@ -867,11 +853,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 7,
-          "exclusiveValue": 14,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -937,11 +924,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 5,
-          "exclusiveValue": 10,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -1007,11 +995,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 8,
+          "exclusiveValue": 16,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -1072,14 +1061,37 @@
                     "resultForm": {
                       "resultEffectCondition1": "NotIncludeSkillAttribute_SHAMROCK",
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_10",
-                      "resultDescId": "Choice_90102002"
+                      "resultEffect": "LoseHpOnly_10"
                     }
                   },
                   {
                     "resultForm": {
                       "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010303
+                      "nextBattleID": 2060018
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901020",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9020,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9107,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -1098,11 +1110,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 5,
-          "exclusiveValue": 10,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "AZURE"
@@ -1146,8 +1159,80 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010304
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 90102102,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
+          "judgementDataList": [
+            {
+              "attributeType": "AZURE"
+            },
+            {
+              "attributeType": "SCARLET"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9134,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 40,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -1166,11 +1251,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "AZURE"
@@ -1194,7 +1280,13 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing"
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9114,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -1213,7 +1305,7 @@
                     "resultForm": {
                       "resultEffectCondition1": "NotIncludeSkillAttribute_AZURE",
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_11",
+                      "resultEffect": "LoseHpOnly_13",
                       "resultDescId": "Choice_90102201"
                     }
                   }
@@ -1233,11 +1325,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 9,
-          "exclusiveValue": 18,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "VIOLET"
@@ -1304,11 +1397,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 7,
-          "exclusiveValue": 14,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "VIOLET"
@@ -1334,6 +1428,17 @@
                       "itemReward": {
                         "type": "EGO_GIFT",
                         "rewardId": 991001,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9133,
                         "num": 1,
                         "prob": 1.0
                       }
@@ -1375,11 +1480,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 10,
-          "exclusiveValue": 20,
+          "inclusiveValue": 11,
+          "exclusiveValue": 22,
           "judgementDataList": [
             {
               "attributeType": "AMBER"
@@ -1448,11 +1554,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 10,
-          "exclusiveValue": 20,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "AMBER"
@@ -1512,11 +1619,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "CRIMSON"
@@ -1537,10 +1645,11 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
-                        "type": "MIRRORDUNGEON_COST",
-                        "num": 40,
+                        "type": "EGO_GIFT",
+                        "rewardId": 9118,
+                        "num": 1,
                         "prob": 1.0
                       }
                     }
@@ -1580,6 +1689,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -1649,6 +1759,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -1723,6 +1834,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -1785,6 +1897,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -1872,6 +1985,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -1879,10 +1993,10 @@
           "exclusiveValue": 18,
           "judgementDataList": [
             {
-              "attributeType": "AZURE"
+              "attributeType": "SCARLET"
             },
             {
-              "attributeType": "VIOLET"
+              "attributeType": "INDIGO"
             }
           ]
         },
@@ -1952,6 +2066,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2019,17 +2134,18 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
           "judgementDataList": [
             {
-              "attributeType": "AMBER"
+              "attributeType": "CRIMSON"
             },
             {
-              "attributeType": "SHAMROCK"
+              "attributeType": "INDIGO"
             }
           ]
         },
@@ -2087,17 +2203,18 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 11,
+          "exclusiveValue": 22,
           "judgementDataList": [
             {
-              "attributeType": "SCARLET"
+              "attributeType": "AZURE"
             },
             {
-              "attributeType": "INDIGO"
+              "attributeType": "SHAMROCK"
             }
           ]
         },
@@ -2110,12 +2227,6 @@
                 "resultCondition": "Prob_1",
                 "nextEventID": -1,
                 "eventResultDataList": [
-                  {
-                    "resultForm": {
-                      "resultEffectTarget": "ChosenPersonality",
-                      "resultEffect": "LoseHpOnly_7"
-                    }
-                  },
                   {
                     "resultForm": {
                       "resultEffect": "MirrorDungeonAcquireCost",
@@ -2159,6 +2270,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2195,6 +2307,16 @@
                         "type": "EGO_GIFT",
                         "rewardId": 9043,
                         "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 50,
                         "prob": 1.0
                       }
                     }
@@ -2238,6 +2360,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2306,6 +2429,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2369,6 +2493,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2440,6 +2565,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2508,6 +2634,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2576,6 +2703,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2643,11 +2771,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -2711,14 +2840,15 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 13,
-          "exclusiveValue": 26,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
-              "attributeType": "SHAMROCK"
+              "attributeType": "AZURE"
             },
             {
               "attributeType": "INDIGO"
@@ -2736,18 +2866,13 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
-                        "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "type": "EGO_GIFT",
+                        "rewardId": 9145,
+                        "num": 1,
                         "prob": 1.0
                       }
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffectTarget": "ChosenPersonality",
-                      "resultEffect": "RecoverHpOnly_30"
                     }
                   }
                 ]
@@ -2764,8 +2889,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040004
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_20"
                     }
                   }
                 ]
@@ -2784,6 +2909,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -2852,11 +2978,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
           "inclusiveValue": 11,
-          "exclusiveValue": 11,
+          "exclusiveValue": 22,
           "judgementDataList": [
             {
               "attributeType": "AMBER"
@@ -2943,11 +3070,12 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
           "inclusiveValue": 12,
-          "exclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "SCARLET"
@@ -3028,6 +3156,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -3053,8 +3182,18 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040009
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpOnly_10"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 50,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -3091,6 +3230,7 @@
           "min": 1,
           "max": 1
         },
+        "silenceCharacterUniqueIdList": [],
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
@@ -3206,7 +3346,6 @@
                   {
                     "resultForm": {
                       "resultEffect": "MirrorDungeonAcquireCost",
-                      "nextBattleID": -1,
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
                         "num": 50,
@@ -3323,8 +3462,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 11,
-          "exclusiveValue": 22,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -3555,10 +3694,9 @@
                   {
                     "resultForm": {
                       "resultEffect": "MirrorDungeonAcquireCost",
-                      "nextBattleID": -1,
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "num": 50,
                         "prob": 1.0
                       }
                     }
@@ -3600,8 +3738,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 13,
-          "exclusiveValue": 26,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "INDIGO"
@@ -3738,8 +3876,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 13,
+          "exclusiveValue": 26,
           "judgementDataList": [
             {
               "attributeType": "INDIGO"
@@ -3807,8 +3945,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 8,
-          "exclusiveValue": 16,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "INDIGO"
@@ -3830,12 +3968,17 @@
                   {
                     "resultForm": {
                       "resultEffect": "MirrorDungeonAcquireCost",
-                      "nextBattleID": -1,
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "num": 50,
                         "prob": 1.0
                       }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "RecoverMpOnly_15"
                     }
                   }
                 ]
@@ -3875,8 +4018,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 8,
-          "exclusiveValue": 16,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
               "attributeType": "INDIGO"
@@ -4222,8 +4365,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 10,
+          "exclusiveValue": 20,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -4250,11 +4393,11 @@
                   },
                   {
                     "resultForm": {
-                      "resultEffect": "MirrorDungeonAcquireCost",
-                      "nextBattleID": -1,
+                      "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
-                        "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "type": "EGO_GIFT",
+                        "rewardId": 9138,
+                        "num": 1,
                         "prob": 1.0
                       }
                     }
@@ -4296,8 +4439,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 17,
-          "exclusiveValue": 34,
+          "inclusiveValue": 16,
+          "exclusiveValue": 32,
           "judgementDataList": [
             {
               "attributeType": "SHAMROCK"
@@ -4365,8 +4508,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 17,
-          "exclusiveValue": 34,
+          "inclusiveValue": 16,
+          "exclusiveValue": 32,
           "judgementDataList": [
             {
               "attributeType": "AZURE"
@@ -4434,8 +4577,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 12,
-          "exclusiveValue": 24,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
           "judgementDataList": [
             {
               "attributeType": "AZURE"
@@ -4456,11 +4599,11 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "MirrorDungeonAcquireCost",
-                      "nextBattleID": -1,
+                      "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
-                        "type": "MIRRORDUNGEON_COST",
-                        "num": 60,
+                        "type": "EGO_GIFT",
+                        "rewardId": 9150,
+                        "num": 1,
                         "prob": 1.0
                       }
                     }
@@ -4502,8 +4645,8 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 10,
-          "exclusiveValue": 20,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "VIOLET"
@@ -5065,7 +5208,71 @@
       }
     },
     {
-      "id": 90202001,
+      "id": 97100301,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 14,
+          "exclusiveValue": 18,
+          "judgementDataList": [
+            {
+              "attributeType": "SCARLET"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9704,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101201,
       "canSkip": false,
       "eventType": "COIN_EVENT",
       "personalityEvent": {
@@ -5077,11 +5284,442 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 6,
-          "exclusiveValue": 12,
+          "inclusiveValue": 9,
+          "exclusiveValue": 18,
           "judgementDataList": [
             {
-              "attributeType": "SHAMROCK"
+              "attributeType": "CRIMSON"
+            },
+            {
+              "attributeType": "AMBER"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101202,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "RecoverMpOnly_30"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101202,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpOnly_30"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101203,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLADE_LINEAGE",
+            "adder": 5
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9712,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_10"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101301,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLADE_LINEAGE,BLACK_CLOUD",
+            "adder": 7
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
+          "judgementDataList": [
+            {
+              "attributeType": "SCARLET"
+            },
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9713,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "RecoverHpOnly_30"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101401,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLACK_CLOUD",
+            "adder": 7
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 16,
+          "exclusiveValue": 32,
+          "judgementDataList": [
+            {
+              "attributeType": "SCARLET"
+            },
+            {
+              "attributeType": "AZURE"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9714,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpMpSameAmount_20"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101402,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLADE_LINEAGE",
+            "adder": 7
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 16,
+          "exclusiveValue": 32,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
+            },
+            {
+              "attributeType": "CRIMSON"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9715,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpMpSameAmount_20"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101601,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
+          "judgementDataList": [
+            {
+              "attributeType": "AZURE"
+            },
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9716,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_20"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101701,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLADE_LINEAGE",
+            "adder": 8
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 20,
+          "exclusiveValue": 40,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
             },
             {
               "attributeType": "SCARLET"
@@ -5102,7 +5740,7 @@
                       "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
                         "type": "EGO_GIFT",
-                        "rewardId": 9020,
+                        "rewardId": 9719,
                         "num": 1,
                         "prob": 1.0
                       }
@@ -5117,36 +5755,12 @@
             "eventResultDataList": [
               {
                 "resultIndex": 0,
-                "resultCondition": "Failed_Under3",
-                "nextEventID": 90202001,
-                "eventResultDataList": [
-                  {
-                    "resultForm": {
-                      "resultEffectCondition1": "NotIncludeSkillAttribute_SHAMROCK",
-                      "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_5",
-                      "resultDescId": "Choice_90202001"
-                    }
-                  }
-                ]
-              },
-              {
-                "resultIndex": 1,
-                "resultCondition": "Failed_NotLessThan3",
+                "resultCondition": "Prob_1",
                 "nextEventID": -1,
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectCondition1": "NotIncludeSkillAttribute_SHAMROCK",
-                      "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_10",
-                      "resultDescId": "Choice_90202002"
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040007
+                      "resultEffect": "Nothing"
                     }
                   }
                 ]
@@ -5157,7 +5771,83 @@
       }
     },
     {
-      "id": 90202101,
+      "id": 97101702,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_BLADE_LINEAGE",
+            "adder": 8
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 20,
+          "exclusiveValue": 40,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
+            },
+            {
+              "attributeType": "AZURE"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9720,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+
+ 
+    {
+      "id": 97102101,
       "canSkip": false,
       "eventType": "COIN_EVENT",
       "personalityEvent": {
@@ -5169,8 +5859,77 @@
         "adderInfo": [],
         "judgement": {
           "upDownType": 1,
-          "inclusiveValue": 5,
-          "exclusiveValue": 10,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
+          "judgementDataList": [
+            {
+              "attributeType": "SHAMROCK"
+            },
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9721,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_15"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102102,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
           "judgementDataList": [
             {
               "attributeType": "AZURE"
@@ -5194,7 +5953,7 @@
                       "resultEffect": "GetConfirmedEgogift",
                       "itemReward": {
                         "type": "EGO_GIFT",
-                        "rewardId": 9021,
+                        "rewardId": 9722,
                         "num": 1,
                         "prob": 1.0
                       }
@@ -5214,8 +5973,1075 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_15"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102201,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 12,
+          "exclusiveValue": 24,
+          "judgementDataList": [
+            {
+              "attributeType": "AZURE"
+            },
+            {
+              "attributeType": "AMBER"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9723,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_15"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "MirrorDungeonLossCost",
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 50,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102301,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 13,
+          "exclusiveValue": 26,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
+            },
+            {
+              "attributeType": "SHAMROCK"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9725,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102302,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 13,
+          "exclusiveValue": 26,
+          "judgementDataList": [
+            {
+              "attributeType": "AMBER"
+            },
+            {
+              "attributeType": "SCARLET"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9724,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102401,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_YURODIVY",
+            "adder": 7
+          },
+          {
+            "correctionCase": "SpecificUnit_Rodion",
+            "adder": 7
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 15,
+          "exclusiveValue": 30,
+          "judgementDataList": [
+            {
+              "attributeType": "CRIMSON"
+            },
+            {
+              "attributeType": "VIOLET"
+            },
+            {
+              "attributeType": "SHAMROCK"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9726,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "resultIndex": 1,
+                "resultCondition": "",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "RecoverHpMpSameAmount_25"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102501,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 13,
+          "exclusiveValue": 26,
+          "judgementDataList": [
+            {
+              "attributeType": "AMBER"
+            },
+            {
+              "attributeType": "SHAMROCK"
+            },
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9727,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102702,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 11,
+          "exclusiveValue": 22,
+          "judgementDataList": [
+            {
+              "attributeType": "VIOLET"
+            },
+            {
+              "attributeType": "AMBER"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9732,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_12"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102901,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificAssociation_W_CORP",
+            "adder": 7
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 15,
+          "exclusiveValue": 30,
+          "judgementDataList": [
+            {
+              "attributeType": "VIOLET"
+            },
+            {
+              "attributeType": "SHAMROCK"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102902
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102902,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpOnly_20"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103001,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
+          "judgementDataList": [
+            {
+              "attributeType": "AZURE"
+            },
+            {
+              "attributeType": "INDIGO"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_10"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9736,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpOnly_20"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseMpOnly_15"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9737,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103101,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificKeyword_MACHINE_BOUND_ORGANISM",
+            "adder": 10
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 20,
+          "exclusiveValue": 40,
+          "judgementDataList": [
+            {
+              "attributeType": "INDIGO"
+            },
+            {
+              "attributeType": "VIOLET"
+            },
+            {
+              "attributeType": "AZURE"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9738,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103201,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificKeyword_LOBOTOMY_HEAD",
+            "adder": 5
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 15,
+          "exclusiveValue": 30,
+          "judgementDataList": [
+            {
+              "attributeType": "VIOLET"
+            },
+            {
+              "attributeType": "SCARLET"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9744,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9745,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseHpMpDifferentAmount_20_12"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9744,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9745,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103301,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificKeyword_LOBOTOMY_HEAD",
+            "adder": 5
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 16,
+          "exclusiveValue": 32,
+          "judgementDataList": [
+            {
+              "attributeType": "SCARLET"
+            },
+            {
+              "attributeType": "AMBER"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9747,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9746,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
                       "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040003
+                      "nextBattleID": 2060040
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9746,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9747,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103401,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificKeyword_LOBOTOMY_HEAD",
+            "adder": 5
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
+          "judgementDataList": [
+            {
+              "attributeType": "AMBER"
+            },
+            {
+              "attributeType": "AZURE"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9748,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpMpDifferentAmount_20_10"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9748,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97103402,
+      "canSkip": false,
+      "eventType": "COIN_EVENT",
+      "personalityEvent": {
+        "participantInfo": {
+          "min": 1,
+          "max": 1
+        },
+        "silenceCharacterUniqueIdList": [],
+        "adderInfo": [
+          {
+            "correctionCase": "SpecificKeyword_LOBOTOMY_HEAD",
+            "adder": 5
+          }
+        ],
+        "judgement": {
+          "upDownType": 1,
+          "inclusiveValue": 14,
+          "exclusiveValue": 28,
+          "judgementDataList": [
+            {
+              "attributeType": "AMBER"
+            },
+            {
+              "attributeType": "AZURE"
+            }
+          ]
+        },
+        "eventResults": [
+          {
+            "eventResult": "SUCCESS",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "RecoverMpOnly_30"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9749,
+                        "num": 1,
+                        "prob": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "eventResult": "FAILURE",
+            "eventResultDataList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "ChosenPersonality",
+                      "resultEffect": "LoseHpOnly_30"
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9749,
+                        "num": 1,
+                        "prob": 1
+                      }
                     }
                   }
                 ]

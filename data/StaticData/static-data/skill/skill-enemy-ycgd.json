@@ -29,6 +29,9 @@
                 "turn": 0,
                 "value": 0.1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -97,6 +100,9 @@
                 "turn": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -185,6 +191,9 @@
                 "turn": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -281,6 +290,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -355,6 +367,9 @@
                 "turn": 0,
                 "value": 0.3
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -429,7 +444,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "VIOLET",
           "atkType": "SLASH",
@@ -443,6 +458,9 @@
           "abilityScriptList": [
             {
               "scriptName": "9101306"
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -487,6 +505,11 @@
           "targetNum": 1,
           "defaultValue": 2,
           "skillLevelCorrection": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -563,6 +586,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -636,6 +662,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -723,6 +752,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -752,6 +784,11 @@
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -791,7 +828,11 @@
           "targetNum": 1,
           "defaultValue": 4,
           "skillLevelCorrection": 2,
-          "abilityScriptList": [],
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -852,6 +893,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -939,6 +983,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -968,6 +1015,11 @@
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1033,6 +1085,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1084,6 +1139,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1130,7 +1188,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1152,6 +1210,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1181,6 +1242,11 @@
           "targetNum": 1,
           "defaultValue": 4,
           "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -1273,6 +1339,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1356,6 +1425,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -1402,7 +1474,7 @@
         {
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1424,6 +1496,9 @@
                 "turn": 0,
                 "activeRound": 0
               }
+            },
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [

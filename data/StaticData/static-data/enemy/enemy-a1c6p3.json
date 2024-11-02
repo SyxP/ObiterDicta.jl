@@ -5,8 +5,8 @@
       "nameID": 8167,
       "sdPortrait": 8167,
       "appearance": "90136_JosephineWHAppearance",
-      "associationList": [ "WUTHERING_HEIGHTS" ],
-      "unitKeywordList": [ "BUTLER", "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -412,7 +412,8 @@
       "nameID": 8168,
       "sdPortrait": 8169,
       "appearance": "90137_HindleyWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -814,7 +815,8 @@
       "nameID": 8169,
       "sdPortrait": 8168,
       "appearance": "90138_LintonWHAppearance",
-      "unitKeywordList": ["GLASS_ENEMY" ],
+      "associationList": [ "LINTON", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1137,6 +1139,7 @@
       "sdPortrait": 90114,
       "nameID": 90114,
       "appearance": "90114_TCrop_Gang_1Appearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1281,6 +1284,7 @@
       "sdPortrait": 90115,
       "nameID": 90115,
       "appearance": "90115_TCrop_Gang_2Appearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1425,7 +1429,7 @@
       "nameID": 90116,
       "appearance": "90116_DeadRabbits_1Appearance",
       "associationList": [ "DEAD_RABBITS" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "unitKeywordList": [ "CLAN", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1571,7 +1575,7 @@
       "nameID": 90117,
       "appearance": "90117_DeadRabbits_2Appearance",
       "associationList": [ "DEAD_RABBITS" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "unitKeywordList": [ "CLAN", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1717,7 +1721,7 @@
       "nameID": 90118,
       "appearance": "90118_DeadRabbits_RedEye_1Appearance",
       "associationList": [ "DEAD_RABBITS" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "unitKeywordList": [ "CLAN", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1865,7 +1869,7 @@
       "nameID": 90119,
       "appearance": "90119_DeadRabbits_RedEye_2Appearance",
       "associationList": [ "DEAD_RABBITS" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "unitKeywordList": [ "CLAN", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"

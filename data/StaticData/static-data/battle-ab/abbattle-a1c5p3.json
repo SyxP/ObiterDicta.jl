@@ -66,7 +66,7 @@
           "5D105A"
         ]
       },
-      "stageScriptNameAfterClear": "a1c5p1_4_2"
+      "stageScriptList": ["a1c5p1_4_2"]
     },
     {
       "id": 10509,
@@ -129,7 +129,7 @@
           "5D202A"
         ]
       },
-      "stageScriptNameAfterClear": "8101",
+      "stageScriptList": ["8101"],
       "eventScriptName": "8101",
       "abnormalityEventList": [
         810101
@@ -188,7 +188,7 @@
           "5D203B"
         ]
       },
-      "stageScriptNameAfterClear": "a1c5p1_4_2"
+      "stageScriptList": ["a1c5p1_4_2"]
     },
     {
       "id": 10512,
@@ -249,7 +249,7 @@
           "5D205A"
         ]
       },
-      "stageScriptNameAfterClear": "8100",
+      "stageScriptList": ["8100"],
       "eventScriptName": "8100",
       "abnormalityEventList": [
         810001
@@ -303,7 +303,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "a1c5p1_4_2"
+      "stageScriptList": ["a1c5p1_4_2"]
     },
     {
       "id": 10514,
@@ -373,7 +373,7 @@
           "5D301A"
         ]
       },
-      "stageScriptNameAfterClear": "8102",
+      "stageScriptList": ["8102"],
       "eventScriptName": "8102",
       "abnormalityEventList": [
         810201
@@ -440,7 +440,7 @@
           "5D303B"
         ]
       },
-      "stageScriptNameAfterClear": "8105"
+      "stageScriptList": ["8105"]
     },
     {
       "id": 10516,
@@ -536,7 +536,7 @@
           }
         ]
       },
-      "stageScriptNameAfterClear": "8106",
+      "stageScriptList": ["8106"],
       "eventScriptName": "8106",
       "abnormalityEventList": [
         810601,

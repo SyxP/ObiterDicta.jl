@@ -251,6 +251,50 @@
     {
       "id": "MainStoryOpenCondition_106",
       "content": "6-1 ステージクリア"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9016",
+      "content": "6-48 ステージクリア"
+    },
+    {
+      "id": "theStoryOf",
+      "content": "の物語"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9109",
+      "content": "6.5-1 ステージクリア"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9017",
+      "content": "6-48 ステージクリア"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9110",
+      "content": "6.5-16 ステージクリア"
+    },
+    {
+      "id": "personality_voice_section_before_clear_chapter_format",
+      "content": "{0}章前"
+    },
+    {
+      "id": "personality_voice_section_after_clear_chapter_format",
+      "content": "{0}章後"
+    },
+    {
+      "id": "PersonalityStory_OpenCodition_UnlockCode106",
+      "content": "6章クリア"
+    },
+    {
+      "id": "PersoanlityStory_After",
+      "content": "(その後)"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9018",
+      "content": "6.5-30 ステージクリア"
+    },
+    {
+      "id": "MainStoryOpenCondition_107",
+      "content": "7-1ステージクリア"
     }
   ]
 }

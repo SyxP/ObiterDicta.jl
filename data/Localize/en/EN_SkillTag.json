@@ -179,6 +179,54 @@
     {
       "id": "StartBattle_Force",
       "name": "<color=#93f13e>[Combat Start]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[On Target Kill]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[On Crit Kill]"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[Before Use]"
+    },
+    {
+      "id": "DuelCounter",
+      "name": "[Clashable Counter]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[Unbreakable Coin]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[Clashable Guard]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[On Evade Use]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[After Current Coin Attack]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[On Crit Kill Fail Against Enemy]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[On Crit Kill Against Enemy]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[Hit after Clash Lose]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[On Target Kill Fail]"
     }
   ]
 }

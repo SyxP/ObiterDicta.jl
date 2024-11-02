@@ -1238,7 +1238,7 @@
     },
     {
       "id": "announcer_selection_description",
-      "content": "※ 2개 이상의 아나운서를 선택할 경우, 선택된 아나운서의 대사들이 무작위로 재생됩니다. (최대 5개)"
+      "content": "※ 2개 이상의 아나운서를 선택할 경우, 선택된 아나운서의 대사들이 무작위로 재생됩니다. (최대 10개)"
     },
     {
       "id": "panic_type",
@@ -1250,11 +1250,11 @@
     },
     {
       "id": "mental_increase_condition",
-      "content": "정신력 증가 조건"
+      "content": "기본 정신력 증가 조건"
     },
     {
       "id": "mental_decrease_condition",
-      "content": "정신력 감소 조건"
+      "content": "기본 정신력 감소 조건"
     },
     {
       "id": "mental_low_morale_effect",
@@ -1716,13 +1716,89 @@
       "id": "mainui_stageinfo_effectiveAttribute",
       "content": "유효 속성"
     },
-	  {
+    {
       "id": "personality_level_limit_release_title",
       "content": "인격 최대 레벨 확장"
     },
     {
       "id": "personality_level_limit_release_desc",
       "content": "인격의 최대 레벨이 상승하였습니다."
+    },
+    {
+      "id": "mainui_sinners_startSuppress",
+      "content": "제압 시작"
+    },
+    {
+      "id": "mainui_battleresult_AbnormalitySuppress_victory",
+      "content": "환상체 제압 성공"
+    },
+    {
+      "id": "mainui_battleresult_AbnormalitySuppress_defeat",
+      "content": "환상체 제압 실패"
+    },
+    {
+      "id": "ui_text_unknown",
+      "content": "알 수 없음"
+    },
+    {
+      "id": "buff_effect_for_level_format",
+      "content": "버프「{0}」"
+    },
+    {
+      "id": "unit_keyword",
+      "content": "특성 키워드"
+    },
+    {
+      "id": "formation_ask_clear_selection",
+      "content": "편성 순서를 초기화하시겠습니까?"
+    },
+    {
+      "id": "item_owned_count",
+      "content": "(보유량 : {0})"
+    },
+    {
+      "id": "lunacy_owned_count_paid",
+      "content": "(유료 보유량 : {0}, 무료 보유량 : {1})"
+    },
+    {
+      "id": "lunacy_owned_count_free",
+      "content": "(유료 보유량 : {0}, 무료 보유량 : {1})"
+    },
+    {
+      "id": "mainui_ask_use_personality_level_ticket_disadvantage",
+      "content": "관리자님이 현재 진행도에서 해당 티켓을 사용할 경우,\n선택한 인격의 레벨이 {0}이 아닌 {1}으로 적용되어\n대량의 경험치 손실을 입을 수 있습니다.\n\n그럼에도 불구하고 해당 티켓을 사용하시겠습니까?"
+    },
+    {
+      "id": "mainui_exp_dungeon_7_title",
+      "content": "경험치 채광-7 (참격)"
+    },
+    {
+      "id": "mainui_exp_dungeon_7_open_day",
+      "content": "경험치 채광 7단계 (참격) 스테이지는 월요일, 화요일, 일요일에 개방됩니다."
+    },
+    {
+      "id": "mainui_exp_dungeon_8_title",
+      "content": "경험치 채광-7 (관통)"
+    },
+    {
+      "id": "mainui_exp_dungeon_8_open_day",
+      "content": "경험치 채광 7단계 (관통) 스테이지는 수요일, 목요일, 일요일에 개방됩니다."
+    },
+    {
+      "id": "mainui_exp_dungeon_9_title",
+      "content": "경험치 채광-7 (타격)"
+    },
+    {
+      "id": "mainui_exp_dungeon_9_open_day",
+      "content": "경험치 채광 7단계 (타격) 스테이지는 금요일, 토요일, 일요일에 개방됩니다."
+    },
+    {
+      "id": "mainui_default_personality_blocked",
+      "content": "기본 인격 편성 불가"
+    },
+    {
+      "id": "mainui_change_personality_of_character",
+      "content": "{0} 수감자 인격 변경 필요. 지원 인격이 추가됨."
     }
   ]
 }

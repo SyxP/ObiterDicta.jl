@@ -58,7 +58,7 @@
       "id": 1010,
       "panicName": "徘徊",
       "lowMoraleDescription": "ターン終了時、味方に2精神力ダメージ",
-      "panicDescription": "3ターンの間、ターン終了時に味方へ精神力5ダメージ。3ターン終了時に逃走。"
+      "panicDescription": "3ターンの間、ターン終了時に味方へ精神力5ダメージ\n3ターン終了時に逃走"
     },
     {
       "id": 1011,
@@ -101,6 +101,12 @@
       "panicName": "怨恨",
       "lowMoraleDescription": "ターン開始時に[AttackDmgUp]2, [DefenseDown]3を得る",
       "panicDescription": "ターン開始時に[Enhancement]1, [DefenseDown]5を得る"
+    },
+    {
+      "id": 1026,
+      "panicName": "破綻",
+      "lowMoraleDescription": "毎ターン終了時、[Sinking]3を得る。自分のマッチ威力 -1",
+      "panicDescription": "毎ターン終了時、[Sinking]5を得る。[Sinking]回数が3増加、自分のマッチ威力 -2"
     }
   ]
 }

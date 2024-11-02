@@ -1214,7 +1214,7 @@
     {
       "id": 2040611,
       "skillType": "EGO_AWAKEN",
-      "skillTier": 2,
+      "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {
@@ -1532,6 +1532,345 @@
                     "buffOwner": "Self",
                     "stack": 10,
                     "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040711,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 0,
+          "defaultValue": 8,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "HeathcliffSixthEgoSkillAbility2And10"
+            },
+            {
+              "scriptName": "EContemptSpiralTargetNumAdderByResonanceMax2"
+            },
+            {
+              "scriptName": "EContemptSpiralGiveBuffSelfByResonance",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "stack": 1,
+                "activeRound": 0,
+                "limit": 7
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EContemptSpiralSpreadBuff_Laceration10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 8,
+          "abilityScriptList": [
+            {
+              "scriptName": "HeathcliffSixthEgoSkillAbility2And10"
+            },
+            {
+              "scriptName": "EContemptSpiralTargetNumAdderByResonanceMax4"
+            },
+            {
+              "scriptName": "EContemptSpiralGiveBuffSelfByResonance",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "stack": 1,
+                "activeRound": 0,
+                "limit": 7
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EContemptSpiralSpreadBuff_Laceration15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "HeathcliffSixthEgoSkillAbility2And10"
+            },
+            {
+              "scriptName": "EContemptSpiralTargetNumAdderByResonanceMax6"
+            },
+            {
+              "scriptName": "EContemptSpiralAddSinStockBySkill"
+            },
+            {
+              "scriptName": "EContemptSpiralGiveBuffSelfByResonance",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "stack": 1,
+                "activeRound": 0,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EContemptSpiralGiveBuffSelfByResonance",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "stack": 1,
+                "activeRound": 1,
+                "limit": 7
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EContemptSpiralSpreadBuff_Laceration15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 1,
+          "mpUsage": 40,
+          "skillLevelCorrection": 3,
+          "defaultValue": 40,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "2040711",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "value": 1,
+                    "limit": 20
+                  }
+                },
+                {
+                  "scriptName": "EContemptSpiralGiveBuffByResonance",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.5,
+                    "limit": 10
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 40,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "2040711",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "value": 1,
+                    "limit": 40
+                  }
+                },
+                {
+                  "scriptName": "EContemptSpiralGiveBuffByResonance",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 2,
+                    "limit": 15
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 44,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "GazePersonality",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EContemptSpiralAddSinStockBySkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 20,
+              "abilityScriptList": [
+                {
+                  "scriptName": "2040711",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "value": 1,
+                    "limit": 60
+                  }
+                },
+                {
+                  "scriptName": "EContemptSpiralGiveBuffByResonance",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 2.5,
+                    "limit": 25
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 5,
                     "activeRound": 0
                   }
                 }

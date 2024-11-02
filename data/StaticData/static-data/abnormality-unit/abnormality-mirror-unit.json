@@ -5,7 +5,7 @@
       "viewid": 8510,
       "sdPortrait": 8510,
       "appearance": "8503_CryToadAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 40,
       "classType": "ZAYIN",
       "attributeType": "AZURE",
@@ -40,14 +40,6 @@
         },
         {
           "skillId": 851005,
-          "number": 2
-        },
-        {
-          "skillId": 851006,
-          "number": 2
-        },
-        {
-          "skillId": 851007,
           "number": 2
         },
         {
@@ -371,45 +363,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -427,45 +380,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -476,46 +390,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851007,
+                      "skillID": -1,
                       "chance": 1
                     }
                   ],
@@ -569,45 +444,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -625,45 +461,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -675,45 +472,6 @@
                   "skillChildList": [
                     {
                       "skillID": 851002,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 851006,
                       "chance": 1
                     }
                   ],
@@ -820,7 +578,7 @@
       "viewid": 8519,
       "sdPortrait": 8519,
       "appearance": "8504_kqe1j23Appearance",
-      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM" ],
+      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM", "LARGE" ],
       "level": 30,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -1177,7 +935,7 @@
       "sdPortrait": 8520,
       "viewid": 8520,
       "appearance": "8520_kqe1j23HandAppearance",
-      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM" ],
+      "unitKeywordList": [ "MACHINE_BOUND_ORGANISM", "LARGE" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -1208,13 +966,13 @@
       "sdPortrait": 8527,
       "viewid": 8527,
       "appearance": "8505_RedBuddhaAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 30,
       "classType": "WAW",
       "attributeType": "SCARLET",
       "hp": {
-        "defaultStat": 290,
-        "incrementByLevel": 19.5
+        "defaultStat": 588,
+        "incrementByLevel": 36.46
       },
       "patternID": "Statue",
       "startActionSlotNum": 1,
@@ -1498,13 +1256,14 @@
       "id": 8079,
       "sdPortrait": 91006,
       "appearance": "91006_NCorpAppearance",
-      "associationList": [ "TIEQIU" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
       "hp": {
-        "defaultStat": 100,
-        "incrementByLevel": 1.6
+        "defaultStat": 235,
+        "incrementByLevel": 11.35
       },
       "patternID": "AutoPick",
       "startActionSlotNum": 1,
@@ -1540,13 +1299,14 @@
       "id": 8080,
       "sdPortrait": 91004,
       "appearance": "91004_EyedAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 100,
-        "incrementByLevel": 1.4
+        "defaultStat": 209,
+        "incrementByLevel": 10.08
       },
       "patternID": "AutoPick",
       "startActionSlotNum": 1,
@@ -1578,13 +1338,14 @@
       "id": 8081,
       "sdPortrait": 91002,
       "appearance": "91002_GCorp_Infested_BossAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
       "hp": {
-        "defaultStat": 100,
-        "incrementByLevel": 1.8
+        "defaultStat": 209,
+        "incrementByLevel": 10.08
       },
       "patternID": "AutoPick",
       "startActionSlotNum": 1,
@@ -1617,7 +1378,8 @@
       "viewid": 8029,
       "sdPortrait": 8029,
       "appearance": "8029_CromerAppearance",
-      "associationList": [ "N_CORP" ],
+      "unitKeywordList": [ "SMALL"],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2023,7 +1785,8 @@
       "viewid": 8030,
       "sdPortrait": 8030,
       "appearance": "8030_Cromer_2pAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "LARGE" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SCARLET",
@@ -2488,7 +2251,7 @@
       "viewid": 8031,
       "sdPortrait": 8031,
       "appearance": "8537_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": ["LARGE"],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -3904,7 +3667,7 @@
       "viewid": 8032,
       "sdPortrait": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -3948,10 +3711,6 @@
         },
         {
           "skillId": 808507,
-          "number": 1
-        },
-        {
-          "skillId": 808508,
           "number": 1
         }
       ],
@@ -4522,7 +4281,7 @@
       "sdPortrait": 8045,
       "viewid": 8045,
       "appearance": "8045_ElectricCentipedeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -4556,10 +4315,6 @@
         },
         {
           "skillId": 808605,
-          "number": 0
-        },
-        {
-          "skillId": 808606,
           "number": 0
         },
         {
@@ -4961,19 +4716,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 808606,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -5017,19 +4759,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 808606,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -5067,19 +4796,6 @@
                   "skillChildList": [
                     {
                       "skillID": 808604,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 808606,
                       "chance": 1
                     }
                   ],
@@ -5208,7 +4924,7 @@
       "viewid": 8046,
       "sdPortrait": 8046,
       "appearance": "8046_UmbrellaFoxAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -5598,7 +5314,7 @@
       "viewid": 8053,
       "sdPortrait": 8053,
       "appearance": "8053_Camellia_RainbowAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -5629,7 +5345,7 @@
       "viewid": 8047,
       "sdPortrait": 8047,
       "appearance": "8047_DontcryAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 40,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -5903,7 +5619,7 @@
       "viewid": 8048,
       "sdPortrait": 8048,
       "appearance": "8048_GentleFairyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 40,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -6242,7 +5958,7 @@
       "viewid": 8051,
       "sdPortrait": 8051,
       "appearance": "8051_FairyWineAppearance",
-      "unitKeywordList": [ "FAIRY_LIQUOR" ],
+      "unitKeywordList": [ "FAIRY_LIQUOR", "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -6272,7 +5988,7 @@
       "viewid": 8059,
       "sdPortrait": 8059,
       "appearance": "8059_FairyLongLegsAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -6638,7 +6354,7 @@
       "viewid": 8062,
       "sdPortrait": 8062,
       "appearance": "8062_FairyLongLegs_CloverAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -6669,7 +6385,7 @@
       "sdPortrait": 8008,
       "viewid": 8008,
       "appearance": "8008_Maggotapple_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "AMBER",
@@ -6797,7 +6513,7 @@
       "sdPortrait": 8009,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "SHAMROCK",
@@ -6910,10 +6626,11 @@
     },
     {
       "id": 8096,
+      "sdPortrait": 8041,
       "viewid": 8041,
       "phaseIDList": 8041,
       "appearance": "8041_BrassBullAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -7192,7 +6909,7 @@
       "storyID": 8100,
       "nameID": 8100,
       "appearance": "8100_ProphetofSkinAppearance",
-      "unitKeywordList": [ "SkinProphet" ],
+      "unitKeywordList": [ "SkinProphet", "REGULAR" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -7527,7 +7244,7 @@
       "storyID": 8107,
       "nameID": 8107,
       "appearance": "8107_ProphetofSkinCandleAppearance",
-      "unitKeywordList": [ "CANDLE", "NONE_BLOOD" ],
+      "unitKeywordList": [ "CANDLE", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -7601,7 +7318,7 @@
       "storyID": 8102,
       "nameID": 8102,
       "appearance": "8102_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "KILLER_WHALE" ],
+      "unitKeywordList": [ "KILLER_WHALE", "LARGE" ],
       "classType": "WAW",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -8016,7 +7733,7 @@
       "storyID": 8108,
       "nameID": 8108,
       "appearance": "8108_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD" ],
+      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -8048,7 +7765,8 @@
       "nameID": 8101,
       "appearance": "8101_WalkingPearlAppearance",
       "unitKeywordList": [
-        "WALKING_PEARL"
+        "WALKING_PEARL", 
+        "LARGE"
       ],
       "classType": "WAW",
       "attributeType": "SHAMROCK",
@@ -8481,7 +8199,7 @@
       "storyID": 8109,
       "nameID": 8109,
       "appearance": "8109_WalkingPearlAppearance",
-      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD" ],
+      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
       "phaseIDList": [
@@ -8506,13 +8224,14 @@
       }
     },
     {
-      "id": 8142,
+      "id": 8143,
       "viewid": 8043,
       "sdPortrait": 8043,
       "storyID": 8043,
       "nameID": 8043,
       "appearance": "8043_CamelliaAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "ATL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -8526,9 +8245,9 @@
       "panicType": 1011,
       "lowMorale": -10,
       "panic": -45,
-      "patternID": "Dongbaek_UmbrellaFox",
+      "patternID": "Dongbaek_UmbrellaFox_Mirror",
       "abnormalityPartList": [
-        814201
+        814301
       ],
       "mentalConditionInfo": {
         "add": [
@@ -8560,31 +8279,31 @@
       },
       "attributeList": [
         {
-          "skillId": 814201,
+          "skillId": 804301,
           "number": 0
         },
         {
-          "skillId": 814202,
+          "skillId": 804302,
           "number": 0
         },
         {
-          "skillId": 814203,
+          "skillId": 804303,
           "number": 0
         },
         {
-          "skillId": 814204,
+          "skillId": 804304,
           "number": 0
         },
         {
-          "skillId": 814205,
+          "skillId": 804305,
           "number": 0
         },
         {
-          "skillId": 814206,
+          "skillId": 804306,
           "number": 0
         },
         {
-          "skillId": 814207,
+          "skillId": 804307,
           "number": 0
         }
       ],
@@ -8596,7 +8315,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -8609,7 +8328,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -8622,7 +8341,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814202,
+                      "skillID": 804302,
                       "chance": 1
                     }
                   ],
@@ -8631,7 +8350,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814203,
+                      "skillID": 804303,
                       "chance": 1
                     }
                   ],
@@ -8644,7 +8363,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8661,7 +8380,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -8674,7 +8393,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814202,
+                      "skillID": 804302,
                       "chance": 1
                     }
                   ],
@@ -8687,7 +8406,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814203,
+                      "skillID": 804303,
                       "chance": 1
                     }
                   ],
@@ -8700,7 +8419,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8717,7 +8436,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8730,7 +8449,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8743,7 +8462,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8756,7 +8475,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -8769,7 +8488,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -8786,7 +8505,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8799,7 +8518,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8812,7 +8531,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8825,7 +8544,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814203,
+                      "skillID": 804303,
                       "chance": 1
                     }
                   ],
@@ -8838,7 +8557,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8855,7 +8574,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814207,
+                      "skillID": 804307,
                       "chance": 1
                     }
                   ],
@@ -8872,7 +8591,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814205,
+                      "skillID": 804305,
                       "chance": 1
                     }
                   ],
@@ -8885,7 +8604,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8898,7 +8617,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814204,
+                      "skillID": 804304,
                       "chance": 1
                     }
                   ],
@@ -8911,7 +8630,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814202,
+                      "skillID": 804302,
                       "chance": 1
                     }
                   ],
@@ -8928,7 +8647,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8941,7 +8660,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8954,7 +8673,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814206,
+                      "skillID": 804306,
                       "chance": 1
                     }
                   ],
@@ -8967,7 +8686,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814202,
+                      "skillID": 804302,
                       "chance": 1
                     }
                   ],
@@ -8980,7 +8699,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 814201,
+                      "skillID": 804301,
                       "chance": 1
                     }
                   ],
@@ -9003,13 +8722,13 @@
       }
     },
     {
-      "id": 8143,
+      "id": 8196,
       "viewid": 8053,
       "sdPortrait": 8053,
       "storyID": 8053,
       "nameID": 8053,
       "appearance": "8053_Camellia_RainbowAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -9021,7 +8740,7 @@
       "startActionSlotNum": 1,
       "maxActionSlotNum": 1,
       "abnormalityPartList": [
-        814301
+        819601
       ],
       "attributeList": [
         {
@@ -9042,13 +8761,14 @@
       "storyID": 8049,
       "nameID": 8049,
       "appearance": "8049_DongLang_1pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
       "hp": {
-        "defaultStat": 1105,
-        "incrementByLevel": 57.14
+        "defaultStat": 444,
+        "incrementByLevel": 22.98
       },
       "breakSection": {
         "sectionList": [
@@ -9057,7 +8777,7 @@
       "startActionSlotNum": 5,
       "maxActionSlotNum": 5,
       "hasMp": false,
-      "patternID": "Distorted_Dongrang",
+      "patternID": "Distorted_Dongrang_Mirror",
       "phaseIDList": [
         8144,
         81442,
@@ -9256,7 +8976,7 @@
       ],
       "passiveSet": {
         "passiveIdList": [
-          804901
+          814401
         ]
       }
     },
@@ -9268,7 +8988,8 @@
       "storyID": 8049,
       "nameID": 8049,
       "appearance": "8049_DongLang_2pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -9416,7 +9137,7 @@
       ],
       "passiveSet": {
         "passiveIdList": [
-          804902
+          814402
         ]
       }
     },
@@ -9428,7 +9149,8 @@
       "storyID": 8049,
       "nameID": 8049,
       "appearance": "8049_DongLang_3pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -9648,7 +9370,7 @@
       "storyID": 8056,
       "nameID": 8056,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -9683,7 +9405,7 @@
       "storyID": 8057,
       "nameID": 8057,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",

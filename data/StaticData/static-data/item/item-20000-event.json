@@ -104,6 +104,61 @@
       "id": 20016,
 
       "ignoreExcess": true
+    },
+    {
+      "id": 20017,
+
+      "ignoreExcess": true,
+
+      "spriteStr": "tkt_event_item_1"
+    },
+    {
+      "id": 20018,
+
+      "autoTransformable": true,
+      "autoTransformTargetElement": {
+        "type": "ITEM",
+        "id": 20017,
+        "num": 20
+      },
+      "ignoreExcess": true,
+
+      "spriteStr": "tkt_event_item_2"
+    },
+    {
+      "id": 20019,
+
+      "ignoreExcess": true
+    },
+    {
+      "id": 20020,
+
+      "ignoreExcess": true,
+
+      "spriteStr": "mowe_event_item_1"
+    },
+    {
+      "id": 20021,
+
+      "autoTransformable": true,
+      "autoTransformTargetElement": {
+        "type": "ITEM",
+        "id": 20020,
+        "num": 20
+      },
+      "ignoreExcess": true,
+
+      "spriteStr": "mowe_event_item_2"
+    },
+    {
+      "id": 20022,
+
+      "ignoreExcess": true
+    },
+    {
+      "id": 20023,
+
+      "ignoreExcess": true
     }
   ]
 }

@@ -3,7 +3,7 @@
     {
       "id": 8166,
       "appearance": "8166_DistortedAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -588,8 +588,8 @@
     {
       "id": 8167,
       "appearance": "90136_JosephineWHAppearance",
-      "associationList": [ "WUTHERING_HEIGHTS" ],
-      "unitKeywordList": [ "BUTLER", "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -929,7 +929,8 @@
       "id": 8168,
       "sdPortrait": 8169,
       "appearance": "90137_HindleyWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -1268,7 +1269,8 @@
       "id": 8169,
       "sdPortrait": 8168,
       "appearance": "90138_LintonWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "LINTON", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -1524,7 +1526,8 @@
     {
       "id": 8170,
       "appearance": "8170_Hindley_BeastWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "REGULAR" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -1945,7 +1948,8 @@
     {
       "id": 8171,
       "appearance": "8171_NellyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "LINTON" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -2541,7 +2545,7 @@
       "sdPortrait": 90119,
       "appearance": "90119_DeadRabbits_RedEye_2Appearance",
       "associationList": [ "DEAD_RABBITS" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "unitKeywordList": [ "CLAN", "GLASS_ENEMY", "SMALL" ],
       "classType": "TETH",
       "attributeType": "CRIMSON",
       "level": 2,
@@ -2648,8 +2652,8 @@
       "viewid": 8167,
       "sdPortrait": 8167,
       "appearance": "90136_JosephineWHAppearance",
-      "associationList": [ "WUTHERING_HEIGHTS" ],
-      "unitKeywordList": [ "BUTLER", "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -2659,7 +2663,7 @@
           "list": [
             {
               "buff": "AaCfPbBa",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -2797,7 +2801,8 @@
       "sdPortrait": 8168,
       "nameID": 8169,
       "appearance": "90138_LintonWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "LINTON", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -2811,7 +2816,7 @@
           "list": [
             {
               "buff": "AaCfPbBb",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -2914,7 +2919,8 @@
       "sdPortrait": 8169,
       "nameID": 8168,
       "appearance": "90137_HindleyWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -2928,7 +2934,7 @@
           "list": [
             {
               "buff": "AaCfPbBc",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -3044,7 +3050,8 @@
       "sdPortrait": 8169,
       "nameID": 8168,
       "appearance": "90137_HindleyWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -3058,7 +3065,7 @@
           "list": [
             {
               "buff": "AaCfPbBb",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -3174,7 +3181,8 @@
       "sdPortrait": 8170,
       "nameID": 8170,
       "appearance": "8170_Hindley_BeastWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "REGULAR" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -3191,7 +3199,7 @@
           "list": [
             {
               "buff": "AaCfPbBc",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -3344,7 +3352,7 @@
     {
       "id": 8172,
       "appearance": "8172_MaouHeathclif_MainAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL", "WUTHERING_HEIGHTS" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -3890,7 +3898,7 @@
       "id": 8161,
       "deadsceneid": 8161,
       "appearance": "8161_Septempeccata_Fire3Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 5,
       "classType": "TETH",
       "attributeType": "CRIMSON",
@@ -3931,7 +3939,7 @@
       "sdPortrait": 8161,
       "nameID": 8161,
       "appearance": "8161_Septempeccata_Fire3Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 5,
       "classType": "TETH",
       "attributeType": "CRIMSON",
@@ -3967,7 +3975,7 @@
     {
       "id": 8173,
       "appearance": "8173_MaouHeathclif_Main2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL", "WUTHERING_HEIGHTS" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -4285,7 +4293,7 @@
       "nameID": 8173,
       "originID": 8173,
       "appearance": "8173_MaouHeathclif_RideAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR", "WUTHERING_HEIGHTS" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -4675,7 +4683,7 @@
       "nameID": 8173,
       "originID": 8173,
       "appearance": "8173_MaouHeathclif_RideAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR", "WUTHERING_HEIGHTS" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -5075,7 +5083,7 @@
     {
       "id": 8174,
       "appearance": "8174_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "REGULAR"  ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -5309,7 +5317,7 @@
       "nameID": 8174,
       "originID": 8174,
       "appearance": "8174_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "REGULAR"  ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -5489,7 +5497,7 @@
     {
       "id": 8192,
       "appearance": "8192_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "LEFT_ARM" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "LEFT_ARM", "REGULAR" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -5678,7 +5686,7 @@
     {
       "id": 8193,
       "appearance": "8192_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "RIGHT_ARM" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "RIGHT_ARM", "REGULAR" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -5870,7 +5878,7 @@
       "viewid": 8192,
       "sdPortrait": 8192,
       "appearance": "8192_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "LEFT_ARM" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "LEFT_ARM", "REGULAR" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -6034,7 +6042,7 @@
       "viewid": 8193,
       "sdPortrait": 8193,
       "appearance": "8192_CathyAppearance",
-      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "RIGHT_ARM" ],
+      "unitKeywordList": [ "CATHERINE", "NONE_BLOOD", "RIGHT_ARM", "REGULAR" ],
       "associationList": [],
       "level": 6,
       "classType": "TETH",
@@ -6198,7 +6206,8 @@
       "sdPortrait": 8170,
       "nameID": 8170,
       "appearance": "8170_Hindley_BeastWHAppearance",
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "REGULAR" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -6342,8 +6351,8 @@
       "viewid": 8169,
       "sdPortrait": 8168,
       "appearance": "90138_LintonWHAppearance",
-      "associationList": [ "WILD_HUNT" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "LINTON", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -6491,8 +6500,8 @@
       "viewid": 8168,
       "sdPortrait": 8169,
       "appearance": "90137_HindleyWHAppearance",
-      "associationList": [ "WILD_HUNT" ],
-      "unitKeywordList": [ "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -6641,7 +6650,7 @@
       "sdPortrait": 8167,
       "appearance": "90136_JosephineWHAppearance",
       "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
-      "unitKeywordList": [ "BUTLER", "GLASS_ENEMY" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -6790,8 +6799,8 @@
       "viewid": 8167,
       "sdPortrait": 8167,
       "appearance": "90136_JosephineWHAppearance",
-      "associationList": [ "WUTHERING_HEIGHTS" ],
-      "unitKeywordList": [ "BUTLER", "GLASS_ENEMY" ],
+      "associationList": [ "WUTHERING_HEIGHTS", "WILD_HUNT" ],
+      "unitKeywordList": [ "FIXER", "BUTLER", "GLASS_ENEMY", "SMALL" ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -6801,7 +6810,7 @@
           "list": [
             {
               "buff": "AaCfPbBa",
-              "count": 1
+              "stack": 1
             }
           ]
         }

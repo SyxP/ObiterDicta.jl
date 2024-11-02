@@ -3,7 +3,7 @@
     {
       "id": 90077,
       "appearance": "90077_Crab_SlashAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -239,7 +239,7 @@
     {
       "id": 90079,
       "appearance": "90079_Crab_HitAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -357,7 +357,7 @@
     {
       "id": 90080,
       "appearance": "90080_Crab_Elite_BAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "REGULAR" ],
       "level": 2,
       "patternID": "PickByPattern_Enemy",
       "slotWeightConditionList": [
@@ -607,7 +607,7 @@
     {
       "id": 90081,
       "appearance": "90081_Crab_Elite_AAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "REGULAR" ],
       "level": 2,
       "patternID": "90081",
       "slotWeightConditionList": [

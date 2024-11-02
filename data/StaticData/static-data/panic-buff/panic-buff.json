@@ -582,6 +582,59 @@
       }
     },
     {
+      "id": "WANDERINGFOOTSTEPS",
+      "buffA": {
+        "id": "WanderingFootsteps_LowMorale",
+        "stack": 1,
+        "turn": 0,
+        "buffClass": "VolatileBuff",
+        "iconId": "WanderingFootsteps_Panic",
+        "buffType": "Neutral",
+        "canBeDespelled": false,
+        "list": [
+          {
+            "ability": "GiveBuffOnRoundEnd",
+            "buffData": {
+              "buffKeyword": "Sinking",
+              "target": "IfAbnormalityAllPartsOrSelf",
+              "stack": 3,
+              "turn": 0,
+              "activeRound": 0
+            }
+          },
+          {
+            "ability": "ParryingResultAdderAsStack",
+            "value": -1
+          }
+        ]
+      },
+      "buffB": {
+        "id": "WanderingFootsteps_Panic",
+        "stack": 1,
+        "turn": 0,
+        "iconId": "WanderingFootsteps_Panic",
+        "buffClass": "VolatileBuff",
+        "buffType": "Neutral",
+        "canBeDespelled": false,
+        "list": [
+          {
+            "ability": "GiveBuffOnRoundEnd",
+            "buffData": {
+              "buffKeyword": "Sinking",
+              "target": "IfAbnormalityAllPartsOrSelf",
+              "stack": 5,
+              "turn": 3,
+              "activeRound": 0
+            }
+          },
+          {
+            "ability": "ParryingResultAdderAsStack",
+            "value": -2
+          }
+        ]
+      }
+    },
+    {
       "id": "NONE_MP",
       "buffA": {
         "id": "NoneMp_LowMorale",

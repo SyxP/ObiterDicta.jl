@@ -3,7 +3,7 @@
     {
       "id": 99001,
       "appearance": "99001_LionAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 40,
       "slotWeightConditionList": [
         "Default1"
@@ -97,7 +97,7 @@
     {
       "id": 99002,
       "appearance": "99002_WolfAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 42,
       "slotWeightConditionList": [
         "Default1"
@@ -191,7 +191,7 @@
     {
       "id": 99003,
       "appearance": "99003_PantherAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 45,
       "slotWeightConditionList": [
         "Default1"
@@ -286,7 +286,7 @@
       "id": 99004,
       "sdPortrait": "90006",
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -368,7 +368,7 @@
       "id": 99005,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -450,7 +450,7 @@
       "id": 99006,
       "sdPortrait": "90005",
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -532,7 +532,7 @@
       "id": 99007,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -614,7 +614,7 @@
       "id": 99008,
       "sdPortrait": "90005",
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -695,7 +695,7 @@
       "id": 99009,
       "sdPortrait": "90006",
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -816,7 +816,7 @@
       "id": 99010,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -937,7 +937,7 @@
       "id": 99011,
       "sdPortrait": "90005",
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1058,7 +1058,7 @@
       "id": 99012,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1179,7 +1179,7 @@
       "id": 99013,
       "sdPortrait": "90005",
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1300,7 +1300,7 @@
       "id": 99014,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1421,7 +1421,7 @@
       "id": 99015,
       "sdPortrait": "90006",
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1541,7 +1541,7 @@
       "id": 99016,
       "sdPortrait": "90006",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1661,7 +1661,7 @@
       "id": 99017,
       "sdPortrait": "90006",
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1781,7 +1781,7 @@
       "id": 99018,
       "sdPortrait": "90007",
       "appearance": "90007_backstreet_bossAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -1906,7 +1906,7 @@
       "id": 99019,
       "sdPortrait": "90004",
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2027,7 +2027,7 @@
       "id": 99020,
       "sdPortrait": "90006",
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2149,7 +2149,7 @@
       "id": 99021,
       "sdPortrait": "90005",
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2270,7 +2270,7 @@
     {
       "id": 90004,
       "appearance": "90004_backstreet_slashmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2398,7 +2398,7 @@
     {
       "id": 90005,
       "appearance": "90005_backstreet_piercemobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2526,7 +2526,7 @@
     {
       "id": 90006,
       "appearance": "90006_backstreet_hitmobAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -2653,7 +2653,7 @@
     {
       "id": 90007,
       "appearance": "90007_backstreet_bossAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2788,7 +2788,7 @@
     {
       "id": 90008,
       "appearance": "90008_GCorp_Homeless_BaldAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2915,7 +2915,7 @@
     {
       "id": 90009,
       "appearance": "90009_GCorp_Homeless_BobAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -3042,7 +3042,7 @@
     {
       "id": 90010,
       "appearance": "90010_GCorp_Homeless_ShortcutAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -3173,7 +3173,7 @@
     {
       "id": 90011,
       "appearance": "90011_GCorp_Normal_BaldAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -3305,7 +3305,7 @@
     {
       "id": 90012,
       "appearance": "90012_GCorp_Normal_BobAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -3441,7 +3441,7 @@
     {
       "id": 90013,
       "appearance": "90013_GCorp_Normal_ShortcutAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -3577,7 +3577,7 @@
     {
       "id": 90001,
       "appearance": "90001_GCorp_Enhanced_BaldAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -3713,7 +3713,7 @@
     {
       "id": 90002,
       "appearance": "90002_GCorp_Enhanced_ShortcutAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -3849,7 +3849,7 @@
     {
       "id": 90003,
       "appearance": "90003_GCorp_Enhanced_BobAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -3986,6 +3986,9 @@
       "id": 90014,
       "appearance": "90014_GCorp_Infested_BaldAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -4122,6 +4125,9 @@
       "id": 90015,
       "appearance": "90015_GCorp_Infested_BobAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -4258,6 +4264,9 @@
       "id": 90016,
       "appearance": "90016_GCorp_Infested_ShortcutAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -4393,7 +4402,7 @@
     {
       "id": 91001,
       "appearance": "91001_GCorp_Enhanced_BossAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 6,
       "slotWeightConditionList": [
         "Default1"
@@ -4535,6 +4544,7 @@
       "id": 91002,
       "appearance": "91002_GCorp_Infested_BossAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 7,
       "slotWeightConditionList": [
         "Default1"
@@ -4679,6 +4689,7 @@
     {
       "id": 90017,
       "appearance": "90017_ConconAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "KONG_KONG" ],
       "patternID": "90017",
       "level": 2,
@@ -4815,6 +4826,7 @@
     {
       "id": 90018,
       "appearance": "90018_ConconAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "KONG_KONG" ],
       "patternID": "90018",
       "level": 2,
@@ -4951,6 +4963,7 @@
     {
       "id": 90019,
       "appearance": "90019_ConconAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "KONG_KONG" ],
       "patternID": "90019",
       "level": 2,
@@ -5087,6 +5100,7 @@
     {
       "id": 91003,
       "appearance": "91003_ConconAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "KONG_KONG" ],
       "patternID": "91003",
       "level": 2,
@@ -5238,6 +5252,7 @@
     {
       "id": 90020,
       "appearance": "90020_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 4,
       "slotWeightConditionList": [
@@ -5374,6 +5389,7 @@
     {
       "id": 90021,
       "appearance": "90021_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 4,
       "slotWeightConditionList": [
@@ -5510,6 +5526,7 @@
     {
       "id": 90022,
       "appearance": "90022_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 4,
       "slotWeightConditionList": [
@@ -5642,6 +5659,7 @@
     {
       "id": 90023,
       "appearance": "90023_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 4,
       "slotWeightConditionList": [
@@ -5778,6 +5796,7 @@
     {
       "id": 90024,
       "appearance": "90024_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "90024",
       "level": 5,
@@ -5915,6 +5934,7 @@
     {
       "id": 90025,
       "appearance": "90025_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "90025",
       "level": 5,
@@ -6052,6 +6072,7 @@
     {
       "id": 91004,
       "appearance": "91004_EyedAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "91004",
       "level": 6,
@@ -6203,6 +6224,7 @@
     {
       "id": 90026,
       "appearance": "90026_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 5,
       "slotWeightConditionList": [
@@ -6338,6 +6360,7 @@
     {
       "id": 90027,
       "appearance": "90027_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 5,
       "slotWeightConditionList": [
@@ -6475,6 +6498,7 @@
       "id": 90028,
       "appearance": "90028_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -6616,6 +6640,7 @@
       "id": 90029,
       "appearance": "90028_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -6756,6 +6781,7 @@
     {
       "id": 90030,
       "appearance": "90029_KCorpAppearance",
+      "unitKeywordList": ["SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -6893,6 +6919,7 @@
     {
       "id": 90031,
       "appearance": "90029_KCorpAppearance",
+      "unitKeywordList": ["SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -7030,7 +7057,8 @@
     {
       "id": 90032,
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -7168,7 +7196,8 @@
     {
       "id": 90033,
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -7306,7 +7335,8 @@
     {
       "id": 90034,
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 4,
       "slotWeightConditionList": [
         "Default1"
@@ -7444,7 +7474,8 @@
     {
       "id": 90035,
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -7586,7 +7617,8 @@
     {
       "id": 90036,
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -7729,7 +7761,8 @@
     {
       "id": 90037,
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -7872,7 +7905,8 @@
     {
       "id": 90038,
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "slotWeightConditionList": [
         "Default1"
@@ -8015,7 +8049,8 @@
     {
       "id": 90039,
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "slotWeightConditionList": [
         "Default1"
@@ -8158,7 +8193,8 @@
     {
       "id": 90040,
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "slotWeightConditionList": [
         "Default1"
@@ -8301,7 +8337,10 @@
     {
       "id": 91005,
       "appearance": "91005_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 5,
       "patternID": "91005",
       "slotWeightConditionList": [
@@ -8450,7 +8489,8 @@
     {
       "id": 91006,
       "appearance": "91006_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "91006",
       "level": 7,
       "slotWeightConditionList": [
@@ -9082,7 +9122,7 @@
     {
       "id": 90041,
       "appearance": "90041_SlaveAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -9214,7 +9254,7 @@
       "id": 97101,
       "sdPortrait": "90011",
       "appearance": "90011_GCorp_Normal_BaldAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -9347,7 +9387,7 @@
       "id": 97102,
       "sdPortrait": "90012",
       "appearance": "90012_GCorp_Normal_BobAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -9484,7 +9524,7 @@
       "id": 97103,
       "sdPortrait": "90013",
       "appearance": "90013_GCorp_Normal_ShortcutAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -9621,7 +9661,7 @@
       "id": 97104,
       "sdPortrait": "90001",
       "appearance": "90001_GCorp_Enhanced_BaldAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -9758,7 +9798,7 @@
       "id": 97105,
       "sdPortrait": "90002",
       "appearance": "90002_GCorp_Enhanced_ShortcutAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -9895,7 +9935,7 @@
       "id": 97106,
       "sdPortrait": "90003",
       "appearance": "90003_GCorp_Enhanced_BobAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -10033,6 +10073,9 @@
       "sdPortrait": "90014",
       "appearance": "90014_GCorp_Infested_BaldAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -10170,6 +10213,9 @@
       "sdPortrait": "90015",
       "appearance": "90015_GCorp_Infested_BobAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 5,
       "slotWeightConditionList": [
         "Default1"
@@ -10307,6 +10353,9 @@
       "sdPortrait": "90016",
       "appearance": "90016_GCorp_Infested_ShortcutAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [
+          "SMALL"
+      ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -10443,7 +10492,7 @@
       "id": 97151,
       "sdPortrait": "91001",
       "appearance": "91001_GCorp_Enhanced_BossAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -10586,6 +10635,7 @@
       "sdPortrait": "91002",
       "appearance": "91002_GCorp_Infested_BossAppearance",
       "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -10731,6 +10781,7 @@
       "id": 97201,
       "sdPortrait": "90020",
       "appearance": "90020_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 1,
       "slotWeightConditionList": [
@@ -10868,6 +10919,7 @@
       "id": 97202,
       "sdPortrait": "90021",
       "appearance": "90021_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 1,
       "slotWeightConditionList": [
@@ -11005,6 +11057,7 @@
       "id": 97203,
       "sdPortrait": "90022",
       "appearance": "90022_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 1,
       "slotWeightConditionList": [
@@ -11138,6 +11191,7 @@
       "id": 97204,
       "sdPortrait": "90024",
       "appearance": "90024_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "90024",
       "level": 5,
@@ -11276,6 +11330,7 @@
       "id": 97205,
       "sdPortrait": "90025",
       "appearance": "90025_MexicanAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "90025",
       "level": 5,
@@ -11414,6 +11469,7 @@
       "id": 97206,
       "sdPortrait": "90026",
       "appearance": "90026_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 1,
       "slotWeightConditionList": [
@@ -11551,6 +11607,7 @@
       "id": 97207,
       "sdPortrait": "90027",
       "appearance": "90027_CnBigGuyAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "TIEQIU" ],
       "level": 5,
       "slotWeightConditionList": [
@@ -11688,6 +11745,7 @@
       "id": 97251,
       "sdPortrait": "90023",
       "appearance": "90023_VipAppearance",
+      "unitKeywordList": [ "BACK_STREET", "SMALL" ],
       "associationList": [ "CASINO_SECURITY" ],
       "level": 1,
       "slotWeightConditionList": [
@@ -11825,6 +11883,7 @@
       "id": 97252,
       "sdPortrait": "91004",
       "appearance": "91004_EyedAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "MARIACHI" ],
       "patternID": "91004",
       "level": 1,
@@ -11977,7 +12036,8 @@
       "id": 97301,
       "sdPortrait": "90032",
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12116,7 +12176,8 @@
       "id": 97302,
       "sdPortrait": "90032",
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12255,7 +12316,8 @@
       "id": 97303,
       "sdPortrait": "90032",
       "appearance": "90032_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12394,7 +12456,8 @@
       "id": 97304,
       "sdPortrait": "90035",
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12537,7 +12600,8 @@
       "id": 97305,
       "sdPortrait": "90035",
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12681,7 +12745,8 @@
       "id": 97306,
       "sdPortrait": "90035",
       "appearance": "90035_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12825,7 +12890,8 @@
       "id": 97307,
       "sdPortrait": "90038",
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -12969,7 +13035,8 @@
       "id": 97308,
       "sdPortrait": "90038",
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "slotWeightConditionList": [
         "Default1"
@@ -13113,7 +13180,8 @@
       "id": 97309,
       "sdPortrait": "90038",
       "appearance": "90038_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "slotWeightConditionList": [
         "Default1"
@@ -13257,7 +13325,8 @@
       "id": 97351,
       "sdPortrait": "91006",
       "appearance": "91006_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "91006",
       "level": 1,
       "slotWeightConditionList": [
@@ -13889,7 +13958,8 @@
     {
       "id": 90042,
       "appearance": "90042_KCorp_Chick_StickAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -14025,7 +14095,8 @@
     {
       "id": 90043,
       "appearance": "90043_KCorp_Chick_StickLAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -14161,7 +14232,8 @@
     {
       "id": 90044,
       "appearance": "90044_KCorp_Chick_AxeAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -14297,7 +14369,8 @@
     {
       "id": 90045,
       "appearance": "90045_KCorp_Chick_ShieldAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -14437,7 +14510,8 @@
     {
       "id": 90046,
       "appearance": "90046_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -14546,7 +14620,7 @@
       "id": 90047,
       "appearance": "90047_KCorpAppearance",
       "unitKeywordList": [
-                "MACHINE"
+                "MACHINE", "REGULAR"
             ],
             "associationList": [ "ATL" ],
       "level": 2,
@@ -14658,7 +14732,7 @@
       "id": 90048,
       "appearance": "90048_KCorpAppearance",
       "unitKeywordList": [
-                "MACHINE"
+                "MACHINE", "REGULAR"
             ],
             "associationList": [ "ATL" ],
       "level": 2,
@@ -14770,7 +14844,7 @@
       "id": 90049,
       "appearance": "90049_KCorpAppearance",
       "unitKeywordList": [
-                "MACHINE"
+                "MACHINE", "REGULAR"
             ],
             "associationList": [ "ATL" ],
       "level": 2,
@@ -14891,7 +14965,7 @@
       "id": 90050,
       "appearance": "90050_KCorpAppearance",
       "unitKeywordList": [
-                "MACHINE"
+                "MACHINE", "REGULAR"
             ],
             "associationList": [ "ATL" ],
       "level": 2,
@@ -15012,8 +15086,8 @@
       "id": 91007,
       "appearance": "91007_KCorpAppearance",
       "unitKeywordList": [
-                "MACHINE"
-            ],
+          "MACHINE", "LARGE"
+      ],
             "associationList": [ "ATL" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -15377,6 +15451,7 @@
     {
       "id": 90051,
       "appearance": "90051_TroubleshooterAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "TROUBLE_SHOOTER" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -15648,6 +15723,7 @@
     {
       "id": 90052,
       "appearance": "90052_TroubleshooterAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "TROUBLE_SHOOTER" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -15919,6 +15995,7 @@
     {
       "id": 90053,
       "appearance": "90053_TroubleshooterAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "TROUBLE_SHOOTER" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -16190,6 +16267,7 @@
     {
       "id": 91008,
       "appearance": "91008_TroubleshooterAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "TROUBLE_SHOOTER" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -16695,6 +16773,7 @@
       "id": 90054,
       "appearance": "90054_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -16837,6 +16916,7 @@
       "id": 90055,
       "appearance": "90055_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -16978,7 +17058,8 @@
     {
       "id": 90056,
       "appearance": "90056_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE"],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL"  ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -17095,7 +17176,8 @@
     {
       "id": 90057,
       "appearance": "90056_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL"  ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -17224,7 +17306,8 @@
     {
       "id": 90071,
       "appearance": "90071_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -17341,7 +17424,8 @@
     {
       "id": 90072,
       "appearance": "90046_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -17359,9 +17443,9 @@
       ],
       "breakSection": {
         "sectionList": [
-          30
-          ,0
-          ,-10
+          30,
+          0,
+          -10
         ]
       },
       "mp": 0,
@@ -17462,7 +17546,8 @@
     {
       "id": 91009,
       "appearance": "91009_LobotomyEGOBossAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default2"
@@ -17897,7 +17982,8 @@
     {
       "id": 90058,
       "appearance": "90058_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18037,7 +18123,8 @@
     {
       "id": 90059,
       "appearance": "90059_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18177,7 +18264,8 @@
     {
       "id": 90060,
       "appearance": "90058_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18320,7 +18408,8 @@
     {
       "id": 90061,
       "appearance": "90059_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18465,7 +18554,8 @@
     {
       "id": 90062,
       "appearance": "90058_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18611,7 +18701,8 @@
     {
       "id": 90063,
       "appearance": "90059_LobotomyAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -18754,7 +18845,8 @@
     {
       "id": 91010,
       "appearance": "91009_LobotomyEGOBossAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "ATL" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default2"
@@ -18913,7 +19005,8 @@
     {
       "id": 90064,
       "appearance": "90028_KCorpAppearance",
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -19053,7 +19146,8 @@
     {
       "id": 90065,
       "appearance": "90029_KCorpAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": ["SMALL" ],
+      "associationList": [ "K_CORP" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -19194,6 +19288,7 @@
       "id": 90066,
       "appearance": "90054_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -19338,6 +19433,7 @@
       "id": 90067,
       "appearance": "90055_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -19481,6 +19577,7 @@
     {
       "id": 90068,
       "appearance": "8501_KCorp_Grade3Appearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -19620,6 +19717,7 @@
     {
       "id": 90069,
       "appearance": "8502_KCorp_Grade3_FuryAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -19761,6 +19859,7 @@
       "id": 90070,
       "appearance": "90070_TCorpAppearance",
       "associationList": [ "T_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default2"
@@ -20035,6 +20134,7 @@
       "id": 90073,
       "appearance": "90028_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -20177,6 +20277,7 @@
       "id": 90074,
       "appearance": "90028_KCorpAppearance",
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -20318,6 +20419,7 @@
     {
       "id": 90075,
       "appearance": "90029_KCorpAppearance",
+      "unitKeywordList": ["SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -20456,6 +20558,7 @@
     {
       "id": 90076,
       "appearance": "90029_KCorpAppearance",
+      "unitKeywordList": ["SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -20595,6 +20698,7 @@
       "id": 90082,
       "sdPortrait": 8523,
       "appearance": "8502_KCorp_Grade3_FuryAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [

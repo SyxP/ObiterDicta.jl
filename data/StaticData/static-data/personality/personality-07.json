@@ -4,9 +4,10 @@
       "id": 10701,
       "appearance": "10701_Heathclif_BaseAppearance",
       "unitKeywordList": [
-        "BASE_APPEARANCE"
+        "BASE_APPEARANCE", "SMALL"
       ],
       "associationList": [ "LIMBUS_COMPANY" ],
+      "unitScriptID" : "10701",
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
@@ -105,6 +106,7 @@
     {
       "id": 10702,
       "appearance": "10702_Heathclif_4Appearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "SHI" ],
       "characterId": 7,
       "panicType": 9999,
@@ -203,6 +205,7 @@
     {
       "id": 10703,
       "appearance": "10703_Heathclif_RCorpAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "R_CORP" ],
       "characterId": 7,
       "panicType": 9999,
@@ -216,7 +219,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 13
+              "stack": 13
             }
           ]
         },
@@ -225,7 +228,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 16
+              "stack": 16
             }
           ]
         }
@@ -322,7 +325,8 @@
     {
       "id": 10704,
       "appearance": "10704_Heathclif_NCorpAppearance",
-      "associationList": [ "N_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 1,
@@ -421,10 +425,12 @@
     {
       "id": 10705,
       "appearance": "10705_Heathclif_WolfoxAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "ATL" ],
       "characterId": 7,
       "panicType": 9999,
       "season": 2,
+      "isPlusCoinUnit" : false,
       "defenseSkillIDList": [
         1070504
       ],
@@ -522,6 +528,7 @@
     {
       "id": 10706,
       "appearance": "10706_Heathclif_SevenAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "SEVEN" ],
       "characterId": 7,
       "panicType": 9999,
@@ -621,6 +628,7 @@
     {
       "id": 10707,
       "appearance": "10707_Heathclif_QueequegAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "characterId": 7,
       "panicType": 9999,
@@ -718,6 +726,7 @@
     {
       "id": 10708,
       "appearance": "10708_Heathcliff_OufiAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "OUFI" ],
       "characterId": 7,
       "panicType": 9999,
@@ -809,6 +818,214 @@
         {
           "skillId": 1070803,
           "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10709,
+      "appearance": "10709_Heathclif_CyborgFixerAppearance",
+      "unitKeywordList": [ "FIXER", "MACHINE_BOUND_ORGANISM", "SMALL" ],
+      "associationList": [ "MULTI_CRACK" ],
+      "characterId": 7,
+      "panicType": 9999,
+      "season": 4,
+      "unitScriptID": "MultiCrack_Ally",
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        1070904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 71,
+        "incrementByLevel": 2.55
+      },
+      "defCorrection": -1,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1070901,
+          "number": 3
+        },
+        {
+          "skillId": 1070902,
+          "number": 2
+        },
+        {
+          "skillId": 1070903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10710,
+      "appearance": "10710_Heathclif_WHuntAppearance",
+      "unitKeywordList": [ "SMALL", "WILD_HUNT_HEATH" ],
+      "associationList": [ "WILD_HUNT", "WUTHERING_HEIGHTS" ],
+      "characterId": 7,
+      "panicType": 9999,
+      "season": 4,
+      "unitScriptID": "10710",
+      "defenseSkillIDList": [
+        1071004,
+        1071006
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 73,
+        "incrementByLevel": 2.51
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        8,
+        8
+      ],
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyMp10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAlly5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1071001,
+          "number": 3
+        },
+        {
+          "skillId": 1071002,
+          "number": 2
+        },
+        {
+          "skillId": 1071003,
+          "number": 1
+        },
+        {
+          "skillId": 1071005,
+          "number": 0
         }
       ]
     }

@@ -949,7 +949,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1403,7 +1403,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1684,7 +1684,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -1863,7 +1863,7 @@
               "scale": 6,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "Reduction",
                     "target": "Target",
@@ -1903,7 +1903,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -2008,7 +2008,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "INDIGO",
           "atkType": "HIT",
@@ -2081,7 +2081,7 @@
               "scale": 6,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "Paralysis",
                     "target": "Target",
@@ -2190,7 +2190,7 @@
               "scale": 7,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "PlusCoinValueDown",
                     "target": "Target",
@@ -2230,7 +2230,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -2327,7 +2327,7 @@
         {
           "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "INDIGO",
           "atkType": "HIT",
@@ -3271,7 +3271,7 @@
           "iconID": 9009204,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -3714,7 +3714,7 @@
           "iconID": 9009404,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -3987,7 +3987,7 @@
           "iconID": 9009504,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",

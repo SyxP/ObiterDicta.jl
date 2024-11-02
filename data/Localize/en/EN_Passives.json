@@ -463,7 +463,7 @@
     {
       "id": 1050421,
       "name": "Highest Honor",
-      "desc": "Apply 1 Attack Power Up and 1 Protection to the ally with the least HP below 50%.\nIf the ally is from N Corp, also apply 1 Fanatic."
+      "desc": "Apply 1 Attack Power Up and 1 Protection to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic."
     },
     {
       "id": 1090421,
@@ -473,12 +473,12 @@
     {
       "id": 1020401,
       "name": "Whistles",
-      "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is from N Corp, also apply 1 Fanatic."
+      "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic."
     },
     {
       "id": 1020421,
       "name": "Whispers",
-      "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is from N Corp, also apply 1 Fanatic."
+      "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic."
     },
     {
       "id": 1070401,
@@ -850,12 +850,12 @@
     {
       "id": 1120701,
       "name": "Bullets are Pricey",
-      "desc": "- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n- If this unit Critical Hits when out of <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u>, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage."
+      "desc": "- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n- If this unit Critical Hits when out of [Bullet], spend all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage."
     },
     {
       "id": 1120702,
       "name": "Bullets are Pricey",
-      "desc": "<style=\"highlight\">- Always Activate : Begin encounters with 7 Ammo</style>\n- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n<style=\"highlight\">- If a Coin that uses Ammo hits, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal (25 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage.</style>\n- If this unit Critical Hits when out of <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u>, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage"
+      "desc": "<style=\"highlight\">- Always Active : begin encounters with 7 Ammo</style>\n- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n<style=\"highlight\"> If a Coin that uses Ammo Hits, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (25 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage as bonus damage.</style>\n- If this unit Critical Hits when out of [Bullet], consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage."
     },
     {
       "id": 1120721,
@@ -880,12 +880,12 @@
     {
       "id": 1040621,
       "name": "The Lucky Cig",
-      "desc": "If 1 ally with the least <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u> uses up their last <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u> with a Skill, deal 50% of the Skill's damage as bonus damage to that Skill's target at Attack End."
+      "desc": "If 1 ally with the least Ammo uses up their last Ammo with a Coin, deal 50% of the damage dealt by that Coin attack against each target as bonus damage against each individual target. (rounded up)"
     },
     {
       "id": 1040631,
       "name": "The Lucky Cig",
-      "desc": "<style=\"highlight\">- If 1 ally with the least <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u> uses a Skill that spends <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u>, gain 3 Poise (once per turn; does not apply to allies without Ammo)</style>\n- If 1 ally with the least <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u> uses up their last <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Ammo</color></link></u> with a Skill, deal 50% of the Skill's damage as bonus damage to that Skill's target at Attack End."
+      "desc": "<style=\"highlight\">- If 1 ally with the least [Bullet] uses a Skill that spends [Bullet], gain 3 Poise. (once per turn; does not apply to allies without Ammo)</style>\n- If 1 ally with the least Ammo uses up their last Ammo with a Coin, deal 50% of the damage dealt by that Coin attack against each target as bonus damage against each individual target. (rounded up)"
     },
     {
       "id": 1030601,
@@ -1206,7 +1206,7 @@
     {
       "id": 1070811,
       "name": "Grave Attendance",
-      "desc": "Deal +10% more damage for every 6 [Vibration] Potency on target (Max 30%)\nWhen converting [Vibration] into [Vibration_Collapse] with this unit's Skill effects, trigger [VibrationExplosion] on target",
+      "desc": "Deal +10% more damage for every 6 [Vibration] Potency on target (Max 30%)\nWhen converting [Vibration] into [VibrationCollapse] with this unit's Skill effects, trigger [VibrationExplosion] on target",
       "summary": ""
     },
     {
@@ -1393,6 +1393,403 @@
       "id": 1080931,
       "name": "Loyal Supporter",
       "desc": "When 1 ally with the fastest Speed attacks a target with [Sinking], deal +1% more damage for every 1 [Sinking] on target (max 20%)",
+      "summary": ""
+    },
+    {
+      "id": 1100901,
+      "name": "Stigma Workshop Weaponry / Passion",
+      "desc": "This unit inflicts +1 more [Combustion] Potency with its Skills (Activates 6 times per turn)\nWhen in a Volatile E.G.O state, and at 0+ SP, gain Coin Power +(SP/20). At 45 SP, gain Coin Power +3 instead.",
+      "summary": "Inflict +1 more [Combustion] Potency with Skills\nGain Coin Power based on SP"
+    },
+    {
+      "id": 1100911,
+      "name": "Stigma Workshop Weaponry / Passion",
+      "desc": "This unit inflicts +1 more [Combustion] Potency <style=\"highlight\">and Count</style> with its Skills (Activates 6 times per turn)\nWhen in a Volatile E.G.O state, and at 0+ SP, gain Coin Power +(SP/20). At 45 SP, gain Coin Power +3 instead.",
+      "summary": "Inflict +1 more [Combustion] Potency and Count with Skills\nGain Coin Power based on SP"
+    },
+    {
+      "id": 1100902,
+      "name": "Unstable Shell of Ego",
+      "desc": "Turn Start: At 40+ SP, consume 20 SP to enter the Volatile E.G.O::Waxen Pinion state. (this 'Turn Start' effect does not activate repeatedly)\n\nIf 2+ allies are defeated in a single turn, and if this unit's SP isn't at -45 at Turn End, reset SP to 20; then, enter the Volatile E.G.O::Waxen Pinion state. (if both conditions are met at the same time, whichever condition that results in a higher SP goes into effect)\n\nIf this unit gets Staggered due to damage or raised Stagger Threshold when entering the Volatile E.G.O state, recover from Stagger. If the Stagger is something that cannot be naturally recovered from, this unit does not enter the Volatile E.G.O state.\n\nGain [UnstableFeeling] while in the Volatile E.G.O state.\n\nTurn Start: At 0 or less SP, exit the Volatile E.G.O::Waxen Pinion state.",
+      "summary": " "
+    },
+    {
+      "id": 1100921,
+      "name": "Flaring Brand",
+      "desc": "When the #1 Sinner to be Deployed Heads Hits, inflict +1 [Combustion] Count (4 times per turn)",
+      "summary": "On Heads Hit, inflict +1 [Combustion] Count"
+    },
+    {
+      "id": 1010901,
+      "name": "Assignment Evaluation",
+      "desc": "On Hit, if the target has 6+ [Laceration], heal 2 SP.\nHeal 1 additional SP for every type of negative effect on the target. (max 3)\nIf this unit's SP is at max, gain 1 [AttackUp] next turn when this unit heals SP with this effect.\n(This Passive activates 4 times max per turn)",
+      "summary": "Conditional SP Heal On Hit. At max SP, gain 1 [AttackUp] next turn"
+    },
+    {
+      "id": 1010911,
+      "name": "Assignment Evaluation",
+      "desc": "On Hit, if the target has <style=\"highlight\">4</style>+ [Laceration], heal 2 SP.\nHeal 1 additional SP for every type of negative effect on the target. (max 3)\nIf this unit's SP is at max, gain <style=\"highlight\">2</style> [AttackUp] next turn when this unit heals SP with this effect.\n(This Passive activates 4 times max per turn)",
+      "summary": "Conditional SP Heal On Hit. At max SP, gain 2 [AttackUp] next turn"
+    },
+    {
+      "id": 1010921,
+      "name": "Practices on Aesthetics",
+      "desc": "1 ally with the least SP heals 2 SP On Hit for every type of negative effect on the target. (max 6)\n(This Passive activates 2 times max per turn)",
+      "summary": "On Hit, heal SP based on the number of negative effect types on the target"
+    },
+    {
+      "id": 1010931,
+      "name": "Practices on Aesthetics",
+      "desc": "1 ally with the least SP heals 2 SP On Hit for every type of negative effect on the target. (max 6)\n<style=\"highlight\">If the target has [Laceration], heal 3 additional SP.</style>\n(This Passive activates 2 times max per turn)",
+      "summary": "On Hit, heal SP based on the number of negative effect types on the target"
+    },
+    {
+      "id": 1110901,
+      "name": "Multitude of Dots",
+      "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, a Part)",
+      "summary": "Combat Start: Inflict 2 Potency for a random status effect to an enemy"
+    },
+    {
+      "id": 1110911,
+      "name": "Multitude of Dots",
+      "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on <style=\"highlight\">2</style> enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, Parts)",
+      "summary": "Combat Start: Inflict 2 Potency for a random status effect to 2 enemies"
+    },
+    {
+      "id": 1110921,
+      "name": "Rough Sketch",
+      "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. Once per turn)",
+      "summary": "Heal SP on self On Kill against targets with [Laceration]"
+    },
+    {
+      "id": 1110931,
+      "name": "Rough Sketch",
+      "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. 3 times per turn)",
+      "summary": "Heal SP on self On Kill against targets with [Laceration]"
+    },
+    {
+      "id": 1010902,
+      "name": "Sanguine Pointillist",
+      "desc": "This Identity only counts as an 'Identity that inflicts [Laceration]'. This Identity's Skills that randomly inflict [Combustion], [Laceration], [Vibration], [Burst], and [Sinking] do not count as Skills that inflict each respective Keyword."
+    },
+    {
+      "id": 1110902,
+      "name": "Sanguine Pointillist",
+      "desc": "This Identity only counts as an 'Identity that inflicts [Laceration]'. This Identity's Skills that randomly inflict [Combustion], [Laceration], [Vibration], [Burst], and [Sinking] do not count as Skills that inflict each respective Keyword."
+    },
+    {
+      "id": 1040901,
+      "name": "N.O.",
+      "desc": "- When an other ally Staggers an enemy with an attack: follow up with a Skill 1 against the Staggered enemy. (once per Turn)\n- If multiple enemies are Staggered at once, target the enemy with the least HP(for Abnormalities, target the Abnormality with the least HP; then, target the Part with the least HP).\n- When using Skill 1 with this effect, this unit gains +1 more [Vibration] Count from its Coin effects, and triggers a [VibrationExplosion] with the last Coin On Hit"
+    },
+    {
+      "id": 1040921,
+      "name": "The A.I.",
+      "desc": "#1 Deployed ally gains +1 more Tremor Count from their Skill or Coin effects (2 times per turn)"
+    },
+    {
+      "id": 1060901,
+      "name": "Vibroweld Morph-combat Cane (Unauthorized Invention)",
+      "desc": "Turn End: gain [AttackDmgUp] next turn equal to the number of times this unit triggered [VibrationExplosion] this turn (max 3)"
+    },
+    {
+      "id": 1060921,
+      "name": "In the Culprit's Shoes",
+      "desc": "When #1 Deployed Identity triggers Tremor Burst with Skill or Coin effects, 25% chance to trigger an additional Tremor Burst (once per turn)"
+    },
+    {
+      "id": 1030901,
+      "name": "Golden Time - Extracting",
+      "desc": "Turn End: If this unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger. (once per Encounter)\n\nWhen this unit loses [TimeRentalTwoPersonality], gain +8 [Aggro] to one of this unit's Skill Slots next turn"
+    },
+    {
+      "id": 1030921,
+      "name": "T Corp. Physics Distortion Field",
+      "desc": "When 1 ally with the slowest Speed takes damage from enemies with [Vibration], take -10% less damage"
+    },
+    {
+      "id": 1090901,
+      "name": "Golden Time - Standoff",
+      "desc": "Turn End: if this unit's HP is between 16% ~ 20%, instantly heal up to 60% of Max HP, and recover from Stagger. (once per Encounter)\n\nWhen Clashing against targets with [TimeSuspend], Clash Power +2\nTake -10% less damage from targets with [TimeSuspend]"
+    },
+    {
+      "id": 1090921,
+      "name": "T Corp. Martial Arts",
+      "desc": "To 1 ally with the fastest Speed: Clash Power +1 when Clashing against targets with 5+ [Vibration]"
+    },
+    {
+      "id": 1051001,
+      "name": "Study Hall",
+      "desc": "Every time an other ally Discards a Skill, apply 1 [KnowledgeTraining] to the ally and self (once per Skill, 3 times per turn)\nTurn End: next turn, gain Pierce DMG Up and Blunt DMG Up equal to the number of other allies that Discarded Skills (max 3)"
+    },
+    {
+      "id": 1051021,
+      "name": "Diligent Learning",
+      "desc": "When 1 ally with the highest max HP Discards a Skill, gain (5 x Discarded Skill rank)% of the max HP as Shield (once per turn)\nIf the unit has [KnowledgeExplored], multiply the above Shield value by 1.5"
+    },
+    {
+      "id": 1111001,
+      "name": "Overcharge / Cleanup Order",
+      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nTurn End: Apply 1 [ParryingResultUp] next turn to ([Charge]) W Corp. employees, including this unit, in reverse Deployment order (max: 5 allies)"
+    },
+    {
+      "id": 1111021,
+      "name": "Refraction",
+      "desc": "1 ally who has the most [Charge] Count at Turn Start: deal +10% more damage with Skills that consumed 7+ [Charge] Count (once per turn)"
+    },
+    {
+      "id": 1021001,
+      "name": "Electrocurrent Dismantling",
+      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% more damage (max 15%)\n\nOn Kill, this unit and 1 ally with the least [Charge] Count gains [Charge] Count equal to [Charge] (max 3, prioritizes allies that consume or gain [Charge])",
+      "summary": "Gain [Charge] with every 10 [Charge] Count consumption\nAt 2+ [Charge], deal more damage\nOn Kill, this unit and 1 ally gain [Charge] Count"
+    },
+    {
+      "id": 1021011,
+      "name": "Electrocurrent Dismantling",
+      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% more damage (max 15%)\n<style=\"highlight\">- If the target is at less than 50% HP, deal +([Charge] x 5)% additionally increased damage (max 25%)</style>\n\nOn Kill, this unit and <style=\"highlight\">2 allies</style> with the least [Charge] Count gains [Charge] Count equal to <style=\"highlight\">([Charge] + 2)</style> (max <style=\"highlight\">5</style>, prioritizes allies that consume or gain [Charge])",
+      "summary": "Gain [Charge] with every 10 [Charge] Count consumption\nAt 2+ [Charge], deal more damage\nOn Kill, this unit and 2 allies gain [Charge] Count"
+    },
+    {
+      "id": 1021021,
+      "name": "Auxiliary Dismantling Current",
+      "desc": "When 1 ally with the least [Charge] Count kills an enemy, the ally gains +2 [Charge] Count (once per turn, prioritizes allies that consume or gain [Charge])"
+    },
+    {
+      "id": 1021031,
+      "name": "Auxiliary Dismantling Current",
+      "desc": "When 1 ally with the least [Charge] Count kills an enemy, the ally gains +3 [Charge] Count (once per turn, prioritizes allies that consume or gain [Charge])"
+    },
+    {
+      "id": 1070901,
+      "name": "Charge Model L37",
+      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nTurn End: At 2+ [Charge], gain 1 [Agility] next turn",
+      "summary": "Gain [Charge] with every 10 [Charge] Count consumption"
+    },
+    {
+      "id": 1070911,
+      "name": "Charge Model L37",
+      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nTurn End: At 2+ [Charge], gain 1 [Agility] next turn\n<style=\"highlight\">Turn End: At 3+ [Charge], gain 1 additional [Agility] and 1 [ParryingResultUp] next turn</style>",
+      "summary": "Gain [Charge] with every 10 [Charge] Count consumption"
+    },
+    {
+      "id": 1070921,
+      "name": "Charging Module Installation",
+      "desc": "#1 Deployed ally: Max [Charge] Count +5\n(When conditions are met, this effect will remain activated until the start of the next turn)"
+    },
+    {
+      "id": 1071002,
+      "name": "Dullahan",
+      "desc": "- Turn Start: if this unit has [NightPathfinding], mount [NightPathfinding].\n- Lose 5 SP every time this unit mounts [NightPathfinding]\n- If 3+ allies have been defeated in this Encounter, gain [NightPathfinding] next turn. (once per Encounter)\n- If this unit gets Staggered due to damage or raised Stagger Threshold when mounting [NightPathfinding], recover from Stagger. If the Stagger is something that cannot be naturally recovered from, this unit does not mount [NightPathfinding].\n\n- Gain 1 Coffin when killing the target."
+    },
+    {
+      "id": 1071001,
+      "name": "Call of the Erlking",
+      "desc": "- Deal +1% more damage for every 1 [Sinking] on target (max 15%)",
+      "summary": "Deal more damage based on [Sinking] on target"
+    },
+    {
+      "id": 1071011,
+      "name": "Call of the Erlking",
+      "desc": "- Deal +1% more damage for every 1 [Sinking] on target (max 15%)\n\n<style=\"highlight\">- When, during combat, 1 ally takes damage that would kill them, consume 2 Coffin to apply [WildHunt] to them (once per turn)\n\n- Apply 2 [AttackDmgUp] next turn to the ally with [WildHunt]\n- If the said ally is from Wuthering Heights or Edgar Family, apply 1 [Enhancement] next turn as well</style>",
+      "summary": "Deal more damage based on [Sinking] on target"
+    },
+    {
+      "id": 1071021,
+      "name": "Endless Lamentation",
+      "desc": "1 ally with the highest SP deals +5% more damage to targets with less than 0 SP\nIf the target has less than 0 SP: deal even more damage the further the target's SP is from 0 (+0.5% more damage per SP, max 20%)\nIf the target does not have SP, the said ally inflicts +1 more [Sinking] Potency and Count with their Skill and Coin Effects of their Attack Skills (2 times per turn)",
+      "summary": "Deal more damage to targets with less than 0 SP"
+    },
+    {
+      "id": 1071012,
+      "name": "Call of the Erlking",
+      "desc": "- Deal +1% more damage for every 1 [Sinking] on target (max 15%)\n\n- When, during combat, 1 ally takes damage that would kill them, consume 2 Coffin to apply [WildHunt] to them (<style=\"highlight\">2 times</style> per turn)\n\n- Apply 2 [AttackDmgUp] next turn to the ally with [WildHunt]\n- If the said ally is from Wuthering Heights or Edgar Family, apply 1 [Enhancement] next turn as well",
+      "summary": "Deal more damage based on [Sinking] on target"
+    },
+    {
+      "id": 1041001,
+      "name": "Spiderhead/Skullface",
+      "desc": "When hitting an enemy with a Coin that gains [RedEyeFirst]:\n- Deal +([RedEyeFirst]/2)% more damage\n- If the target has [Laceration], gain 1 [RedEyeFirst] (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains [PenanceFirst]:\n- Deal +([PenanceFirst]/2)% more damage\n- At 20+ SP, gain 1 [PenanceFirst] (3 times per turn)",
+      "summary": "Coins that gain Red Eyes deal more damage; if the target has Bleed, gain 1 Red Eyes\nCoins that gain Penitence deal more damage; at 20+ SP, gain 1 Penitence"
+    },
+    {
+      "id": 1041011,
+      "name": "Spiderhead/Skullface",
+      "desc": "When hitting an enemy with a Coin that gains [RedEyeFirst]:\n- Deal +([RedEyeFirst]/2)% more damage\n<style=\"highlight\">- If this unit's Speed is faster than the target's by 3 or more, deal an additional +([RedEyeFirst]/2)% more damage</style>\n- If the target has [Laceration], gain 1 [RedEyeFirst] (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains [PenanceFirst]:\n- Deal +([PenanceFirst]/2)% more damage\n<style=\"highlight\">- If the target's SP is lower than this unit's, deal an additional +([PenanceFirst]/2)% more damage(targets without SP: their SP counts as 0)</style>\n- At 20+ SP, gain 1 [PenanceFirst] (3 times per turn)\n\n<style=\"highlight\">When hit by an enemy, gain 1 [PenanceFirst] (max 3)</style>",
+      "summary": "Coins that gain Red Eyes deal more damage; if the target has Bleed, gain 1 Red Eyes\nCoins that gain Penitence deal more damage; at 20+ SP, gain 1 Penitence\nWhen hit by an enemy, gain 1 Penitence (max 3)"
+    },
+    {
+      "id": 1041002,
+      "name": "E.G.O Assimilation",
+      "desc": "When gaining [Charge] Count, gain [RedEyeFirst] or [PenanceFirst] instead\n- [RedEyeFirst] and [PenanceFirst] are unaffected by [Charge] Potency",
+      "summary": "When gaining Charge Count, gain Red Eyes or Penitence instead"
+    },
+    {
+      "id": 1041021,
+      "name": "Eat and Sleep",
+      "desc": "Combat Start:\n- 1 ally with the lowest HP percentage heals 3 HP\n- 1 ally with the least SP heals 3 SP",
+      "summary": "Heal HP for 1 ally with the lowest HP percentage, heal SP for 1 ally with the least SP"
+    },
+    {
+      "id": 1011001,
+      "name": "Fire.IShallFire.",
+      "desc": "When this unit gains [BulletLament], gain 2 [Agility] next turn (once per turn)",
+      "summary": "When this unit gains Ammo, gain Agility next turn"
+    },
+    {
+      "id": 1011002,
+      "name": "ISeeTheDyingButterfly.",
+      "desc": "Begin encounters with 10 of each of [BulletLament]\n\nWhen consuming [BulletLament], select randomly between The Living(Potency) and The Departed(Count) for each [BulletLament] value.\n\nWhen inflicting [SinkingWhite], inflict the same amount of The Living and The Departed as they were consumed. Example below:\n- If this unit consumed X Living, inflict X Living\n- If this unit consumed Y Departed, inflict Y Departed\n\nIf this unit runs out of [BulletLament] midway through Skill use, cancel all subsequent Coins and [ReloadLament]\n\nWhen [ReloadLament]ing, or when gaining [BulletLament], gain either The Living or The Departed based on this unit's current SP\n- At 0 or higher SP: 30% chance to gain The Living; 70% chance to gain The Departed.\n- At less than 0 SP: 70% chance to gain The Living; 30% chance to gain The Departed.\n- The probabilities are calculated separately for each ammo consumed.",
+      "summary": "Reloads if this unit runs out of Ammo midway through Skill use"
+    },
+    {
+      "id": 1011011,
+      "name": "Fire.IShallFire.",
+      "desc": "After Attack: if this unit killed the target with its Skill, [ReloadLament]\nWhen this unit gains [BulletLament], gain 2 [Agility] next turn (once per turn)",
+      "summary": "When this unit gains Ammo, gain Agility next turn. Reload On Kill."
+    },
+    {
+      "id": 1011021,
+      "name": "Hand of Salvation",
+      "desc": "When an ally hits with a Skill, consume 2 [Sinking] on the target to inflict them with 1 [SinkingWhite] (3 times per turn)",
+      "summary": "Convert target's Sinking into Butterfly"
+    },
+    {
+      "id": 1091001,
+      "name": "Speedy Delivery",
+      "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%)\n\nUpon Retreat, apply 1 [ParryingResultUp] to 2 allies next turn (prioritizes Substituted units first, then in Deployment order)",
+      "summary": "Gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield\nUpon Retreat, apply 1 [ParryingResultUp] to 2 random allies"
+    },
+    {
+      "id": 1091011,
+      "name": "Speedy Delivery",
+      "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max HP as Shield (max <style=\"highlight\">20%</style>)\n\nUpon Retreat, apply 1 [ParryingResultUp] to 2 allies next turn (prioritizes Substituted units first, then in Deployment order)\n<style=\"highlight\">- Lasts for 1 additional turn for every 15 [DevyatDimensionalSack] on self (2 more turns max)</style>",
+      "summary": "Gain ([DevyatDimensionalSack])% of this unit's max HP as Shield\nUpon Retreat, apply 1 [ParryingResultUp] to 2 random allies"
+    },
+    {
+      "id": 1091002,
+      "name": "Lemme go and I swear I'll make it in time!",
+      "desc": "<For Chain Battles> When, after Retreating with '[Retreat]', if this unit rejoins the battle, halve the [DevyatDimensionalSack] value (once per Encounter, rounded up)",
+      "summary": "Halve the [DevyatDimensionalSack] value"
+    },
+    {
+      "id": 1091021,
+      "name": "Outstanding Courier",
+      "desc": "To 1 ally with the fastest Speed: Clash Power +1 to Skills that apply [Burst] Potency or Count",
+      "summary": "Skills that apply [Burst] Potency or Count gain Clash Power +1"
+    },
+    {
+      "id": 1081001,
+      "name": "Shock-nullifying Greatsword",
+      "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)"
+    },
+    {
+      "id": 1081011,
+      "name": "Shock-nullifying Greatsword",
+      "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)\n- If this unit is in [DefensiveStance], double the amount of [DefenseUp] gained from the above effect."
+    },
+    {
+      "id": 1081021,
+      "name": "Emergency Protection",
+      "desc": "At Combat Start, compare each Identity's current HP to their HP at the start of the previous turn. Then, apply 2 [DefenseUp] to the Identity with the greatest disparity of HP values between turns."
+    },
+    {
+      "id": 1101001,
+      "name": "Begin Protection Mission",
+      "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)"
+    },
+    {
+      "id": 1101021,
+      "name": "Contract Target Protection",
+      "desc": "Turn End: apply 1 [Agility] and 3 [DefenseUp] to 1 ally with the lowest HP percentage next turn"
+    },
+    {
+      "id": 1051101,
+      "name": "Duel Livestream",
+      "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)",
+      "summary": "Turn End: gain [Agility] based on [Breath] Count on self. On Hit with a base Skill, inflict [ConcentratedAttackMeursault] next turn"
+    },
+    {
+      "id": 1051111,
+      "name": "Duel Livestream",
+      "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)\n<style=\"highlight\">If this unit attacked the Slot with [ConcentratedAttackMeursault] and defeated its owner or broke the Part, heal 7 SP</style>",
+      "summary": "Turn End: gain [Agility] based on [Breath] Count on self. On Hit with a base Skill, inflict [ConcentratedAttackMeursault] next turn. Heals SP On Kill"
+    },
+    {
+      "id": 1051121,
+      "name": "One Step Ahead",
+      "desc": "The fastest ally, on Clash Win, gains 1 [Agility] next turn (2 times per turn)",
+      "summary": "The fastest ally, on Clash Win, gains 1 [Agility] next turn"
+    },
+    {
+      "id": 1061001,
+      "name": "How to Hunt Cheerfully",
+      "desc": "If the target is a <Bloodfiend> or a <Bloodbag>, deal +10% more damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (once per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1061011,
+      "name": "How to Hunt Cheerfully",
+      "desc": "If the target is a <Bloodfiend>, <Bloodbag>, or if the target has 10+ [Burst], deal +10% more damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (2 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1061021,
+      "name": "Bloodfiend Hunting Manual - Styptics",
+      "desc": "Combat Start: 1 ally with the highest sum of [Laceration] Potency and Count loses 2 [Laceration] Count\nWhen 1 ally with the fastest Speed hits an enemy with [Burst], inflict 1 [DefenseDown] (2 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1111101,
+      "name": "WRONG COSTUME!!!",
+      "desc": "On Hit, deal +1% more damage for every 10 [BloodDinner_Accumulation] by self (max 20%)",
+      "summary": "Deal more damage based on cumulative Bloodfeast consumed"
+    },
+    {
+      "id": 1111111,
+      "name": "WRONG COSTUME!!!",
+      "desc": "In a Clash against [LineCuttingPersonality], Clash Power +1.\nOn Hit, deal +1.5% more damage for every 10 [BloodDinner_Accumulation] by self (max 30%)\nOn Hit, deal +0.5% more damage for every [Laceration] on the target (max 10%)",
+      "summary": "In a Clash against Sewing Target, Clash Power +1"
+    },
+    {
+      "id": 1111102,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface.",
+      "summary": ""
+    },
+    {
+      "id": 1111121,
+      "name": "Don Quixote Hardblood Arts 8: Scissors",
+      "desc": "1 ally with the fastest Speed: if the enemy is killed After Attack, heal 10 HP (2 times per turn)\n1 ally with the fastest Speed: if the enemy is killed After Attack, inflict +1 [Laceration] Count when inflicting [Laceration] Potency with Skill or Coin effects for the next turn (3 times per turn)",
+      "summary": "If the enemy is dead After Attack, heal HP"
+    },
+    {
+      "id": 1121001,
+      "name": "Self-destructive Dedication",
+      "desc": "Turn End: heal ((10 - [WornHeartGreg])/2) SP for the ally with the least SP (excluding: self or allies that are Panicked or Corroded; rounded down)\nIn this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn. (once per Encounter)",
+      "summary": ""
+    },
+    {
+      "id": 1121002,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface.",
+      "summary": ""
+    },
+    {
+      "id": 1121011,
+      "name": "Self-destructive Dedication",
+      "desc": "Turn End: heal (10 - [WornHeartGreg]) SP for the ally with the least SP (excluding: self or allies that are Panicked or Corroded)\nIn this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn. (once per Encounter)",
+      "summary": ""
+    },
+    {
+      "id": 1121021,
+      "name": "Don Quixote Hardblood Arts 6: Whip",
+      "desc": "1 ally with the lowest HP percentage heals 3 HP On Hit (3 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1121031,
+      "name": "Don Quixote Hardblood Arts 6: Whip",
+      "desc": "1 ally with the lowest HP percentage heals 3 HP On Hit (3 times per turn)\n- If the target hit by the said ally had [Laceration], heal 3 additional HP",
       "summary": ""
     }
   ]

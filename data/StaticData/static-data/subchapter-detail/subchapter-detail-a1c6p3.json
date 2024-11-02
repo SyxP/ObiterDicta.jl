@@ -20,6 +20,16 @@
           "lockedNodePosY": 1840
         }
       ]
+    },
+    {
+      "partId": 91,
+      "subchapterId": 9109,
+      "bgmTypeByUIPanel": "EVENT_TKT_MAIN"
+    },
+    {
+      "partId": 91,
+      "subchapterId": 9110,
+      "bgmTypeByUIPanel": "EVENT_MOWE_MAIN"
     }
   ]
 }

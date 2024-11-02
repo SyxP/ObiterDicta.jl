@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile next turn"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile next turn"
                 }
               ]
             }
@@ -788,7 +788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
                 }
               ]
             }
@@ -804,7 +804,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
                 }
               ]
             }
@@ -1788,7 +1788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +3 Bleed Count "
+                  "desc": "[OnSucceedAttack] Inflict +3 Bleed Count "
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 2 Damage Down"
@@ -2340,7 +2340,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge to inflict 2 Slash Fragility"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count to inflict 2 Slash Fragility"
                 }
               ]
             }
@@ -2371,7 +2371,7 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge to inflict 2 Slash Fragility"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count to inflict 2 Slash Fragility"
                 }
               ]
             }
@@ -2390,28 +2390,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             }
@@ -2425,28 +2425,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge to inflict 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 2 Defense Level Down"
                 }
               ]
             }
@@ -2665,7 +2665,7 @@
         },
         {
           "level": 4,
-          "name": "Hack",
+          "name": "Cleave",
           "desc": "",
           "keywords": [],
           "coinlist": [
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Mind Whip",
-          "desc": "Spend all Charge\nIf at less than 10 Charge Count at Combat Start, target a random unit for an unopposed attack",
+          "desc": "[StartBattle] Spend all Charge Count\nIf at less than 10 Charge Count at Combat Start, target a random unit for an unopposed attack",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Mind Whip",
-          "desc": "Spend 8 Charge\nIf at less than 8 Charge Count at Combat Start, target a random unit for an unopposed attack",
+          "desc": "[StartBattle] Spend 8 Charge Count\nIf at less than 8 Charge Count at Combat Start, target a random unit for an unopposed attack",
           "coinlist": [
             {
               "coindescs": [
@@ -4402,7 +4402,7 @@
         {
           "level": 4,
           "name": "Sharp Edge",
-          "desc": "At 4+ Poise, Coin Power +3",
+          "desc": "At 4+ Poise, Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -6839,7 +6839,7 @@
         {
           "level": 4,
           "name": "Ironclad Retribution",
-          "desc": "If this unit is Fanatic, deal +15% damage\nDeal +5% damage for each N Corp. ally present in the party",
+          "desc": "If this unit is Fanatic, deal +15% damage\nDeal +5% damage for each 'N Corp. Fanatic' present in the party",
           "coinlist": [
             {},
             {},
@@ -10684,7 +10684,7 @@
         {
           "level": 1,
           "name": "Focused Defense",
-          "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count",
+          "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count",
           "coinlist": [
             {}
           ]
@@ -10692,7 +10692,7 @@
         {
           "level": 2,
           "name": "Focused Defense",
-          "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count",
+          "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count",
           "coinlist": [
             {
               "coindescs": [
@@ -10707,7 +10707,7 @@
         {
           "level": 4,
           "name": "Focused Defense",
-          "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 Poise Count",
+          "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 Poise Count",
           "coinlist": [
             {
               "coindescs": [

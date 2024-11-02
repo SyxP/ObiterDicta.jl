@@ -129,6 +129,11 @@
       "max": 1,
       "resetTimeType": "WEEKLY"
     },
+    {
+      "id": 1150,
+      "max": 1,
+      "resetTimeType": "WEEKLY"
+    },
 
 
     {
@@ -177,12 +182,47 @@
       "resetTimeType": "MONTHLY"
     },
     {
+      "id": 1151,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1152,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
+      "id": 1153,
+      "max": 1,
+      "resetTimeType": "MONTHLY"
+    },
+    {
       "id": 1201,
+      "max": 1,
+      "resetTimeType": "PERMANENT"
+    },
+    {
+      "id": 1202,
+      "max": 1,
+      "resetTimeType": "PERMANENT"
+    },
+    {
+      "id": 1203,
+      "max": 1,
+      "resetTimeType": "PERMANENT"
+    },
+    {
+      "id": 1204,
       "max": 1,
       "resetTimeType": "PERMANENT"
     },
 
 
+    {
+      "id": 1401,
+      "max": 1,
+      "resetTimeType": "PERMANENT"
+    },
 
     {
       "id": 1998,

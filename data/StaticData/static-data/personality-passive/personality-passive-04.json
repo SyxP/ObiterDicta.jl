@@ -205,6 +205,58 @@
           ]
         }
       ]
+    },
+    {
+      "personalityID": 10409,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1040901
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1040921
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 10410,
+      "battlePassiveList": [
+        {
+          "level": 1,
+          "passiveIDList": [
+            1041002
+          ]
+        },
+        {
+          "level": 2,
+          "passiveIDList": [
+            1041002,
+            1041001
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1041002,
+            1041011
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1041021
+          ]
+        }
+      ]
     }
   ]
 }

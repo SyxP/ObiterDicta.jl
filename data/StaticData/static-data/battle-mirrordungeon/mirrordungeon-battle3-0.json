@@ -3371,7 +3371,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -3484,7 +3484,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -4993,7 +4993,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -5106,7 +5106,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -6615,7 +6615,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -6728,7 +6728,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -7279,7 +7279,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -8543,7 +8543,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -8656,7 +8656,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -9207,7 +9207,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -10531,7 +10531,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -10649,7 +10649,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -11215,7 +11215,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -12534,7 +12534,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -12652,7 +12652,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone",
+      "stageScriptList": ["KCorpDrone"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -13218,7 +13218,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -15618,7 +15618,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -16515,7 +16515,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -17193,7 +17193,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -17443,7 +17443,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -18121,7 +18121,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Robot",
+      "stageScriptList": ["Robot"],
       "attackType": "HIT",
       "attributeType": ""
     },
@@ -18371,7 +18371,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "mirror9009601",
+      "stageScriptList": ["mirror9009601"],
       "attackType": "HIT",
       "attributeType": ""
     },

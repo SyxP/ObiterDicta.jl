@@ -67,6 +67,12 @@
       ]
     },
     {
+      "id": 2020611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
       "id": 2030111,
       "requireIDList": [
         "CheckAwakenLevel2"
@@ -134,6 +140,12 @@
     },
     {
       "id": 2040611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2040711,
       "requireIDList": [
         "CheckAwakenLevel2"
       ]
@@ -241,6 +253,12 @@
       ]
     },
     {
+      "id": 2070711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
       "id": 2080111,
       "requireIDList": [
         "CheckAwakenLevel2"
@@ -271,6 +289,18 @@
       ]
     },
     {
+      "id": 2080611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2080711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
       "id": 2090111,
       "requireIDList": [
         "CheckAwakenLevel2"
@@ -296,6 +326,12 @@
     },
     {
       "id": 2090511,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2090611,
       "requireIDList": [
         "CheckAwakenLevel2"
       ]
@@ -398,6 +434,66 @@
     },
     {
       "id": 2120611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2060611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2100611,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2110711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2120711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2060711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2020711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2050711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2030711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2090711,
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    },
+    {
+      "id": 2100711,
       "requireIDList": [
         "CheckAwakenLevel2"
       ]

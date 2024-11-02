@@ -220,7 +220,7 @@
     {
       "id": "SlashResistUp",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
@@ -233,7 +233,7 @@
     {
       "id": "PenetrateResistUp",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
@@ -246,7 +246,7 @@
     {
       "id": "HitResistUp",
       "buffClass": "VolatileBuff",
-      "buffType": "Negative",
+      "buffType": "Positive",
       "canBeDespelled": true,
       "list": [
         {
@@ -772,6 +772,18 @@
       "list": [
         {
           "ability": "ChargeForceField"
+        }
+      ]
+    },
+    {
+      "id": "ParryingResultUp",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "ParryingResultAdderAsStack",
+          "value": 1
         }
       ]
     }

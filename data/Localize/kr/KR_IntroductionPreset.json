@@ -166,11 +166,11 @@
     },
     {
       "id": "introduce_sentence_2",
-      "content": "안녕하세요, {0} 입니다."
+      "content": "안녕하세요, {0}입니다."
     },
     {
       "id": "introduce_sentence_3",
-      "content": "{0}은(는) 4구로 간다."
+      "content": "{0}(은/는) 4구로 간다."
     },
     {
       "id": "introduce_sentence_4",
@@ -182,11 +182,11 @@
     },
     {
       "id": "introduce_sentence_6",
-      "content": "{0}(이)라면 괜찮지 않을까요?"
+      "content": "{0}(이라면/라면) 괜찮지 않을까요?"
     },
     {
       "id": "introduce_sentence_7",
-      "content": "그저 무의미한 {0} 일뿐."
+      "content": "그저 무의미한 {0}일 뿐."
     },
     {
       "id": "introduce_sentence_8",
@@ -194,11 +194,11 @@
     },
     {
       "id": "introduce_sentence_9",
-      "content": "우린 일개 {0} (이)지, 정의를 위해 나서는 히어로는 아니니까요."
+      "content": "우린 일개 {0}(이지/지), 정의를 위해 나서는 히어로는 아니니까요."
     },
     {
       "id": "introduce_sentence_10",
-      "content": "삶은 늘 {0} 일 뿐. "
+      "content": "삶은 늘 {0}일 뿐. "
     },
     {
       "id": "introduce_sentence_11",
@@ -226,7 +226,7 @@
     },
     {
       "id": "introduce_sentence_17",
-      "content": "{0}이(가) 언제나 옳지는 않아요."
+      "content": "{0}(이/가) 언제나 옳지는 않아요."
     },
     {
       "id": "introduce_sentence_18",
@@ -238,7 +238,7 @@
     },
     {
       "id": "introduce_sentence_20",
-      "content": "약자에게 {0}을(를) 주기 위해 왔노라!"
+      "content": "약자에게 {0}(을/를) 주기 위해 왔노라!"
     },
     {
       "id": "introduce_sentence_21",
@@ -250,7 +250,7 @@
     },
     {
       "id": "introduce_sentence_23",
-      "content": "우린 세상에서 제일 의미 없는 {0}을(를) 하고 있어!"
+      "content": "우린 세상에서 제일 의미 없는 {0}(을/를) 하고 있어!"
     },
     {
       "id": "introduce_sentence_24",
@@ -258,7 +258,7 @@
     },
     {
       "id": "introduce_sentence_25",
-      "content": "어디서 굴러온 {0}(이)지?"
+      "content": "어디서 굴러온 {0}(이지/지)?"
     },
     {
       "id": "introduce_sentence_26",
@@ -266,7 +266,7 @@
     },
     {
       "id": "introduce_sentence_27",
-      "content": "나도 그대처럼 엄청난 {0}(이)가 되는 것이 꿈이오!"
+      "content": "나도 그대처럼 엄청난 {0}(이/가) 되는 것이 꿈이오!"
     },
     {
       "id": "introduce_sentence_28",
@@ -274,7 +274,7 @@
     },
     {
       "id": "introduce_sentence_29",
-      "content": "나는 {0}을(를) 기억할 것입니다."
+      "content": "나는 {0}(을/를) 기억할 것입니다."
     },
     {
       "id": "introduce_sentence_30",
@@ -282,11 +282,11 @@
     },
     {
       "id": "introduce_sentence_31",
-      "content": "어떻게 {0}을(를) 그냥 지나칠 수 있겠소?"
+      "content": "어떻게 {0}(을/를) 그냥 지나칠 수 있겠소?"
     },
     {
       "id": "introduce_sentence_32",
-      "content": "{0}을(를) 기억하고 있겠지."
+      "content": "{0}(을/를) 기억하고 있겠지."
     },
     {
       "id": "introduce_sentence_33",
@@ -294,7 +294,7 @@
     },
     {
       "id": "introduce_sentence_34",
-      "content": "윽… {0}(이)네요, 정말."
+      "content": "윽… {0}(이네요/네요), 정말."
     },
     {
       "id": "introduce_sentence_35",
@@ -302,7 +302,7 @@
     },
     {
       "id": "introduce_sentence_36",
-      "content": "하지만 너는 내 {0}(이)야."
+      "content": "하지만 너는 내 {0}(이야/야)."
     },
     {
       "id": "introduce_sentence_37",
@@ -314,7 +314,7 @@
     },
     {
       "id": "introduce_sentence_39",
-      "content": "{0}(이)라고 불러주시오."
+      "content": "{0}(이라고/라고) 불러주시오."
     },
     {
       "id": "introduce_sentence_40",
@@ -330,7 +330,7 @@
     },
     {
       "id": "introduce_sentence_41",
-      "content": "{0}을(를) 데우기 위한 수프를 찾으셨나요?"
+      "content": "{0}(을/를) 데우기 위한 수프를 찾으셨나요?"
     },
     {
       "id": "introduce_sentence_42",
@@ -370,7 +370,7 @@
     },
     {
       "id": "introduce_sentence_47",
-      "content": "기실, {0} 이요."
+      "content": "기실, {0}(이요/요)."
     },
     {
       "id": "introduce_word_48",
@@ -378,7 +378,7 @@
     },
     {
       "id": "introduce_sentence_48",
-      "content": "다음 {0}(으)로 넘어가려면…"
+      "content": "다음 {0}(으로/로) 넘어가려면…"
     },
     {
       "id": "introduce_word_49",
@@ -394,7 +394,7 @@
     },
     {
       "id": "introduce_sentence_50",
-      "content": "자… {0}(이)라구~ 어디 덤벼 보던가!"
+      "content": "자… {0}(이라구/라구)~ 어디 덤벼 보던가!"
     },
     {
       "id": "introduce_word_51",
@@ -410,7 +410,7 @@
     },
     {
       "id": "introduce_sentence_52",
-      "content": "네가 날뛸 수 있는 최고의 {0}이지."
+      "content": "네가 날뛸 수 있는 최고의 {0}(이지/지)."
     },
     {
       "id": "introduce_word_53",
@@ -418,7 +418,7 @@
     },
     {
       "id": "introduce_sentence_53",
-      "content": "이제, 나한테 {0}라곤 더 이상 없으니까."
+      "content": "이제, 나한테 {0}(이라곤/라곤) 더 이상 없으니까."
     },
     {
       "id": "introduce_word_54",
@@ -442,7 +442,7 @@
     },
     {
       "id": "introduce_sentence_56",
-      "content": "쓸데 없는 {0}은(는)… 필요 없다!"
+      "content": "쓸데 없는 {0}(은/는)… 필요 없다!"
     },
     {
       "id": "introduce_word_57",
@@ -458,7 +458,7 @@
     },
     {
       "id": "introduce_sentence_58",
-      "content": "{0}이(가) 새지나 않나 모르겠소."
+      "content": "{0}(이/가) 새지나 않나 모르겠소."
     },
     {
       "id": "introduce_word_59",
@@ -466,7 +466,7 @@
     },
     {
       "id": "introduce_sentence_59",
-      "content": "나는 그 {0}이(가) 퍽 아름다워 보이오."
+      "content": "나는 그 {0}(이/가) 퍽 아름다워 보이오."
     },
     {
       "id": "introduce_word_60",
@@ -482,7 +482,7 @@
     },
     {
       "id": "introduce_sentence_61",
-      "content": "아~ 이제야 {0}을(를) 해주시는군요~"
+      "content": "아~ 이제야 {0}(을/를) 해주시는군요~"
     },
     {
       "id": "introduce_word_62",
@@ -490,7 +490,7 @@
     },
     {
       "id": "introduce_sentence_62",
-      "content": "{0}을(를) 붙여야만 해…"
+      "content": "{0}(을/를) 붙여야만 해…"
     },
     {
       "id": "introduce_word_63",
@@ -506,7 +506,7 @@
     },
     {
       "id": "introduce_sentence_64",
-      "content": "{0}을(를) 떴지."
+      "content": "{0}(을/를) 떴지."
     },
     {
       "id": "introduce_word_65",
@@ -578,7 +578,7 @@
     },
     {
       "id": "introduce_sentence_73",
-      "content": "{0}(이)라니, 말이 심하시네…"
+      "content": "{0}(이라니/라니), 말이 심하시네…"
     },
     {
       "id": "introduce_word_74",
@@ -594,7 +594,7 @@
     },
     {
       "id": "introduce_sentence_75",
-      "content": "어이가 없군. {0}(이)나 하고 있으라니."
+      "content": "어이가 없군. {0}(이나/나) 하고 있으라니."
     },
     {
       "id": "introduce_word_76",
@@ -602,7 +602,7 @@
     },
     {
       "id": "introduce_sentence_76",
-      "content": "{0}(이)라는 거, 생각보다 좁던데요?"
+      "content": "{0}(이라는/라는) 거, 생각보다 좁던데요?"
     },
     {
       "id": "introduce_word_77",
@@ -610,7 +610,7 @@
     },
     {
       "id": "introduce_sentence_77",
-      "content": "주문은 {0}이(가) 맡겠습니다."
+      "content": "주문은 {0}(이/가) 맡겠습니다."
     },
     {
       "id": "introduce_word_78",
@@ -618,7 +618,7 @@
     },
     {
       "id": "introduce_sentence_78",
-      "content": "{0}을(를) 끝내러 가볼까?"
+      "content": "{0}(을/를) 끝내러 가볼까?"
     },
     {
       "id": "introduce_word_79",
@@ -626,7 +626,7 @@
     },
     {
       "id": "introduce_sentence_79",
-      "content": "결국, {0}(이)가 나서서 처리해야겠구료."
+      "content": "결국, {0}(이/가) 나서서 처리해야겠구료."
     },
     {
       "id": "introduce_word_80",
@@ -634,7 +634,7 @@
     },
     {
       "id": "introduce_sentence_80",
-      "content": "{0}… {0}을(를) 좀 마셔둬야겠어…"
+      "content": "{0}… {0}(을/를) 좀 마셔둬야겠어…"
     },
     {
       "id": "introduce_word_81",
@@ -682,7 +682,7 @@
     },
     {
       "id": "introduce_sentence_86",
-      "content": "이 구속구가 나의 {0}을(를) 저지하기엔, 턱없이 모자르지."
+      "content": "이 구속구가 나의 {0}(을/를) 저지하기엔, 턱없이 모자르지."
     },
     {
       "id": "introduce_word_87",
@@ -690,7 +690,7 @@
     },
     {
       "id": "introduce_sentence_87",
-      "content": "…나의 삶은 이 {0}과(와) 다르지 않다."
+      "content": "…나의 삶은 이 {0}(과/와) 다르지 않다."
     },
     {
       "id": "introduce_word_88",
@@ -714,7 +714,7 @@
     },
     {
       "id": "introduce_sentence_90",
-      "content": "본인은! {0}이(가)! 먹고 싶소!"
+      "content": "본인은! {0}(이/가)! 먹고 싶소!"
     },
     {
       "id": "introduce_word_91",
@@ -722,7 +722,7 @@
     },
     {
       "id": "introduce_sentence_91",
-      "content": "목숨을 끊어야만 {0}이(가) 완료된다."
+      "content": "목숨을 끊어야만 {0}(이/가) 완료된다."
     },
     {
       "id": "introduce_word_92",
@@ -730,7 +730,7 @@
     },
     {
       "id": "introduce_sentence_92",
-      "content": "{0}(이)가 눈 앞에 있어…"
+      "content": "{0}(이/가) 눈 앞에 있어…"
     },
     {
       "id": "introduce_word_93",
@@ -738,7 +738,7 @@
     },
     {
       "id": "introduce_sentence_93",
-      "content": "{0}을(를) 머금어… 쓸모 있게 만드는 거지."
+      "content": "{0}(을/를) 머금어… 쓸모 있게 만드는 거지."
     },
     {
       "id": "introduce_word_94",
@@ -754,7 +754,7 @@
     },
     {
       "id": "introduce_sentence_95",
-      "content": "{0}(으)로 만들 가치도 없네!"
+      "content": "{0}(으로/로) 만들 가치도 없네!"
     },
     {
       "id": "introduce_word_96",
@@ -762,7 +762,7 @@
     },
     {
       "id": "introduce_sentence_96",
-      "content": "총원, {0}이(가) 점멸하는 저 곳으로."
+      "content": "총원, {0}(이/가) 점멸하는 저 곳으로."
     },
     {
       "id": "introduce_word_97",
@@ -810,7 +810,7 @@
     },
     {
       "id": "introduce_sentence_102",
-      "content": "나의 {0}은(는), 어디 있는가!"
+      "content": "나의 {0}(은/는), 어디 있는가!"
     },
     {
       "id": "introduce_word_103",
@@ -818,7 +818,7 @@
     },
     {
       "id": "introduce_sentence_103",
-      "content": "하, 좋은 {0}이(가) 되겠군!"
+      "content": "하, 좋은 {0}(이/가) 되겠군!"
     },
     {
       "id": "introduce_word_104",
@@ -826,7 +826,7 @@
     },
     {
       "id": "introduce_sentence_104",
-      "content": "네 놈의 덧없는 {0}을(를) 담아… 이 선물을 퍼부어주도록 하지."
+      "content": "네 놈의 덧없는 {0}(을/를) 담아… 이 선물을 퍼부어주도록 하지."
     },
     {
       "id": "introduce_word_105",
@@ -834,7 +834,7 @@
     },
     {
       "id": "introduce_sentence_105",
-      "content": "좋다. {0}을(를) 받아들이지."
+      "content": "좋다. {0}(을/를) 받아들이지."
     },
     {
       "id": "introduce_word_106",
@@ -842,7 +842,7 @@
     },
     {
       "id": "introduce_sentence_106",
-      "content": "오늘의 {0}은(는), 여기까지!"
+      "content": "오늘의 {0}(은/는), 여기까지!"
     },
     {
       "id": "introduce_word_107",
@@ -850,7 +850,7 @@
     },
     {
       "id": "introduce_sentence_107",
-      "content": "{0}이(가) 필요하신가요?"
+      "content": "{0}(이/가) 필요하신가요?"
     },
     {
       "id": "introduce_word_108",
@@ -874,7 +874,7 @@
     },
     {
       "id": "introduce_sentence_110",
-      "content": "자아, 빌어보세! 이 {0}이(가) 기꺼이 그대에게 가서 맞기를!"
+      "content": "자아, 빌어보세! 이 {0}(이/가) 기꺼이 그대에게 가서 맞기를!"
     },
     {
       "id": "introduce_word_111",
@@ -882,7 +882,7 @@
     },
     {
       "id": "introduce_sentence_111",
-      "content": "{0}은(는), 금기다."
+      "content": "{0}(은/는), 금기다."
     },
     {
       "id": "introduce_word_112",
@@ -890,7 +890,7 @@
     },
     {
       "id": "introduce_sentence_112",
-      "content": "{0}을(를) 피워볼까요."
+      "content": "{0}(을/를) 피워볼까요."
     },
     {
       "id": "introduce_word_113",
@@ -898,7 +898,7 @@
     },
     {
       "id": "introduce_sentence_113",
-      "content": "잠시 둘러보며 {0}(이)나 해도 되겠는가?"
+      "content": "잠시 둘러보며 {0}(이나/나) 해도 되겠는가?"
     },
     {
       "id": "introduce_word_114",
@@ -906,7 +906,7 @@
     },
     {
       "id": "introduce_sentence_114",
-      "content": "{0}(이)나 빨리 따르라니까…"
+      "content": "{0}(이나/나) 빨리 따르라니까…"
     },
     {
       "id": "introduce_word_115",
@@ -922,7 +922,7 @@
     },
     {
       "id": "introduce_sentence_116",
-      "content": "흠. 뭐, {0}이(가) 필요하나?"
+      "content": "흠. 뭐, {0}(이/가) 필요하나?"
     },
     {
       "id": "introduce_word_117",
@@ -930,7 +930,7 @@
     },
     {
       "id": "introduce_sentence_117",
-      "content": "이 {0}을(를) 풀어내려 하지 마."
+      "content": "이 {0}(을/를) 풀어내려 하지 마."
     },
     {
       "id": "introduce_word_118",
@@ -954,7 +954,7 @@
     },
     {
       "id": "introduce_sentence_120",
-      "content": "필요 없는 {0}은(는) 가져가지."
+      "content": "필요 없는 {0}(은/는) 가져가지."
     },
     {
       "id": "introduce_word_121",
@@ -970,7 +970,7 @@
     },
     {
       "id": "introduce_sentence_122",
-      "content": "주인님의 말씀대로 {0}을(를) 준비중입니다."
+      "content": "주인님의 말씀대로 {0}(을/를) 준비중입니다."
     },
     {
       "id": "introduce_word_123",
@@ -978,7 +978,7 @@
     },
     {
       "id": "introduce_sentence_123",
-      "content": "{0}은(는) 당장 나가시오, {0}은(는)…!"
+      "content": "{0}(은/는) 당장 나가시오, {0}(은/는)…!"
     },
     {
       "id": "introduce_word_124",
@@ -986,7 +986,7 @@
     },
     {
       "id": "introduce_sentence_124",
-      "content": "{0}을(를)… 안내해주지…"
+      "content": "{0}(을/를)… 안내해주지…"
     },
     {
       "id": "introduce_word_125",
@@ -994,7 +994,7 @@
     },
     {
       "id": "introduce_sentence_125",
-      "content": "그대에게 보이는 이 {0}은(는)… 무슨 색을 띄고 있는가!"
+      "content": "그대에게 보이는 이 {0}(은/는)… 무슨 색을 띄고 있는가!"
     },
     {
       "id": "introduce_word_126",
@@ -1034,7 +1034,303 @@
     },
     {
       "id": "introduce_sentence_130",
-      "content": "저는 유능한 {0}(이)니까요."
+      "content": "저는 유능한 {0}(이니까요/니까요)."
+    },
+    {
+      "id": "introduce_word_131",
+      "content": "슬픔"
+    },
+    {
+      "id": "introduce_sentence_131",
+      "content": "차라리… 이 {0}(과/와) 함께 일어서겠어."
+    },
+    {
+      "id": "introduce_word_132",
+      "content": "발목"
+    },
+    {
+      "id": "introduce_sentence_132",
+      "content": "그러니 네 {0}(을/를) 잘라버리면…!"
+    },
+    {
+      "id": "introduce_word_133",
+      "content": "고기"
+    },
+    {
+      "id": "introduce_sentence_133",
+      "content": "상처난 {0}(은/는) 맛없으니까."
+    },
+    {
+      "id": "introduce_word_134",
+      "content": "작업"
+    },
+    {
+      "id": "introduce_sentence_134",
+      "content": "주어진 {0}(을/를) 끝내기 전까지, 누구도 잠들 수 없다."
+    },
+    {
+      "id": "introduce_word_135",
+      "content": "영감"
+    },
+    {
+      "id": "introduce_sentence_135",
+      "content": "그대께서 새로운 {0}(을/를) 불러와주시겠는가."
+    },
+    {
+      "id": "introduce_word_136",
+      "content": "눈물"
+    },
+    {
+      "id": "introduce_sentence_136",
+      "content": "모든 슬픔과 {0}(을/를) 그러모아, 대신 울어드릴 수 있다면…"
+    },
+    {
+      "id": "introduce_word_137",
+      "content": "마음"
+    },
+    {
+      "id": "introduce_sentence_137",
+      "content": "슬픔에 흔들린 {0}(은/는) 이렇게… 터져버리죠."
+    },
+    {
+      "id": "introduce_word_138",
+      "content": "정답"
+    },
+    {
+      "id": "introduce_sentence_138",
+      "content": "이 렌즈 너머로는 항상 {0}(이/가) 보인다구요~"
+    },
+    {
+      "id": "introduce_word_139",
+      "content": "나사"
+    },
+    {
+      "id": "introduce_sentence_139",
+      "content": "네놈 머리에 {0}(이/가) 빠졌나 보군."
+    },
+    {
+      "id": "introduce_word_140",
+      "content": "정지"
+    },
+    {
+      "id": "introduce_sentence_140",
+      "content": "그대로. {0}하는 겁니다. 멈춰진 시간 속에. 영원히."
+    },
+    {
+      "id": "introduce_word_141",
+      "content": "시계"
+    },
+    {
+      "id": "introduce_sentence_141",
+      "content": "이 {0}(은/는) T사에 입사하게 되면 지급받는 것일세!"
+    },
+    {
+      "id": "introduce_word_142",
+      "content": "색"
+    },
+    {
+      "id": "introduce_sentence_142",
+      "content": "차라리 아예 {0}(을/를) 모른 채 자랐으면 좋았을 텐데."
+    },
+    {
+      "id": "introduce_word_143",
+      "content": "주먹"
+    },
+    {
+      "id": "introduce_sentence_143",
+      "content": "{0}(으로/로) 매만지며 탐구할 순간."
+    },
+    {
+      "id": "introduce_word_144",
+      "content": "추악함"
+    },
+    {
+      "id": "introduce_sentence_144",
+      "content": "{0}에 모든 시선이 이끌릴지어다."
+    },
+    {
+      "id": "introduce_word_145",
+      "content": "정리"
+    },
+    {
+      "id": "introduce_sentence_145",
+      "content": "{0}(이/가) 예상보다 일찍 끝났군."
+    },
+    {
+      "id": "introduce_word_146",
+      "content": "기억"
+    },
+    {
+      "id": "introduce_sentence_146",
+      "content": "총성과 연기에… 모든 {0}(이/가) 파묻힐 때까지…!"
+    },
+    {
+      "id": "introduce_word_147",
+      "content": "계획"
+    },
+    {
+      "id": "introduce_sentence_147",
+      "content": "이 허점투성이 {0}(을/를) 완전무결하게 만들어드리죠."
+    },
+    {
+      "id": "introduce_word_148",
+      "content": "의체"
+    },
+    {
+      "id": "introduce_sentence_148",
+      "content": "{0}(을/를) 가진 놈들은 전투에서 겁을 먹지 않는다나 뭐라나."
+    },
+    {
+      "id": "introduce_word_149",
+      "content": "방황"
+    },
+    {
+      "id": "introduce_sentence_149",
+      "content": "한순간이라도 놓친다면, 영원히 {0}할 테니."
+    },
+    {
+      "id": "introduce_word_150",
+      "content": "듀라한"
+    },
+    {
+      "id": "introduce_sentence_150",
+      "content": "{0}(이여/여)! 죽도록 달릴 시간이다."
+    },
+    {
+      "id": "introduce_word_151",
+      "content": "본성"
+    },
+    {
+      "id": "introduce_sentence_151",
+      "content": "흥, 그 따위 마음은 그저 저주받은 {0}에 지나지 않지."
+    },
+    {
+      "id": "introduce_word_152",
+      "content": "애도"
+    },
+    {
+      "id": "introduce_sentence_152",
+      "content": "{0}에 미사여구는 필요치 않겠소."
+    },
+    {
+      "id": "introduce_word_153",
+      "content": "믿음"
+    },
+    {
+      "id": "introduce_sentence_153",
+      "content": "그 {0}(은/는) 헛된 바람일 뿐이지 않나…"
+    },
+    {
+      "id": "introduce_word_154",
+      "content": "가방"
+    },
+    {
+      "id": "introduce_sentence_154",
+      "content": "아… 이렇게 나도 {0}만… 남기게 되나…"
+    },
+    {
+      "id": "introduce_word_155",
+      "content": "청소"
+    },
+    {
+      "id": "introduce_sentence_155",
+      "content": "{0}(이/가) 끝나질 않잖아…"
+    },
+    {
+      "id": "introduce_word_156",
+      "content": "츠바이"
+    },
+    {
+      "id": "introduce_sentence_156",
+      "content": "{0}의 명예가 땅에 떨어지겠네요…"
+    },
+    {
+      "id": "introduce_word_157",
+      "content": "시청자"
+    },
+    {
+      "id": "introduce_sentence_157",
+      "content": "{0} 중에, 이것의 해결법을 아는 자가…"
+    },
+    {
+      "id": "introduce_word_158",
+      "content": "안전"
+    },
+    {
+      "id": "introduce_sentence_158",
+      "content": "만인의 {0}(을/를) 바라는 게 잘못된 건 아니라고 생각해요."
+    },
+    {
+      "id": "introduce_word_159",
+      "content": "가면"
+    },
+    {
+      "id": "introduce_sentence_159",
+      "content": "내 {0}(이/가) 밤거리를 거니는 걸 보면 피곤한 기분 따위는 싹 날아가지."
+    },
+    {
+      "id": "introduce_word_160",
+      "content": "실력"
+    },
+    {
+      "id": "introduce_sentence_160",
+      "content": "{0} 없으면 따라오지 마세요."
+    },
+    {
+      "id": "introduce_word_161",
+      "content": "사과"
+    },
+    {
+      "id": "introduce_sentence_161",
+      "content": "{0}(은/는) 어디에 숨겼지?"
+    },
+    {
+      "id": "introduce_word_162",
+      "content": "주제"
+    },
+    {
+      "id": "introduce_sentence_162",
+      "content": "{0}도 모르고 도망치면… 이렇게 되는 거죠."
+    },
+    {
+      "id": "introduce_word_163",
+      "content": "목마름"
+    },
+    {
+      "id": "introduce_sentence_163",
+      "content": "우리의 {0}(을/를) 너희는 몰라!"
+    },
+    {
+      "id": "introduce_word_164",
+      "content": "피"
+    },
+    {
+      "id": "introduce_sentence_164",
+      "content": "{0}(으로/로)부터 피어올라라."
+    },
+    {
+      "id": "introduce_word_165",
+      "content": "테디"
+    },
+    {
+      "id": "introduce_sentence_165",
+      "content": "자, {0}~ 나를 따라 해보는 거야! 짜잔!"
+    },
+    {
+      "id": "introduce_word_166",
+      "content": "저주"
+    },
+    {
+      "id": "introduce_sentence_166",
+      "content": "누군가에게 {0}받는 기분이 어떤 것인지…"
+    },
+    {
+      "id": "introduce_word_167",
+      "content": "혈액바"
+    },
+    {
+      "id": "introduce_sentence_167",
+      "content": "{0}(이/가) 위대하다고 믿어 의심치 않던 시절도 있었지."
     }
   ]
 }

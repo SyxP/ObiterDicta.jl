@@ -693,6 +693,228 @@
       "condition": "GetPersonality",
       "conditionRefId": 10809,
       "sortingOrder": 1
+    },
+    {
+      "id": 131,
+      "condition": "GetPersonality",
+      "conditionRefId": 11009,
+      "sortingOrder": 1
+    },
+    {
+      "id": 132,
+      "condition": "GetEGO",
+      "conditionRefId": 20906,
+      "sortingOrder": 1
+    },
+    {
+      "id": 133,
+      "condition": "GetEGO",
+      "conditionRefId": 20806,
+      "sortingOrder": 1
+    },
+    {
+      "id": 134,
+      "condition": "GetPersonality",
+      "conditionRefId": 11109,
+      "sortingOrder": 1
+    },
+    {
+      "id": 135,
+      "condition": "GetPersonality",
+      "conditionRefId": 10109,
+      "sortingOrder": 1
+    },
+    {
+      "id": 136,
+      "condition": "GetEGO",
+      "conditionRefId": 21006,
+      "sortingOrder": 1
+    },
+    {
+      "id": 137,
+      "condition": "GetEGO",
+      "conditionRefId": 20606,
+      "sortingOrder": 1
+    },
+    {
+      "id": 138,
+      "condition": "GetPersonality",
+      "conditionRefId": 10609,
+      "sortingOrder": 1
+    },
+    {
+      "id": 139,
+      "condition": "GetPersonality",
+      "conditionRefId": 10409,
+      "sortingOrder": 1
+    },
+    {
+      "id": 140,
+      "condition": "GetEGO",
+      "conditionRefId": 20206,
+      "sortingOrder": 1
+    },
+    {
+      "id": 141,
+      "condition": "GetPersonality",
+      "conditionRefId": 10309,
+      "sortingOrder": 1
+    },
+    {
+      "id": 142,
+      "condition": "GetPersonality",
+      "conditionRefId": 10909,
+      "sortingOrder": 1
+    },
+    {
+      "id": 143,
+      "condition": "GetPersonality",
+      "conditionRefId": 10510,
+      "sortingOrder": 1
+    },
+    {
+      "id": 144,
+      "condition": "GetEGO",
+      "conditionRefId": 20407,
+      "sortingOrder": 1
+    },
+    {
+      "id": 145,
+      "condition": "GetPersonality",
+      "conditionRefId": 11110,
+      "sortingOrder": 1
+    },
+    {
+      "id": 146,
+      "condition": "GetEGO",
+      "conditionRefId": 20707,
+      "sortingOrder": 1
+    },
+    {
+      "id": 147,
+      "condition": "GetPersonality",
+      "conditionRefId": 10210,
+      "sortingOrder": 1
+    },
+    {
+      "id": 148,
+      "condition": "GetPersonality",
+      "conditionRefId": 10709,
+      "sortingOrder": 1
+    },
+    {
+      "id": 149,
+      "condition": "GetEGO",
+      "conditionRefId": 21107,
+      "sortingOrder": 1
+    },
+    {
+      "id": 150,
+      "condition": "GetPersonality",
+      "conditionRefId": 10710,
+      "sortingOrder": 1
+    },
+    {
+      "id": 151,
+      "condition": "GetPersonality",
+      "conditionRefId": 10410,
+      "sortingOrder": 1
+    },
+    {
+      "id": 152,
+      "condition": "GetPersonality",
+      "conditionRefId": 10110,
+      "sortingOrder": 1
+    },
+    {
+      "id": 153,
+      "condition": "GetEGO",
+      "conditionRefId": 21207,
+      "sortingOrder": 1
+    },
+    {
+      "id": 154,
+      "condition": "GetPersonality",
+      "conditionRefId": 10910,
+      "sortingOrder": 1
+    },
+    {
+      "id": 155,
+      "condition": "GetEGO",
+      "conditionRefId": 20807,
+      "sortingOrder": 1
+    },
+    {
+      "id": 156,
+      "condition": "GetPersonality",
+      "conditionRefId": 10810,
+      "sortingOrder": 1
+    },
+    {
+      "id": 157,
+      "condition": "GetPersonality",
+      "conditionRefId": 10511,
+      "sortingOrder": 1
+    },
+    {
+      "id": 158,
+      "condition": "GetPersonality",
+      "conditionRefId": 11010,
+      "sortingOrder": 1
+    },
+    {
+      "id": 159,
+      "condition": "GetPersonality",
+      "conditionRefId": 11111,
+      "sortingOrder": 1
+    },
+    {
+      "id": 160,
+      "condition": "GetPersonality",
+      "conditionRefId": 10610,
+      "sortingOrder": 1
+    },
+    {
+      "id": 161,
+      "condition": "GetEGO",
+      "conditionRefId": 20207,
+      "sortingOrder": 1
+    },
+    {
+      "id": 162,
+      "condition": "GetEGO",
+      "conditionRefId": 20607,
+      "sortingOrder": 1
+    },
+    {
+      "id": 163,
+      "condition": "GetEGO",
+      "conditionRefId": 20307,
+      "sortingOrder": 1
+    },
+    {
+      "id": 164,
+      "condition": "GetEGO",
+      "conditionRefId": 20507,
+      "sortingOrder": 1
+    },
+    {
+      "id": 165,
+      "condition": "GetEGO",
+      "conditionRefId": 20907,
+      "sortingOrder": 1
+    },
+    {
+      "id": 166,
+      "condition": "GetEGO",
+      "conditionRefId": 21007,
+      "sortingOrder": 1
+    },
+    {
+      "id": 167,
+      "condition": "GetPersonality",
+      "conditionRefId": 11210,
+      "sortingOrder": 1
     }
   ]
 }

@@ -387,6 +387,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "GROWTH_A",
       "productId": "exp_package_weekly_1",
+      "isDisabled": true,
       "priceTier": 7,
       "chanceId": 1135,
       "defaultElements": [
@@ -478,6 +479,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "GROWTH_A",
       "productId": "exp_package_monthly_1st",
+      "isDisabled": true,
       "priceTier": 19,
       "chanceId": 1144,
       "defaultElements": [
@@ -505,6 +507,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "GROWTH_A",
       "productId": "exp_package_monthly_2nd",
+      "isDisabled": true,
       "priceTier": 33,
       "chanceId": 1145,
       "defaultElements": [
@@ -532,6 +535,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "GROWTH_A",
       "productId": "exp_package_monthly_3rd",
+      "isDisabled": true,
       "priceTier": 53,
       "chanceId": 1146,
       "defaultElements": [
@@ -601,6 +605,122 @@
         }
       ],
       "priorityForUI": 67
+    },
+    {
+      "id": 150,
+      "category": "PACKAGE",
+      "returnpolicytype": "GROWTH_A",
+      "productId": "exp_package_weekly_1_fixed_240613",
+      "priceTier": 7,
+      "chanceId": 1150,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 25
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 18
+        }
+      ],
+      "priorityForUI": 6
+    },
+    {
+      "id": 151,
+      "category": "PACKAGE",
+      "returnpolicytype": "GROWTH_A",
+      "productId": "exp_package_monthly_1st_fixed_240613",
+      "priceTier": 19,
+      "chanceId": 1151,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 72
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 48
+        }
+      ],
+      "priorityForUI": 79
+    },
+    {
+      "id": 152,
+      "category": "PACKAGE",
+      "returnpolicytype": "GROWTH_A",
+      "productId": "exp_package_monthly_2nd_fixed_240613",
+      "priceTier": 33,
+      "chanceId": 1152,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 125
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 72
+        }
+      ],
+      "priorityForUI": 78
+    },
+    {
+      "id": 153,
+      "category": "PACKAGE",
+      "returnpolicytype": "GROWTH_A",
+      "productId": "exp_package_monthly_3rd_fixed_240613",
+      "priceTier": 53,
+      "chanceId": 1153,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 250
+        },
+        {
+          "type": "ITEM",
+          "id": 213,
+          "num": 144
+        }
+      ],
+      "priorityForUI": 77
+    },
+    
+    
+    
+    {
+      "id": 401,
+      "category": "PACKAGE",
+      "returnpolicytype": "PACKAGE_C",
+      "productId": "special_pack_for_return_user_1st",
+      "priceTier": 7,
+      "chanceId": 1401,
+      "unlockCondition": {
+        "unlockCode": 90002
+      },
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 101,
+          "num": 5
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 45
+        },
+        {
+          "type": "ITEM",
+          "id": 201,
+          "num": 100
+        }
+      ],
+      "priorityForUI": 100
     }
   ]
 }

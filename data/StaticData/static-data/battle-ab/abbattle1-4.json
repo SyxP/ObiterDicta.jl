@@ -184,7 +184,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "AbnormaltiyBattle_10408",
+      "stageScriptList": ["AbnormaltiyBattle_10408"],
       "eventScriptName": "GentleFairy",
       "abnormalityEventList": [
         804801
@@ -288,7 +288,7 @@
         }
       ],
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "NobodyGonnaCry",
       "abnormalityEventList": [
         804701
@@ -471,7 +471,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "UmbrellaFox",
       "abnormalityEventList": [
         804601
@@ -645,7 +645,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "ElectricCentipede",
       "abnormalityEventList": [
         804501
@@ -865,7 +865,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "Distorted_Dongrang"
+      "stageScriptList": ["Distorted_Dongrang"]
     },
     {
       "id": 10433,
@@ -944,7 +944,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "EgoAwaken_Dongrang",
+      "stageScriptList": ["EgoAwaken_Dongrang"],
       "eventScriptName": "EgoAwaken_Dongrang",
       "abnormalityEventList": [
         805001,
@@ -998,7 +998,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "BrassBull_Second"
+      "stageScriptList": ["BrassBull_Second"]
     }
   ]
 }

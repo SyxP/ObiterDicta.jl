@@ -4,7 +4,7 @@
       "id": 11201,
       "appearance": "11201_Gregor_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
+                "BASE_APPEARANCE", "SMALL"
             ],
             "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 12,
@@ -104,6 +104,7 @@
     {
       "id": 11202,
       "appearance": "11202_Gregor_LiuAssoAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "LIU" ],
       "characterId": 12,
       "panicType": 9999,
@@ -203,6 +204,7 @@
     {
       "id": 11203,
       "appearance": "11203_Gregor_TommyAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "G_CORP" ],
       "characterId": 12,
       "panicType": 9999,
@@ -302,6 +304,7 @@
     {
       "id": 11204,
       "appearance": "11204_Gregor_JackAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "BACKSTREET_COOK" ],
       "characterId": 12,
       "panicType": 9999,
@@ -401,7 +404,8 @@
     {
       "id": 11205,
       "appearance": "11205_Gregor_ChainsawFixerAppearance",
-      "associationList": [ "ROSE" ],
+      "unitKeywordList": [ "FIXER", "SMALL" ],
+      "associationList": [ "TROUBLE_SHOOTER" ],
       "characterId": 12,
       "panicType": 9999,
       "season": 2,
@@ -500,6 +504,7 @@
     {
       "id": 11206,
       "appearance": "11206_Gregor_ZweiAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "ZWEI" ],
       "characterId": 12,
       "panicType": 9999,
@@ -597,6 +602,7 @@
     {
       "id": 11207,
       "appearance": "11207_Gregor_SmeeAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "characterId": 12,
       "panicType": 9999,
@@ -610,7 +616,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 7
+              "stack": 7
             }
           ]
         }
@@ -707,6 +713,7 @@
     {
       "id": 11208,
       "appearance": "11208_Gregor_KurokumoAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "characterId": 12,
       "panicType": 9999,
@@ -807,6 +814,7 @@
     {
       "id": 11209,
       "appearance": "11209_Gregor_LintonAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "LINTON" ],
       "characterId": 12,
       "panicType": 9999,
@@ -899,6 +907,117 @@
         },
         {
           "skillId": 1120903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 11210,
+      "appearance": "11210_Gregor_PriestAppearance",
+      "associationList": [
+      ],
+      "unitKeywordList": [ "SMALL", "BLOODFIEND", "THIRD_DEPENDENT" ],
+      "unitScriptID": "BloodWraithTier3",
+      "characterId": 12,
+      "panicType": 9999,
+      "season": 5,
+      "defenseSkillIDList": [
+        1121004
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "WornHeartGreg",
+              "stack": 0
+            }
+          ]
+        }
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 108,
+        "incrementByLevel": 3.41
+      },
+      "defCorrection": 5,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          80
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1121001,
+          "number": 3
+        },
+        {
+          "skillId": 1121002,
+          "number": 2
+        },
+        {
+          "skillId": 1121003,
           "number": 1
         }
       ]

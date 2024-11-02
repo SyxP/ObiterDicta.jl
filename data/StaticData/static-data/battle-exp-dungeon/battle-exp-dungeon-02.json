@@ -91,7 +91,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "KCorpDrone"
+      "stageScriptList": ["KCorpDrone"]
     },
     {
       "id": 5,
@@ -175,7 +175,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": ""
+      "stageScriptList": [""]
     }
   ]
 }

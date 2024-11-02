@@ -379,7 +379,7 @@
           "1D105A"
         ]
       },
-      "stageScriptNameAfterClear": "SnowWhite",
+      "stageScriptList": ["SnowWhite"],
       "eventScriptName": "SnowWhite",
       "abnormalityEventList": [
         800101,
@@ -455,7 +455,7 @@
           "prob": 1
         }
       ],
-      "stageScriptNameAfterClear": "AztecDisk",
+      "stageScriptList": ["AztecDisk"],
       "eventScriptName": "AztecDisk",
       "abnormalityEventList": [
         800201,
@@ -528,7 +528,7 @@
           "1D306A"
         ]
       },
-      "stageScriptNameAfterClear": "MuckwormedApple_StoryDungeon",
+      "stageScriptList": ["MuckwormedApple_StoryDungeon"],
       "eventScriptName": "MuckwormedApple",
       "abnormalityEventList": [
         800801

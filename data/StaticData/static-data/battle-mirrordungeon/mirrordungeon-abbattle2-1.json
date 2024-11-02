@@ -6516,7 +6516,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "SnowWhite",
+      "stageScriptList": ["SnowWhite"],
       "eventScriptName": "SnowWhite",
       "abnormalityEventList": [
         800101,
@@ -6587,7 +6587,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AztecDisk",
+      "stageScriptList": ["AztecDisk"],
       "eventScriptName": "AztecDisk",
       "abnormalityEventList": [
         800201,
@@ -6640,7 +6640,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "MuckwormedApple",
+      "stageScriptList": ["MuckwormedApple"],
       "abnormalityEventList": [
         800801
       ],
@@ -6696,7 +6696,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "ReinforcedHuman",
+      "stageScriptList": ["ReinforcedHuman"],
       "eventScriptName": "ReinforcedHuman",
       "abnormalityEventList": [
         801201,
@@ -6756,7 +6756,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "PinkShoe",
+      "stageScriptList": ["PinkShoe"],
       "eventScriptName": "PinkShoe",
       "abnormalityEventList": [
         801501,
@@ -6996,7 +6996,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "CryingToad",
       "abnormalityEventList": [
         851001
@@ -7044,7 +7044,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "NobodyGonnaCry",
       "abnormalityEventList": [
         804701
@@ -7099,7 +7099,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "GentleFairy_Mirror",
       "abnormalityEventList": [
         804801
@@ -7154,7 +7154,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "8059_Mirror",
       "abnormalityEventList": [
         805901
@@ -7202,7 +7202,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "WaterFish_Mirror",
+      "stageScriptList": ["WaterFish_Mirror"],
       "eventScriptName": "WaterFish_Mirror",
       "abnormalityEventList": [
         803101
@@ -7250,7 +7250,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "LightningBeast_Mirror",
+      "stageScriptList": ["LightningBeast_Mirror"],
       "eventScriptName": "LightningBeast_Mirror",
       "abnormalityEventList": [
         803201
@@ -7298,7 +7298,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "ElectricCentipede",
       "abnormalityEventList": [
         804501
@@ -7358,7 +7358,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "UmbrellaFox_Mirror",
       "abnormalityEventList": [
         804601
@@ -7413,7 +7413,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "KQE",
       "abnormalityEventList": [
         851901
@@ -7461,7 +7461,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "BrassBull_Second",
+      "stageScriptList": ["BrassBull_Second"],
       "attackType": "HIT",
       "attributeType": "AZURE"
     },
@@ -7505,7 +7505,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "Cromer_Mirror",
+      "stageScriptList": ["Cromer_Mirror"],
       "eventScriptName": "Cromer",
       "abnormalityEventList": [
         802901,
@@ -7568,7 +7568,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "Statue",
       "abnormalityEventList": [
         852701

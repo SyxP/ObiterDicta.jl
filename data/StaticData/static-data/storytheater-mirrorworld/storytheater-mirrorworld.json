@@ -61,7 +61,8 @@
         10503,
         10405,
         10606,
-        10106
+        10106,
+        11110
       ]
     },
     {
@@ -158,7 +159,8 @@
       "needsPersonalityIdList": [
         10907,
         10608,
-        10108
+        10108,
+        10510
       ]
     },
     {
@@ -166,13 +168,16 @@
       "needsPersonalityIdList": [
         10207,
         11107,
-        10307
+        10307,
+        10110,
+        10410
       ]
     },
     {
       "mirrorWorldId": 20,
       "needsPersonalityIdList": [
-        10607
+        10607,
+        11009
       ]
     },
     {
@@ -200,7 +205,73 @@
         11209,
         10209,
         10408,
-        10809
+        10809,
+        10710
+      ]
+    },
+    {
+      "mirrorWorldId": 24,
+      "needsPersonalityIdList": [
+        10109,
+        11109
+      ]
+    },
+    {
+      "mirrorWorldId": 25,
+      "needsPersonalityIdList": [
+        10609,
+        10409
+      ]
+    },
+    {
+      "mirrorWorldId": 26,
+      "needsPersonalityIdList": [
+        10309,
+        10909
+      ]
+    },
+    {
+      "mirrorWorldId": 27,
+      "needsPersonalityIdList": [
+        10210,
+        10709
+      ]
+    },
+    {
+      "mirrorWorldId": 28,
+      "needsPersonalityIdList": [
+        10910
+      ]
+    },
+    {
+      "mirrorWorldId": 29,
+      "needsPersonalityIdList": [
+        10810
+      ]
+    },
+    {
+      "mirrorWorldId": 30,
+      "needsPersonalityIdList": [
+        10511
+      ]
+    },
+    {
+      "mirrorWorldId": 31,
+      "needsPersonalityIdList": [
+        11010
+      ]
+    },
+    {
+      "mirrorWorldId": 32,
+      "needsPersonalityIdList": [
+        11111,
+        11210
+      ]
+    },
+    {
+      "mirrorWorldId": 33,
+      "needsPersonalityIdList": [
+        10610
       ]
     }
   ]

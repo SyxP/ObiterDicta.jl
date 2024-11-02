@@ -252,7 +252,7 @@
               "scale": 10,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSATByHpRatio3"
+                  "scriptName": "HealAbnormalityNSelfOnSATByHpRatio3"
                 },
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -324,7 +324,7 @@
               "scale": 10,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByHpRatio3"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByHpRatio3"
                 },
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -391,7 +391,7 @@
     {
       "id": 2090411,
       "skillType": "EGO_AWAKEN",
-      "skillTier": 2,
+      "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {

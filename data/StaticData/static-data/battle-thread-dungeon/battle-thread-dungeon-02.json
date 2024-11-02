@@ -40,7 +40,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "NobodyGonnaCry",
       "abnormalityEventList": [
         804701
@@ -98,7 +98,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "UmbrellaFox",
       "abnormalityEventList": [
         804601
@@ -151,7 +151,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormaltiyBattle_10408",
+      "stageScriptList": ["AbnormaltiyBattle_10408"],
       "eventScriptName": "GentleFairy",
       "abnormalityEventList": [
         804801
@@ -204,7 +204,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "8059",
       "abnormalityEventList": [
         805901
@@ -250,7 +250,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8748"
+      "stageScriptList": ["8748"]
     },
     {
       "id": 20,
@@ -299,7 +299,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "KQE",
       "abnormalityEventList": [
         851901
@@ -345,7 +345,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "CryingToad",
       "abnormalityEventList": [
         851001

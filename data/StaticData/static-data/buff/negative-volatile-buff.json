@@ -777,6 +777,18 @@
           }
         }
       ]
+    },
+    {
+      "id": "ParryingResultDown",
+      "buffClass": "VolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "ParryingResultAdderAsStack",
+          "value": -1
+        }
+      ]
     }
   ]
 }

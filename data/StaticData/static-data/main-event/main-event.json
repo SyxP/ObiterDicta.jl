@@ -1,13 +1,38 @@
 {
   "list": [
     {
+      "eventId": "NewUserDailyLoginEvent",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_NewUser_event",
+      "isBannerVisible": true
+    },
+    {
+      "eventId": "ReturningUserDailyLoginEvent",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_ReturnUser",
+      "isBannerVisible": true
+    },
+    {
       "eventId": "RailwayDungeonBanner",
       "mainUIPhaseTypeList": [
         "Lobby"
       ],
-      "bannerSpriteId": "banner_RailwayLine3",
+      "bannerSpriteId": "banner_RailwayLine4",
       "isBannerVisible": true
     },
+    {
+      "eventId": "MirrorDungeon",
+      "mainUIPhaseTypeList": [
+        "Lobby"
+      ],
+      "bannerSpriteId": "banner_MirrorDungeon4",
+      "isBannerVisible": true
+    },
+
     {
       "eventId": "RemainMembership",
       "mainUIPhaseTypeList": [

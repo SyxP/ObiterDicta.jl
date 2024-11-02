@@ -60,7 +60,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "SnowWhite_Easy",
+      "stageScriptList": ["SnowWhite_Easy"],
       "eventScriptName": "SnowWhite",
       "abnormalityEventList": [
         800101,
@@ -126,7 +126,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "WaterFish",
+      "stageScriptList": ["WaterFish"],
       "abnormalityEventList": [
         803101
       ]
@@ -190,7 +190,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "MuckwormedApple",
+      "stageScriptList": ["MuckwormedApple"],
       "abnormalityEventList": [
         800801
       ]
@@ -254,7 +254,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "LightningBeast_Easy",
+      "stageScriptList": ["LightningBeast_Easy"],
       "abnormalityEventList": [
         803201
       ]
@@ -328,7 +328,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "ReinforcedHuman_Easy",
+      "stageScriptList": ["ReinforcedHuman_Easy"],
       "eventScriptName": "ReinforcedHuman_Easy",
       "abnormalityEventList": [
         801201,
@@ -406,7 +406,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "PinkShoe",
+      "stageScriptList": ["PinkShoe"],
       "eventScriptName": "PinkShoe_Easy",
       "abnormalityEventList": [
         801501,
@@ -494,7 +494,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AztecDisk_Easy",
+      "stageScriptList": ["AztecDisk_Easy"],
       "eventScriptName": "AztecDisk_Easy",
       "abnormalityEventList": [
         800201,
@@ -565,7 +565,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "SnowWhite",
+      "stageScriptList": ["SnowWhite"],
       "eventScriptName": "SnowWhite",
       "abnormalityEventList": [
         800101,
@@ -631,7 +631,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "WaterFish",
+      "stageScriptList": ["WaterFish"],
       "abnormalityEventList": [
         803101
       ]
@@ -695,7 +695,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "MuckwormedApple",
+      "stageScriptList": ["MuckwormedApple"],
       "abnormalityEventList": [
         800801
       ]
@@ -759,7 +759,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "LightningBeast_Hard",
+      "stageScriptList": ["LightningBeast_Hard"],
       "abnormalityEventList": [
         803201
       ]
@@ -833,7 +833,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "ReinforcedHuman_Hard",
+      "stageScriptList": ["ReinforcedHuman_Hard"],
       "eventScriptName": "ReinforcedHuman_Hard",
       "abnormalityEventList": [
         801201,
@@ -911,8 +911,8 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "PinkShoe",
-      "eventScriptName": "PinkShoe",
+      "stageScriptList": ["PinkShoe"],
+      "eventScriptName": "PinkShoe_Hard",
       "abnormalityEventList": [
         801501,
         801502
@@ -999,7 +999,7 @@
         }
       ],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AztecDisk_Hard",
+      "stageScriptList": ["AztecDisk_Hard"],
       "eventScriptName": "AztecDisk_Hard",
       "abnormalityEventList": [
         800201,

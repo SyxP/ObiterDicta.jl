@@ -22,7 +22,9 @@
                 [
                   {
                     "storyId": "P11102",
-                    "lockCondition": "gacksung",
+                    "lockCondition": [
+                      {"condition": "gacksung"}
+                    ],
                     "order": 5,
                     "reward":{"type":"ITEM","id":2,"num":40}
                   }
@@ -37,7 +39,9 @@
                 "personalityStoryList": [
                   {
                     "storyId": "P11103",
-                    "lockCondition": "gacksung",
+                    "lockCondition": [
+                      {"condition": "gacksung"}
+                    ],
                     "order": 2,
                     "reward":{"type":"ITEM","id":2,"num":40}
                   }
@@ -52,7 +56,9 @@
               "personalityStoryList": [
                 {
                   "storyId": "P11104",
-                  "lockCondition": "gacksung",
+                  "lockCondition": [
+                    {"condition": "gacksung"}
+                  ],
                   "order": 3,
                   "reward":{"type":"ITEM","id":2,"num":40}
                 }
@@ -67,7 +73,9 @@
             "personalityStoryList": [
               {
                 "storyId": "P11105",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 2,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
@@ -82,7 +90,9 @@
             "personalityStoryList": [
               {
                 "storyId": "P11106",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 3,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
@@ -97,7 +107,9 @@
             "personalityStoryList": [
               {
                 "storyId": "P11107",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 2,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
@@ -112,13 +124,62 @@
             "personalityStoryList": [
               {
                 "storyId": "P11108",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 1,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
             ],
             "profileId": "butler_outis_profile",
             "analysisId": "butler_outis_analysis"
+          },
+          {
+            "personalityId": 11109,
+            "releaseDay": 20240516,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11109",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
+                "order": 2,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "rings_outis_profile",
+            "analysisId": "rings_outis_analysis"
+          },
+          {
+            "personalityId": 11110,
+            "releaseDay": 20240725,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11110",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
+                "order": 7,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ]
+          },
+          {
+            "personalityId": 11111,
+            "releaseDay": 20241017,
+            "cv_Id": "",
+            "personalityStoryList": [
+              {
+                "storyId": "P11111",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
+                "order": 1,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ]
           }
         ]
     }

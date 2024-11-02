@@ -3,7 +3,7 @@
     {
       "id": 8063,
       "appearance": "8063_Crab_BossAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "LARGE" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -241,7 +241,7 @@
     {
       "id": 8070,
       "appearance": "90077_Crab_SlashAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -331,7 +331,7 @@
     {
       "id": 8072,
       "appearance": "90079_Crab_HitAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -376,7 +376,7 @@
     {
       "id": 8073,
       "appearance": "90080_Crab_Elite_BAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "REGULAR" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -513,7 +513,7 @@
     {
       "id": 8074,
       "appearance": "90081_Crab_Elite_AAppearance",
-      "unitKeywordList": [ "CRAPCRAB" ],
+      "unitKeywordList": [ "CRAPCRAB", "REGULAR" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",

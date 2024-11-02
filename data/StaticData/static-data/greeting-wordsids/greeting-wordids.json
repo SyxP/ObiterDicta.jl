@@ -569,6 +569,191 @@
       "id": 130,
       "condition": "GetPersonality",
       "conditionRefId": 10809
+    },
+    {
+      "id": 131,
+      "condition": "GetPersonality",
+      "conditionRefId": 11009
+    },
+    {
+      "id": 132,
+      "condition": "GetEGO",
+      "conditionRefId": 20906
+    },
+    {
+      "id": 133,
+      "condition": "GetEGO",
+      "conditionRefId": 20806
+    },
+    {
+      "id": 134,
+      "condition": "GetPersonality",
+      "conditionRefId": 11109
+    },
+    {
+      "id": 135,
+      "condition": "GetPersonality",
+      "conditionRefId": 10109
+    },
+    {
+      "id": 136,
+      "condition": "GetEGO",
+      "conditionRefId": 21006
+    },
+    {
+      "id": 137,
+      "condition": "GetEGO",
+      "conditionRefId": 20606
+    },
+    {
+      "id": 138,
+      "condition": "GetPersonality",
+      "conditionRefId": 10609
+    },
+    {
+      "id": 139,
+      "condition": "GetPersonality",
+      "conditionRefId": 10409
+    },
+    {
+      "id": 140,
+      "condition": "GetEGO",
+      "conditionRefId": 20206
+    },
+    {
+      "id": 141,
+      "condition": "GetPersonality",
+      "conditionRefId": 10309
+    },
+    {
+      "id": 142,
+      "condition": "GetPersonality",
+      "conditionRefId": 10909
+    },
+    {
+      "id": 143,
+      "condition": "GetPersonality",
+      "conditionRefId": 10510
+    },
+    {
+      "id": 144,
+      "condition": "GetEGO",
+      "conditionRefId": 20407
+    },
+    {
+      "id": 145,
+      "condition": "GetPersonality",
+      "conditionRefId": 11110
+    },
+    {
+      "id": 146,
+      "condition": "GetEGO",
+      "conditionRefId": 20707
+    },
+    {
+      "id": 147,
+      "condition": "GetPersonality",
+      "conditionRefId": 10210
+    },
+    {
+      "id": 148,
+      "condition": "GetPersonality",
+      "conditionRefId": 10709
+    },
+    {
+      "id": 149,
+      "condition": "GetEGO",
+      "conditionRefId": 21107
+    },
+    {
+      "id": 150,
+      "condition": "GetPersonality",
+      "conditionRefId": 10710
+    },
+    {
+      "id": 151,
+      "condition": "GetPersonality",
+      "conditionRefId": 10410
+    },
+    {
+      "id": 152,
+      "condition": "GetPersonality",
+      "conditionRefId": 10110
+    },
+    {
+      "id": 153,
+      "condition": "GetEGO",
+      "conditionRefId": 21207
+    },
+    {
+      "id": 154,
+      "condition": "GetPersonality",
+      "conditionRefId": 10910
+    },
+    {
+      "id": 155,
+      "condition": "GetEGO",
+      "conditionRefId": 20807
+    },
+    {
+      "id": 156,
+      "condition": "GetPersonality",
+      "conditionRefId": 10810
+    },
+    {
+      "id": 157,
+      "condition": "GetPersonality",
+      "conditionRefId": 10511
+    },
+    {
+      "id": 158,
+      "condition": "GetPersonality",
+      "conditionRefId": 11010
+    },
+    {
+      "id": 159,
+      "condition": "GetPersonality",
+      "conditionRefId": 11111
+    },
+    {
+      "id": 160,
+      "condition": "GetPersonality",
+      "conditionRefId": 10610
+    },
+    {
+      "id": 161,
+      "condition": "GetEGO",
+      "conditionRefId": 20207
+    },
+    {
+      "id": 162,
+      "condition": "GetEGO",
+      "conditionRefId": 20607
+    },
+    {
+      "id": 163,
+      "condition": "GetEGO",
+      "conditionRefId": 20307
+    },
+    {
+      "id": 164,
+      "condition": "GetEGO",
+      "conditionRefId": 20507
+    },
+    {
+      "id": 165,
+      "condition": "GetEGO",
+      "conditionRefId": 20907
+    },
+    {
+      "id": 166,
+      "condition": "GetEGO",
+      "conditionRefId": 21007
+    },
+    {
+      "id": 167,
+      "condition": "GetPersonality",
+      "conditionRefId": 11210
     }
   ]
 }

@@ -4,7 +4,7 @@
       "id": 10601,
       "appearance": "10601_Honglu_BaseAppearance",
       "unitKeywordList": [
-                "BASE_APPEARANCE"
+                "BASE_APPEARANCE", "SMALL"
             ],
             "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 6,
@@ -105,6 +105,7 @@
     {
       "id": 10602,
       "appearance": "10602_Honglu_BlackCloudAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "characterId": 6,
       "panicType": 9999,
@@ -204,6 +205,7 @@
     {
       "id": 10603,
       "appearance": "10603_Honglu_ConconAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "KONG_KONG" ],
       "characterId": 6,
       "panicType": 9999,
@@ -303,6 +305,7 @@
     {
       "id": 10604,
       "appearance": "10604_Honglu_LiuAssoAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "LIU" ],
       "characterId": 6,
       "panicType": 9999,
@@ -401,6 +404,7 @@
     {
       "id": 10605,
       "appearance": "10605_Honglu_KsuitAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "K_CORP" ],
       "characterId": 6,
       "panicType": 9999,
@@ -498,6 +502,7 @@
     {
       "id": 10606,
       "appearance": "10606_Honglu_WCorpAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "W_CORP" ],
       "characterId": 6,
       "panicType": 9999,
@@ -596,6 +601,7 @@
     {
       "id": 10607,
       "appearance": "10607_Honglu_TaeinAppearance",
+      "unitKeywordList": [ "FIXER", "BACK_STREET", "SMALL" ],
       "associationList": [ "HOOK_OFFICE" ],
       "characterId": 6,
       "panicType": 9999,
@@ -696,6 +702,7 @@
     {
       "id": 10608,
       "appearance": "10608_Honglu_Dieci_Appearance",
+      "unitKeywordList": [ "FIXER", "SMALL"],
       "associationList": [ "DIECI" ],
       "characterId": 6,
       "panicType": 9999,
@@ -709,7 +716,7 @@
           "list": [
             {
               "buff": "KnowledgeExplored",
-              "count": 1
+              "stack": 1
             }
           ]
         }
@@ -798,6 +805,208 @@
         },
         {
           "skillId": 1060803,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10609,
+      "appearance": "10609_Honglu_YurodivyAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
+      "associationList": [ "YURODIVY" ],
+      "characterId": 6,
+      "panicType": 9999,
+      "season": 4,
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        1060904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 70,
+        "incrementByLevel": 2.4
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1060901,
+          "number": 3
+        },
+        {
+          "skillId": 1060902,
+          "number": 2
+        },
+        {
+          "skillId": 1060903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10610,
+      "appearance": "10610_Honglu_BloodfiendHunterAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
+      "associationList": [ "FANG_HUNT" ],
+      "characterId": 6,
+      "panicType": 9999,
+      "season": 5,
+      "additionalAttachment": "",
+      "defenseSkillIDList": [
+        1061004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 73,
+        "incrementByLevel": 2.51
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "uniqueAttribute": "SHAMROCK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1061001,
+          "number": 3
+        },
+        {
+          "skillId": 1061002,
+          "number": 2
+        },
+        {
+          "skillId": 1061003,
           "number": 1
         }
       ]

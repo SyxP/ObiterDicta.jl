@@ -1281,8 +1281,7 @@
       "passiveSet": {
         "passiveIdList": [
           803101,
-          803102,
-          803103
+          803102
         ]
       }
     },
@@ -3554,94 +3553,6 @@
       }
     },
     {
-      "id": 807501,
-      "slotWeightConditionList": [
-        "Default2"
-      ],
-      "hp": {
-        "defaultStat": 380,
-        "incrementByLevel": 14.4
-      },
-      "defCorrection": 5,
-      "minSpeedList": [
-        2
-      ],
-      "maxSpeedList": [
-        4
-      ],
-      "canUseSkillOnDestroyed": "true",
-      "isDestroyable": "true",
-      "skillCancelable": "false",
-      "canVanish": "false",
-      "canChangeSpriteOnDestoryed": "false",
-      "partType": "BODY",
-      "breakSection": {
-        "sectionList": [
-          50,
-          0
-        ]
-      },
-      "resistInfo": {
-        "atkResistList": [
-          {
-            "type": "SLASH",
-            "value": 1.2
-          },
-          {
-            "type": "PENETRATE",
-            "value": 1
-          },
-          {
-            "type": "HIT",
-            "value": 0.5
-          }
-        ],
-        "attributeResistList": [
-          {
-            "type": "CRIMSON",
-            "value": 1
-          },
-          {
-            "type": "SCARLET",
-            "value": 0.5
-          },
-          {
-            "type": "AMBER",
-            "value": 1.5
-          },
-          {
-            "type": "SHAMROCK",
-            "value": 0.75
-          },
-          {
-            "type": "AZURE",
-            "value": 2
-          },
-          {
-            "type": "INDIGO",
-            "value": 1.25
-          },
-          {
-            "type": "VIOLET",
-            "value": 1
-          },
-          {
-            "type": "WHITE",
-            "value": 2
-          },
-          {
-            "type": "BLACK",
-            "value": 2
-          }
-        ]
-      },
-      "passiveSet": {
-        "passiveIdList": [
-          807501
-        ]
-      }
-    },
-    {
       "id": 814101,
       "sdPortrait": 810001,
       "nameID": 810001,
@@ -4349,7 +4260,7 @@
       }
     },
     {
-      "id": 814201,
+      "id": 814301,
       "nameID": 804301,
       "slotWeightConditionList": [
         "Default1"
@@ -4434,7 +4345,7 @@
       }
     },
     {
-      "id": 814301,
+      "id": 819601,
       "nameID": 805301,
       "slotWeightConditionList": [
         "Default1"
@@ -4523,8 +4434,8 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 349,
-        "incrementByLevel": 18.07
+        "defaultStat": 145,
+        "incrementByLevel": 7.5
       },
       "defCorrection": 3,
       "minSpeedList": [

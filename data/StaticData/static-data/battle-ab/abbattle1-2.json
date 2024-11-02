@@ -350,7 +350,7 @@
         }
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "ReinforcedHuman",
+      "stageScriptList": ["ReinforcedHuman"],
       "eventScriptName": "ReinforcedHuman",
       "abnormalityEventList": [
         801201,
@@ -775,7 +775,7 @@
         }
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "PinkShoe",
+      "stageScriptList": ["PinkShoe"],
       "eventScriptName": "PinkShoe",
       "abnormalityEventList": [
         801501,
@@ -822,7 +822,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10223,
@@ -869,7 +869,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10224,
@@ -922,7 +922,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10225,
@@ -975,7 +975,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10226,
@@ -1023,7 +1023,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10227,
@@ -1071,7 +1071,7 @@
 
       ],
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "Cp2B3"
+      "stageScriptList": ["Cp2B3"]
     },
     {
       "id": 10228,
@@ -1196,7 +1196,7 @@
         ]
       },
       "dangerLevel": 2,
-      "stageScriptNameAfterClear": "BabaYaga",
+      "stageScriptList": ["BabaYaga"],
       "includeBoss": 1
     },
     {

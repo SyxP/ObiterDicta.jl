@@ -789,11 +789,25 @@
       "id": "KnowledgeExplored",
       "buffClass": "NonvolatileBuff",
       "buffType": "Neutral",
-      "maxStack": 3,
       "canBeDespelled": false,
       "list": [
         {
           "ability": "KnowledgeExplored"
+        }
+      ]
+    },
+    {
+      "id": "AccumulatedPastMirror",
+      "iconId": "AccumulatedPast",
+      "subIdList": [ "AccumulatedPast" ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "maxStack": 999,
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+        {
+          "ability": "AccumulatedPastMirror"
         }
       ]
     }

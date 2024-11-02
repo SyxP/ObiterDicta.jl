@@ -3,6 +3,7 @@
     {
       "id": 90098,
       "appearance": "90098_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "90098",
@@ -153,6 +154,7 @@
     {
       "id": 90099,
       "appearance": "90099_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "90099",

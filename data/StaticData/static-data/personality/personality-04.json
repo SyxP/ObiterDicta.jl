@@ -4,7 +4,7 @@
       "id": 10401,
       "appearance": "10401_Ryoshu_BaseAppearance",
       "unitKeywordList": [
-        "BASE_APPEARANCE"
+        "BASE_APPEARANCE", "SMALL"
       ],
       "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 4,
@@ -105,6 +105,7 @@
     {
       "id": 10402,
       "appearance": "10402_Ryoshu_SevenAssoAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "SEVEN" ],
       "characterId": 4,
       "panicType": 9999,
@@ -204,6 +205,7 @@
     {
       "id": 10403,
       "appearance": "10403_Ryoshu_BlackCloudAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "characterId": 4,
       "panicType": 9999,
@@ -303,6 +305,7 @@
     {
       "id": 10404,
       "appearance": "10404_Ryoshu_PierreAppearance",
+      "unitKeywordList": [ "CLAN", "BACK_STREET", "SMALL" ],
       "associationList": [ "BACKSTREET_COOK" ],
       "characterId": 4,
       "panicType": 9999,
@@ -403,6 +406,7 @@
     {
       "id": 10405,
       "appearance": "10405_Ryoshu_WCorpAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "W_CORP" ],
       "characterId": 4,
       "panicType": 9999,
@@ -502,6 +506,7 @@
     {
       "id": 10406,
       "appearance": "10406_Ryoshu_LCCBAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "LIMBUS_COMPANY" ],
       "characterId": 4,
       "panicType": 9999,
@@ -515,7 +520,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 7
+              "stack": 7
             }
           ]
         }
@@ -611,6 +616,7 @@
     {
       "id": 10407,
       "appearance": "10407_Ryoshu_LiuAppearance",
+      "unitKeywordList": [ "FIXER", "SMALL" ],
       "associationList": [ "LIU" ],
       "characterId": 4,
       "panicType": 9999,
@@ -711,7 +717,7 @@
       "id": 10408,
       "appearance": "10408_Ryoshu_NellyAppearance",
       "associationList": [ "LINTON" ],
-      "unitKeywordList": [ "BUTLER" ],
+      "unitKeywordList": [  "FIXER", "BUTLER", "SMALL" ],
       "characterId": 4,
       "panicType": 9999,
       "season": 4,
@@ -804,6 +810,212 @@
         {
           "skillId": 1040803,
           "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10409,
+      "appearance": "10409_Ryoshu_YuroAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
+      "associationList": [ "YURODIVY" ],
+      "characterId": 4,
+      "panicType": 9999,
+      "season": 4,
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        1040904
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 71,
+        "incrementByLevel": 2.4
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "SCARLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1040901,
+          "number": 3
+        },
+        {
+          "skillId": 1040902,
+          "number": 2
+        },
+        {
+          "skillId": 1040903,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 10410,
+      "appearance": "10410_Ryoshu_SpiderBudAppearance",
+      "unitKeywordList": [ "LOBOTOMY_HEAD" ],
+      "associationList": [ "L_CORP" ],
+      "characterId": 4,
+      "panicType": 9999,
+      "season": 9104,
+      "walpurgisType": "LC",
+      "unitScriptID": "10410",
+      "defenseSkillIDList": [
+        1041004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 69,
+        "incrementByLevel": 2.34
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AZURE",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1041001,
+          "number": 3
+        },
+        {
+          "skillId": 1041002,
+          "number": 2
+        },
+        {
+          "skillId": 1041003,
+          "number": 1
+        },
+        {
+          "skillId": 1041005,
+          "number": 0
         }
       ]
     }

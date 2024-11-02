@@ -58,29 +58,33 @@
       "waveList": [
         {
           "battleMapInfo": {
-            "mapName": "LCorpEntrance"
+            "mapName": "B2Mine_v1"
           },
           "unitList": [
             {
-              "unitID": 90008,
-              "unitCount": 2,
-              "unitLevel": 25
+              "unitID": 8270,
+              "unitCount": 1,
+              "unitLevel": 40
             },
             {
-              "unitID": 90010,
+              "unitID": 8271,
               "unitCount": 1,
-              "unitLevel": 25
+              "unitLevel": 40
+            },
+            {
+              "unitID": 8272,
+              "unitCount": 1,
+              "unitLevel": 40
             }
           ],
           "bgmList": [
-            "Battle_Cp1_Ally_2",
-            "Battle_Cp1_Enemy_2"
-          ],
-          "enemyPositionID": 16
+            "Battle_Cp2_Ally_3",
+            "Battle_Cp2_Enemy_3"
+          ]
         }
       ],
       "staminaCost": 0,
-      "recommendedLevel": 1,
+      "recommendedLevel": 40,
       "turnLimit": 99,
       "questlist": [
         {
@@ -91,8 +95,12 @@
         }
       ],
       "rewardList": [],
-      "attackType": "SLASH",
-      "attributeType": ""
+      "stageScriptList": ["PinkShoe_Mirror"],
+      "eventScriptName": "PinkShoe_Mirror",
+      "abnormalityEventList": [
+        801501,
+        801502
+      ]
     },
     {
       "id": 2011003,

@@ -40,7 +40,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": 8544,
       "abnormalityEventList": [
         854401
@@ -87,7 +87,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": 8555,
       "abnormalityEventList": [
         855501
@@ -140,7 +140,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": 8539,
       "abnormalityEventList": [
         853901
@@ -190,7 +190,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "Abnormality"
+      "stageScriptList": ["Abnormality"]
     },
     {
       "id": 205,
@@ -232,7 +232,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8549",
+      "stageScriptList": ["8549"],
       "eventScriptName": 8549,
       "abnormalityEventList": [
         854901
@@ -278,7 +278,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8541",
+      "stageScriptList": ["8541"],
       "eventScriptName": 8541,
       "abnormalityEventList": [
         854101
@@ -399,7 +399,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8550",
+      "stageScriptList": ["8550"],
       "eventScriptName": 8550,
       "abnormalityEventList": [
         855001
@@ -470,7 +470,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "Abnormality"
+      "stageScriptList": ["Abnormality"]
     },
     {
       "id": 210,

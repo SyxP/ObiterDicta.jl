@@ -44,6 +44,26 @@
       "id": "battle_erosion_21005_1",
       "desc": "E.G.O Corrosion",
       "dlg": "Ruin, devastation, ruin...! @#()*!%&#@&(!*)"
+    },
+    {
+      "id": "battle_awaken_21006_1",
+      "desc": "E.G.O Activation",
+      "dlg": "If only I could gather all the sorrow, all the tears together, and cry in their stead..."
+    },
+    {
+      "id": "battle_erosion_21006_1",
+      "desc": "E.G.O Corrosion",
+      "dlg": ""
+    },
+    {
+      "id": "battle_awaken_21007_1",
+      "desc": "E.G.O Activation",
+      "dlg": "Why don't you try impaling yourself with it, then.\nFeel what it's like to have someone curse you..."
+    },
+    {
+      "id": "battle_erosion_21007_1",
+      "desc": "E.G.O Corrosion",
+      "dlg": "Now that you're torn, I'll sew you up! Heheh... Get over here!"
     }
   ]
 }

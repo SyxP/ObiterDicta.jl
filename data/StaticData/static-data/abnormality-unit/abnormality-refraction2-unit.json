@@ -5,7 +5,7 @@
       "viewid": 8046,
       "sdPortrait": 8046,
       "appearance": "8046_UmbrellaFoxAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -555,7 +555,7 @@
       "viewid": 8053,
       "sdPortrait": 8053,
       "appearance": "8053_Camellia_RainbowAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -586,7 +586,7 @@
       "viewid": 8045,
       "sdPortrait": 8045,
       "appearance": "8045_ElectricCentipedeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -1172,7 +1172,7 @@
       "viewid": 8048,
       "sdPortrait": 8048,
       "appearance": "8048_GentleFairyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -1504,7 +1504,7 @@
       "sdPortrait": 8051,
       "appearance": "8051_FairyWineAppearance",
       "unitKeywordList": [
-        "FAIRY_LIQUOR"
+        "FAIRY_LIQUOR", "SMALL"
       ],
       "level": 30,
       "classType": "TETH",
@@ -1536,7 +1536,7 @@
       "viewid": 8047,
       "sdPortrait": 8047,
       "appearance": "8047_DontcryAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -1877,7 +1877,7 @@
       "viewid": 8059,
       "sdPortrait": 8059,
       "appearance": "8059_FairyLongLegsAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -2120,7 +2120,7 @@
       "viewid": 8062,
       "sdPortrait": 8062,
       "appearance": "8062_FairyLongLegs_CloverAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -2151,7 +2151,7 @@
       "viewid": 8048,
       "sdPortrait": 8048,
       "appearance": "8048_GentleFairyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -2409,7 +2409,7 @@
       "sdPortrait": 8051,
       "appearance": "8051_FairyWineAppearance",
       "unitKeywordList": [
-        "FAIRY_LIQUOR"
+        "FAIRY_LIQUOR", "SMALL"
       ],
       "level": 30,
       "classType": "TETH",
@@ -2439,7 +2439,7 @@
     {
       "id": 8550,
       "appearance": "8550_LostPassengerAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SHAMROCK",
@@ -2980,6 +2980,7 @@
       "associationList": [
         "T_CORP"
       ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -3186,6 +3187,7 @@
       "associationList": [
         "T_CORP"
       ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -3392,6 +3394,7 @@
       "associationList": [
         "T_CORP"
       ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -3598,6 +3601,7 @@
       "associationList": [
         "T_CORP"
       ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -3800,7 +3804,7 @@
       "id": 8560,
       "viewid": 8551,
       "appearance": "8551_LostPassengerPortalAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -3839,7 +3843,7 @@
       "id": 8561,
       "viewid": 8551,
       "appearance": "8551_LostPassengerPortalAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -3878,7 +3882,7 @@
       "id": 8562,
       "viewid": 8551,
       "appearance": "8551_LostPassengerPortalAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -3917,7 +3921,7 @@
       "id": 8563,
       "viewid": 8551,
       "appearance": "8551_LostPassengerPortalAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -3956,7 +3960,7 @@
       "id": 8549,
       "viewid": 8058,
       "appearance": "8058_FairyLanternAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "VIOLET",
@@ -4309,7 +4313,7 @@
       "viewid": 8555,
       "sdPortrait": 8555,
       "appearance": "8555_SteamMachineAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -5270,7 +5274,7 @@
       "id": 8556,
       "appearance": "8556_RoseSignAppearance",
       "classType": "WAW",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "attributeType": "VIOLET",
       "hp": {
@@ -5655,7 +5659,7 @@
     {
       "id": 8564,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "CRIMSON",
       "hp": {
@@ -5690,7 +5694,7 @@
     {
       "id": 8565,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "SCARLET",
       "hp": {
@@ -5724,7 +5728,7 @@
     {
       "id": 8566,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "AMBER",
       "hp": {
@@ -5781,7 +5785,7 @@
     {
       "id": 8567,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "SHAMROCK",
       "hp": {
@@ -5819,7 +5823,7 @@
     {
       "id": 8568,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "AZURE",
       "hp": {
@@ -5876,7 +5880,7 @@
     {
       "id": 8569,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "INDIGO",
       "hp": {
@@ -5914,7 +5918,7 @@
     {
       "id": 8570,
       "appearance": "8564_RoseSign_RoseAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 35,
       "attributeType": "VIOLET",
       "hp": {

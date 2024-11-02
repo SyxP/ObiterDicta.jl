@@ -15,7 +15,8 @@
       "isGetEnemySaveData": true,
       "isNotAbleToAddSlot": true,
       "isGiveUpNodeWhenAllDead": true,
-      "isHealAfterRest": false,
+      "hasRestHeal": false,
+      "isResetMPAtRestNode": false,
       "isResetAfterLose": false,
       "specificStages": [ 4, 8, 12, 15 ],
       "nodeIdCollection_ForLog": [
@@ -42,8 +43,8 @@
       ],
       "startDate": "2024-01-01T03:00:00.000Z",
       "startDateForUI": "2024-02-01T03:00:00.000Z",
-      "endDate": "2024-06-20T01:00:00.000Z",
-      "endDateforUI": "2024-06-20T01:00:00.000Z",
+      "endDate": "2024-07-04T01:00:00.000Z",
+      "endDateforUI": "2024-07-04T01:00:00.000Z",
       "bannerRewards": [
         {
           "requiredConditions": [

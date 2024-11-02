@@ -179,6 +179,54 @@
     {
       "id": "StartBattle_Force",
       "name": "<color=#93f13e>[戦闘開始時]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[対象討伐時]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[クリティカル討伐時]"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[使用前]"
+    },
+    {
+      "id": "DuelCounter",
+      "name": "[マッチ可能反撃]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[破壊不能コイン]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[マッチ可能ガード]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[回避使用時]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[このコインの攻撃終了時]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[クリティカル敵討伐失敗時]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[クリティカル敵討伐時]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[マッチ敗北後的中]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[対象討伐失敗時]"
     }
   ]
 }

@@ -306,6 +306,166 @@
       ],
       "awakeningSkillId": 2080411,
       "corrosionSkillId": 2080421
+    },
+    {
+      "id": 20806,
+      "characterId": 8,
+      "egoKeywordList": [ "WALPURGIS", "LAIBRARY_OF_RUINA" ],
+      "egoType": "HE",
+      "egoClass": 2,
+      "season": 9103,
+      "walpurgisType": "LOR",
+      "skillTier": 3,
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 1
+        },
+        {
+          "type": "SCARLET",
+          "value": 0.75
+        },
+        {
+          "type": "AMBER",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 0.5
+        },
+        {
+          "type": "AZURE",
+          "value": 1
+        },
+        {
+          "type": "INDIGO",
+          "value": 2
+        },
+        {
+          "type": "VIOLET",
+          "value": 2
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "SCARLET",
+          "num": 1
+        },
+        {
+          "attributeType": "SHAMROCK",
+          "num": 3
+        },
+        {
+          "attributeType": "INDIGO",
+          "num": 2
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1.0
+        }
+      ],
+      "awakeningPassiveList": [
+        2080611
+      ],
+      "awakeningSkillId": 2080611,
+      "corrosionSkillId": 2080621
+    },
+    {
+      "id": 20807,
+      "characterId": 8,
+      "egoType": "TETH",
+      "egoClass": 1,
+      "season": 0,
+      "skillTier": 3,
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 1
+        },
+        {
+          "type": "SCARLET",
+          "value": 1
+        },
+        {
+          "type": "AMBER",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 2
+        },
+        {
+          "type": "AZURE",
+          "value": 0.5
+        },
+        {
+          "type": "INDIGO",
+          "value": 1
+        },
+        {
+          "type": "VIOLET",
+          "value": 2
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "SCARLET",
+          "num": 2
+        },
+        {
+          "attributeType": "AMBER",
+          "num": 1
+        },
+        {
+          "attributeType": "AZURE",
+          "num": 3
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1.0
+        }
+      ],
+      "awakeningPassiveList": [
+        2080711
+      ],
+      "awakeningSkillId": 2080711,
+      "corrosionSkillId": 2080721
     }
   ]
 }

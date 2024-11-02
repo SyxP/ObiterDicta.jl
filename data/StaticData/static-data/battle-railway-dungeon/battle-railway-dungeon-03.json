@@ -57,7 +57,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "LimbusBoat_Default"
+      "stageScriptList": ["LimbusBoat_Default"]
     },
     {
       "id": 302,
@@ -120,7 +120,7 @@
           "localizeId": 1
         }
       ],
-      "stageScriptNameAfterClear": "8575",
+      "stageScriptList": ["8575"],
       "eventScriptName": "8102",
       "abnormalityEventList": [
         810201
@@ -174,7 +174,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "8578",
       "abnormalityEventList": [
         857801
@@ -228,7 +228,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8573",
+      "stageScriptList": ["8573"],
       "eventScriptName": "8573",
       "abnormalityEventList": [
         810101
@@ -280,7 +280,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8141",
+      "stageScriptList": ["8141"],
       "eventScriptName": "8571",
       "abnormalityEventList": [
         810001
@@ -333,7 +333,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8577",
+      "stageScriptList": ["8577"],
       "eventScriptName": "8577",
       "abnormalityEventList": [
         857701
@@ -428,7 +428,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "Abnormality"
+      "stageScriptList": ["Abnormality"]
     },
     {
       "id": 310,
@@ -500,7 +500,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8105_Rail"
+      "stageScriptList": ["8105_Rail"]
     },
     {
       "id": 311,
@@ -542,7 +542,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptNameAfterClear": "8106_mirror"
+      "stageScriptList": ["8106_mirror"]
     },
     {
       "id": 313,
@@ -584,7 +584,7 @@
           "allyPositionID": 48
         }
       ],
-      "stageScriptNameAfterClear": "8585",
+      "stageScriptList": ["8585"],
       "eventScriptName": "8585",
       "abnormalityEventList": [
         858501,

@@ -3,7 +3,7 @@
     {
       "id": 8113,
       "appearance": "8113_SantaOgreAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "hp": {
@@ -293,7 +293,7 @@
       "nameID": 90101,
       "sdPortrait": 90101,
       "appearance": "90101_Gnome_GreenAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "hp": {
@@ -361,7 +361,7 @@
       "nameID": 90102,
       "sdPortrait": 90102,
       "appearance": "90102_Gnome_RedAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "hp": {
@@ -429,7 +429,7 @@
       "nameID": 90103,
       "sdPortrait": 90103,
       "appearance": "90103_Gnome_BlackAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "hp": {
@@ -497,7 +497,7 @@
       "nameID": 90104,
       "sdPortrait": 90104,
       "appearance": "90104_Gnome_EliteAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "hp": {

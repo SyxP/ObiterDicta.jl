@@ -71,6 +71,42 @@
     {
       "id": "STORY_901501",
       "title": "Risk Levels & Classifications"
+    },
+    {
+      "id": "EventTitleText_9016",
+      "title": "The 3rd Walpurgis Night"
+    },
+    {
+      "id": "STORY_901601",
+      "title": "The Night Returns"
+    },
+    {
+      "id": "STORY_901602",
+      "title": "Fairy Festival"
+    },
+    {
+      "id": "STORY_910915",
+      "title": "The Final Problem"
+    },
+    {
+      "id": "EventTitleText_9017",
+      "title": "A Familiar Siren"
+    },
+    {
+      "id": "STORY_901701",
+      "title": "A Familiar Siren"
+    },
+    {
+      "id": "EventTitleText_9018",
+      "title": "The 4th Walpurgis Night"
+    },
+    {
+      "id": "STORY_901801",
+      "title": "Ordeal of Violet"
+    },
+    {
+      "id": "STORY_901802",
+      "title": "Grant Us Love"
     }
   ]
 }

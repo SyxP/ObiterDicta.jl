@@ -706,6 +706,153 @@
       "name": "Ishmael",
       "nameWithTitle": "Ishmael",
       "desc": "Ishmael’s 9th Identity"
+    },
+    {
+      "id": 11009,
+      "title": "Dawn Office\nFixer",
+      "name": "Sinclair",
+      "nameWithTitle": "Sinclair",
+      "desc": "Sinclair's 9th Identity"
+    },
+    {
+      "id": 10109,
+      "title": "The Ring Pointillist\nStudent",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 9th Identity"
+    },
+    {
+      "id": 11109,
+      "title": "The Ring Pointillist\nStudent",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 9th Identity"
+    },
+    {
+      "id": 10609,
+      "title": "District 20\nYurodivy",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu's 9th Identity"
+    },
+    {
+      "id": 10409,
+      "title": "District 20\nYurodivy",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 9th Identity"
+    },
+    {
+      "id": 10309,
+      "title": "T Corp. Class 3\nCollection Staff",
+      "name": "Don Quixote",
+      "nameWithTitle": "Don Quixote",
+      "desc": "Don Quixote’s 9th Identity"
+    },
+    {
+      "id": 10909,
+      "title": "T Corp. Class 2\nCollection Staff",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion's 9th Identity"
+    },
+    {
+      "id": 10510,
+      "title": "Dieci Assoc.\nSouth Section 4 Director",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 10th Identity"
+    },
+    {
+      "id": 11110,
+      "title": "W Corp. L3\nCleanup Captain",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis’s 10th Identity"
+    },
+    {
+      "id": 10210,
+      "title": "MultiCrack Office\nRep",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust's 10th Identity"
+    },
+    {
+      "id": 10709,
+      "title": "MultiCrack Office\nFixer",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff's 9th Identity"
+    },
+    {
+      "id": 10710,
+      "title": "Wild Hunt",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff’s 10th Identity"
+    },
+    {
+      "id": 10110,
+      "title": "Lobotomy E.G.O::\nSolemn Lament",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 10th Identity"
+    },
+    {
+      "id": 10410,
+      "title": "Lobotomy E.G.O::\nRed Eyes &\nPenitence",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 10th Identity"
+    },
+    {
+      "id": 10910,
+      "title": "Devyat' Assoc.\nNorth Section 3",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion's 10th Identity"
+    },
+    {
+      "id": 10810,
+      "title": "Zwei Assoc.\nWest Section 3",
+      "name": "Ishmael",
+      "nameWithTitle": "Ishmael",
+      "desc": "Ishmael's 10th Identity"
+    },
+    {
+      "id": 10511,
+      "title": "Cinq Assoc.\nWest Section 3",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 11th Identity"
+    },
+    {
+      "id": 11010,
+      "title": "Zwei Assoc.\nWest Section 3",
+      "name": "Sinclair",
+      "nameWithTitle": "Sinclair",
+      "desc": "Sinclair’s 10th Identity"
+    },
+    {
+      "id": 11111,
+      "title": "The Barber\nof La Manchaland",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis’s 11th Identity"
+    },
+    {
+      "id": 10610,
+      "title": "Fanghunt Office\nFixer",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu’s 11th Identity"
+    },
+    {
+      "id": 11210,
+      "title": "The Priest\nof La Manchaland",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor’s 11th Identity"
     }
   ]
 }

@@ -467,6 +467,90 @@
       ],
       "awakeningSkillId": 2120611,
       "corrosionSkillId": 2120621
+    },
+    {
+      "id": 21207,
+      "characterId": 12,
+      "egoType": "HE",
+      "egoClass": 1,
+      "season": 9104,
+      "egoKeywordList": [ "WALPURGIS", "LAIBRARY_OF_RUINA" ],
+      "walpurgisType": "LC",
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 2
+        },
+        {
+          "type": "SCARLET",
+          "value": 1
+        },
+        {
+          "type": "AMBER",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 2
+        },
+        {
+          "type": "AZURE",
+          "value": 0.75
+        },
+        {
+          "type": "INDIGO",
+          "value": 1
+        },
+        {
+          "type": "VIOLET",
+          "value": 0.5
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "SCARLET",
+          "num": 1
+        },
+        {
+          "attributeType": "AMBER",
+          "num": 2
+        },
+        {
+          "attributeType": "AZURE",
+          "num": 2
+        },
+        {
+          "attributeType": "VIOLET",
+          "num": 2
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1.0
+        }
+      ],
+      "awakeningPassiveList": [
+        2120711
+      ],
+      "awakeningSkillId": 2120711,
+      "corrosionSkillId": 2120721
     }
   ]
 }

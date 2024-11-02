@@ -110,6 +110,15 @@
       ]
     },
     {
+      "id": "WanderingFootsteps",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
       "id": "Switch_Vibration",
       "buffClass": "TypoOnlyBuff",
       "buffType": "Neutral",
@@ -117,6 +126,51 @@
       "list": [
 
       ]
+    },
+    {
+      "id": "FusionVibration",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": [
+
+      ]
+    },
+    {
+      "id": "ReloadLament",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": []
+    },
+    {
+      "id": "Retreat",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": []
+    },
+    {
+      "id": "CanDuelGuard",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": []
+    },
+    {
+      "id": "SuperCoin",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": []
+    },
+    {
+      "id": "BloodDinner_Common_Accumulation",
+      "iconId": "BloodDinner_Accumulation",
+      "buffClass": "TypoOnlyBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "list": []
     }
   ]
 }

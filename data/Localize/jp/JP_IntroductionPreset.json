@@ -1035,6 +1035,302 @@
     {
       "id": "introduce_sentence_130",
       "content": "私は有能な{0}ですからね。"
+    },
+    {
+      "id": "introduce_word_131",
+      "content": "悲しみ"
+    },
+    {
+      "id": "introduce_sentence_131",
+      "content": "いっそ…この{0}と共に起き上がろう。"
+    },
+    {
+      "id": "introduce_word_132",
+      "content": "足首"
+    },
+    {
+      "id": "introduce_sentence_132",
+      "content": "だからあなたの{0}を切っちゃえば…！"
+    },
+    {
+      "id": "introduce_word_133",
+      "content": "肉"
+    },
+    {
+      "id": "introduce_sentence_133",
+      "content": "傷付いた{0}は不味いから。"
+    },
+    {
+      "id": "introduce_word_134",
+      "content": "作業"
+    },
+    {
+      "id": "introduce_sentence_134",
+      "content": "与えられた{0}を終えるまで、誰も眠れない。"
+    },
+    {
+      "id": "introduce_word_135",
+      "content": "着想"
+    },
+    {
+      "id": "introduce_sentence_135",
+      "content": "あなた様より、新しき{0}呼び起こしたまうや？"
+    },
+    {
+      "id": "introduce_word_136",
+      "content": "涙"
+    },
+    {
+      "id": "introduce_sentence_136",
+      "content": "全ての哀しみと{0}をかき集めて、代わりにないてあげられるのなら…。"
+    },
+    {
+      "id": "introduce_word_137",
+      "content": "心"
+    },
+    {
+      "id": "introduce_sentence_137",
+      "content": "哀しみに揺らいだ{0}はこうやって…破裂してしまうんです。"
+    },
+    {
+      "id": "introduce_word_138",
+      "content": "正解"
+    },
+    {
+      "id": "introduce_sentence_138",
+      "content": "このレンズ越しにはいつだって{0}が見えるんですよ～。"
+    },
+    {
+      "id": "introduce_word_139",
+      "content": "ねじ"
+    },
+    {
+      "id": "introduce_sentence_139",
+      "content": "お前の頭の{0}が外れたようだな。"
+    },
+    {
+      "id": "introduce_word_140",
+      "content": "停止"
+    },
+    {
+      "id": "introduce_sentence_140",
+      "content": "そのまま。{0}するのです。止まった時間の中で。永遠に。"
+    },
+    {
+      "id": "introduce_word_141",
+      "content": "時計"
+    },
+    {
+      "id": "introduce_sentence_141",
+      "content": "この{0}はT社に入社すれば支給されるものである！"
+    },
+    {
+      "id": "introduce_word_142",
+      "content": "色"
+    },
+    {
+      "id": "introduce_sentence_142",
+      "content": "いっそ{0}を知らずにいられたら良かっただろうに。"
+    },
+    {
+      "id": "introduce_word_143",
+      "content": "拳"
+    },
+    {
+      "id": "introduce_sentence_143",
+      "content": "{0}で探りつつ探求する瞬間。"
+    },
+    {
+      "id": "introduce_word_144",
+      "content": "醜悪さ"
+    },
+    {
+      "id": "introduce_sentence_144",
+      "content": "{0}に全ての視線が導かれるだろう。"
+    },
+    {
+      "id": "introduce_word_145",
+      "content": "整理"
+    },
+    {
+      "id": "introduce_sentence_145",
+      "content": "{0}が予想より早く終わったな。"
+    },
+    {
+      "id": "introduce_word_146",
+      "content": "記憶"
+    },
+    {
+      "id": "introduce_sentence_146",
+      "content": "銃声と煙に…全ての{0}が埋もれるまで…！"
+    },
+    {
+      "id": "introduce_word_147",
+      "content": "計画"
+    },
+    {
+      "id": "introduce_sentence_147",
+      "content": "この穴だらけの{0}を完全無欠にして差し上げましょう。"
+    },
+    {
+      "id": "introduce_word_148",
+      "content": "義体"
+    },
+    {
+      "id": "introduce_sentence_148",
+      "content": "{0}持ちのヤツは戦闘で怖じけつかないとかなんとか。"
+    },
+    {
+      "id": "introduce_word_149",
+      "content": "彷徨"
+    },
+    {
+      "id": "introduce_sentence_149",
+      "content": "目を離すな。一瞬でも見逃せば、永遠に{0}することになるだろう。"
+    },
+    {
+      "id": "introduce_word_150",
+      "content": "デュラハン"
+    },
+    {
+      "id": "introduce_sentence_150",
+      "content": "{0}よ！死力を尽くして走るときが来た。"
+    },
+    {
+      "id": "introduce_word_151",
+      "content": "本性"
+    },
+    {
+      "id": "introduce_sentence_151",
+      "content": "フン。そんな心なぞ、タダの呪われた{0}に過ぎないさ。"
+    },
+    {
+      "id": "introduce_word_152",
+      "content": "哀悼"
+    },
+    {
+      "id": "introduce_sentence_152",
+      "content": "{0}に美辞麗句は必要なし。"
+    },
+    {
+      "id": "introduce_word_153",
+      "content": "信頼"
+    },
+    {
+      "id": "introduce_sentence_153",
+      "content": "その{0}は、虚しい願いに過ぎないんじゃないか…。"
+    },
+    {
+      "id": "introduce_word_154",
+      "content": "鞄"
+    },
+    {
+      "id": "introduce_sentence_154",
+      "content": "あぁ…私も{0}だけ…残しちゃんだ…。"
+    },
+    {
+      "id": "introduce_word_155",
+      "content": "掃除"
+    },
+    {
+      "id": "introduce_sentence_155",
+      "content": "{0}が終わらないじゃないか…。"
+    },
+    {
+      "id": "introduce_word_156",
+      "content": "ツヴァイ"
+    },
+    {
+      "id": "introduce_sentence_156",
+      "content": "{0}の名誉が地に墜ちることになりそうですね…。"
+    },
+    {
+      "id": "introduce_word_157",
+      "content": "視聴者"
+    },
+    {
+      "id": "introduce_sentence_157",
+      "content": "{0}の中に、これの解決方法を知る者は…。"
+    },
+    {
+      "id": "introduce_word_158",
+      "content": "安全"
+    },
+    {
+      "id": "introduce_sentence_158",
+      "content": "万人の{0}を望むことは間違ってないと思います。"
+    },
+    {
+      "id": "introduce_word_159",
+      "content": "仮面"
+    },
+    {
+      "id": "introduce_sentence_159",
+      "content": "私の{0}が夜の通りを歩いてるのをみれば疲れもブッ飛ぶさ。"
+    },
+    {
+      "id": "introduce_word_160",
+      "content": "実力"
+    },
+    {
+      "id": "introduce_sentence_160",
+      "content": "{0}が無いなら付いてこないでください。"
+    },
+    {
+      "id": "introduce_word_161",
+      "content": "林檎"
+    },
+    {
+      "id": "introduce_sentence_161",
+      "content": "{0}をどこに隠した？"
+    },
+    {
+      "id": "introduce_word_162",
+      "content": "身の程"
+    },
+    {
+      "id": "introduce_sentence_162",
+      "content": "{0}も弁えずに逃げるから…こうなるんですよ。"
+    },
+    {
+      "id": "introduce_word_163",
+      "content": "渇き"
+    },
+    {
+      "id": "introduce_sentence_163",
+      "content": "我々の{0}をお前たちは知らない！"
+    },
+    {
+      "id": "introduce_word_164",
+      "content": "血"
+    },
+    {
+      "id": "introduce_sentence_164",
+      "content": "{0}より咲き誇れ。"
+    },
+    {
+      "id": "introduce_word_165",
+      "content": "テディ"
+    },
+    {
+      "id": "introduce_sentence_165",
+      "content": "さぁ、{0}～。私の真似してね！じゃじゃーん！"
+    },
+    {
+      "id": "introduce_word_166",
+      "content": "呪い"
+    },
+    {
+      "id": "introduce_sentence_166",
+      "content": "誰かに{0}を受ける気分はどういうものか…。"
+    },
+    {
+      "id": "introduce_word_167",
+      "content": "血液バー"
+    },
+    {
+      "id": "introduce_sentence_167",
+      "content": "{0}が偉大だと信じて疑わないときもあったさ。"
     }
   ]
 }

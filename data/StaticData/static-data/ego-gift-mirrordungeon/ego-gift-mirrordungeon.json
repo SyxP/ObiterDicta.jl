@@ -249,6 +249,7 @@
       "tag": [
         "TIER_2"
       ],
+      "keyword": "Hit",
       "lockType": false,
 
       "price": 189
@@ -303,7 +304,6 @@
       "tag": [
         "TIER_2"
       ],
-      "keyword": "Vibration",
       "lockType": false,
 
       "price": 200,
@@ -410,6 +410,7 @@
       "tag": [
         "TIER_1"
       ],
+      "keyword": "Penetrate",
       "lockType": false,
 
       "price": 156
@@ -536,6 +537,7 @@
       "tag": [
         "TIER_2"
       ],
+      "keyword": "Hit",
       "lockType": false,
 
       "price": 185,
@@ -592,6 +594,7 @@
       "tag": [
         "TIER_2"
       ],
+      "keyword": "Penetrate",
       "lockType": false,
 
       "price": 194
@@ -603,8 +606,7 @@
         90311
       ],
       "tag": [
-        "TIER_1",
-        "EXTRA_VIBRATION"
+        "TIER_1"
       ],
       "keyword": "Vibration",
       "lockType": false,
@@ -637,6 +639,7 @@
       "tag": [
         "TIER_2"
       ],
+      "keyword": "Slash",
       "lockType": false,
 
       "price": 198
@@ -649,7 +652,7 @@
       ],
       "tag": [
         "TIER_3",
-        "EXTRA_BURST"
+        "EXTRA_TIER3"
       ],
       "keyword": "Burst",
       "lockType": false,

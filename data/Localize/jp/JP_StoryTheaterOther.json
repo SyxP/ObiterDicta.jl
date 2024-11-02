@@ -71,6 +71,42 @@
     {
       "id": "STORY_901501",
       "title": "危険ランクとシリアル番号"
+    },
+    {
+      "id": "EventTitleText_9016",
+      "title": "第3回 ヴァルプルギスの夜"
+    },
+    {
+      "id": "STORY_901601",
+      "title": "再び訪れてきた夜"
+    },
+    {
+      "id": "STORY_901602",
+      "title": "妖精の祭典"
+    },
+    {
+      "id": "STORY_910915",
+      "title": "最後の事件"
+    },
+    {
+      "id": "EventTitleText_9017",
+      "title": "もう慣れたアラーム"
+    },
+    {
+      "id": "STORY_901701",
+      "title": "もう慣れたアラーム"
+    },
+    {
+      "id": "EventTitleText_9018",
+      "title": "第4回 ヴァルプルギスの夜"
+    },
+    {
+      "id": "STORY_901801",
+      "title": "紫の試練"
+    },
+    {
+      "id": "STORY_901802",
+      "title": "愛をください"
     }
   ]
 }

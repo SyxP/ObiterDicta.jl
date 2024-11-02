@@ -42,6 +42,16 @@
           }
         ]
       }
+    },
+    {
+      "subChapterId": 9110,
+      "stageMapPosZ": 0,
+      "stageNodeZoomAnimationPivotX": 0.31,
+      "upperStageNodeZoomAnimationPivotY": 0.55,
+      "lowerStageNodeZoomAnimationPivotY": 0.4,
+      "zoomInScale": 1.7,
+      "stageIconSlotScale": 0.55,
+      "selectedIconScale": 1.05
     }
   ]
 }

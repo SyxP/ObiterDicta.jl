@@ -3,7 +3,7 @@
     {
       "id": 8147,
       "appearance": "8147_Ordeal_Dawn_Green_AAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "unitKeywordList": [ "MACHINE", "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -44,7 +44,7 @@
     {
       "id": 8148,
       "appearance": "8148_Ordeal_Dawn_Green_BAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "unitKeywordList": [ "MACHINE", "REGULAR"  ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -86,7 +86,7 @@
     {
       "id": 8149,
       "appearance": "8149_Ordeal_Dawn_Green_CAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "unitKeywordList": [ "MACHINE", "REGULAR"  ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -130,7 +130,7 @@
     {
       "id": 8150,
       "appearance": "8150_Ordeal_Dawn_Green_EliteAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "unitKeywordList": [ "MACHINE", "LARGE" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",

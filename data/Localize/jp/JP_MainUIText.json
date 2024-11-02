@@ -1110,7 +1110,7 @@
     },
     {
       "id": "mail_item_warning",
-      "content": "※受領時、制約撤回が制限されます"
+      "content": "※受領時、請約撤回が制限されます"
     },
     {
       "id": "mainui_unlock_condition_by_ego_awaken_level",
@@ -1238,7 +1238,7 @@
     },
     {
       "id": "announcer_selection_description",
-      "content": "※2つ以上のアナウンサーを選択する場合、選択されたアナウンサー達のセリフがランダムに再生されます。(最大5つ)"
+      "content": "※2つ以上のアナウンサーを選択する場合、選択されたアナウンサー達のセリフがランダムに再生されます。(最大10)"
     },
     {
       "id": "panic_type",
@@ -1250,11 +1250,11 @@
     },
     {
       "id": "mental_increase_condition",
-      "content": "精神力増加条件"
+      "content": "基本精神力増加条件"
     },
     {
       "id": "mental_decrease_condition",
-      "content": "精神力減少条件"
+      "content": "基本精神力減少条件"
     },
     {
       "id": "mental_low_morale_effect",
@@ -1723,6 +1723,82 @@
     {
       "id": "personality_level_limit_release_desc",
       "content": "人格の最大レベルが上昇しました。"
+    },
+    {
+      "id": "mainui_sinners_startSuppress",
+      "content": "制圧開始"
+    },
+    {
+      "id": "mainui_battleresult_AbnormalitySuppress_victory",
+      "content": "幻想体 制圧成功"
+    },
+    {
+      "id": "mainui_battleresult_AbnormalitySuppress_defeat",
+      "content": "幻想体 制圧失敗"
+    },
+    {
+      "id": "ui_text_unknown",
+      "content": "不明"
+    },
+    {
+      "id": "buff_effect_for_level_format",
+      "content": "バフ「{0}」"
+    },
+    {
+      "id": "unit_keyword",
+      "content": "特性キーワード"
+    },
+    {
+      "id": "formation_ask_clear_selection",
+      "content": "編成順を初期化しますか？"
+    },
+    {
+      "id": "item_owned_count",
+      "content": "(保有量 : {0})"
+    },
+    {
+      "id": "lunacy_owned_count_paid",
+      "content": "(有償保有量 : {0}, 無償保有量 : {1})"
+    },
+    {
+      "id": "lunacy_owned_count_free",
+      "content": "(有償保有量 : {0}, 無償保有量 : {1})"
+    },
+    {
+      "id": "mainui_ask_use_personality_level_ticket_disadvantage",
+      "content": "管理人様が現在の進行度にて該当チケットを使用なさる場合、\n選択した人格のレベルが{0}ではなく{1}として適用され\n大量の経験値損失を被る可能性があります。\n\nそれでも該当チケットを使用しますか？"
+    },
+    {
+      "id": "mainui_exp_dungeon_7_title",
+      "content": "経験値採光-7 (斬撃)"
+    },
+    {
+      "id": "mainui_exp_dungeon_7_open_day",
+      "content": "経験値採光7段階(斬撃)ステージは月曜日、火曜日、日曜日に開放されます。"
+    },
+    {
+      "id": "mainui_exp_dungeon_8_title",
+      "content": "経験値採光-7 (貫通)"
+    },
+    {
+      "id": "mainui_exp_dungeon_8_open_day",
+      "content": "経験値採光7段階(貫通)ステージは水曜日、木曜日、日曜日に開放されます。"
+    },
+    {
+      "id": "mainui_exp_dungeon_9_title",
+      "content": "経験値採光-7 (打撃)"
+    },
+    {
+      "id": "mainui_exp_dungeon_9_open_day",
+      "content": "経験値採光7段階(打撃)ステージは金曜日、土曜日、日曜日に開放されます。"
+    },
+    {
+      "id": "mainui_default_personality_blocked",
+      "content": "基本人格編成不可"
+    },
+    {
+      "id": "mainui_change_personality_of_character",
+      "content": "囚人{0}の人格変更が必要。サポート人格が追加。"
     }
   ]
 }

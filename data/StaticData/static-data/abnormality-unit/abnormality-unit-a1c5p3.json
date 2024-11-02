@@ -3,7 +3,7 @@
     {
       "id": 8100,
       "appearance": "8100_ProphetofSkinAppearance",
-      "unitKeywordList": [ "SkinProphet" ],
+      "unitKeywordList": [ "SkinProphet", "REGULAR" ],
       "classType": "TETH",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -334,7 +334,7 @@
     {
       "id": 8107,
       "appearance": "8107_ProphetofSkinCandleAppearance",
-      "unitKeywordList": [ "CANDLE", "NONE_BLOOD" ],
+      "unitKeywordList": [ "CANDLE", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
       "phaseIDList": [
@@ -404,7 +404,7 @@
     {
       "id": 8102,
       "appearance": "8102_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "KILLER_WHALE" ],
+      "unitKeywordList": [ "KILLER_WHALE", "LARGE" ],
       "classType": "WAW",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -815,7 +815,7 @@
     {
       "id": 8108,
       "appearance": "8108_FluorescentWhaleAppearance",
-      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD" ],
+      "unitKeywordList": [ "TETRAPOD", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "INDIGO",
       "phaseIDList": [
@@ -843,7 +843,8 @@
       "id": 8101,
       "appearance": "8101_WalkingPearlAppearance",
       "unitKeywordList": [
-        "WALKING_PEARL"
+        "WALKING_PEARL", 
+        "LARGE"
       ],
       "classType": "WAW",
       "attributeType": "SHAMROCK",
@@ -1272,7 +1273,7 @@
     {
       "id": 8109,
       "appearance": "8109_WalkingPearlAppearance",
-      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD" ],
+      "unitKeywordList": [ "GREEN_SLIME", "NONE_BLOOD", "SMALL" ],
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
       "phaseIDList": [
@@ -1300,6 +1301,7 @@
       "id": 8110,
       "sdPortrait": 90098,
       "appearance": "90098_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "8110",
@@ -1490,6 +1492,7 @@
       "id": 8111,
       "sdPortrait": 90099,
       "appearance": "90099_PequodAppearance",
+      "unitKeywordList": [ "SMALL" ],
       "associationList": [ "PEQUOD_CREW" ],
       "level": 2,
       "patternID": "8111",

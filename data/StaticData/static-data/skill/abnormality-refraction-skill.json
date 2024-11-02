@@ -331,7 +331,7 @@
           "defaultValue": 3,
           "abilityScriptList": [
             {
-              "scriptName": "EmptyRightEye"
+              "scriptName": "EmptyLeftEye"
             },
             {
               "scriptName": "AttackDmgUpOnAttackNegativeMpByRatio10"
@@ -384,7 +384,7 @@
           "defaultValue": 4,
           "abilityScriptList": [
             {
-              "scriptName": "EmptyLeftEye"
+              "scriptName": "EmptyRightEye"
             },
             {
               "scriptName": "AttackDmgUpOnAttackNegativeMpByRatio10"
@@ -422,7 +422,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -728,7 +728,7 @@
               "scale": 7,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurnAbnormalitySelf_Charge2",
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Charge2",
                   "buffData": {
                     "buffKeyword": "Combustion",
                     "target": "Target",
@@ -745,7 +745,7 @@
               "scale": 7,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurnAbnormalitySelf_Charge2",
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Charge2",
                   "buffData": {
                     "buffKeyword": "Combustion",
                     "target": "Target",
@@ -768,7 +768,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -809,7 +809,7 @@
       "skillData": [
         {
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",

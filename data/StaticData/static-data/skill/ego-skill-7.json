@@ -1401,7 +1401,7 @@
           "attributeType": "AZURE",
           "atkType": "HIT",
           "defType": "ATTACK",
-          "range" :  999,
+          "range": 999,
           "skillTargetType": "RANDOM",
           "targetNum": 5,
           "mpUsage": 35,
@@ -1692,6 +1692,575 @@
                 },
                 {
                   "scriptName": "VibrationExplosionOnSucceedAttack"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070711,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 5,
+          "defaultValue": 7,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "range": 66.6,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EDerSchutzeCriDmgMultiplierByBuffStackDiv",
+                  "buffData": {
+                    "buffKeyword": "BoseProjektil",
+                    "buffOwner": "Self",
+                    "target": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "value": 5,
+                    "activeRound": 0,
+                    "limit": 35
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "EDerSchutzeGiveBulletOnCriFinish",
+                  "buffData": {
+                    "buffKeyword": "Bullet",
+                    "target": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 4
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EDerSchutzeCriDmgMultiplierByBuffStackDiv",
+                  "buffData": {
+                    "buffKeyword": "BoseProjektil",
+                    "buffOwner": "Self",
+                    "target": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "value": 10,
+                    "activeRound": 0,
+                    "limit": 70
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "EDerSchutzeGiveBulletOnCriFinish",
+                  "buffData": {
+                    "buffKeyword": "Bullet",
+                    "target": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 7,
+              "abilityScriptList": [
+                {
+                  "scriptName": "EDerSchutzeCriDmgMultiplierByBuffStackDiv",
+                  "buffData": {
+                    "buffKeyword": "BoseProjektil",
+                    "buffOwner": "Self",
+                    "target": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "value": 15,
+                    "activeRound": 0,
+                    "limit": 105
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "EDerSchutzeGiveBulletOnCriFinish",
+                  "buffData": {
+                    "buffKeyword": "Bullet",
+                    "target": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070721,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 2,
+          "mpUsage": 25,
+          "skillLevelCorrection": 0,
+          "defaultValue": 28,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "range": 66.6,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStack",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "value": 2,
+                "limit": 14
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStackDiv",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5,
+                "turn": 0,
+                "value": 3,
+                "limit": 15
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeUseBuffStack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 28,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeTargetNumAdderByBuff",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 3,
+                "value": 1,
+                "limit": 1
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStack",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "value": 2,
+                "limit": 14
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 4
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStackDiv",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5,
+                "turn": 0,
+                "value": 4,
+                "limit": 20
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeUseBuffStack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 30,
+          "abilityScriptList": [
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeTargetNumAdderByBuff",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "stack": 3,
+                "value": 1,
+                "limit": 2
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStack",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "value": 3,
+                "limit": 21
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffByBoseProjektil",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 1,
+                "value": 1,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeDmgMultiplierByBuffStackDiv",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5,
+                "turn": 0,
+                "value": 5,
+                "limit": 25
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeUseBuffStack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 5
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeClaerAllBoseProjektilOnEndSkill"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "buffOwner": "",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
                 }
               ]
             }

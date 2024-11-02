@@ -3,7 +3,7 @@
     {
       "id": 8901,
       "appearance": "8005_Septempeccata_GrassAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -31,7 +31,7 @@
     {
       "id": 8001,
       "appearance": "8001_SnowWhite_Subspecies_Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "classType": "WAW",
       "attributeType": "VIOLET",
       "phaseIDList": [
@@ -82,7 +82,7 @@
     {
       "id": 8005,
       "appearance": "8005_Septempeccata_GrassAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -138,7 +138,7 @@
     {
       "id": 8007,
       "appearance": "8007_Septempeccata_FireAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -167,7 +167,7 @@
     {
       "id": 8002,
       "appearance": "8002_Aztec_CircleAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 8,
       "classType": "HE",
       "attributeType": "CRIMSON",
@@ -553,7 +553,7 @@
     {
       "id": 8003,
       "appearance": "8003_Aztec_Tow_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -584,7 +584,7 @@
     {
       "id": 8004,
       "appearance": "8004_Aztec_Tow_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "CRIMSON",
@@ -619,7 +619,7 @@
     {
       "id": 8008,
       "appearance": "8008_Maggotapple_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 9,
       "classType": "HE",
       "attributeType": "AMBER",
@@ -770,7 +770,7 @@
       "id": 8009,
       "originID": 8008,
       "appearance": "8009_Maggotapple_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SHAMROCK",
@@ -941,7 +941,7 @@
     {
       "id": 8010,
       "appearance": "8010_EnhancedMan_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -983,7 +983,7 @@
     {
       "id": 8011,
       "appearance": "8011_EnhancedMan_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -1025,7 +1025,7 @@
     {
       "id": 8012,
       "appearance": "8012_EnhancedMan_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8012",
       "level": 10,
       "classType": "TETH",
@@ -1301,7 +1301,7 @@
     {
       "id": 8013,
       "appearance": "8013_PinkShose_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -1397,7 +1397,7 @@
     {
       "id": 8014,
       "appearance": "8014_PinkShose_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -1493,7 +1493,7 @@
     {
       "id": 8015,
       "appearance": "8015_PinkShose_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8015",
       "level": 10,
       "classType": "TETH",
@@ -1684,7 +1684,7 @@
     {
       "id": 8016,
       "appearance": "8016_Septempeccata_WaterAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "AZURE",
@@ -1712,7 +1712,7 @@
     {
       "id": 8017,
       "appearance": "8017_Septempeccata_BloodAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -1740,7 +1740,7 @@
     {
       "id": 8018,
       "appearance": "8018_Septempeccata_IronAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "INDIGO",
@@ -1768,7 +1768,7 @@
     {
       "id": 8019,
       "appearance": "8019_Villager_Rodion_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -1805,7 +1805,7 @@
     {
       "id": 8020,
       "appearance": "8020_Villager_Rodion_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -1842,7 +1842,7 @@
     {
       "id": 8021,
       "appearance": "8021_BabayagaSlave_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -1879,7 +1879,7 @@
     {
       "id": 8022,
       "appearance": "8022_BabayagaSlave_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -1916,7 +1916,8 @@
     {
       "id": 8024,
       "appearance": "8024_Nothing_ThereAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC", "ABNORMALITY_EROSION" ],
       "level": 10,
       "patternID": "8024",
       "classType": "TETH",
@@ -2051,7 +2052,8 @@
     {
       "id": 8025,
       "appearance": "8025_Wolf_EnhancedAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL", "ABNORMALITY_EROSION" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC"  ],
       "level": 10,
       "patternID": "8025",
       "classType": "TETH",
@@ -2243,7 +2245,8 @@
     {
       "id": 8026,
       "appearance": "8026_Nothing_There_BossAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC", "ABNORMALITY_EROSION"  ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2377,7 +2380,8 @@
     {
       "id": 8027,
       "appearance": "8027_Wolf_ErosionAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC", "ABNORMALITY_EROSION"  ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -2482,7 +2486,8 @@
     {
       "id": 8028,
       "appearance": "8028_SnakeAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC", "ABNORMALITY_EROSION"  ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -2888,7 +2893,8 @@
     {
       "id": 8029,
       "appearance": "8029_CromerAppearance",
-      "associationList": [ "N_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC"  ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -3296,7 +3302,8 @@
       "id": 8030,
       "originID": 8030,
       "appearance": "8030_Cromer_2pAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "LARGE" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "SCARLET",
@@ -3762,7 +3769,7 @@
     {
       "id": 8031,
       "appearance": "8031_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -5176,7 +5183,7 @@
     {
       "id": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -5790,7 +5797,8 @@
     {
       "id": 8033,
       "appearance": "8033_Snake_weakAppearance",
-      "associationList": [ "G_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "N_CORP", "N_CORP_FNATIC", "ABNORMALITY_EROSION"  ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -5838,7 +5846,7 @@
       "id": 8701,
       "viewid": 8001,
       "appearance": "8001_SnowWhite_Subspecies_Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "classType": "WAW",
       "attributeType": "VIOLET",
       "phaseIDList": [
@@ -5886,7 +5894,7 @@
       "id": 8702,
       "viewid": 8031,
       "appearance": "8031_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -6747,7 +6755,7 @@
       "id": 8703,
       "viewid": 8008,
       "appearance": "8008_Maggotapple_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "AMBER",
@@ -6874,7 +6882,7 @@
       "originID": 8703,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "SHAMROCK",
@@ -6990,7 +6998,7 @@
       "id": 8705,
       "viewid": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -7024,10 +7032,6 @@
         },
         {
           "skillId": 803206,
-          "number": 1
-        },
-        {
-          "skillId": 803208,
           "number": 1
         }
       ],
@@ -7389,7 +7393,7 @@
       "id": 8706,
       "viewid": 8010,
       "appearance": "8010_EnhancedMan_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -7432,7 +7436,7 @@
       "id": 8707,
       "viewid": 8011,
       "appearance": "8011_EnhancedMan_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -7475,7 +7479,7 @@
       "id": 8708,
       "viewid": 8012,
       "appearance": "8012_EnhancedMan_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8012",
       "level": 1,
       "classType": "TETH",
@@ -7696,7 +7700,7 @@
       "id": 8709,
       "viewid": 8013,
       "appearance": "8013_PinkShose_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -7793,7 +7797,7 @@
       "id": 8710,
       "viewid": 8014,
       "appearance": "8014_PinkShose_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -7890,7 +7894,7 @@
       "id": 8711,
       "viewid": 8015,
       "appearance": "8015_PinkShose_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8015",
       "level": 1,
       "classType": "TETH",
@@ -8021,7 +8025,7 @@
       "id": 8712,
       "viewid": 8002,
       "appearance": "8002_Aztec_CircleAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "CRIMSON",
@@ -8412,7 +8416,7 @@
       "id": 8713,
       "viewid": 8003,
       "appearance": "8003_Aztec_Tow_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -8444,7 +8448,7 @@
       "id": 8714,
       "viewid": 8004,
       "appearance": "8004_Aztec_Tow_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "CRIMSON",
@@ -8480,7 +8484,7 @@
       "id": 8721,
       "viewid": 8001,
       "appearance": "8001_SnowWhite_Subspecies_Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "classType": "WAW",
       "attributeType": "VIOLET",
       "phaseIDList": [
@@ -8532,7 +8536,7 @@
       "id": 8722,
       "viewid": 8031,
       "appearance": "8031_WaterFishAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -9401,7 +9405,7 @@
       "id": 8723,
       "viewid": 8008,
       "appearance": "8008_Maggotapple_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "AMBER",
@@ -9554,7 +9558,7 @@
       "originID": 8723,
       "viewid": 8009,
       "appearance": "8009_Maggotapple_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "SHAMROCK",
@@ -9726,7 +9730,7 @@
       "id": 8725,
       "viewid": 8032,
       "appearance": "8032_LightningBeastAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -9764,14 +9768,6 @@
         },
         {
           "skillId": 803206,
-          "number": 1
-        },
-        {
-          "skillId": 803207,
-          "number": 1
-        },
-        {
-          "skillId": 803208,
           "number": 1
         }
       ],
@@ -10341,7 +10337,7 @@
       "id": 8726,
       "viewid": 8010,
       "appearance": "8010_EnhancedMan_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -10384,7 +10380,7 @@
       "id": 8727,
       "viewid": 8011,
       "appearance": "8011_EnhancedMan_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "INDIGO",
@@ -10427,7 +10423,7 @@
       "id": 8728,
       "viewid": 8012,
       "appearance": "8012_EnhancedMan_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8012",
       "level": 1,
       "classType": "TETH",
@@ -10704,7 +10700,7 @@
       "id": 8729,
       "viewid": 8013,
       "appearance": "8013_PinkShose_AAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -10801,7 +10797,7 @@
       "id": 8730,
       "viewid": 8014,
       "appearance": "8014_PinkShose_BAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -10898,7 +10894,7 @@
       "id": 8731,
       "viewid": 8015,
       "appearance": "8015_PinkShose_CAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "patternID": "8015",
       "level": 1,
       "classType": "TETH",
@@ -11090,7 +11086,7 @@
       "id": 8732,
       "viewid": 8002,
       "appearance": "8002_Aztec_CircleAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 1,
       "classType": "HE",
       "attributeType": "CRIMSON",
@@ -11481,7 +11477,7 @@
       "id": 8733,
       "viewid": 8003,
       "appearance": "8003_Aztec_Tow_p1Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -11513,7 +11509,7 @@
       "id": 8734,
       "viewid": 8004,
       "appearance": "8004_Aztec_Tow_p2Appearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 1,
       "classType": "TETH",
       "attributeType": "CRIMSON",
@@ -11548,7 +11544,7 @@
     {
       "id": 8034,
       "appearance": "8034_Chicken_NormalAppearance",
-      "unitKeywordList": [ "BONGE_CHICKEN" ],
+      "unitKeywordList": [ "BONGE_CHICKEN", "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11586,7 +11582,7 @@
     {
       "id": 8035,
       "appearance": "8035_Chicken_SeasoningAppearance",
-      "unitKeywordList": [ "BONGE_CHICKEN" ],
+      "unitKeywordList": [ "BONGE_CHICKEN", "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11623,7 +11619,7 @@
     {
       "id": 8036,
       "appearance": "8036_Chicken_SoyAppearance",
-      "unitKeywordList": [ "BONGE_CHICKEN" ],
+      "unitKeywordList": [ "BONGE_CHICKEN", "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11700,7 +11696,7 @@
     {
       "id": 8037,
       "appearance": "8037_Chicken_EliteAppearance",
-      "unitKeywordList": [ "BONGE_CHICKEN" ],
+      "unitKeywordList": [ "BONGE_CHICKEN", "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -11738,7 +11734,7 @@
     {
       "id": 8038,
       "appearance": "8038_Chicken_ChefAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -12031,7 +12027,7 @@
       "viewid": 8038,
       "sdPortrait": 8038,
       "appearance": "8038_Chicken_ChefAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -12057,10 +12053,6 @@
         },
         {
           "skillId": 803903,
-          "number": 2
-        },
-        {
-          "skillId": 803904,
           "number": 2
         },
         {
@@ -12567,7 +12559,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 803904,
+                      "skillID": 803901,
                       "chance": 1
                     }
                   ],
@@ -12945,7 +12937,7 @@
       "viewid": 8038,
       "sdPortrait": 8038,
       "appearance": "8038_Chicken_ChefAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -12971,10 +12963,6 @@
         },
         {
           "skillId": 803903,
-          "number": 2
-        },
-        {
-          "skillId": 803904,
           "number": 2
         },
         {
@@ -13482,7 +13470,7 @@
                 {
                   "skillChildList": [
                     {
-                      "skillID": 803904,
+                      "skillID": 803901,
                       "chance": 1
                     }
                   ],
@@ -13635,7 +13623,7 @@
     {
       "id": 8045,
       "appearance": "8045_ElectricCentipedeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "VIOLET",
@@ -13669,10 +13657,6 @@
         },
         {
           "skillId": 804505,
-          "number": 0
-        },
-        {
-          "skillId": 804506,
           "number": 0
         },
         {
@@ -14074,19 +14058,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 804506,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -14130,19 +14101,6 @@
                   "chance": 1
                 }
               ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 804506,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
             }
           ]
         },
@@ -14180,19 +14138,6 @@
                   "skillChildList": [
                     {
                       "skillID": 804504,
-                      "chance": 1
-                    }
-                  ],
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "skillParentList": [
-                {
-                  "skillChildList": [
-                    {
-                      "skillID": 804506,
                       "chance": 1
                     }
                   ],
@@ -14319,7 +14264,7 @@
     {
       "id": 8048,
       "appearance": "8048_GentleFairyAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -14656,7 +14601,7 @@
     {
       "id": 8051,
       "appearance": "8051_FairyWineAppearance",
-      "unitKeywordList": [ "FAIRY_LIQUOR" ],
+      "unitKeywordList": [ "FAIRY_LIQUOR", "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -14684,7 +14629,7 @@
     {
       "id": 8041,
       "appearance": "8041_BrassBullAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AZURE",
@@ -14959,7 +14904,8 @@
     {
       "id": 8042,
       "appearance": "90046_KCorpAppearance",
-      "unitKeywordList": [ "MACHINE" ],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -15004,7 +14950,7 @@
     {
       "id": 8047,
       "appearance": "8047_DontcryAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -15276,7 +15222,7 @@
     {
       "id": 8046,
       "appearance": "8046_UmbrellaFoxAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "HE",
       "attributeType": "AZURE",
@@ -15664,7 +15610,7 @@
     {
       "id": 8052,
       "appearance": "8053_Camellia_RainbowAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -15693,7 +15639,8 @@
     {
       "id": 8043,
       "appearance": "8043_CamelliaAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "ATL" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -16186,7 +16133,7 @@
     {
       "id": 8053,
       "appearance": "8053_Camellia_RainbowAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -16215,7 +16162,8 @@
     {
       "id": 8044,
       "appearance": "8044_Camellia_AwakenAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "ATL" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -16658,7 +16606,8 @@
       "id": 80442,
       "originID": 8044,
       "appearance": "8044_Camellia_AwakenAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "ATL" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "SCARLET",
@@ -17069,7 +17018,7 @@
     {
       "id": 8054,
       "appearance": "8054_Camellia_FlowerAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -17114,7 +17063,7 @@
     {
       "id": 8055,
       "appearance": "8054_Camellia_FlowerAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -17138,7 +17087,8 @@
     {
       "id": 8049,
       "appearance": "8049_DongLang_1pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -17360,7 +17310,8 @@
       "id": 80492,
       "originID": 8049,
       "appearance": "8049_DongLang_2pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -17516,7 +17467,8 @@
       "id": 80493,
       "originID": 8049,
       "appearance": "8049_DongLang_3pAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -17732,7 +17684,7 @@
     {
       "id": 8056,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -17763,7 +17715,7 @@
     {
       "id": 8057,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -17792,7 +17744,8 @@
     {
       "id": 8050,
       "appearance": "8050_DongLang_AwakenAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
+      "associationList": [ "K_CORP" ],
       "level": 6,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -18466,7 +18419,6 @@
           805003,
           805004,
           805005,
-          805006,
           805007,
           9999998
         ]
@@ -18475,7 +18427,7 @@
     {
       "id": 8060,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -18544,7 +18496,7 @@
     {
       "id": 8061,
       "appearance": "8056_DongLang_TreeAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 30,
       "classType": "ZAYIN",
       "attributeType": "VIOLET",
@@ -18573,7 +18525,7 @@
     {
       "id": 8059,
       "appearance": "8059_FairyLongLegsAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "REGULAR" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -18937,7 +18889,7 @@
     {
       "id": 8062,
       "appearance": "8062_FairyLongLegs_CloverAppearance",
-      "unitKeywordList": [],
+      "unitKeywordList": [ "LARGE" ],
       "level": 10,
       "classType": "TETH",
       "attributeType": "SHAMROCK",
@@ -18968,7 +18920,7 @@
       "appearance": "8005_Septempeccata_GrassAppearance",
       "viewid": 8005,
       "sdPortrait": 8005,
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "SHAMROCK",
@@ -19028,7 +18980,7 @@
       "appearance": "8007_Septempeccata_FireAppearance",
       "viewid": 8007,
       "sdPortrait": 8007,
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 5,
       "classType": "ZAYIN",
       "attributeType": "CRIMSON",
@@ -19059,7 +19011,7 @@
       "appearance": "8016_Septempeccata_WaterAppearance",
       "viewid": 8016,
       "sdPortrait": 8016,
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "AZURE",
@@ -19089,7 +19041,7 @@
       "appearance": "8017_Septempeccata_BloodAppearance",
       "viewid": 8017,
       "sdPortrait": 8017,
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "SCARLET",
@@ -19119,7 +19071,7 @@
       "appearance": "8018_Septempeccata_IronAppearance",
       "viewid": 8018,
       "sdPortrait": 8018,
-      "unitKeywordList": [],
+      "unitKeywordList": [ "SMALL" ],
       "level": 10,
       "classType": "ZAYIN",
       "attributeType": "INDIGO",

@@ -366,7 +366,7 @@
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio40"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio40"
                 }
               ]
             }
@@ -381,7 +381,7 @@
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio60"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio60"
                 }
               ]
             }
@@ -427,7 +427,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio20"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio20"
                 },
                 {
                   "scriptName": "GiveBuffOnSucceedAttackHead",
@@ -458,7 +458,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "HealSelfOnSuccessAttackByDmgRatio30"
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio30"
                 },
                 {
                   "scriptName": "GiveBuffOnSucceedAttackHead",
@@ -1094,7 +1094,7 @@
               "operatorType": "ADD",
               "scale": 4,
               "abilityScriptList": [
-                
+
               ]
             }
           ]
@@ -1111,7 +1111,7 @@
               "operatorType": "ADD",
               "scale": 4,
               "abilityScriptList": [
-                
+
               ]
             }
           ]
@@ -1128,7 +1128,7 @@
               "operatorType": "ADD",
               "scale": 4,
               "abilityScriptList": [
-                
+
               ]
             }
           ]
@@ -1296,6 +1296,376 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120711,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 3,
+          "mpUsage": 25,
+          "range": 66,
+          "skillLevelCorrection": 2,
+          "defaultValue": 8,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "DealRandomTargetAmongTargetsMTFirst"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "actionIndex" :  1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max2"
+                },
+                {
+                  "scriptName": "ESolemnLamentMpDamageSelfPerShot_min2_max6"
+                },
+                {
+                  "scriptName": "RerollOnSAIfSelfMpNotLessThan0Upto5"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "DealRandomTargetAmongTargetsMTFirst"
+            },
+            {
+              "scriptName": "ESolemnLamentMpHeal2"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "actionIndex": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max2"
+                },
+                {
+                  "scriptName": "ESolemnLamentMpDamageSelfPerShot_min2_max6"
+                },
+                {
+                  "scriptName": "RerollOnSAIfSelfMpNotLessThan0Upto5"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "DealRandomTargetAmongTargetsMTFirst"
+            },
+            {
+              "scriptName": "ESolemnLamentMpHeal3"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "actionIndex": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max1"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "ESolemnLamentDuelButterflyShot_min1_max2"
+                },
+                {
+                  "scriptName": "ESolemnLamentMpDamageSelfPerShot_min2_max6"
+                },
+                {
+                  "scriptName": "RerollOnSAIfSelfMpNotLessThan0Upto5"
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 5,
+          "mpUsage": 30,
+          "range": 66,
+          "skillLevelCorrection": 0,
+          "defaultValue": 32,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "2120721",
+              "buffData": {
+                "buffKeyword": "SinkingWhite",
+                "buffOwner": "Target",
+                "stack": 2,
+                "activeRound": 0,
+                "value": 0.01,
+                "limit": 45
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ESolemnLamentBlankSinking"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "2120721",
+              "buffData": {
+                "buffKeyword": "SinkingWhite",
+                "buffOwner": "Target",
+                "stack": 2,
+                "activeRound": 0,
+                "value": 0.01,
+                "limit": 45
+              }
+            },
+            {
+              "scriptName": "HealMpOnKTSelf5"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "SinkingWhite",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ESolemnLamentAdditionalAzureDmg50"
                 }
               ]
             }

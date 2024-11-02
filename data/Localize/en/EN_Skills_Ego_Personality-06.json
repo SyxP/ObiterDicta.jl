@@ -256,6 +256,380 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2060611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "If the target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "If the target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">25%</style>)\n<style=\"highlight\">- At 4+ highest Reson., deal +(5 + (the sum of [Vibration] Potency and Count on target)/2)% more damage instead (max 35%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and <style=\"highlight\">+2 [Vibration] Count</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "If the target has [Vibration], deal +(<style=\"highlight\">5 +</style> (the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5 +</style> (the sum of [Vibration] Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">40%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and <style=\"highlight\">+3</style> [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "[CantIdentify]\nTargets randomly\nIf the target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max 25%)\n- At 4+ highest Reson., raise the above cap to (max 35%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "[CantIdentify]\nTargets randomly\nIf the target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., <style=\"highlight\">deal +(5 + (the sum of [Vibration] Potency and Count on target)/2)% more damage instead (max 40%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cavernous Wailing",
+          "abName": "Blubbering Toad",
+          "desc": "[CantIdentify]\nTargets randomly\nIf the target has [Vibration], deal +(<style=\"highlight\">5</style> + (the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">40%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5</style> + (the sum of [Vibration] Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">50%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">6</style> [Vibration] and <style=\"highlight\">+6</style> [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "Coin Power +1 for every 7 [Burst] on the target (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on the target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to (this unit's Speed/2) between the targets (max 3)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to (this unit's Speed/2) between the targets (max 3)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on the target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to this unit's Speed between the targets (max 7)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to this unit's Speed between the targets (max 7)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 7 [Burst] on the target (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on the target (Max 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on the target (Max 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on the target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on the target <style=\"highlight\">(max 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on the target <style=\"highlight\">(max 30%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lasso",
+          "abName": "Rose Hunter",
+          "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on the target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n<style=\"highlight\">[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 3 [TakeHpHealReduce] next turn</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on the target (max 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on the target (max 30%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

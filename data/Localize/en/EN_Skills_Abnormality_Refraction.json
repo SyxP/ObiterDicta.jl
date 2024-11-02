@@ -226,7 +226,7 @@
                 {
                     "level": 1,
                     "name": "Processing Transfer Reg",
-                    "desc": "[WhenUse] Spend all Charge",
+                    "desc": "[WhenUse] Spend all Charge Count",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -245,7 +245,7 @@
                 {
                     "level": 1,
                     "name": "Pleased to Meet You, Dear Neighbor",
-                    "desc": "[CantDuel]\nAttacks target in captivity ",
+                    "desc": "[CantDuel]\nAttacks target in Captivity",
                     "coinlist": [
                         {
                             "coindescs": [

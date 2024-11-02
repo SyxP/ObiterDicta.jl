@@ -1,22 +1,4 @@
 {
   "list": [
-    {
-      "id": "RailLine2Buff",
-      "buffClass": "VariableBuff",
-      "buffType": "Neutral",
-      "canBeDespelled": false,
-      "list": [
-
-      ]
-    },
-    {
-      "id": "FullBloomRose",
-      "buffClass": "VariableBuff",
-      "buffType": "Neutral",
-      "canBeDespelled": false,
-      "list": [
-
-      ]
-    }
   ]
 }

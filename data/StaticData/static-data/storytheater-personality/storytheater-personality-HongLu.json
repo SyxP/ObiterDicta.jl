@@ -22,7 +22,9 @@
                 [
                   {
                     "storyId": "P10602",
-                    "lockCondition": "gacksung",
+                    "lockCondition": [
+                      {"condition": "gacksung"}
+                    ],
                     "order": 2,
                     "reward":{"type":"ITEM","id":2,"num":40}
                   }
@@ -37,7 +39,9 @@
                 "personalityStoryList": [
                   {
                     "storyId": "P10603",
-                    "lockCondition": "gacksung",
+                    "lockCondition": [
+                      {"condition": "gacksung"}
+                    ],
                     "order": 1,
                     "reward":{"type":"ITEM","id":2,"num":40}
                   }
@@ -52,7 +56,9 @@
               "personalityStoryList": [
                 {
                   "storyId": "P10604",
-                  "lockCondition": "gacksung",
+                  "lockCondition": [
+                    {"condition": "gacksung"}
+                  ],
                   "order": 3,
                   "reward":{"type":"ITEM","id":2,"num":40}
                 }
@@ -67,7 +73,9 @@
               "personalityStoryList": [
                 {
                   "storyId": "P10605",
-                  "lockCondition": "gacksung",
+                  "lockCondition": [
+                    {"condition": "gacksung"}
+                  ],
                   "order": 7,
                   "reward":{"type":"ITEM","id":2,"num":40}
                 }
@@ -82,7 +90,9 @@
               "personalityStoryList": [
                 {
                   "storyId": "P10606",
-                  "lockCondition": "gacksung",
+                  "lockCondition": [
+                    {"condition": "gacksung"}
+                  ],
                 "order": 5,
                 "reward":{"type":"ITEM","id":2,"num":40}
                 }
@@ -97,7 +107,9 @@
               "personalityStoryList": [
               {
                 "storyId": "P10607",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 1,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
@@ -112,14 +124,48 @@
               "personalityStoryList": [
               {
                 "storyId": "P10608",
-                "lockCondition": "gacksung",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
                 "order": 2,
                 "reward":{"type":"ITEM","id":2,"num":40}
               }
             ],
             "profileId": "dieci_honglu_profile",
             "analysisId": "dieci_honglu_analysis"
-            }       
+            },
+            {
+              "personalityId": 10609,
+              "releaseDay": 20240613,
+              "cv_Id": "",
+              "personalityStoryList": [
+              {
+                "storyId": "P10609",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
+                "order": 1,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ],
+            "profileId": "yuro_honglu_profile",
+            "analysisId": "yuro_honglu_analysis"
+            },
+            {
+              "personalityId": 10610,
+              "releaseDay": 20241017,
+              "cv_Id": "",
+              "personalityStoryList": [
+              {
+                "storyId": "P10610",
+                "lockCondition": [
+                  {"condition": "gacksung"}
+                ],
+                "order": 1,
+                "reward":{"type":"ITEM","id":2,"num":40}
+              }
+            ]
+            }
         ]
     }
   ]

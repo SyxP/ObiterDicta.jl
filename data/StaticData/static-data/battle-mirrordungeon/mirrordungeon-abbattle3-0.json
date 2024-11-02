@@ -20691,7 +20691,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "SnowWhite",
+      "stageScriptList": ["SnowWhite"],
       "eventScriptName": "SnowWhite",
       "abnormalityEventList": [
         800101,
@@ -20761,7 +20761,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AztecDisk",
+      "stageScriptList": ["AztecDisk"],
       "eventScriptName": "AztecDisk",
       "abnormalityEventList": [
         800201,
@@ -20822,7 +20822,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "ReinforcedHuman",
+      "stageScriptList": ["ReinforcedHuman"],
       "eventScriptName": "ReinforcedHuman",
       "abnormalityEventList": [
         801201,
@@ -20881,7 +20881,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "PinkShoe",
+      "stageScriptList": ["PinkShoe"],
       "eventScriptName": "PinkShoe",
       "abnormalityEventList": [
         801501,
@@ -21069,7 +21069,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "MuckwormedApple",
+      "stageScriptList": ["MuckwormedApple"],
       "abnormalityEventList": [
         800801
       ],
@@ -21115,7 +21115,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "WaterFish_Mirror",
+      "stageScriptList": ["WaterFish_Mirror"],
       "eventScriptName": "WaterFish_Mirror",
       "abnormalityEventList": [
         803101
@@ -21162,7 +21162,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "LightningBeast_Mirror",
+      "stageScriptList": ["LightningBeast_Mirror"],
       "eventScriptName": "LightningBeast_Mirror",
       "abnormalityEventList": [
         803201
@@ -21221,7 +21221,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "UmbrellaFox_Mirror",
       "abnormalityEventList": [
         804601
@@ -21268,7 +21268,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "NobodyGonnaCry",
       "abnormalityEventList": [
         804701
@@ -21352,7 +21352,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Eunbong_Strong",
+      "stageScriptList": ["Eunbong_Strong"],
       "attackType": "SLASH",
       "attributeType": "SCARLET"
     },
@@ -21439,7 +21439,7 @@
       "rewardList": [],
       "attackType": "PENETRATE",
       "attributeType": "AZURE",
-      "stageScriptNameAfterClear": "Abnormality"
+      "stageScriptList": ["Abnormality"]
     },
     {
       "id": 2044207,
@@ -21480,7 +21480,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "CryingToad",
       "abnormalityEventList": [
         851001
@@ -21534,7 +21534,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "KQE",
       "abnormalityEventList": [
         851901
@@ -21581,7 +21581,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "ElectricCentipede",
       "abnormalityEventList": [
         804501
@@ -21635,7 +21635,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "GentleFairy_Mirror",
       "abnormalityEventList": [
         804801
@@ -21689,7 +21689,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "AbnormalityEvent",
+      "stageScriptList": ["AbnormalityEvent"],
       "eventScriptName": "8059_Mirror",
       "abnormalityEventList": [
         805901
@@ -21736,7 +21736,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "BrassBull_Second",
+      "stageScriptList": ["BrassBull_Second"],
       "attackType": "HIT",
       "attributeType": "AZURE"
     },
@@ -21779,7 +21779,7 @@
         }
       ],
       "rewardList": [],
-      "stageScriptNameAfterClear": "Cromer_Mirror",
+      "stageScriptList": ["Cromer_Mirror"],
       "eventScriptName": "Cromer",
       "abnormalityEventList": [
         802901,

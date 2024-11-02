@@ -22,6 +22,11 @@
 						},
 						{
 							"type": "PERSONALITY",
+							"id": 10109,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
 							"id": 10206,
 							"price": 400
 						},
@@ -33,6 +38,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 10305,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 10309,
 							"price": 400
 						},
 						{
@@ -53,6 +63,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 10506,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 10510,
 							"price": 400
 						},
 						{
@@ -82,6 +97,11 @@
 						},
 						{
 							"type": "PERSONALITY",
+							"id": 10810,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
 							"id": 10902,
 							"price": 400
 						},
@@ -97,6 +117,11 @@
 						},
 						{
 							"type": "PERSONALITY",
+							"id": 10910,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
 							"id": 11002,
 							"price": 400
 						},
@@ -108,6 +133,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 11104,
+							"price": 400
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 11110,
 							"price": 400
 						},
 						{
@@ -198,6 +228,11 @@
 						},
 						{
 							"type": "PERSONALITY",
+							"id": 10909,
+							"price": 150
+						},
+						{
+							"type": "PERSONALITY",
 							"id": 11003,
 							"price": 150
 						},
@@ -209,6 +244,11 @@
 						{
 							"type": "PERSONALITY",
 							"id": 11106,
+							"price": 150
+						},
+						{
+							"type": "PERSONALITY",
+							"id": 11109,
 							"price": 150
 						},
 						{
@@ -277,12 +317,27 @@
 						},
 						{
 							"type": "EGO",
+							"id": 20606,
+							"price": 400
+						},
+						{
+							"type": "EGO",
 							"id": 20704,
 							"price": 400
 						},
 						{
 							"type": "EGO",
+							"id": 20707,
+							"price": 400
+						},
+						{
+							"type": "EGO",
 							"id": 20803,
+							"price": 400
+						},
+						{
+							"type": "EGO",
+							"id": 20807,
 							"price": 400
 						},
 						{
@@ -293,6 +348,11 @@
 						{
 							"type": "EGO",
 							"id": 21004,
+							"price": 400
+						},
+						{
+							"type": "EGO",
+							"id": 21006,
 							"price": 400
 						},
 						{
@@ -322,6 +382,11 @@
 						{
 							"type": "ANNOUNCER",
 							"id": 15,
+							"paidLunacyPrice": 1300
+						},
+						{
+							"type": "ANNOUNCER",
+							"id": 22,
 							"paidLunacyPrice": 1300
 						}
 					]

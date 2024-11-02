@@ -3,6 +3,7 @@
     {
       "id": 91013,
       "appearance": "91013_Kurokumo_MiddleBossAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -434,6 +435,7 @@
     {
       "id": 90110,
       "appearance": "90110_KuroKumo_Mob_1Appearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -576,6 +578,7 @@
     {
       "id": 90111,
       "appearance": "90111_KuroKumo_Mob_2Appearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -717,6 +720,7 @@
     {
       "id": 90112,
       "appearance": "90112_KuroKumo_Mob_3Appearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -858,6 +862,7 @@
     {
       "id": 90113,
       "appearance": "90113_KuroKumo_Mob_4Appearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "BLACK_CLOUD" ],
       "level": 3,
       "slotWeightConditionList": [

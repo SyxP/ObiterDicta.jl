@@ -6,6 +6,23 @@
       "subEgoGiftAbilityIDList": [
         90861
       ],
+      "upgradeDataList": [
+        {
+          "upgradeLevel": 0,
+          "localizeID": 9086,
+          "abilityIDList": [ 9086, 90861 ]
+        },
+        {
+          "upgradeLevel": 1,
+          "localizeID": 19086,
+          "abilityIDList": [ 19086, 190861 ]
+        },
+        {
+          "upgradeLevel": 2,
+          "localizeID": 29086,
+          "abilityIDList": [ 29086, 290861 ]
+        }
+      ],
       "tag": [
         "TIER_2",
         "EXTRA"
@@ -48,8 +65,7 @@
         90881
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_COMBUSTION"
+        "TIER_4"
       ],
       "keyword": "Combustion",
       "lockType": false,
@@ -79,8 +95,7 @@
         }
       ],
       "tag": [
-        "TIER_1",
-        "EXTRA_LACERATION"
+        "TIER_1"
       ],
       "keyword": "Laceration",
       "lockType": false,
@@ -93,12 +108,11 @@
         90901
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_LACERATION"
+        "TIER_4"
       ],
       "keyword": "Laceration",
       "lockType": false,
-      "price": 421
+      "price": 418
     },
     {
       "id": 9091,
@@ -121,7 +135,8 @@
         }
       ],
       "tag": [
-        "TIER_3"
+        "TIER_3",
+        "EXTRA_TIER3"
       ],
       "keyword": "Vibration",
       "lockType": false,
@@ -131,11 +146,11 @@
       "id": 9092,
       "attributeType": "SCARLET",
       "subEgoGiftAbilityIDList": [
-        90921
+        90921,
+        90922
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_VIBRATION"
+        "TIER_4"
       ],
       "keyword": "Vibration",
       "lockType": false,
@@ -175,8 +190,7 @@
         90941
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_BURST"
+        "TIER_4"
       ],
       "keyword": "Burst",
       "lockType": false,
@@ -216,8 +230,7 @@
         90961
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_SINKING"
+        "TIER_4"
       ],
       "keyword": "Sinking",
       "lockType": false,
@@ -247,8 +260,7 @@
         }
       ],
       "tag": [
-        "TIER_1",
-        "EXTRA_BREATH"
+        "TIER_1"
       ],
       "keyword": "Breath",
       "lockType": false,
@@ -261,8 +273,7 @@
         90981
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_BREATH"
+        "TIER_4"
       ],
       "keyword": "Breath",
       "lockType": false,
@@ -290,7 +301,7 @@
       ],
       "tag": [
         "TIER_3",
-        "EXTRA_CHARGE"
+        "EXTRA_TIER3"
       ],
       "keyword": "Charge",
       "lockType": false,
@@ -300,11 +311,11 @@
       "id": 9100,
       "attributeType": "SCARLET",
       "subEgoGiftAbilityIDList": [
-        91001
+        91001,
+        91002
       ],
       "tag": [
-        "TIER_4",
-        "EXTRA_CHARGE"
+        "TIER_4"
       ],
       "keyword": "Charge",
       "lockType": false,

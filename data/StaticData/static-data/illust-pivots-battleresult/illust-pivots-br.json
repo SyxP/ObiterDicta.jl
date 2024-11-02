@@ -106,6 +106,34 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10109_gacksung",
+            "offsetX": -421.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10109_normal",
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10110_gacksung",
+            "offsetX": -372.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10110_normal",
+            "offsetX": -410.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10201_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -225,6 +253,20 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10210_gacksung",
+            "offsetX": 115.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10210_normal",
+            "offsetX": 165.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10301_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -330,6 +372,20 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10309_gacksung",
+            "offsetX": -399.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10309_normal",
+            "offsetX": -67.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10401_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -430,6 +486,34 @@
         {
             "id": "10408_normal",
             "offsetX": -186.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10409_gacksung",
+            "offsetX": -29.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10409_normal",
+            "offsetX": -246.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10410_gacksung",
+            "offsetX": -224.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10410_normal",
+            "offsetX": -345.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -554,6 +638,34 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10510_gacksung",
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10510_normal",
+            "offsetX": -73.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10511_gacksung",
+            "offsetX": 23.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10511_normal",
+            "offsetX": -167.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10601_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -659,6 +771,34 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10609_gacksung",
+            "offsetX": -68.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10609_normal",
+            "offsetX": -113.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10610_gacksung",
+            "offsetX": -17.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10610_normal",
+            "offsetX": 237.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10701_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -759,6 +899,34 @@
         {
             "id": "10708_normal",
             "offsetX": 159.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10709_gacksung",
+            "offsetX": -223.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10709_normal",
+            "offsetX": -313.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10710_gacksung",
+            "offsetX": 281.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10710_normal",
+            "offsetX": -63.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -883,6 +1051,20 @@
             "rotateZ": 0.0
         },
         {
+            "id": "10810_gacksung",
+            "offsetX": 21.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10810_normal",
+            "offsetX": -404.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "10901_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -983,6 +1165,34 @@
         {
             "id": "10908_normal",
             "offsetX": -9.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10909_gacksung",
+            "offsetX": 55.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10909_normal",
+            "offsetX": 332.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10910_gacksung",
+            "offsetX": -427.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "10910_normal",
+            "offsetX": -389.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -1093,6 +1303,34 @@
             "rotateZ": 0.0
         },
         {
+            "id": "11009_gacksung",
+            "offsetX": 344.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11009_normal",
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11010_gacksung",
+            "offsetX": -458.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11010_normal",
+            "offsetX": -361.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
             "id": "11101_normal",
             "offsetX": -50.0,
             "offsetY": 0.0,
@@ -1193,6 +1431,48 @@
         {
             "id": "11108_normal",
             "offsetX": -457.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11109_gacksung",
+            "offsetX": -318.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11109_normal",
+            "offsetX": 62.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11110_gacksung",
+            "offsetX": 369.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11110_normal",
+            "offsetX": 113.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11111_gacksung",
+            "offsetX": 362.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11111_normal",
+            "offsetX": -175.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0
@@ -1312,6 +1592,20 @@
         {
             "id": "11209_normal",
             "offsetX": 125.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11210_gacksung",
+            "offsetX": 237.0,
+            "offsetY": 0.0,
+            "scaleFactor": 1.0,
+            "rotateZ": 0.0
+        },
+        {
+            "id": "11210_normal",
+            "offsetX": 82.0,
             "offsetY": 0.0,
             "scaleFactor": 1.0,
             "rotateZ": 0.0

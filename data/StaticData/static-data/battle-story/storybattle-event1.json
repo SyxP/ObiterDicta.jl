@@ -164,7 +164,7 @@
           ]
         }
       ],
-      "stageScriptNameAfterClear": "DefenseEvent_Normal",
+      "stageScriptList": ["DefenseEvent_Normal"],
       "staminaType": "ENKEPHALIN_MODULE",
       "staminaCost": 1,
       "recommendedLevel": 40,
@@ -588,7 +588,7 @@
           ]
         }
       ],
-      "stageScriptNameAfterClear": "DefenseEvent_Hard",
+      "stageScriptList": ["DefenseEvent_Hard"],
       "staminaType": "ENKEPHALIN_MODULE",
       "staminaCost": 1,
       "recommendedLevel": 40,
@@ -776,7 +776,7 @@
           ]
         }
       ],
-      "stageScriptNameAfterClear": "DefenseEvent_NorNormal",
+      "stageScriptList": ["DefenseEvent_NorNormal"],
       "staminaType": "ENKEPHALIN_MODULE",
       "staminaCost": 1,
       "recommendedLevel": 40,
@@ -1206,7 +1206,7 @@
           ]
         }
       ],
-      "stageScriptNameAfterClear": "DefenseEvent_NorHard",
+      "stageScriptList": ["DefenseEvent_NorHard"],
       "staminaType": "ENKEPHALIN_MODULE",
       "staminaCost": 1,
       "recommendedLevel": 40,
@@ -1395,7 +1395,7 @@
           ]
         }
       ],
-      "stageScriptNameAfterClear": "DefenseEvent_NorNormal",
+      "stageScriptList": ["DefenseEvent_NorNormal"],
       "staminaCost": 0,
       "recommendedLevel": 40,
       "turnLimit": 99,

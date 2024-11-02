@@ -88,6 +88,45 @@
           "ability": "SwordPlayOfTheBlade"
         }
       ]
+    },
+    {
+      "id": "LibrarianOfHistoryNormal",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+        {
+          "ability": "LibrarianOfHistoryNormal"
+        }
+      ]
+    },
+    {
+      "id": "LibrarianOfHistoryHard",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+        {
+          "ability": "LibrarianOfHistoryHard"
+        }
+      ]
+    },
+    {
+      "id": "TcorpSpecialInvestigator",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "maxStack": 1,
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "list": [
+        {
+          "ability": "TcorpSpecialInvestigator"
+        }
+      ]
     }
   ]
 }

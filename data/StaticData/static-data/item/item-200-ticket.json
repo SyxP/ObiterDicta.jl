@@ -23,7 +23,7 @@
 
     {
       "id": 212,
-      
+
       "itemUseFuncs":[
         {
           "itemUseFuncType":"PERSONALITY_EXP",
@@ -118,9 +118,10 @@
       "category": "NORMAL",
       "spriteStr": "level_ticket_4"
     },
-
+    
     {
       "id": 231,
+      "desc" : "인격 성장 도약 티켓",
 
       "itemUseFuncs":[
         {
@@ -135,6 +136,40 @@
 
       "category": "CONSUMABLE",
       "spriteStr": "jumping_ticket_1",
+      "itemUseType":"LEAPUP_TICKET"
+    },
+    {
+      "id": 232,
+      "desc": "도약 모듈 - 인격 동기화",
+      
+      "itemUseFuncs":[
+        {
+          "itemUseFuncType":"PERSONALITY_GACKSUNG_TO",
+          "itemUseFuncValue":4
+        }
+      ],
+
+      "category": "CONSUMABLE",
+      "spriteStr": "jumping_ticket_2",
+      "itemUseType":"LEAPUP_TICKET"
+    },
+    {
+      "id": 233,
+      "desc": "도약 모듈 - E.G.O 해석 [WAW]",
+
+      "itemUseFuncs":[
+        {
+          "itemUseFuncType":"EGO_GACKSUNG_TO",
+          "itemUseFuncValue":4
+        },
+        {
+          "itemUseFuncType":"CHECK_IS_NOT_EGO_TYPE",
+          "itemUseFuncString":"ALEPH"
+        }
+      ],
+
+      "category": "CONSUMABLE",
+      "spriteStr": "jumping_ticket_3",
       "itemUseType":"LEAPUP_TICKET"
     }
   ]

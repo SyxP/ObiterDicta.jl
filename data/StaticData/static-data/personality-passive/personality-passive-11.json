@@ -181,6 +181,97 @@
           ]
         }
       ]
+    },
+    {
+      "personalityID": 11109,
+      "battlePassiveList": [
+        {
+          "level": 1,
+          "passiveIDList": [
+            1110902
+          ]
+        },
+        {
+          "level": 2,
+          "passiveIDList": [
+            1110902,
+            1110901
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1110902,
+            1110911
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1110921
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1110931
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11110,
+      "battlePassiveList": [
+        {
+          "level": 2,
+          "passiveIDList": [
+            1111001
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1111021
+          ]
+        }
+      ]
+    },
+    {
+      "personalityID": 11111,
+      "battlePassiveList": [
+        {
+          "level": 1,
+          "passiveIDList": [
+            1111102
+          ]
+        },
+        {
+          "level": 2,
+          "passiveIDList": [
+            1111102,
+            1111101
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIDList": [
+            1111102,
+            1111111
+          ]
+        }
+      ],
+      "supporterPassiveList": [
+        {
+          "level": 3,
+          "passiveIDList": [
+            1111121
+          ]
+        }
+      ]
     }
   ]
 }

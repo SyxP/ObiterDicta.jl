@@ -334,6 +334,86 @@
       "id": 20706,
       "name": "Binds",
       "desc": "Heathcliff’s E.G.O Gear"
+    },
+    {
+      "id": 20806,
+      "name": "Wingbeat",
+      "desc": "Ishmael’s E.G.O Gear"
+    },
+    {
+      "id": 20906,
+      "name": "Sanguine Desire",
+      "desc": "Rodion’s E.G.O Gear"
+    },
+    {
+      "id": 20606,
+      "name": "Cavernous Wailing",
+      "desc": "Hong Lu’s E.G.O Gear"
+    },
+    {
+      "id": 21006,
+      "name": "Cavernous Wailing",
+      "desc": "Sinclair’s E.G.O Gear"
+    },
+    {
+      "id": 20206,
+      "name": "Everlasting",
+      "desc": "Faust’s E.G.O Gear"
+    },
+    {
+      "id": 20407,
+      "name": "Contempt, Awe",
+      "desc": "Ryōshū’s E.G.O Gear"
+    },
+    {
+      "id": 20707,
+      "name": "Fell Bullet",
+      "desc": "Heathcliff’s E.G.O Gear"
+    },
+    {
+      "id": 21107,
+      "name": "Dimension Shredder",
+      "desc": "Outis’s E.G.O Gear"
+    },
+    {
+      "id": 21207,
+      "name": "Solemn Lament",
+      "desc": "Gregor’s E.G.O Gear"
+    },
+    {
+      "id": 20807,
+      "name": "Bygone Days",
+      "desc": "Ishmael’s E.G.O Gear"
+    },
+    {
+      "id": 20207,
+      "name": "Lasso",
+      "desc": "Faust’s E.G.O Gear"
+    },
+    {
+      "id": 20607,
+      "name": "Lasso",
+      "desc": "Hong Lu’s E.G.O Gear"
+    },
+    {
+      "id": 21007,
+      "name": "Hex Nail",
+      "desc": "Sinclair’s E.G.O Gear"
+    },
+    {
+      "id": 20907,
+      "name": "Hex Nail",
+      "desc": "Rodion’s E.G.O Gear"
+    },
+    {
+      "id": 20507,
+      "name": "Yearning-Mircalla",
+      "desc": "Meursault’s E.G.O Gear"
+    },
+    {
+      "id": 20307,
+      "name": "Yearning-Mircalla",
+      "desc": "Don Quixote’s E.G.O Gear"
     }
   ]
 }

@@ -2,9 +2,9 @@
   "dataList": [
     {
       "id": 800101,
-      "title": "SnowWhite1",
+      "title": "백설선택지1",
       "eventDesc": "A heart torn into thousands of pieces must be kept from all eyes, thus it burrowed into the ground and tangled itself.\n\nYet, someone has to pull up these thorny roots,\nas there is no wound that can remain unearthed.\n\nThe Sinners gave each other looks.\nBeing coiled in piercing, sharp pain was something to avoid even in one’s dreams.",
-      "prevDesc": "The floor’s vines are a hassle.\nMaybe there’ll be a chance to get rid of them?",
+      "prevDesc": "The vines growing on the ground are a hassle.\nMaybe there’ll be a chance to get rid of them?",
       "behaveDesc": "The dry earth must be upturned.\nWhich Sinner was up to the task?",
       "successDesc": [
         "{0} walked with shaky steps.\nWith bare hands, they dug up the roots.\n\nIn their hands were the doubts of others.\nThe Sinner realized…\n\nThat while the injury may heal, distrust might take deep root in their heart."
@@ -281,7 +281,8 @@
         "{0} ran across the heated road on bare feet.\nThe others frowned at the rancid stench of burning flesh.\n\nGroaning with agony, {0} made it to the other side…\n\nAn altar with a red seal and a lever rose before them.\nWhen {0} pulled the lever, the road quickly cooled.\nThe rest of us were able to tread the path safely."
       ],
       "failureDesc": [
-        "{0} ran across the heated road on bare feet.\nThe others frowned at the rancid stench of burning flesh.\n\n{0} almost made that painful advance midway…\n\nBut they couldn’t bear it any longer and hurried back.\nIt looks like we’re not taking this route.\nWe’ll have to follow the other path and deal with the many Inquisitors there."
+        "{0} ran across the heated road on bare feet.\nThe others frowned at the rancid stench of burning flesh.\n\n{0} almost made that painful advance midway…\n\nBut they couldn’t bear it any longer and hurried back.\nIt looks like we’re not taking this route.\nWe’ll have to follow the other path and deal with the many Inquisitors there.",
+        "Don Quixote declares:\n\n'I shan't walk bare of feet!'"
       ]
     },
     {

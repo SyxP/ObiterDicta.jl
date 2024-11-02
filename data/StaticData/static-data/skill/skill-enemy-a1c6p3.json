@@ -216,7 +216,7 @@
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit3",
               "buffData": {
                 "buffKeyword": "Sinking",
                 "target": "",
@@ -344,7 +344,7 @@
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit3",
               "buffData": {
                 "buffKeyword": "Sinking",
                 "target": "",
@@ -477,7 +477,7 @@
           "iconID": 9101405,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",
@@ -832,7 +832,7 @@
           "iconID": 9101505,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "NEUTRAL",
           "atkType": "NONE",

@@ -478,7 +478,7 @@
     },
     {
       "id": "stack",
-      "content": "Count"
+      "content": "Stack"
     },
     {
       "id": "slash_resistance",
@@ -582,7 +582,7 @@
     },
     {
       "id": "ab_part_destroyable_and_can_vanish",
-      "content": "Destr. & <color=#ffffff>Severable</color>"
+      "content": "Destr. & Severable"
     },
     {
       "id": "ab_guidebook_view",
@@ -663,6 +663,118 @@
     {
       "id": "received_the_golden_bough_undecided",
       "content": "?"
+    },
+    {
+      "id": "vibration_fusion",
+      "content": "Amplitude Entanglement!"
+    },
+    {
+      "id": "BatonPassUIText",
+      "content": "Substitute"
+    },
+    {
+      "id": "perfect",
+      "content": "A-Res"
+    },
+    {
+      "id": "ab_part_destroyed",
+      "content": "Destroyed"
+    },
+    {
+      "id": "ab_part_vanished",
+      "content": "Destr. & Severed"
+    },
+    {
+      "id": "ab_part_cannot_destroy_and_vanish",
+      "content": "Indestr. & Unsever."
+    },
+    {
+      "id": "current_hp",
+      "content": "Current HP"
+    },
+    {
+      "id": "break_section_format",
+      "content": "Stagger [{0}]"
+    },
+    {
+      "id": "no_break_section",
+      "content": "No Stagger Threshold"
+    },
+    {
+      "id": "correction_based_on_unit_keyword",
+      "content": "{0} Identity Modifier: {1}(, )"
+    },
+    {
+      "id": "battle_operation_counter",
+      "content": "Power Counter"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
+      "content": "Dawn"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
+      "content": "Noon"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
+      "content": "Dusk"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
+      "content": "Midnight"
+    },
+    {
+      "id": "LobotomyOrdealTypo_QliphothLevel",
+      "content": "Qliphoth Meltdown - Level {0}"
+    },
+    {
+      "id": "SinkingWhite_stack",
+      "content": "The Living"
+    },
+    {
+      "id": "SinkingWhite_turn",
+      "content": "The Departed"
+    },
+    {
+      "id": "BulletLament_stack",
+      "content": "The Living(Ammo)"
+    },
+    {
+      "id": "BulletLament_turn",
+      "content": "The Departed(Ammo)"
+    },
+    {
+      "id": "Retreat_Textalram",
+      "content": "!Retreat!"
+    },
+    {
+      "id": "Retreat_TextPassive",
+      "content": "Retreating"
+    },
+    {
+      "id": "battle_operation_defense",
+      "content": "Power Guard"
+    },
+    {
+      "id": "battle_operation_defense_TextTypo",
+      "content": "Depowered!"
+    },
+    {
+      "id": "battle_StageBuffUI_Stackdesc",
+      "content": "(Current Value: {0})"
+    },
+    {
+      "id": "EGOSelectUI_not_allow",
+      "content": "This E.G.O cannot be equipped at the moment."
+    },
+    {
+      "id": "laceration_surge",
+      "content": "Bleed Deluge!"
+    },
+    {
+      "id": "QTE_Notice",
+      "content": "GALLOP ON, TOGETHER!"
     }
   ]
 }

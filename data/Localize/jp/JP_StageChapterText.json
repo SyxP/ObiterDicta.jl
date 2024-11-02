@@ -107,6 +107,42 @@
       "chapterNumber": "06",
       "chaptertitle": "心の擦れ違う",
       "timeline": "984-11"
+    },
+    {
+      "id": "chapter_t_9108",
+      "company": "T社",
+      "area": "20区",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第3回 ヴァルプルギスの夜",
+      "timeline": "984-11"
+    },
+    {
+      "id": "chapter_t_9109",
+      "company": "T社",
+      "area": "20区",
+      "chapter": "6.5章",
+      "chapterNumber": "6.5",
+      "chaptertitle": "時間殺人時間",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_t_9110",
+      "company": "T社",
+      "area": "20区",
+      "chapter": "6.5章",
+      "chapterNumber": "6.5",
+      "chaptertitle": "ワープ特急殺人事件",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_p_9111",
+      "company": "P社",
+      "area": "16区",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第4回 ヴァルプルギスの夜",
+      "timeline": "984-12"
     }
   ]
 }

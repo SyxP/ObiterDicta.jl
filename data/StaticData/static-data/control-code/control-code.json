@@ -63,5 +63,33 @@
   "isActiveUnlinkAccount": true,
   "isHideOpenMailPopup": false,
   "isBlockBlackScreenCleaner": false,
-  "isWhUseGc": false
+  "isWhUseGc": false,
+  "rollingCoinUpdateUI": true,
+  "isMirrorDungeonShopShowRefreshByChipWarningPopupOnce": false,
+  "isUseMirrorDungeonKeywardRefresh": true,
+  "playStoryExitStageUnlockCodeLocalSave": true,
+  "isResetEgoStockOnAddSinStockByDungeon": false,
+  "isUseUnitSheildValueUI": true,
+  "isCreateBlurMaterial": true,
+  "isBlockForceInitEgoStock": true,
+  "adjustEnemySubUnitLevelStageIds": [ 2066331 ],
+  "contentList": [
+    {
+      "targetId": 99999,
+      "targetIntegers": [ 25, 10 ]
+    },
+    {
+      "targetId": 11009,
+      "targetIntegers": [ 40, 20 ]
+    }
+  ],
+  "isSendblog": true,
+  "battleLogCheckSize": 4194304,
+  "isEnableFetchSynchronousApi": true,
+  "isSolveBattlePassEscBuff": true,
+  "isEnableShopUseUnlockcode": true,
+  "warningReturnMissionIds": [],
+  "isEnableSteamWalletUpdate": true,
+  "tempSolveEgoGacksungOnPassiveTab": true,
+  "valueFor841104": 0.025
 }

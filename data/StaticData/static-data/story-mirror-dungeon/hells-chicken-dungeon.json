@@ -4,6 +4,8 @@
       "id": 910301,
       "requireEnkephalinModule":1,
       "isHardMode": false,
+      "hasStartEgoGift": true,
+      "useMapGenSequence":false,
       "startCost": 200,
       "gradeList": [ 5 ],
       "levelList": [ 40 ],
@@ -55,7 +57,7 @@
           }
         ],
         "changeFormation": {
-          "price": 200,
+          "price": 100,
           "changeableCount": 3
         },
         "egoGiftUpgrade": {
@@ -107,14 +109,15 @@
           }
         ],
         "changeFormation": {
-          "price": 200,
+          "price": 100,
           "changeableCount": 3
         },
         "egoGiftSell": {
           "isActive": true
         },
         "refreshShop": {
-          "isActive": true
+          "isActive": true,
+          "shopKeywordRefreshCostAdder": 125
         }
       },
       "uiConfig": {
@@ -126,6 +129,7 @@
       "id": 910302,
       "requireEnkephalinModule": 2,
       "isHardMode": true,
+      "hasStartEgoGift": true,
       "startCost": 200,
       "gradeList": [ 5 ],
       "levelList": [ 40 ],
@@ -178,7 +182,7 @@
           }
         ],
         "changeFormation": {
-          "price": 200,
+          "price": 100,
           "changeableCount": 3
         },
         "egoGiftUpgrade": {
@@ -230,14 +234,15 @@
           }
         ],
         "changeFormation": {
-          "price": 200,
+          "price": 100,
           "changeableCount": 3
         },
         "egoGiftSell": {
           "isActive": true
         },
         "refreshShop": {
-          "isActive": true
+          "isActive": true,
+          "shopKeywordRefreshCostAdder": 125
         }
       },
       "uiConfig": {

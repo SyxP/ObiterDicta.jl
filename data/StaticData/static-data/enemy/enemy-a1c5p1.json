@@ -3,7 +3,7 @@
     {
       "id": 90083,
       "appearance": "90083_FishCreatureAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -119,7 +119,7 @@
     {
       "id": 91011,
       "appearance": "91011_FishCreature_EliteAppearance",
-      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE" ],
+      "unitKeywordList": [ "MERMAID", "ON_THE_LAKE", "REGULAR" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -239,6 +239,7 @@
     {
       "id": 90084,
       "appearance": "90084_DoubleHook_Mob_AAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -382,6 +383,7 @@
     {
       "id": 90085,
       "appearance": "90085_DoubleHook_Mob_BAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -525,6 +527,7 @@
     {
       "id": 90086,
       "appearance": "90086_DoubleHook_Elite_AAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -673,6 +676,7 @@
     {
       "id": 90087,
       "appearance": "90087_DoubleHook_Elite_BAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -823,6 +827,7 @@
     {
       "id": 91012,
       "appearance": "91012_DoubleHook_SmeeAppearance",
+      "unitKeywordList": [ "CLAN", "SMALL" ],
       "associationList": [ "DUAL_HOOK_PIRATE" ],
       "level": 2,
       "slotWeightConditionList": [
@@ -851,7 +856,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "count": 3
+              "stack": 3
             }
           ]
         }
@@ -1201,6 +1206,7 @@
       "appearance": "90028_KCorpAppearance",
       "sdPortrait": 90028,
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -1343,6 +1349,7 @@
       "id": 97402,
       "appearance": "90029_KCorpAppearance",
       "sdPortrait": 90030,
+      "unitKeywordList": ["SMALL"],
       "associationList": [ "K_CORP" ],
       "level": 3,
       "slotWeightConditionList": [
@@ -1483,6 +1490,7 @@
       "appearance": "90054_KCorpAppearance",
       "sdPortrait": 90054,
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -1626,6 +1634,7 @@
       "appearance": "90055_KCorpAppearance",
       "sdPortrait": 90055,
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -1768,7 +1777,8 @@
       "id": 97405,
       "appearance": "90056_KCorpAppearance",
       "sdPortrait": 90056,
-      "unitKeywordList": ["MACHINE"],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "MACHINE", "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -1897,7 +1907,8 @@
       "id": 97406,
       "appearance": "90028_KCorpAppearance",
       "sdPortrait": 90028,
-      "unitKeywordList": [],
+      "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2038,7 +2049,8 @@
       "id": 97407,
       "appearance": "90029_KCorpAppearance",
       "sdPortrait": 90030,
-      "unitKeywordList": [],
+      "unitKeywordList": ["SMALL"],
+      "associationList": [ "K_CORP" ],
       "level": 2,
       "slotWeightConditionList": [
         "Default1"
@@ -2180,6 +2192,7 @@
       "appearance": "90054_KCorpAppearance",
       "sdPortrait": 90054,
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"
@@ -2325,6 +2338,7 @@
       "appearance": "90055_KCorpAppearance",
       "sdPortrait": 90055,
       "associationList": [ "K_CORP" ],
+      "unitKeywordList": [ "SMALL" ],
       "level": 3,
       "slotWeightConditionList": [
         "Default1"

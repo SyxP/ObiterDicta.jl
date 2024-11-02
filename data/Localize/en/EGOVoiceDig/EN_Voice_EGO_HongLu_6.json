@@ -44,6 +44,26 @@
       "id": "battle_erosion_20605_1",
       "desc": "E.G.O Corrosion",
       "dlg": "Filth nests inside me... so that they may be reborn as something useful."
+    },
+    {
+      "id": "battle_awaken_20606_1",
+      "desc": "E.G.O Activation",
+      "dlg": "A heart shaken by sorrow bursts... like this."
+    },
+    {
+      "id": "battle_erosion_20606_1",
+      "desc": "E.G.O Corrosion",
+      "dlg": "Cry with me... Let's cry until our bodies burst."
+    },
+    {
+      "id": "battle_awaken_20607_1",
+      "desc": "E.G.O Activation",
+      "dlg": "Run along the flow and voilà~ There you are!"
+    },
+    {
+      "id": "battle_erosion_20607_1",
+      "desc": "E.G.O Corrosion",
+      "dlg": "Hahah! Gotcha~! This is what happens when\nyou don't know your place and run away, fugitive."
     }
   ]
 }

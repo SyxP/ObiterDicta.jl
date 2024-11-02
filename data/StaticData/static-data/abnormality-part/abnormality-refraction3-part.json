@@ -3152,7 +3152,7 @@
         "Default1"
       ],
       "hp": {
-        "defaultStat": 539,
+        "defaultStat": 529,
         "incrementByLevel": 26.46
       },
       "defCorrection": 0,

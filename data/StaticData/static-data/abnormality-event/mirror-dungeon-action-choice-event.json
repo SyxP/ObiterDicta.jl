@@ -162,7 +162,7 @@
                     "resultForm": {
                       "resultEffectCondition1": "NotIncludeSkillAttribute_CRIMSON",
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_16",
+                      "resultEffect": "LoseHpOnly_10",
                       "resultDescId": "Choice_90100101",
                       "nextBattleID": -1
                     }
@@ -214,6 +214,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060032
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901001",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9001,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9104,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -252,6 +297,51 @@
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
                 "nextEventID": 90100201
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060006
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901002",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9002,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9108,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -607,7 +697,52 @@
                       "nextBattleID": -1,
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "num": 60,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060020
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901009",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9009,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9101,
+                        "num": 1,
                         "prob": 1.0
                       }
                     }
@@ -636,16 +771,8 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectCondition1": "NotIncludeSkillAttribute_SCARLET",
-                      "resultEffect": "GetConfirmedEgogift",
-                      "resultDescId": "Choice_901010",
-                      "nextBattleID": -1,
-                      "itemReward": {
-                        "type": "EGO_GIFT",
-                        "rewardId": 991005,
-                        "num": 1,
-                        "prob": 1.0
-                      }
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
                     }
                   }
                 ]
@@ -658,7 +785,7 @@
                   {
                     "resultForm": {
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "RecoverHpMpSameAmount_10",
+                      "resultEffect": "RecoverHpMpSameAmount_15",
                       "nextBattleID": -1
                     }
                   }
@@ -674,6 +801,51 @@
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
                 "nextEventID": 90101001
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060010
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901010",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9010,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9124,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -714,6 +886,51 @@
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
                 "nextEventID": 90101101
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060016
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901011",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9011,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9119,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -761,6 +978,51 @@
                 "nextEventID": 90101301
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060014
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901013",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9013,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9129,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -782,17 +1044,11 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040002
-                    }
-                  },
-                  {
-                    "resultForm": {
-                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultEffect": "GetConfirmedEgogift",
                       "nextBattleID": -1,
                       "itemReward": {
                         "type": "EGO_GIFT",
-                        "rewardId": 9013,
+                        "rewardId": 9129,
                         "num": 1,
                         "prob": 1.0
                       }
@@ -813,8 +1069,13 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "Nothing",
-                      "nextBattleID": -1
+                      "resultEffect": "MirrorDungeonAcquireCost",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "MIRRORDUNGEON_COST",
+                        "num": 30,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -897,6 +1158,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060012
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901014",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9014,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9103,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -942,6 +1248,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060022
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901016",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9016,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9113,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -971,6 +1322,7 @@
                   {
                     "resultForm": {
                       "resultEffectCondition1": "IncludeSkillAttribute_SHAMROCK",
+                      "resultEffectTarget": "EveryAlly",
                       "resultEffect": "RecoverMpOnly_10",
                       "resultDescId": "Choice_90101601",
                       "nextBattleID": -1
@@ -992,14 +1344,14 @@
                   {
                     "resultForm": {
                       "resultEffectTarget": "LowestHpAlly_1",
-                      "resultEffect": "LoseMpOnly_10",
+                      "resultEffect": "RecoverHpOnly_40",
                       "nextBattleID": -1
                     }
                   },
                   {
                     "resultForm": {
                       "resultEffectTarget": "LowestHpAlly_1",
-                      "resultEffect": "RecoverHpOnly_40",
+                      "resultEffect": "LoseMpOnly_10",
                       "nextBattleID": -1
                     }
                   }
@@ -1087,6 +1439,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060026
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901018",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9018,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9109,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1133,6 +1530,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060004
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901019",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9019,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9111,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1166,7 +1608,52 @@
                   {
                     "resultForm": {
                       "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2010303
+                      "nextBattleID": 2060018
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901020",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9020,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9107,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
                     }
                   }
                 ]
@@ -1204,14 +1691,48 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectCondition1": "NotIncludeSkillAttribute_AZURE",
-                      "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_10",
-                      "resultDescId": "Choice_901021",
-                      "nextBattleID": -1
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060008
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901021",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9021,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9134,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 90102102
               }
             ]
           }
@@ -1336,7 +1857,7 @@
             "resultList": [
               {
                 "resultIndex": 0,
-                "resultCondition": "Prob_0.1",
+                "resultCondition": "Prob_0.125",
                 "nextEventID": -1,
                 "eventResultDataList": [
                   {
@@ -1362,7 +1883,7 @@
               },
               {
                 "resultIndex": 1,
-                "resultCondition": "Prob_0.9",
+                "resultCondition": "Prob_0.875",
                 "nextEventID": 90102301
               }
             ]
@@ -1468,6 +1989,51 @@
                       "itemReward": {
                         "type": "EGO_GIFT",
                         "rewardId": 9024,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060024
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901024",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9024,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9112,
                         "num": 1,
                         "prob": 1.0
                       }
@@ -1674,7 +2240,7 @@
                       "nextBattleID": -1,
                       "itemReward": {
                         "type": "MIRRORDUNGEON_COST",
-                        "num": 30,
+                        "num": 40,
                         "prob": 1.0
                       }
                     }
@@ -1826,6 +2392,51 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060030
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901031",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9031,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9115,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1927,6 +2538,51 @@
                 "nextEventID": 90103301
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060028
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901033",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9033,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9133,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1978,6 +2634,51 @@
                       "resultEffect": "LoseHpMpSameAmount_15",
                       "resultDescId": "Choice_901034",
                       "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060002
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901034",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9034,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9132,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -2665,8 +3366,9 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040008
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseHpMpSameAmount_11",
+                      "nextBattleID": -1
                     }
                   }
                 ]
@@ -2887,7 +3589,33 @@
                   {
                     "resultForm": {
                       "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040010
+                      "nextBattleID": 2060036
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901056",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9056,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9128,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -3042,6 +3770,38 @@
                 ]
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseHpMpSameAmount_12",
+                      "nextBattleID": -1
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9122,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -3064,7 +3824,33 @@
                   {
                     "resultForm": {
                       "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040011
+                      "nextBattleID": 2060034
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901059",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9059,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9122,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -3239,8 +4025,9 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040012
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_30",
+                      "nextBattleID": -1
                     }
                   }
                 ]
@@ -3682,6 +4469,51 @@
                 "nextEventID": 90107302
               }
             ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060038
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO901073",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9073,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9093,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -3856,6 +4688,7 @@
               {
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
+                "nextEventID": -1,
                 "eventResultDataList": [
                   {
                     "resultForm": {
@@ -4000,7 +4833,7 @@
                   {
                     "resultForm": {
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "RecoverHpMpSameAmount_30",
+                      "resultEffect": "RecoverMpOnly_20",
                       "nextBattleID": -1
                     }
                   }
@@ -4126,13 +4959,6 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseMpOnly_20",
-                      "nextBattleID": -1
-                    }
-                  },
-                  {
-                    "resultForm": {
                       "resultEffect": "GetConfirmedEgogift",
                       "nextBattleID": -1,
                       "itemReward": {
@@ -4141,6 +4967,13 @@
                         "num": 1,
                         "prob": 1.0
                       }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_20",
+                      "nextBattleID": -1
                     }
                   }
                 ]
@@ -4264,7 +5097,7 @@
       }
     },
     {
-      "id": 902020,
+      "id": 971001,
       "eventType": "EVENT",
       "canSkip": false,
       "actionEvent": {
@@ -4276,7 +5109,33 @@
               {
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
-                "nextEventID": 90202001
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9701,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9702,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -4291,8 +5150,39 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffect": "StartBattle_Abnormality",
-                      "nextBattleID": 2040007
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9701,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9702,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]
@@ -4303,7 +5193,7 @@
       }
     },
     {
-      "id": 902021,
+      "id": 971003,
       "eventType": "EVENT",
       "canSkip": false,
       "actionEvent": {
@@ -4315,7 +5205,7 @@
               {
                 "resultIndex": 0,
                 "resultCondition": "Prob_1",
-                "nextEventID": 90202101
+                "nextEventID": 97100301
               }
             ]
           },
@@ -4330,11 +5220,957 @@
                 "eventResultDataList": [
                   {
                     "resultForm": {
-                      "resultEffectCondition1": "NotIncludeSkillAttribute_AZURE",
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9703,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_0.5",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9705,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "resultIndex": 1,
+                "resultCondition": "Prob_0.5",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971012,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101201
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
                       "resultEffectTarget": "EveryAlly",
-                      "resultEffect": "LoseHpOnly_10",
-                      "resultDescId": "Choice_902021",
+                      "resultEffect": "LoseMpOnly_20",
                       "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97101202,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101203
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971013,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101301
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971014,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101401
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101402
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_10",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971016,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101601
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971017,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101701
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97101702
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971021,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102101
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102102
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971022,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102201
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971023,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102301
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102302
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971024,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102401
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971025,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102501
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971027,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102701
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_12",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102701,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102702
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffectTarget": "EveryAlly",
+                      "resultEffect": "LoseMpOnly_12",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971028,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102801
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102802
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102801,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9733,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102802,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9733,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971029,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "Nothing",
+                      "nextBattleID": -1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97102901
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "StartBattle_Abnormality",
+                      "nextBattleID": 2060039
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_EGO971029",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9734,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogiftOnWinBattle",
+                      "resultDescId": "Choice_LoseBattle",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9735,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97102902,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9734,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9735,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971030,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97103001
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9737,
+                        "num": 1,
+                        "prob": 1.0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 971031,
+      "eventType": "EVENT",
+      "canSkip": false,
+      "actionEvent": {
+        "eachOptionList": [
+          {
+            "index": 0,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": 97103101
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "cantSelectInThisCase": "None",
+            "resultList": [
+              {
+                "resultIndex": 0,
+                "resultCondition": "Prob_1",
+                "nextEventID": -1,
+                "eventResultDataList": [
+                  {
+                    "resultForm": {
+                      "resultEffect": "GetConfirmedEgogift",
+                      "nextBattleID": -1,
+                      "itemReward": {
+                        "type": "EGO_GIFT",
+                        "rewardId": 9739,
+                        "num": 1,
+                        "prob": 1.0
+                      }
                     }
                   }
                 ]

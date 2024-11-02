@@ -559,7 +559,7 @@
         ]
       },
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "Eunbong_Strong"
+      "stageScriptList": ["Eunbong_Strong"]
     },
     {
       "id": 910332,
@@ -638,7 +638,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 1,
-      "stageScriptNameAfterClear": "Eunbong_Hard"
+      "stageScriptList": ["Eunbong_Hard"]
     }
   ]
 }

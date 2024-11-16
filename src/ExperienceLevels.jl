@@ -177,7 +177,7 @@ function getEXPThreadspin(rawRarityString, startTier, endTier)
     return ThreadCost, EGOShardCost
 end
 
-getEXPDatabase() = StaticData("common-data/common-data")["personalityLevelTable"]["expTable"]
+getEXPDatabase() = StaticData("common-data/common-data-a1c7")["personalityLevelTable"]["expTable"]
 function getEXPIdentity(level)
     IdentityEXPDatabase = getEXPDatabase()
     if !(1 <= level <= length(IdentityEXPDatabase) + 1)

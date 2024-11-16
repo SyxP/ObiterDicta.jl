@@ -61,6 +61,7 @@ function EnemyParser(input)
     ExactNumber = true
     ShowSkills = true
     ShowPassives = true
+    Level = 10
 
     Applications = Dict{Regex, Function}()
     Applications[r"^![iI]nternal$"] = (x) -> (UseInternalIDs = true; ExactNumber = false)
